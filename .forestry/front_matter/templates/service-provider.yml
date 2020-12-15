@@ -77,7 +77,10 @@ fields:
   label: Payment
 - name: languages
   type: tag_list
-  default: []
+  default:
+  - English
+  - " Chinese"
+  - " Arabic"
   label: Languages
 pages:
 - content/MHD/Arab American Association of NY.md
