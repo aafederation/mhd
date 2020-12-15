@@ -50,9 +50,32 @@ fields:
   description: enter the website
 - name: hours
   type: field_group_list
+  fields:
+  - name: day_hour
+    type: text
+    config:
+      required: false
+    label: day hour
   config:
     min: 
     max: 
     labelField: 
   label: Hours
   description: days and hours the service is available
+- name: services
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Services
+  description: list of services available
+- name: payment
+  type: text
+  config:
+    required: false
+  label: Payment
+- name: languages
+  type: tag_list
+  default: []
+  label: Languages
