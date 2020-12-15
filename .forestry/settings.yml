@@ -34,7 +34,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/MHD
-  label: Mhd
+  label: MHD
   create: all
   match: "**/*"
 upload_dir: static/uploads
