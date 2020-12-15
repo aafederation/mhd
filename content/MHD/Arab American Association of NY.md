@@ -3,11 +3,11 @@ address = "7111 5th Ave."
 borough = "data/Boroughs.json"
 draft = true
 image = ""
-languages = []
+languages = ["Arabic"]
 name = "Arab American Association of NY"
-payment = ""
+payment = "free mental health services"
 phone_number = "718-745-3523"
-services = []
+services = ["free\nmental health services", "Connections to Care Program"]
 website = "https://www.arabamericanny.org/"
 [[hours]]
 day_hour = "M-F, 10 am-6 pm"
