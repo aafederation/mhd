@@ -78,9 +78,9 @@ fields:
 - name: languages
   type: tag_list
   default:
+  - Arabic
   - English
-  - " Chinese"
-  - " Arabic"
+  - Chinese
   label: Languages
 pages:
 - content/MHD/Arab American Association of NY.md
