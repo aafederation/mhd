@@ -1,6 +1,6 @@
 +++
 address = "7111 5th Ave."
-borough = "data/Boroughs.json"
+borough = "Brooklyn"
 draft = true
 image = ""
 languages = ["Arabic"]
