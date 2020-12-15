@@ -79,5 +79,17 @@ fields:
   type: tag_list
   default: []
   label: Languages
+- name: all_boroughs
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: boroughs
+      file: data/Boroughs.json
+      path: Boroughs
+  label: All boroughs
 pages:
 - content/MHD/Arab American Association of NY.md
