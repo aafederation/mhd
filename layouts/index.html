@@ -84,13 +84,13 @@
 <body>
 <section>
 
-{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ $pages := .Site.RegularPages }}
 {{ $sections := .Site.Params.mainSections }}
 
 {{ $.Scratch.Set "authors" (slice ) }}
 {{ $.Scratch.Set "noAuthors" 0 }}
 
-{{ range where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ range $pages }}
   {{ with .Params.author }}
     {{ if eq ( printf "%T" . ) "string"  }}
       {{ if ( not ( in ($.Scratch.Get "authors") . ) ) }}
