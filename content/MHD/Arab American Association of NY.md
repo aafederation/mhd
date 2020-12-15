@@ -1,5 +1,6 @@
 +++
 address = "7111 5th Ave."
+all_boroughs = ["Brooklyn", "Bronx", "Citywide"]
 borough = "Brooklyn"
 draft = true
 image = ""
