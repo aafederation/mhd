@@ -1,4 +1,39 @@
 ---
 label: Service Provider
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Name of service provider
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+  description: attach an image if available
+- name: address
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: address
+  description: service provider's address
+- name: borough
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Borough
+  description: please select the NYC borough if applicable
