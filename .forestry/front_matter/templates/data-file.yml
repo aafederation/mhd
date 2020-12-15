@@ -1,0 +1,7 @@
+---
+label: Data file
+hide_body: true
+fields:
+- type: list
+  name: Boroughs
+  label: Boroughs
