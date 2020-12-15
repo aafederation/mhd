@@ -31,10 +31,10 @@ fields:
     required: false
     options: []
     source:
-      type: pages
+      type: documents
       section: boroughs
-      file: 
-      path: 
+      file: data/Boroughs.json
+      path: Boroughs
   label: Borough
   description: please select the NYC borough if applicable
 - name: phone_number
