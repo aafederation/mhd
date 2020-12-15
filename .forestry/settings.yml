@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/Boroughs.json
   label: Boroughs
-  match: "**/*"
 - type: directory
   path: content
   label: Pages

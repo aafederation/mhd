@@ -5,7 +5,7 @@ fields:
 - name: name
   type: text
   config:
-    required: false
+    required: true
   label: Name
   description: Name of service provider
 - name: image
@@ -31,9 +31,28 @@ fields:
     required: false
     options: []
     source:
-      type: simple
-      section: 
+      type: pages
+      section: boroughs
       file: 
       path: 
   label: Borough
   description: please select the NYC borough if applicable
+- name: phone_number
+  type: text
+  config:
+    required: false
+  label: Phone number
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+  description: enter the website
+- name: hours
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Hours
+  description: days and hours the service is available
