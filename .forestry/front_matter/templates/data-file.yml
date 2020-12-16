@@ -6,4 +6,5 @@ fields:
   name: Items
   label: Items
 pages:
+- data/Languages.json
 - data/Payment types.json
