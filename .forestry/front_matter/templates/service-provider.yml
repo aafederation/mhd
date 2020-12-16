@@ -20,6 +20,19 @@ fields:
     required: false
   label: Email
   description: Email address to contact the service provider
+- name: boroughs
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: data
+      file: data/Boroughs.json
+      path: Boroughs
+  label: Boroughs
+  description: Boroughs serviced by provider
 - name: addresses
   type: field_group_list
   fields:
@@ -61,12 +74,6 @@ fields:
     labelField: 
   label: Addresses
   description: Input all the office addresses
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
-  description: Attach an image if available
 - name: services
   type: list
   config:
@@ -101,18 +108,11 @@ fields:
       path: Items
   label: Languages
   description: Languages available for service
-- name: boroughs
-  type: list
+- name: image
+  type: file
   config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: data
-      file: data/Boroughs.json
-      path: Boroughs
-  label: Boroughs
-  description: Boroughs serviced by provider
+    maxSize: 64
+  label: Image
+  description: Attach an image if available
 pages:
 - content/MHD/Arab American Association of NY.md
