@@ -11,31 +11,6 @@ sections:
   match: "**/*"
   new_doc_ext: json
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/wonderland
-  label: Wonderland
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/lorem
-  label: Lorem
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/looking-glass
-  label: Looking glass
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/grimm
-  label: Grimm
-  create: all
-  match: "**/*"
-- type: directory
   path: content/MHD
   label: MHD
   create: all
