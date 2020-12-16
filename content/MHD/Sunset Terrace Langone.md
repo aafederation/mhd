@@ -1,11 +1,18 @@
 +++
-org = " NYU Langone"
-program = "Sunset Terrace Family Health Center"
+ada-compliant = false
 boroughs = ["Brooklyn"]
+draft = true
 email = "hello@nyulangone.org"
+image = ""
 languages = ["Cantonese", "Mandarin", "Japanese", "Korean"]
+new_clients = ""
+org = " NYU Langone"
+parking = ""
 payment_types = ["Medicare", "Medicaid", "Third-party insurance", "Sliding scale fee for patients without insurance"]
+program = "Sunset Terrace Family Health Center"
 services = ["Mental health services", "Behavioral services"]
+tags = []
+telehealth = ""
 website = "https://nyulangone.org"
 [[addresses]]
 address = "514 49th St."
@@ -14,8 +21,8 @@ phone_number = "718-630-7942"
 day_hours = "F 8am-5pm"
 [[addresses.hours_of_operation]]
 day_hours = "M-Th 8am-7pm"
+draft = true
 image = ""
 tags = []
-draft = true
 
 +++
