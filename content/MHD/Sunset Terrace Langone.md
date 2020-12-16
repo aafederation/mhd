@@ -26,3 +26,22 @@ image = ""
 tags = []
 
 +++
+**Sunset Terrace Family Health Center at NYU Langone**
+
+P: 718-630-7942 
+
+A: 514 49th St.
+
+M-Th, 8 am-7 pm; F, 8 am-5 pm
+
+www.nyulangone.org
+
+Services: Behavioral/mental health services
+
+Payment: Medicare, Medicaid, third-party
+
+insurance, sliding scale fee for patients without
+
+insurance
+
+Languages: Cantonese, Mandarin, Japanese, Korean
