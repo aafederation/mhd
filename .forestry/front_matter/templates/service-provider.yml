@@ -8,23 +8,19 @@ fields:
     required: true
   label: Name
   description: Name of service provider
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: image
-  description: attach an image if available
-- name: address
-  type: textarea
-  default: ''
+- name: website
+  type: text
   config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: address
-  description: service provider's address
-- name: borough
+  label: Website
+  description: Website for the service provider
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+  description: Email address to contact the service provider
+- name: boroughs
   type: select
   default: []
   config:
@@ -35,33 +31,55 @@ fields:
       section: boroughs
       file: data/Boroughs.json
       path: Boroughs
-  label: Borough
-  description: please select the NYC borough if applicable
-- name: phone_number
-  type: text
-  config:
-    required: false
-  label: Phone number
-- name: website
-  type: text
-  config:
-    required: false
-  label: Website
-  description: enter the website
-- name: hours
+  label: Boroughs
+  description: NYC boroughs serviced by the provider
+- name: addresses
   type: field_group_list
   fields:
-  - name: day_hour
+  - name: address
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Physical address
+    description: " Physical address"
+  - name: phone_number
     type: text
     config:
       required: false
-    label: day hour
+    label: Phone number
+  - name: hours_of_operation
+    type: field_group_list
+    fields:
+    - name: day_hours
+      type: text
+      config:
+        required: false
+      label: Days hours
+      description: day(s) and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
+        9am-6pm
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Hours of operation
+    description: days and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
+      9am-6pm
   config:
     min: 
     max: 
     labelField: 
-  label: Hours
-  description: days and hours the service is available
+  label: Addresses
+  description: Input all the office addresses
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: Attach an image if available
 - name: services
   type: list
   config:
@@ -74,22 +92,11 @@ fields:
   type: text
   config:
     required: false
-  label: Payment
+  label: Payment types
+  description: Types of payments accepted
 - name: languages
   type: tag_list
   default: []
   label: Languages
-- name: all_boroughs
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: boroughs
-      file: data/Boroughs.json
-      path: Boroughs
-  label: All boroughs
 pages:
 - content/MHD/Arab American Association of NY.md
