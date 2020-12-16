@@ -73,6 +73,58 @@ fields:
       path: Items
   label: Languages
   description: Languages available for service
+- name: new_clients
+  type: select
+  default: 'Yes'
+  config:
+    required: false
+    options:
+    - 'Yes'
+    - 'No'
+    - Not applicable
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: New clients
+  description: Are you accepting new clients?
+- name: ada-compliant
+  type: boolean
+  label: ADA-compliant
+  default: true
+  description: Is your location(s) ADA-compliant?
+- name: telehealth
+  type: select
+  default: Not applicable
+  config:
+    required: false
+    options:
+    - 'Yes'
+    - 'No'
+    - Not applicable
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Telehealth service
+  description: Do you offer telehealth services?
+- name: parking
+  type: select
+  default: 'Yes'
+  config:
+    required: false
+    options:
+    - 'Yes'
+    - 'No'
+    - Street parking
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Parking
 - name: addresses
   type: field_group_list
   fields:
@@ -125,58 +177,6 @@ fields:
   default: []
   label: Tags
   description: Any other associations for the organization
-- name: parking
-  type: select
-  default: 'Yes'
-  config:
-    required: false
-    options:
-    - 'Yes'
-    - 'No'
-    - Street parking
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Parking
-- name: ada-compliant
-  type: boolean
-  label: ADA-compliant
-  default: true
-  description: Is your location(s) ADA-compliant?
-- name: telehealth
-  type: select
-  default: Not applicable
-  config:
-    required: false
-    options:
-    - 'Yes'
-    - 'No'
-    - Not applicable
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Telehealth service
-  description: Do you offer telehealth services?
-- name: new_clients
-  type: select
-  default: 'Yes'
-  config:
-    required: false
-    options:
-    - 'Yes'
-    - 'No'
-    - Not applicable
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: New clients
-  description: Are you accepting new clients?
 pages:
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Sunset Terrace Langone.md
