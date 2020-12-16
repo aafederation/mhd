@@ -89,11 +89,11 @@ fields:
       path: 
   label: New clients
   description: Are you accepting new clients?
-- name: ada-compliant
+- name: ada_compliant
   type: boolean
-  label: ADA-compliant
+  label: ADA compliant
   default: true
-  description: Is your location(s) ADA-compliant?
+  description: Is your location(s) ADA compliant?
 - name: telehealth
   type: select
   default: Not applicable
