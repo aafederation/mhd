@@ -54,6 +54,19 @@ fields:
     max: 
   label: Services
   description: List of services available
+- name: languages
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: data
+      file: data/Languages.json
+      path: Items
+  label: Languages
+  description: Languages available for service
 - name: addresses
   type: field_group_list
   fields:
@@ -101,18 +114,5 @@ fields:
     maxSize: 64
   label: Image
   description: Attach an image if available
-- name: languages
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: data
-      file: data/Languages.json
-      path: Items
-  label: Languages
-  description: Languages available for service
 pages:
 - content/MHD/Arab American Association of NY.md
