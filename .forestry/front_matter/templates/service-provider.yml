@@ -161,6 +161,22 @@ fields:
       path: 
   label: Telehealth service
   description: Do you offer telehealth services?
+- name: new_clients
+  type: select
+  default: 'Yes'
+  config:
+    required: false
+    options:
+    - 'Yes'
+    - 'No'
+    - Not applicable
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: New clients
+  description: Are you accepting new clients?
 pages:
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Sunset Terrace Langone.md
