@@ -88,9 +88,11 @@
 
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
 {{ $boroughs := $.Site.Taxonomies.boroughs.ByCount }}
+{{ $languages := $.Site.Taxonomies.languages.ByCount }}
 
 {{ $.Scratch.Set "untagged" 0 }}
 {{ $.Scratch.Set "noBoroughs" 0 }}
+{{ $.Scratch.Set "noLanguages" 0 }}
 
 {{ range $pages }}
   {{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
@@ -139,9 +141,29 @@
     </button>
     {{ end }}   
     <hr >
+
+<!--BEGIN: language-->
+    <h4>Languages</h4>
+    <button xx class="" id="selectAllLanguages" onclick="htf.showAll('boroughs')">
+      All Languages
+    </button>
+    {{ range $languages }}
+      {{ if .Term }}
+        <button xx class="language-button" id="language-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'languages-')">
+          <span>{{.Term | humanize | title }}</span>
+          <span id="slanguages-{{ .Term | urlize }}"> -count-</span> | <span id="clanguages-{{ .Term | urlize }}"> -count-</span>
+        </button>
+      {{ end }}
+    {{ end }}
+    {{ if gt ( $.Scratch.Get "noLanguages") 0 }}
+    <button xx class="language-button" id="language-no-languages" onclick="htf.checkFilter('no-languages', 'language-')">
+      No languages <span id="slanguages-no-languages"> -count-</span> | <span id="clanguages-no-languages"> -count-</span>
+    </button>
+    {{ end }}   
+    <hr >
+<!--END: language-->
   </div>
-      
-    
+
   <hr >
   <div><h2><span id="selectedItemCount"></span> Items</h2></div>
   <div class="tf-items-container">      
@@ -149,6 +171,7 @@
     <div  class="tf-filter-item tf-item" 
           data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}"
           data-boroughs="{{ with .Params.boroughs }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-boroughs{{ end }}"
+          data-languages="{{ with .Params.languages }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-languages{{ end }}"
           data-section="{{ .Section }}"
           data-authors="{{ with .Params.author }}{{ if eq ( printf "%T" . ) "string" }}{{ . | replaceRE "[.]" "_" | urlize }}{{ else if eq ( printf "%T" . ) "[]string" }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{end}}{{end}}{{else}}no-author{{end}}">
       <h6>{{.Section}}</h6>
@@ -183,6 +206,15 @@ var htfConfig = {
       attrName: 'data-boroughs',
       selectedPrefix: 'sboroughs-',
       countPrefix: 'cboroughs-'
+    },
+    {
+      name: 'languages',
+      prefix: 'language-',
+      buttonClass: 'language-button',
+      allSelector: '#selectAllLanguages',
+      attrName: 'data-languages',
+      selectedPrefix: 'slanguages-',
+      countPrefix: 'clanguages-'
     }
   ],
   showItemClass: "show-item",
