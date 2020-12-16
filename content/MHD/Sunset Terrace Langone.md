@@ -3,10 +3,13 @@ boroughs = ["Brooklyn"]
 draft = true
 email = "hello@nyulangone.org"
 image = ""
-languages = ["Korean", "Japanese", "Mandarin", "Cantonese"]
+languages = ["Cantonese", "Mandarin", "Japanese", "Korean"]
 name = "Sunset Terrace Family Health Center at NYU Langone"
+org = " NYU Langone"
 payment_types = ["Medicare", "Medicaid", "Third-party insurance", "Sliding scale fee for patients without insurance"]
+program = "Sunset Terrace Family Health Center"
 services = ["Mental health services", "Behavioral services"]
+tags = []
 website = "https://nyulangone.org"
 [[addresses]]
 address = "514 49th St."
