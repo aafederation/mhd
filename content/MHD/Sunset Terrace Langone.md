@@ -1,5 +1,5 @@
 +++
-ada_compliant = true
+ada_compliant = false
 boroughs = ["Brooklyn"]
 draft = true
 email = "hello@nyulangone.org"
@@ -23,7 +23,6 @@ day_hours = "F 8am-5pm"
 day_hours = "M-Th 8am-7pm"
 
 +++
-
 **Sunset Terrace Family Health Center at NYU Langone**
 
 P: 718-630-7942
