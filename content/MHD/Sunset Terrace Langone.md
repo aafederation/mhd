@@ -21,14 +21,12 @@ phone_number = "718-630-7942"
 day_hours = "F 8am-5pm"
 [[addresses.hours_of_operation]]
 day_hours = "M-Th 8am-7pm"
-draft = true
-image = ""
-tags = []
 
 +++
+
 **Sunset Terrace Family Health Center at NYU Langone**
 
-P: 718-630-7942 
+P: 718-630-7942
 
 A: 514 49th St.
 
