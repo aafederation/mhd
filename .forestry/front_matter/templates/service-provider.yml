@@ -145,6 +145,22 @@ fields:
   label: ADA-compliant
   default: true
   description: Is your location(s) ADA-compliant?
+- name: telehealth
+  type: select
+  default: Not applicable
+  config:
+    required: false
+    options:
+    - 'Yes'
+    - 'No'
+    - Not applicable
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Telehealth service
+  description: Do you offer telehealth services?
 pages:
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Sunset Terrace Langone.md
