@@ -85,76 +85,22 @@
 <section>
 
 {{ $pages := .Site.RegularPages }}
-<!--{{ $sections := .Site.Params.mainSections }}-->
-<!--{{ $boroughs := .Site.Data.Boroughs }}-->
-
-<!--{{ $.Scratch.Set "adaCompliant" (slice ) }}
-{{ $.Scratch.Set "noAdaCompliant" 0 }}
-
-{{ range $pages }}
-  {{ with .Params.adaCompliant }}
-    {{ if eq ( printf "%T" . ) "string"  }}
-      {{ if ( not ( in ($.Scratch.Get "adaCompliant") . ) ) }}
-        {{ $.Scratch.Add "adaCompliant" . }}
-      {{ end }}
-    {{ else if ( printf "%T" . ) "[]string" }}
-      {{ range . }}
-        {{ if ( not ( in ($.Scratch.Get "adaCompliant") . ) ) }}
-          {{ $.Scratch.Add "adaCompliant" . }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    {{ $.Scratch.Add "noAdaCompliant" 1 }}
-  {{ end }}
-{{ end }}-->
 
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-<!--{{ $boroughs := $.Site.Taxonomies.boroughs.ByCount }}-->
+{{ $boroughs := $.Site.Taxonomies.boroughs.ByCount }}
 
 {{ $.Scratch.Set "untagged" 0 }}
+{{ $.Scratch.Set "noBoroughs" 0 }}
+
 {{ range $pages }}
   {{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
+  {{ with .Params.boroughs }}{{ else }}{{ $.Scratch.Add "noBoroughs" 1 }}{{ end }}
 {{ end }}
 
 <hr >
 
 <div class="tf-wrapper">
   <div class="tf-buttons-container flex-grow">
-		<p>not tagged count: {{ $.Scratch.Get "untagged" }}</p>
-		<p>tags: {{ $tags }}</p>
-
-    <!--<h4>Sections</h4>
-		<p>Boroughs: {{ delimit .Site.Data.Boroughs ", " }}</p>
-		<p>Tags: {{ $boroughs }}</p>
-    <button xx id="selectAllSections" onclick="htf.showAll('section')">
-      All Sections
-    </button>
-    {{ range $sections }}
-      <button xx class="sect-button" id="sect-{{ . | urlize }}" onclick="htf.checkFilter('{{ . | urlize }}', 'sect-')">
-        {{ . | title }} <span id="ssect-{{ . | urlize }}"> -count-</span> | <span id="csect-{{ . | urlize }}"> -count-</span>
-      </button>
-    {{ end }}
-    
-    <hr>-->
-    
-    <!--<h4>ADA Compliant</h4>
-    <button xx id="selectAllAuthors" onclick="htf.showAll('authors')">
-      All Authors
-    </button>
-    {{ range $.Scratch.Get "adaCompliant" }}
-      <button xx class="auth-button" id="auth-{{ . | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ . | replaceRE "[.]" "_" | urlize }}', 'auth-')">
-        {{ . }} <span id="sauth-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span> | <span id="cauth-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span>
-      </button>
-    {{ end }}
-    {{ if gt ( $.Scratch.Get "noAdaCompliant") 0 }}
-    <button xx class="auth-button" id="auth-no-author" onclick="htf.checkFilter('no-author', 'auth-')">
-      No Author <span id="sauth-no-author"> -count-</span> | <span id="cauth-no-author"> -count-</span>
-    </button>
-    {{ end }}
-    
-    
-    <hr>-->
     
     <h4>Tags</h4>
     <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
@@ -162,7 +108,6 @@
     </button>
     {{ range $tags }}
       {{ if .Term }}
-				<p>term is {{ .Term | humanize | title }}</p>
         <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
           <span>{{.Term | humanize | title }}</span>
           <span id="stags-{{ .Term | urlize }}"> -count-</span> | <span id="ctags-{{ .Term | urlize }}"> -count-</span>
@@ -173,8 +118,26 @@
     <button xx class="tag-button" id="tag-tfuntagged" onclick="htf.checkFilter('tfuntagged', 'tag-')">
       Untagged <span id="stags-tfuntagged"> -count-</span> | <span id="ctags-tfuntagged"> -count-</span>
     </button>
+    {{ end }}   
+    <hr >
+
+    <h4>Boroughs</h4>
+    <button xx class="" id="selectAllBoroughs" onclick="htf.showAll('boroughs')">
+      All Boroughs
+    </button>
+    {{ range $boroughs }}
+      {{ if .Term }}
+        <button xx class="borough-button" id="borough-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'borough-')">
+          <span>{{.Term | humanize | title }}</span>
+          <span id="sboroughs-{{ .Term | urlize }}"> -count-</span> | <span id="cboroughs-{{ .Term | urlize }}"> -count-</span>
+        </button>
+      {{ end }}
     {{ end }}
-    
+    {{ if gt ( $.Scratch.Get "noBoroughs") 0 }}
+    <button xx class="borough-button" id="borough-no-boroughs" onclick="htf.checkFilter('no-boroughs', 'borough-')">
+      No boroughs <span id="sboroughs-no-boroughs"> -count-</span> | <span id="cboroughs-no-boroughs"> -count-</span>
+    </button>
+    {{ end }}   
     <hr >
   </div>
       
@@ -185,14 +148,10 @@
   {{ range $pages.ByPublishDate.Reverse }}
     <div  class="tf-filter-item tf-item" 
           data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}"
+          data-boroughs="{{ with .Params.boroughs }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-boroughs{{ end }}"
           data-section="{{ .Section }}"
-          
-          data-authors="{{ with .Params.author }}{{ if eq ( printf "%T" . ) "string" }}{{ . | replaceRE "[.]" "_" | urlize }}{{ else if eq ( printf "%T" . ) "[]string" }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{end}}{{end}}{{else}}no-author{{end}}"
-          
-          >
+          data-authors="{{ with .Params.author }}{{ if eq ( printf "%T" . ) "string" }}{{ . | replaceRE "[.]" "_" | urlize }}{{ else if eq ( printf "%T" . ) "[]string" }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{end}}{{end}}{{else}}no-author{{end}}">
       <h6>{{.Section}}</h6>
-      <h5>{{ with .Params.org }}{{ if eq ( printf "%T" . ) "string" }}{{.|humanize|title}}{{ else if eq ( printf "%T" . ) "[]string" }}{{ range . }}{{.|humanize|title}} {{end}}{{end}}{{else}}No Author{{end}}</h5>
-      
       <h4><a href="{{ .RelPermalink }}">{{ .Params.org }}</a></h4>
       
       <div>{{ with .Params.tags }}{{ range . }}<tag>{{ . | humanize | title }}</tag> {{ end }}{{ else }}<tag>untagged</tag>{{ end }}</div>
@@ -204,7 +163,6 @@
 </div>
 
 <script src="{{ "vendor/htf/hugotagsfilter-1.2.2.min.js" | relURL}}"></script>
-<!--<script src="{{ "hugotagsfilter.js" | relURL}}"></script>-->
 <script>
 var htfConfig = {
   filters: [
@@ -216,6 +174,15 @@ var htfConfig = {
       attrName: 'data-tags',
       selectedPrefix: 'stags-',
       countPrefix: 'ctags-'
+    },
+    {
+      name: 'boroughs',
+      prefix: 'borough-',
+      buttonClass: 'borough-button',
+      allSelector: '#selectAllBoroughs',
+      attrName: 'data-boroughs',
+      selectedPrefix: 'sboroughs-',
+      countPrefix: 'cboroughs-'
     }
   ],
   showItemClass: "show-item",
