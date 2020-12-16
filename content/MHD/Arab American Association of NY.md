@@ -1,5 +1,5 @@
 +++
-ada-compliant = false
+ada-compliant = true
 boroughs = ["Brooklyn"]
 draft = true
 email = "info@arabamericanny.org"
