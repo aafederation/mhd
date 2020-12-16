@@ -1,8 +1,9 @@
 {
   "Items": [
+    "No insurance necessary",
     "Sliding scale fee for patients without insurance",
-    "Third-party insurance",
     "Medicaid",
-    "Medicare"
+    "Medicare",
+    "Third-party insurance"
   ]
 }
