@@ -86,16 +86,19 @@
 
 {{ $pages := .Site.RegularPages }}
 
+<!--TAXONOMY COUNTS-->
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
 {{ $boroughs := $.Site.Taxonomies.boroughs.ByCount }}
 {{ $languages := $.Site.Taxonomies.languages.ByCount }}
 {{ $payments := $.Site.Taxonomies.payment_types.ByCount }}
 
+<!--TAXONOMY NO COUNT VAR-->
 {{ $.Scratch.Set "untagged" 0 }}
 {{ $.Scratch.Set "noBoroughs" 0 }}
 {{ $.Scratch.Set "noLanguages" 0 }}
 {{ $.Scratch.Set "noPayments" 0 }}
 
+<!--TAXONOMY NO COUNT COUNTING-->
 {{ range $pages }}
   {{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
   {{ with .Params.boroughs }}{{ else }}{{ $.Scratch.Add "noBoroughs" 1 }}{{ end }}
@@ -193,6 +196,7 @@
   <div><h2><span id="selectedItemCount"></span> Items</h2></div>
   <div class="tf-items-container">      
   {{ range $pages.ByPublishDate.Reverse }}
+		<!--FILTER DATA DECLARATION-->
     <div  class="tf-filter-item tf-item" 
           data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}"
           data-boroughs="{{ with .Params.boroughs }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-boroughs{{ end }}"
@@ -214,6 +218,7 @@
 <script src="{{ "vendor/htf/hugotagsfilter-1.2.2.min.js" | relURL}}"></script>
 <script>
 var htfConfig = {
+//FILTER DECLARATION FOR JAVASCRIPT
   filters: [
     {
       name: 'tags',
