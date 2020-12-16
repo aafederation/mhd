@@ -11,3 +11,10 @@ pygmentsUseClasses = true
   copyright = "Copyright © 2018"
   author = "Pointy Far"
   mainSections = ["wonderland", "lorem", "looking-glass", "grimm"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  borough = "boroughs"
+  payment_type = "payment_types"
+  language = "languages"
