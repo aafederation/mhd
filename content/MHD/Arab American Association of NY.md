@@ -1,5 +1,5 @@
 +++
-ada_compliant = true
+ada_compliant = false
 boroughs = ["Brooklyn"]
 draft = true
 email = "info@arabamericanny.org"
@@ -21,7 +21,6 @@ phone_number = "718-745-3523"
 day_hours = "M-F 10am-6pm"
 
 +++
-
 **Arab American Association of NY**
 
 P: 718-745-3523
