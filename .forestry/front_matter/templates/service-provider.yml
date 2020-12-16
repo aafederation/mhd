@@ -125,6 +125,26 @@ fields:
   default: []
   label: Tags
   description: Any other associations for the organization
+- name: parking
+  type: select
+  default: 'Yes'
+  config:
+    required: false
+    options:
+    - 'Yes'
+    - 'No'
+    - Street parking
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Parking
+- name: ada-compliant
+  type: boolean
+  label: ADA-compliant
+  default: true
+  description: Is your location(s) ADA-compliant?
 pages:
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Sunset Terrace Langone.md
