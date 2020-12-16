@@ -1,5 +1,4 @@
 +++
-ada-compliant = true
 ada_compliant = true
 boroughs = ["Brooklyn"]
 draft = true
@@ -22,9 +21,10 @@ phone_number = "718-745-3523"
 day_hours = "M-F 10am-6pm"
 
 +++
+
 **Arab American Association of NY**
 
-P: 718-745-3523 
+P: 718-745-3523
 
 A: 7111 5th Ave.
 
