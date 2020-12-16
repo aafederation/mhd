@@ -97,6 +97,7 @@
 {{ range $pages }}
   {{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
   {{ with .Params.boroughs }}{{ else }}{{ $.Scratch.Add "noBoroughs" 1 }}{{ end }}
+  {{ with .Params.languages }}{{ else }}{{ $.Scratch.Add "noLanguages" 1 }}{{ end }}
 {{ end }}
 
 <hr >
