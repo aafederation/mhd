@@ -1,5 +1,5 @@
 +++
-ada-compliant = false
+ada-compliant = true
 address = "7111 5th Ave."
 all_boroughs = ["Brooklyn", "Bronx", "Citywide"]
 borough = "Brooklyn"
@@ -16,7 +16,7 @@ payment = "free mental health services"
 payment_types = ["No insurance necessary"]
 phone_number = "718-745-3523"
 program = ""
-services = ["free mental health services", "Connections to Care Program"]
+services = ["Free mental health services", "Connections to Care Program"]
 tags = []
 telehealth = ""
 website = "https://www.arabamericanny.org/"
