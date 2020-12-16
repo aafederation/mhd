@@ -88,15 +88,22 @@ fields:
     max: 
   label: Services
   description: list of services available
-- name: payment
-  type: text
-  config:
-    required: false
-  label: Payment types
-  description: Types of payments accepted
 - name: languages
   type: tag_list
   default: []
   label: Languages
+- name: payment_types
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: data/Payment types.json
+      path: Items
+  label: Payment types
+  description: Types of payments accepted
 pages:
 - content/MHD/Arab American Association of NY.md
