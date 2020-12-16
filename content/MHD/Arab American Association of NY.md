@@ -11,7 +11,7 @@ parking = ""
 payment_types = ["No insurance necessary"]
 program = ""
 services = ["Free mental health services", "Connections to Care Program"]
-tags = []
+tags = ["healthy", "mental"]
 telehealth = ""
 website = "https://www.arabamericanny.org/"
 [[addresses]]
