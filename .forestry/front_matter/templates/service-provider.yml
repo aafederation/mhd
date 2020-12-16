@@ -81,20 +81,7 @@ fields:
     min: 
     max: 
   label: Services
-  description: list of services available
-- name: payment_types
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: data
-      file: data/Payment types.json
-      path: Items
-  label: Payment types
-  description: Types of payments accepted
+  description: List of services available
 - name: languages
   type: select
   default: []
