@@ -2,12 +2,18 @@
 label: Service Provider
 hide_body: false
 fields:
-- name: name
+- name: org
   type: text
   config:
     required: true
-  label: Name
-  description: Name of service provider
+  label: Organization name
+  description: Name of organization
+- name: program
+  type: text
+  config:
+    required: false
+  label: Program/clinic name (if applicable)
+  description: 'If applicable, the program/clinic name '
 - name: website
   type: text
   config:
@@ -114,6 +120,11 @@ fields:
     maxSize: 64
   label: Image
   description: Attach an image if available
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Any other associations for the organization
 pages:
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Sunset Terrace Langone.md
