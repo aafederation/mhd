@@ -1,12 +1,13 @@
 +++
 ada-compliant = true
+ada_compliant = true
 boroughs = ["Brooklyn"]
 draft = true
 email = "hello@nyulangone.org"
 image = ""
 languages = ["Cantonese", "Mandarin", "Japanese", "Korean"]
 new_clients = ""
-org = " NYU Langone"
+org = "NYU Langone"
 parking = ""
 payment_types = ["Medicare", "Medicaid", "Third-party insurance", "Sliding scale fee for patients without insurance"]
 program = "Sunset Terrace Family Health Center"
