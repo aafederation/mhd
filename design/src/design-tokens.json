@@ -1,26 +1,27 @@
 {
-  "colors": {
-    "dark": "#121111",
-    "light": "#f8f8f8",
-    "primary": "#D10909",
-    "secondary": "#5271FF",
-    "secondary-shade": "#8096ff",
-    "tertiary": "#55dde0",
-    "slate": "#2e2e2e"
-  },
-  "fonts": {
-    "base": "'Lora', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-    "serif": "'Barlow Condensed', sans-serif"
-  },
-  "sizes": {
-    "300": 10,
-    "400": 16,
-    "500": 20,
-    "600": 25,
-    "700": 31,
-    "800": 39,
-    "900": 48,
-    "1000": 61,
-    "major": 76
-  }
+	"colors": {
+		"dark": "#121111",
+		"light": "#f8f8f8",
+		"primary": "#D10909",
+		"secondary": "#5271FF",
+		"secondary-shade": "#8096ff",
+		"tertiary": "#55dde0",
+		"slate": "#2e2e2e",
+		"white": "#ffffff"
+	},
+	"fonts": {
+		"base": "'Lora', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+		"serif": "'Barlow Condensed', sans-serif"
+	},
+	"sizes": {
+		"300": 10,
+		"400": 16,
+		"500": 20,
+		"600": 25,
+		"700": 31,
+		"800": 39,
+		"900": 48,
+		"1000": 61,
+		"major": 76
+	}
 }
