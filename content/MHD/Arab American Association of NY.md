@@ -1,7 +1,6 @@
 +++
 ada_compliant = false
 boroughs = ["Brooklyn"]
-draft = true
 email = "info@arabamericanny.org"
 image = ""
 languages = ["Arabic"]
