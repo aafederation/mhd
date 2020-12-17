@@ -2,15 +2,15 @@
   "colors": {
     "dark": "#121111",
     "light": "#f8f8f8",
-    "primary": "#fdd110",
-    "secondary": "#ea1c5c",
-    "secondary-shade": "#da0044",
+    "primary": "#D10909",
+    "secondary": "#5271FF",
+    "secondary-shade": "#8096ff",
     "tertiary": "#55dde0",
     "slate": "#2e2e2e"
   },
   "fonts": {
-    "base": "'Lato', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-    "serif": "'Coustard', sans-serif"
+    "base": "'Lora', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+    "serif": "'Barlow Condensed', sans-serif"
   },
   "sizes": {
     "300": 10,
