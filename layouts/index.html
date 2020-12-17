@@ -86,6 +86,29 @@
 
 {{ $pages := .Site.RegularPages }}
 
+<!--BEGIN: NON TAXONOMY FILTER SETUP-->
+{{ $.Scratch.Set "ADAcompliants" (slice ) }}
+{{ $.Scratch.Set "notADAcompliants" 0 }}
+
+{{ range .Site.RegularPages }}
+  {{ with .Params.ada_compliant }}
+    {{ if eq ( printf "%T" . ) "bool"  }}
+      {{ if ( not ( in ($.Scratch.Get "ADAcompliants") "true" ) ) }}
+        {{ $.Scratch.Add "ADAcompliants" "true" }}
+      {{ end }}
+    {{ else if ( printf "%T" . ) "[]string" }}
+      {{ range . }}
+        {{ if ( not ( in ($.Scratch.Get "ADAcompliants") . ) ) }}
+          {{ $.Scratch.Add "ADAcompliants" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    {{ $.Scratch.Add "notADAcompliants" 1 }}
+  {{ end }}
+{{ end }}
+<!--END: NON TAXONOMY FILTER SETUP-->
+
 <!--TAXONOMY COUNTS-->
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
 {{ $boroughs := $.Site.Taxonomies.boroughs.ByCount }}
@@ -170,7 +193,7 @@
     <hr >
 <!--END: language-->
 
-<!--BEGIN: payment types -->
+<!--BEGIN: payment types-->
     <h4>Payment types</h4>
     <button xx class="" id="selectAllPayments" onclick="htf.showAll('payments')">
       All Payment types
@@ -189,7 +212,26 @@
     </button>
     {{ end }}   
     <hr >
-<!--END: payment types -->
+<!--END: payment types-->
+
+<!--BEGIN: ADA compliance-->
+		<h4>ADA Compliance</h4>
+    <button xx id="selectAllADAcompliants" onclick="htf.showAll('ADAcompliants')">
+      All Compliances
+    </button>
+    {{ range $.Scratch.Get "ADAcompliants" }}
+      <button xx class="ADAcompliant-button" id="ADAcompliant-{{ . | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('true', 'ADAcompliant-')">
+        {{ . }} <span id="sADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span> | <span id="cADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span>
+      </button>
+    {{ end }}
+    {{ if gt ( $.Scratch.Get "notADAcompliants") 0 }}
+    <button xx class="ADAcompliant-button" id="ADAcompliant-false" onclick="htf.checkFilter('false', 'ADAcompliant-')">
+      false <span id="sADAcompliants-false"> -count-</span> | <span id="cADAcompliants-false"> -count-</span>
+    </button>
+    {{ end }}
+    
+    <hr>
+<!--END: ADA compliant-->   
   </div>
 
   <hr >
@@ -203,7 +245,9 @@
           data-languages="{{ with .Params.languages }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-languages{{ end }}"
           data-payments="{{ with .Params.payment_types }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-payments{{ end }}"
           data-section="{{ .Section }}"
-          data-authors="{{ with .Params.author }}{{ if eq ( printf "%T" . ) "string" }}{{ . | replaceRE "[.]" "_" | urlize }}{{ else if eq ( printf "%T" . ) "[]string" }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{end}}{{end}}{{else}}no-author{{end}}">
+          data-authors="{{ with .Params.author }}{{ if eq ( printf "%T" . ) "string" }}{{ . | replaceRE "[.]" "_" | urlize }}{{ else if eq ( printf "%T" . ) "[]string" }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{end}}{{end}}{{else}}no-author{{end}}"
+          data-ADAcompliants="{{ with .Params.ada_compliant }}{{ . }}{{ else }}{{ false }}{{ end }}"
+		>
       <h6>{{.Section}}</h6>
       <h4><a href="{{ .RelPermalink }}">{{ .Params.org }}</a></h4>
       
@@ -255,6 +299,15 @@ var htfConfig = {
       attrName: 'data-payments',
       selectedPrefix: 'spayments-',
       countPrefix: 'cpayments-'
+    },
+    {
+      name: 'ADAcompliants',
+      prefix: 'ADAcompliant-',
+      buttonClass: 'ADAcompliant-button',
+      allSelector: '#selectAllADAcompliants',
+      attrName: 'data-ADAcompliants',
+      selectedPrefix: 'sADAcompliants-',
+      countPrefix: 'cADAcompliants-'
     }
   ],
   showItemClass: "show-item",
