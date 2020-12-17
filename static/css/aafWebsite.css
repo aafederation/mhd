@@ -5,4 +5,12 @@
 }
 .mhd-tiles {
 	max-width: 100rem;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+.main-filter-col {
+	flex: 1;
+}
+.main-body-col {
+	flex: 4;
 }

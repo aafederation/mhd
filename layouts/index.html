@@ -1,8 +1,12 @@
 {{ define "main" }}
 
-<div class="tiles mhd-tiles">
-	{{ partial "main-filter.html" . }}
-	{{ partial "main-body.html" . }}
+<div class="tiles mhd-tiles pad-top-1000">
+	<div class="main-filter-col">
+		{{ partial "main-filter.html" . }}
+	</div>
+	<div class="main-body-col">
+		{{ partial "main-body.html" . }}
+	</div>
 </div>
 
 {{ end }}
