@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-boroughs = ["Brooklyn", "Manhattan"]
+boroughs = ["Manhattan"]
 email = ""
 image = ""
 languages = ["Mandarin", "Cantonese"]
@@ -40,4 +40,4 @@ Services: Outpatient mental health services
 
 Payment: Medicare, Medicaid, third-party insurance, sliding scale fee for patients without insurance
 
-Langues: Cantonese, Mandarin
+Languages: Cantonese, Mandarin
