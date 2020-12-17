@@ -22,7 +22,7 @@ const sass = () => {
 					: {}
 			)
 		)
-		.pipe(dest("./public/css", { sourceMaps: !isProduction }));
+		.pipe(dest("../static/css", { sourceMaps: !isProduction }));
 };
 
 module.exports = sass;
