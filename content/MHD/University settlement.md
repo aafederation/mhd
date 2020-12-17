@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-boroughs = ["Manhattan"]
+boroughs = ["Brooklyn", "Manhattan"]
 email = ""
 image = ""
 languages = ["Mandarin", "Cantonese"]
