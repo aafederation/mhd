@@ -1,16 +1,16 @@
 +++
 ada_compliant = true
 boroughs = ["Manhattan"]
-email = ""
+email = "rushil.shakya@gmail.com"
 image = ""
 languages = ["Mandarin", "Cantonese"]
 new_clients = "Not applicable"
-org = "University Settlement"
+org = "Bhasha"
 parking = "Yes"
 payment_types = ["Sliding scale fee for patients without insurance", "Third-party insurance", "Medicare", "Medicaid"]
 program = "The Door"
 services = ["Outpatient mental health services"]
-tags = []
+tags = ["Not part of Door"]
 telehealth = "Not applicable"
 website = "www.universitysettlement.org"
 [[addresses]]
