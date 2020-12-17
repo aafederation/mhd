@@ -1,19 +1,25 @@
 +++
 ada_compliant = true
-addresses = []
-boroughs = []
+boroughs = ["Queens"]
 email = ""
 image = ""
 languages = []
 new_clients = "Yes"
 org = "Flushing Hospital Medical Center"
 parking = "Yes"
-payment_types = []
+payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 program = ""
-services = []
+services = ["support Groups", "Outpatient and inpatient mental health services"]
 tags = []
 telehealth = "Not applicable"
-website = ""
+website = "www.flushinghospital.org"
+[[addresses]]
+address = "4500 Parsons Blvd"
+phone_number = "718-670-5000"
+[[addresses.hours_of_operation]]
+day_hours = "M-F, 9 am-9 pm"
+[[addresses.hours_of_operation]]
+day_hours = "Sa, 9 am-3 pm"
 
 +++
 **Flushing Hospital Medical Center**
