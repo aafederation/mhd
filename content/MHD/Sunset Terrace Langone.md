@@ -1,7 +1,6 @@
 +++
 ada_compliant = true
 boroughs = ["Brooklyn"]
-draft = true
 email = "hello@nyulangone.org"
 image = ""
 languages = ["Cantonese", "Mandarin", "Japanese", "Korean"]
