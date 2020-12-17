@@ -43,8 +43,7 @@
   {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 {{ end }}
 
-<div class="tf-buttons-container flex-grow">
-  
+<div>
   <h4>Tags</h4>
   <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
     All Tags
