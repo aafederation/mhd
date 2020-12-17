@@ -44,23 +44,25 @@
 {{ end }}
 
 <div>
-  <h4>Tags</h4>
-  <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
-    All Tags
-  </button>
-  {{ range $tags }}
-    {{ if .Term }}
-      <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
-        <span>{{.Term | humanize | title }}</span>
-        <span id="stags-{{ .Term | urlize }}"> -count-</span> | <span id="ctags-{{ .Term | urlize }}"> -count-</span>
-      </button>
-    {{ end }}
-  {{ end }}
-  {{ if gt ( $.Scratch.Get "untagged") 0 }}
-  <button xx class="tag-button" id="tag-tfuntagged" onclick="htf.checkFilter('tfuntagged', 'tag-')">
-    Untagged <span id="stags-tfuntagged"> -count-</span> | <span id="ctags-tfuntagged"> -count-</span>
-  </button>
-  {{ end }}   
+  <h4 class="collapsible">Tags</h4>
+	<div class="content">
+	  <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
+	    All Tags
+	  </button>
+	  {{ range $tags }}
+	    {{ if .Term }}
+	      <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
+	        <span>{{.Term | humanize | title }}</span>
+	        <span id="stags-{{ .Term | urlize }}"> -count-</span> | <span id="ctags-{{ .Term | urlize }}"> -count-</span>
+	      </button>
+	    {{ end }}
+	  {{ end }}
+	  {{ if gt ( $.Scratch.Get "untagged") 0 }}
+	  <button xx class="tag-button" id="tag-tfuntagged" onclick="htf.checkFilter('tfuntagged', 'tag-')">
+	    Untagged <span id="stags-tfuntagged"> -count-</span> | <span id="ctags-tfuntagged"> -count-</span>
+	  </button>
+	  {{ end }}
+  </div>
   <hr >
 
   <h4>Boroughs</h4>
@@ -143,3 +145,19 @@
   <hr>
 <!--END: ADA compliant-->   
 </div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
