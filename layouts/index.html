@@ -151,12 +151,12 @@
 
 <!--BEGIN: language-->
     <h4>Languages</h4>
-    <button xx class="" id="selectAllLanguages" onclick="htf.showAll('boroughs')">
+    <button xx class="" id="selectAllLanguages" onclick="htf.showAll('languages')">
       All Languages
     </button>
     {{ range $languages }}
       {{ if .Term }}
-        <button xx class="language-button" id="language-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'languages-')">
+        <button xx class="language-button" id="language-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'language-')">
           <span>{{.Term | humanize | title }}</span>
           <span id="slanguages-{{ .Term | urlize }}"> -count-</span> | <span id="clanguages-{{ .Term | urlize }}"> -count-</span>
         </button>
@@ -177,7 +177,7 @@
     </button>
     {{ range $payments }}
       {{ if .Term }}
-        <button xx class="payment-button" id="payment-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'payments-')">
+        <button xx class="payment-button" id="payment-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'payment-')">
           <span>{{.Term | humanize | title }}</span>
           <span id="spayments-{{ .Term | urlize }}"> -count-</span> | <span id="cpayments-{{ .Term | urlize }}"> -count-</span>
         </button>
