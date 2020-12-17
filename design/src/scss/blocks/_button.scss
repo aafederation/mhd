@@ -1,0 +1,49 @@
+.button {
+  display: inline-block;
+  padding: 1rem 2.6rem 1.1rem 2.6rem;
+  border: $stroke-width solid get-color('slate');
+  color: get-color('light');
+  font: inherit;
+  font-size: get-size('500');
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
+  font-style: italic;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  @include apply-utility('weight', 'black');
+
+  /// Only applies background where utility is not present
+  &:not([class*='bg-']) {
+    background: get-color('secondary');
+  }
+
+  /// We absolutely want this hover state *regardless* of what
+  /// tokens are present at any given time. This is to ensure consistency
+  &:hover {
+    background: get-color('light') !important;
+    border-color: get-color('dark') !important;
+    color: get-color('secondary-shade') !important;
+  }
+
+  &:focus:not(:hover) {
+    outline: $stroke-width solid get-color('light');
+    outline-offset: -10px;
+    border-color: get-color('tertiary');
+  }
+
+  &:hover:focus {
+    outline: 1px solid get-color('light');
+    outline-offset: 1px;
+  }
+
+  &:active {
+    transform: scale(0.99);
+  }
+
+  /// Size exeptions
+  &[data-size='large'] {
+    font-size: get-size('700');
+  }
+}

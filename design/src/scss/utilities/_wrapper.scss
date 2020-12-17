@@ -1,8 +1,6 @@
 .wrapper {
   max-width: 75rem;
+  padding: 0 get-size('500');
   margin-left: auto;
   margin-right: auto;
-  padding-left: get-size('500');
-  padding-right: get-size('500');
-  position: relative;
 }

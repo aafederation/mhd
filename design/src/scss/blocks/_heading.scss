@@ -1,0 +1,37 @@
+.heading {
+  font-size: get-size('800');
+
+  &[data-type='secondary'] {
+    font-size: get-size('700');
+  }
+
+  &[data-type='tertiary'] {
+    font-size: get-size('700');
+    font-style: italic;
+  }
+
+  // Only applies the serif style to primary and secondary headings
+  &:not([data-type='tertiary']) {
+    @include apply-utility('font', 'serif');
+  }
+
+  @include media-query('md') {
+    font-size: get-size('1000');
+
+    &[data-type='secondary'] {
+      font-size: get-size('900');
+    }
+
+    &[data-type='tertiary'] {
+      font-size: get-size('800');
+    }
+  }
+
+  @include media-query('lg') {
+    font-size: get-size('major');
+
+    &[data-type='secondary'] {
+      font-size: get-size('1000');
+    }
+  }
+}
