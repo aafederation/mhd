@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+<div class="pad-top-1000 wrapper">
 {{ $PageTitle := .Title }}
 
 {{ with .Resources.ByType "image" }}
@@ -16,6 +17,6 @@
 {{ if .NextInSection }}
   <a class="btn btn-light" href="{{ .NextInSection.Permalink }}">Next Post</a>
 {{ end }}
-
+</div>
 
 {{ end }}
