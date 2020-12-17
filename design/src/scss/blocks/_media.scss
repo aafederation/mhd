@@ -1,0 +1,26 @@
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: get-size('500');
+
+  &__caption {
+    flex-grow: 1;
+    flex-basis: 20rem;
+    font-size: get-size('500');
+
+    @include apply-utility('weight', 'bold');
+  }
+
+  &__image {
+    min-width: calc(60% - #{get-size('500')});
+    flex-basis: 0;
+    flex-grow: 999;
+    object-fit: cover;
+  }
+
+  /// Exceptions
+  &[data-layout='reversed'] {
+    flex-direction: row-reverse;
+  }
+}

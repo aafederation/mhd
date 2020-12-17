@@ -1,0 +1,13 @@
+.sign-up {
+  &__form {
+    flex-basis: 20rem;
+
+    input {
+      width: 100%;
+    }
+  }
+
+  .heading {
+    max-width: 10ch;
+  }
+}

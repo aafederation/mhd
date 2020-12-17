@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: get-color('light');
+  font-style: italic;
+  text-transform: uppercase;
+
+  @include apply-utility('weight', 'bold');
+
+  // Tiny gap for where gap isn't supported
+  li {
+    margin: 0.05rem;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover,
+    &[aria-current='page'] {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"name": "cube-css-workshop-project",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node token-processor.js && NODE_ENV=dev npx gulp && NODE_ENV=dev npx gulp watch",
+		"build": "node token-processor.js && npx gulp"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"get-google-fonts": "^1.2.2",
+		"gorko": "^0.2.3",
+		"gulp": "^4.0.2",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-sass": "^4.1.0",
+		"sass": "^1.28.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.1.2"
+	}
+}

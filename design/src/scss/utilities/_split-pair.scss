@@ -1,0 +1,7 @@
+.split-pair {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--split-pair-space, #{get-size('500')});
+}

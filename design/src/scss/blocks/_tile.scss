@@ -1,0 +1,9 @@
+.tile {
+  --flow-space: 1rem;
+  padding-top: get-size('700');
+  padding-inline-start: get-size('700');
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

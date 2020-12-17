@@ -1,0 +1,26 @@
+{
+  "colors": {
+    "dark": "#121111",
+    "light": "#f8f8f8",
+    "primary": "#fdd110",
+    "secondary": "#ea1c5c",
+    "secondary-shade": "#da0044",
+    "tertiary": "#55dde0",
+    "slate": "#2e2e2e"
+  },
+  "fonts": {
+    "base": "'Lato', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+    "serif": "'Coustard', sans-serif"
+  },
+  "sizes": {
+    "300": 10,
+    "400": 16,
+    "500": 20,
+    "600": 25,
+    "700": 31,
+    "800": 39,
+    "900": 48,
+    "1000": 61,
+    "major": 76
+  }
+}
