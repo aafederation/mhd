@@ -10,8 +10,8 @@
 		"white": "#ffffff"
 	},
 	"fonts": {
-		"base": "'Lora', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-		"serif": "'Barlow Condensed', sans-serif"
+		"base": "Oswald",
+		"serif": "Sansita"
 	},
 	"sizes": {
 		"300": 10,
