@@ -18,7 +18,7 @@ const fonts = async () => {
 
 	//Sansita + Oswald
 	const result = await instance.download(
-		"https://fonts.googleapis.com/css?family=Sansita:wght@0,400;0,700;0,900;1,400;1,700;1,900|Oswald:wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+		"https://fonts.googleapis.com/css?family=Sansita:wght@0,400;0,700;0,900;1,400;1,700;1,900|Oswald:wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
 	);
 
 	return result;
