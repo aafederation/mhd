@@ -4,13 +4,8 @@
 .mhd-tiles {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: flex-start;
 	align-content: flex-start;
-	> * {
-		flex-basis: 33%;
-		min-width: 16rem;
-		flex-grow: 1;
-	}
+	justify-content: space-evenly;
 	> .main-filter-col {
 		flex: 1;
 	}
@@ -21,13 +16,12 @@
 /* START: Random properties from original theme */
 // Item card - should go to BLOCK
 .tf-item {
-	width: 250px;
-	margin: 8px;
-	background: #fff;
-	padding: 2rem;
+	width: 18em;
+	margin: 0.5em;
+	padding: 2em;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
-	border-radius: 2px;
-	margin-bottom: 2rem;
+	border-radius: 5px;
+	margin-bottom: 2em;
 }
 // Filter toggle properties
 .tf-filter-item {
