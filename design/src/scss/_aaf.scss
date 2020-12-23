@@ -1,5 +1,4 @@
 // Styles to mimic the AAF website elements
-
 // Social icons styles
 .social_icons {
 	font-style: normal;
@@ -10,12 +9,18 @@
 	-webkit-font-smoothing: antialiased;
 	justify-content: center;
 	text-decoration: none;
+	font-size: 0.8em;
 }
 .social_icons > * > * {
 	padding: 0em 0.3em;
 }
-.social_icons a:hover {
-	text-decoration: none;
+.social_icons.font_icons {
+	a {
+		&:hover {
+			text-decoration: none;
+			color: get-color("secondary");
+		}
+	}
 }
 .mhd-button-widget {
 	padding: 7px 21px;
