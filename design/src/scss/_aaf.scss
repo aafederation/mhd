@@ -1,14 +1,11 @@
 // Styles to mimic the AAF website elements
 // Social icons styles
 .social_icons {
-	font-style: normal;
 	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
+	color: get-color("light");
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	justify-content: center;
-	text-decoration: none;
 	font-size: 0.8em;
 }
 .social_icons > * > * {
@@ -24,7 +21,13 @@
 }
 .mhd-button-widget {
 	padding: 7px 21px;
-	text-decoration: none;
 	border-radius: 5em;
-	font-style: normal;
+}
+// Main menu stylings
+header {
+	a {
+		img {
+			height: 2.5em;
+		}
+	}
 }
