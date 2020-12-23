@@ -1,7 +1,8 @@
-.qodef-button-widget {
+.mhd-button-widget {
 	padding: 7px 21px;
 	text-decoration: none;
 	border-radius: 5em;
+	font-style: normal;
 }
 .mhd-tiles {
 	max-width: 100rem;
@@ -25,15 +26,30 @@
 	line-height: 1.3;
 	letter-spacing: -0.05rem;
 }
-
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
 	background-color: #ccc;
 }
-
 /* Style the collapsible content. Note: hidden by default */
 .content {
 	display: none;
 	overflow: hidden;
+}
+/* Social icons styles */
+.social_icons {
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	justify-content: center;
+	text-decoration: none;
+}
+.social_icons > * > * {
+	padding: 0em 0.3em;
+}
+.social_icons a:hover {
+	text-decoration: none;
 }
