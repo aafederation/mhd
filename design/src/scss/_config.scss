@@ -49,6 +49,16 @@ $gorko-config: (
 		"output": "standard",
 		"property": "padding-bottom",
 	),
+	"pad-left": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "padding-left",
+	),
+	"pad-right": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "padding-right",
+	),
 	"ta": (
 		"items": (
 			"left": "left",
