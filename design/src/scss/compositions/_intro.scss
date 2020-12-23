@@ -1,6 +1,9 @@
 .intro {
-  --flow-space: 0.5rem;
-  .heading {
-    max-width: 10ch;
-  }
+	--flow-space: 0.5rem;
+	.heading {
+		max-width: 10ch;
+	}
+	> * {
+		max-width: 28ch;
+	}
 }
