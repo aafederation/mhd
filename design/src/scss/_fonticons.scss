@@ -6,3 +6,21 @@
 	font-weight: normal;
 	font-style: normal;
 }
+.font_icons {
+	font-family: "ElegantIcons";
+}
+.social_facebook:before {
+	content: "\e093";
+}
+.social_twitter:before {
+	content: "\e094";
+}
+.social_instagram:before {
+	content: "\e09a";
+}
+.social_youtube::before {
+	content: "\e0a3";
+}
+.social_linkedin::before {
+	content: "\e09d";
+}
