@@ -1,14 +1,15 @@
 // Styles specific to mhd website
-.tiles.mhd-tiles {
-	max-width: 100rem;
+.mhd-tiles {
+	display: flex;
+	flex-wrap: wrap;
 	align-items: flex-start;
 	align-content: flex-start;
-}
-.mhd-tiles > .main-filter-col {
-	flex: 1;
-}
-.mhd-tiles > .main-body-col {
-	flex: 4;
+	> .main-filter-col {
+		flex: 1;
+	}
+	> .main-body-col {
+		flex: 4;
+	}
 }
 // Style the button that is used to open and close the collapsible content
 .collapsible {
