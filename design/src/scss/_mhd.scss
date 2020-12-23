@@ -4,6 +4,11 @@
 	flex-wrap: wrap;
 	align-items: flex-start;
 	align-content: flex-start;
+	> * {
+		flex-basis: 33%;
+		min-width: 16rem;
+		flex-grow: 1;
+	}
 	> .main-filter-col {
 		flex: 1;
 	}
@@ -11,16 +16,20 @@
 		flex: 4;
 	}
 }
+// Filter toggle properties
+.tf-filter-item {
+	display: none;
+}
+.show-item {
+	display: inline-block;
+}
 // Style the button that is used to open and close the collapsible content
 .collapsible {
 	background-color: #eee;
 	border-radius: 5em;
 	cursor: pointer;
 	padding: 18px;
-	margin: 10px 10px 10px 0px;
-	font-size: 2rem;
-	line-height: 1.3;
-	letter-spacing: -0.05rem;
+	@include apply-utility("text", "700");
 }
 // Add a background color to the button if it is clicked on (add the .active class with JS),
 // and when you move the mouse over it (hover)
