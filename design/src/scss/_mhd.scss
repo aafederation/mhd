@@ -1,4 +1,6 @@
 // Styles specific to mhd website
+
+// Setting the flex properties: should go to COMPOSITION
 .mhd-tiles {
 	display: flex;
 	flex-wrap: wrap;
@@ -16,6 +18,17 @@
 		flex: 4;
 	}
 }
+/* START: Random properties from original theme */
+// Item card - should go to BLOCK
+.tf-item {
+	width: 250px;
+	margin: 8px;
+	background: #fff;
+	padding: 2rem;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	margin-bottom: 2rem;
+}
 // Filter toggle properties
 .tf-filter-item {
 	display: none;
@@ -23,6 +36,8 @@
 .show-item {
 	display: inline-block;
 }
+/* END: Random properties from original theme */
+
 // Style the button that is used to open and close the collapsible content
 .collapsible {
 	background-color: #eee;
