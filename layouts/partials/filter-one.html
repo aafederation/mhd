@@ -9,7 +9,7 @@
   {{ range .allContent }}
     {{ if .Term }}
 			{{ $termURLize := .Term | replaceRE "[.]" "_" | urlize }}
-      <button class="{{ $filter }}-button" id="{{ $filter }}-{{ $termURLize }}"conclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')">
+      <button class="{{ $filter }}-button" id="{{ $filter }}-{{ $termURLize }}"onclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')">
         <span>{{.Term | humanize | title }}</span>
         <span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> | <span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
       </button>
