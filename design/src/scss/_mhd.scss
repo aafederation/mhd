@@ -12,6 +12,10 @@
 	> .main-body-col {
 		flex: 4;
 	}
+	/// Exceptions
+	&[data-layout="reversed"] {
+		flex-direction: row-reverse;
+	}
 }
 /* START: Random properties from original theme */
 // Item card - should go to BLOCK
