@@ -1,6 +1,6 @@
 {{ $filter := .filter }}
 
-<button class="acc button" onclick="toggleAcc(this)">{{ .filter }}</button>
+<button class="acc button" onclick="toggleAcc(this)">{{ .filter }}s</button>
 <div class="panel">
   <button xx class="" id="{{ print `selectAll` .filter  }}" onclick="htf.showAll({{ .filter }})">
     All {{ $filter }}s
