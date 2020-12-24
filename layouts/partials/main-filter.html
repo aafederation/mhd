@@ -63,23 +63,25 @@
 </div>
 <hr >
 
-<h4>Boroughs</h4>
-<button xx class="" id="selectAllBoroughs" onclick="htf.showAll('boroughs')">
-  All Boroughs
-</button>
-{{ range $boroughs }}
-  {{ if .Term }}
-    <button xx class="borough-button" id="borough-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'borough-')">
-      <span>{{.Term | humanize | title }}</span>
-      <span id="sboroughs-{{ .Term | urlize }}"> -count-</span> | <span id="cboroughs-{{ .Term | urlize }}"> -count-</span>
-    </button>
-  {{ end }}
-{{ end }}
-{{ if gt ( $.Scratch.Get "noBoroughs") 0 }}
-<button xx class="borough-button" id="borough-no-boroughs" onclick="htf.checkFilter('no-boroughs', 'borough-')">
-  No boroughs <span id="sboroughs-no-boroughs"> -count-</span> | <span id="cboroughs-no-boroughs"> -count-</span>
-</button>
-{{ end }}   
+<button class="collapsible button">Boroughs</button>
+<div class="content">
+	<button xx class="" id="selectAllBoroughs" onclick="htf.showAll('boroughs')">
+	  All Boroughs
+	</button>
+	{{ range $boroughs }}
+	  {{ if .Term }}
+	    <button xx class="borough-button" id="borough-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'borough-')">
+	      <span>{{.Term | humanize | title }}</span>
+	      <span id="sboroughs-{{ .Term | urlize }}"> -count-</span> | <span id="cboroughs-{{ .Term | urlize }}"> -count-</span>
+	    </button>
+	  {{ end }}
+	{{ end }}
+	{{ if gt ( $.Scratch.Get "noBoroughs") 0 }}
+	<button xx class="borough-button" id="borough-no-boroughs" onclick="htf.checkFilter('no-boroughs', 'borough-')">
+	  No boroughs <span id="sboroughs-no-boroughs"> -count-</span> | <span id="cboroughs-no-boroughs"> -count-</span>
+	</button>
+	{{ end }}  
+</div> 
 <hr >
 
 <!--BEGIN: language-->
