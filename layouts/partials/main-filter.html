@@ -42,7 +42,7 @@
   {{ with .Params.languages }}{{ else }}{{ $.Scratch.Add "noLanguages" 1 }}{{ end }}
   {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 {{ end }}
-<h4 class="collapsible">Tags</h4>
+<button class="collapsible button">Tags</button>
 <div class="content">
   <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
     All Tags

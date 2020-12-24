@@ -1,6 +1,6 @@
 .button {
 	display: inline-block;
-	padding: 1rem 2.6rem 1.1rem 2.6rem;
+	padding: 0.5rem 2.6rem 0.5rem 2.6rem;
 	border: $stroke-width solid get-color("slate");
 	color: get-color("light");
 	font: inherit;
@@ -8,15 +8,16 @@
 	line-height: 1;
 	text-decoration: none;
 	text-align: center;
-	font-style: italic;
 	text-transform: uppercase;
+
 	cursor: pointer;
+	border-radius: 1rem;
 
 	@include apply-utility("weight", "black");
 
 	/// Only applies background where utility is not present
 	&:not([class*="bg-"]) {
-		background: get-color("secondary");
+		background: get-color("primary");
 	}
 
 	/// We absolutely want this hover state *regardless* of what
@@ -28,7 +29,7 @@
 	}
 
 	&:focus:not(:hover) {
-		outline: $stroke-width solid get-color("light");
+		outline: none;
 		outline-offset: -10px;
 		border-color: get-color("tertiary");
 	}
