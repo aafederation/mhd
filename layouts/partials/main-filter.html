@@ -47,29 +47,8 @@
 <hr>
 {{ partial "filter-one.html" (dict "filter" "borough" "noCount" ($.Scratch.Get "noBoroughs") "allContent" $boroughs )}}
 <hr>
-<!--BEGIN: language-->
-<button class="acc button" onclick="toggleAcc(this)">Languages</button>
-<div class="panel">
-	<button xx class="" id="selectAllLanguages" onclick="htf.showAll('languages')">
-	  All Languages
-	</button>
-	{{ range $languages }}
-	  {{ if .Term }}
-	    <button xx class="language-button" id="language-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'language-')">
-	      <span>{{.Term | humanize | title }}</span>
-	      <span id="slanguages-{{ .Term | urlize }}"> -count-</span> | <span id="clanguages-{{ .Term | urlize }}"> -count-</span>
-	    </button>
-	  {{ end }}
-	{{ end }}
-	{{ if gt ( $.Scratch.Get "noLanguages") 0 }}
-	<button xx class="language-button" id="language-no-languages" onclick="htf.checkFilter('no-languages', 'language-')">
-	  No languages <span id="slanguages-no-languages"> -count-</span> | <span id="clanguages-no-languages"> -count-</span>
-	</button>
-	{{ end }}   
-</div>
-<hr >
-<!--END: language-->
-
+{{ partial "filter-one.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages )}}
+<hr>
 <!--BEGIN: payment types-->
 <button class="acc button" onclick="toggleAcc(this)">Payment types</button>
 <div class="panel">

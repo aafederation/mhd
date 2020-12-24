@@ -20,13 +20,13 @@ var htfConfig = {
 			countPrefix: "cborough-",
 		},
 		{
-			name: "languages",
+			name: "language",
 			prefix: "language-",
 			buttonClass: "language-button",
-			allSelector: "#selectAllLanguages",
-			attrName: "data-languages",
-			selectedPrefix: "slanguages-",
-			countPrefix: "clanguages-",
+			allSelector: "#selectAlllanguage",
+			attrName: "data-language",
+			selectedPrefix: "slanguage-",
+			countPrefix: "clanguage-",
 		},
 		{
 			name: "payments",
