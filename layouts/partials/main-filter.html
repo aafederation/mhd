@@ -51,22 +51,5 @@
 <hr>
 {{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments )}}
 <hr>
-<!--BEGIN: ADA compliance-->
-<button class="acc button" onclick="toggleAcc(this)">ADA Compliance</button>
-<div class="panel">
-	<button id="selectAllADAcompliants" onclick="htf.showAll('ADAcompliants')">
-	  All Compliances
-	</button>
-	{{ range $.Scratch.Get "ADAcompliants" }}
-	  <button class="ADAcompliant-button" id="ADAcompliant-{{ . | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('true', 'ADAcompliant-')">
-	    {{ . }} <span id="sADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span> | <span id="cADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span>
-	  </button>
-	{{ end }}
-	{{ if gt ( $.Scratch.Get "notADAcompliants") 0 }}
-	<button class="ADAcompliant-button" id="ADAcompliant-false" onclick="htf.checkFilter('false', 'ADAcompliant-')">
-	  false <span id="sADAcompliants-false"> -count-</span> | <span id="cADAcompliants-false"> -count-</span>
-	</button>
-	{{ end }}
-</div>
+{{ partial "filter-non-taxonomy.html" (dict "filter" "ADAcompliance" "noTitle" "false" "noCount" ($.Scratch.Get "notADAcompliants") "allContent" ($.Scratch.Get "ADAcompliants") )}}
 <hr>
-<!--END: ADA compliant-->
