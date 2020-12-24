@@ -1,10 +1,10 @@
 .button {
 	display: inline-block;
-	padding: 0.5rem 2.6rem 0.5rem 2.6rem;
+	padding: 0.5rem 1rem 0.5rem 2rem;
 	border: $stroke-width solid get-color("slate");
 	color: get-color("light");
 	font: inherit;
-	font-size: get-size("500");
+	font-size: get-size("400");
 	line-height: 1;
 	text-decoration: none;
 	text-align: center;
@@ -25,7 +25,7 @@
 	&:hover {
 		background: get-color("light") !important;
 		border-color: get-color("dark") !important;
-		color: get-color("secondary-shade") !important;
+		color: get-color("primary") !important;
 	}
 
 	&:focus:not(:hover) {
@@ -48,3 +48,13 @@
 		font-size: get-size("700");
 	}
 }
+/*START: LAST ITEMS FROM TEMPLATE*/
+// Active filters
+button.active {
+	background-color: #ddd;
+}
+// Filters with no current filtered results
+button.disable-button {
+	border-style: dashed;
+}
+/*END: LAST ITEMS FROM TEMPLATE*/

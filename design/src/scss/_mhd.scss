@@ -45,21 +45,13 @@
 }
 
 .acc:after {
-	content: "\02795";
-	color: #fff;
+	font-family: "ElegantIcons";
+	content: "\3b";
+	font-size: get-size("400");
 	margin-left: 5px;
 }
 
 .acc.active:after {
-	content: "\2796";
+	content: "\3a";
 }
 /*END: ACCORDION*/
-/*START: LAST ITEMS FROM TEMPLATE*/
-button.active {
-	background-color: #ddd;
-}
-
-button.disable-button {
-	border-style: dashed;
-}
-/*END: LAST ITEMS FROM TEMPLATE*/
