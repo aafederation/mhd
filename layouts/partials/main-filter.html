@@ -43,13 +43,13 @@
   {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 {{ end }}
 
-{{ partial "filter-one.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
+{{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
 <hr>
-{{ partial "filter-one.html" (dict "filter" "borough" "noCount" ($.Scratch.Get "noBoroughs") "allContent" $boroughs )}}
+{{ partial "filter-taxonomy.html" (dict "filter" "borough" "noCount" ($.Scratch.Get "noBoroughs") "allContent" $boroughs )}}
 <hr>
-{{ partial "filter-one.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages )}}
+{{ partial "filter-taxonomy.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages )}}
 <hr>
-{{ partial "filter-one.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments )}}
+{{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments )}}
 <hr>
 <!--BEGIN: ADA compliance-->
 <button class="acc button" onclick="toggleAcc(this)">ADA Compliance</button>
