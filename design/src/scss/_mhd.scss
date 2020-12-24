@@ -5,7 +5,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	> .main-filter-col {
 		flex: 1;
 	}
