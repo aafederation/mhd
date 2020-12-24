@@ -43,7 +43,7 @@
   {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 {{ end }}
 
-{{ partial "filter-one.html" (dict "singular" "Tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
+{{ partial "filter-one.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
 <hr >
 
 <button class="acc button" onclick="toggleAcc(this)">Boroughs</button>

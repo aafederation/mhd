@@ -2,13 +2,13 @@ var htfConfig = {
 	//FILTER DECLARATION FOR JAVASCRIPT
 	filters: [
 		{
-			name: "tags",
+			name: "tag",
 			prefix: "tag-",
 			buttonClass: "tag-button",
-			allSelector: "#selectAllTags",
-			attrName: "data-tags",
-			selectedPrefix: "stags-",
-			countPrefix: "ctags-",
+			allSelector: "#selectAlltag",
+			attrName: "data-tag",
+			selectedPrefix: "stag-",
+			countPrefix: "ctag-",
 		},
 		{
 			name: "boroughs",

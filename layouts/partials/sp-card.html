@@ -1,5 +1,5 @@
 <div  class="tf-filter-item tf-item" 
-      data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} tfuntagged{{ end }}"
+      data-tag="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-tag{{ end }}"
       data-boroughs="{{ with .Params.boroughs }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-boroughs{{ end }}"
       data-languages="{{ with .Params.languages }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-languages{{ end }}"
       data-payments="{{ with .Params.payment_types }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-payments{{ end }}"

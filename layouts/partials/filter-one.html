@@ -1,25 +1,21 @@
-{{ $singular := .singular }}
-{{ $plural := print $singular "s" }}
-{{ $lower := print "tag" }}
-{{ $lowerPlural := print $lower "s" }}
-{{ $selectAll := print "selectAll" $plural }}
+{{ $filter := .filter }}
 
-<button class="acc button" onclick="toggleAcc(this)">{{ $plural }}</button>
+<button class="acc button" onclick="toggleAcc(this)">{{ .filter }}</button>
 <div class="panel">
-  <button xx class="" id="{{ $selectAll }}" onclick="htf.showAll({{ $lowerPlural }})">
-    All {{ $plural }}
+  <button xx class="" id="{{ print `selectAll` .filter  }}" onclick="htf.showAll({{ .filter }})">
+    All {{ $filter }}s
   </button>
   {{ range .allContent }}
     {{ if .Term }}
-      <button xx class="{{ $lower }}-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
+      <button xx class="{{ $filter }}-button" id="{{ $filter }}-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', '{{ $filter }}-')">
         <span>{{.Term | humanize | title }}</span>
-        <span id="stags-{{ .Term | urlize }}"> -count-</span> | <span id="ctags-{{ .Term | urlize }}"> -count-</span>
+        <span id="s{{ $filter }}-{{ .Term | urlize }}"> -count-</span> | <span id="c{{ $filter }}-{{ .Term | urlize }}"> -count-</span>
       </button>
     {{ end }}
   {{ end }}
   {{ if gt .noCount 0 }}
-  <button xx class="tag-button" id="tag-tfuntagged" onclick="htf.checkFilter('tfuntagged', 'tag-')">
-    Untagged <span id="stags-tfuntagged"> -count-</span> | <span id="ctags-tfuntagged"> -count-</span>
+  <button xx class="{{ $filter }}-button" id="{{ $filter }}-no-{{ $filter }}" onclick="htf.checkFilter('no-{{ $filter }}', '{{ $filter }}-')">
+    No {{ $filter }}s <span id="s{{ $filter }}-no-{{ $filter }}"> -count-</span> | <span id="c{{ $filter }}-no-{{ $filter }}"> -count-</span>
   </button>
   {{ end }}
 </div>
