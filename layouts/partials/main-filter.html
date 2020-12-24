@@ -42,8 +42,9 @@
   {{ with .Params.languages }}{{ else }}{{ $.Scratch.Add "noLanguages" 1 }}{{ end }}
   {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 {{ end }}
-<button class="collapsible button">Tags</button>
-<div class="content">
+
+<button class="acc button" onclick="toggleAcc(this)">Tags</button>
+<div class="panel">
   <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
     All Tags
   </button>
@@ -63,8 +64,8 @@
 </div>
 <hr >
 
-<button class="collapsible button">Boroughs</button>
-<div class="content">
+<button class="acc button" onclick="toggleAcc(this)">Boroughs</button>
+<div class="panel">
 	<button xx class="" id="selectAllBoroughs" onclick="htf.showAll('boroughs')">
 	  All Boroughs
 	</button>
@@ -85,79 +86,67 @@
 <hr >
 
 <!--BEGIN: language-->
-<h4>Languages</h4>
-<button xx class="" id="selectAllLanguages" onclick="htf.showAll('languages')">
-  All Languages
-</button>
-{{ range $languages }}
-  {{ if .Term }}
-    <button xx class="language-button" id="language-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'language-')">
-      <span>{{.Term | humanize | title }}</span>
-      <span id="slanguages-{{ .Term | urlize }}"> -count-</span> | <span id="clanguages-{{ .Term | urlize }}"> -count-</span>
-    </button>
-  {{ end }}
-{{ end }}
-{{ if gt ( $.Scratch.Get "noLanguages") 0 }}
-<button xx class="language-button" id="language-no-languages" onclick="htf.checkFilter('no-languages', 'language-')">
-  No languages <span id="slanguages-no-languages"> -count-</span> | <span id="clanguages-no-languages"> -count-</span>
-</button>
-{{ end }}   
+<button class="acc button" onclick="toggleAcc(this)">Languages</button>
+<div class="panel">
+	<button xx class="" id="selectAllLanguages" onclick="htf.showAll('languages')">
+	  All Languages
+	</button>
+	{{ range $languages }}
+	  {{ if .Term }}
+	    <button xx class="language-button" id="language-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'language-')">
+	      <span>{{.Term | humanize | title }}</span>
+	      <span id="slanguages-{{ .Term | urlize }}"> -count-</span> | <span id="clanguages-{{ .Term | urlize }}"> -count-</span>
+	    </button>
+	  {{ end }}
+	{{ end }}
+	{{ if gt ( $.Scratch.Get "noLanguages") 0 }}
+	<button xx class="language-button" id="language-no-languages" onclick="htf.checkFilter('no-languages', 'language-')">
+	  No languages <span id="slanguages-no-languages"> -count-</span> | <span id="clanguages-no-languages"> -count-</span>
+	</button>
+	{{ end }}   
+</div>
 <hr >
 <!--END: language-->
 
 <!--BEGIN: payment types-->
-<h4>Payment types</h4>
-<button xx class="" id="selectAllPayments" onclick="htf.showAll('payments')">
-  All Payment types
-</button>
-{{ range $payments }}
-  {{ if .Term }}
-    <button xx class="payment-button" id="payment-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'payment-')">
-      <span>{{.Term | humanize | title }}</span>
-      <span id="spayments-{{ .Term | urlize }}"> -count-</span> | <span id="cpayments-{{ .Term | urlize }}"> -count-</span>
-    </button>
-  {{ end }}
-{{ end }}
-{{ if gt ( $.Scratch.Get "noPayments") 0 }}
-<button xx class="payment-button" id="payment-no-payments" onclick="htf.checkFilter('no-payments', 'payment-')">
-  No payment types <span id="spayments-no-payments"> -count-</span> | <span id="cpayments-no-payments"> -count-</span>
-</button>
-{{ end }}   
+<button class="acc button" onclick="toggleAcc(this)">Payment types</button>
+<div class="panel">
+	<button xx class="" id="selectAllPayments" onclick="htf.showAll('payments')">
+	  All Payment types
+	</button>
+	{{ range $payments }}
+	  {{ if .Term }}
+	    <button xx class="payment-button" id="payment-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'payment-')">
+	      <span>{{.Term | humanize | title }}</span>
+	      <span id="spayments-{{ .Term | urlize }}"> -count-</span> | <span id="cpayments-{{ .Term | urlize }}"> -count-</span>
+	    </button>
+	  {{ end }}
+	{{ end }}
+	{{ if gt ( $.Scratch.Get "noPayments") 0 }}
+	<button xx class="payment-button" id="payment-no-payments" onclick="htf.checkFilter('no-payments', 'payment-')">
+	  No payment types <span id="spayments-no-payments"> -count-</span> | <span id="cpayments-no-payments"> -count-</span>
+	</button>
+	{{ end }}
+</div>
 <hr >
 <!--END: payment types-->
 
 <!--BEGIN: ADA compliance-->
-<h4>ADA Compliance</h4>
-<button xx id="selectAllADAcompliants" onclick="htf.showAll('ADAcompliants')">
-  All Compliances
-</button>
-{{ range $.Scratch.Get "ADAcompliants" }}
-  <button xx class="ADAcompliant-button" id="ADAcompliant-{{ . | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('true', 'ADAcompliant-')">
-    {{ . }} <span id="sADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span> | <span id="cADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span>
-  </button>
-{{ end }}
-{{ if gt ( $.Scratch.Get "notADAcompliants") 0 }}
-<button xx class="ADAcompliant-button" id="ADAcompliant-false" onclick="htf.checkFilter('false', 'ADAcompliant-')">
-  false <span id="sADAcompliants-false"> -count-</span> | <span id="cADAcompliants-false"> -count-</span>
-</button>
-{{ end }}
-
+<button class="acc button" onclick="toggleAcc(this)">ADA Compliance</button>
+<div class="panel">
+	<button xx id="selectAllADAcompliants" onclick="htf.showAll('ADAcompliants')">
+	  All Compliances
+	</button>
+	{{ range $.Scratch.Get "ADAcompliants" }}
+	  <button xx class="ADAcompliant-button" id="ADAcompliant-{{ . | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('true', 'ADAcompliant-')">
+	    {{ . }} <span id="sADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span> | <span id="cADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span>
+	  </button>
+	{{ end }}
+	{{ if gt ( $.Scratch.Get "notADAcompliants") 0 }}
+	<button xx class="ADAcompliant-button" id="ADAcompliant-false" onclick="htf.checkFilter('false', 'ADAcompliant-')">
+	  false <span id="sADAcompliants-false"> -count-</span> | <span id="cADAcompliants-false"> -count-</span>
+	</button>
+	{{ end }}
+</div>
 <hr>
-<!--END: ADA compliant-->   
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+<!--END: ADA compliant-->

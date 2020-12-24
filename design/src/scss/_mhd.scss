@@ -36,8 +36,30 @@
 }
 /* END: Random properties from original theme */
 
-// Style the collapsible content. Note: hidden by default
-.content {
-	display: none;
+/*START: ACCORDION Style the collapsible content*/
+.panel {
+	padding: 0 18px;
+	max-height: 0;
 	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
+
+.acc:after {
+	content: "\02795";
+	color: #fff;
+	margin-left: 5px;
+}
+
+.acc.active:after {
+	content: "\2796";
+}
+/*END: ACCORDION*/
+/*START: LAST ITEMS FROM TEMPLATE*/
+button.active {
+	background-color: #ddd;
+}
+
+button.disable-button {
+	border-style: dashed;
+}
+/*END: LAST ITEMS FROM TEMPLATE*/
