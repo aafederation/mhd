@@ -1,0 +1,25 @@
+{{ $singular := .singular }}
+{{ $plural := print $singular "s" }}
+{{ $lower := print "tag" }}
+{{ $lowerPlural := print $lower "s" }}
+{{ $selectAll := print "selectAll" $plural }}
+
+<button class="acc button" onclick="toggleAcc(this)">{{ $plural }}</button>
+<div class="panel">
+  <button xx class="" id="{{ $selectAll }}" onclick="htf.showAll({{ $lowerPlural }})">
+    All {{ $plural }}
+  </button>
+  {{ range .allContent }}
+    {{ if .Term }}
+      <button xx class="{{ $lower }}-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
+        <span>{{.Term | humanize | title }}</span>
+        <span id="stags-{{ .Term | urlize }}"> -count-</span> | <span id="ctags-{{ .Term | urlize }}"> -count-</span>
+      </button>
+    {{ end }}
+  {{ end }}
+  {{ if gt .noCount 0 }}
+  <button xx class="tag-button" id="tag-tfuntagged" onclick="htf.checkFilter('tfuntagged', 'tag-')">
+    Untagged <span id="stags-tfuntagged"> -count-</span> | <span id="ctags-tfuntagged"> -count-</span>
+  </button>
+  {{ end }}
+</div>
