@@ -43,25 +43,7 @@
   {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 {{ end }}
 
-<button class="acc button" onclick="toggleAcc(this)">Tags</button>
-<div class="panel">
-  <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
-    All Tags
-  </button>
-  {{ range $tags }}
-    {{ if .Term }}
-      <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
-        <span>{{.Term | humanize | title }}</span>
-        <span id="stags-{{ .Term | urlize }}"> -count-</span> | <span id="ctags-{{ .Term | urlize }}"> -count-</span>
-      </button>
-    {{ end }}
-  {{ end }}
-  {{ if gt ( $.Scratch.Get "untagged") 0 }}
-  <button xx class="tag-button" id="tag-tfuntagged" onclick="htf.checkFilter('tfuntagged', 'tag-')">
-    Untagged <span id="stags-tfuntagged"> -count-</span> | <span id="ctags-tfuntagged"> -count-</span>
-  </button>
-  {{ end }}
-</div>
+{{ partial "filter-one.html" (dict "singular" "Tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
 <hr >
 
 <button class="acc button" onclick="toggleAcc(this)">Boroughs</button>
