@@ -54,16 +54,16 @@
 <!--BEGIN: ADA compliance-->
 <button class="acc button" onclick="toggleAcc(this)">ADA Compliance</button>
 <div class="panel">
-	<button xx id="selectAllADAcompliants" onclick="htf.showAll('ADAcompliants')">
+	<button id="selectAllADAcompliants" onclick="htf.showAll('ADAcompliants')">
 	  All Compliances
 	</button>
 	{{ range $.Scratch.Get "ADAcompliants" }}
-	  <button xx class="ADAcompliant-button" id="ADAcompliant-{{ . | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('true', 'ADAcompliant-')">
+	  <button class="ADAcompliant-button" id="ADAcompliant-{{ . | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('true', 'ADAcompliant-')">
 	    {{ . }} <span id="sADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span> | <span id="cADAcompliants-{{ . | replaceRE "[.]" "_" | urlize }}"> -count-</span>
 	  </button>
 	{{ end }}
 	{{ if gt ( $.Scratch.Get "notADAcompliants") 0 }}
-	<button xx class="ADAcompliant-button" id="ADAcompliant-false" onclick="htf.checkFilter('false', 'ADAcompliant-')">
+	<button class="ADAcompliant-button" id="ADAcompliant-false" onclick="htf.checkFilter('false', 'ADAcompliant-')">
 	  false <span id="sADAcompliants-false"> -count-</span> | <span id="cADAcompliants-false"> -count-</span>
 	</button>
 	{{ end }}
