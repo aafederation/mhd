@@ -44,29 +44,9 @@
 {{ end }}
 
 {{ partial "filter-one.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
-<hr >
-
-<button class="acc button" onclick="toggleAcc(this)">Boroughs</button>
-<div class="panel">
-	<button xx class="" id="selectAllBoroughs" onclick="htf.showAll('boroughs')">
-	  All Boroughs
-	</button>
-	{{ range $boroughs }}
-	  {{ if .Term }}
-	    <button xx class="borough-button" id="borough-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'borough-')">
-	      <span>{{.Term | humanize | title }}</span>
-	      <span id="sboroughs-{{ .Term | urlize }}"> -count-</span> | <span id="cboroughs-{{ .Term | urlize }}"> -count-</span>
-	    </button>
-	  {{ end }}
-	{{ end }}
-	{{ if gt ( $.Scratch.Get "noBoroughs") 0 }}
-	<button xx class="borough-button" id="borough-no-boroughs" onclick="htf.checkFilter('no-boroughs', 'borough-')">
-	  No boroughs <span id="sboroughs-no-boroughs"> -count-</span> | <span id="cboroughs-no-boroughs"> -count-</span>
-	</button>
-	{{ end }}  
-</div> 
-<hr >
-
+<hr>
+{{ partial "filter-one.html" (dict "filter" "borough" "noCount" ($.Scratch.Get "noBoroughs") "allContent" $boroughs )}}
+<hr>
 <!--BEGIN: language-->
 <button class="acc button" onclick="toggleAcc(this)">Languages</button>
 <div class="panel">

@@ -1,6 +1,6 @@
 <div  class="tf-filter-item tf-item" 
       data-tag="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-tag{{ end }}"
-      data-boroughs="{{ with .Params.boroughs }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-boroughs{{ end }}"
+      data-borough="{{ with .Params.boroughs }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-borough{{ end }}"
       data-languages="{{ with .Params.languages }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-languages{{ end }}"
       data-payments="{{ with .Params.payment_types }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{ else }} no-payments{{ end }}"
       data-section="{{ .Section }}"

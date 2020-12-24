@@ -11,13 +11,13 @@ var htfConfig = {
 			countPrefix: "ctag-",
 		},
 		{
-			name: "boroughs",
+			name: "borough",
 			prefix: "borough-",
 			buttonClass: "borough-button",
-			allSelector: "#selectAllBoroughs",
-			attrName: "data-boroughs",
-			selectedPrefix: "sboroughs-",
-			countPrefix: "cboroughs-",
+			allSelector: "#selectAllborough",
+			attrName: "data-borough",
+			selectedPrefix: "sborough-",
+			countPrefix: "cborough-",
 		},
 		{
 			name: "languages",
