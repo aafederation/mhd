@@ -29,13 +29,13 @@ var htfConfig = {
 			countPrefix: "clanguage-",
 		},
 		{
-			name: "payments",
+			name: "payment",
 			prefix: "payment-",
 			buttonClass: "payment-button",
-			allSelector: "#selectAllPayments",
-			attrName: "data-payments",
-			selectedPrefix: "spayments-",
-			countPrefix: "cpayments-",
+			allSelector: "#selectAllpayment",
+			attrName: "data-payment",
+			selectedPrefix: "spayment-",
+			countPrefix: "cpayment-",
 		},
 		{
 			name: "ADAcompliants",
