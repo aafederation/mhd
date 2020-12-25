@@ -254,13 +254,45 @@ class HugoTagsFilter {
 	addClassIfMissing(el, cn) {
 		if (!el.classList.contains(cn)) {
 			el.classList.add(cn);
+			if (cn.toLowerCase().trim() === "active" && el.classList.length > 1) {
+				this.addPillButton(el);
+			}
 		}
 	}
 
 	delClassIfPresent(el, cn) {
 		if (el.classList.contains(cn)) {
 			el.classList.remove(cn);
+
+			if (cn.toLowerCase().trim() === "active" && el.classList.length > 0) {
+				const btnToRemove = document.getElementById("pill-" + el.getAttribute("id"));
+				btnToRemove.remove();
+			}
 		}
+	}
+
+	/**
+	 * addPillButton - Put filter buttons on top
+	 */
+	addPillButton(el) {
+		const filterId = el.getAttribute("id");
+		const newBtnPrefix = "pill";
+		const newBtnId = newBtnPrefix + "-" + filterId;
+		const newBtnClassList = "button";
+		const containerDivId = `#filter-refine-${newBtnPrefix}s`;
+		const onClickFunc = el.getAttribute("onclick");
+
+		const containerDiv = document.querySelector(containerDivId);
+		const newBtn = document.createElement("button");
+		const newBtnContent = document.createTextNode(filterId);
+
+		newBtn.appendChild(newBtnContent);
+		newBtn.classList.add(newBtnClassList);
+		newBtn.setAttribute("data-size", newBtnPrefix);
+		newBtn.setAttribute("id", newBtnId);
+		newBtn.setAttribute("onclick", onClickFunc);
+
+		containerDiv.appendChild(newBtn);
 	}
 }
 
