@@ -37,6 +37,7 @@ class HugoTagsFilter {
 		this.selectedItemCount = 0;
 		this.itemsShown = 0;
 		this.itemsToShow = 3;
+		this.showPaginate = false;
 
 		this.filterValues = {};
 
@@ -196,6 +197,7 @@ class HugoTagsFilter {
 
 		this.selectedItemCount = 0;
 		this.itemsShown = 0;
+		this.showPaginate = false;
 
 		for (var i = 0; i < this.filterItems.length; i++) {
 			/* First remove "show" class */
@@ -272,7 +274,7 @@ class HugoTagsFilter {
 				// then we will show the 'Fetch More' option here
 				if (this.itemsShown >= this.itemsToShow) {
 					el.classList.add("read-more");
-					console.log(this.itemsShown);
+					this.showPaginate = true;
 				} else this.itemsShown++;
 			}
 		}
