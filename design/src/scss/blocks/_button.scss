@@ -1,6 +1,6 @@
 .button {
 	display: inline-block;
-	padding: 0.5rem 1rem 0.5rem 2rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
 	border: $stroke-width solid get-color("slate");
 	color: get-color("light");
 	font: inherit;
@@ -23,9 +23,9 @@
 	/// We absolutely want this hover state *regardless* of what
 	/// tokens are present at any given time. This is to ensure consistency
 	&:hover {
-		background: get-color("light") !important;
-		border-color: get-color("dark") !important;
-		color: get-color("primary") !important;
+		background: get-color("light");
+		border-color: get-color("dark");
+		color: get-color("primary");
 	}
 
 	&:focus:not(:hover) {
@@ -46,6 +46,24 @@
 	/// Size exeptions
 	&[data-size="large"] {
 		font-size: get-size("700");
+	}
+	/// Type exeptions
+	&[data-size="pill"] {
+		border: none;
+		background: get-color("light");
+		color: get-color("dark");
+		font-size: get-size("400") * 0.8;
+
+		&:hover {
+			background: get-color("primary");
+			color: get-color("white");
+		}
+
+		&:after {
+			font-family: "ElegantIcons";
+			content: "\51";
+			margin-left: 5px;
+		}
 	}
 }
 /*START: LAST ITEMS FROM TEMPLATE*/
