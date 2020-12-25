@@ -35,6 +35,8 @@ class HugoTagsFilter {
 
 		this.filterItems = document.getElementsByClassName(this.filterItemClass);
 		this.selectedItemCount = 0;
+		this.itemsShown = 0;
+		this.itemsToShow = 3;
 
 		this.filterValues = {};
 
@@ -193,6 +195,7 @@ class HugoTagsFilter {
 		}
 
 		this.selectedItemCount = 0;
+		this.itemsShown = 0;
 
 		for (var i = 0; i < this.filterItems.length; i++) {
 			/* First remove "show" class */
@@ -254,8 +257,23 @@ class HugoTagsFilter {
 	addClassIfMissing(el, cn) {
 		if (!el.classList.contains(cn)) {
 			el.classList.add(cn);
-			if (cn.toLowerCase().trim() === "active" && el.classList.length > 1) {
-				this.addPillButton(el);
+
+			// this case is for filters
+			if (cn.toLowerCase().trim() === "active") {
+				// this case checks for the ALL vs the other options
+				if (el.classList.length > 1) {
+					// if other options, then add the filter pill
+					this.addPillButton(el);
+				}
+			}
+			// this case is for the items being shown
+			else {
+				// hide items if result is more than items per page
+				// then we will show the 'Fetch More' option here
+				if (this.itemsShown >= this.itemsToShow) {
+					el.classList.add("read-more");
+					console.log(this.itemsShown);
+				} else this.itemsShown++;
 			}
 		}
 	}
@@ -264,9 +282,18 @@ class HugoTagsFilter {
 		if (el.classList.contains(cn)) {
 			el.classList.remove(cn);
 
-			if (cn.toLowerCase().trim() === "active" && el.classList.length > 0) {
-				const btnToRemove = document.getElementById("pill-" + el.getAttribute("id"));
-				btnToRemove.remove();
+			// this case is for filters
+			if (cn.toLowerCase().trim() === "active") {
+				// this case checks for the ALL vs the other options
+				if (el.classList.length > 0) {
+					//if other options, then remove the filter pill
+					const btnToRemove = document.getElementById("pill-" + el.getAttribute("id"));
+					btnToRemove.remove();
+				}
+			}
+			// this case is for the items being shown
+			else {
+				el.classList.remove("read-more");
 			}
 		}
 	}
