@@ -1,7 +1,7 @@
 <h2><span id="selectedItemCount"></span> Items</h2>
-<div class="mhd-tiles">      
-{{ range .Site.RegularPages.ByPublishDate.Reverse }}
+<div class="mhd-tiles">
+	{{ range .Site.RegularPages.ByPublishDate.Reverse }}
 	<!--FILTER DATA DECLARATION-->
-	{{ partial "sp-card.html" . }}	
-{{ end }}
+		{{ partial "sp-card.html" . }} 
+	{{ end }}
 </div>
