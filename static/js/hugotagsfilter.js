@@ -37,7 +37,7 @@ class HugoTagsFilter {
 		this.filterItems = document.getElementsByClassName(this.filterItemClass);
 		this.selectedItemCount = 0;
 		this.itemsShown = 0;
-		this.itemsToShow = 3;
+		this.itemsToShow = 6;
 		this.itemsToShowIncrement = this.itemsToShow;
 
 		this.filterValues = {};
