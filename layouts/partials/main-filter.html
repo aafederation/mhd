@@ -44,12 +44,7 @@
 {{ end }}
 
 {{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
-<hr>
 {{ partial "filter-taxonomy.html" (dict "filter" "borough" "noCount" ($.Scratch.Get "noBoroughs") "allContent" $boroughs )}}
-<hr>
 {{ partial "filter-taxonomy.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages )}}
-<hr>
 {{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments )}}
-<hr>
 {{ partial "filter-non-taxonomy.html" (dict "filter" "ADAcompliance" "noTitle" "false" "noCount" ($.Scratch.Get "notADAcompliants") "allContent" ($.Scratch.Get "ADAcompliants") )}}
-<hr>
