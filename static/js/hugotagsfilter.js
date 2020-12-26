@@ -29,6 +29,7 @@ class HugoTagsFilter {
 		this.activeButtonClass = config && config.activeButtonClass ? config.activeButtonClass : "active";
 		this.filterItemClass = config && config.filterItemClass ? config.filterItemClass : "tf-filter-item";
 		this.counterSelector = config && config.counterSelector ? config.counterSelector : "selectedItemCount";
+		this.readMore = config && config.readMore ? config.readMore : "read-more";
 
 		this.populateCount = config && config.populateCount ? config.populateCount : false;
 		this.setDisabledButtonClass = config && config.setDisabledButtonClass ? config.setDisabledButtonClass : false;
@@ -37,7 +38,7 @@ class HugoTagsFilter {
 		this.selectedItemCount = 0;
 		this.itemsShown = 0;
 		this.itemsToShow = 3;
-		this.showPaginate = false;
+		this.itemsToShowIncrement = this.itemsToShow;
 
 		this.filterValues = {};
 
@@ -197,7 +198,7 @@ class HugoTagsFilter {
 
 		this.selectedItemCount = 0;
 		this.itemsShown = 0;
-		this.showPaginate = false;
+		this.showMoreResultsButton(false);
 
 		for (var i = 0; i < this.filterItems.length; i++) {
 			/* First remove "show" class */
@@ -229,6 +230,8 @@ class HugoTagsFilter {
 		}
 
 		this.checkButtonCounts(isInitial);
+		// check if show more results button needs to be called
+		this.checkShowMoreResultsButton();
 	}
 
 	checkButtonCounts(isInitial) {
@@ -273,8 +276,7 @@ class HugoTagsFilter {
 				// hide items if result is more than items per page
 				// then we will show the 'Fetch More' option here
 				if (this.itemsShown >= this.itemsToShow) {
-					el.classList.add("read-more");
-					this.showPaginate = true;
+					el.classList.add(this.readMore);
 				} else this.itemsShown++;
 			}
 		}
@@ -322,6 +324,64 @@ class HugoTagsFilter {
 		newBtn.setAttribute("onclick", onClickFunc);
 
 		containerDiv.appendChild(newBtn);
+	}
+
+	/**
+	 * checkShowMoreResultsButton - call show more results button only if required
+	 */
+	checkShowMoreResultsButton() {
+		// if the paginated items shown is less than the selected items
+		// then display the show more results button
+		if (this.itemsShown < this.selectedItemCount) this.showMoreResultsButton(true);
+		else this.showMoreResultsButton(false);
+	}
+
+	/**
+	 * showMoreResultsButton - to show or hide the show more results button
+	 */
+	showMoreResultsButton(flag) {
+		const showMoreButton = document.getElementById("show-more-button");
+		if (flag) {
+			showMoreButton.classList.remove("hide-show-more-button");
+		} else {
+			showMoreButton.classList.add("hide-show-more-button");
+		}
+	}
+
+	/**
+	 * showMoreResults - paginate to show more results
+	 */
+	showMoreResults() {
+		this.itemsToShow += this.itemsToShowIncrement;
+		console.log(this.itemsToShow);
+		let newShowMoreCount = 0;
+
+		// now loop through the filter items
+		for (var i = 0; i < this.filterItems.length; i++) {
+			// if item contains class to showitem and read-more
+			if (
+				this.filterItems[i].classList.contains(this.showItemClass) &&
+				this.filterItems[i].classList.contains(this.readMore)
+			) {
+				// then up to the itemsToShowIncrement, remove the read-more class
+				if (newShowMoreCount < this.itemsToShowIncrement) {
+					this.filterItems[i].classList.remove(this.readMore);
+					newShowMoreCount++;
+					this.itemsShown++;
+				}
+				// once the count is reached
+				else {
+					// check to see if show more results button needs to be show
+					this.checkShowMoreResultsButton();
+					// then exit from the function
+					return;
+				}
+			}
+		}
+
+		// if function runs all the way through, then
+		//check to see if show more results button still needs to be shown
+		this.checkShowMoreResultsButton();
 	}
 }
 

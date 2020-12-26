@@ -33,7 +33,14 @@
 .show-item {
 	display: inline-block;
 }
+// this controls hiding the results which are
+// more than the number of results to show on page
 .read-more {
+	display: none;
+}
+// this controls hiding the show more results button
+// if the results are less than number per page
+.hide-show-more-button {
 	display: none;
 }
 /*START: ACCORDION Style the collapsible content*/
