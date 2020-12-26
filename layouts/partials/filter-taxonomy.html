@@ -2,22 +2,28 @@
 {{ $selectAll := print `selectAll` $filter }}
 
 <button class="acc button" onclick="toggleAcc(this)">{{ $filter }}s</button>
-<div class="panel">
-  <button id="{{ $selectAll }}" onclick="htf.showAll({{ $filter }})">
-    All {{ $filter }}s
-  </button>
+<ul class="panel">
+	<li>
+  	<button id="{{ $selectAll }}" onclick="htf.showAll({{ $filter }})">
+	  All {{ $filter }}s
+  	</button>
+  </li>
   {{ range .allContent }}
     {{ if .Term }}
 			{{ $termURLize := .Term | replaceRE "[.]" "_" | urlize }}
-      <button class="{{ $filter }}-button" id="{{ $filter }}-{{ $termURLize }}"onclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')">
-        <span>{{.Term | humanize | title }}</span>
-        <span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> | <span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
-      </button>
+			<li>
+		    <button class="{{ $filter }}-button" id="{{ $filter }}-{{ $termURLize }}"onclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')">
+		      <span>{{.Term | humanize | title }}</span>
+		      <span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> | <span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
+		    </button>
+			</li>
     {{ end }}
   {{ end }}
   {{ if gt .noCount 0 }}
-  <button class="{{ $filter }}-button" id="{{ $filter }}-no-{{ $filter }}" onclick="htf.checkFilter('no-{{ $filter }}', '{{ $filter }}-')">
-    No {{ $filter }}s <span id="s{{ $filter }}-no-{{ $filter }}">-count-</span> | <span id="c{{ $filter }}-no-{{ $filter }}">-count-</span>
-  </button>
+  <li>
+	  <button class="{{ $filter }}-button" id="{{ $filter }}-no-{{ $filter }}" onclick="htf.checkFilter('no-{{ $filter }}', '{{ $filter }}-')">
+	    No {{ $filter }}s <span id="s{{ $filter }}-no-{{ $filter }}">-count-</span> | <span id="c{{ $filter }}-no-{{ $filter }}">-count-</span>
+	  </button>
+  </li>
   {{ end }}
-</div>
+</ul>
