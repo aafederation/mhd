@@ -263,21 +263,30 @@ class HugoTagsFilter {
 		if (!el.classList.contains(cn)) {
 			el.classList.add(cn);
 
-			// this case is for filters
-			if (cn.toLowerCase().trim() === "active") {
-				// this case checks for the ALL vs the other options
-				if (el.classList.length > 1) {
-					// if other options, then add the filter pill
-					this.addPillButton(el);
-				}
-			}
 			// this case is for the items being shown
-			else {
+			if (el.classList.contains(this.filterItemClass)) {
 				// hide items if result is more than items per page
 				// then we will show the 'Fetch More' option here
 				if (this.itemsShown >= this.itemsToShow) {
 					el.classList.add(this.readMore);
 				} else this.itemsShown++;
+			}
+			// this case is for filters
+			else {
+				// only if we are adding the active class
+				if (cn.toLowerCase().trim() === "active") {
+					// this case checks for the ALL vs the other options
+					// check if element has selectAlltag
+					if (
+						el.getAttribute("id").substring(0, 9).trim().toLowerCase() ===
+						this.FILTERS[0]["allSelector"].substring(1, 10).trim().toLowerCase()
+					) {
+						// do nothing if selectall
+					} else {
+						// if other options, then add the filter pill
+						this.addPillButton(el);
+					}
+				}
 			}
 		}
 	}
@@ -286,18 +295,27 @@ class HugoTagsFilter {
 		if (el.classList.contains(cn)) {
 			el.classList.remove(cn);
 
-			// this case is for filters
-			if (cn.toLowerCase().trim() === "active") {
-				// this case checks for the ALL vs the other options
-				if (el.classList.length > 0) {
-					//if other options, then remove the filter pill
-					const btnToRemove = document.getElementById("pill-" + el.getAttribute("id"));
-					btnToRemove.remove();
-				}
-			}
 			// this case is for the items being shown
+			if (el.classList.contains(this.filterItemClass)) {
+				el.classList.remove(this.readMore);
+			}
+			// this case is for filters
 			else {
-				el.classList.remove("read-more");
+				// only if we are removing the active class
+				if (cn.toLowerCase().trim() === "active") {
+					// this case checks for the ALL vs the other options
+					// check if selectalltag
+					if (
+						el.getAttribute("id").substring(0, 9).trim().toLowerCase() ===
+						this.FILTERS[0]["allSelector"].substring(1, 10).trim().toLowerCase()
+					) {
+						//do nothing if selectall
+					} else {
+						//if other options, then remove the filter pill
+						const btnToRemove = document.getElementById("pill-" + el.getAttribute("id"));
+						btnToRemove.remove();
+					}
+				}
 			}
 		}
 	}
