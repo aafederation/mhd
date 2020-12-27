@@ -46,6 +46,12 @@
 		transform: scale(0.99);
 	}
 
+	// 100% width exception
+	&[data-size="full-width"] {
+		width: 100%;
+		text-align: start;
+	}
+
 	/// Size exeptions
 	&[data-size="large"] {
 		font-size: get-size("700");
