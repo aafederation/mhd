@@ -1,5 +1,46 @@
 // Styles specific to mhd website
 
+/*START: defaults for search*/
+// Used in layout
+$padding-1: 1px !default;
+$padding-4: 0.25rem !default;
+$padding-8: 0.5rem !default;
+$padding-16: 1rem !default;
+
+$font-size-base: 16px !default;
+$font-size-12: 0.75rem !default;
+$font-size-14: 0.875rem !default;
+$font-size-16: 1rem !default;
+
+$border-radius: $padding-4 !default;
+
+$body-font-weight: normal !default;
+
+$body-min-width: 20rem !default;
+$container-max-width: 80rem !default;
+
+$header-height: 3.5rem !default;
+$menu-width: 16rem !default;
+$toc-width: 16rem !default;
+
+$mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
+
+$hint-colors: (
+	info: #6bf,
+	warning: #fd6,
+	danger: #f66,
+) !default;
+
+@mixin spin($duration) {
+	animation: spin $duration ease infinite;
+	@keyframes spin {
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+}
+/*END: defaults for search*/
+
 // Setting the flex properties: should go to COMPOSITION
 .mhd-tiles {
 	display: flex;
@@ -63,3 +104,55 @@
 	content: "\3a";
 }
 /*END: ACCORDION*/
+
+/*START: Search section styles*/
+.book-search {
+	position: relative;
+	margin: $padding-16 0;
+	border-bottom: 1px solid transparent;
+
+	.hidden {
+		display: none;
+	}
+
+	input {
+		width: 100%;
+		padding: $padding-8;
+
+		border: 0;
+		border-radius: $border-radius;
+
+		background: get-color("light");
+		color: get-color("primary");
+
+		&:required + .book-search-spinner {
+			display: block;
+		}
+		&:focus {
+			outline-style: auto;
+			outline-color: currentColor;
+			outline-color: -webkit-focus-ring-color;
+		}
+	}
+
+	.book-search-spinner {
+		position: absolute;
+		top: 0;
+		margin: $padding-8;
+		margin-inline-start: calc(100% - #{$padding-16 + $padding-8});
+
+		width: $padding-16;
+		height: $padding-16;
+
+		border: $padding-1 solid transparent;
+		border-top-color: var(--body-font-color);
+		border-radius: 50%;
+
+		@include spin(1s);
+	}
+
+	small {
+		opacity: 0.5;
+	}
+}
+/*START: Search section styles*/

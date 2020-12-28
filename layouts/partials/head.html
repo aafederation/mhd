@@ -1,4 +1,7 @@
 <head>
   <link rel="stylesheet" href="{{ "css/global.css" | relURL }}" />
   <link rel="stylesheet" href="{{ "fonts/fonts.css" | relURL }}" />
+	{{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
+	{{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
+	<script defer src="{{ $searchJS.RelPermalink }}" integrity="{{ $searchJS.Data.Integrity }}"></script>
 </head>
