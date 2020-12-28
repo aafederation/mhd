@@ -108,8 +108,9 @@ $hint-colors: (
 /*START: Search section styles*/
 .book-search {
 	position: relative;
-	margin: $padding-16 0;
 	border-bottom: 1px solid transparent;
+	max-width: 30rem;
+	margin: auto;
 
 	.hidden {
 		display: none;
