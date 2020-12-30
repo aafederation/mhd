@@ -1,6 +1,6 @@
 <div id="filter-refine-pills"></div>
 <h2><span id="selectedItemCount"></span> Service providers</h2>
-<div class="mhd-tiles">
+<div class="mhd-tiles" id="mhd-tiles-search-result">
 	{{ range .Site.RegularPages.ByPublishDate.Reverse }}
 	<!--FILTER DATA DECLARATION-->
 	{{ partial "sp-card.html" . }} {{ end }}
@@ -10,3 +10,16 @@
 		Show more results
 	</button>
 </div>
+<template id="searchResultCard">
+	<div  class="tf-filter-item tf-item" 
+	      data-tag=""
+	      data-borough=""
+	      data-language=""
+	      data-payment=""
+	      data-ADAcompliance=""
+	>
+	  <h6></h6>
+	  <h4><a href></a></h4>
+		<div></div>
+	</div>
+</template>

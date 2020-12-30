@@ -4,8 +4,10 @@
 {{ $searchData := resources.Get "search-data.js" | resources.ExecuteAsTemplate $searchDataFile . | resources.Minify | resources.Fingerprint }}
 
 (function () {
+	const idForFilterResults = "#mhd-tiles-search-result";
   const input = document.querySelector('#book-search-input');
   const results = document.querySelector('#book-search-results');
+  const filterResults = document.querySelector(idForFilterResults);
 
   if (!input) {
     return
@@ -58,6 +60,10 @@
       results.removeChild(results.firstChild);
     }
 
+    while (filterResults.firstChild) {
+      filterResults.removeChild(filterResults.firstChild);
+    }
+
     if (!input.value) {
       return;
     }
@@ -71,9 +77,40 @@
       a.textContent = page.title;
       small.textContent = page.section;
 
-      results.appendChild(li);
+      //results.appendChild(li);
+
+			//make the card for the search result
+			makeSearchResultCard(page);
+
     });
+		htf.showCheckFromSearch();
   }
+
+  /**
+   * Function to create a single service provider class
+   */
+  function makeSearchResultCard(myPage) {
+		//look at the template on main-body.html
+		let template = document.querySelector('#searchResultCard');
+		let clone = template.content.cloneNode(true);
+		let mainDiv = clone.querySelector(".tf-filter-item");
+		let h6 = clone.querySelector("h6");
+		let a = clone.querySelector("a");
+		let tag = clone.querySelector("tag");
+
+
+		h6.textContent = myPage.section;
+		a.href = myPage.href;
+		a.textContent = myPage.title;
+		mainDiv.classList.add("show-item");
+		mainDiv.setAttribute("data-tag", myPage.tag);
+		mainDiv.setAttribute("data-borough", myPage.borough);
+		mainDiv.setAttribute("data-language", myPage.language);
+		mainDiv.setAttribute("data-payment", myPage.payment);
+		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
+
+		filterResults.appendChild(clone);
+	}
 
   /**
    * @param {String} src 

@@ -42,22 +42,7 @@ class HugoTagsFilter {
 
 		this.filterValues = {};
 
-		for (var i = 0; i < this.FILTERS.length; i++) {
-			this.FILTERS[i]["buttonTotal"] = document.getElementsByClassName(this.FILTERS[i]["buttonClass"]).length;
-			this.FILTERS[i]["selected"] = [];
-			this.FILTERS[i]["values"] = [];
-			var fv = document.getElementsByClassName(this.FILTERS[i]["buttonClass"]);
-
-			/**
-			 * Build index of all filter values and their counts
-			 */
-			this.filterValues[this.FILTERS[i]["name"]] = [];
-			for (var j = 0; j < fv.length; j++) {
-				var v = fv[j].id.replace(this.FILTERS[i]["prefix"], "");
-				this.filterValues[this.FILTERS[i]["name"]][v] = { count: 0, selected: 0 };
-			}
-		}
-		this.showCheck(this.FILTERS[0]["name"], true);
+		this.showCheckFromSearch();
 	}
 
 	initFilterCount(fvc, isInitial) {
@@ -174,6 +159,35 @@ class HugoTagsFilter {
 				this.showCheck(this.FILTERS[i]["name"]);
 			}
 		}
+	}
+
+	/**
+	 * showCheckFromSearch: Applies "show" class to items containing selected tags
+	 * from the search api
+	 */
+	showCheckFromSearch() {
+		this.filterItems = document.getElementsByClassName(this.filterItemClass);
+		this.filterValues = {};
+		this.selectedItemCount = 0;
+		this.itemsShown = 0;
+
+		for (var i = 0; i < this.FILTERS.length; i++) {
+			this.FILTERS[i]["buttonTotal"] = document.getElementsByClassName(this.FILTERS[i]["buttonClass"]).length;
+			this.FILTERS[i]["selected"] = [];
+			this.FILTERS[i]["values"] = [];
+			var fv = document.getElementsByClassName(this.FILTERS[i]["buttonClass"]);
+
+			/**
+			 * Build index of all filter values and their counts
+			 */
+			this.filterValues[this.FILTERS[i]["name"]] = [];
+			for (var j = 0; j < fv.length; j++) {
+				var v = fv[j].id.replace(this.FILTERS[i]["prefix"], "");
+				this.filterValues[this.FILTERS[i]["name"]][v] = { count: 0, selected: 0 };
+			}
+		}
+
+		this.showCheck(this.FILTERS[0]["name"], true);
 	}
 
 	/**
@@ -371,7 +385,6 @@ class HugoTagsFilter {
 	 */
 	showMoreResults() {
 		this.itemsToShow += this.itemsToShowIncrement;
-		console.log(this.itemsToShow);
 		let newShowMoreCount = 0;
 
 		// now loop through the filter items

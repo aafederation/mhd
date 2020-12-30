@@ -9,8 +9,8 @@
 
   indexCfg.doc = {
     id: 'id',
-    field: ['title', 'content'],
-    store: ['title', 'href', 'section'],
+    field: ['title', 'content', 'tag', 'borough','language'],
+    store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance'],
   };
 
   const index = FlexSearch.create('balance', indexCfg);
@@ -26,7 +26,13 @@
     'href': '{{ $page.RelPermalink }}',
     'title': {{ (partial "docs/title" $page) | jsonify }},
     'section': {{ (partial "docs/title" $page.Parent) | jsonify }},
-    'content': {{ $page.Plain | jsonify }}
+    'content': {{ $page.Plain | jsonify }},
+		'tag': {{ with $page.Params.tags }}{{print `"`}}{{ range . }}{{ print . | replaceRE "[.]" "_" | urlize }}{{print " "}}{{ end }}{{print `"`}}{{ else }} {{ "no-tag" | jsonify }} {{ end }},
+		'borough': {{ with $page.Params.boroughs }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-borough" | jsonify}} {{ end }},
+		'language': {{ with $page.Params.languages }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-language"|jsonify}}{{ end }},
+		'payment':  {{ with $page.Params.payment_types }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-payment"|jsonify}}{{ end }},
+		'ADAcompliance': {{ with $page.Params.ada_compliant }}{{ . |urlize|jsonify }}{{ else }}{{ "false"|jsonify }}{{ end }},
+
   });
   {{- end -}}
 })();
