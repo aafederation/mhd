@@ -6,7 +6,6 @@
 (function () {
 	const idForFilterResults = "#mhd-tiles-search-result";
   const input = document.querySelector('#book-search-input');
-  const results = document.querySelector('#book-search-results');
   const filterResults = document.querySelector(idForFilterResults);
 
   if (!input) {
@@ -56,10 +55,6 @@
   }
 
   function search() {
-    while (results.firstChild) {
-      results.removeChild(results.firstChild);
-    }
-
     while (filterResults.firstChild) {
       filterResults.removeChild(filterResults.firstChild);
     }
@@ -70,15 +65,6 @@
 
     const searchHits = window.bookSearchIndex.search(input.value, 10);
     searchHits.forEach(function (page) {
-      const li = element('<li><a href></a><small></small></li>');
-      const a = li.querySelector('a'), small = li.querySelector('small');
-
-      a.href = page.href;
-      a.textContent = page.title;
-      small.textContent = page.section;
-
-      //results.appendChild(li);
-
 			//make the card for the search result
 			makeSearchResultCard(page);
 
@@ -124,15 +110,5 @@
     script.onload = callback;
 
     document.head.appendChild(script);
-  }
-
-  /**
-   * @param {String} content
-   * @returns {Node}
-   */
-  function element(content) {
-    const div = document.createElement('div');
-    div.innerHTML = content;
-    return div.firstChild;
   }
 })();
