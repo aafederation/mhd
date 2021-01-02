@@ -12,8 +12,14 @@
     return
   }
 
+	/**
+	 * throttled search
+	 */
+  const throttledSearch = throttledSearchCreator();
+  //const throttledSearch = throttle(search, 1000);
+
   input.addEventListener('focus', init);
-  input.addEventListener('keyup', search);
+  input.addEventListener('keyup', throttledSearch);
 
   document.addEventListener('keypress', focusSearchFieldOnKeyPress);
 
@@ -50,9 +56,56 @@
     loadScript('{{ "js/flexsearch.min.js" | relURL }}');
     loadScript('{{ $searchData.RelPermalink }}', function () {
       input.required = false;
-      search();
+      throttledSearch();
     });
   }
+
+	/**
+	 * throttle function - will only call function
+	 * once every so many seconds
+	 * we are not using this.  this is more generic implementation
+	 */
+  function throttle(func, time) {
+		let running = false;
+
+		return function(...args) {
+			if (!running) {
+				running = true;
+				setTimeout(() => {
+					running = false; 
+				}, time);
+				return func(...args);
+			} 
+		}
+	}
+
+	/**
+	 * throttled search
+	 * when called, it only runs once every so many seconds
+	 * at the end of every timeout, 
+	 * if the input string is different from last run
+	 * then run the search function one last time
+	 */
+  function throttledSearchCreator() {
+		let running = false;
+		let time = 1000;
+		let runInput = "";
+
+		return function() {
+			if (!running) {
+				running = true;
+				setTimeout(() => {
+					running = false; 
+					if(runInput !== input.value) {
+						runInput = input.value;
+						search();
+					}
+				}, time);
+				runInput = input.value;
+				search();
+			} 
+		}
+	}
 
   function search() {
     while (filterResults.firstChild) {
