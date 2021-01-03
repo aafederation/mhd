@@ -9,6 +9,19 @@
   const filterResults = document.querySelector(idForFilterResults);
   const originalResults = [];
 
+	//mapboxgl accesstoken
+	mapboxgl.accessToken = "pk.eyJ1IjoiYWJ0cm93IiwiYSI6ImNqejhtbTF2ajE4OTIzbm5samloN2p3MGYifQ.bwAHnbFp6KAZgUmpv3-f8A";
+
+	//icons to show in the mapbox markers
+	const iconURLs = {
+	  hotels: 'http://i.imgur.com/D9574Cu.png',
+	  restaurants: 'http://i.imgur.com/cqR6pUI.png',
+	  activities: 'http://i.imgur.com/WbMOfMl.png',
+	};
+
+	//call function to show the map
+	showMap();
+
   if (!input) {
     return
   }
@@ -191,4 +204,44 @@
 
     document.head.appendChild(script);
   }
+
+	/**
+	 * showMap - takes care of showing the mapbox map
+	 * with the the coordinates of the service providers
+	 * currently showing in the results
+   */
+	 function showMap() {
+	 	const fullstackCoords = [-74.009, 40.705]; // NY
+
+		const map = new mapboxgl.Map({
+			container: "map",
+			center: fullstackCoords, // FullStack coordinates
+			zoom: 12, // starting zoom
+			//center: [-96, 37.8],
+  		//zoom: 3,
+			style: "mapbox://styles/mapbox/streets-v11", // mapbox has different styles
+		});
+
+	const marker = buildMarker("activities", fullstackCoords);
+	marker.addTo(map);
+	}
+
+	/**
+	 * buildMarker - builds and returns a marker 
+	 * based on the type and coordinates passed as parameters
+   */
+	function buildMarker(type, coords) {
+	  if (!iconURLs.hasOwnProperty(type)) {
+	    type = 'activities';
+	  }
+	  const markerEl = document.createElement('div');
+		markerEl.className = 'marker';
+	  markerEl.style.backgroundImage = `url(${iconURLs[type]})`;
+	  return new mapboxgl.Marker(markerEl)
+				.setLngLat(coords)
+				.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+    			.setHTML('<h3><a href="/mhd/university-settlement/">University Settlement</a></h3><p>come learn something</p>')
+				);
+	};
+
 })();
