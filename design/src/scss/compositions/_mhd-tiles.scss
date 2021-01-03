@@ -1,0 +1,17 @@
+// Setting the flex properties: should go to COMPOSITION
+.mhd-tiles {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: flex-start;
+	> .main-filter-col {
+		flex: 1;
+	}
+	> .main-body-col {
+		flex: 4;
+	}
+	/// Exceptions
+	&[data-layout="reversed"] {
+		flex-direction: row-reverse;
+	}
+}

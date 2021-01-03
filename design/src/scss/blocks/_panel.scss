@@ -1,0 +1,20 @@
+/*START: ACCORDION Style the collapsible content*/
+.panel {
+	padding: 0 18px;
+	margin-block: 0em 0.5em;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.acc:after {
+	font-family: "ElegantIcons";
+	content: "\3b";
+	font-size: get-size("400");
+	margin-left: 5px;
+}
+
+.acc.active:after {
+	content: "\3a";
+}
+/*END: ACCORDION*/

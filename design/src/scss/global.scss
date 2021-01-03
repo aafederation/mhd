@@ -60,11 +60,14 @@ a:hover {
 @import "blocks/media";
 @import "blocks/nav";
 @import "blocks/tile";
+@import "blocks/tf-tile";
 @import "blocks/logos";
+@import "blocks/panel";
 
 // Import compositions
 @import "compositions/sign-up";
 @import "compositions/tiles";
+@import "compositions/mhd-tiles";
 @import "compositions/hero";
 @import "compositions/intro";
 
