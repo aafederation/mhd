@@ -7,6 +7,7 @@
 	const idForFilterResults = "#mhd-tiles-search-result";
   const input = document.querySelector('#book-search-input');
   const filterResults = document.querySelector(idForFilterResults);
+  const originalResults = [];
 
   if (!input) {
     return
@@ -57,8 +58,22 @@
     loadScript('{{ $searchData.RelPermalink }}', function () {
       input.required = false;
       throttledSearch();
+			//load all results into elements to show in the results screen
+			//when the search bar is empty
+			createAllResults();
     });
   }
+
+	/**
+	 * createAllResults function -
+	 * load all results from the search index into originalResults array
+	 * to show in search results element when the search bar is empty
+	 */
+  function createAllResults() {
+		for (const property in window.bookSearchIndex.l) {
+			originalResults.push(window.bookSearchIndex.l[property]);
+		}
+	}
 
 	/**
 	 * throttle function - will only call function
@@ -112,15 +127,27 @@
       filterResults.removeChild(filterResults.firstChild);
     }
 
+		//if input string is empty
     if (!input.value) {
+			//then loop through the original result 
+			originalResults.forEach( 
+				(card) => {
+					//and attach them to the filterResults
+					filterResults.appendChild(makeSearchResultCard(card));
+				}
+			)
+			//then re-calculate the filter
+			htf.showCheckFromSearch();
       return;
     }
 
     const searchHits = window.bookSearchIndex.search(input.value, 10);
     searchHits.forEach(function (page) {
 			//make the card for the search result
-			makeSearchResultCard(page);
+			let resultCard = makeSearchResultCard(page);
 
+			//then append the card to the filter result element in the dom
+			filterResults.appendChild(resultCard);
     });
 		htf.showCheckFromSearch();
   }
@@ -148,7 +175,7 @@
 		mainDiv.setAttribute("data-payment", myPage.payment);
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
 
-		filterResults.appendChild(clone);
+		return clone;
 	}
 
   /**
