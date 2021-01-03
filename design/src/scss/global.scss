@@ -70,8 +70,14 @@ a:hover {
 @import "compositions/mhd-tiles";
 @import "compositions/hero";
 @import "compositions/intro";
+@import "compositions/search";
 
 // Import MHD customs
 @import "fonticons";
 @import "aaf";
-@import "mhd";
+
+// Utilities controlling show hide
+@import "utilities/tf-filter-item";
+@import "utilities/show-item";
+@import "utilities/read-more";
+@import "utilities/hide-show-more-button";
