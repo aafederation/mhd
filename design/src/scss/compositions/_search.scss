@@ -1,27 +1,4 @@
 /*START: defaults for search*/
-// Used in layout
-$padding-1: 1px !default;
-$padding-4: 0.25rem !default;
-$padding-16: 1rem !default;
-
-$font-size-base: 16px !default;
-$font-size-12: 0.75rem !default;
-$font-size-14: 0.875rem !default;
-$font-size-16: 1rem !default;
-
-$border-radius: $padding-4 !default;
-
-$body-font-weight: normal !default;
-
-$body-min-width: 20rem !default;
-$container-max-width: 80rem !default;
-
-$header-height: 3.5rem !default;
-$menu-width: 16rem !default;
-$toc-width: 16rem !default;
-
-$mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
-
 @mixin spin($duration) {
 	animation: spin $duration ease infinite;
 	@keyframes spin {
@@ -48,7 +25,7 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 		padding: get-size("300");
 
 		border: 0;
-		border-radius: $border-radius;
+		border-radius: 0.25rem;
 
 		background: get-color("light");
 		color: get-color("primary");
@@ -69,10 +46,10 @@ $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 		margin: get-size("300");
 		margin-inline-start: calc(100% - get-size("700"));
 
-		width: $padding-16;
-		height: $padding-16;
+		width: get-size("400");
+		height: get-size("400");
 
-		border: $padding-1 solid transparent;
+		border: 1px solid transparent;
 		border-top-color: var(--body-font-color);
 		border-radius: 50%;
 
