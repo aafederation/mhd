@@ -15,6 +15,7 @@ telehealth = "Not applicable"
 website = "www.kcsny.org"
 [[addresses]]
 address = "42-16 162nd St, 2nd Fl"
+latLng = "40.759815312190184, -73.80433077350517"
 phone_number = "718-366-9540"
 [[addresses.hours_of_operation]]
 day_hours = "M, W, F, Sa, 9 am-5 pm"
