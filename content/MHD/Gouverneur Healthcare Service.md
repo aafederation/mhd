@@ -15,6 +15,7 @@ telehealth = "Not applicable"
 website = "www.nychealthandhospitals.org/gouverneur"
 [[addresses]]
 address = "227 Madison St"
+latLng = "40.71310523150502, -73.98770330234316"
 phone_number = "212-238-7332"
 [[addresses.hours_of_operation]]
 day_hours = "Open 24/7"
