@@ -15,6 +15,7 @@ telehealth = ""
 website = "https://www.arabamericanny.org/"
 [[addresses]]
 address = "7111 5th Ave."
+latLng = "40.63230551173878, -74.0212758446735"
 phone_number = "718-745-3523"
 [[addresses.hours_of_operation]]
 day_hours = "M-F 10am-6pm"
