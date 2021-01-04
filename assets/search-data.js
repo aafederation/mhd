@@ -10,7 +10,7 @@
   indexCfg.doc = {
     id: 'id',
     field: ['title', 'content', 'tag', 'borough','language'],
-    store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance'],
+    store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance', 'addresses'],
   };
 
   const index = FlexSearch.create('balance', indexCfg);
@@ -32,6 +32,7 @@
 		'language': {{ with $page.Params.languages }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-language"|jsonify}}{{ end }},
 		'payment':  {{ with $page.Params.payment_types }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-payment"|jsonify}}{{ end }},
 		'ADAcompliance': {{ with $page.Params.ada_compliant }}{{ . |urlize|jsonify }}{{ else }}{{ "false"|jsonify }}{{ end }},
+		'addresses': {{ $page.Params.addresses | jsonify }},
 
   });
   {{- end -}}

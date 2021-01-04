@@ -19,8 +19,8 @@
 	  activities: 'http://i.imgur.com/WbMOfMl.png',
 	};
 
-	//call function to show the map
-	showMap();
+	//setup map and data
+	preInit();
 
   if (!input) {
     return
@@ -63,18 +63,26 @@
     return dataHotkeys.indexOf(character) >= 0;
   }
 
-  function init() {
-    input.removeEventListener('focus', init); // init once
-    input.required = true;
+	/**
+	 * setup map and data
+	 */
+  function preInit() {
+	  loadScript('{{ "js/flexsearch.min.js" | relURL }}');
 
-    loadScript('{{ "js/flexsearch.min.js" | relURL }}');
     loadScript('{{ $searchData.RelPermalink }}', function () {
-      input.required = false;
-      throttledSearch();
 			//load all results into elements to show in the results screen
 			//when the search bar is empty
 			createAllResults();
+
+			//call function to show the map
+			showMap();
     });
+
+  }
+
+  function init() {
+    input.removeEventListener('focus', init); // init once
+    throttledSearch();
   }
 
 	/**
@@ -84,7 +92,9 @@
 	 */
   function createAllResults() {
 		for (const property in window.bookSearchIndex.l) {
-			originalResults.push(window.bookSearchIndex.l[property]);
+			let card = window.bookSearchIndex.l[property];
+			card.id = property;
+			originalResults.push(card);
 		}
 	}
 
@@ -211,19 +221,18 @@
 	 * currently showing in the results
    */
 	 function showMap() {
-	 	const fullstackCoords = [-74.009, 40.705]; // NY
+	 	const aafCoords = [-74.00601627368108, 40.70481604585044];
+		//const providers = getProviders();
 
 		const map = new mapboxgl.Map({
 			container: "map",
-			center: fullstackCoords, // FullStack coordinates
-			zoom: 12, // starting zoom
-			//center: [-96, 37.8],
-  		//zoom: 3,
+			center: aafCoords, // FullStack coordinates
+			zoom: 10, // starting zoom
 			style: "mapbox://styles/mapbox/streets-v11", // mapbox has different styles
 		});
 
-	const marker = buildMarker("activities", fullstackCoords);
-	marker.addTo(map);
+		const marker = buildMarker("activities", aafCoords);
+		marker.addTo(map);
 	}
 
 	/**
