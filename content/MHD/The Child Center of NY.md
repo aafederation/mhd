@@ -25,7 +25,7 @@ day_hours = "F, 9 am-7 pm"
 day_hours = "Sa, 9 am-3:30 pm"
 [[addresses]]
 address = "81-14 Queens Blvd, Elmhurst"
-latLng = ""
+latLng = "40.73736275419179, -73.88177615816086"
 phone_number = "718-899-9810"
 [[addresses.hours_of_operation]]
 day_hours = "Sa, 9 am-3:30 pm"
