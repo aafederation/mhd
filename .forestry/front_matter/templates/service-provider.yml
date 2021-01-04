@@ -164,8 +164,8 @@ fields:
     type: text
     config:
       required: false
-    label: latLng
-    description: The latitude, longitude of the address.  e.g.<br>40.704938, -74.006006
+    label: latitude, longitude
+    description: The latitude, longitude of the address. e.g.<br>40.704938, -74.006006
   config:
     min: 
     max: 
