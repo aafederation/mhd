@@ -15,6 +15,7 @@ telehealth = "Not applicable"
 website = "www.childcenterny.org"
 [[addresses]]
 address = "140-15B Sanford Avenue, Flushing"
+latLng = "40.757915557503125, -73.82652824466905"
 phone_number = "718-358-8288"
 [[addresses.hours_of_operation]]
 day_hours = "M -Th, 9 am-9 pm"
@@ -24,6 +25,7 @@ day_hours = "F, 9 am-7 pm"
 day_hours = "Sa, 9 am-3:30 pm"
 [[addresses]]
 address = "81-14 Queens Blvd, Elmhurst"
+latLng = ""
 phone_number = "718-899-9810"
 [[addresses.hours_of_operation]]
 day_hours = "Sa, 9 am-3:30 pm"
