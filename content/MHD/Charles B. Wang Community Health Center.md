@@ -15,6 +15,7 @@ telehealth = "Not applicable"
 website = "www.cbwcgc.org"
 [[addresses]]
 address = "268 Canal St"
+latLng = "40.71878963726238, -74.00132840234299"
 phone_number = "2-941-2213"
 [[addresses.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
@@ -25,10 +26,12 @@ day_hours = "Th, 11 am-6 pm"
 [[addresses]]
 address = "136-26 37th Ave"
 hours_of_operation = []
+latLng = ""
 phone_number = "2-941-2213"
 [[addresses]]
 address = "137-43 45th Ave"
 hours_of_operation = []
+latLng = ""
 phone_number = ""
 
 +++
