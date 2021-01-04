@@ -9,6 +9,7 @@
 	width: 32px;
 	height: 37px;
 	cursor: pointer;
+	display: none;
 }
 //.mapboxgl-popup {
 //	max-width: 200px;
@@ -17,4 +18,7 @@
 .mapboxgl-popup-content {
 	text-align: center;
 	padding: 1.3em;
+}
+.show-map {
+	display: inline-block;
 }
