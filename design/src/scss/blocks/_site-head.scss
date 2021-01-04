@@ -1,0 +1,20 @@
+.site-head {
+  padding: 0.4rem 0 0.8rem 0;
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .user {
+    min-width: unset;
+    flex-grow: 0;
+  }
+
+  // Right margin prevents any collisions with the title
+  h1 {
+    margin: 0.5rem 1rem 0.5rem 0;
+  }
+}

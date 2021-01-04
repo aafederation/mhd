@@ -1,0 +1,23 @@
+.key-header {
+  align-items: flex-end;
+
+  > :last-child {
+    display: flex;
+    flex-wrap: wrap;
+    gap: get-size('300');
+
+    > * {
+      flex-shrink: 0;
+
+      // Adds a tiny bit of space so if gap isn’t supported
+      // the items aren't butted together
+      margin: 0.2rem 0 0 0.2rem;
+    }
+  }
+
+  @include media-query('md') {
+    > :last-child {
+      justify-content: flex-end;
+    }
+  }
+}

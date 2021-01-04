@@ -7,7 +7,9 @@
 		"secondary-shade": "#8096ff",
 		"tertiary": "#55dde0",
 		"slate": "#dbdbdb",
-		"white": "#ffffff"
+		"white": "#ffffff",
+		"light-shade": "#eee",
+		"grey": "#c4c4c4"
 	},
 	"fonts": {
 		"base": "Oswald",
