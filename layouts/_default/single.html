@@ -1,22 +1,25 @@
 {{ define "main" }}
 
-<div class="pad-top-1000 wrapper">
-{{ $PageTitle := .Title }}
+<div class="wrapper">
+	<div class="[ key-header ] [gap-top-700]"></div>
+	<div>
+		{{ $PageTitle := .Title }}
 
-{{ with .Resources.ByType "image" }}
-  {{ range . }}
-  <img src="{{ .RelPermalink }}" alt="{{ $PageTitle | title }}" />
-  {{ end }}
-{{ end }}
+		{{ with .Resources.ByType "image" }}
+		  {{ range . }}
+		  <img src="{{ .RelPermalink }}" alt="{{ $PageTitle | title }}" />
+		  {{ end }}
+		{{ end }}
 
-{{ .Content }}
+		{{ .Content }}
 
-{{ if .PrevInSection }}
-  <a class="btn btn-light" href="{{ .PrevInSection.Permalink }}">Previous Post</a>
-{{ end }}
-{{ if .NextInSection }}
-  <a class="btn btn-light" href="{{ .NextInSection.Permalink }}">Next Post</a>
-{{ end }}
+		{{ if .PrevInSection }}
+		  <a class="btn btn-light" href="{{ .PrevInSection.Permalink }}">Previous Post</a>
+		{{ end }}
+		{{ if .NextInSection }}
+		  <a class="btn btn-light" href="{{ .NextInSection.Permalink }}">Next Post</a>
+		{{ end }}
+	</div>
 </div>
 
 {{ end }}
