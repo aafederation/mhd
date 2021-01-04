@@ -31,7 +31,7 @@ phone_number = "2-941-2213"
 [[addresses]]
 address = "137-43 45th Ave"
 hours_of_operation = []
-latLng = ""
+latLng = "40.75192982760588, -73.82200221212504"
 phone_number = ""
 
 +++
