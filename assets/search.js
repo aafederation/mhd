@@ -233,8 +233,7 @@
 		mainDiv.setAttribute("data-language", myPage.language);
 		mainDiv.setAttribute("data-payment", myPage.payment);
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
-		const clickFunc = onClickGoToMap(myPage);
-		mainDiv.onclick = clickFunc;
+		mainDiv.onclick = onClickGoToMap(myPage.id);
 
 		return clone;
 	}
@@ -298,6 +297,8 @@
 		markerEl.className = 'marker';
 		markerEl.id = 'marker-' + feature.properties.id;
 	  markerEl.style.backgroundImage = `url(${iconURLs[type]})`;
+		markerEl.onclick = onClickGoToMap(feature.properties.id);
+
 		feature.markerEl = markerEl;
 	  return new mapboxgl.Marker(markerEl)
 				.setLngLat(feature.geometry.coordinates);
@@ -363,9 +364,9 @@
 	/**
 	 * onclick on the card that flies to the map
 	 */
-	function onClickGoToMap(page) {
+	function onClickGoToMap(pageId) {
 
-		const clickedListing = providers.features[page.id];
+		const clickedListing = providers.features[pageId];
 
 		return function() {
   		flyToStore(clickedListing);
