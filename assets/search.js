@@ -365,11 +365,11 @@
 			}, 500);
 
 		  
-			var activeItem = document.getElementsByClassName('active');
-		  if (activeItem[0]) {
-		    activeItem[0].classList.remove('active');
-		  }
-		  this.classList.add('active');
+			//var activeItem = document.getElementsByClassName('active');
+		  //if (activeItem[0]) {
+		  //  activeItem[0].classList.remove('active');
+		  //}
+		  //this.classList.add('active');
 		}
 	}
 
