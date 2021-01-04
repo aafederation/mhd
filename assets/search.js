@@ -19,9 +19,9 @@
 
 	//icons to show in the mapbox markers
 	const iconURLs = {
-	  hotels: 'http://i.imgur.com/D9574Cu.png',
-	  restaurants: 'http://i.imgur.com/cqR6pUI.png',
-	  activities: 'http://i.imgur.com/WbMOfMl.png',
+	  hotels: '/img/icon/D9574Cu.png',
+	  restaurants: '/img/icon/cqR6pUI.png',
+	  activities: '/img/icon/WbMOfMl.png',
 	};
 
 	//setup map and data
