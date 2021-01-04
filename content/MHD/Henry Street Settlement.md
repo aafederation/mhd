@@ -15,6 +15,7 @@ telehealth = "Not applicable"
 website = "www.henrystreet.org"
 [[addresses]]
 address = "40 Montgomery St"
+latLng = "40.71277840266316, -73.98572407350692"
 phone_number = "212-233-5032"
 [[addresses.hours_of_operation]]
 day_hours = "M & W, 9 am-8 pm"
