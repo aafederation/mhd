@@ -15,6 +15,7 @@ telehealth = "Not applicable"
 website = "www.universitysettlement.org"
 [[addresses]]
 address = "184 Eldridge St"
+latLng = "40.72071470680605, -73.99060996001549"
 phone_number = "212-453-4522"
 [[addresses.hours_of_operation]]
 day_hours = "Sa 9:30am-3:30pm"
