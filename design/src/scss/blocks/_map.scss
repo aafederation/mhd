@@ -1,7 +1,8 @@
 #map {
-	margin: 2em;
+	margin: 2em 2em 2em 0.5em;
 	height: 60vh;
 	overflow: hidden;
+	border-radius: 5px;
 }
 .marker {
 	background-size: contain;
@@ -9,10 +10,11 @@
 	height: 37px;
 	cursor: pointer;
 }
-.mapboxgl-popup {
-	max-width: 200px;
-}
+//.mapboxgl-popup {
+//	max-width: 200px;
+//}
 
 .mapboxgl-popup-content {
 	text-align: center;
+	padding: 1.3em;
 }

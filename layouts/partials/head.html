@@ -1,7 +1,7 @@
 <head>
+  <link rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css'/>
   <link rel="stylesheet" href="{{ "css/global.css" | relURL }}" />
   <link rel="stylesheet" href="{{ "fonts/fonts.css" | relURL }}" />
-  <link rel='stylesheet' href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css'/>
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
 	{{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
 	{{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
