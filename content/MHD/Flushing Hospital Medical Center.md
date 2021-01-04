@@ -15,6 +15,7 @@ telehealth = "Not applicable"
 website = "www.flushinghospital.org"
 [[addresses]]
 address = "4500 Parsons Blvd"
+latLng = "40.755357177776546, -73.81661790234168"
 phone_number = "718-670-5000"
 [[addresses.hours_of_operation]]
 day_hours = "M-F, 9 am-9 pm"
