@@ -11,7 +11,10 @@
 
 	//mapboxgl related variables
 	mapboxgl.accessToken = "pk.eyJ1IjoiYWJ0cm93IiwiYSI6ImNqejhtbTF2ajE4OTIzbm5samloN2p3MGYifQ.bwAHnbFp6KAZgUmpv3-f8A";
-	let providers;
+	let providers={
+      "type": "FeatureCollection",
+      "features": []
+	};
 	let map;
 
 	//icons to show in the mapbox markers
@@ -78,6 +81,9 @@
 
 			//call function to show the map
 			showMap();
+
+			//then show our all results
+			showAllResults();
     });
 
   }
@@ -93,10 +99,14 @@
 	 * to show in search results element when the search bar is empty
 	 */
   function createAllResults() {
+		let count = 0;
 		for (const property in window.bookSearchIndex.l) {
 			let card = window.bookSearchIndex.l[property];
-			card.id = property;
+			card.id = count;
+			card.feature = makeFeature(card);
+			providers.features.push(card.feature);
 			originalResults.push(card);
+			count++;
 		}
 	}
 
@@ -154,15 +164,9 @@
 
 		//if input string is empty
     if (!input.value) {
-			//then loop through the original result 
-			originalResults.forEach( 
-				(card) => {
-					//and attach them to the filterResults
-					filterResults.appendChild(makeSearchResultCard(card));
-				}
-			)
-			//then re-calculate the filter
-			htf.showCheckFromSearch();
+			//then just show all the results
+			showAllResults()
+			//and return
       return;
     }
 
@@ -176,6 +180,27 @@
     });
 		htf.showCheckFromSearch();
   }
+
+
+  /**
+   * Function to show all the results
+   */
+  function showAllResults() {
+		//first remove all the current results shown
+    while (filterResults.firstChild) {
+      filterResults.removeChild(filterResults.firstChild);
+    }
+
+		//then loop through the original result 
+		originalResults.forEach( 
+			(card) => {
+				//and attach them to the filterResults
+				filterResults.appendChild(makeSearchResultCard(card));
+			}
+		)
+		//then re-calculate the filter
+		htf.showCheckFromSearch();
+	}
 
   /**
    * Function to create a single service provider class
@@ -229,7 +254,6 @@
    */
 	 function showMap() {
 	 	const aafCoords = [-74.00601627368108, 40.70481604585044];
-		providers = getProviders();
 
 		map = new mapboxgl.Map({
 			container: "map",
@@ -252,8 +276,6 @@
 		  });
 
     });
-		const marker = buildMarker("activities", aafCoords);
-		marker.addTo(map);
 	}
 
 	/**
@@ -268,65 +290,39 @@
 		markerEl.className = 'marker';
 	  markerEl.style.backgroundImage = `url(${iconURLs[type]})`;
 	  return new mapboxgl.Marker(markerEl)
-				.setLngLat(coords)
-				.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    			.setHTML('<h3><a href="/mhd/university-settlement/">University Settlement</a></h3><p>come learn something</p>')
-				);
+				.setLngLat(coords);
 	};
 
   /**
-   * getProviders - returns a json object of all providers
-   * in the format expected by mapbox
+   * makeFeature - returns a json object 
+	 * encoded as a GeoJson for mapbox
+   * from the page parameter
    */
-  function getProviders() {
-    const providers = {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "type": "Feature",
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -74.0212758446735,
-              40.63230551173878
-            ]
-          },
-          "properties": {
-	          "id": 0,
-            "phoneFormatted": "(202) 234-7336",
-            "phone": "2022347336",
-            "address": "1471 P St NW",
-            "city": "Arab American Association",
-            "country": "United States",
-            "crossStreet": "at 15th St NW",
-            "postalCode": "20005",
-            "state": "D.C."
-          }
-        },
-        {
-          "type": "Feature",
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
-              -73.81661790234168,
-              40.755357177776546
-            ]
-          },
-          "properties": {
-          	"id": 1,
-            "phoneFormatted": "(202) 507-8357",
-            "phone": "2025078357",
-            "address": "2221 I St NW",
-            "city": "Flushing Hospital Medical Center",
-            "country": "United States",
-            "crossStreet": "at 22nd St NW",
-            "postalCode": "20037",
-            "state": "D.C."
-          }
-        }
-      ]
-    };
-    return providers;
+  function makeFeature(page) {
+		let coords = [0,0];
+
+		if(page.addresses[0]["latLng"]) {
+		coords = page.addresses[0]["latLng"].split(',');
+		}
+		
+		const feature = {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          coords[1].trim(),
+          coords[0].trim()
+        ]
+      },
+      "properties": {
+        "id": page.id,
+        "title": page.title,
+        "href": page.href,
+        "address": page.addresses[0]["address"]
+      }
+    }
+
+		return feature;
 	}
 
 	/**
@@ -347,10 +343,10 @@
 	  /** Check if there is already a popup on the map and if so, remove it */
 	  if (popUps[0]) popUps[0].remove();
 
-	  var popup = new mapboxgl.Popup({ closeOnClick: false })
+	  var popup = new mapboxgl.Popup({ offset: 25, closeOnClick: false, focusAfterOpen:true })
 	    .setLngLat(currentFeature.geometry.coordinates)
-	    .setHTML('<h3>Service Provider</h3>' +
-	      '<h4>' + currentFeature.properties.address + '</h4>')
+	    .setHTML('<h3><a target="_blank" href="' + currentFeature.properties.href + '">' + currentFeature.properties.title + '</a></h3>' +
+	      '<h4><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=' + currentFeature.geometry.coordinates[1]  + ',' + currentFeature.geometry.coordinates[0] + '">' + currentFeature.properties.address + '</h4>')
 	    .addTo(map);
 	}
 
@@ -366,7 +362,7 @@
 
 			setTimeout(() => {
 				createPopUp(clickedListing);
-			}, 1000);
+			}, 500);
 
 		  
 			var activeItem = document.getElementsByClassName('active');
