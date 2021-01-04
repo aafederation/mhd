@@ -53,6 +53,8 @@ var htfConfig = {
 	counterSelector: "selectedItemCount",
 	populateCount: true,
 	setDisabledButtonClass: "disable-button",
+	showMapClass: "show-map",
+	readMore: "read-more",
 };
 var htf = new HugoTagsFilter(htfConfig);
 

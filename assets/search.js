@@ -158,11 +158,16 @@
 	}
 
   function search() {
+		//1. first remove all the current results shown
     while (filterResults.firstChild) {
       filterResults.removeChild(filterResults.firstChild);
     }
+		//1.a also hide all markers
+		providers.features.forEach(
+			(feature) => feature.markerEl.classList.remove(htfConfig.readMore, htfConfig.showMapClass)
+		);
 
-		//if input string is empty
+		//2.a if input string is empty
     if (!input.value) {
 			//then just show all the results
 			showAllResults()
@@ -171,13 +176,14 @@
     }
 
     const searchHits = window.bookSearchIndex.search(input.value, 10);
-    searchHits.forEach(function (page) {
-			//make the card for the search result
-			let resultCard = makeSearchResultCard(page);
-
-			//then append the card to the filter result element in the dom
-			filterResults.appendChild(resultCard);
-    });
+		//2. then loop through the search hits 
+    searchHits.forEach(
+			function (page) {
+				//append the card to the filter result element in the dom
+				filterResults.appendChild(makeSearchResultCard(page));
+    	}
+		);
+		//3. then re-calculate the filter
 		htf.showCheckFromSearch();
   }
 
@@ -186,19 +192,19 @@
    * Function to show all the results
    */
   function showAllResults() {
-		//first remove all the current results shown
+		//1. first remove all the current results shown
     while (filterResults.firstChild) {
       filterResults.removeChild(filterResults.firstChild);
     }
 
-		//then loop through the original result 
+		//2. then loop through the original result 
 		originalResults.forEach( 
-			(card) => {
+			(page) => {
 				//and attach them to the filterResults
-				filterResults.appendChild(makeSearchResultCard(card));
+				filterResults.appendChild(makeSearchResultCard(page));
 			}
 		)
-		//then re-calculate the filter
+		//3. then re-calculate the filter
 		htf.showCheckFromSearch();
 	}
 
@@ -270,10 +276,12 @@
 			})
 
 		  /* For each feature in the GeoJSON object above: */
-		  providers.features.forEach(function(marker) {
-		  	let mark = buildMarker("activities", marker.geometry.coordinates)
-		    mark.addTo(map);
+		  providers.features.forEach(function(feature) {
+		  	let marker = buildMarker("activities", feature)
+		    marker.addTo(map);
 		  });
+
+			htf.showCheckFromSearch();
 
     });
 	}
@@ -282,15 +290,17 @@
 	 * buildMarker - builds and returns a marker 
 	 * based on the type and coordinates passed as parameters
    */
-	function buildMarker(type, coords) {
+	function buildMarker(type, feature) {
 	  if (!iconURLs.hasOwnProperty(type)) {
 	    type = 'activities';
 	  }
 	  const markerEl = document.createElement('div');
 		markerEl.className = 'marker';
+		markerEl.id = 'marker-' + feature.properties.id;
 	  markerEl.style.backgroundImage = `url(${iconURLs[type]})`;
+		feature.markerEl = markerEl;
 	  return new mapboxgl.Marker(markerEl)
-				.setLngLat(coords);
+				.setLngLat(feature.geometry.coordinates);
 	};
 
   /**

@@ -26,6 +26,7 @@ class HugoTagsFilter {
 
 		this.FILTERS = config && config.filters ? config.filters : defaultFilters;
 		this.showItemClass = config && config.showItemClass ? config.showItemClass : "tf-show";
+		this.showMapClass = config && config.showMapClass ? config.showMapClass : "show-map";
 		this.activeButtonClass = config && config.activeButtonClass ? config.activeButtonClass : "active";
 		this.filterItemClass = config && config.filterItemClass ? config.filterItemClass : "tf-filter-item";
 		this.counterSelector = config && config.counterSelector ? config.counterSelector : "selectedItemCount";
@@ -279,10 +280,14 @@ class HugoTagsFilter {
 
 			// this case is for the items being shown
 			if (el.classList.contains(this.filterItemClass)) {
+				//add show map class to marker
+				const marker = this.getMarker(el);
+				marker.classList.add(this.showMapClass);
 				// hide items if result is more than items per page
 				// then we will show the 'Fetch More' option here
 				if (this.itemsShown >= this.itemsToShow) {
 					el.classList.add(this.readMore);
+					marker.classList.add(this.readMore);
 				} else this.itemsShown++;
 			}
 			// this case is for filters
@@ -312,6 +317,12 @@ class HugoTagsFilter {
 			// this case is for the items being shown
 			if (el.classList.contains(this.filterItemClass)) {
 				el.classList.remove(this.readMore);
+
+				//also handle the marker
+				//1. first find the marker
+				const marker = this.getMarker(el);
+				//2. then remove the classes
+				marker.classList.remove(this.showMapClass, this.readMore);
 			}
 			// this case is for filters
 			else {
@@ -332,6 +343,19 @@ class HugoTagsFilter {
 				}
 			}
 		}
+	}
+
+	/**
+	 * function to return marker element from dom
+	 * for a given element
+	 * @param {el} the element for which to find the marker
+	 */
+	getMarker(el) {
+		const markerId = `#marker-${el.id.split("-")[1]}`;
+		const marker = document.querySelector(markerId);
+
+		if (!marker) return document.createElement("div");
+		return marker;
 	}
 
 	/**
@@ -397,6 +421,12 @@ class HugoTagsFilter {
 				// then up to the itemsToShowIncrement, remove the read-more class
 				if (newShowMoreCount < this.itemsToShowIncrement) {
 					this.filterItems[i].classList.remove(this.readMore);
+
+					//also remove read-more from marker
+					const marker = this.getMarker(this.filterItems[i]);
+					marker.classList.remove(this.readMore);
+
+					//now increment the counters
 					newShowMoreCount++;
 					this.itemsShown++;
 				}
