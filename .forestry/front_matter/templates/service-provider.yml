@@ -160,6 +160,12 @@ fields:
     label: Hours of operation
     description: days and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
       9am-6pm
+  - name: latLng
+    type: text
+    config:
+      required: false
+    label: latLng
+    description: The latitude, longitude of the address.  e.g.<br>40.704938, -74.006006
   config:
     min: 
     max: 
