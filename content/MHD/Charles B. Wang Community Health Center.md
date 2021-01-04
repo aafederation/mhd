@@ -26,7 +26,7 @@ day_hours = "Th, 11 am-6 pm"
 [[addresses]]
 address = "136-26 37th Ave"
 hours_of_operation = []
-latLng = ""
+latLng = "40.76170554286881, -73.83005267350512"
 phone_number = "2-941-2213"
 [[addresses]]
 address = "137-43 45th Ave"
