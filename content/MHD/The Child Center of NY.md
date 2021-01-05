@@ -6,10 +6,8 @@ image = ""
 languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bengali"]
 new_clients = "Yes"
 org = "The Child Center of NY"
-parking = "Yes"
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 program = ""
-services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
 tags = []
 telehealth = "Not applicable"
 website = "www.childcenterny.org"
@@ -17,6 +15,8 @@ website = "www.childcenterny.org"
 address = "140-15B Sanford Avenue, Flushing"
 latLng = "40.757915557503125, -73.82652824466905"
 phone_number = "718-358-8288"
+services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
+parking = "Yes"
 [[addresses.hours_of_operation]]
 day_hours = "M -Th, 9 am-9 pm"
 [[addresses.hours_of_operation]]
@@ -35,6 +35,7 @@ day_hours = "F, 9 am-7 pm"
 day_hours = "M -Th, 9 am-9 pm"
 
 +++
+
 **The Child Center of NY**
 
 P: (E) 718-899-9810, (F) 718-358-8288

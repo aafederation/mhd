@@ -6,19 +6,17 @@ image = ""
 languages = ["Mandarin", "Cantonese"]
 new_clients = "Not applicable"
 org = "University Settlement"
-parking = "Yes"
 payment_types = ["Sliding scale fee for patients without insurance", "Third-party insurance", "Medicare", "Medicaid"]
 program = "The Door"
-services = ["Outpatient mental health services"]
 tags = []
 telehealth = "Not applicable"
 website = "www.universitysettlement.org"
 [[addresses]]
 address = "184 Eldridge St"
 latLng = "40.72071470680605, -73.99060996001549"
-parking = "Yes"
 phone_number = "212-453-4522"
-services = []
+services = ["Outpatient mental health services"]
+parking = "Yes"
 [[addresses.hours_of_operation]]
 day_hours = "Sa 9:30am-3:30pm"
 [[addresses.hours_of_operation]]
@@ -27,6 +25,7 @@ day_hours = "F 8am-5pm"
 day_hours = "M-Th 8am-8pm"
 
 +++
+
 **University Settlement / The Door**
 
 P: 212-453-4522 A: 184 Eldridge St
