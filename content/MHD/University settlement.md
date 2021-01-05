@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 boroughs = ["Manhattan"]
-email = "rushil.shakya@gmail.com"
+email = ""
 image = ""
 languages = ["Mandarin", "Cantonese"]
 new_clients = "Not applicable"
