@@ -1,0 +1,6 @@
+.red-tip {
+	> .mapboxgl-popup-tip {
+		border-top-color: get-color("primary");
+		border-bottom-color: get-color("primary");
+	}
+}

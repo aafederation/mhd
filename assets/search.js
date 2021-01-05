@@ -353,9 +353,9 @@
 	  /** Check if there is already a popup on the map and if so, remove it */
 	  if (popUps[0]) popUps[0].remove();
 
-	  var popup = new mapboxgl.Popup({ offset: 25, closeOnClick: false, focusAfterOpen:true })
+	  var popup = new mapboxgl.Popup({ offset: 15, closeOnClick: false, focusAfterOpen:true, className:"red-tip" })
 	    .setLngLat(currentFeature.geometry.coordinates)
-	    .setHTML('<h3><a target="_blank" href="' + currentFeature.properties.href + '">' + currentFeature.properties.title + '</a></h3>' +
+	    .setHTML('<h3><a target="_blank" href="' + currentFeature.properties.href + '">' + currentFeature.properties.title + '</a></h3><br>' +
 	      '<h4><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=' + currentFeature.geometry.coordinates[1]  + ',' + currentFeature.geometry.coordinates[0] + '">' + currentFeature.properties.address + '</h4>')
 	    .addTo(map);
 	}
