@@ -23,9 +23,7 @@ day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 day_hours = "W, 10 am-6 pm"
 [[addresses.hours_of_operation]]
 day_hours = "Th, 11 am-6 pm"
-[[addresses]]
 address = "136-26 37th Ave"
-hours_of_operation = []
 latLng = "40.76170554286881, -73.83005267350512"
 phone_number = "2-941-2213"
 services = ["Behavioral services", "Mental health services"]
@@ -36,9 +34,7 @@ day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 day_hours = "W, 10 am-6 pm"
 [[addresses.hours_of_operation]]
 day_hours = "Th, 11 am-6 pm"
-[[addresses]]
 address = "137-43 45th Ave"
-hours_of_operation = []
 latLng = "40.75192982760588, -73.82200221212504"
 phone_number = ""
 services = ["Behavioral services", "Mental health services"]
