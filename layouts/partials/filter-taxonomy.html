@@ -1,7 +1,7 @@
 {{ $filter := .filter }}
 {{ $selectAll := print `selectAll` $filter }}
 
-<button class="acc button" onclick="toggleAcc(this)" data-size="full-width">{{ $filter }}s</button>
+<button class="acc button split-pair" onclick="toggleAcc(this)" data-size="full-width">{{ $filter }}s</button>
 <ul class="panel">
 	<li>
   	<button id="{{ $selectAll }}" onclick="htf.showAll({{ $filter }})">
