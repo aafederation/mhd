@@ -13,8 +13,8 @@
 		"grey": "#c4c4c4"
 	},
 	"fonts": {
-		"base": "Oswald",
-		"serif": "Sansita"
+		"base": "Barlow Condensed",
+		"serif": "Lora"
 	},
 	"sizes": {
 		"300": 10,
