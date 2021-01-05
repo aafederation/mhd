@@ -1,13 +1,13 @@
 .summary {
-  padding: get-size('500') get-size('500') get-size('600') get-size('500');
-  line-height: 1.1;
+	padding: get-size("500") get-size("500") get-size("600") get-size("500");
+	max-width: 50ch;
 
-  dl,
-  dt {
-    --flow-space: #{get-size('700')};
-  }
+	dl,
+	dt {
+		--flow-space: #{get-size("700")};
+	}
 
-  dd {
-    --flow-space: #{get-size('300')};
-  }
+	dd {
+		--flow-space: #{get-size("300")};
+	}
 }
