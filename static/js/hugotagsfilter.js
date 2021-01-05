@@ -323,6 +323,10 @@ class HugoTagsFilter {
 				const marker = this.getMarker(el);
 				//2. then remove the classes
 				marker.classList.remove(this.showMapClass, this.readMore);
+				//3. remove popups if they are up
+				var popUps = document.getElementsByClassName("mapboxgl-popup");
+				/** Check if there is already a popup on the map and if so, remove it */
+				if (popUps[0]) popUps[0].remove();
 			}
 			// this case is for filters
 			else {
