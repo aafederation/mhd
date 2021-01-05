@@ -232,7 +232,8 @@
 		mainDiv.setAttribute("data-language", myPage.language);
 		mainDiv.setAttribute("data-payment", myPage.payment);
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
-		mainDiv.onclick = onClickGoToMap(myPage.id);
+		mainDiv.onclick=function() {window.open(myPage.href);};
+		//mainDiv.onclick = onClickGoToMap(myPage.id);
 
 		return clone;
 	}
