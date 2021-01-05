@@ -216,16 +216,15 @@
 		let template = document.querySelector('#searchResultCard');
 		let clone = template.content.cloneNode(true);
 		let mainDiv = clone.querySelector(".tf-filter-item");
-		let h6 = clone.querySelector("h6");
-		let a = clone.querySelector("a");
-		let tag = clone.querySelector("tag");
+		let h3 = clone.querySelector("h3");
+		let phoneNumber = clone.querySelector(".phoneNumber");
+		let website = clone.querySelector(".website");
+		let address = clone.querySelector(".address");
 
-
-		h6.textContent = myPage.section;
-		//a.href = myPage.href;
-		a.href = "#";
-		a.id = "link-" + myPage.id;
-		a.textContent = myPage.title;
+		h3.textContent = myPage.title;
+		phoneNumber.textContent = myPage.addresses[0].phone_number;
+		website.textContent = myPage.website;
+		address.textContent = myPage.addresses[0].address;
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;
 		mainDiv.setAttribute("data-tag", myPage.tag);

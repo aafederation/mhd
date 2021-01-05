@@ -13,6 +13,15 @@
 		width: 100%;
 		min-width: 30rem;
 		border-collapse: collapse;
+		&[data-size="small"] {
+			min-width: auto;
+			td {
+				padding: 0.5rem 0.5rem;
+			}
+			tr:last-child {
+				border-bottom-width: 0px;
+			}
+		}
 	}
 
 	td,
