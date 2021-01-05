@@ -287,7 +287,7 @@ class HugoTagsFilter {
 				// then we will show the 'Fetch More' option here
 				if (this.itemsShown >= this.itemsToShow) {
 					el.classList.add(this.readMore);
-					marker.classList.add(this.readMore);
+					//marker.classList.add(this.readMore);
 				} else this.itemsShown++;
 			}
 			// this case is for filters
@@ -322,7 +322,7 @@ class HugoTagsFilter {
 				//1. first find the marker
 				const marker = this.getMarker(el);
 				//2. then remove the classes
-				marker.classList.remove(this.showMapClass, this.readMore);
+				marker.classList.remove(this.showMapClass);
 				//3. remove popups if they are up
 				var popUps = document.getElementsByClassName("mapboxgl-popup");
 				/** Check if there is already a popup on the map and if so, remove it */
@@ -427,8 +427,8 @@ class HugoTagsFilter {
 					this.filterItems[i].classList.remove(this.readMore);
 
 					//also remove read-more from marker
-					const marker = this.getMarker(this.filterItems[i]);
-					marker.classList.remove(this.readMore);
+					//const marker = this.getMarker(this.filterItems[i]);
+					//marker.classList.remove(this.readMore);
 
 					//now increment the counters
 					newShowMoreCount++;

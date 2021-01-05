@@ -164,7 +164,7 @@
     }
 		//1.a also hide all markers
 		providers.features.forEach(
-			(feature) => feature.markerEl.classList.remove(htfConfig.readMore, htfConfig.showMapClass)
+			(feature) => feature.markerEl.classList.remove(htfConfig.showMapClass)
 		);
 
 		//2.a if input string is empty
