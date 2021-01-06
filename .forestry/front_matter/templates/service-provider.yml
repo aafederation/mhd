@@ -188,6 +188,11 @@ fields:
   default: []
   label: Tags
   description: Any other associations for the organization
+- name: highlight
+  type: boolean
+  label: Highlight
+  description: Turn on for service provider to show on top of home page.  Ideally,
+    about 3 service providers can be selected for highlighting
 pages:
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Charles B. Wang Community Health Center.md
