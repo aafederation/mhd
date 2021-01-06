@@ -217,14 +217,22 @@
 		let clone = template.content.cloneNode(true);
 		let mainDiv = clone.querySelector(".tf-filter-item");
 		let h3 = clone.querySelector("h3");
-		let phoneNumber = clone.querySelector(".phoneNumber");
-		let website = clone.querySelector(".website");
 		let address = clone.querySelector(".address");
+		let services = clone.querySelector(".services");
 
 		h3.textContent = myPage.title;
-		phoneNumber.textContent = myPage.location.phone_number;
-		website.textContent = myPage.website;
 		address.textContent = myPage.location.address;
+
+		if (myPage.location.services) {
+			myPage.location.services.forEach(
+				function (service) {
+					let li = document.createElement('li');
+					li.textContent = service;
+					services.appendChild(li);
+				}
+			);
+		}
+
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;
 		mainDiv.setAttribute("data-tag", myPage.tag);

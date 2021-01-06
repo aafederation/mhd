@@ -9,36 +9,21 @@
 </div>
 <template id="searchResultCard">
 	<section
-		class="[ table-group ] [ flow radius ] tf-filter-item tf-item"
- 		aria-labelledby="transaction-label"
+		class="[ radius ] tf-filter-item tf-item"
+		aria-labelledby="transaction-label"
 		data-tag=""
 		data-borough=""
 		data-language=""
 		data-payment=""
 		data-ADAcompliance=""
 	>
-	  <h3 class="color-dark text-400 weight-medium ta-center"></h3>
-	  <table data-size="small">
-	    <thead class="visually-hidden">
-	      <tr>
-	        <th>Description</th>
-	        <th>Amount</th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	      <tr>
-	        <td><span class="[ pill ] [ radius bg-quaternary color-light ]">Phone</span></td>
-	        <td class="phoneNumber"></td>
-	      </tr>
-	      <tr>
-	        <td><span class="[ pill ] [ radius bg-quaternary color-light ]">Website</span></td>
-	        <td class="website"></td>
-	      </tr>
-	      <tr>
-	        <td><span class="[ pill ] [ radius bg-quaternary color-light ]">Address</span></td>
-	        <td class="address">Lorem ipsum dolor sit amet</td>
-	      </tr>
-	    </tbody>
-	  </table>
+		<div class="color-white text-400 bg-secondary ta-center pad-top-300 pad-bottom-300 pad-left-300 pad-right-300">
+			<h3></h3>
+			<div>(<span class="address"></span>)</div>
+		</div>
+		<div class="pad-top-300 pad-bottom-300 pad-left-300 pad-right-300">
+			<h4>Services offered</h4>
+			<ul class="services"></ul>
+		</div>
 	</section>
 </template>

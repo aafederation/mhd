@@ -27,6 +27,8 @@ day_hours = "Sa, 9 am-3:30 pm"
 address = "81-14 Queens Blvd, Elmhurst"
 latLng = "40.73736275419179, -73.88177615816086"
 phone_number = "718-899-9810"
+services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
+parking = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "Sa, 9 am-3:30 pm"
 [[locations.hours_of_operation]]
