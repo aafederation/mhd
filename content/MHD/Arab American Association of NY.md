@@ -2,6 +2,7 @@
 ada_compliant = false
 boroughs = ["Brooklyn"]
 email = "info@arabamericanny.org"
+highlight = true
 image = ""
 languages = ["Arabic"]
 new_clients = ""
@@ -14,14 +15,13 @@ website = "https://www.arabamericanny.org/"
 [[addresses]]
 address = "7111 5th Ave."
 latLng = "40.63230551173878, -74.0212758446735"
+parking = ""
 phone_number = "718-745-3523"
 services = ["Free mental health services", "Connections to Care Program"]
-parking = ""
 [[addresses.hours_of_operation]]
 day_hours = "M-F 10am-6pm"
 
 +++
-
 **Arab American Association of NY**
 
 P: 718-745-3523
