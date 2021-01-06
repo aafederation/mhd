@@ -11,13 +11,13 @@ program = "Asian Bicultural Clinic"
 tags = []
 telehealth = "Not applicable"
 website = "www.nychealthandhospitals.org/gouverneur"
-[[addresses]]
+[[locations]]
 address = "227 Madison St"
 latLng = "40.71310523150502, -73.98770330234316"
 phone_number = "212-238-7332"
 services = ["Asian bi-cultural mental health services"]
 parking = "Yes"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "Open 24/7"
 
 +++

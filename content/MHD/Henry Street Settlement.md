@@ -11,15 +11,15 @@ program = ""
 tags = []
 telehealth = "Not applicable"
 website = "www.henrystreet.org"
-[[addresses]]
+[[locations]]
 address = "40 Montgomery St"
 latLng = "40.71277840266316, -73.98572407350692"
 phone_number = "212-233-5032"
 services = ["psychiatric day treatment", "Asian bi-cultural mental health services"]
 parking = "Yes"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "M & W, 9 am-8 pm"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "T, Th, F, 9 am-5 pm"
 
 +++

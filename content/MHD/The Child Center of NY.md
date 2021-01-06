@@ -11,27 +11,27 @@ program = ""
 tags = []
 telehealth = "Not applicable"
 website = "www.childcenterny.org"
-[[addresses]]
+[[locations]]
 address = "140-15B Sanford Avenue, Flushing"
 latLng = "40.757915557503125, -73.82652824466905"
 phone_number = "718-358-8288"
 services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
 parking = "Yes"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "M -Th, 9 am-9 pm"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "F, 9 am-7 pm"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "Sa, 9 am-3:30 pm"
-[[addresses]]
+[[locations]]
 address = "81-14 Queens Blvd, Elmhurst"
 latLng = "40.73736275419179, -73.88177615816086"
 phone_number = "718-899-9810"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "Sa, 9 am-3:30 pm"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "F, 9 am-7 pm"
-[[addresses.hours_of_operation]]
+[[locations.hours_of_operation]]
 day_hours = "M -Th, 9 am-9 pm"
 
 +++
