@@ -222,9 +222,9 @@
 		let address = clone.querySelector(".address");
 
 		h3.textContent = myPage.title;
-		phoneNumber.textContent = myPage.addresses[0].phone_number;
+		phoneNumber.textContent = myPage.locations[0].phone_number;
 		website.textContent = myPage.website;
-		address.textContent = myPage.addresses[0].address;
+		address.textContent = myPage.locations[0].address;
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;
 		mainDiv.setAttribute("data-tag", myPage.tag);
@@ -312,8 +312,8 @@
   function makeFeature(page) {
 		let coords = [0,0];
 
-		if(page.addresses[0]["latLng"]) {
-		coords = page.addresses[0]["latLng"].split(',');
+		if(page.locations[0]["latLng"]) {
+		coords = page.locations[0]["latLng"].split(',');
 		}
 		
 		const feature = {
@@ -329,7 +329,7 @@
         "id": page.id,
         "title": page.title,
         "href": page.href,
-        "address": page.addresses[0]["address"]
+        "address": page.locations[0]["address"]
       }
     }
 

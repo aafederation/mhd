@@ -4,105 +4,106 @@
 	<div class="[ key-header ] [ splitter ] [ gap-top-700 ]">
 		<h2 class="text-700" id="transaction-label">{{ .Params.org }}</h2>
 		<aside>
-      <a href="//{{ .Params.website }}" class="[ button-cube ] [ radius ]" data-variant="ghost">{{ .Params.website }}</a>
-			{{ $address := index (.Params.addresses) 0 }}
-      <a href="#" class="[ button-cube ] [ radius ] [ color-white ]">{{  $address.phone_number }}</a>
-    </aside>
+			<a href="//{{ .Params.website }}" class="[ button-cube ] [ radius ]" data-variant="ghost"
+				>{{ .Params.website }}</a
+			>
+			{{ $address := index (.Params.locations) 0 }}
+			<a href="#" class="[ button-cube ] [ radius ] [ color-white ]">{{ $address.phone_number }}</a>
+		</aside>
 	</div>
 
 	<div class="[ splitter ] [ gap-top-600 ]">
-    <section class="[ table-group ] [ flow radius ]" aria-labelledby="transaction-label">
-      <h3 class="color-primary text-400 weight-medium">Services</h3>
-      <table>
-        <thead class="visually-hidden">
-          <tr>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
+		<section class="[ table-group ] [ flow radius ]" aria-labelledby="transaction-label">
+			<h3 class="color-primary text-400 weight-medium">Services</h3>
+			<table>
+				<thead class="visually-hidden">
+					<tr>
+						<th>Description</th>
+						<th>Category</th>
+						<th>Amount</th>
+					</tr>
+				</thead>
+				<tbody>
 					{{ range .Params.services }}
-	          <tr>
-	            <td data-type="expense">{{ . }}</td>
-							<td></td>
-	            <td><span class="[ pill ] [ radius bg-tertiary color-light ]">Provided</span></td>
-	          </tr>
-          {{ end }}
-        </tbody>
-      </table>
-      <h3 class="color-primary text-400 weight-medium">Payment types</h3>
-      <table>
-        <thead class="visually-hidden">
-          <tr>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
+					<tr>
+						<td data-type="expense">{{ . }}</td>
+						<td></td>
+						<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Provided</span></td>
+					</tr>
+					{{ end }}
+				</tbody>
+			</table>
+			<h3 class="color-primary text-400 weight-medium">Payment types</h3>
+			<table>
+				<thead class="visually-hidden">
+					<tr>
+						<th>Description</th>
+						<th>Category</th>
+						<th>Amount</th>
+					</tr>
+				</thead>
+				<tbody>
 					{{ range .Params.payment_types }}
-	          <tr>
-	            <td data-type="expense">{{ . }}</td>
-							<td></td>
-	            <td><span class="[ pill ] [ radius bg-tertiary color-light ]">Accepted</span></td>
-	          </tr>
+					<tr>
+						<td data-type="expense">{{ . }}</td>
+						<td></td>
+						<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Accepted</span></td>
+					</tr>
 					{{ end }}
-        </tbody>
-      </table>
-			{{ range .Params.addresses }}
-				{{ $address := . }}
-	      <h3 class="color-primary text-400 weight-medium">{{ $address.address }} ({{ $address.phone_number }})</h3>
-	      <table>
-	        <thead class="visually-hidden">
-	          <tr>
-	            <th>Description</th>
-	            <th>Category</th>
-	            <th>Amount</th>
-	          </tr>
-	        </thead>
-	        <tbody>
+				</tbody>
+			</table>
+			{{ range .Params.locations }} {{ $address := . }}
+			<h3 class="color-primary text-400 weight-medium">{{ $address.address }} ({{ $address.phone_number }})</h3>
+			<table>
+				<thead class="visually-hidden">
+					<tr>
+						<th>Description</th>
+						<th>Category</th>
+						<th>Amount</th>
+					</tr>
+				</thead>
+				<tbody>
 					{{ range $address.hours_of_operation }}
-	          <tr>
-	            <td data-type="expense">{{ .day_hours }}</td>
-							<td></td>
-	            <td><span class="[ pill ] [ radius bg-tertiary color-light ]">Open</span></td>
-	          </tr>
+					<tr>
+						<td data-type="expense">{{ .day_hours }}</td>
+						<td></td>
+						<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Open</span></td>
+					</tr>
 					{{ end }}
-	        </tbody>
-	      </table>
+				</tbody>
+			</table>
 			{{ end }}
-      <h3 class="color-primary text-400 weight-medium">languages</h3>
-      <table>
-        <thead class="visually-hidden">
-          <tr>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
+			<h3 class="color-primary text-400 weight-medium">languages</h3>
+			<table>
+				<thead class="visually-hidden">
+					<tr>
+						<th>Description</th>
+						<th>Category</th>
+						<th>Amount</th>
+					</tr>
+				</thead>
+				<tbody>
 					{{ range .Params.languages }}
-	          <tr>
-	            <td data-type="expense">{{ . }}</td>
-							<td></td>
-	            <td><span class="[ pill ] [ radius bg-tertiary color-light ]">Available</span></td>
-	          </tr>
-          {{ end }}
-        </tbody>
-      </table>
-    </section>
-    <section class="[ summary ] [ flow radius ] [ bg-primary color-light ]">
-      <h3 class="color-tertiary-glare text-700">Summary</h3>
+					<tr>
+						<td data-type="expense">{{ . }}</td>
+						<td></td>
+						<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Available</span></td>
+					</tr>
+					{{ end }}
+				</tbody>
+			</table>
+		</section>
+		<section class="[ summary ] [ flow radius ] [ bg-primary color-light ]">
+			<h3 class="color-tertiary-glare text-700">Summary</h3>
 			{{ $borough := index (.Params.boroughs) 0 }}
-      <dl class="">
+			<dl class="">
 				{{ .Content }}
-        <!--<dt class="text-600 color-tertsiary-glare">{{ $borough }}</dt>
+				<!--<dt class="text-600 color-tertsiary-glare">{{ $borough }}</dt>
         <dd class="text-700 font-mono weight-bold">{{ $address.address }}</dd>
         <dd class="text-700 font-mono weight-bold">{{ $address.phone_number }}</dd>-->
-      </dl>
-    </section>
-  </div>
+			</dl>
+		</section>
+	</div>
 </article>
 
 {{ end }}
