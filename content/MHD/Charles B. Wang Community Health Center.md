@@ -2,6 +2,7 @@
 ada_compliant = true
 boroughs = ["Citywide", "Queens", "Manhattan", "Brooklyn", "Bronx", "Staten Island"]
 email = ""
+highlight = true
 image = ""
 languages = ["Korean", "Mandarin", "Cantonese"]
 new_clients = "Yes"
@@ -14,9 +15,9 @@ website = "www.cbwcgc.org"
 [[addresses]]
 address = "268 Canal St"
 latLng = "40.71878963726238, -74.00132840234299"
+parking = "Yes"
 phone_number = "2-941-2213"
 services = ["Behavioral services", "Mental health services"]
-parking = "Yes"
 [[addresses.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[addresses.hours_of_operation]]
@@ -26,9 +27,9 @@ day_hours = "Th, 11 am-6 pm"
 [[addresses]]
 address = "136-26 37th Ave"
 latLng = "40.76170554286881, -73.83005267350512"
+parking = "Yes"
 phone_number = "2-941-2213"
 services = ["Behavioral services", "Mental health services"]
-parking = "Yes"
 [[addresses.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[addresses.hours_of_operation]]
@@ -38,9 +39,9 @@ day_hours = "Th, 11 am-6 pm"
 [[addresses]]
 address = "137-43 45th Ave"
 latLng = "40.75192982760588, -73.82200221212504"
+parking = "Yes"
 phone_number = ""
 services = ["Behavioral services", "Mental health services"]
-parking = "Yes"
 [[addresses.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[addresses.hours_of_operation]]
@@ -49,7 +50,6 @@ day_hours = "W, 10 am-6 pm"
 day_hours = "Th, 11 am-6 pm"
 
 +++
-
 **Charles B. Wang Community Health Center**
 
 P: 2-941-2213
