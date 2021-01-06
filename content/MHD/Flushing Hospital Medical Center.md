@@ -2,6 +2,7 @@
 ada_compliant = true
 boroughs = ["Queens"]
 email = ""
+highlight = true
 image = ""
 languages = []
 new_clients = "Yes"
@@ -14,16 +15,15 @@ website = "www.flushinghospital.org"
 [[addresses]]
 address = "4500 Parsons Blvd"
 latLng = "40.755357177776546, -73.81661790234168"
+parking = "Yes"
 phone_number = "718-670-5000"
 services = ["support Groups", "Outpatient and inpatient mental health services"]
-parking = "Yes"
 [[addresses.hours_of_operation]]
 day_hours = "M-F, 9 am-9 pm"
 [[addresses.hours_of_operation]]
 day_hours = "Sa, 9 am-3 pm"
 
 +++
-
 **Flushing Hospital Medical Center**
 
 P: 718-670-5000
