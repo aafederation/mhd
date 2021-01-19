@@ -1,6 +1,5 @@
 +++
 ada_compliant = false
-boroughs = ["Brooklyn"]
 email = "info@arabamericanny.org"
 highlight = true
 image = ""
@@ -15,6 +14,7 @@ website = "https://www.arabamericanny.org/"
 [[locations]]
 address = "7111 5th Ave."
 latLng = "40.63230551173878, -74.0212758446735"
+boroughs = ["Brooklyn"]
 parking = ""
 phone_number = "718-745-3523"
 services = ["Free mental health services", "Connections to Care Program"]

@@ -1,6 +1,5 @@
 +++
 ada_compliant = true
-boroughs = ["Citywide", "Queens", "Manhattan", "Brooklyn", "Bronx", "Staten Island"]
 email = ""
 highlight = true
 image = ""
@@ -15,6 +14,7 @@ website = "www.cbwcgc.org"
 [[locations]]
 address = "268 Canal St"
 latLng = "40.71878963726238, -74.00132840234299"
+boroughs = ["Manhattan"]
 parking = "Yes"
 phone_number = "2-941-2213"
 services = ["Behavioral services", "Mental health services"]
@@ -27,6 +27,7 @@ day_hours = "Th, 11 am-6 pm"
 [[locations]]
 address = "136-26 37th Ave"
 latLng = "40.76170554286881, -73.83005267350512"
+boroughs = ["Queens"]
 parking = "Yes"
 phone_number = "2-941-2213"
 services = ["Behavioral services", "Mental health services"]
@@ -39,6 +40,7 @@ day_hours = "Th, 11 am-6 pm"
 [[locations]]
 address = "137-43 45th Ave"
 latLng = "40.75192982760588, -73.82200221212504"
+boroughs = ["Queens"]
 parking = "Yes"
 phone_number = ""
 services = ["Behavioral services", "Mental health services"]

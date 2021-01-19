@@ -1,6 +1,5 @@
 +++
 ada_compliant = true
-boroughs = ["Queens"]
 email = ""
 highlight = true
 image = ""
@@ -15,6 +14,7 @@ website = "www.flushinghospital.org"
 [[locations]]
 address = "4500 Parsons Blvd"
 latLng = "40.755357177776546, -73.81661790234168"
+boroughs = ["Queens"]
 parking = "Yes"
 phone_number = "718-670-5000"
 services = ["support Groups", "Outpatient and inpatient mental health services"]

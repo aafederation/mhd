@@ -1,6 +1,5 @@
 +++
 ada_compliant = true
-boroughs = ["Queens"]
 email = ""
 image = ""
 languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bengali"]
@@ -14,6 +13,7 @@ website = "www.childcenterny.org"
 [[locations]]
 address = "140-15B Sanford Avenue, Flushing"
 latLng = "40.757915557503125, -73.82652824466905"
+boroughs = ["Queens"]
 phone_number = "718-358-8288"
 services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
 parking = "Yes"

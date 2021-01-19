@@ -1,6 +1,5 @@
 +++
 ada_compliant = true
-boroughs = ["Brooklyn"]
 email = "hello@nyulangone.org"
 image = ""
 languages = ["Cantonese", "Mandarin", "Japanese", "Korean"]
@@ -14,6 +13,7 @@ website = "https://nyulangone.org"
 [[locations]]
 address = "514 49th St."
 latLng = "40.64539989360426, -74.00937098885446"
+boroughs = ["Brooklyn"]
 phone_number = "718-630-7942"
 services = ["Mental health services", "Behavioral services"]
 parking = ""

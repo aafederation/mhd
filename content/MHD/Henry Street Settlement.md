@@ -1,6 +1,5 @@
 +++
 ada_compliant = true
-boroughs = ["Manhattan"]
 email = ""
 image = ""
 languages = ["Mandarin", "Cantonese"]
@@ -14,6 +13,7 @@ website = "www.henrystreet.org"
 [[locations]]
 address = "40 Montgomery St"
 latLng = "40.71277840266316, -73.98572407350692"
+boroughs = ["Manhattan"]
 phone_number = "212-233-5032"
 services = ["psychiatric day treatment", "Asian bi-cultural mental health services"]
 parking = "Yes"

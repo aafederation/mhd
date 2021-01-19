@@ -1,6 +1,5 @@
 +++
 ada_compliant = true
-boroughs = ["Manhattan"]
 email = ""
 highlight = false
 image = ""
@@ -15,6 +14,7 @@ website = "www.universitysettlement.org"
 [[locations]]
 address = "184 Eldridge St"
 latLng = "40.72071470680605, -73.99060996001549"
+boroughs = ["Manhattan"]
 parking = "Yes"
 phone_number = "212-453-4522"
 services = ["Outpatient mental health services"]

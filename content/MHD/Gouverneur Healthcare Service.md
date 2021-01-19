@@ -1,6 +1,5 @@
 +++
 ada_compliant = true
-boroughs = ["Manhattan"]
 email = ""
 image = ""
 languages = ["Mandarin", "Cantonese"]
@@ -14,6 +13,7 @@ website = "www.nychealthandhospitals.org/gouverneur"
 [[locations]]
 address = "227 Madison St"
 latLng = "40.71310523150502, -73.98770330234316"
+boroughs = ["Manhattan"]
 phone_number = "212-238-7332"
 services = ["Asian bi-cultural mental health services"]
 parking = "Yes"
