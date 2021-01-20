@@ -39,6 +39,21 @@ $gorko-config: (
 		"output": "standard",
 		"property": "margin-top",
 	),
+	"gap-bottom": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "margin-bottom",
+	),
+	"gap-left": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "margin-left",
+	),
+	"gap-right": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "margin-right",
+	),
 	"pad-top": (
 		"items": $gorko-size-scale,
 		"output": "standard",
@@ -58,6 +73,11 @@ $gorko-config: (
 		"items": $gorko-size-scale,
 		"output": "standard",
 		"property": "padding-right",
+	),
+	"line-height": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "line-height",
 	),
 	"ta": (
 		"items": (

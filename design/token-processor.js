@@ -22,7 +22,7 @@ if (Object.keys(fonts).length) {
 // Each size is a pixel value, so we divide by 16 (root HTML font size) to get rems
 if (Object.keys(sizes).length) {
 	sass += `$gorko-size-scale: (${Object.keys(sizes)
-		.map(key => `"${key}": ${(sizes[key] / 16).toFixed(2)}rem`)
+		.map(key => key === "auto" ? `"auto":"auto"` : `"${key}": ${(sizes[key] / 16).toFixed(2)}rem`)
 		.join(",")});\n`;
 }
 
