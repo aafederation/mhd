@@ -1,13 +1,11 @@
 {{ define "main" }}
 {{- partial "index-scripts.html" . -}}
-<div class="wrapper pad-top-1000">
-	{{ partial "search" . }}
-</div>
-<div class="wrapper mhd-tiles" data-layout="reversed">
-	<div class="main-filter-col pad-top-900">
+<div class="wrapper mhd-tiles gap-top-1000" data-layout="reversed">
+	<div class="main-filter-col gap-top-1000">
 		{{ partial "main-filter.html" . }}
 	</div>
 	<div class="main-body-col">
+		{{ partial "search" . }}
 		{{ partial "main-body.html" . }}
 	</div>
 </div>
