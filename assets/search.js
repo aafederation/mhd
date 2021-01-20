@@ -219,18 +219,30 @@
 		let h3 = clone.querySelector("h3");
 		let address = clone.querySelector(".address");
 		let services = clone.querySelector(".services");
+		let phone = clone.querySelector(".phone");
+		let website = clone.querySelector(".website");
+		let payments = clone.querySelector(".payments");
 
 		h3.textContent = myPage.title;
 		address.textContent = myPage.location.address;
 
 		if (myPage.location.services) {
-			myPage.location.services.forEach(
-				function (service) {
-					let li = document.createElement('li');
-					li.textContent = service;
-					services.appendChild(li);
-				}
-			);
+			services.textContent = myPage.location.services.join(", ");
+		}
+		if (myPage.location.phone_number) {
+			phone.textContent = myPage.location.phone_number;
+		}
+		if (myPage.website) {
+			website.textContent = myPage.website;
+		}
+		if (myPage.payment) {
+			//payments.textContent = myPage.payment.replaceAll(' ', ', ').replaceAll('-', ' ').slice(0, -2);
+			payments.textContent = myPage.payment.trim().split(' ')
+				.map(pay => {
+					pay = pay.replaceAll('-', ' ');
+					return pay.charAt(0).toUpperCase() + pay.slice(1);
+				})
+				.join(', ');
 		}
 
 		mainDiv.classList.add("show-item");

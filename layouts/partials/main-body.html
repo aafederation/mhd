@@ -1,5 +1,5 @@
-<div id="filter-refine-pills" class="text-rtl gap-right-700 gap-bottom-300 line-height-700"></div>
-<div id="map" class=" [ gap-right-700 gap-bottom-700 gap-left-300 ] "></div>
+<div id="filter-refine-pills" class="text-rtl gap-right-500 gap-bottom-300 line-height-700"></div>
+<div id="map" class="[ gap-right-500 gap-left-500 gap-bottom-500 ]"></div>
 <div class="mhd-tiles" id="mhd-tiles-search-result"></div>
 <div class="center-content gap-bottom-major">
 	<button class="button hide-show-more-button" id="show-more-button" onclick="htf.showMoreResults()">
@@ -16,13 +16,15 @@
 		data-payment=""
 		data-ADAcompliance=""
 	>
-		<div class="color-white text-400 bg-secondary ta-center pad-top-300 pad-bottom-300 pad-left-300 pad-right-300">
+		<div class="color-white text-400 bg-primary pad-top-500 pad-bottom-500 pad-left-500 pad-right-500">
 			<h3></h3>
-			<div>(<span class="address"></span>)</div>
 		</div>
-		<div class="pad-top-300 pad-bottom-300 pad-left-300 pad-right-300">
-			<h4>Services offered</h4>
-			<ul class="services"></ul>
+		<div class="pad-top-300 pad-bottom-300 pad-left-500 pad-right-500">
+			<div><span class="weight-bold">Address</span>: <span class="address"></span></div>
+			<div><span class="weight-bold">Phone</span>: <span class="phone"></span></div>
+			<div><span class="weight-bold">Website</span>: <span class="website"></span></div>
+			<div><span class="weight-bold">Services</span>: <span class="services"></span></div>
+			<div><span class="weight-bold">Payment accepted</span>: <span class="payments"></span></div>
 		</div>
 	</section>
 </template>
