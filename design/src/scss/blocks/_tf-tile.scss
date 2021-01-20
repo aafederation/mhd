@@ -1,8 +1,7 @@
 // Item card
 .tf-item {
-	width: 18em;
-	margin: 0.5em;
+	width: 100%;
+	margin: get-size("300") get-size("500");
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
-	margin-bottom: 1.5em;
 	cursor: pointer;
 }

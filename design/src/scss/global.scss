@@ -18,7 +18,6 @@ h2,
 h3,
 h4 {
 	line-height: 1.1;
-	max-width: 30ch;
 	@include apply-utility("font", "serif");
 }
 
