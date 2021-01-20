@@ -23,28 +23,28 @@
 {{ end }}
 <!--END: NON TAXONOMY FILTER SETUP-->
 
+<!--DATA COUNTS-->
+{{ $boroughs := $.Site.Data.Boroughs }}
+
 <!--TAXONOMY COUNTS-->
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-{{ $boroughs := $.Site.Taxonomies.boroughs.ByCount }}
 {{ $languages := $.Site.Taxonomies.languages.ByCount }}
 {{ $payments := $.Site.Taxonomies.payment_types.ByCount }}
 
 <!--TAXONOMY NO COUNT VAR-->
 {{ $.Scratch.Set "untagged" 0 }}
-{{ $.Scratch.Set "noBoroughs" 0 }}
 {{ $.Scratch.Set "noLanguages" 0 }}
 {{ $.Scratch.Set "noPayments" 0 }}
 
 <!--TAXONOMY NO COUNT COUNTING-->
 {{ range $pages }}
   {{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
-  {{ with .Params.boroughs }}{{ else }}{{ $.Scratch.Add "noBoroughs" 1 }}{{ end }}
   {{ with .Params.languages }}{{ else }}{{ $.Scratch.Add "noLanguages" 1 }}{{ end }}
   {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 {{ end }}
 
 {{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
-{{ partial "filter-taxonomy.html" (dict "filter" "borough" "noCount" ($.Scratch.Get "noBoroughs") "allContent" $boroughs )}}
+{{ partial "filter-data.html" (dict "filter" "borough" "allContent" $boroughs )}}
 {{ partial "filter-taxonomy.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages )}}
 {{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments )}}
 {{ partial "filter-non-taxonomy.html" (dict "filter" "ADAcompliance" "noTitle" "false" "noCount" ($.Scratch.Get "notADAcompliants") "allContent" ($.Scratch.Get "ADAcompliants") )}}

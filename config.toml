@@ -15,6 +15,5 @@ pygmentsUseClasses = true
 [taxonomies]
   category = "categories"
   tag = "tags"
-  borough = "boroughs"
   payment_type = "payment_types"
   language = "languages"

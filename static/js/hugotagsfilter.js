@@ -42,8 +42,6 @@ class HugoTagsFilter {
 		this.itemsToShowIncrement = this.itemsToShow;
 
 		this.filterValues = {};
-
-		this.showCheckFromSearch();
 	}
 
 	initFilterCount(fvc, isInitial) {
