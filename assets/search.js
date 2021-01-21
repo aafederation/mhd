@@ -217,6 +217,7 @@
 		let clone = template.content.cloneNode(true);
 		let mainDiv = clone.querySelector(".tf-filter-item");
 		let h3 = clone.querySelector("h3");
+		let moreInfo = clone.querySelector("h4");
 		let address = clone.querySelector(".address");
 		let services = clone.querySelector(".services");
 		let phone = clone.querySelector(".phone");
@@ -234,6 +235,7 @@
 		}
 		if (myPage.website) {
 			website.textContent = myPage.website;
+			website.onclick=function() {window.open("//" + myPage.website);};
 		}
 		if (myPage.payment) {
 			//payments.textContent = myPage.payment.replaceAll(' ', ', ').replaceAll('-', ' ').slice(0, -2);
@@ -252,8 +254,8 @@
 		mainDiv.setAttribute("data-language", myPage.language);
 		mainDiv.setAttribute("data-payment", myPage.payment);
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
-		mainDiv.onclick=function() {window.open(myPage.href);};
-		//mainDiv.onclick = onClickGoToMap(myPage.id);
+		moreInfo.onclick=function() {window.open(myPage.href);};
+		h3.onclick = onClickGoToMap(myPage.id);
 
 		return clone;
 	}
