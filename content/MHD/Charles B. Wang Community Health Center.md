@@ -10,7 +10,7 @@ payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale
 program = ""
 tags = []
 telehealth = "Not applicable"
-website = "www.cbwcgc.org"
+website = "www.cbwchc.org"
 [[locations]]
 address = "268 Canal St"
 latLng = "40.71878963726238, -74.00132840234299"
@@ -65,7 +65,7 @@ W, 10 am-6 pm
 
 Th, 11 am-6 pm
 
-www.cbwcgc.org
+www.cbwchc.org
 
 Services: Behavioral/mental health services
 
