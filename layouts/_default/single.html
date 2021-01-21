@@ -1,110 +1,97 @@
 {{ define "main" }}
 
-<article class="wrapper pad-bottom-700">
-	<div class="[ key-header ] [ splitter ] [ gap-top-700 ]">
-		<h2 class="text-700" id="transaction-label">{{ .Params.org }}</h2>
+<div class="[ wrapper key-header ] [ splitter ] [ gap-top-500 gap-bottom-500 ]">
+		<h1>{{ .Params.org }}</h1>
 		<aside>
-			<a href="//{{ .Params.website }}" class="[ button-cube ] [ radius ]" data-variant="ghost"
-				>{{ .Params.website }}</a
-			>
-			{{ $address := index (.Params.locations) 0 }}
-			<a href="#" class="[ button-cube ] [ radius ] [ color-white ]">{{ $address.phone_number }}</a>
+			<span class="font_icons text-600">&#xe0e3;</span>
+			<a href="//{{ .Params.website }}" class="[ button-cube ] [ radius ]" data-variant="ghost">
+				{{ .Params.website }}
+			</a>
 		</aside>
-	</div>
+</div>
 
-	<div class="[ splitter ] [ gap-top-600 ]">
-		<section class="[ table-group ] [ flow radius ]" aria-labelledby="transaction-label">
-			<h3 class="color-primary text-400 weight-medium">Services</h3>
-			<table>
-				<thead class="visually-hidden">
-					<tr>
-						<th>Description</th>
-						<th>Category</th>
-						<th>Amount</th>
-					</tr>
-				</thead>
-				<tbody>
-					{{ range .Params.services }}
-					<tr>
-						<td data-type="expense">{{ . }}</td>
-						<td></td>
-						<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Provided</span></td>
-					</tr>
-					{{ end }}
-				</tbody>
-			</table>
-			<h3 class="color-primary text-400 weight-medium">Payment types</h3>
-			<table>
-				<thead class="visually-hidden">
-					<tr>
-						<th>Description</th>
-						<th>Category</th>
-						<th>Amount</th>
-					</tr>
-				</thead>
-				<tbody>
-					{{ range .Params.payment_types }}
-					<tr>
-						<td data-type="expense">{{ . }}</td>
-						<td></td>
-						<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Accepted</span></td>
-					</tr>
-					{{ end }}
-				</tbody>
-			</table>
-			{{ range .Params.locations }}
-				{{ $address := . }}
-				<h3 class="color-primary text-400 weight-medium">
-					{{ $address.address }} ({{ $address.phone_number }})
-					<br>
-					{{ with $address.boroughs }}{{ index (.) 0 }}{{ end }}
-				</h3>
-				<table>
-					<thead class="visually-hidden">
-						<tr>
-							<th>Description</th>
-							<th>Category</th>
-							<th>Amount</th>
-						</tr>
-					</thead>
-					<tbody>
-						{{ range $address.hours_of_operation }}
-						<tr>
-							<td data-type="expense">{{ .day_hours }}</td>
-							<td></td>
-							<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Open</span></td>
-						</tr>
+<div class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]">
+	{{ $languages := .Params.languages }}
+	{{ $paymentTypes := .Params.payment_types }}
+	{{ $newClients := .Params.new_clients }}
+	{{ $telehealth := .Params.telehealth }}
+
+	{{ range .Params.locations }}
+		{{ $location := . }}
+		<div>
+			<div class="[ wrapper ] [ bg-primary pad-top-500 pad-bottom-500 color-white ]">
+				<div class="[ splitter ] [ text-400 ]">
+					<div>
+						<span class="font_icons">&#xe01f;</span>
+						<span class="weight-bold">
+							{{ $location.address }}
+						</span>
+					</div>
+					<div>
+						{{ with $location.boroughs }}
+							<span class="font_icons">&#xe01d;</span>
+							<span class="weight-bold">
+								{{ index (.) 0 }}
+							</span>
 						{{ end }}
-					</tbody>
-				</table>
-			{{ end }}
-			<h3 class="color-primary text-400 weight-medium">languages</h3>
-			<table>
-				<thead class="visually-hidden">
-					<tr>
-						<th>Description</th>
-						<th>Category</th>
-						<th>Amount</th>
-					</tr>
-				</thead>
-				<tbody>
-					{{ range .Params.languages }}
-					<tr>
-						<td data-type="expense">{{ . }}</td>
-						<td></td>
-						<td><span class="[ pill ] [ radius bg-tertiary color-light ]">Available</span></td>
-					</tr>
-					{{ end }}
-				</tbody>
-			</table>
-		</section>
-		<section class="[ summary ] [ flow radius ] [ bg-primary color-light ]">
-			<h3 class="color-tertiary-glare text-700">Summary</h3>
-			<dl class="">
-				{{ .Content }}
-			</dl>
-		</section>
-	</div>
-</article>
+					</div>
+					<div>
+						{{ with $location.phone_number }}
+							<span class="font_icons">&#xe090;</span>
+							<span class="weight-bold">
+								{{ . }}
+							</span>
+						{{ end }}
+					</div>
+				</div>
+			</div>
+			<div class="[ wrapper ] [ bg-white pad-top-500 pad-bottom-500 ]">
+				<div class="tiles">	
+					<div class="tile">
+						<h4 class="underline pad-bottom-300">Hours of operation</h4>
+						<ul>
+							{{ range $location.hours_of_operation }}
+								<li>{{ .day_hours }}</li>
+							{{ end }}
+						</ul>
+					</div>
+					<div class="tile">
+						<h4 class="underline pad-bottom-300">Details</h4>
+						<p>New clients: {{ $newClients }}</p>
+						<p>Telehealth: {{ $telehealth }}</p>
+						<p>Parking: {{ .parking }}</p>
+
+					</div>
+				</div>
+				<div class="mhd-tiles">
+					<div class="tile bg-light">
+						<h4>Services</h4>
+						<ul>
+							{{ range $location.services }}
+								<li>{{ . }}</li>
+							{{ end }}
+						</ul>
+					</div>
+					<div class="tile bg-light">
+						<h4>Payment, insurance, or funding accepted</h4>
+						<ul>
+							{{ range $paymentTypes }}
+								<li>{{ . }}</li>
+							{{ end }}
+						</ul>
+					</div>
+					<div class="tile bg-light">
+						<h4>Languages</h4>
+						<ul>
+							{{ range $languages }}
+								<li>{{ . }}</li>
+							{{ end }}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	{{ end }}
+</div>
 
 {{ end }}
