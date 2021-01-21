@@ -1,61 +1,61 @@
 .tile {
-  $tile-space: #{get-size('700')};
-  --flow-space: #{get-size('400')};
+	$tile-space: #{get-size("700")};
+	--flow-space: #{get-size("400")};
 
-  padding-top: $tile-space;
-  padding-inline-start: $tile-space;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+	padding-top: $tile-space;
+	padding-inline-start: $tile-space;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 
-  > * {
-    max-width: 45ch;
-    padding-inline-end: get-size('700');
-  }
+	> * {
+		max-width: 45ch;
+		padding-inline-end: get-size("700");
+	}
 
-  .heading {
-    max-width: 20ch;
-  }
+	.heading {
+		max-width: 20ch;
+	}
 
-  &__link {
-    --flow-space: #{get-size('700')};
+	&__link {
+		--flow-space: #{get-size("700")};
 
-    display: block;
-    margin-inline-end: 0;
-    margin-inline-start: auto;
-    padding: 0.8rem 1rem;
-    font-size: get-size('600');
-    line-height: 1;
+		display: block;
+		margin-inline-end: 0;
+		margin-inline-start: auto;
+		padding: 0.8rem 1rem;
+		font-size: get-size("600");
+		line-height: 1;
 
-    /// Break-out
-    &::before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
+		/// Break-out
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
 
-    &:focus,
-    &:focus::before {
-      outline: $stroke-width solid get-color('light');
-      outline-offset: -$stroke-width;
-    }
+		&:focus,
+		&:focus::before {
+			outline: $stroke-width solid get-color("light");
+			outline-offset: -$stroke-width;
+		}
 
-    /// We absolutely want this hover state *regardless* of what
-    /// tokens are present at any given time. This is to ensure consistency
-    &:hover {
-      background: get-color('light') !important;
-      color: get-color('secondary-shade') !important;
-    }
-  }
+		/// We absolutely want this hover state *regardless* of what
+		/// tokens are present at any given time. This is to ensure consistency
+		&:hover {
+			background: get-color("light") !important;
+			color: get-color("secondary-shade") !important;
+		}
+	}
 
-  @include media-query('md') {
-    &__link {
-      font-size: get-size('700');
-    }
-  }
+	@include media-query("md") {
+		&__link {
+			font-size: get-size("700");
+		}
+	}
 }
