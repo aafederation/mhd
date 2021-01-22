@@ -1,6 +1,11 @@
 // Item card
 .tf-item {
-	width: 100%;
+	flex: auto;
+	width: 18em;
 	margin: get-size("300") get-size("500");
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+
+	@include media-query("md") {
+		width: 100%;
+	}
 }

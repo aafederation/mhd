@@ -14,6 +14,12 @@
 	position: relative;
 	border-bottom: 1px solid transparent;
 	max-width: 30rem;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+
+	@media screen and (min-width: 46.5rem) {
+		margin-left: auto;
+	}
 
 	.hidden {
 		display: none;
