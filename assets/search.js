@@ -223,6 +223,7 @@
 		let phone = clone.querySelector(".phone");
 		let website = clone.querySelector(".website");
 		let payments = clone.querySelector(".payments");
+		let directions = clone.querySelector(".directions");
 
 		h3.textContent = myPage.title;
 		address.textContent = myPage.location.address;
@@ -256,6 +257,7 @@
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
 		moreInfo.onclick=function() {window.open(myPage.href);};
 		h3.onclick = onClickGoToMap(myPage.id);
+		directions.onclick=function() {window.open("https://www.google.com/maps/dir/?api=1&destination="+myPage.location.latLng);};
 
 		return clone;
 	}
