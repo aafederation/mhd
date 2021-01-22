@@ -4,4 +4,7 @@
 	padding-right: get-size("500");
 	margin-left: auto;
 	margin-right: auto;
+	&[data-variant="no-padding"] {
+		padding: 0;
+	}
 }

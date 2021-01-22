@@ -18,7 +18,7 @@
 
 	{{ range .Params.locations }}
 		{{ $location := . }}
-		<div>
+		<div class="box-shadow-glow wrapper" data-variant="no-padding">
 			<div class="[ wrapper ] [ bg-primary pad-top-500 pad-bottom-500 color-white ]">
 				<div class="[ splitter ] [ text-400 ]">
 					<div>
@@ -45,9 +45,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="[ wrapper ] [ bg-white pad-top-500 pad-bottom-500 ]">
+			<div class="[ wrapper ] [ bg-light pad-top-500 pad-bottom-500 ]">
 				<div class="tiles">	
-					<div class="tile">
+					<div class="tile bg-white">
 						<h4 class="underline pad-bottom-300">Hours of operation</h4>
 						<ul>
 							{{ range $location.hours_of_operation }}
@@ -55,7 +55,7 @@
 							{{ end }}
 						</ul>
 					</div>
-					<div class="tile">
+					<div class="tile bg-white">
 						<h4 class="underline pad-bottom-300">Details</h4>
 						<p>New clients: {{ $newClients }}</p>
 						<p>Telehealth: {{ $telehealth }}</p>
