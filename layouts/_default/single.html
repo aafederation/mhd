@@ -15,7 +15,10 @@
     </aside>
   </div>
 
-  <div class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]">
+  <div
+    class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]"
+    style="--flow-space: 4rem;"
+  >
     {{ $languages := .Params.languages }}
     {{ $paymentTypes := .Params.payment_types }}
     {{ $newClients := .Params.new_clients }}
@@ -28,34 +31,38 @@
           class="[ wrapper ] [ bg-primary pad-top-500 pad-bottom-500 color-white ]"
         >
           <div class="[ split-pair ] [ text-400 ]">
-            <div>
+            <h3>
               <span class="font_icons">&#xe01f;</span>
               <span class="weight-bold">
                 {{ $location.address }}
               </span>
-            </div>
-            <div>
+            </h3>
+            <h3>
               {{ with $location.boroughs }}
                 <span class="font_icons">&#xe01d;</span>
                 <span class="weight-bold">
                   {{ index (.) 0 }}
                 </span>
               {{ end }}
-            </div>
-            <div>
+            </h3>
+            <h3>
               {{ with $location.phone_number }}
                 <span class="font_icons">&#xe090;</span>
                 <span class="weight-bold">
                   {{ . }}
                 </span>
               {{ end }}
-            </div>
+            </h3>
           </div>
         </div>
         <div class="[ wrapper ] [ bg-light pad-top-500 pad-bottom-500 ]">
           <div class="tiles" data-variant="two-per-row">
             <div class="[ bg-white box-shadow-glow ]">
-              <h4 class="underline pad-bottom-300">Location</h4>
+              <h4
+                class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
+              >
+                Location
+              </h4>
               <iframe
                 frameborder="0"
                 width="100%"
@@ -64,7 +71,9 @@
                 src="https://www.google.com/maps/embed/v1/place?q={{ .latLng }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=12"
                 allowfullscreen
               ></iframe>
-              <div>
+              <div
+                class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
+              >
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination={{ .latLng }}"
                   target="_blank"
@@ -77,7 +86,9 @@
               </div>
             </div>
             <div class="[ bg-white box-shadow-glow ]">
-              <h4 class="underline pad-bottom-300">
+              <h4
+                class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
+              >
                 Payment, insurance, or funding accepted
               </h4>
               <ul>
@@ -88,9 +99,9 @@
             </div>
           </div>
         </div>
-        <div class="[ bg-white ]">
-          <h2>Services at this location</h2>
-          <div class="tiles" data-variant="two-per-row">
+        <div class="[ wrapper ] [ bg-white pad-top-500 ]">
+          <h2 class="gap-bottom-500">Services at this location</h2>
+          <div class="tiles">
             <div>
               <div>
                 <h4>LANGUAGES</h4>
