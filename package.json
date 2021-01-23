@@ -1,0 +1,24 @@
+{
+  "name": "mhd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aafederation/mhd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aafederation/mhd/issues"
+  },
+  "homepage": "https://github.com/aafederation/mhd#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "prettier-plugin-go-template": "0.0.10"
+  }
+}
