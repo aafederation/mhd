@@ -36,7 +36,7 @@
 				'payment':  {{ with $page.Params.payment_types }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-payment"|jsonify}}{{ end }},
 				'ADAcompliance': {{ with $page.Params.ada_compliant }}{{ . |urlize|jsonify }}{{ else }}{{ "false"|jsonify }}{{ end }},
 				'location': {{ $location | jsonify }},
-				'website': {{ $page.Params.website | jsonify }},
+				'website': {{ with $page.Params.website }}{{ if not (hasPrefix (lower $page.Params.website) `http`) }}{{print `//` $page.Params.website | jsonify }}{{ else }}{{ $page.Params.website | jsonify }}{{ end }}{{ else }}""{{ end }},
 				'services': {{ $location.services | jsonify }},
 		  });
 			indexCount++;

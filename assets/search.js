@@ -236,7 +236,7 @@
 		}
 		if (myPage.website) {
 			website.textContent = myPage.website;
-			website.onclick=function() {window.open("//" + myPage.website);};
+			website.onclick=function() {window.open(myPage.website);};
 		}
 		if (myPage.payment) {
 			//payments.textContent = myPage.payment.replaceAll(' ', ', ').replaceAll('-', ' ').slice(0, -2);
