@@ -9,7 +9,7 @@
 	<nav aria-label="main menu" class="pad-right-300 font-serif">
 		<ul class="nav" role="list">
 			<li>
-				<a href="/" class="link-pointer" data-variant="invert">Home</a>
+				<a href="/" class="link-pointer" {{ if .IsHome }}data-variant="invert"{{ end }}>Home</a>
 			</li>
 			<li>
 				<a href="https://aaf.dreamhosters.com" class="link-pointer">AAF</a>
