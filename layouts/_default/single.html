@@ -6,9 +6,10 @@
     <aside>
       <span class="font_icons text-600">&#xe0e3;</span>
       <a
-        href="//{{ .Params.website }}"
+        href="{{ if not (hasPrefix (lower .Params.website) `http`) }}//{{ .Params.website }}{{ else }}{{ .Params.website }}{{ end }}"
         class="[ button-cube ] [ radius ]"
         data-variant="ghost"
+        target="_blank"
       >
         {{ .Params.website }}
       </a>
