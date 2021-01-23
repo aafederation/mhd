@@ -1,149 +1,149 @@
 {{ define "main" }}
-  <div
-    class="[ wrapper key-header ] [ splitter ] [ gap-top-500 gap-bottom-500 ]"
-  >
-    <h1>{{ .Params.org }}</h1>
-    <aside>
-      <span class="font_icons text-600">&#xe0e3;</span>
-      <a
-        href="{{ if not (hasPrefix (lower .Params.website) `http`) }}//{{ .Params.website }}{{ else }}{{ .Params.website }}{{ end }}"
-        class="[ button-cube ] [ radius ]"
-        data-variant="ghost"
-        target="_blank"
-      >
-        {{ .Params.website }}
-      </a>
-    </aside>
-  </div>
+	<div
+		class="[ wrapper key-header ] [ splitter ] [ gap-top-500 gap-bottom-500 ]"
+	>
+		<h1>{{ .Params.org }}</h1>
+		<aside>
+			<span class="font_icons text-600">&#xe0e3;</span>
+			<a
+				href="{{ if not (hasPrefix (lower .Params.website) `http`) }}//{{ .Params.website }}{{ else }}{{ .Params.website }}{{ end }}"
+				class="[ button-cube ] [ radius ] [ no-decoration ]"
+				data-variant="ghost"
+				target="_blank"
+			>
+				{{ .Params.website }}
+			</a>
+		</aside>
+	</div>
 
-  <div
-    class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]"
-    style="--flow-space: 4rem;"
-  >
-    {{ $languages := .Params.languages }}
-    {{ $paymentTypes := .Params.payment_types }}
-    {{ $newClients := .Params.new_clients }}
-    {{ $telehealth := .Params.telehealth }}
+	<div
+		class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]"
+		style="--flow-space: 4rem;"
+	>
+		{{ $languages := .Params.languages }}
+		{{ $paymentTypes := .Params.payment_types }}
+		{{ $newClients := .Params.new_clients }}
+		{{ $telehealth := .Params.telehealth }}
 
-    {{ range .Params.locations }}
-      {{ $location := . }}
-      <div class="box-shadow-glow wrapper" data-variant="no-padding">
-        <div
-          class="[ wrapper ] [ bg-primary pad-top-500 pad-bottom-500 color-white ]"
-        >
-          <div class="[ split-pair ] [ text-400 ]">
-            <h3>
-              <span class="font_icons">&#xe01f;</span>
-              <span class="weight-bold">
-                {{ $location.address }}
-              </span>
-            </h3>
-            <h3>
-              {{ with $location.boroughs }}
-                <span class="font_icons">&#xe01d;</span>
-                <span class="weight-bold">
-                  {{ index (.) 0 }}
-                </span>
-              {{ end }}
-            </h3>
-            <h3>
-              {{ with $location.phone_number }}
-                <span class="font_icons">&#xe090;</span>
-                <span class="weight-bold">
-                  {{ . }}
-                </span>
-              {{ end }}
-            </h3>
-          </div>
-        </div>
-        <div class="[ wrapper ] [ bg-light pad-top-500 pad-bottom-500 ]">
-          <div class="tiles" data-variant="two-per-row">
-            <div class="[ bg-white box-shadow-glow ]">
-              <h4
-                class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
-              >
-                Location
-              </h4>
-              <iframe
-                frameborder="0"
-                width="100%"
-                height="300px"
-                style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?q={{ .latLng }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=12"
-                allowfullscreen
-              ></iframe>
-              <div
-                class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
-              >
-                <a
-                  href="https://www.google.com/maps/dir/?api=1&destination={{ .latLng }}"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="link-pointer color-white bg-primary no-decoration"
-                >
-                  <span class="font_icons">&#xe03c;</span>
-                  <span class="weight-bold">Get directions</span>
-                </a>
-              </div>
-            </div>
-            <div class="[ bg-white box-shadow-glow ]">
-              <h4
-                class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
-              >
-                Payment, insurance, or funding accepted
-              </h4>
-              <ul>
-                {{ range $paymentTypes }}
-                  <li>{{ . }}</li>
-                {{ end }}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="[ wrapper ] [ bg-white pad-top-500 ]">
-          <h2 class="gap-bottom-500">Services at this location</h2>
-          <div class="tiles">
-            <div>
-              <div>
-                <h4>LANGUAGES</h4>
-                <ul>
-                  {{ range $languages }}
-                    <li>{{ . }}</li>
-                  {{ end }}
-                </ul>
-              </div>
-              <div>
-                <h4>TYPE OF CARE</h4>
-                <ul>
-                  {{ range $location.services }}
-                    <li>{{ . }}</li>
-                  {{ end }}
-                </ul>
-              </div>
-            </div>
-            <div>
-              <div>
-                <h4>NEW CLIENTS</h4>
-                <ul>
-                  <li>{{ $newClients }}</li>
-                </ul>
-              </div>
-              <div>
-                <h4>TELE HEALTH</h4>
-                <ul>
-                  <li>{{ $telehealth }}</li>
-                </ul>
-              </div>
-              <div>
-                <h4>PARKING</h4>
-                <ul>
-                  <li>{{ .parking }}</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    {{ end }}
-  </div>
+		{{ range .Params.locations }}
+			{{ $location := . }}
+			<div class="box-shadow-glow wrapper" data-variant="no-padding">
+				<div
+					class="[ wrapper ] [ bg-primary pad-top-500 pad-bottom-500 color-white ]"
+				>
+					<div class="[ split-pair ] [ text-400 ]">
+						<h3>
+							<span class="font_icons">&#xe01f;</span>
+							<span class="weight-bold">
+								{{ $location.address }}
+							</span>
+						</h3>
+						<h3>
+							{{ with $location.boroughs }}
+								<span class="font_icons">&#xe01d;</span>
+								<span class="weight-bold">
+									{{ index (.) 0 }}
+								</span>
+							{{ end }}
+						</h3>
+						<h3>
+							{{ with $location.phone_number }}
+								<span class="font_icons">&#xe090;</span>
+								<span class="weight-bold">
+									{{ . }}
+								</span>
+							{{ end }}
+						</h3>
+					</div>
+				</div>
+				<div class="[ wrapper ] [ bg-light pad-top-500 pad-bottom-500 ]">
+					<div class="tiles" data-variant="two-per-row">
+						<div class="[ bg-white box-shadow-glow ]">
+							<h4
+								class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
+							>
+								Location
+							</h4>
+							<iframe
+								frameborder="0"
+								width="100%"
+								height="300px"
+								style="border:0"
+								src="https://www.google.com/maps/embed/v1/place?q={{ .latLng }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=12&"
+								allowfullscreen
+							></iframe>
+							<div
+								class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
+							>
+								<a
+									href="https://www.google.com/maps/dir/?api=1&destination={{ .latLng }}"
+									target="_blank"
+									rel="noopener noreferrer"
+									class="link-pointer color-white bg-primary no-decoration"
+								>
+									<span class="font_icons">&#xe03c;</span>
+									<span class="weight-bold">Get directions</span>
+								</a>
+							</div>
+						</div>
+						<div class="[ bg-white box-shadow-glow ]">
+							<h4
+								class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
+							>
+								Payment, insurance, or funding accepted
+							</h4>
+							<ul>
+								{{ range $paymentTypes }}
+									<li>{{ . }}</li>
+								{{ end }}
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="[ wrapper ] [ bg-white pad-top-500 ]">
+					<h2 class="gap-bottom-500">Services at this location</h2>
+					<div class="tiles">
+						<div>
+							<div>
+								<h4>LANGUAGES</h4>
+								<ul>
+									{{ range $languages }}
+										<li>{{ . }}</li>
+									{{ end }}
+								</ul>
+							</div>
+							<div>
+								<h4>TYPE OF CARE</h4>
+								<ul>
+									{{ range $location.services }}
+										<li>{{ . }}</li>
+									{{ end }}
+								</ul>
+							</div>
+						</div>
+						<div>
+							<div>
+								<h4>NEW CLIENTS</h4>
+								<ul>
+									<li>{{ $newClients }}</li>
+								</ul>
+							</div>
+							<div>
+								<h4>TELE HEALTH</h4>
+								<ul>
+									<li>{{ $telehealth }}</li>
+								</ul>
+							</div>
+							<div>
+								<h4>PARKING</h4>
+								<ul>
+									<li>{{ .parking }}</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{{ end }}
+	</div>
 {{ end }}
