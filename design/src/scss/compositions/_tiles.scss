@@ -7,4 +7,19 @@
 		min-width: 16rem;
 		flex-grow: 1;
 	}
+
+	&[data-variant="two-per-row"] {
+		> * {
+			width: 100%;
+			margin-bottom: get-size("500");
+		}
+		@include media-query("md") {
+			> * {
+				width: 45%;
+				margin-left: get-size("300");
+				margin-right: get-size("300");
+				margin-bottom: 0;
+			}
+		}
+	}
 }
