@@ -6,9 +6,16 @@
 	justify-content: flex-start;
 	> .main-filter-col {
 		flex: 1;
+		margin-left: get-size("500");
+		margin-right: get-size("500");
+		margin-bottom: get-size("300");
+		min-width: 15em;
 
-		@media screen and (min-width: 34.55em) {
+		@media screen and (min-width: 38em) {
 			margin-top: get-size("1000");
+			margin-left: 0;
+			margin-right: 0;
+			margin-bottom: 0;
 		}
 	}
 	> .main-body-col {
