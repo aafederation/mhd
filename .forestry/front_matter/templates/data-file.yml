@@ -6,5 +6,6 @@ fields:
   name: Items
   label: Items
 pages:
+- data/Age groups.json
 - data/Languages.json
 - data/Payment types.json
