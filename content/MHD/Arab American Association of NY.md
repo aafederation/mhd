@@ -17,10 +17,12 @@ boroughs = ["Brooklyn"]
 languages = ["Arabic"]
 latLng = "40.63230551173878, -74.0212758446735"
 new_clients = ""
+non_clinical_services = ["Domestic violence counseling", "Crisis intervention and management", "Advocacy"]
 parking = ""
 phone_number = "718-745-3523"
 public_transportation = "N, Q, W, R trains to Brooklyn"
 services = ["Free mental health services", "Connections to Care Program"]
+staff_gender = ["Male", "Female"]
 [[locations.hours_of_operation]]
 day_hours = "M-F 10am-6pm"
 
