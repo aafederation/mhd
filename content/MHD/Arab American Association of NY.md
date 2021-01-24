@@ -3,8 +3,6 @@ ada_compliant = false
 email = "info@arabamericanny.org"
 highlight = true
 image = ""
-languages = ["Arabic"]
-new_clients = ""
 org = "Arab American Association of NY"
 payment_types = ["No insurance necessary"]
 program = ""
@@ -18,6 +16,8 @@ boroughs = ["Brooklyn"]
 parking = ""
 phone_number = "718-745-3523"
 services = ["Free mental health services", "Connections to Care Program"]
+languages = ["Arabic"]
+new_clients = ""
 [[locations.hours_of_operation]]
 day_hours = "M-F 10am-6pm"
 
