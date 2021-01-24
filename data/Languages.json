@@ -1,17 +1,31 @@
 {
-  "Items": [
-    "Arabic",
-    "Bengali",
-    "Cantonese",
-    "Gujarati",
-    "Hindi",
-    "Japanese",
-    "Korean",
-    "Mandarin",
-    "Marathi",
-    "Nepali",
-    "Tagalog",
-    "Urdu",
-    "Vietnamese"
-  ]
+	"Items": [
+		"English",
+		"Arabic",
+		"Bangla",
+		"Bhutanese",
+		"Burmese",
+		"Cantonese",
+		"Chinese",
+		"Gujarati",
+		"Hindi",
+		"Indonesian",
+		"Japanese",
+		"Khmer",
+		"Korean",
+		"Laotian",
+		"Malayalam",
+		"Mandarin",
+		"Marathi",
+		"Nepali",
+		"Pashto",
+		"Persian Dari",
+		"Punjabi",
+		"Tagalog",
+		"Tamil",
+		"Telegu",
+		"Thai",
+		"Vietnamese",
+		"Urdu"
+	]
 }

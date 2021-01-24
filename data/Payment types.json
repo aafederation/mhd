@@ -1,9 +1,32 @@
 {
-  "Items": [
-    "No insurance necessary",
-    "Sliding scale fee for patients without insurance",
-    "Medicaid",
-    "Medicare",
-    "Third-party insurance"
-  ]
+	"Items": [
+		"NA",
+		"No insurance necessary",
+		"Sliding scale fee for patients without insurance",
+		"Third-party insurance",
+		"Any insurance",
+		"1199SEIU",
+		"Aetna",
+		"American Behavioral",
+		"AMERIGROUP",
+		"AmeriHealth",
+		"Beacon Health",
+		"Blue Care Network",
+		"Blue Cross/Blue Shield",
+		"CareFirst",
+		"Cigna",
+		"ComPsych",
+		"Hotel 6",
+		"Humana",
+		"Medicaid",
+		"Medical Mutual",
+		"Medicare",
+		"Military OneSource",
+		"New Directions",
+		"Optum",
+		"Oxford",
+		"TRICARE",
+		"TriWest",
+		"UnitedHealthcare"
+	]
 }
