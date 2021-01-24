@@ -54,11 +54,11 @@ a:hover {
 @import "utilities/radius";
 @import "utilities/splitter";
 @import "utilities/text-rtl";
-@import "utilities/link-pointer";
 @import "utilities/underline";
 @import "utilities/overline";
 @import "utilities/box-shadow-glow";
 @import "utilities/no-decoration";
+@import "utilities/right-align";
 
 // Import blocks
 @import "blocks/brand";
@@ -73,13 +73,14 @@ a:hover {
 @import "blocks/panel";
 @import "blocks/map";
 @import "blocks/red-tip";
-
 @import "blocks/key-header";
 @import "blocks/pill";
 @import "blocks/site-head";
 @import "blocks/summary";
 @import "blocks/table-group";
 @import "blocks/user";
+@import "blocks/link-pointer";
+
 @import "utilities/visually-hidden";
 
 // Import compositions

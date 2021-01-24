@@ -107,6 +107,17 @@
 								src="https://www.google.com/maps/embed/v1/place?q={{ .latLng }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=12&"
 								allowfullscreen
 							></iframe>
+							{{ with $location.public_transportation }}
+								<div
+									class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300 split-pair"
+									style="--split-pair-space: 0.5rem;"
+								>
+									<h4>PUBLIC TRANSPORTATION</h4>
+									<div>
+										{{ . }}
+									</div>
+								</div>
+							{{ end }}
 							<div
 								class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300 split-pair"
 							>
