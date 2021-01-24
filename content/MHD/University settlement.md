@@ -3,8 +3,6 @@ ada_compliant = true
 email = ""
 highlight = false
 image = ""
-languages = ["Mandarin", "Cantonese"]
-new_clients = "Not applicable"
 org = "University Settlement"
 payment_types = ["Sliding scale fee for patients without insurance", "Third-party insurance", "Medicare", "Medicaid"]
 program = "The Door"
@@ -18,6 +16,8 @@ boroughs = ["Manhattan"]
 parking = "Yes"
 phone_number = "212-453-4522"
 services = ["Outpatient mental health services"]
+languages = ["Mandarin", "Cantonese"]
+new_clients = "Not applicable"
 [[locations.hours_of_operation]]
 day_hours = "Sa 9:30am-3:30pm"
 [[locations.hours_of_operation]]

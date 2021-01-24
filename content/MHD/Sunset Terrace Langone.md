@@ -2,8 +2,6 @@
 ada_compliant = true
 email = "hello@nyulangone.org"
 image = ""
-languages = ["Cantonese", "Mandarin", "Japanese", "Korean"]
-new_clients = ""
 org = "NYU Langone"
 payment_types = ["Medicare", "Medicaid", "Third-party insurance", "Sliding scale fee for patients without insurance"]
 program = "Sunset Terrace Family Health Center"
@@ -16,6 +14,8 @@ latLng = "40.64539989360426, -74.00937098885446"
 boroughs = ["Brooklyn"]
 phone_number = "718-630-7942"
 services = ["Mental health services", "Behavioral services"]
+languages = ["Cantonese", "Mandarin", "Japanese", "Korean"]
+new_clients = ""
 parking = ""
 [[locations.hours_of_operation]]
 day_hours = "F 8am-5pm"

@@ -2,8 +2,6 @@
 ada_compliant = true
 email = ""
 image = ""
-languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bengali"]
-new_clients = "Yes"
 org = "The Child Center of NY"
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 program = ""
@@ -16,6 +14,8 @@ latLng = "40.757915557503125, -73.82652824466905"
 boroughs = ["Queens"]
 phone_number = "718-358-8288"
 services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
+languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bengali"]
+new_clients = "Yes"
 parking = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "M -Th, 9 am-9 pm"
@@ -29,6 +29,8 @@ latLng = "40.73736275419179, -73.88177615816086"
 boroughs = ["Queens"]
 phone_number = "718-899-9810"
 services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
+languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bengali"]
+new_clients = "Yes"
 parking = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "Sa, 9 am-3:30 pm"

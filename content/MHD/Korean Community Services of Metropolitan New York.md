@@ -2,8 +2,6 @@
 ada_compliant = true
 email = ""
 image = ""
-languages = ["Korean"]
-new_clients = "Yes"
 org = "Korean Community Services of Metropolitan New York"
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 program = ""
@@ -16,6 +14,8 @@ latLng = "40.759815312190184, -73.80433077350517"
 boroughs = ["Queens"]
 phone_number = "718-366-9540"
 services = ["Outpatient mental health services"]
+languages = ["Korean"]
+new_clients = "Yes"
 parking = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "M, W, F, Sa, 9 am-5 pm"

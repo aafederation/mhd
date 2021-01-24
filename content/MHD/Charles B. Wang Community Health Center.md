@@ -3,8 +3,6 @@ ada_compliant = true
 email = ""
 highlight = true
 image = ""
-languages = ["Korean", "Mandarin", "Cantonese"]
-new_clients = "Yes"
 org = "Charles B. Wang Community Health Center"
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 program = ""
@@ -18,6 +16,8 @@ boroughs = ["Manhattan"]
 parking = "Yes"
 phone_number = "2-941-2213"
 services = ["Behavioral services", "Mental health services"]
+languages = ["Korean", "Mandarin", "Cantonese"]
+new_clients = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[locations.hours_of_operation]]
@@ -31,6 +31,8 @@ boroughs = ["Queens"]
 parking = "Yes"
 phone_number = "2-941-2213"
 services = ["Behavioral services", "Mental health services"]
+languages = ["Korean", "Mandarin", "Cantonese"]
+new_clients = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[locations.hours_of_operation]]
@@ -44,6 +46,8 @@ boroughs = ["Queens"]
 parking = "Yes"
 phone_number = ""
 services = ["Behavioral services", "Mental health services"]
+languages = ["Korean", "Mandarin", "Cantonese"]
+new_clients = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[locations.hours_of_operation]]

@@ -2,8 +2,6 @@
 ada_compliant = true
 email = ""
 image = ""
-languages = ["Mandarin", "Cantonese"]
-new_clients = "Yes"
 org = "Gouverneur Healthcare Service"
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 program = "Asian Bicultural Clinic"
@@ -16,6 +14,8 @@ latLng = "40.71310523150502, -73.98770330234316"
 boroughs = ["Manhattan"]
 phone_number = "212-238-7332"
 services = ["Asian bi-cultural mental health services"]
+languages = ["Mandarin", "Cantonese"]
+new_clients = "Yes"
 parking = "Yes"
 [[locations.hours_of_operation]]
 day_hours = "Open 24/7"
