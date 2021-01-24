@@ -1,0 +1,4 @@
+.flex-gap {
+	display: flex;
+	gap: var(--gap-space, #{get-size("300")});
+}

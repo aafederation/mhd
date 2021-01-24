@@ -4,15 +4,32 @@
 	>
 		<h1>{{ .Params.org }}</h1>
 		<aside>
-			<span class="font_icons text-600">&#xe0e3;</span>
-			<a
-				href="{{ if not (hasPrefix (lower .Params.website) `http`) }}//{{ .Params.website }}{{ else }}{{ .Params.website }}{{ end }}"
-				class="[ button-cube ] [ radius ] [ no-decoration ]"
-				data-variant="ghost"
-				target="_blank"
-			>
-				{{ .Params.website }}
-			</a>
+			{{ with .Params.website }}
+				<span class="flex-gap" style="--gap-space:0.25rem;">
+					<span class="font_icons text-600">&#xe0e3;</span>
+					<a
+						href="{{ if not (hasPrefix (lower .) `http`) }}//{{ . }}{{ else }}{{ . }}{{ end }}"
+						class="[ button-cube ] [ radius ] [ no-decoration ]"
+						data-variant="ghost"
+						target="_blank"
+					>
+						{{ . }}
+					</a>
+				</span>
+			{{ end }}
+			{{ with .Params.email }}
+				<span class="flex-gap" style="--gap-space:0.25rem;">
+					<span class="font_icons text-600">&#xe010;</span>
+					<a
+						href="mailto: {{ . }}"
+						class="[ button-cube ] [ radius ] [ no-decoration ]"
+						data-variant="ghost"
+						target="_blank"
+					>
+						{{ . }}
+					</a>
+				</span>
+			{{ end }}
 		</aside>
 	</div>
 
