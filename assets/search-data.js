@@ -9,7 +9,7 @@
 
   indexCfg.doc = {
     id: 'id',
-    field: ['title', 'content', 'tag', 'borough','language', 'services'],
+    field: ['borough','language','services','nonClinicalServices','title','tag','content'],
     store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance', 'location', 'website'],
   };
 
@@ -38,6 +38,7 @@
 				'location': {{ $location | jsonify }},
 				'website': {{ with $page.Params.website }}{{ if not (hasPrefix (lower $page.Params.website) `http`) }}{{print `//` $page.Params.website | jsonify }}{{ else }}{{ $page.Params.website | jsonify }}{{ end }}{{ else }}""{{ end }},
 				'services': {{ $location.services | jsonify }},
+				'nonClinicalServices': {{ with $location.non_clinical_services }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{" " | jsonify}}{{ end }},
 		  });
 			indexCount++;
 	  {{- end -}}

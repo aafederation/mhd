@@ -220,6 +220,7 @@
 		let moreInfo = clone.querySelector("h4");
 		let address = clone.querySelector(".address");
 		let services = clone.querySelector(".services");
+		let nonClinicalServices = clone.querySelector(".non-clinical-services");
 		let phone = clone.querySelector(".phone");
 		let website = clone.querySelector(".website");
 		let payments = clone.querySelector(".payments");
@@ -230,6 +231,9 @@
 
 		if (myPage.location.services) {
 			services.textContent = myPage.location.services.join(", ");
+		}
+		if (myPage.location.non_clinical_services) {
+			nonClinicalServices.textContent = myPage.location.non_clinical_services.join(", ");
 		}
 		if (myPage.location.phone_number) {
 			phone.textContent = myPage.location.phone_number;

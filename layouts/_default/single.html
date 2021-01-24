@@ -163,9 +163,25 @@
 								</ul>
 							</div>
 							<div>
+								<h4>NON-CLINICAL SERVICES</h4>
+								<ul>
+									{{ range $location.non_clinical_services }}
+										<li>{{ . }}</li>
+									{{ end }}
+								</ul>
+							</div>
+							<div>
 								<h4>LANGUAGES</h4>
 								<ul>
 									{{ range $location.languages }}
+										<li>{{ . }}</li>
+									{{ end }}
+								</ul>
+							</div>
+							<div>
+								<h4>GENDER OF STAFF</h4>
+								<ul>
+									{{ range $location.staff_gender }}
 										<li>{{ . }}</li>
 									{{ end }}
 								</ul>
