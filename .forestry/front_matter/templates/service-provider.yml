@@ -2,204 +2,207 @@
 label: Service Provider
 hide_body: false
 fields:
-- name: org
-  type: text
-  config:
-    required: true
-  label: Organization name
-  description: Name of organization
-- name: highlight
-  type: boolean
-  label: Highlight
-  description: Turn on for service provider to show on top of home page.  Ideally,
-    about 3 service providers can be selected for highlighting
-- name: program
-  type: text
-  config:
-    required: false
-  label: Program/clinic name (if applicable)
-  description: 'If applicable, the program/clinic name '
-- name: website
-  type: text
-  config:
-    required: false
-  label: Website
-  description: Website for the service provider
-- name: email
-  type: text
-  config:
-    required: false
-  label: Email
-  description: Email address to contact the service provider
-- name: payment_types
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: data
-      file: data/Payment types.json
-      path: Items
-  label: Payment types
-  description: Types of payments accepted
-- name: new_clients
-  type: select
-  default: 'Yes'
-  config:
-    required: false
-    options:
-    - 'Yes'
-    - 'No'
-    - Not applicable
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: New clients
-  description: Are you accepting new clients?
-- name: ada_compliant
-  type: boolean
-  label: ADA compliant
-  default: true
-  description: Is your location(s) ADA compliant?
-- name: telehealth
-  type: select
-  default: Not applicable
-  config:
-    required: false
-    options:
-    - 'Yes'
-    - 'No'
-    - Not applicable
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Telehealth service
-  description: Do you offer telehealth services?
-- name: locations
-  type: field_group_list
-  fields:
-  - name: address
-    type: textarea
-    default: ''
+  - name: org
+    type: text
     config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Physical address
-    description: " Physical address"
-  - name: latLng
+      required: true
+    label: Organization name
+    description: Name of organization
+  - name: highlight
+    type: boolean
+    label: Highlight
+    description:
+      Turn on for service provider to show on top of home page.  Ideally,
+      about 3 service providers can be selected for highlighting
+  - name: program
     type: text
     config:
       required: false
-    label: latitude, longitude
-    description: The latitude, longitude of the address. e.g.<br>40.704938, -74.006006
-  - name: boroughs
-    type: list
-    config:
-      use_select: true
-      min: 
-      max: 
-      source:
-        type: documents
-        section: data
-        file: data/Boroughs.json
-        path: Boroughs
-    label: Boroughs
-    description: Boroughs serviced by provider
-  - name: phone_number
+    label: Program/clinic name (if applicable)
+    description: "If applicable, the program/clinic name "
+  - name: website
     type: text
     config:
       required: false
-    label: Phone number
-  - name: services
+    label: Website
+    description: Website for the service provider
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
+    description: Email address to contact the service provider
+  - name: payment_types
     type: list
     config:
       use_select: true
-      min: 
-      max: 
+      min:
+      max:
       source:
         type: documents
         section: data
-        file: data/Mental health services.json
+        file: data/Payment types.json
         path: Items
-    label: Services
-    description: List of services available
-  - name: languages
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: data
-      file: data/Languages.json
-      path: Items
-  label: Languages
-  description: Languages available for service
-  - name: parking
+    label: Payment types
+    description: Types of payments accepted
+  - name: new_clients
     type: select
-    default: 'Yes'
+    default: "Yes"
     config:
       required: false
       options:
-      - 'Yes'
-      - 'No'
-      - Street parking
+        - "Yes"
+        - "No"
+        - Not applicable
       source:
         type: simple
-        section: 
-        file: 
-        path: 
-    label: Parking
-  - name: hours_of_operation
+        section:
+        file:
+        path:
+    label: New clients
+    description: Are you accepting new clients?
+  - name: ada_compliant
+    type: boolean
+    label: ADA compliant
+    default: true
+    description: Is your location(s) ADA compliant?
+  - name: telehealth
+    type: select
+    default: Not applicable
+    config:
+      required: false
+      options:
+        - "Yes"
+        - "No"
+        - Not applicable
+      source:
+        type: simple
+        section:
+        file:
+        path:
+    label: Telehealth service
+    description: Do you offer telehealth services?
+  - name: locations
     type: field_group_list
     fields:
-    - name: day_hours
-      type: text
-      config:
-        required: false
-      label: Days hours
-      description: day(s) and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
-        9am-6pm
+      - name: address
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: false
+          schema:
+            format: markdown
+        label: Physical address
+        description: " Physical address"
+      - name: latLng
+        type: text
+        config:
+          required: false
+        label: latitude, longitude
+        description: The latitude, longitude of the address. e.g.<br>40.704938, -74.006006
+      - name: boroughs
+        type: list
+        config:
+          use_select: true
+          min:
+          max:
+          source:
+            type: documents
+            section: data
+            file: data/Boroughs.json
+            path: Boroughs
+        label: Boroughs
+        description: Boroughs serviced by provider
+      - name: phone_number
+        type: text
+        config:
+          required: false
+        label: Phone number
+      - name: services
+        type: list
+        config:
+          use_select: true
+          min:
+          max:
+          source:
+            type: documents
+            section: data
+            file: data/Mental health services.json
+            path: Items
+        label: Services
+        description: List of services available
+      - name: languages
+        type: list
+        config:
+          use_select: true
+          min:
+          max:
+          source:
+            type: documents
+            section: data
+            file: data/Languages.json
+            path: Items
+        label: Languages
+        description: Languages available for service
+      - name: parking
+        type: select
+        default: "Yes"
+        config:
+          required: false
+          options:
+            - "Yes"
+            - "No"
+            - Street parking
+          source:
+            type: simple
+            section:
+            file:
+            path:
+        label: Parking
+      - name: hours_of_operation
+        type: field_group_list
+        fields:
+          - name: day_hours
+            type: text
+            config:
+              required: false
+            label: Days hours
+            description:
+              day(s) and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
+              9am-6pm
+        config:
+          min:
+          max:
+          labelField:
+        label: Hours of operation
+        description:
+          days and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
+          9am-6pm
     config:
-      min: 
-      max: 
-      labelField: 
-    label: Hours of operation
-    description: days and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
-      9am-6pm
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Locations
-  description: Input all the office locations
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
-  description: Attach an image if available
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-  description: Any other associations for the organization
+      min:
+      max:
+      labelField:
+    label: Locations
+    description: Input all the office locations
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    description: Attach an image if available
+  - name: tags
+    type: tag_list
+    default: []
+    label: Tags
+    description: Any other associations for the organization
 pages:
-- content/MHD/Arab American Association of NY.md
-- content/MHD/Charles B. Wang Community Health Center.md
-- content/MHD/Flushing Hospital Medical Center.md
-- content/MHD/Gouverneur Healthcare Service.md
-- content/MHD/Henry Street Settlement.md
-- content/MHD/Korean Community Services of Metropolitan New York.md
-- content/MHD/Sunset Terrace Langone.md
-- content/MHD/The Child Center of NY.md
-- content/MHD/University settlement.md
+  - content/MHD/Arab American Association of NY.md
+  - content/MHD/Charles B. Wang Community Health Center.md
+  - content/MHD/Flushing Hospital Medical Center.md
+  - content/MHD/Gouverneur Healthcare Service.md
+  - content/MHD/Henry Street Settlement.md
+  - content/MHD/Korean Community Services of Metropolitan New York.md
+  - content/MHD/Sunset Terrace Langone.md
+  - content/MHD/The Child Center of NY.md
+  - content/MHD/University settlement.md
