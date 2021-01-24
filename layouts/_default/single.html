@@ -121,7 +121,7 @@
 								</a>
 								<div>
 									<span class="font-serif weight-bold">PARKING: </span>
-									{{ $location.parking }}
+									{{ with $location.parking }}{{ . }}{{ else }}NA{{ end }}
 								</div>
 							</div>
 						</div>
@@ -140,7 +140,7 @@
 					</div>
 				</div>
 				<div class="[ wrapper ] [ bg-white pad-top-500 ]">
-					<h2 class="gap-bottom-500">Services at this location</h2>
+					<h2 class="gap-bottom-500">Location details</h2>
 					<div class="tiles">
 						<div>
 							<div>
@@ -161,6 +161,14 @@
 							</div>
 						</div>
 						<div>
+							<div>
+								<h4>HOURS</h4>
+								<ul>
+									{{ range $location.hours_of_operation }}
+										<li>{{ .day_hours }}</li>
+									{{ end }}
+								</ul>
+							</div>
 							<div>
 								<h4>NEW CLIENTS</h4>
 								<ul>
