@@ -58,8 +58,7 @@
 		class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]"
 		style="--flow-space: 4rem;"
 	>
-		{{ $paymentTypes := .Params.payment_types }}
-		{{ $telehealth := .Params.telehealth }}
+		{{ $org := .Params }}
 
 		{{ range .Params.locations }}
 			{{ $location := . }}
@@ -109,7 +108,7 @@
 								allowfullscreen
 							></iframe>
 							<div
-								class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
+								class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300 split-pair"
 							>
 								<a
 									href="https://www.google.com/maps/dir/?api=1&destination={{ .latLng }}"
@@ -120,6 +119,10 @@
 									<span class="font_icons">&#xe03c;</span>
 									<span class="weight-bold">Get directions</span>
 								</a>
+								<div>
+									<span class="font-serif weight-bold">PARKING: </span>
+									{{ $location.parking }}
+								</div>
 							</div>
 						</div>
 						<div class="[ bg-white box-shadow-glow ]">
@@ -129,7 +132,7 @@
 								Payment, insurance, or funding accepted
 							</h4>
 							<ul>
-								{{ range $paymentTypes }}
+								{{ range $org.payment_types }}
 									<li>{{ . }}</li>
 								{{ end }}
 							</ul>
@@ -167,13 +170,13 @@
 							<div>
 								<h4>TELE HEALTH</h4>
 								<ul>
-									<li>{{ $telehealth }}</li>
+									<li>{{ $org.telehealth }}</li>
 								</ul>
 							</div>
 							<div>
-								<h4>PARKING</h4>
+								<h4>ADA COMPLIANT</h4>
 								<ul>
-									<li>{{ .parking }}</li>
+									<li>{{ with $org.ada_compliant }}Yes{{ else }}No{{ end }}</li>
 								</ul>
 							</div>
 						</div>
