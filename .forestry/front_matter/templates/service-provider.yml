@@ -83,7 +83,10 @@ fields:
     config:
       required: false
     label: latitude, longitude
-    description: The latitude, longitude of the address. e.g.<br>40.704938, -74.006006
+    description: The latitude, longitude of the address. e.g.<br>40.704938, -74.006006.  Read
+      this article <a href="https://www.clubrunnersupport.com/article/1416-how-to-find-a-location-s-latitude-longitude-in-google-maps"
+      title="https://www.clubrunnersupport.com/article/1416-how-to-find-a-location-s-latitude-longitude-in-google-maps"
+      target="_blank">https://www.clubrunnersupport.com/article/1416-how-to-find-a-location-s-latitude-longitude-in-google-maps</a>
   - name: boroughs
     type: list
     config:
