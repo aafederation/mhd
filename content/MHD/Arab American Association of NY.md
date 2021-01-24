@@ -11,18 +11,18 @@ telehealth = ""
 website = "https://www.arabamericanny.org/"
 [[locations]]
 address = "7111 5th Ave."
-latLng = "40.63230551173878, -74.0212758446735"
 boroughs = ["Brooklyn"]
+languages = ["Arabic"]
+latLng = "40.63230551173878, -74.0212758446735"
+new_clients = ""
 parking = ""
 phone_number = "718-745-3523"
+public_transportation = "N, Q, W, R trains to Brooklyn"
 services = ["Free mental health services", "Connections to Care Program"]
-languages = ["Arabic"]
-new_clients = ""
 [[locations.hours_of_operation]]
 day_hours = "M-F 10am-6pm"
 
 +++
-
 **Arab American Association of NY**
 
 P: 718-745-3523
