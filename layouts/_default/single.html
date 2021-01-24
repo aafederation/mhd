@@ -187,6 +187,22 @@
 								</ul>
 							</div>
 							<div>
+								<h4>SPECIAL REQUIREMENTS FOR CLIENTS</h4>
+								<ul>
+									{{ range $org.client_requirements }}
+										<li>{{ . }}</li>
+									{{ end }}
+								</ul>
+							</div>
+							<div>
+								<h4>AGE GROUPS ACCEPTED</h4>
+								<ul>
+									{{ range $org.age_groups }}
+										<li>{{ . }}</li>
+									{{ end }}
+								</ul>
+							</div>
+							<div>
 								<h4>TELE HEALTH</h4>
 								<ul>
 									<li>{{ $org.telehealth }}</li>
