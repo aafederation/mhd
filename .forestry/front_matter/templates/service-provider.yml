@@ -65,6 +65,18 @@ fields:
       path: 
   label: Telehealth service
   description: Do you offer telehealth services?
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Any other associations for the organization
+- name: client_requirements
+  type: tag_list
+  default: []
+  label: Client requirements
+  description: Does your organization have any special requirements for clients (be
+    of a certain age, meet a certain income level, live in a certain catchment area,
+    etc.)
 - name: locations
   type: field_group_list
   fields:
@@ -197,11 +209,6 @@ fields:
     maxSize: 64
   label: Image
   description: Attach an image if available
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-  description: Any other associations for the organization
 pages:
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Charles B. Wang Community Health Center.md
