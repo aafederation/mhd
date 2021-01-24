@@ -44,19 +44,6 @@ fields:
       path: Items
   label: Payment types
   description: Types of payments accepted
-- name: languages
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: data
-      file: data/Languages.json
-      path: Items
-  label: Languages
-  description: Languages available for service
 - name: new_clients
   type: select
   default: 'Yes'
@@ -144,6 +131,20 @@ fields:
         path: Items
     label: Services
     description: List of services available
+  - name: languages
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: data
+      file: data/Languages.json
+      path: Items
+  label: Languages
+  description: Languages available for service
+
   - name: parking
     type: select
     default: 'Yes'
