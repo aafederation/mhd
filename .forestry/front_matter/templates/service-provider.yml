@@ -179,6 +179,12 @@ fields:
     label: Hours of operation
     description: days and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
       9am-6pm
+  - name: public_transportation
+    type: text
+    config:
+      required: false
+    description: What public transportation options are near your location(s)
+    label: Public transportation options
   config:
     min: 
     max: 
