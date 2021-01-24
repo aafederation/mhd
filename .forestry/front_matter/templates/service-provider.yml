@@ -187,6 +187,26 @@ fields:
         file: 
         path: 
     label: Parking
+  - name: public_transportation
+    type: text
+    config:
+      required: false
+    description: What public transportation options are near your location(s)
+    label: Public transportation options
+  - name: staff_gender
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: documents
+        section: data
+        file: data/Staff gender.json
+        path: Items
+    label: Staff gender
+    description: What is the gender of your staff(s) providing mental health services?
+      (check all that apply)
   - name: hours_of_operation
     type: field_group_list
     fields:
@@ -204,12 +224,6 @@ fields:
     label: Hours of operation
     description: days and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
       9am-6pm
-  - name: public_transportation
-    type: text
-    config:
-      required: false
-    description: What public transportation options are near your location(s)
-    label: Public transportation options
   config:
     min: 
     max: 
