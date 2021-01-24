@@ -25,15 +25,28 @@ class HugoTagsFilter {
 		];
 
 		this.FILTERS = config && config.filters ? config.filters : defaultFilters;
-		this.showItemClass = config && config.showItemClass ? config.showItemClass : "tf-show";
-		this.showMapClass = config && config.showMapClass ? config.showMapClass : "show-map";
-		this.activeButtonClass = config && config.activeButtonClass ? config.activeButtonClass : "active";
-		this.filterItemClass = config && config.filterItemClass ? config.filterItemClass : "tf-filter-item";
-		this.counterSelector = config && config.counterSelector ? config.counterSelector : "selectedItemCount";
+		this.showItemClass =
+			config && config.showItemClass ? config.showItemClass : "tf-show";
+		this.showMapClass =
+			config && config.showMapClass ? config.showMapClass : "show-map";
+		this.activeButtonClass =
+			config && config.activeButtonClass ? config.activeButtonClass : "active";
+		this.filterItemClass =
+			config && config.filterItemClass
+				? config.filterItemClass
+				: "tf-filter-item";
+		this.counterSelector =
+			config && config.counterSelector
+				? config.counterSelector
+				: "selectedItemCount";
 		this.readMore = config && config.readMore ? config.readMore : "read-more";
 
-		this.populateCount = config && config.populateCount ? config.populateCount : false;
-		this.setDisabledButtonClass = config && config.setDisabledButtonClass ? config.setDisabledButtonClass : false;
+		this.populateCount =
+			config && config.populateCount ? config.populateCount : false;
+		this.setDisabledButtonClass =
+			config && config.setDisabledButtonClass
+				? config.setDisabledButtonClass
+				: false;
 
 		this.filterItems = document.getElementsByClassName(this.filterItemClass);
 		this.selectedItemCount = 0;
@@ -154,7 +167,10 @@ class HugoTagsFilter {
 					this.FILTERS[i]["selected"].push(tag);
 					this.addClassIfMissing(selectedBtn, this.activeButtonClass);
 				}
-				this.delClassIfPresent(document.querySelector(this.FILTERS[i]["allSelector"]), this.activeButtonClass);
+				this.delClassIfPresent(
+					document.querySelector(this.FILTERS[i]["allSelector"]),
+					this.activeButtonClass
+				);
 				this.showCheck(this.FILTERS[i]["name"]);
 			}
 		}
@@ -171,7 +187,9 @@ class HugoTagsFilter {
 		this.itemsShown = 0;
 
 		for (var i = 0; i < this.FILTERS.length; i++) {
-			this.FILTERS[i]["buttonTotal"] = document.getElementsByClassName(this.FILTERS[i]["buttonClass"]).length;
+			this.FILTERS[i]["buttonTotal"] = document.getElementsByClassName(
+				this.FILTERS[i]["buttonClass"]
+			).length;
 			this.FILTERS[i]["selected"] = [];
 			this.FILTERS[i]["values"] = [];
 			var fv = document.getElementsByClassName(this.FILTERS[i]["buttonClass"]);
@@ -182,7 +200,10 @@ class HugoTagsFilter {
 			this.filterValues[this.FILTERS[i]["name"]] = [];
 			for (var j = 0; j < fv.length; j++) {
 				var v = fv[j].id.replace(this.FILTERS[i]["prefix"], "");
-				this.filterValues[this.FILTERS[i]["name"]][v] = { count: 0, selected: 0 };
+				this.filterValues[this.FILTERS[i]["name"]][v] = {
+					count: 0,
+					selected: 0,
+				};
 			}
 		}
 
@@ -200,11 +221,16 @@ class HugoTagsFilter {
 					this.FILTERS[i]["selected"].length === 0 ||
 					this.FILTERS[i]["selected"].length === this.FILTERS[i]["buttonTotal"]
 				) {
-					var iBtns = document.getElementsByClassName(this.FILTERS[i]["buttonClass"]);
+					var iBtns = document.getElementsByClassName(
+						this.FILTERS[i]["buttonClass"]
+					);
 					for (var j = 0; j < iBtns.length; j++) {
 						this.delClassIfPresent(iBtns[j], this.activeButtonClass);
 					}
-					this.addClassIfMissing(document.querySelector(this.FILTERS[i]["allSelector"]), this.activeButtonClass);
+					this.addClassIfMissing(
+						document.querySelector(this.FILTERS[i]["allSelector"]),
+						this.activeButtonClass
+					);
 				}
 			}
 		}
@@ -239,7 +265,9 @@ class HugoTagsFilter {
 		}
 
 		if (document.getElementById(this.counterSelector)) {
-			document.getElementById(this.counterSelector).textContent = `${this.selectedItemCount}`;
+			document.getElementById(
+				this.counterSelector
+			).textContent = `${this.selectedItemCount}`;
 		}
 
 		this.checkButtonCounts(isInitial);
@@ -339,7 +367,9 @@ class HugoTagsFilter {
 						//do nothing if selectall
 					} else {
 						//if other options, then remove the filter pill
-						const btnToRemove = document.getElementById("pill-" + el.getAttribute("id"));
+						const btnToRemove = document.getElementById(
+							"pill-" + el.getAttribute("id")
+						);
 						btnToRemove.remove();
 					}
 				}
@@ -367,7 +397,7 @@ class HugoTagsFilter {
 		const filterId = el.getAttribute("id");
 		const newBtnPrefix = "pill";
 		const newBtnId = newBtnPrefix + "-" + filterId;
-		const newBtnClassList = "button";
+		const newBtnClassList = ["button", "after-cross"];
 		const containerDivId = `#filter-refine-${newBtnPrefix}s`;
 		const onClickFunc = el.getAttribute("onclick");
 
@@ -376,7 +406,7 @@ class HugoTagsFilter {
 		const newBtnContent = document.createTextNode(filterId);
 
 		newBtn.appendChild(newBtnContent);
-		newBtn.classList.add(newBtnClassList);
+		newBtnClassList.forEach(cls => newBtn.classList.add(cls));
 		newBtn.setAttribute("data-size", newBtnPrefix);
 		newBtn.setAttribute("id", newBtnId);
 		newBtn.setAttribute("onclick", onClickFunc);
@@ -390,7 +420,8 @@ class HugoTagsFilter {
 	checkShowMoreResultsButton() {
 		// if the paginated items shown is less than the selected items
 		// then display the show more results button
-		if (this.itemsShown < this.selectedItemCount) this.showMoreResultsButton(true);
+		if (this.itemsShown < this.selectedItemCount)
+			this.showMoreResultsButton(true);
 		else this.showMoreResultsButton(false);
 	}
 

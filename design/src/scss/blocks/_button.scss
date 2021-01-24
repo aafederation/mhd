@@ -67,12 +67,16 @@
 			background: get-color("primary");
 			color: get-color("white");
 		}
-
-		&:after {
-			font-family: "ElegantIcons";
-			content: "\51";
-			margin-left: 5px;
-		}
+	}
+	&[data-variant="not-link"] {
+		cursor: auto;
+	}
+}
+.after-cross {
+	&:after {
+		font-family: "ElegantIcons";
+		content: "\51";
+		margin-left: 5px;
 	}
 }
 // Active filters
