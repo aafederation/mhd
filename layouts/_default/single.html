@@ -58,9 +58,7 @@
 		class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]"
 		style="--flow-space: 4rem;"
 	>
-		{{ $languages := .Params.languages }}
 		{{ $paymentTypes := .Params.payment_types }}
-		{{ $newClients := .Params.new_clients }}
 		{{ $telehealth := .Params.telehealth }}
 
 		{{ range .Params.locations }}
@@ -143,17 +141,17 @@
 					<div class="tiles">
 						<div>
 							<div>
-								<h4>LANGUAGES</h4>
+								<h4>CLINICAL SERVICES</h4>
 								<ul>
-									{{ range $languages }}
+									{{ range $location.services }}
 										<li>{{ . }}</li>
 									{{ end }}
 								</ul>
 							</div>
 							<div>
-								<h4>TYPE OF CARE</h4>
+								<h4>LANGUAGES</h4>
 								<ul>
-									{{ range $location.services }}
+									{{ range $location.languages }}
 										<li>{{ . }}</li>
 									{{ end }}
 								</ul>
@@ -163,7 +161,7 @@
 							<div>
 								<h4>NEW CLIENTS</h4>
 								<ul>
-									<li>{{ $newClients }}</li>
+									<li>{{ $location.new_clients }}</li>
 								</ul>
 							</div>
 							<div>
