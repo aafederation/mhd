@@ -77,6 +77,19 @@ fields:
   description: Does your organization have any special requirements for clients (be
     of a certain age, meet a certain income level, live in a certain catchment area,
     etc.)
+- name: age_groups
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: data
+      file: data/Age groups.json
+      path: Items
+  label: Age groups
+  description: Which age groups does your organization serve? (check all that apply)
 - name: locations
   type: field_group_list
   fields:
