@@ -144,7 +144,6 @@ fields:
       path: Items
   label: Languages
   description: Languages available for service
-
   - name: parking
     type: select
     default: 'Yes'
