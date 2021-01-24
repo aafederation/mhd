@@ -45,22 +45,6 @@ fields:
         path: Items
     label: Payment types
     description: Types of payments accepted
-  - name: new_clients
-    type: select
-    default: "Yes"
-    config:
-      required: false
-      options:
-        - "Yes"
-        - "No"
-        - Not applicable
-      source:
-        type: simple
-        section:
-        file:
-        path:
-    label: New clients
-    description: Are you accepting new clients?
   - name: ada_compliant
     type: boolean
     label: ADA compliant
@@ -145,6 +129,22 @@ fields:
             path: Items
         label: Languages
         description: Languages available for service
+      - name: new_clients
+        type: select
+        default: "Yes"
+        config:
+          required: false
+          options:
+            - "Yes"
+            - "No"
+            - Not applicable
+          source:
+            type: simple
+            section:
+            file:
+            path:
+        label: New clients
+        description: Are you accepting new clients?
       - name: parking
         type: select
         default: "Yes"
