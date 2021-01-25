@@ -257,6 +257,8 @@
 		mainDiv.setAttribute("data-tag", myPage.tag);
 		mainDiv.setAttribute("data-borough", myPage.borough);
 		mainDiv.setAttribute("data-service", myPage.service);
+		mainDiv.setAttribute("data-specialty", myPage.specialty);
+		mainDiv.setAttribute("data-type", myPage.type);
 		mainDiv.setAttribute("data-language", myPage.language);
 		mainDiv.setAttribute("data-payment", myPage.payment);
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);

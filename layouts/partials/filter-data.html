@@ -1,4 +1,5 @@
 {{ $filter := .filter }}
+{{ $title := .title }}
 {{ $selectAll := print `selectAll` $filter }}
 
 <button
@@ -7,12 +8,12 @@
 	data-size="full-width"
 	style="--split-pair-space:0rem;--button-padding:0.5rem;"
 >
-	{{ pluralize $filter }}
+	{{ pluralize $title }}
 </button>
 <ul class="panel">
 	<li>
 		<button id="{{ $selectAll }}" onclick="htf.showAll({{ $filter }})">
-			All {{ pluralize $filter }}
+			All {{ pluralize $title }}
 		</button>
 	</li>
 	{{ range .allContent }}
@@ -37,7 +38,7 @@
 			id="{{ $filter }}-no-{{ $filter }}"
 			onclick="htf.checkFilter('no-{{ $filter }}', '{{ $filter }}-')"
 		>
-			No {{ pluralize $filter }}
+			No {{ pluralize $title }}
 			<span id="s{{ $filter }}-no-{{ $filter }}">-count-</span> |
 			<span id="c{{ $filter }}-no-{{ $filter }}">-count-</span>
 		</button>

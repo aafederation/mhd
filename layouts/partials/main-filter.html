@@ -50,10 +50,10 @@
 
 {{ end }}
 
-{{ partial "filter-data.html" (dict "filter" "service" "allContent" $clinical_services ) }}
-{{ partial "filter-data.html" (dict "filter" "psychotherapy specialty" "allContent" $psychotherapy_specialties ) }}
-{{ partial "filter-data.html" (dict "filter" "psychotherapy type" "allContent" $psychotherapy_types ) }}
+{{ partial "filter-data.html" (dict "title" "service" "filter" "service" "allContent" $clinical_services ) }}
+{{ partial "filter-data.html" (dict "title" "psychotherapy specialty" "filter" "specialty" "allContent" $psychotherapy_specialties ) }}
+{{ partial "filter-data.html" (dict "title" "psychotherapy type"  "filter" "type" "allContent" $psychotherapy_types ) }}
 {{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags ) }}
-{{ partial "filter-data.html" (dict "filter" "borough" "allContent" $boroughs ) }}
+{{ partial "filter-data.html" (dict "title" "borough" "filter" "borough" "allContent" $boroughs ) }}
 {{ partial "filter-taxonomy.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages ) }}
 {{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments ) }}
