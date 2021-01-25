@@ -14,14 +14,7 @@
 					<h2 class="gap-bottom-500">Location details</h2>
 					<div class="tiles">
 						<div>
-							<div>
-								<h4>CLINICAL SERVICES</h4>
-								<ul>
-									{{ range $location.services }}
-										<li>{{ . }}</li>
-									{{ end }}
-								</ul>
-							</div>
+							{{ partial "single-service-list" (dict "title" "CLINICAL SERVICES" "items" $location.services) }}
 							<div>
 								<h4>NON-CLINICAL SERVICES</h4>
 								<ul>
