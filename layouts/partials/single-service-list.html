@@ -1,13 +1,17 @@
 <div>
 	<h4>{{ .title }}</h4>
 	<ul>
-		{{ range .items }}
-	    {{ if hasPrefix ( printf "%T" . ) "map" }}
-				{{ range $key, $value := . }}
-					<li>{{ $value }}</li>
+    {{ if eq ( printf "%T" .items ) "bool" }}
+			<li>{{ with .items }}Yes{{ else }}No{{ end }}</li>
+		{{ else }}
+			{{ range .items }}
+		    {{ if reflect.IsMap . }}
+					{{ range $key, $value := . }}
+						<li>{{ $value }}</li>
+					{{ end }}
+				{{ else }}
+					<li>{{ . }}</li>
 				{{ end }}
-			{{ else }}
-				<li>{{ . }}</li>
 			{{ end }}
 		{{ end }}
 	</ul>
