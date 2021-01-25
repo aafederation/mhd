@@ -1,19 +1,27 @@
 <div>
 	<h4>{{ .title }}</h4>
 	<ul>
-    {{ if eq ( printf "%T" .items ) "bool" }}
+		{{ if eq ( printf "%T" .items ) "bool" }}
 			<li>{{ with .items }}Yes{{ else }}No{{ end }}</li>
-    {{ else if eq ( printf "%T" .items ) "string" }}
+			{{ else if eq ( printf "%T" .items ) "int64" }}
 			<li>{{ .items }}</li>
-		{{ else }}
-			{{ range .items }}
-		    {{ if reflect.IsMap . }}
-					{{ range $key, $value := . }}
-						<li>{{ $value }}</li>
-					{{ end }}
-				{{ else }}
+			{{ else }}
+			{{ with .items }}
+				{{ if eq ( printf "%T" . ) "string" }}
 					<li>{{ . }}</li>
+					{{ else }}
+					{{ range . }}
+						{{ if reflect.IsMap . }}
+							{{ range $key, $value := . }}
+								<li>{{ $value }}</li>
+							{{ end }}
+							{{ else }}
+							<li>{{ . }}</li>
+						{{ end }}
+					{{ end }}
 				{{ end }}
+				{{ else }}
+				<li>No data available</li>
 			{{ end }}
 		{{ end }}
 	</ul>
