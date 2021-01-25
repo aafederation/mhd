@@ -1,28 +1,45 @@
 {{ $filter := .filter }}
 {{ $selectAll := print `selectAll` $filter }}
 
-<button class="acc button split-pair" onclick="toggleAcc(this)" data-size="full-width">{{ $filter }}s</button>
+<button
+	class="acc button split-pair"
+	onclick="toggleAcc(this)"
+	data-size="full-width"
+	style="--split-pair-space:0rem;--button-padding:0.5rem;"
+>
+	{{ pluralize $filter }}
+</button>
 <ul class="panel">
 	<li>
-	  <button id="{{ $selectAll }}" onclick="htf.showAll({{ $filter }})">
-  	  All {{ $filter }}s
-  	</button>
+		<button id="{{ $selectAll }}" onclick="htf.showAll({{ $filter }})">
+			All {{ pluralize $filter }}
+		</button>
 	</li>
-  {{ range .allContent }}
+	{{ range .allContent }}
 		{{ $termURLize := . | replaceRE "[.]" "_" | urlize }}
 		<li>
-	    <button class="{{ $filter }}-button" id="{{ $filter }}-{{ $termURLize }}"onclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')">
-	      <span>{{ . | humanize | title }}</span>
-	      <span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> | <span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
-	    </button>
+			<button
+				class="{{ $filter }}-button"
+				id="{{ $filter }}-{{ $termURLize }}"
+				onclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')"
+			>
+				<span>{{ . | humanize | title }}</span>
+				<span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> |
+				<span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
+			</button>
 		</li>
-  {{ end }}
-  {{ if gt .noCount 0 }}
+	{{ end }}
+	{{ if gt .noCount 0 }}
 		<li>
-	  	<button class="{{ $filter }}-button" id="{{ $filter }}-{{ .noTitle }}" onclick="htf.checkFilter('{{ .noTitle }}', '{{ $filter }}-')">
-	      <span>{{ .noTitle | humanize | title }}</span>
-				<span id="s{{ $filter }}-{{ .noTitle }}">-count-</span> | <span id="c{{ $filter }}-{{ .noTitle }}">-count-</span>
-	  	</button>
+			<button
+				class="{{ $filter }}-button"
+				id="{{ $filter }}-{{ .noTitle }}"
+				onclick="htf.checkFilter('{{ .noTitle }}', '{{ $filter }}-')"
+			>
+				<span>{{ .noTitle | humanize | title }}</span>
+				<span id="s{{ $filter }}-{{ .noTitle }}">-count-</span> |
+				<span id="c{{ $filter }}-{{ .noTitle }}">-count-</span>
+			</button>
 		</li>
-  {{ end }}
+	{{ end }}
 </ul>
