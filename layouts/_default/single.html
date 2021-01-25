@@ -21,20 +21,10 @@
 						</div>
 						<div>
 							{{ partial "single-service-list" (dict "title" "HOURS" "items" $location.hours_of_operation) }}
-							<div>
-								<h4>NEW CLIENTS</h4>
-								<ul>
-									<li>{{ $location.new_clients }}</li>
-								</ul>
-							</div>
+							{{ partial "single-service-list" (dict "title" "NEW CLIENTS" "items" $location.new_clients) }}
 							{{ partial "single-service-list" (dict "title" "SPECIAL REQUIREMENTS FOR CLIENTS" "items" $org.client_requirements) }}
 							{{ partial "single-service-list" (dict "title" "AGE GROUPS ACCEPTED" "items" $org.age_groups) }}
-							<div>
-								<h4>TELE HEALTH</h4>
-								<ul>
-									<li>{{ $org.telehealth }}</li>
-								</ul>
-							</div>
+							{{ partial "single-service-list" (dict "title" "TELE HEALTH" "items" $org.telehealth) }}
 							{{ partial "single-service-list" (dict "title" "ADA COMPLIANT" "items" $org.ada_compliant) }}
 						</div>
 					</div>
