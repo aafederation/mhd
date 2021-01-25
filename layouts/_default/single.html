@@ -15,6 +15,10 @@
 					<div class="tiles">
 						<div>
 							{{ partial "single-service-list" (dict "title" "CLINICAL SERVICES" "items" $location.services) }}
+							{{ with $location.psychotherapy }}
+								{{ partial "single-service-list" (dict "title" "PSYCHOTHERAPY SPECIALTIES" "items" $location.psychotherapy_specialties) }}
+								{{ partial "single-service-list" (dict "title" "PSYCHOTHERAPY TYPES" "items" $location.psychotherapy_types) }}
+							{{ end }}
 							{{ partial "single-service-list" (dict "title" "NON-CLINICAL SERVICES" "items" $location.non_clinical_services) }}
 							{{ partial "single-service-list" (dict "title" "LANGUAGES" "items" $location.languages) }}
 							{{ partial "single-service-list" (dict "title" "GENDER OF STAFF" "items" $location.staff_gender) }}
