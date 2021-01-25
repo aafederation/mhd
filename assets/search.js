@@ -289,12 +289,12 @@
 	 * currently showing in the results
    */
 	 function showMap() {
-	 	const aafCoords = [-74.00601627368108, 40.70481604585044];
+	 	const aafCoords = [-73.91511627368108, 40.69551604585044];
 
 		map = new mapboxgl.Map({
 			container: "map",
 			center: aafCoords, // FullStack coordinates
-			zoom: 9, // starting zoom
+			zoom: 10, // starting zoom
 			style: "mapbox://styles/mapbox/streets-v11", // mapbox has different styles
 		});
 
