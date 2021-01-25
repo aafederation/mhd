@@ -85,3 +85,30 @@ function toggleAcc(el) {
 		panel.style.maxHeight = panel.scrollHeight + "px";
 	}
 }
+
+(function () {
+	let x = document.getElementById("psychotherapy-options");
+
+	let psychotherapy = document.getElementById("service-psychotherapy");
+	psychotherapy.addEventListener("click", handleVis);
+
+	function handleVis() {
+		if (x.style.display === "none") {
+			x.style.display = "block";
+			let psychotherapyPill = document.getElementById(
+				"pill-service-psychotherapy"
+			);
+			psychotherapyPill.addEventListener("click", toggleVis);
+		} else {
+			x.style.display = "none";
+		}
+	}
+
+	function toggleVis() {
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+})();
