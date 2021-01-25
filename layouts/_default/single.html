@@ -27,22 +27,8 @@
 									<li>{{ $location.new_clients }}</li>
 								</ul>
 							</div>
-							<div>
-								<h4>SPECIAL REQUIREMENTS FOR CLIENTS</h4>
-								<ul>
-									{{ range $org.client_requirements }}
-										<li>{{ . }}</li>
-									{{ end }}
-								</ul>
-							</div>
-							<div>
-								<h4>AGE GROUPS ACCEPTED</h4>
-								<ul>
-									{{ range $org.age_groups }}
-										<li>{{ . }}</li>
-									{{ end }}
-								</ul>
-							</div>
+							{{ partial "single-service-list" (dict "title" "SPECIAL REQUIREMENTS FOR CLIENTS" "items" $org.client_requirements) }}
+							{{ partial "single-service-list" (dict "title" "AGE GROUPS ACCEPTED" "items" $org.age_groups) }}
 							<div>
 								<h4>TELE HEALTH</h4>
 								<ul>
