@@ -164,6 +164,23 @@ fields:
     showOnly:
       field: psychotherapy
       value: true
+  - name: psychotherapy_types
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: documents
+        section: data
+        file: data/Psychotherapy types.json
+        path: Items
+    label: Psychotherapy types
+    description: If your organization provides psychotherapy, what are the types of
+      therapy you provide? (check all that apply)
+    showOnly:
+      field: psychotherapy
+      value: true
   - name: languages
     type: list
     config:
