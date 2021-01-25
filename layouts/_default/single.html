@@ -49,12 +49,7 @@
 									<li>{{ $org.telehealth }}</li>
 								</ul>
 							</div>
-							<div>
-								<h4>ADA COMPLIANT</h4>
-								<ul>
-									<li>{{ with $org.ada_compliant }}Yes{{ else }}No{{ end }}</li>
-								</ul>
-							</div>
+							{{ partial "single-service-list" (dict "title" "ADA COMPLIANT" "items" $org.ada_compliant) }}
 						</div>
 					</div>
 				</div>
