@@ -25,9 +25,11 @@
 					id="{{ $filter }}-{{ $termURLize }}"
 					onclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')"
 				>
-					<span>{{ . | humanize | title }}</span>
-					<span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> |
-					<span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
+					<span class="filter-item">
+						<span>{{ . | humanize | title }}</span>
+						<span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> |
+						<span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
+					</span>
 				</button>
 			</li>
 		{{ end }}
