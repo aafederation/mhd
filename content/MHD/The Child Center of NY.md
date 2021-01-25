@@ -14,7 +14,7 @@ latLng = "40.757915557503125, -73.82652824466905"
 boroughs = ["Queens"]
 phone_number = "718-358-8288"
 services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
-languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bengali"]
+languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bangla"]
 new_clients = "Yes"
 parking = "Yes"
 [[locations.hours_of_operation]]
@@ -29,7 +29,7 @@ latLng = "40.73736275419179, -73.88177615816086"
 boroughs = ["Queens"]
 phone_number = "718-899-9810"
 services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
-languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bengali"]
+languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bangla"]
 new_clients = "Yes"
 parking = "Yes"
 [[locations.hours_of_operation]]
@@ -59,4 +59,4 @@ Services: Multi-lingual and multi-cultural counseling, substance abuse services
 
 Payment: Medicare, Medicaid, third-party insurance, sliding scale fee for patients without insurance
 
-Languages: Bengali, Cantonese, Mandarin, Gujarati, Hindi, Korean, Marathi, Tagalog, Urdu
+Languages: Bangla, Cantonese, Mandarin, Gujarati, Hindi, Korean, Marathi, Tagalog, Urdu
