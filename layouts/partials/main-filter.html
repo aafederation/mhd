@@ -1,50 +1,22 @@
 {{ $pages := .Site.RegularPages }}
 
-<!--BEGIN: NON TAXONOMY FILTER SETUP-->
-{{ $.Scratch.Set "ADAcompliants" (slice ) }}
-{{ $.Scratch.Set "notADAcompliants" 0 }}
-
-{{ range .Site.RegularPages }}
-	{{ with .Params.ada_compliant }}
-		{{ if eq ( printf "%T" . ) "bool" }}
-			{{ if ( not ( in ($.Scratch.Get "ADAcompliants") "true" ) ) }}
-				{{ $.Scratch.Add "ADAcompliants" "true" }}
-			{{ end }}
-			{{ else if ( printf "%T" . ) "[]string" }}
-			{{ range . }}
-				{{ if ( not ( in ($.Scratch.Get "ADAcompliants") . ) ) }}
-					{{ $.Scratch.Add "ADAcompliants" . }}
-				{{ end }}
-			{{ end }}
-		{{ end }}
-		{{ else }}
-		{{ $.Scratch.Add "notADAcompliants" 1 }}
-	{{ end }}
-{{ end }}
-<!--END: NON TAXONOMY FILTER SETUP-->
-
-<!--DATA COUNTS-->
+<!--DATA SOURCES-->
 {{ $boroughs := $.Site.Data.Boroughs }}
 {{ $clinical_services := (index $.Site.Data "Mental health services").Items }}
 {{ $psychotherapy_specialties := (index $.Site.Data "Psychotherapy specialties").Items }}
 {{ $psychotherapy_types := (index $.Site.Data "Psychotherapy types").Items }}
+{{ $languages := $.Site.Data.Languages.Items }}
 <!--TAXONOMY COUNTS-->
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-{{ $languages := $.Site.Taxonomies.languages.ByCount }}
 {{ $payments := $.Site.Taxonomies.payment_types.ByCount }}
 
 <!--TAXONOMY NO COUNT VAR-->
 {{ $.Scratch.Set "untagged" 0 }}
-{{ $.Scratch.Set "noLanguages" 0 }}
 {{ $.Scratch.Set "noPayments" 0 }}
 
 <!--TAXONOMY NO COUNT COUNTING-->
 {{ range $pages }}
 	{{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
-	{{ with .Params.languages }}
-		{{ else }}{{ $.Scratch.Add "noLanguages" 1 }}{{ end }}
-
-
 	{{ with .Params.payment_types }}
 		{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 
@@ -57,5 +29,5 @@
 </div>
 {{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags ) }}
 {{ partial "filter-data.html" (dict "title" "borough" "filter" "borough" "allContent" $boroughs ) }}
-{{ partial "filter-taxonomy.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages ) }}
+{{ partial "filter-data.html" (dict "title" "language" "filter" "language" "allContent" $languages ) }}
 {{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments ) }}
