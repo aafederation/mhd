@@ -71,6 +71,7 @@ var htfConfig = {
 	counterSelector: "selectedItemCount",
 	populateCount: true,
 	setDisabledButtonClass: "disable-button",
+	noCountButtonClass: "no-count-button",
 	showMapClass: "show-map",
 	readMore: "read-more",
 };

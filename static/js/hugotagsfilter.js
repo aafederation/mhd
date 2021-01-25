@@ -47,6 +47,10 @@ class HugoTagsFilter {
 			config && config.setDisabledButtonClass
 				? config.setDisabledButtonClass
 				: false;
+		this.noCountButtonClass =
+			config && config.noCountButtonClass
+				? config.noCountButtonClass
+				: "no-count-button";
 
 		this.filterItems = document.getElementsByClassName(this.filterItemClass);
 		this.selectedItemCount = 0;
@@ -103,6 +107,20 @@ class HugoTagsFilter {
 						if (cp) {
 							var cel = document.getElementById(`${cp}${k}`);
 							cel.textContent = fvc[fname][k].count;
+
+							if (cel.textContent == 0) {
+								this.addClassIfMissing(
+									document.getElementById(this.FILTERS[i]["prefix"] + k)
+										.parentNode,
+									this.noCountButtonClass
+								);
+							} else {
+								this.delClassIfPresent(
+									document.getElementById(this.FILTERS[i]["prefix"] + k)
+										.parentNode,
+									this.noCountButtonClass
+								);
+							}
 						}
 						if (sp) {
 							var sel = document.getElementById(`${sp}${k}`);
@@ -406,7 +424,7 @@ class HugoTagsFilter {
 		const newBtnContent = document.createTextNode(filterId);
 
 		newBtn.appendChild(newBtnContent);
-		newBtnClassList.forEach(cls => newBtn.classList.add(cls));
+		newBtnClassList.forEach((cls) => newBtn.classList.add(cls));
 		newBtn.setAttribute("data-size", newBtnPrefix);
 		newBtn.setAttribute("id", newBtnId);
 		newBtn.setAttribute("onclick", onClickFunc);
