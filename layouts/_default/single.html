@@ -15,40 +15,12 @@
 					<div class="tiles">
 						<div>
 							{{ partial "single-service-list" (dict "title" "CLINICAL SERVICES" "items" $location.services) }}
-							<div>
-								<h4>NON-CLINICAL SERVICES</h4>
-								<ul>
-									{{ range $location.non_clinical_services }}
-										<li>{{ . }}</li>
-									{{ end }}
-								</ul>
-							</div>
-							<div>
-								<h4>LANGUAGES</h4>
-								<ul>
-									{{ range $location.languages }}
-										<li>{{ . }}</li>
-									{{ end }}
-								</ul>
-							</div>
-							<div>
-								<h4>GENDER OF STAFF</h4>
-								<ul>
-									{{ range $location.staff_gender }}
-										<li>{{ . }}</li>
-									{{ end }}
-								</ul>
-							</div>
+							{{ partial "single-service-list" (dict "title" "NON-CLINICAL SERVICES" "items" $location.non_clinical_services) }}
+							{{ partial "single-service-list" (dict "title" "LANGUAGES" "items" $location.languages) }}
+							{{ partial "single-service-list" (dict "title" "GENDER OF STAFF" "items" $location.staff_gender) }}
 						</div>
 						<div>
-							<div>
-								<h4>HOURS</h4>
-								<ul>
-									{{ range $location.hours_of_operation }}
-										<li>{{ .day_hours }}</li>
-									{{ end }}
-								</ul>
-							</div>
+							{{ partial "single-service-list" (dict "title" "HOURS" "items" $location.hours_of_operation) }}
 							<div>
 								<h4>NEW CLIENTS</h4>
 								<ul>
