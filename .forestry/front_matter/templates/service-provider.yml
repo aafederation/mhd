@@ -145,15 +145,15 @@ fields:
     description: List of clinical services available
   - name: psych_type
     type: select
-    default: []
+    default: ''
     config:
       required: false
       options: []
       source:
-        type: simple
-        section: 
-        file: 
-        path: 
+        type: documents
+        section: data
+        file: data/Mental health services.json
+        path: Items
     label: Psych type
   - name: psychotherapy_specialties
     type: list
