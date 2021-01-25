@@ -143,6 +143,10 @@ fields:
         path: Items
     label: Clinical services
     description: List of clinical services available
+  - name: psychotherapy
+    type: boolean
+    label: Psychotherapy
+    description: Does your organization provide psychotherapy?
   - name: psychotherapy_specialties
     type: list
     config:
@@ -157,6 +161,9 @@ fields:
     label: Psychotherapy specialties
     description: If your organization provides psychotherapy, what specialties do
       you provide services in? (check all that apply)
+    showOnly:
+      field: psychotherapy
+      value: true
   - name: languages
     type: list
     config:
