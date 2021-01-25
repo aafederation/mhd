@@ -5,27 +5,27 @@
 {{ $.Scratch.Set "notADAcompliants" 0 }}
 
 {{ range .Site.RegularPages }}
-  {{ with .Params.ada_compliant }}
-    {{ if eq ( printf "%T" . ) "bool"  }}
-      {{ if ( not ( in ($.Scratch.Get "ADAcompliants") "true" ) ) }}
-        {{ $.Scratch.Add "ADAcompliants" "true" }}
-      {{ end }}
-    {{ else if ( printf "%T" . ) "[]string" }}
-      {{ range . }}
-        {{ if ( not ( in ($.Scratch.Get "ADAcompliants") . ) ) }}
-          {{ $.Scratch.Add "ADAcompliants" . }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    {{ $.Scratch.Add "notADAcompliants" 1 }}
-  {{ end }}
+	{{ with .Params.ada_compliant }}
+		{{ if eq ( printf "%T" . ) "bool" }}
+			{{ if ( not ( in ($.Scratch.Get "ADAcompliants") "true" ) ) }}
+				{{ $.Scratch.Add "ADAcompliants" "true" }}
+			{{ end }}
+			{{ else if ( printf "%T" . ) "[]string" }}
+			{{ range . }}
+				{{ if ( not ( in ($.Scratch.Get "ADAcompliants") . ) ) }}
+					{{ $.Scratch.Add "ADAcompliants" . }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+		{{ else }}
+		{{ $.Scratch.Add "notADAcompliants" 1 }}
+	{{ end }}
 {{ end }}
 <!--END: NON TAXONOMY FILTER SETUP-->
 
 <!--DATA COUNTS-->
 {{ $boroughs := $.Site.Data.Boroughs }}
-
+{{ $clinical_services := (index $.Site.Data "Mental health services").Items }}
 <!--TAXONOMY COUNTS-->
 {{ $tags := $.Site.Taxonomies.tags.ByCount }}
 {{ $languages := $.Site.Taxonomies.languages.ByCount }}
@@ -38,13 +38,17 @@
 
 <!--TAXONOMY NO COUNT COUNTING-->
 {{ range $pages }}
-  {{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
-  {{ with .Params.languages }}{{ else }}{{ $.Scratch.Add "noLanguages" 1 }}{{ end }}
-  {{ with .Params.payment_types }}{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
+	{{ with .Params.tags }}{{ else }}{{ $.Scratch.Add "untagged" 1 }}{{ end }}
+	{{ with .Params.languages }}
+		{{ else }}{{ $.Scratch.Add "noLanguages" 1 }}{{ end }}
+
+	{{ with .Params.payment_types }}
+		{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
+
 {{ end }}
 
-{{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags )}}
-{{ partial "filter-data.html" (dict "filter" "borough" "allContent" $boroughs )}}
-{{ partial "filter-taxonomy.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages )}}
-{{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments )}}
-{{ partial "filter-non-taxonomy.html" (dict "filter" "ADAcompliance" "noTitle" "false" "noCount" ($.Scratch.Get "notADAcompliants") "allContent" ($.Scratch.Get "ADAcompliants") )}}
+{{ partial "filter-data.html" (dict "filter" "service" "allContent" $clinical_services ) }}
+{{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags ) }}
+{{ partial "filter-data.html" (dict "filter" "borough" "allContent" $boroughs ) }}
+{{ partial "filter-taxonomy.html" (dict "filter" "language" "noCount" ($.Scratch.Get "noLanguages") "allContent" $languages ) }}
+{{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments ) }}

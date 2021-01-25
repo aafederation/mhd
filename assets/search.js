@@ -256,6 +256,7 @@
 		mainDiv.id = "listing-" + myPage.id;
 		mainDiv.setAttribute("data-tag", myPage.tag);
 		mainDiv.setAttribute("data-borough", myPage.borough);
+		mainDiv.setAttribute("data-service", myPage.service);
 		mainDiv.setAttribute("data-language", myPage.language);
 		mainDiv.setAttribute("data-payment", myPage.payment);
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
