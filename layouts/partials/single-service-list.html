@@ -3,6 +3,8 @@
 	<ul>
     {{ if eq ( printf "%T" .items ) "bool" }}
 			<li>{{ with .items }}Yes{{ else }}No{{ end }}</li>
+    {{ else if eq ( printf "%T" .items ) "string" }}
+			<li>{{ .items }}</li>
 		{{ else }}
 			{{ range .items }}
 		    {{ if reflect.IsMap . }}
