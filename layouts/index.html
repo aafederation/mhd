@@ -1,12 +1,18 @@
 {{ define "main" }}
-{{- partial "index-scripts.html" . -}}
-<div class="wrapper mhd-tiles gap-top-1000" data-layout="reversed">
-	<div class="main-filter-col">
-		{{ partial "main-filter.html" . }}
+	{{- partial "index-scripts.html" . -}}
+	<div class="wrapper mhd-tiles gap-top-1000" data-layout="reversed">
+		<div class="main-filter-col display-none sm:display-block">
+			{{ partial "main-filter.html" . }}
+		</div>
+		<div class="main-body-col">
+			{{ partial "search.html" . }}
+			{{ partial "main-body.html" . }}
+		</div>
+		<div
+			class="main-filter-col display-block sm:display-none position-sticky"
+			style="bottom: 10px;z-index: 1;"
+		>
+			{{ partial "filter-button.html" . }}
+		</div>
 	</div>
-	<div class="main-body-col">
-		{{ partial "search" . }}
-		{{ partial "main-body.html" . }}
-	</div>
-</div>
 {{ end }}
