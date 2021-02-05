@@ -91,17 +91,19 @@ function toggleAcc(el) {
 	let x = document.getElementById("psychotherapy-options");
 
 	let psychotherapy = document.getElementById("service-psychotherapy");
-	psychotherapy.addEventListener("click", handleVis);
+	psychotherapy.addEventListener("click", function () {
+		handleVis(x);
+	});
 
-	function handleVis() {
-		if (x.style.display === "none") {
-			x.style.display = "block";
+	function handleVis(el) {
+		if (el.style.display === "none") {
+			el.style.display = "block";
 			let psychotherapyPill = document.getElementById(
 				"pill-service-psychotherapy"
 			);
 			psychotherapyPill.addEventListener("click", toggleVis);
 		} else {
-			x.style.display = "none";
+			el.style.display = "none";
 		}
 	}
 
