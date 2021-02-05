@@ -1,7 +1,7 @@
 {{ define "main" }}
 	{{- partial "index-scripts.html" . -}}
 	<div class="wrapper mhd-tiles gap-top-1000" data-layout="reversed">
-		<div class="main-filter-col display-none sm:display-block">
+		<div class="main-filter-col display-none sm:display-block" id="main-filter">
 			{{ partial "main-filter.html" . }}
 		</div>
 		<div class="main-body-col">

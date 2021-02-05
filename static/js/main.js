@@ -95,23 +95,25 @@ function toggleAcc(el) {
 		handleVis(x);
 	});
 
+	let showFilterButton = document.getElementById("show-filter-button");
+	let mainFilter = document.getElementById("main-filter");
+	showFilterButton.addEventListener("click", function () {
+		toggleVis(mainFilter);
+	});
+
 	function handleVis(el) {
-		if (el.style.display === "none") {
-			el.style.display = "block";
+		if (el.classList.contains("display-none")) {
 			let psychotherapyPill = document.getElementById(
 				"pill-service-psychotherapy"
 			);
-			psychotherapyPill.addEventListener("click", toggleVis);
-		} else {
-			el.style.display = "none";
+			psychotherapyPill.addEventListener("click", function () {
+				toggleVis(el);
+			});
 		}
+		toggleVis(el);
 	}
 
-	function toggleVis() {
-		if (x.style.display === "none") {
-			x.style.display = "block";
-		} else {
-			x.style.display = "none";
-		}
+	function toggleVis(el) {
+		el.classList.toggle("display-none");
 	}
 })();
