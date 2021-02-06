@@ -14,7 +14,7 @@
 		@media screen and (min-width: 38em) {
 			margin-top: get-size("1000");
 			margin-left: 0;
-			margin-right: 0;
+			margin-right: get-size("500");
 			margin-bottom: 0;
 		}
 	}
