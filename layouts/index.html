@@ -1,6 +1,10 @@
 {{ define "main" }}
 	{{- partial "index-scripts.html" . -}}
-	<div class="wrapper mhd-tiles gap-top-1000" data-layout="reversed">
+	<div
+		class="wrapper mhd-tiles gap-top-1000"
+		data-layout="reversed"
+		data-variant="no-padding"
+	>
 		<div
 			class="[ main-filter-col fixed-scrollable ] [ display-none sm:display-block position-fixed sm:position-static ] [ top-500 right-500 bottom-800 left-500 z-2 ]"
 			id="main-filter"
