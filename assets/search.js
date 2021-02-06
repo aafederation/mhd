@@ -99,14 +99,12 @@
 	 * to show in search results element when the search bar is empty
 	 */
   function createAllResults() {
-		let count = 0;
 		for (const property in window.bookSearchIndex.l) {
 			let card = window.bookSearchIndex.l[property];
-			card.id = count;
+			card.id = property;
 			card.feature = makeFeature(card);
 			providers.features.push(card.feature);
 			originalResults.push(card);
-			count++;
 		}
 	}
 
@@ -221,6 +219,7 @@
 		let address = clone.querySelector(".address");
 		let services = clone.querySelector(".services");
 		let nonClinicalServices = clone.querySelector(".non-clinical-services");
+		let nonClinicalServicesRow = clone.querySelector("#non-clinical-services-row");
 		let phone = clone.querySelector(".phone");
 		let website = clone.querySelector(".website");
 		let payments = clone.querySelector(".payments");
@@ -234,7 +233,7 @@
 		}
 		if (myPage.location.non_clinical_services) {
 			nonClinicalServices.textContent = myPage.location.non_clinical_services.join(", ");
-		}
+		} else nonClinicalServicesRow.remove();
 		if (myPage.location.phone_number) {
 			phone.textContent = myPage.location.phone_number;
 		}
@@ -243,7 +242,6 @@
 			website.onclick=function() {window.open(myPage.website);};
 		}
 		if (myPage.payment) {
-			//payments.textContent = myPage.payment.replaceAll(' ', ', ').replaceAll('-', ' ').slice(0, -2);
 			payments.textContent = myPage.payment.trim().split(' ')
 				.map(pay => {
 					pay = pay.replaceAll('-', ' ');
@@ -264,7 +262,7 @@
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
 		moreInfo.onclick=function() {window.open(myPage.href);};
 		h3.onclick = onClickGoToMap(myPage.id);
-		directions.onclick=function() {window.open("https://www.google.com/maps/dir/?api=1&destination="+myPage.location.latLng);};
+		directions.onclick=function() {window.open("https://www.google.com/maps/dir/?api=1&destination="+ myPage.feature.properties.mappingAddress);};
 
 		return clone;
 	}
@@ -360,7 +358,8 @@
         "id": page.id,
         "title": page.title,
         "href": page.href,
-        "address": page.location.address
+        "address": page.location.address,
+				"mappingAddress": page.title + "+" + page.location.address + "+" + page.borough
       }
     }
 
@@ -388,7 +387,7 @@
 	  var popup = new mapboxgl.Popup({ offset: 15, closeOnClick: false, focusAfterOpen:true, className:"red-tip" })
 	    .setLngLat(currentFeature.geometry.coordinates)
 	    .setHTML('<h3><a target="_blank" href="' + currentFeature.properties.href + '">' + currentFeature.properties.title + '</a></h3><br>' +
-	      '<h4><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=' + currentFeature.geometry.coordinates[1]  + ',' + currentFeature.geometry.coordinates[0] + '">' + currentFeature.properties.address + '</h4>')
+	      '<h4><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=' + currentFeature.properties.mappingAddress + '">' + currentFeature.properties.address + '</h4>')
 	    .addTo(map);
 	}
 
