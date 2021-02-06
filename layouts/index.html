@@ -2,7 +2,7 @@
 	{{- partial "index-scripts.html" . -}}
 	<div class="wrapper mhd-tiles gap-top-1000" data-layout="reversed">
 		<div
-			class="[ main-filter-col fixed-scrollable ] [ display-none sm:display-block position-fixed sm:position-static ] [ top-500 bottom-800 left-500 right-500 z-1 ]"
+			class="[ main-filter-col fixed-scrollable ] [ display-none sm:display-block position-fixed sm:position-static ] [ top-500 right-500 bottom-800 left-500 z-2 ]"
 			id="main-filter"
 		>
 			{{ partial "main-filter.html" . }}
@@ -12,9 +12,13 @@
 			{{ partial "main-body.html" . }}
 		</div>
 		<div
-			class="[ display-block sm:display-none position-fixed sm:position-static ] [ bottom-300 left-500 right-500 z-2 ]"
+			class="[ display-block sm:display-none position-fixed sm:position-static ] [ right-500 bottom-300 left-500 z-3 ]"
 		>
 			{{ partial "filter-button.html" . }}
 		</div>
+		<div
+			class="[ fixed-full-screen ] [ bg-dark opacity-75 display-none sm:display-none position-fixed sm:position-static ] [ top-0 right-0 bottom-0 left-0 z-1 ]"
+			id="filter-page-overlay"
+		></div>
 	</div>
 {{ end }}

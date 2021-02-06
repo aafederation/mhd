@@ -95,10 +95,18 @@ function toggleAcc(el) {
 		handleVis(x);
 	});
 
+	let filterPageOverlay = document.getElementById("filter-page-overlay");
 	let showFilterButton = document.getElementById("show-filter-button");
 	let mainFilter = document.getElementById("main-filter");
 	showFilterButton.addEventListener("click", function () {
 		toggleVis(mainFilter);
+		toggleVis(filterPageOverlay);
+
+		if (this.textContent.toUpperCase() === "SHOW FILTER") {
+			this.textContent = "HIDE FILTER";
+		} else {
+			this.textContent = "SHOW FILTER";
+		}
 	});
 
 	function handleVis(el) {
