@@ -148,14 +148,24 @@ $gorko-config: (
 	),
 	"z": (
 		"items": (
-			"1": 1,
-			"2": 2,
-			"3": 3,
-			"4": 4,
-			"5": 5,
+			"1": 10,
+			"2": 20,
+			"3": 30,
+			"4": 40,
+			"5": 50,
 		),
 		"output": "standard",
 		"property": "z-index",
+	),
+	"opacity": (
+		"items": (
+			"25": 0.25,
+			"50": 0.5,
+			"75": 0.75,
+			"100": 1,
+		),
+		"output": "standard",
+		"property": "opacity",
 	),
 	"breakpoints": (
 		"sm": "(min-width: 38em)",
