@@ -1,4 +1,7 @@
 {{ $mappingAddress := print .org.org "+" .location.address "+" (index .location.boroughs 0) }}
+<div class="[ wrapper ] [ bg-primary pad-top-500 color-white ]">
+	<h1>{{ .org.org }}</h1>
+</div>
 <div class="[ wrapper ] [ bg-primary pad-top-500 pad-bottom-500 color-white ]">
 	<div class="[ split-pair ] [ text-400 ]">
 		<h3>
@@ -41,20 +44,7 @@
 				src="https://www.google.com/maps/embed/v1/place?q={{ $mappingAddress }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=12&"
 				allowfullscreen
 			></iframe>
-			{{ with .location.public_transportation }}
-				<div
-					class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300 split-pair"
-					style="--split-pair-space: 0.5rem;"
-				>
-					<h4>PUBLIC TRANSPORTATION</h4>
-					<div>
-						{{ . }}
-					</div>
-				</div>
-			{{ end }}
-			<div
-				class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300 split-pair"
-			>
+			<div class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300">
 				<a
 					href="https://www.google.com/maps/dir/?api=1&destination={{ $mappingAddress }}"
 					target="_blank"
@@ -64,23 +54,62 @@
 					<span class="font_icons">&#xe03c;</span>
 					<span class="weight-bold">Get directions</span>
 				</a>
-				<div>
-					<span class="font-serif weight-bold">PARKING: </span>
-					{{ with .location.parking }}{{ . }}{{ else }}NA{{ end }}
-				</div>
 			</div>
 		</div>
 		<div class="[ bg-white box-shadow-glow ]">
 			<h4
 				class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
 			>
-				Payment, insurance, or funding accepted
+				Provider Overview
 			</h4>
-			<ul>
-				{{ range .org.payment_types }}
-					<li>{{ . }}</li>
-				{{ end }}
-			</ul>
+
+			<div
+				class="flow pad-top-300 pad-right-300 pad-bottom-500 pad-left-300"
+				style="--flow-space:0.5rem"
+			>
+				<div class="display-flex">
+					<span class="[ font_icons color-secondary ] [ position-icon ]"
+						>&#xe090;</span
+					>
+					<span>{{ .location.phone_number }}</span>
+				</div>
+				<div class="card-text-block">
+					<span class="[ font_icons color-secondary ] [ position-icon ]"
+						>&#xe010;</span
+					>
+					{{ with .org.email }}
+						<a
+							href="mailto: {{ . }}"
+							class="link-pointer"
+							data-variant="invert"
+							target="_blank"
+						>
+							{{ . }}
+						</a>
+						{{ else }}<span>No data available</span>
+					{{ end }}
+				</div>
+				<div class="card-text-block">
+					<span class="[ font_icons color-secondary ] [ position-icon ]"
+						>&#xe0e3;</span
+					>
+					<a
+						href="{{ if not (hasPrefix (lower .org.website) `http`) }}//{{ .org.website }}{{ else }}{{ .org.website }}{{ end }}"
+						class="link-pointer"
+						data-variant="invert"
+						target="_blank"
+						>{{ .org.website }}</a
+					>
+				</div>
+				<div class="display-flex">
+					<span class="[ font_icons color-secondary ] [ position-icon ]"
+						>&#x4e;</span
+					>
+					<div>
+						{{ .content }}
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

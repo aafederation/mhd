@@ -1,15 +1,16 @@
 {{ define "main" }}
-	{{ partial "single-org-banner" . }}
+	<!--{{ partial "single-org-banner" . }}-->
 	<div
 		class="[ flow ] [ bg-light pad-top-500 pad-bottom-500 ]"
 		style="--flow-space: 4rem;"
 	>
 		{{ $org := .Params }}
+		{{ $content := .Content }}
 
 		{{ range .Params.locations }}
 			{{ $location := . }}
 			<div class="box-shadow-glow wrapper" data-variant="no-padding">
-				{{ partial "single-location-banner" (dict "org" $org "location" $location) }}
+				{{ partial "single-location-banner" (dict "org" $org "location" $location "content" $content) }}
 				<div class="[ wrapper ] [ bg-white pad-top-500 ]">
 					<h2 class="gap-bottom-500">Location details</h2>
 					<div class="tiles">
@@ -19,6 +20,7 @@
 								{{ partial "single-service-list" (dict "title" "PSYCHOTHERAPY SPECIALTIES" "items" $location.psychotherapy_specialties) }}
 								{{ partial "single-service-list" (dict "title" "PSYCHOTHERAPY TYPES" "items" $location.psychotherapy_types) }}
 							{{ end }}
+							{{ partial "single-service-list" (dict "title" "PAYMENT, INSURANCE, OR FUNDING ACCEPTED" "items" $org.payment_types) }}
 							{{ partial "single-service-list" (dict "title" "NON-CLINICAL SERVICES" "items" $location.non_clinical_services) }}
 							{{ partial "single-service-list" (dict "title" "LANGUAGES" "items" $location.languages) }}
 							{{ partial "single-service-list" (dict "title" "GENDER OF STAFF" "items" $location.staff_gender) }}
@@ -30,6 +32,8 @@
 							{{ partial "single-service-list" (dict "title" "AGE GROUPS ACCEPTED" "items" $org.age_groups) }}
 							{{ partial "single-service-list" (dict "title" "TELE HEALTH" "items" $org.telehealth) }}
 							{{ partial "single-service-list" (dict "title" "ADA COMPLIANT" "items" $org.ada_compliant) }}
+							{{ partial "single-service-list" (dict "title" "PUBLIC TRANSPORTATION" "items" $location.public_transportation) }}
+							{{ partial "single-service-list" (dict "title" "PARKING" "items" $location.parking) }}
 						</div>
 					</div>
 				</div>
