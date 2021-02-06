@@ -12,8 +12,8 @@
 	text-align: left;
 	padding: var(--button-padding, 0.5rem 1rem 0.5rem 1rem);
 	color: get-color("light");
-	border: $stroke-width solid get-color("dark");
-	border-radius: 1rem;
+	border: $stroke-width solid get-color("primary");
+	border-radius: 5px;
 	text-transform: uppercase;
 
 	@include apply-utility("weight", "black");
@@ -27,7 +27,6 @@
 	/// tokens are present at any given time. This is to ensure consistency
 	&:hover {
 		background: get-color("light");
-		border-color: get-color("dark");
 		color: get-color("primary");
 	}
 
@@ -62,6 +61,7 @@
 		background: get-color("light");
 		color: get-color("dark");
 		font-size: get-size("400") * 0.8;
+		border-radius: 1rem;
 
 		&:hover {
 			background: get-color("primary");
