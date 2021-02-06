@@ -1,0 +1,22 @@
+.card-flex {
+	display: flex;
+	flex-wrap: wrap;
+
+	> * {
+		width: 100%;
+	}
+
+	@include media-query("lg") {
+		> :first-child {
+			width: 75%;
+		}
+		> :last-child {
+			width: 25%;
+		}
+	}
+
+	/// Exceptions
+	&[data-layout="reversed"] {
+		flex-direction: row-reverse;
+	}
+}
