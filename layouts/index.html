@@ -1,7 +1,10 @@
 {{ define "main" }}
 	{{- partial "index-scripts.html" . -}}
 	<div class="wrapper mhd-tiles gap-top-1000" data-layout="reversed">
-		<div class="main-filter-col display-none sm:display-block" id="main-filter">
+		<div
+			class="[ main-filter-col fixed-scrollable ] [ display-none sm:display-block position-fixed sm:position-static ] [ top-500 bottom-800 left-500 right-500 z-1 ]"
+			id="main-filter"
+		>
 			{{ partial "main-filter.html" . }}
 		</div>
 		<div class="main-body-col">
@@ -9,8 +12,7 @@
 			{{ partial "main-body.html" . }}
 		</div>
 		<div
-			class="main-filter-col display-block sm:display-none position-sticky"
-			style="bottom: 10px;z-index: 1;"
+			class="[ display-block sm:display-none position-fixed sm:position-static ] [ bottom-300 left-500 right-500 z-2 ]"
 		>
 			{{ partial "filter-button.html" . }}
 		</div>

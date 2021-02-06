@@ -54,6 +54,26 @@ $gorko-config: (
 		"output": "standard",
 		"property": "margin-right",
 	),
+	"top": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "top",
+	),
+	"bottom": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "bottom",
+	),
+	"left": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "left",
+	),
+	"right": (
+		"items": $gorko-size-scale,
+		"output": "standard",
+		"property": "right",
+	),
 	"pad-top": (
 		"items": $gorko-size-scale,
 		"output": "standard",
@@ -125,6 +145,17 @@ $gorko-config: (
 		),
 		"output": "responsive",
 		"property": "position",
+	),
+	"z": (
+		"items": (
+			"1": 1,
+			"2": 2,
+			"3": 3,
+			"4": 4,
+			"5": 5,
+		),
+		"output": "standard",
+		"property": "z-index",
 	),
 	"breakpoints": (
 		"sm": "(min-width: 38em)",
