@@ -1,6 +1,11 @@
+<link
+	rel="stylesheet"
+	href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css"
+/>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
 {{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
 {{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
 <script defer src="{{ $searchJS.RelPermalink }}" integrity="{{ $searchJS.Data.Integrity }}"></script>
-<!--<script defer src="{{ "js/hugotagsfilter-1.2.2.min.js" | relURL}}"></script>-->
-<script defer src="{{ "js/hugotagsfilter.js" | relURL}}"></script>
-<script defer src="{{ "js/main.js" | relURL}}"></script>
+<!--<script defer src="{{ "js/hugotagsfilter-1.2.2.min.js" | relURL }}"></script>-->
+<script defer src="{{ "js/hugotagsfilter.js" | relURL }}"></script>
+<script defer src="{{ "js/main.js" | relURL }}"></script>
