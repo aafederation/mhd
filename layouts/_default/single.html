@@ -40,4 +40,13 @@
 			</div>
 		{{ end }}
 	</div>
+	<script>
+		if (window.opener) {
+			let goBack = document.getElementById("go-back");
+			goBack.classList.remove("display-none");
+			goBack.addEventListener("click", function () {
+				close();
+			});
+		}
+	</script>
 {{ end }}
