@@ -1,7 +1,8 @@
 /*START: ACCORDION Style the collapsible content*/
 .panel {
 	padding: 0 18px;
-	margin-block: 0em 0.2em;
+	margin-block-start: 0em;
+	margin-block-end: 0.2em;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
