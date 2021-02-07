@@ -416,7 +416,7 @@ class HugoTagsFilter {
 		const newBtnPrefix = "pill";
 		const newBtnId = newBtnPrefix + "-" + filterId;
 		const newBtnClassList = ["button", "after-cross"];
-		const containerDivId = `#filter-refine-${newBtnPrefix}s`;
+		const containerDivId = `.filter-refine-${newBtnPrefix}s`;
 		const onClickFunc = el.getAttribute("onclick");
 
 		const containerDiv = document.querySelector(containerDivId);
