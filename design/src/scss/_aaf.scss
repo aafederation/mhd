@@ -34,8 +34,17 @@ header {
 }
 // Banner background image
 .bg-img-vector {
-	background-image: url(/img/bgVector4.jpg);
+	background-image: url(/img/RubinWorkshop.jpg);
 	background-size: cover;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 260px;
+	@include media-query("sm") {
+		height: 520px;
+	}
 }
 // Footer image
 .image {

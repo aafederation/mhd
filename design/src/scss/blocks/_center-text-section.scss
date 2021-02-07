@@ -1,0 +1,8 @@
+.center-text-section {
+	text-align: center;
+	-webkit-text-stroke: 1px get-color("primary");
+	padding-top: 20px;
+	@include media-query("sm") {
+		padding-top: 175px;
+	}
+}
