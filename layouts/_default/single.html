@@ -41,12 +41,16 @@
 		{{ end }}
 	</div>
 	<script>
-		if (window.opener) {
-			let goBack = document.getElementById("go-back");
-			goBack.classList.remove("display-none");
-			goBack.addEventListener("click", function () {
-				close();
-			});
-		}
+		(function () {
+			if (window.opener) {
+				let goBack = document.getElementById("go-back");
+				let goHome = document.getElementById("go-home");
+				goBack.classList.remove("display-none");
+				goHome.classList.add("display-none");
+				goBack.addEventListener("click", function () {
+					close();
+				});
+			}
+		})();
 	</script>
 {{ end }}
