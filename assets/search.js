@@ -260,7 +260,10 @@
 		mainDiv.setAttribute("data-language", myPage.language);
 		mainDiv.setAttribute("data-payment", myPage.payment);
 		mainDiv.setAttribute("data-adacompliance", myPage.ADAcompliance);
-		moreInfo.onclick=function() {window.open(myPage.href);};
+		moreInfo.onclick=function() {
+			window.name="parent";
+			window.open(myPage.href);
+		};
 		h3.onclick = onClickGoToMap(myPage.id);
 		directions.onclick=function() {window.open("https://www.google.com/maps/dir/?api=1&destination="+ myPage.feature.properties.mappingAddress);};
 
