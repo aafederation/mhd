@@ -11,11 +11,17 @@
 		margin-bottom: get-size("300");
 		min-width: 15em;
 
+		position: fixed;
+
 		@include media-query("sm") {
 			margin-top: get-size("1000");
 			margin-left: 0;
 			margin-right: get-size("500");
 			margin-bottom: 0;
+
+			position: sticky;
+			top: 1em;
+			align-self: flex-start;
 		}
 	}
 	> .main-body-col {
