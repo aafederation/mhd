@@ -56,3 +56,9 @@ header {
 .no-bullets {
 	list-style-type: none;
 }
+// Overlay on bg image vector
+.overlay {
+	background: rgb(3, 29, 64, 0.4);
+	height: 100%;
+	max-width: none;
+}
