@@ -12,7 +12,7 @@
 			<div class="box-shadow-glow wrapper" data-variant="no-padding">
 				{{ partial "single-location-banner" (dict "org" $org "location" $location "content" $content) }}
 				<div class="[ wrapper ] [ bg-white pad-top-500 ]">
-					<h2 class="gap-bottom-500">Location details</h2>
+					<h2 class="gap-bottom-500">LOCATION DETAILS</h2>
 					<div class="tiles">
 						<div>
 							{{ partial "single-service-list" (dict "title" "CLINICAL SERVICES" "items" $location.services) }}
@@ -20,20 +20,44 @@
 								{{ partial "single-service-list" (dict "title" "PSYCHOTHERAPY SPECIALTIES" "items" $location.psychotherapy_specialties) }}
 								{{ partial "single-service-list" (dict "title" "PSYCHOTHERAPY TYPES" "items" $location.psychotherapy_types) }}
 							{{ end }}
-							{{ partial "single-service-list" (dict "title" "PAYMENT, INSURANCE, OR FUNDING ACCEPTED" "items" $org.payment_types) }}
-							{{ partial "single-service-list" (dict "title" "NON-CLINICAL SERVICES" "items" $location.non_clinical_services) }}
-							{{ partial "single-service-list" (dict "title" "LANGUAGES" "items" $location.languages) }}
-							{{ partial "single-service-list" (dict "title" "GENDER OF STAFF" "items" $location.staff_gender) }}
+							{{ with $org.payment_types }}
+								{{ partial "single-service-list" (dict "title" "PAYMENT, INSURANCE, OR FUNDING ACCEPTED" "items" $org.payment_types) }}
+							{{ end }}
+							{{ with $location.non_clinical_services }}
+								{{ partial "single-service-list" (dict "title" "NON-CLINICAL SERVICES" "items" $location.non_clinical_services) }}
+							{{ end }}
+							{{ with $location.languages }}
+								{{ partial "single-service-list" (dict "title" "LANGUAGES" "items" $location.languages) }}
+							{{ end }}
+							{{ with $location.staff_gender }}
+								{{ partial "single-service-list" (dict "title" "GENDER OF STAFF" "items" $location.staff_gender) }}
+							{{ end }}
 						</div>
 						<div>
-							{{ partial "single-service-list" (dict "title" "HOURS" "items" $location.hours_of_operation) }}
-							{{ partial "single-service-list" (dict "title" "NEW CLIENTS" "items" $location.new_clients) }}
-							{{ partial "single-service-list" (dict "title" "SPECIAL REQUIREMENTS FOR CLIENTS" "items" $org.client_requirements) }}
-							{{ partial "single-service-list" (dict "title" "AGE GROUPS ACCEPTED" "items" $org.age_groups) }}
-							{{ partial "single-service-list" (dict "title" "TELE HEALTH" "items" $org.telehealth) }}
-							{{ partial "single-service-list" (dict "title" "ADA COMPLIANT" "items" $org.ada_compliant) }}
-							{{ partial "single-service-list" (dict "title" "PUBLIC TRANSPORTATION" "items" $location.public_transportation) }}
-							{{ partial "single-service-list" (dict "title" "PARKING" "items" $location.parking) }}
+							{{ with $location.hours_of_operation }}
+								{{ partial "single-service-list" (dict "title" "HOURS" "items" $location.hours_of_operation) }}
+							{{ end }}
+							{{ with $location.new_clients }}
+								{{ partial "single-service-list" (dict "title" "NEW CLIENTS" "items" $location.new_clients) }}
+							{{ end }}
+							{{ with $org.client_requirements }}
+								{{ partial "single-service-list" (dict "title" "SPECIAL REQUIREMENTS FOR CLIENTS" "items" $org.client_requirements) }}
+							{{ end }}
+							{{ with $org.age_groups }}
+								{{ partial "single-service-list" (dict "title" "AGE GROUPS ACCEPTED" "items" $org.age_groups) }}
+							{{ end }}
+							{{ with $org.telehealth }}
+								{{ partial "single-service-list" (dict "title" "TELE HEALTH" "items" $org.telehealth) }}
+							{{ end }}
+							{{ with $org.ada_compliant }}
+								{{ partial "single-service-list" (dict "title" "ADA COMPLIANT" "items" $org.ada_compliant) }}
+							{{ end }}
+							{{ with $location.public_transportation }}
+								{{ partial "single-service-list" (dict "title" "PUBLIC TRANSPORTATION" "items" $location.public_transportation) }}
+							{{ end }}
+							{{ with $location.parking }}
+								{{ partial "single-service-list" (dict "title" "PARKING" "items" $location.parking) }}
+							{{ end }}
 						</div>
 					</div>
 				</div>

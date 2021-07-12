@@ -11,29 +11,27 @@
 			</span>
 		</h3>
 		<h3>
-			{{ with .location.boroughs }}
-				<span class="font_icons">&#xe01d;</span>
-				<span class="weight-bold">
-					{{ index (.) 0 }}
-				</span>
-			{{ end }}
+		{{ with .location.boroughs }}
+			<span class="font_icons">&#xe01d;</span>
+			<span class="weight-bold">
+				{{ index (.) 0 }}
+			</span>
+		{{ end }}
 		</h3>
 		<h3>
-			{{ with .location.phone_number }}
-				<span class="font_icons">&#xe090;</span>
-				<span class="weight-bold">
-					{{ . }}
-				</span>
-			{{ end }}
+		{{ with .location.phone_number }}
+			<span class="font_icons">&#xe090;</span>
+			<span class="weight-bold">
+				{{ . }}
+			</span>
+		{{ end }}
 		</h3>
 	</div>
 </div>
 <div class="[ wrapper ] [ bg-light pad-top-500 pad-bottom-500 ]">
 	<div class="tiles" data-variant="two-per-row">
 		<div class="[ bg-white box-shadow-glow ]">
-			<h4
-				class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
-			>
+			<h4 class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300">
 				Location
 			</h4>
 			<iframe
@@ -57,27 +55,20 @@
 			</div>
 		</div>
 		<div class="[ bg-white box-shadow-glow ]">
-			<h4
-				class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300"
-			>
+			<h4 class="underline pad-left-300 pad-right-300 pad-top-300 pad-bottom-300">
 				Provider Overview
 			</h4>
-
 			<div
 				class="flow pad-top-300 pad-right-300 pad-bottom-500 pad-left-300"
 				style="--flow-space:0.5rem"
 			>
 				<div class="display-flex">
-					<span class="[ font_icons color-secondary ] [ position-icon ]"
-						>&#xe090;</span
-					>
+					<span class="[ font_icons color-secondary ] [ position-icon ]">&#xe090;</span>
 					<span>{{ .location.phone_number }}</span>
 				</div>
+				{{ with .org.email }}
 				<div class="card-text-block">
-					<span class="[ font_icons color-secondary ] [ position-icon ]"
-						>&#xe010;</span
-					>
-					{{ with .org.email }}
+					<span class="[ font_icons color-secondary ] [ position-icon ]">&#xe010;</span>
 						<a
 							href="mailto: {{ . }}"
 							class="link-pointer"
@@ -86,29 +77,52 @@
 						>
 							{{ . }}
 						</a>
-						{{ else }}<span>No data available</span>
-					{{ end }}
 				</div>
+				{{ end }}
 				<div class="card-text-block">
-					<span class="[ font_icons color-secondary ] [ position-icon ]"
-						>&#xe0e3;</span
-					>
+					<span class="[ font_icons color-secondary ] [ position-icon ]">&#xe0e3;</span>
 					<a
 						href="{{ if not (hasPrefix (lower .org.website) `http`) }}//{{ .org.website }}{{ else }}{{ .org.website }}{{ end }}"
 						class="link-pointer"
 						data-variant="invert"
 						target="_blank"
-						>{{ .org.website }}</a
-					>
+						>{{ .org.website }}
+					</a>
 				</div>
+				{{ with .location.hours_of_operation }}
 				<div class="display-flex">
-					<span class="[ font_icons color-secondary ] [ position-icon ]"
-						>&#x4e;</span
-					>
-					<div>
-						{{ .content }}
+					<span class="[ font_icons color-secondary ] [ position-icon ] icon_clock">&#xe06b;</span>
+					<div class="no-bullets">
+						{{ range . }}
+							{{ range $key, $value := . }}
+								<li>{{ $value }}</li>
+							{{ end }}
+						{{ end }}
 					</div>
 				</div>
+				{{ end }}
+				{{ with .location.services }}
+				<div class="display-flex">
+					<span class="[ font_icons color-secondary ] [ position-icon ]">&#x4e;</span>
+					<div>
+						<span class="weight-bold">Clinical services: </span>
+						<span>
+							{{ delimit . ", " }}
+						</span>
+					</div>
+				</div>
+				{{ end }}
+				{{ with .location.non_clinical_services }}
+				<div class="display-flex">
+					<span class="[ font_icons color-secondary ] [ position-icon ]">&#x4e;</span>
+					<div>
+						<span class="weight-bold">Non-clinical services: </span>
+						<span>
+							{{ delimit . ", " }}
+						</span>
+					</div>
+				</div>
+				{{ end }}
 			</div>
 		</div>
 	</div>
