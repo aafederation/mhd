@@ -3,24 +3,24 @@
 	<ul>
 		{{ if eq ( printf "%T" .items ) "bool" }}
 			<li>{{ with .items }}Yes{{ else }}No{{ end }}</li>
-			{{ else if eq ( printf "%T" .items ) "int64" }}
+		{{ else if eq ( printf "%T" .items ) "int64" }}
 			<li>{{ .items }}</li>
-			{{ else }}
+		{{ else }}
 			{{ with .items }}
 				{{ if eq ( printf "%T" . ) "string" }}
 					<li>{{ . }}</li>
-					{{ else }}
+				{{ else }}
 					{{ range . }}
 						{{ if reflect.IsMap . }}
 							{{ range $key, $value := . }}
 								<li>{{ $value }}</li>
 							{{ end }}
-							{{ else }}
+						{{ else }}
 							<li>{{ . }}</li>
 						{{ end }}
 					{{ end }}
 				{{ end }}
-				{{ else }}
+			{{ else }}
 				<li>No data available</li>
 			{{ end }}
 		{{ end }}
