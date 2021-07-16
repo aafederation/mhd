@@ -1,20 +1,26 @@
 {
-	"Items": [
-		"Advocacy",
-		"Awareness and stigma campaigns",
-		"Case management",
-		"Crisis hotline",
-		"Crisis intervention and management",
-		"Domestic violence counseling",
-		"Entitlement/benefits/SNAP assistance",
-		"ESL classes",
-		"Family support",
-		"Financial literacy",
-		"High school equivalency classes",
-		"Know Your Rights workshops",
-		"Online self-help modules",
-		"Peer support groups",
-		"Psychoeducation",
-		"Supported housing"
-	]
+  "Items": [
+    "Case Management for Seniors and Senior Centers",
+    "Pottery School",
+    "Music School",
+    "After-School",
+    "Methadone Maintenance",
+    "Substance Use Programs",
+    "Advocacy",
+    "Awareness and stigma campaigns",
+    "Case management",
+    "Crisis hotline",
+    "Crisis intervention and management",
+    "Domestic violence counseling",
+    "Entitlement/benefits/SNAP assistance",
+    "ESL classes",
+    "Family support",
+    "Financial literacy",
+    "High school equivalency classes",
+    "Know Your Rights workshops",
+    "Online self-help modules",
+    "Peer support groups",
+    "Psychoeducation",
+    "Supported housing"
+  ]
 }
