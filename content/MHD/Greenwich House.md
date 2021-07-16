@@ -33,12 +33,10 @@ day_hours = "9am-5pm"
 +++
 **Greenwich House**
 
-Phone: 718-745-3523
+Phone: 212-242-4140 x251
 
-Hours: M-F, 10 am-6 pm
+Hours: 9 am - 5 pm 
 
-Clinical Services: Connections to Care Program, free
-
-mental health services
+Clinical Services: 
 
 Non-Clinical Services: 
