@@ -31,3 +31,14 @@ staff_gender = ["Male", "Female"]
 day_hours = "9am-5pm"
 
 +++
+**Greenwich House**
+
+Phone: 718-745-3523
+
+Hours: M-F, 10 am-6 pm
+
+Clinical Services: Connections to Care Program, free
+
+mental health services
+
+Non-Clinical Services: 
