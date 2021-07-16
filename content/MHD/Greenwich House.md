@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "All"]
 client_requirements = []
-draft = true
 email = "lgiuliano@greenwichhouse.org"
 highlight = false
 image = ""
@@ -35,8 +34,8 @@ day_hours = "9am-5pm"
 
 Phone: 212-242-4140 x251
 
-Hours: 9 am - 5 pm 
+Hours: 9 am - 5 pm
 
-Clinical Services: 
+Clinical Services: Psychotherapy, psychiatric evaluation, medication management
 
-Non-Clinical Services: 
+Non-Clinical Services: Substance use programs, methadone maintenance, after-school, music school, pottery school, case management for seniors and senior centers
