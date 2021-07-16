@@ -1,14 +1,14 @@
 +++
 ada_compliant = false
 age_groups = ["Preteens and Tweens (11 to 13)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
-client_requirements = ["Should be clean", "Preferably from Brooklyn"]
+client_requirements = []
 email = "info@arabamericanny.org"
 highlight = true
 image = ""
 org = "Arab American Association of NY"
 payment_types = ["No insurance necessary"]
 program = ""
-tags = ["healthy", "mental"]
+tags = []
 telehealth = ""
 website = "https://www.arabamericanny.org/"
 [[locations]]

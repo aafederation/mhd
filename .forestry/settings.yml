@@ -12,7 +12,7 @@ sections:
   new_doc_ext: json
 - type: directory
   path: content/MHD
-  label: MHD
+  label: Service providers
   create: all
   match: "**/*"
 upload_dir: static/img
