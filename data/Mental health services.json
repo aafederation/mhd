@@ -1,22 +1,23 @@
 {
-	"Items": [
-		"Art therapy",
-		"Asian bi-cultural mental health services",
-		"Behavioral services",
-		"Connections to Care Program",
-		"Free mental health services",
-		"Medication management",
-		"Mental health services",
-		"Multi-lingual and multi-cultural counseling",
-		"Music therapy",
-		"Outpatient and inpatient mental health services",
-		"Outpatient mental health services",
-		"psychiatric day treatment",
-		"Psychiatric evaluation",
-		"Psychological testing and assessment",
-		"Psychotherapy",
-		"substance abuse services",
-		"Substance use/addiction and support services",
-		"support Groups"
-	]
+  "Items": [
+    "Personalized Recovery Services (PROS)",
+    "Art therapy",
+    "Asian bi-cultural mental health services",
+    "Behavioral services",
+    "Connections to Care Program",
+    "Free mental health services",
+    "Medication management",
+    "Mental health services",
+    "Multi-lingual and multi-cultural counseling",
+    "Music therapy",
+    "Outpatient and inpatient mental health services",
+    "Outpatient mental health services",
+    "Psychiatric day treatment",
+    "Psychiatric evaluation",
+    "Psychological testing and assessment",
+    "Psychotherapy",
+    "Substance Abuse Services",
+    "Substance use/addiction and support services",
+    "Support Groups"
+  ]
 }
