@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = []
-draft = true
 email = "whung@henrystreet.org or gireland@henrystreet.org"
 highlight = false
 image = ""
@@ -31,3 +30,26 @@ staff_gender = ["Male", "Female"]
 day_hours = "PROS: Monday - Friday 9am-3pm; Outpatient: Monday - Friday 9am-5pm"
 
 +++
+**Henry Street Settlement**
+
+Outpatient and PROS programs. Bilingual individual/family/group therapies, psychiatric medication management and case management
+
+P: 212-233-5032
+
+A: 40 Montgomery St
+
+PROS Services: M-F 10 am-6 pm
+
+Outpatient Services: M-F 9am-5pm
+
+www.henrystreet.org
+
+Clinical Services: Medication management, Psychiatric evaluation, Psychotherapy, Personalized Recovery Oriented Services (PROS)
+
+Non-Clinical Services: Case management, Crisis intervention and management, Domestic violence counseling, Entitlement/benefits/SNAP assistance, Family support, Financial literacy, Psychoeducation
+
+Payment: Medicaid is accepted. Medicare and other third-party insurance providers are considered.
+
+Languages: English, Chinese
+
+Chinese Dialects Spoken: Cantonese, Mandarin, Shanghainese, Taiwanese
