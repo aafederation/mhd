@@ -33,6 +33,8 @@ transport_option = "Avenue U Train Station"
 +++
 **Homecrest Community Services Inc.**
 
+To improve the quality of life for Asian immigrants, seniors and those who are otherwise disadvantage be more self-sufficient in society.
+
 P: 718-376-4036
 
 A: 1413 Avenue T
