@@ -62,3 +62,15 @@ header {
 	height: 100%;
 	max-width: none;
 }
+// Two equal columns
+.columns-2 {
+	column-count: 1;
+	@include media-query("sm") {
+		column-count: 2;
+	}
+}
+.column-item-avoid-break {
+	-webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+	page-break-inside: avoid; /* Firefox */
+	break-inside: avoid; /* IE 10+ */
+}

@@ -13,8 +13,7 @@
 				{{ partial "single-location-banner" (dict "org" $org "location" $location "content" $content) }}
 				<div class="[ wrapper ] [ bg-white pad-top-500 ]">
 					<h2 class="gap-bottom-500">Location Details</h2>
-					<div class="tiles">
-						<div>
+					<div class="columns-2">
 							{{ partial "single-service-list" (dict "title" "CLINICAL SERVICES" "items" $location.services) }}
 							{{ with $location.psychotherapy }}
 								{{ partial "single-service-list" (dict "title" "PSYCHOTHERAPY SPECIALTIES" "items" $location.psychotherapy_specialties) }}
@@ -26,8 +25,6 @@
 							{{ with $org.payment_types }}
 								{{ partial "single-service-list" (dict "title" "PAYMENT, INSURANCE, OR FUNDING ACCEPTED" "items" $org.payment_types) }}
 							{{ end }}
-						</div>
-						<div>
 							{{ with $org.age_groups }}
 								{{ partial "single-service-list" (dict "title" "AGE GROUPS ACCEPTED" "items" $org.age_groups) }}
 							{{ end }}
@@ -58,7 +55,6 @@
 							{{ with $location.parking }}
 								{{ partial "single-service-list" (dict "title" "PARKING" "items" $location.parking) }}
 							{{ end }}
-						</div>
 					</div>
 				</div>
 			</div>
