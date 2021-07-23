@@ -13,19 +13,23 @@ telehealth = "Yes"
 website = "http://www.pflagnyc.org/support/api"
 [[locations]]
 address = "130 E. 25th Street, Suite M1, New York, NY 10010 (PFLAG NYC's office address)"
-boroughs = []
+boroughs = ["Citywide"]
 hours_of_operation = []
-languages = []
+languages = ["Vietnamese", "Korean", "Punjabi", "Tagalog", "Japanese", "Hindi", "Gujarati", "Chinese (Cantonese)", "Chinese (Taiwanese)", "Chinese (Fujianese)", "Chinese (Mandarin)", "English"]
 latLng = "40.741065124262384, -73.98417950323297"
 new_clients = "Yes"
-non_clinical_services = []
-parking = "Yes"
-phone_number = ""
+non_clinical_services = ["Peer support groups", "Family support", "Advocacy", "Awareness and stigma campaigns"]
+parking = "No"
+phone_number = "212-463-0629"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
-public_transportation = []
-services = []
-staff_gender = []
+services = ["Support Groups"]
+staff_gender = ["Male", "Female"]
+[[locations.public_transportation]]
+transport_option = "Bus"
+[[locations.public_transportation]]
+transport_option = "Subway"
 
 +++
+API Rainbow Parents of PFLAG NYC, a non-profit volunteer-based organization, provides support for LGBTQ+ individuals and families of Asian heritage, addressing cultural and linguistic needs of the API community. We also strive to advocate and educate the intersectional issues within the API and LGBTQ+ communities to create an API LGBTQ+ affirming environment. We are not a professional mental health provider organization.
