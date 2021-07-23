@@ -23,9 +23,10 @@ phone_number = "718-745-3523"
 psychotherapy = true
 psychotherapy_specialties = ["ADHD", "Anxiety", "Addiction/recovery"]
 psychotherapy_types = ["Couples therapy", "Dialectical Behavioral Therapy", "Group therapy"]
-public_transportation = "N, Q, W, R trains to Brooklyn"
 services = ["Psychotherapy", "Free mental health services", "Connections to Care Program"]
 staff_gender = ["Male", "Female"]
+[[locations.public_transportation]]
+transportation_option = "N, Q, W, R trains to Brooklyn"
 [[locations.hours_of_operation]]
 day_hours = "M-F 10am-6pm"
 

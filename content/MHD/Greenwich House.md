@@ -23,9 +23,12 @@ phone_number = "212-242-4140 x251"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Panic attacks/disorder", "Mood disorders", "Men's issues", "Medication management", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Coping skills", "Chronic illness", "Caregiver stress and support", "Anxiety"]
 psychotherapy_types = ["Ego Supportive", "Supportive therapy", "Trauma-informed", "Family therapy", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy", "Couples therapy"]
-public_transportation = "Subway: A/ E/ C/ B/ D/ M/ F/ 1 and the M14 Bus"
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
+[[locations.public_transportation]]
+transportation_option = "Subway: A/ E/ C/ B/ D/ M/ F/ 1"
+[[locations.public_transportation]]
+transportation_option = "Bus: M14"
 [[locations.hours_of_operation]]
 day_hours = "9am-5pm"
 
