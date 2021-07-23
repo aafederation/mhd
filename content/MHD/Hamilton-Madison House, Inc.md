@@ -33,3 +33,20 @@ day_hours = "Monday-Friday 9 am-7 pm"
 transport_option = "Subway: F train"
 
 +++
+**Hamilton-Madison House, Inc.**
+
+With more than 120 years of dedicated service, our multilingual, multicultural staff has the professional expertise and personal experience to serve the increasingly diverse residents of the Lower East Side as well as neighborhoods throughout the five boroughs.  
+  
+For more than 45 years Hamilton-Madison House has been the leading provider of outpatient mental health services to New York City’s Asian community. We have a long and distinguished history of providing mental health services focused on the needs of the Asian population dating back to 1974 when Hamilton-Madison House was asked by the New York State Office of Mental Health to help design and implement a specialized Asian American Mental Health Demonstration Project.   
+  
+The Behavioral Health Services Department has developed a program model that understands and incorporates the strengths of individual cultures and addresses the stigma related to mental illness.   
+   
+Hamilton-Madison House outpatient mental health program operates out of two sites, 253 South Street and a small, satellite for the Korean population in Corona. PROSpect Place (PROS) provides personalized recovery oriented services to help individuals with mental illness to attain recovery, achieve goals, integrate with their community, and live a fulfilling life. Asian American Recovery Services provides treatment for addictions in four languages and seven dialects. We offer substance use and alcohol treatment, and a full suite of co-occurring counseling services. 
+
+P: 212-720-4540/4520
+
+A: 253 South St 2nd Fl
+
+M-F 9 am-7 pm
+
+Sat-Sun 9 am-5 pm
