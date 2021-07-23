@@ -25,13 +25,15 @@ psychotherapy_specialties = ["ADHD", "Anxiety", "Addiction/recovery"]
 psychotherapy_types = ["Couples therapy", "Dialectical Behavioral Therapy", "Group therapy"]
 services = ["Psychotherapy", "Free mental health services", "Connections to Care Program"]
 staff_gender = ["Male", "Female"]
-[[locations.public_transportation]]
-transport_option = "N, Q, W, R trains to Brooklyn"
 [[locations.hours_of_operation]]
 day_hours = "M-F 10am-6pm"
+[[locations.public_transportation]]
+transport_option = "N, Q, W, R trains to Brooklyn"
 
 +++
 **Arab American Association of NY**
+
+In 2001, a group of prominent Arab immigrants and Arab Americans recognized the growing need in the community for an organization that would serve the social and economic needs of the growing Arab population in Bay Ridge and the surrounding neighborhoods of Brooklyn, NY. Although the process of establishing the organization began before the September 11th attacks, the founders felt compelled to take more immediate action after they witnessed the heightened sense of fear and the acts of blatant discrimination aimed at their community in the days following the attacks. 
 
 P: 718-745-3523
 
