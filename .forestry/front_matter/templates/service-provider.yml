@@ -226,11 +226,20 @@ fields:
         path: 
     label: Parking
   - name: public_transportation
-    type: text
+    type: field_group_list
+    fields:
+    - name: transport_option
+      type: text
+      config:
+        required: false
+      label: Transport option
     config:
-      required: false
-    description: What public transportation options are near your location(s)
+      min: 
+      max: 
+      labelField: 
     label: Public transportation options
+    description: What public transportation options are near your location(s).  Enter
+      each option as a new entry
   - name: staff_gender
     type: list
     config:
