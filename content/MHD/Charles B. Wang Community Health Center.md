@@ -1,5 +1,7 @@
 +++
 ada_compliant = true
+age_groups = []
+client_requirements = []
 email = ""
 highlight = true
 image = ""
@@ -11,13 +13,19 @@ telehealth = "Not applicable"
 website = "www.cbwchc.org"
 [[locations]]
 address = "268 Canal St"
+boroughs = ["Citywide", "Manhattan"]
+languages = ["Korean", "Mandarin", "Cantonese"]
 latLng = "40.71878963726238, -74.00132840234299"
-boroughs = ["Manhattan"]
+new_clients = "Yes"
+non_clinical_services = []
 parking = "Yes"
 phone_number = "2-941-2213"
+psychotherapy = false
+psychotherapy_specialties = []
+psychotherapy_types = []
+public_transportation = []
 services = ["Behavioral services", "Mental health services"]
-languages = ["Korean", "Mandarin", "Cantonese"]
-new_clients = "Yes"
+staff_gender = []
 [[locations.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[locations.hours_of_operation]]
@@ -26,13 +34,19 @@ day_hours = "W, 10 am-6 pm"
 day_hours = "Th, 11 am-6 pm"
 [[locations]]
 address = "136-26 37th Ave"
-latLng = "40.76170554286881, -73.83005267350512"
 boroughs = ["Queens"]
+languages = ["Korean", "Mandarin", "Cantonese"]
+latLng = "40.76170554286881, -73.83005267350512"
+new_clients = "Yes"
+non_clinical_services = []
 parking = "Yes"
 phone_number = "2-941-2213"
+psychotherapy = false
+psychotherapy_specialties = []
+psychotherapy_types = []
+public_transportation = []
 services = ["Behavioral services", "Mental health services"]
-languages = ["Korean", "Mandarin", "Cantonese"]
-new_clients = "Yes"
+staff_gender = []
 [[locations.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[locations.hours_of_operation]]
@@ -41,13 +55,19 @@ day_hours = "W, 10 am-6 pm"
 day_hours = "Th, 11 am-6 pm"
 [[locations]]
 address = "137-43 45th Ave"
-latLng = "40.75192982760588, -73.82200221212504"
 boroughs = ["Queens"]
+languages = ["Korean", "Mandarin", "Cantonese"]
+latLng = "40.75192982760588, -73.82200221212504"
+new_clients = "Yes"
+non_clinical_services = []
 parking = "Yes"
 phone_number = ""
+psychotherapy = false
+psychotherapy_specialties = []
+psychotherapy_types = []
+public_transportation = []
 services = ["Behavioral services", "Mental health services"]
-languages = ["Korean", "Mandarin", "Cantonese"]
-new_clients = "Yes"
+staff_gender = []
 [[locations.hours_of_operation]]
 day_hours = "M, Tu, F, Sa, 9 am-6 pm"
 [[locations.hours_of_operation]]
@@ -56,7 +76,6 @@ day_hours = "W, 10 am-6 pm"
 day_hours = "Th, 11 am-6 pm"
 
 +++
-
 **Charles B. Wang Community Health Center**
 
 P: 2-941-2213
