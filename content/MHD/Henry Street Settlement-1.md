@@ -25,12 +25,13 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Suicidal ideation
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Group therapy", "Family therapy", "Cognitive Behavioral Therapy"]
 services = ["Personalized Recovery Services (PROS)", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
-[[locations.public_transportation]]
-transportation_option = "Subway: F, J, M, Z"
-[[locations.public_transportation]]
-transportation_option = "Bus: M22, M9, M14A"
 [[locations.hours_of_operation]]
 day_hours = "PROS: Monday - Friday 9am-3pm; Outpatient: Monday - Friday 9am-5pm"
+[[locations.public_transportation]]
+transport_option = "Subway: F, J, M, Z"
+[[locations.public_transportation]]
+transport_option = "Bus: M22, M9, M14A"
+transportation_option = "Subway: F, J, M, Z"
 
 +++
 **Henry Street Settlement**
