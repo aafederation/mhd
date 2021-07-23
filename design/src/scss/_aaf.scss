@@ -74,3 +74,8 @@ header {
 	page-break-inside: avoid; /* Firefox */
 	break-inside: avoid; /* IE 10+ */
 }
+.handle-long-url {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

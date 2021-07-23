@@ -67,7 +67,7 @@
 					<span>{{ .location.phone_number }}</span>
 				</div>
 				{{ with .org.email }}
-				<div class="card-text-block">
+				<div class="display-flex">
 					<span class="[ font_icons color-secondary ] [ position-icon ]">&#xe010;</span>
 						<a
 							href="mailto: {{ . }}"
@@ -79,11 +79,11 @@
 						</a>
 				</div>
 				{{ end }}
-				<div class="card-text-block">
+				<div class="display-flex">
 					<span class="[ font_icons color-secondary ] [ position-icon ]">&#xe0e3;</span>
 					<a
 						href="{{ if not (hasPrefix (lower .org.website) `http`) }}//{{ .org.website }}{{ else }}{{ .org.website }}{{ end }}"
-						class="link-pointer"
+						class="link-pointer handle-long-url"
 						data-variant="invert"
 						target="_blank"
 						>{{ .org.website }}
