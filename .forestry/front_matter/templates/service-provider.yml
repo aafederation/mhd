@@ -298,6 +298,7 @@ fields:
   label: Image
   description: Attach an image if available
 pages:
+- content/MHD/API Rainbow Parents of PFLAG NYC.md
 - content/MHD/Academy of Medical & Public Health Services.md
 - content/MHD/Arab American Association of NY.md
 - content/MHD/Charles B. Wang Community Health Center.md
