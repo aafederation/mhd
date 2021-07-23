@@ -29,3 +29,6 @@ services = []
 staff_gender = []
 
 +++
+**Academy of Medical & Public Health Services**
+
+Founded in 2010, AMPHS strives to create a local system of making care more accessible to immigrant New Yorkers through culturally-sensitive intervention methods, de-institutionalized healthcare environments, and grassroots outreach.
