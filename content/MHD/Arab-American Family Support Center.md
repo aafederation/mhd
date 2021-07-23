@@ -35,3 +35,12 @@ transport_option = "Bus"
 transport_option = "Subway: 1,2,3,4,5,6 & a,c,e,f,g"
 
 +++
+**Arab-American Family Support Center**
+
+AAFSC's mission is to empower immigrants and refugees with the tools they need to successfully acclimate to the world around them and become active participants in their communities. We operate under 4 priority areas: Communicate, Promote, Prevent, and Get Ready. This allows us to be holistic in our work.
+
+P: 718-643-8000 x 110
+
+A: 150 Court Street #3
+
+M-F 9 am-6 pm
