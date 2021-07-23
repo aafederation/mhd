@@ -10,7 +10,7 @@ payment_types = ["UnitedHealthcare", "Medicare", "Medicaid", "Humana", "Blue Cro
 program = "Senior Health and Consultation Center"
 tags = []
 telehealth = "Yes"
-website = ""
+website = "https://www.greenwichhouse.org/senior-services/senior-health-and-consultation-center/"
 [[locations]]
 address = "27 Barrow Street, 3rd floor, New York, NY, 10014"
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
@@ -25,12 +25,12 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spiritu
 psychotherapy_types = ["Ego Supportive", "Supportive therapy", "Trauma-informed", "Family therapy", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy", "Couples therapy"]
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
+[[locations.hours_of_operation]]
+day_hours = "9am-5pm"
 [[locations.public_transportation]]
 transport_option = "Subway: A/ E/ C/ B/ D/ M/ F/ 1"
 [[locations.public_transportation]]
 transport_option = "Bus: M14"
-[[locations.hours_of_operation]]
-day_hours = "9am-5pm"
 
 +++
 **Greenwich House**
