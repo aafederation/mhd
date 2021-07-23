@@ -26,9 +26,9 @@ psychotherapy_types = ["Ego Supportive", "Supportive therapy", "Trauma-informed"
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
 [[locations.public_transportation]]
-transportation_option = "Subway: A/ E/ C/ B/ D/ M/ F/ 1"
+transport_option = "Subway: A/ E/ C/ B/ D/ M/ F/ 1"
 [[locations.public_transportation]]
-transportation_option = "Bus: M14"
+transport_option = "Bus: M14"
 [[locations.hours_of_operation]]
 day_hours = "9am-5pm"
 

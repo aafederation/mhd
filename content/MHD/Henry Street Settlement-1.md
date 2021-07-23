@@ -31,7 +31,6 @@ day_hours = "PROS: Monday - Friday 9am-3pm; Outpatient: Monday - Friday 9am-5pm"
 transport_option = "Subway: F, J, M, Z"
 [[locations.public_transportation]]
 transport_option = "Bus: M22, M9, M14A"
-transportation_option = "Subway: F, J, M, Z"
 
 +++
 **Henry Street Settlement**
