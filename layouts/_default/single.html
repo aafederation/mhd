@@ -25,6 +25,9 @@
 							{{ with $org.payment_types }}
 								{{ partial "single-service-list" (dict "title" "PAYMENT, INSURANCE, OR FUNDING ACCEPTED" "items" $org.payment_types) }}
 							{{ end }}
+							{{ with $org.telehealth }}
+								{{ partial "single-service-list" (dict "title" "TELE HEALTH" "items" $org.telehealth) }}
+							{{ end }}
 							{{ with $org.age_groups }}
 								{{ partial "single-service-list" (dict "title" "AGE GROUPS ACCEPTED" "items" $org.age_groups) }}
 							{{ end }}
@@ -45,9 +48,6 @@
 							{{ end }}
 							{{ with $location.public_transportation }}
 								{{ partial "single-service-list" (dict "title" "PUBLIC TRANSPORTATION" "items" $location.public_transportation) }}
-							{{ end }}
-							{{ with $org.telehealth }}
-								{{ partial "single-service-list" (dict "title" "TELE HEALTH" "items" $org.telehealth) }}
 							{{ end }}
 							{{ with $org.ada_compliant }}
 								{{ partial "single-service-list" (dict "title" "ADA COMPLIANT" "items" $org.ada_compliant) }}
