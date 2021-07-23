@@ -33,3 +33,12 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
+**Gracie Square Hospital**
+
+Gracie Square Hospital is a psychiatric hospital affiliated with New York-Presbyterian Hospital System, providing specialized inpatient services including our Asian Psychiatry Program tailored for the Asian community.
+
+P: 212-434-5415
+
+A: 420 East 76th St
+
+24 Hours
