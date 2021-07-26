@@ -17,13 +17,13 @@ boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
 languages = ["Chinese", "English"]
 latLng = "40.73302072109487, -74.00310885279998"
 new_clients = "No"
-non_clinical_services = ["Substance Use Programs", "Methadone Maintenance", "After-School", "Music School", "Pottery School", "Case Management for Seniors and Senior Centers"]
+non_clinical_services = ["Senior Centers ", "Case Management for Seniors", "After-School", "Music School", "Pottery School"]
 parking = "Yes"
 phone_number = "212-242-4140 x251"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Panic attacks/disorder", "Mood disorders", "Men's issues", "Medication management", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Coping skills", "Chronic illness", "Caregiver stress and support", "Anxiety"]
 psychotherapy_types = ["Ego Supportive", "Supportive therapy", "Trauma-informed", "Family therapy", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy", "Couples therapy"]
-services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
+services = ["Substance Abuse Services", "Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
 [[locations.hours_of_operation]]
 day_hours = "9am-5pm"
