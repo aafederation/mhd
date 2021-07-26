@@ -27,22 +27,6 @@ psychotherapy_types = []
 public_transportation = []
 services = []
 staff_gender = []
-[[locations]]
-address = ""
-boroughs = []
-hours_of_operation = []
-languages = []
-latLng = ""
-new_clients = "Yes"
-non_clinical_services = []
-parking = "Yes"
-phone_number = ""
-psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
-public_transportation = []
-services = []
-staff_gender = []
 
 +++
 **Garden of Hope**
