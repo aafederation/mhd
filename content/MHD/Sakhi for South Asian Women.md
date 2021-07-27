@@ -14,7 +14,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.sakhi.org/mental-health-program/"
 [[locations]]
-address = "Confidential Address - contact for an appointment "
+address = "Confidential Address - contact helpline to be connected to services"
 boroughs = ["Citywide"]
 languages = ["Gujarati", "Urdu", "Punjabi", "Hindi", "Bangla", "English"]
 latLng = ""
