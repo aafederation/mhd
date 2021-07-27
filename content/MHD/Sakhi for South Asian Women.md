@@ -16,18 +16,19 @@ website = "https://www.sakhi.org/mental-health-program/"
 [[locations]]
 address = "Confidential Address - contact for an appointment "
 boroughs = ["Citywide"]
-hours_of_operation = []
 languages = ["Gujarati", "Urdu", "Punjabi", "Hindi", "Bangla", "English"]
 latLng = ""
 new_clients = "Yes"
-non_clinical_services = []
+non_clinical_services = ["Supported housing", "Psychoeducation", "Peer support groups", "Know Your Rights workshops", "Financial literacy", "Family support", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "No"
 phone_number = "917-615-3664"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
 services = ["Substance use/addiction and support services", "Art therapy"]
-staff_gender = []
+staff_gender = ["Transgender", "Nonbinary", "Female"]
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: 10 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: N, W, R, 4, 5, 6, "
 
