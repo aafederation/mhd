@@ -342,8 +342,7 @@
    * from the page parameter
    */
   function makeFeature(page) {
-		let coords = [0,0];
-
+		let coords = ["0","0"];
 		if(page.location.latLng) {
 		coords = page.location.latLng.split(',');
 		}

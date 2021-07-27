@@ -70,8 +70,10 @@ class HugoTagsFilter {
 				for (var x = 0; x < this.filterItems.length; x++) {
 					var attrs = this.getAttrs(k, this.filterItems[x]);
 					for (var l = 0; l < attrs.length; l++) {
-						fvc[k][attrs[l]].count++;
-						fvc[k][attrs[l]].selected++;
+						if (fvc[k][attrs[l]]) {
+							fvc[k][attrs[l]].count++;
+							fvc[k][attrs[l]].selected++;
+						}
 					}
 				}
 			}
@@ -106,36 +108,43 @@ class HugoTagsFilter {
 					for (var k in fvc[fname]) {
 						if (cp) {
 							var cel = document.getElementById(`${cp}${k}`);
-							cel.textContent = fvc[fname][k].count;
 
-							if (cel.textContent == 0) {
-								this.addClassIfMissing(
-									document.getElementById(this.FILTERS[i]["prefix"] + k)
-										.parentNode,
-									this.noCountButtonClass
-								);
-							} else {
-								this.delClassIfPresent(
-									document.getElementById(this.FILTERS[i]["prefix"] + k)
-										.parentNode,
-									this.noCountButtonClass
-								);
-							}
-						}
-						if (sp) {
-							var sel = document.getElementById(`${sp}${k}`);
-							sel.textContent = fvc[fname][k].selected;
-							if (this.setDisabledButtonClass) {
-								if (sel.textContent == 0) {
+							if (cel) {
+								cel.textContent = fvc[fname][k].count;
+
+								if (cel.textContent == 0) {
 									this.addClassIfMissing(
-										document.getElementById(this.FILTERS[i]["prefix"] + k),
-										this.setDisabledButtonClass
+										document.getElementById(this.FILTERS[i]["prefix"] + k)
+											.parentNode,
+										this.noCountButtonClass
 									);
 								} else {
 									this.delClassIfPresent(
-										document.getElementById(this.FILTERS[i]["prefix"] + k),
-										this.setDisabledButtonClass
+										document.getElementById(this.FILTERS[i]["prefix"] + k)
+											.parentNode,
+										this.noCountButtonClass
 									);
+								}
+							}
+						}
+
+						if (sp) {
+							var sel = document.getElementById(`${sp}${k}`);
+
+							if (sel) {
+								sel.textContent = fvc[fname][k].selected;
+								if (this.setDisabledButtonClass) {
+									if (sel.textContent == 0) {
+										this.addClassIfMissing(
+											document.getElementById(this.FILTERS[i]["prefix"] + k),
+											this.setDisabledButtonClass
+										);
+									} else {
+										this.delClassIfPresent(
+											document.getElementById(this.FILTERS[i]["prefix"] + k),
+											this.setDisabledButtonClass
+										);
+									}
 								}
 							}
 						}
