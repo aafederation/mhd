@@ -2,11 +2,12 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
 client_requirements = []
+credentials = ""
 email = "joyluangphaxay@hmhonline.org"
 highlight = false
 image = ""
 org = "Hamilton-Madison House, Inc"
-payment_types = ["Accepts Out of Network Insurances", "UnitedHealthcare", "TRICARE", "Oxford", "Optum", "Medicare", "Medicaid", "Hotel 6", "Cigna", "Beacon Health", "AMERIGROUP", "Aetna", "1199SEIU"]
+payment_types = ["Sliding scale fee for patients without insurance", "Accepts Out of Network Insurances", "UnitedHealthcare", "TRICARE", "Oxford", "Optum", "Medicare", "Medicaid", "Hotel 6", "Cigna", "Beacon Health", "AMERIGROUP", "Aetna", "1199SEIU"]
 program = "Behavioral Health Services"
 tags = []
 telehealth = "Yes"
