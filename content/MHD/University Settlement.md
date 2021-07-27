@@ -2,12 +2,13 @@
 ada_compliant = true
 age_groups = ["All"]
 client_requirements = []
+credentials = ""
 draft = true
 email = "FT@universitysettlement.org"
 highlight = false
 image = ""
 org = "University Settlement"
-payment_types = ["Emblem", "Fidelis", "GHI", "HealthFirst", "HIP", "MetroPlus", "VNS Choice Medicare", "Medicare", "Medicaid", "Aetna"]
+payment_types = ["Sliding scale fee for patients without insurance", "Emblem", "Fidelis", "GHI", "HealthFirst", "HIP", "MetroPlus", "VNS Choice Medicare", "Medicare", "Medicaid", "Aetna"]
 program = "Families Thriving"
 tags = []
 telehealth = "Yes"
