@@ -8,7 +8,7 @@ email = ""
 highlight = false
 image = ""
 org = "Gouverneur Health "
-payment_types = ["MetroPlus", "HealthFirst", "Fidelis", "Emblem", "Oxford", "Medicare", "Medicaid", "Blue Cross/Blue Shield", "Aetna"]
+payment_types = ["Sliding scale fee for patients without insurance", "MetroPlus", "HealthFirst", "Fidelis", "Emblem", "Oxford", "Medicare", "Medicaid", "Blue Cross/Blue Shield", "Aetna"]
 program = "Asian Bicultural Clinic (ABC)"
 tags = []
 telehealth = "Yes"
@@ -35,3 +35,6 @@ transport_option = "Bus: M22"
 transport_option = "Subway: F"
 
 +++
+**Gouverneur Health**
+
+Gouverneur Health is located in Lower Manhattan and is one of the city hospitals as part of the Health and Hospital Corporation.
