@@ -8,5 +8,6 @@ fields:
 pages:
 - data/Age groups.json
 - data/Languages.json
+- data/Licenses.json
 - data/Payment types.json
 - data/Staff gender.json
