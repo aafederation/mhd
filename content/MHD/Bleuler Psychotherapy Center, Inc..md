@@ -2,12 +2,13 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
 client_requirements = []
+credentials = ""
 draft = true
 email = "Info@bleulerpc.org"
 highlight = false
 image = ""
 org = "Bleuler Psychotherapy Center, Inc. "
-payment_types = ["UnitedHealthcare", "Oxford", "Optum", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Beacon Health", "AmeriHealth", "AMERIGROUP", "Aetna", "1199SEIU"]
+payment_types = ["Sliding scale fee for patients without insurance", "UnitedHealthcare", "Oxford", "Optum", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Beacon Health", "AmeriHealth", "AMERIGROUP", "Aetna", "1199SEIU"]
 program = ""
 tags = []
 telehealth = "Yes"
