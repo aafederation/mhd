@@ -2,12 +2,13 @@
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 client_requirements = []
+credentials = ""
 draft = true
 email = "yyoun@kcsny.org"
 highlight = false
 image = ""
 org = "Korean Community Services of Metropolitan New York"
-payment_types = ["UnitedHealthcare", "Oxford", "Optum", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Aetna"]
+payment_types = ["Sliding scale fee for patients without insurance", "UnitedHealthcare", "Oxford", "Optum", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Aetna"]
 program = "KCS Mental Health Clinic "
 tags = []
 telehealth = "Yes"
