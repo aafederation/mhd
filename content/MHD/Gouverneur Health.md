@@ -16,18 +16,19 @@ website = "https://www.nychealthandhospitals.org/gothamhealth/gouverneur/our-ser
 [[locations]]
 address = "227 Madison St."
 boroughs = ["Citywide"]
-hours_of_operation = []
 languages = ["Chinese (Cantonese)", "Chinese (Toishanese)", "Chinese (Mandarin)", "English"]
 latLng = "40.713609123793916, -73.98796082840033"
 new_clients = "Yes"
-non_clinical_services = []
+non_clinical_services = ["Supported housing", "Psychoeducation", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Case management"]
 parking = "Street parking"
 phone_number = "212-238-7332"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Weight loss", "Trauma/PTSD", "Suicidal ideation", "Substance abuse", "Stress", "Spirituality", "Sexual harassment and assault", "Sexual abuse", "Self-harming", "Self-esteem", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Pregnancy, perinatal, and postpartum mental health", "Phobias/fears", "Personality disorders", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Obesity", "Mood disorders", "Medication management", "Insomnia and sleep issues", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Domestic violence", "Domestic abuse", "Depression", "Cultural adjustment", "Coping skills", "Bipolar disorder", "Behavioral issues", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychological testing and assessment", "Psychiatric evaluation", "Medication management", "Art therapy"]
-staff_gender = []
+staff_gender = ["Male", "Female"]
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Bus: M22"
 [[locations.public_transportation]]
