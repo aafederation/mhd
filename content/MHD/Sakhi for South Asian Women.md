@@ -15,20 +15,21 @@ telehealth = "Yes"
 website = "https://www.sakhi.org/mental-health-program/"
 [[locations]]
 address = "Confidential Address - contact for an appointment "
-boroughs = []
+boroughs = ["Citywide"]
 hours_of_operation = []
-languages = []
+languages = ["Gujarati", "Urdu", "Punjabi", "Hindi", "Bangla", "English"]
 latLng = ""
 new_clients = "Yes"
 non_clinical_services = []
-parking = "Yes"
-phone_number = ""
+parking = "No"
+phone_number = "917-615-3664"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
-public_transportation = []
-services = []
+services = ["Substance use/addiction and support services", "Art therapy"]
 staff_gender = []
+[[locations.public_transportation]]
+transport_option = "Subway: N, W, R, 4, 5, 6, "
 
 +++
 **Sakhi for South Asian Women**
