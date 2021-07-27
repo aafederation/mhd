@@ -2,12 +2,13 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = []
+credentials = ""
 draft = true
 email = ""
 highlight = false
 image = ""
 org = "Apicha Community Health Center"
-payment_types = ["Any insurance"]
+payment_types = ["Sliding scale fee for patients without insurance", "Any insurance"]
 program = "Clinic"
 tags = []
 telehealth = "Yes"
@@ -38,4 +39,4 @@ P: (212) 334-6029
 
 A: 400 Broadway
 
-M-F: 9 am-5 pm 
+M-F: 9 am-5 pm
