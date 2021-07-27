@@ -297,6 +297,19 @@ fields:
     maxSize: 64
   label: Image
   description: Attach an image if available
+- name: credentials
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: data/Licenses.json
+      path: Items
+  label: Credentials
+  description: Licenses or credentials for individuals
 pages:
 - content/MHD/API Rainbow Parents of PFLAG NYC.md
 - content/MHD/Academy of Medical & Public Health Services.md
