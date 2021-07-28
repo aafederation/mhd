@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["All"]
 client_requirements = []
 credentials = ""
-draft = true
 email = "info@iamwk.org"
 highlight = false
 image = ""
