@@ -16,11 +16,10 @@ website = "https://adhikaar.org/#our_work"
 [[locations]]
 address = "71-07 Woodside"
 boroughs = ["Queens"]
-hours_of_operation = []
 languages = ["Nepali"]
 latLng = "40.7430482806436, -73.89344990674577"
 new_clients = "No"
-non_clinical_services = []
+non_clinical_services = ["Peer support groups", "Know Your Rights workshops", "Family support", "ESL classes", "Case management", "Advocacy"]
 parking = "No"
 phone_number = ""
 psychotherapy = false
@@ -28,6 +27,8 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = []
 staff_gender = []
+[[locations.hours_of_operation]]
+day_hours = "10 AM - 6 PM"
 [[locations.public_transportation]]
 transport_option = "Subway: 7, E, F, M, R"
 
