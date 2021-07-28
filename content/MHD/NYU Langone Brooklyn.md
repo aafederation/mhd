@@ -29,6 +29,8 @@ psychotherapy_types = ["Solution-focused therapy", "Supportive therapy", "Trauma
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychological testing and assessment", "Psychiatric evaluation", "Medication management"]
 staff_gender = []
 [[locations.public_transportation]]
+transport_option = "Bus: B53, B37, B9"
+[[locations.public_transportation]]
 transport_option = "Subway: R"
 
 +++
