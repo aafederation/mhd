@@ -25,7 +25,7 @@ phone_number = ""
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
-services = []
+services = ["Referrals to clinical services "]
 staff_gender = []
 [[locations.hours_of_operation]]
 day_hours = "10 AM - 6 PM"
