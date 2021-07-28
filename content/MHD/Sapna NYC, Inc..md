@@ -2,6 +2,8 @@
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = []
+credentials = ""
+draft = true
 email = "info@sapnanyc.org"
 highlight = false
 image = ""
