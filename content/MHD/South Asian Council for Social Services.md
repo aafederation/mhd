@@ -16,18 +16,19 @@ website = "https://www.sacssny.org/health-services---other-benefits.html"
 [[locations]]
 address = "143-06 45th Ave"
 boroughs = ["Queens"]
-hours_of_operation = []
 languages = ["Urdu", "Punjabi", "Marathi", "Malayalam", "Hindi", "Bangla", "English"]
 latLng = "40.75467669607294, -73.81778974537971"
 new_clients = "Yes"
-non_clinical_services = []
+non_clinical_services = ["Psychoeducation", "ESL classes", "Case management", "Advocacy"]
 parking = "Street parking"
 phone_number = "718-321-7929"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
 services = []
-staff_gender = []
+staff_gender = ["Female"]
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: 10 AM - 5:30 PM"
 [[locations.public_transportation]]
 transport_option = "Bus: Q65, Q27, Q17, Q34"
 
