@@ -31,7 +31,7 @@ staff_gender = []
 [[locations.public_transportation]]
 transport_option = "Subway: F"
 [[locations.public_transportation]]
-transport_option = ""
+transport_option = "Bus: Q1, Q2, Q3, Q17, Q43, Q36 Q76, Q77, N1, N2, N22, N24"
 
 +++
 India Home Inc.
