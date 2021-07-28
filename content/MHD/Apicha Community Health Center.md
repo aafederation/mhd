@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
 client_requirements = []
 credentials = ""
 draft = true
