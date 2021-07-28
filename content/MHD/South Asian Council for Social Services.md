@@ -28,6 +28,8 @@ psychotherapy_types = []
 services = []
 staff_gender = ["Female"]
 [[locations.hours_of_operation]]
+day_hours = "Saturday: 10 AM - 2 PM"
+[[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 10 AM - 5:30 PM"
 [[locations.public_transportation]]
 transport_option = "Bus: Q65, Q27, Q17, Q34"
