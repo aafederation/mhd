@@ -29,6 +29,8 @@ public_transportation = []
 services = []
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 [[locations.hours_of_operation]]
+day_hours = "Support groups available in the evenings"
+[[locations.hours_of_operation]]
 day_hours = "9 AM - 5 PM"
 
 +++
