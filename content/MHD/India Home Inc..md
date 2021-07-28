@@ -16,18 +16,19 @@ website = "https://indiahome.org/health-wellness-programs/"
 [[locations]]
 address = "178-36 Wexford Terrace Suite 2C"
 boroughs = ["Queens"]
-hours_of_operation = []
 languages = ["Punjabi", "Hindi", "Bangla"]
 latLng = "40.71403241824472, -73.78431802210363"
 new_clients = "Yes"
-non_clinical_services = []
+non_clinical_services = ["Senior Centers ", "Know Your Rights workshops", "ESL classes", "Case management", "Advocacy"]
 parking = "No"
 phone_number = "917-862-0514"
 psychotherapy = true
 psychotherapy_specialties = ["Stress", "Spirituality", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Medication management", "Insomnia and sleep issues", "Grief, loss, and bereavement", "Family conflict", "Eating disorders", "Divorce and separation", "Depression", "Dementia", "Cultural adjustment", "Coping skills", "Chronic pain", "Chronic illness", "Anger management"]
 psychotherapy_types = ["Supportive therapy"]
 services = ["Support Groups", "Art therapy"]
-staff_gender = []
+staff_gender = ["Male", "Female"]
+[[locations.hours_of_operation]]
+day_hours = "9 AM - 5 PM"
 [[locations.public_transportation]]
 transport_option = "Subway: F"
 [[locations.public_transportation]]
