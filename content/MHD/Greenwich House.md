@@ -2,6 +2,7 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "All"]
 client_requirements = []
+credentials = ""
 email = "lgiuliano@greenwichhouse.org"
 highlight = false
 image = ""
@@ -28,7 +29,7 @@ staff_gender = ["Male", "Female"]
 [[locations.hours_of_operation]]
 day_hours = "9am-5pm"
 [[locations.public_transportation]]
-transport_option = "Subway: A/ E/ C/ B/ D/ M/ F/ 1"
+transport_option = "Subway: A, E, C, B, D, M, F, 1"
 [[locations.public_transportation]]
 transport_option = "Bus: M14"
 
