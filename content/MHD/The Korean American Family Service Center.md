@@ -30,7 +30,7 @@ staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 [[locations.hours_of_operation]]
 day_hours = "Bilingual Hotline: 24 hours"
 [[locations.hours_of_operation]]
-day_hours = "9 AM - 5 PM"
+day_hours = "Monday - Friday: 9 AM - 5 PM"
 [[locations.public_transportation]]
 transport_option = "Bus: Q65"
 [[locations.public_transportation]]
