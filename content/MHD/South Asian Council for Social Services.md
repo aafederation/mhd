@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
 client_requirements = []
 credentials = ""
-draft = true
 email = "marya@sacssny.org"
 highlight = false
 image = ""

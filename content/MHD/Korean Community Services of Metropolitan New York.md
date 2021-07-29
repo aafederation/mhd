@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Youth and Teenagers (14 to 17)", "Youth and Teenagers (13+)", "Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = []
 credentials = ""
-draft = true
 email = "yyoun@kcsny.org"
 highlight = false
 image = ""

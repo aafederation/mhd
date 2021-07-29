@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "Toddlers and Preschoolers (0 to 5)"]
 client_requirements = []
 credentials = ""
-draft = true
 email = " kellyperez@childcenterny.org"
 highlight = false
 image = ""
