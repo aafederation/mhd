@@ -2,6 +2,7 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = []
+credentials = ""
 email = "info@homecrest.org"
 highlight = false
 image = ""
@@ -26,7 +27,7 @@ psychotherapy_types = []
 services = []
 staff_gender = ["Female"]
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday 8:30 am-4:00 pm"
+day_hours = "Monday-Friday: 8:30 am-4:00 pm"
 [[locations.public_transportation]]
 transport_option = "Avenue U Train Station"
 
@@ -39,4 +40,4 @@ P: 718-376-4036
 
 A: 1413 Avenue T
 
-M-F 8:30 am-4:00 pm
+M-F: 8:30 am-4:00 pm
