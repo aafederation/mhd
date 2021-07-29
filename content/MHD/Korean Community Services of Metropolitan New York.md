@@ -27,9 +27,9 @@ psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
 [[locations.hours_of_operation]]
-day_hours = "Tuesday, Thursday 9 am-8 pm"
+day_hours = "Tuesday, Thursday: 9 am-8 pm"
 [[locations.hours_of_operation]]
-day_hours = "Monday, Wednesday, Friday, Saturday 9 am-5 pm "
+day_hours = "Monday, Wednesday, Friday, Saturday: 9 am-5 pm "
 [[locations.public_transportation]]
 transport_option = "LIRR"
 [[locations.public_transportation]]
