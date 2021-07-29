@@ -2,6 +2,7 @@
 ada_compliant = true
 age_groups = ["All"]
 client_requirements = []
+credentials = ""
 email = "api@pflagnyc.org"
 highlight = false
 image = ""
@@ -14,7 +15,6 @@ website = "http://www.pflagnyc.org/support/api"
 [[locations]]
 address = "130 E. 25th Street, Suite M1, New York, NY 10010 (PFLAG NYC's office address)"
 boroughs = ["Citywide"]
-hours_of_operation = []
 languages = ["Vietnamese", "Korean", "Punjabi", "Tagalog", "Japanese", "Hindi", "Gujarati", "Chinese (Cantonese)", "Chinese (Taiwanese)", "Chinese (Fujianese)", "Chinese (Mandarin)", "English"]
 latLng = "40.741065124262384, -73.98417950323297"
 new_clients = "Yes"
@@ -26,6 +26,8 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = ["Support Groups"]
 staff_gender = ["Male", "Female"]
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: 9 AM - 5 PM"
 [[locations.public_transportation]]
 transport_option = "Bus"
 [[locations.public_transportation]]
