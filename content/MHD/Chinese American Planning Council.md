@@ -2,7 +2,7 @@
 ada_compliant = false
 age_groups = ["Seniors (65+)"]
 client_requirements = []
-draft = true
+credentials = ""
 email = "xliu@cpc-nyc.org"
 highlight = false
 image = ""
