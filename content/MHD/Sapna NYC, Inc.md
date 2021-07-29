@@ -27,7 +27,7 @@ psychotherapy_types = []
 services = []
 staff_gender = ["Female"]
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday 9 am-5 pm"
+day_hours = "Monday-Friday: 9 am-5 pm"
 [[locations.public_transportation]]
 transport_option = "Bus: Bx4, Bx22, Q44-SBS"
 [[locations.public_transportation]]
@@ -42,4 +42,4 @@ P: 718-828-9772
 
 A: 2348 Waterbury Ave. 1st Fl
 
-M-F 9 am-5 pm
+M-F: 9 am-5 pm
