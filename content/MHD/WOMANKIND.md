@@ -9,7 +9,7 @@ image = ""
 org = "WOMANKIND"
 payment_types = []
 program = ""
-tags = []
+tags = ["Vietnamese"]
 telehealth = "Yes"
 website = "https://www.iamwomankind.org/our-services/"
 [[locations]]
