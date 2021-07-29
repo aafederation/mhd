@@ -1,13 +1,14 @@
 +++
 ada_compliant = false
 age_groups = ["Preteens and Tweens (11 to 13)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
-client_requirements = []
+client_requirements = ["Currently only accepting new clients for mental health services"]
+credentials = ""
 email = "info@arabamericanny.org"
 highlight = true
 image = ""
 org = "Arab American Association of NY"
 payment_types = ["No insurance necessary"]
-program = ""
+program = "hi"
 tags = []
 telehealth = ""
 website = "https://www.arabamericanny.org/"
