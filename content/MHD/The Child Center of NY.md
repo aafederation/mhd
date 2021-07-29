@@ -25,7 +25,7 @@ psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
-services = ["substance abuse services", "Multi-lingual and multi-cultural counseling"]
+services = ["Substance Abuse Services", "Multi-lingual and multi-cultural counseling"]
 staff_gender = []
 [[locations.hours_of_operation]]
 day_hours = "Monday: 9 am-5 pm"
