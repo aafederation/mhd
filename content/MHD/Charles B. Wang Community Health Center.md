@@ -2,6 +2,7 @@
 ada_compliant = true
 age_groups = []
 client_requirements = []
+credentials = ""
 email = ""
 highlight = true
 image = ""
@@ -19,7 +20,7 @@ latLng = "40.71878963726238, -74.00132840234299"
 new_clients = "Yes"
 non_clinical_services = []
 parking = "Yes"
-phone_number = "2-941-2213"
+phone_number = "212-941-2213"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
