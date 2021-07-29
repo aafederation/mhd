@@ -2,7 +2,7 @@
 ada_compliant = true
 age_groups = ["All"]
 client_requirements = []
-draft = true
+credentials = ""
 email = "amehdi@copo.org"
 highlight = false
 image = ""

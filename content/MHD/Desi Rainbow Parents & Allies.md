@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (18 to 64)"]
 client_requirements = []
 credentials = ""
-draft = true
 email = "info@desirainbow.org"
 highlight = false
 image = ""
