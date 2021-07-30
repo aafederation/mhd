@@ -13,14 +13,14 @@ tags = []
 telehealth = "Not applicable"
 website = "www.flushinghospital.org"
 [[locations]]
-address = "4500 Parsons Blvd"
-boroughs = ["Queens"]
+address = "777 Seaview Avenue"
+boroughs = ["Staten Island", "Manhattan", "Brooklyn"]
 languages = []
-latLng = "40.755357177776546, -73.81661790234168"
+latLng = "40.58212250719449, -74.08047759999998"
 new_clients = "Yes"
 non_clinical_services = []
 parking = "Yes"
-phone_number = "718-670-5000"
+phone_number = ""
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
@@ -28,7 +28,7 @@ public_transportation = []
 services = ["support Groups", "Outpatient and inpatient mental health services"]
 staff_gender = []
 [[locations.hours_of_operation]]
-day_hours = "M-F, 9 am-9 pm"
+day_hours = "Inpatient: 24/7"
 [[locations.hours_of_operation]]
 day_hours = "Sa, 9 am-3 pm"
 
