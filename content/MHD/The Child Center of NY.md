@@ -62,13 +62,3 @@ transport_option = "Subway: R,V to Grand Avenue"
 **The Child Center of NY**
 
 Culturally competent and multi-lingual outpatient counseling for mental health and substance abuse issues.
-
-P: (E) 718-899-9810 xx2360
-
-A: 81-14 Queens Blvd, Elmhurst; 140-15B Sanford Avenue, Flushing
-
-M: 9 am-5 pm
-
-T-Th: 9 am-9 pm
-
-Sat: 9 am-3 pm
