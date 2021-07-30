@@ -34,6 +34,4 @@ transport_option = "Bus"
 transport_option = "Subway: E,F"
 
 +++
-**Turning Point for Women and Families**
-
 Turning Point is the first non-profit in NYC to directly address domestic violence in the Muslim community. It is also the first to offer a youth program to Muslim girls, address bullying/Islamophobia and work with senior Muslim women, including elder abuse.
