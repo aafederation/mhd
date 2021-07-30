@@ -37,7 +37,3 @@ transport_option = "Subway: 7"
 **Garden of Hope**
 
 Garden of Hope, established in 2004, is a linguistically specific and culturally competent domestic violence, sexual assault and human trafficking victim service organization that serves the vast Chinese immigrant community across NYC.
-
-P: 347-466-3296
-
-A:
