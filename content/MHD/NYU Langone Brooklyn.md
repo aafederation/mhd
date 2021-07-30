@@ -34,4 +34,3 @@ transport_option = "Bus: B53, B37, B9"
 transport_option = "Subway: R"
 
 +++
-NYU Langone Brooklyn
