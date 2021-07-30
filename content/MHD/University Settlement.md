@@ -34,6 +34,4 @@ transport_option = "Bus"
 transport_option = "Subway: B,D,F"
 
 +++
-**University Settlement**
-
 University Settlement partners with 40,000 New Yorkers on the Lower East Side and in Brooklyn every year to build on their strengths as they achieve healthy, stable, and remarkable lives. For over 130 years, we’ve collaborated with our neighbors to pioneer highly effective programs that fight poverty and systemic inequality. Established in 1886 as the first Settlement House in the United States, we bring the values of that movement into the 21st century by meeting New Yorkers where they live, listening deeply to all perspectives, engaging with every individual holistically, and creating space for people to organize. Joining together with our neighbors to advocate for justice and equality, we help build community strength.
