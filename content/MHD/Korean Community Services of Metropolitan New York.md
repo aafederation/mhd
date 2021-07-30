@@ -38,6 +38,4 @@ transport_option = "Bus: Q3"
 transport_option = "Subway: 7"
 
 +++
-**Korean Community Services of Metropolitan New York**
-
 KCS' mental health clinic is the only NYS-licensed outpatient mental health clinic operated by a Korean nonprofit organization. Our licensed professionals provide culturally and linguistically sensitive mental health services in Korean and English. We are equipped to address and treat a wide range of social and emotional issues which include, but are not limited to depression, anxiety, trauma, domestic violence, and isolation. Our clinic treats and raises awareness of mental health in our community, as well as combats the stigma and fear of receiving mental health-related services.
