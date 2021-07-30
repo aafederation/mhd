@@ -43,11 +43,3 @@ For more than 45 years Hamilton-Madison House has been the leading provider of o
 The Behavioral Health Services Department has developed a program model that understands and incorporates the strengths of individual cultures and addresses the stigma related to mental illness.
 
 Hamilton-Madison House outpatient mental health program operates out of two sites, 253 South Street and a small, satellite for the Korean population in Corona. PROSpect Place (PROS) provides personalized recovery oriented services to help individuals with mental illness to attain recovery, achieve goals, integrate with their community, and live a fulfilling life. Asian American Recovery Services provides treatment for addictions in four languages and seven dialects. We offer substance use and alcohol treatment, and a full suite of co-occurring counseling services.
-
-P: 212-720-4540/4520
-
-A: 253 South St 2nd Fl
-
-M-F: 9 am-7 pm
-
-Sat-Sun: 9 am-5 pm

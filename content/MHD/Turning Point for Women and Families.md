@@ -37,9 +37,3 @@ transport_option = "Subway: E,F"
 **Turning Point for Women and Families**
 
 Turning Point is the first non-profit in NYC to directly address domestic violence in the Muslim community. It is also the first to offer a youth program to Muslim girls, address bullying/Islamophobia and work with senior Muslim women, including elder abuse.
-
-P: 718-550-3586
-
-A: Confidential Location
-
-M-F: 10 am-6 pm
