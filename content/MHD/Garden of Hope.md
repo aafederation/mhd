@@ -29,7 +29,7 @@ staff_gender = ["Female"]
 [[locations.hours_of_operation]]
 day_hours = "Safe Hours: 24 hours"
 [[locations.hours_of_operation]]
-day_hours = "Office: Monday-Friday: 9 am-5 pm"
+day_hours = "Office: Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: 7"
 
