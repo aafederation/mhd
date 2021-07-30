@@ -59,6 +59,4 @@ transport_option = "Bus: Q53, Q58 and Q60"
 transport_option = "Subway: R,V to Grand Avenue"
 
 +++
-**The Child Center of NY**
-
 Culturally competent and multi-lingual outpatient counseling for mental health and substance abuse issues.
