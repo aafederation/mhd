@@ -35,9 +35,3 @@ transport_option = "Subway: N,R,Q, 6"
 **Coalition of Asian-American IPA**
 
 We are an independent practitioners' organization.
-
-P: 212-965-9888
-
-A: 202 Canal Street
-
-M-F: 9 am-6 pm
