@@ -34,8 +34,6 @@ day_hours = "Monday-Friday: 9 am-7 pm"
 transport_option = "Subway: F train"
 
 +++
-**Hamilton-Madison House, Inc.**
-
 With more than 120 years of dedicated service, our multilingual, multicultural staff has the professional expertise and personal experience to serve the increasingly diverse residents of the Lower East Side as well as neighborhoods throughout the five boroughs.
 
 For more than 45 years Hamilton-Madison House has been the leading provider of outpatient mental health services to New York City’s Asian community. We have a long and distinguished history of providing mental health services focused on the needs of the Asian population dating back to 1974 when Hamilton-Madison House was asked by the New York State Office of Mental Health to help design and implement a specialized Asian American Mental Health Demonstration Project.
