@@ -36,6 +36,4 @@ transport_option = "Bus: Q65"
 transport_option = "Subway: 7"
 
 +++
-**The Korean American Family Service Center**
-
 KAFSC provides social services to those who are affected by domestic violence, sexual assault, and child abuse. Our primary target population is low-income immigrants. All our services and programs are provided in a culturally sensitive and linguistically competent manner.
