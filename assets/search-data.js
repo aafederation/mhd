@@ -27,8 +27,8 @@
 		  index.add({
 		    'id': indexCount,
 		    'href': '{{ $page.RelPermalink }}',
-		    'title': {{ (partial "docs/title" $page) | jsonify }},
-		    'section': {{ (partial "docs/title" $page.Parent) | jsonify }},
+		    'title': {{ (partial "functions/title" $page) | jsonify }},
+		    'section': {{ (partial "functions/title" $page.Parent) | jsonify }},
 		    'content': {{ $page.Plain | jsonify }},
 				'tag': {{ with $page.Params.tags }}{{print `"`}}{{ range . }}{{ print . | replaceRE "[.]" "_" | urlize }}{{print " "}}{{ end }}{{print `"`}}{{ else }} {{ "no-tag" | jsonify }} {{ end }},
 				'borough': {{ with $location.boroughs }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-borough" | jsonify}} {{ end }},
