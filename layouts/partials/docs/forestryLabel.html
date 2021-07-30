@@ -2,4 +2,16 @@
   Partial to get label from forestry configuration
 -->
 {{ $providerMetaData := index site.Data site.Params.forestryTemplate }}
-{{ return index (index (first 1 (where $providerMetaData.fields "name" .)) 0) "label" }}
+{{ $label := "" }}
+{{ $arguments := split . "." }}
+{{ $arg1st := index $arguments 0 }}
+
+{{ if eq $arg1st "locations" }}
+	{{ $arg2nd := index $arguments 1 }}
+	{{ $locations := index (first 1 (where $providerMetaData.fields "name" "locations")) 0 "fields" }}
+	{{ $label = index (first 1 (where $locations "name" $arg2nd)) 0 "label" }}
+{{ else }}
+	{{ $label = index (first 1 (where $providerMetaData.fields "name" $arg1st)) 0 "label" }}
+{{ end }}
+
+{{ return $label }}
