@@ -34,12 +34,3 @@ transport_option = "Subway: A, E, C, B, D, M, F, 1"
 transport_option = "Bus: M14"
 
 +++
-**Greenwich House**
-
-Phone: 212-242-4140 x251
-
-Hours: 9 am - 5 pm
-
-Clinical Services: Psychotherapy, psychiatric evaluation, medication management
-
-Non-Clinical Services: Substance use programs, methadone maintenance, after-school, music school, pottery school, case management for seniors and senior centers
