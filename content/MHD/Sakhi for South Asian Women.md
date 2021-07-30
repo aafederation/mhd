@@ -32,6 +32,4 @@ day_hours = "Monday - Friday: 10 am - 5 pm"
 transport_option = "Subway: N, W, R, 4, 5, 6, "
 
 +++
-**Sakhi for South Asian Women**
-
 We provide direct services to South Asian survivors of trauma.
