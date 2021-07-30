@@ -11,9 +11,18 @@ pygmentsUseClasses = true
   copyright = "Copyright © 2018"
   author = "Pointy Far"
   mainSections = ["wonderland", "lorem", "looking-glass", "grimm"]
+	forestryTemplate = "service-provider"
 
 [taxonomies]
   category = "categories"
   tag = "tags"
   payment_type = "payment_types"
   language = "languages"
+
+[module]
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = ".forestry/front_matter/templates"
+    target = "data"

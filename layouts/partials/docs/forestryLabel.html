@@ -1,0 +1,5 @@
+<!-- 
+  Partial to get label from forestry configuration
+-->
+{{ $providerMetaData := index site.Data site.Params.forestryTemplate }}
+{{ return index (index (first 1 (where $providerMetaData.fields "name" .)) 0) "label" }}
