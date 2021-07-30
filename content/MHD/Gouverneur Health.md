@@ -9,7 +9,7 @@ image = ""
 org = "Gouverneur Health "
 payment_types = ["Child Health Plus", "Sliding scale fee for patients without insurance", "MetroPlus", "HealthFirst", "Fidelis", "Emblem", "Oxford", "Medicare", "Medicaid", "Blue Cross/Blue Shield", "Aetna"]
 program = "Asian Bicultural Clinic (ABC)"
-tags = []
+tags = ["hospital"]
 telehealth = "Yes"
 website = "https://www.nychealthandhospitals.org/gothamhealth/gouverneur/our-services/behavioral-health/"
 [[locations]]
@@ -34,6 +34,4 @@ transport_option = "Bus: M22"
 transport_option = "Subway: F"
 
 +++
-**Gouverneur Health**
-
 Gouverneur Health is located in Lower Manhattan and is one of the city hospitals as part of the Health and Hospital Corporation.
