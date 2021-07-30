@@ -1,5 +1,5 @@
 <div class='column-item-avoid-break'>
-	<h4>{{ .title }}</h4>
+	<h4>{{ upper .title }}</h4>
 	<ul>
 		{{ if eq ( printf "%T" .items ) "bool" }}
 			<li>{{ with .items }}Yes{{ else }}No{{ end }}</li>

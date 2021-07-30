@@ -42,7 +42,7 @@ fields:
       section: data
       file: data/Payment types.json
       path: Items
-  label: Payment types
+  label: Payments accepted
   description: Types of payments accepted
 - name: ada_compliant
   type: boolean
@@ -265,7 +265,7 @@ fields:
         section: data
         file: data/Non clinical services.json
         path: Items
-    label: Non clinical services
+    label: Non-clinical services
     description: What non-clinical services does your organization provide? (check
       all that apply)
   - name: hours_of_operation
