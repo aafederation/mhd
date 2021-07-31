@@ -34,6 +34,4 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
-**API Rainbow Parents of PFLAG NYC**
-
 API Rainbow Parents of PFLAG NYC, a non-profit volunteer-based organization, provides support for LGBTQ+ individuals and families of Asian heritage, addressing cultural and linguistic needs of the API community. We also strive to advocate and educate the intersectional issues within the API and LGBTQ+ communities to create an API LGBTQ+ affirming environment. We are not a professional mental health provider organization.
