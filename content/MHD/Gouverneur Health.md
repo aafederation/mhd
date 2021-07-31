@@ -34,6 +34,4 @@ transport_option = "Bus: M22"
 transport_option = "Subway: F"
 
 +++
-**Gouverneur Health**
-
 Gouverneur Health is located in Lower Manhattan and is one of the city hospitals as part of the Health and Hospital Corporation.
