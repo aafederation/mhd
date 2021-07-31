@@ -34,6 +34,4 @@ day_hours = "Office: Monday - Friday: 9 am - 5 pm"
 transport_option = "Subway: 7"
 
 +++
-**Garden of Hope**
-
 Garden of Hope, established in 2004, is a linguistically specific and culturally competent domestic violence, sexual assault**,** and human trafficking victim service organization that serves the vast Chinese immigrant community across NYC.
