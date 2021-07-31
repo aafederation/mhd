@@ -34,8 +34,6 @@ day_hours = "Monday-Friday: 9 am-7 pm"
 transport_option = "Subway: F train"
 
 +++
-**Hamilton-Madison House, Inc.**
-
 With more than 120 years of dedicated service, our multilingual, multicultural staff has the professional expertise and personal experience to serve the increasingly diverse residents of the Lower East Side as well as neighborhoods throughout the five boroughs.
 
 The Behavioral Health Services Department has developed a program model that understands and incorporates the strengths of individual cultures and addresses the stigma related to mental illness.
