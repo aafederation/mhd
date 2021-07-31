@@ -34,6 +34,4 @@ transport_option = "Subway: F"
 transport_option = "Bus: Q1, Q2, Q3, Q17, Q43, Q36 Q76, Q77, N1, N2, N22, N24"
 
 +++
-**India Home Inc.**
-
 India Home is a non-profit organization founded by community members to serve South Asian and Indo-Caribbean older adults. The mission of India Home is to improve the quality of life for older adults by providing quality care in a culturally appropriate environment. We serve older adults through senior center programs, case management, community mental health programs, Creative aging, recreational activities, and advocacy.
