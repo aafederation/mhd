@@ -34,20 +34,4 @@ transport_option = "N, Q, W, R trains to Brooklyn"
 +++
 **Arab American Association of NY**
 
-In 2001, a group of prominent Arab immigrants and Arab Americans recognized the growing need in the community for an organization that would serve the social and economic needs of the growing Arab population in Bay Ridge and the surrounding neighborhoods of Brooklyn, NY. Although the process of establishing the organization began before the September 11th attacks, the founders felt compelled to take more immediate action after they witnessed the heightened sense of fear and the acts of blatant discrimination aimed at their community in the days following the attacks. 
-
-P: 718-745-3523
-
-A: 7111 5th Ave.
-
-M-F, 10 am-6 pm
-
-www.arabamericanny.org
-
-Services: Connections to Care Program, free
-
-mental health services
-
-Payment: No insurance necessary
-
-Languages: Arabic
+In 2001, a group of prominent Arab immigrants and Arab Americans recognized the growing need in the community for an organization that would serve the social and economic needs of the growing Arab population in Bay Ridge and the surrounding neighborhoods of Brooklyn, NY. Although the process of establishing the organization began before the September 11th attacks, the founders felt compelled to take more immediate action after they witnessed the heightened sense of fear and the acts of blatant discrimination aimed at their community in the days following the attacks.
