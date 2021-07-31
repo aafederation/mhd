@@ -32,6 +32,4 @@ day_hours = "Monday-Friday: 8:30 am-4:00 pm"
 transport_option = "Avenue U Train Station"
 
 +++
-**Homecrest Community Services Inc.**
-
 To improve the quality of life for Asian immigrants, seniors**,** and those who are otherwise disadvantaged to be more self-sufficient in society.
