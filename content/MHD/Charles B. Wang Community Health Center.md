@@ -77,6 +77,4 @@ day_hours = "W, 10 am-6 pm"
 day_hours = "Th, 11 am-6 pm"
 
 +++
-**Charles B. Wang Community Health Center**
-
 The Charles B. Wang Community Health Center is a nonprofit and federally qualified health center offering comprehensive primary care services to all in five convenient locations in Manhattan and Queens seven days a week. We accept most major health insurance plans and serve everyone regardless of their ability to pay, the language they speak, or their immigration history.
