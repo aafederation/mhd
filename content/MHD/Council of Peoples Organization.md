@@ -34,6 +34,4 @@ transport_option = "Bus: B-68"
 transport_option = "Subway: B, Q"
 
 +++
-**Council of Peoples Organization**
-
 COPO is a not-for-profit agency considered a one-stop shop for social services. Even though we are located in Midwood Brooklyn, we serve clients citywide.
