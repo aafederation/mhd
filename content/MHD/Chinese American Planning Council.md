@@ -31,6 +31,4 @@ staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 day_hours = "9 am - 5 pm "
 
 +++
-**Chinese American Planning Council**
-
 CPC is a social services organization that creates positive social change. We empower Asian American, immigrant, and low-income communities in New York City by ensuring they have equitable access to the resources and opportunities needed to thrive.
