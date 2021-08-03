@@ -9,7 +9,7 @@ image = ""
 org = "NYU Langone Brooklyn"
 payment_types = ["Sliding scale fee for patients without insurance", "TriWest", "TRICARE", "Oxford", "Medicare", "Medicaid", "Humana", "Cigna", "Blue Cross/Blue Shield", "Beacon Health", "AmeriHealth", "AMERIGROUP", "Aetna", "1199SEIU"]
 program = "Sunset Terrace Family Health Center"
-tags = []
+tags = ["LGBTQ+"]
 telehealth = "Yes"
 website = "https://nyulangone.org/locations/sunset-terrace-family-health-center-at-nyu-langone"
 [[locations]]
