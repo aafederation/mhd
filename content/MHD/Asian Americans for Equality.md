@@ -33,6 +33,4 @@ day_hours = "9 AM - 5 PM"
 transport_option = "Subway: 7, F"
 
 +++
-**Asian Americans for Equality**
-
 Asian Americans for Equality is a 501 (c) (3) non-profit organization based in New York City. Founded in 1974 in Manhattan’s Chinatown to advocate for equal rights, AAFE has transformed in the past four decades to become one of the city’s leading housing, social service, and community development organizations.
