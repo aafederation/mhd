@@ -9,7 +9,7 @@ image = ""
 org = "The Korean American Family Service Center"
 payment_types = ["NA"]
 program = ""
-tags = []
+tags = ["Confidential Location"]
 telehealth = "Yes"
 website = "https://kafsc.org/counseling"
 [[locations]]
