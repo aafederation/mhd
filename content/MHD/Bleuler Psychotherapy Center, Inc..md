@@ -42,11 +42,3 @@ transport_option = "Subway"
 **Bleuler Psychotherapy Center, Inc.**
 
 Outpatient behavioral health organization offering mental health and substance use treatment as well as medication management.
-
-P: 718-275-6010
-
-A: 104-70 Queens Blvd Forest Hills
-
-M-F: 8 am- 6 pm
-
-Sat: 8 am- 10 pm
