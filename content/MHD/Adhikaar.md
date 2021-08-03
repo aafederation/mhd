@@ -22,11 +22,11 @@ new_clients = "No"
 non_clinical_services = ["Peer support groups", "Know Your Rights workshops", "Family support", "ESL classes", "Case management", "Advocacy"]
 parking = "No"
 phone_number = ""
-psychotherapy = false
-psychotherapy_specialties = []
+psychotherapy = true
+psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Divorce and separation", "Depression", "Caregiver stress and support", "Alcohol abuse"]
 psychotherapy_types = []
 services = ["Referrals to clinical services "]
-staff_gender = []
+staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 [[locations.hours_of_operation]]
 day_hours = "10 AM - 6 PM"
 [[locations.public_transportation]]
