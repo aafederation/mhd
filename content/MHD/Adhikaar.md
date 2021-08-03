@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
 client_requirements = []
 credentials = ""
-draft = true
 email = "das.pabitra@adhikaar.org or sandhya@adhikaar.org"
 highlight = false
 image = ""
