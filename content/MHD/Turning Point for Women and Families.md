@@ -9,7 +9,7 @@ image = ""
 org = "Turning Point for Women and Families"
 payment_types = ["NA"]
 program = ""
-tags = []
+tags = ["Confidential Location"]
 telehealth = "Not applicable"
 website = "https://tpny.org/services/"
 [[locations]]
