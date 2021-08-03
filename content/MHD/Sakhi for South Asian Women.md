@@ -9,7 +9,7 @@ image = ""
 org = "Sakhi for South Asian Women"
 payment_types = ["NA"]
 program = ""
-tags = []
+tags = ["Confidential Location"]
 telehealth = "Yes"
 website = "https://www.sakhi.org/mental-health-program/"
 [[locations]]
