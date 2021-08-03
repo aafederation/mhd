@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
 client_requirements = []
 credentials = ""
-draft = true
 email = ""
 highlight = false
 image = ""
@@ -34,9 +33,3 @@ transport_option = "Subway"
 
 +++
 **Apicha Community Health Center**
-
-P: (212) 334-6029
-
-A: 400 Broadway
-
-M-F: 9 am-5 pm
