@@ -9,7 +9,7 @@ image = ""
 org = "API Rainbow Parents of PFLAG NYC"
 payment_types = ["NA"]
 program = ""
-tags = []
+tags = ["LGBTQ+"]
 telehealth = "Yes"
 website = "http://www.pflagnyc.org/support/api"
 [[locations]]
