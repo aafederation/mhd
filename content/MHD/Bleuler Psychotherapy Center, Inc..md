@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
 client_requirements = []
 credentials = ""
-draft = true
 email = "Info@bleulerpc.org"
 highlight = false
 image = ""
@@ -39,6 +38,4 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
-**Bleuler Psychotherapy Center, Inc.**
-
 Outpatient behavioral health organization offering mental health and substance use treatment as well as medication management.
