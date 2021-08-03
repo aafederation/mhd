@@ -9,7 +9,7 @@ image = ""
 org = "Korean American Rainbow Parents (KARP)"
 payment_types = ["NA"]
 program = ""
-tags = ["LGBTQ+"]
+tags = ["LGBTQ+", "Online/Virtual"]
 telehealth = "Yes"
 website = "https://www.nqapia.org/wpp/healthandhealing/"
 [[locations]]
