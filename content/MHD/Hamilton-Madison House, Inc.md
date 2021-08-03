@@ -9,7 +9,7 @@ image = ""
 org = "Hamilton-Madison House, Inc"
 payment_types = ["Sliding scale fee for patients without insurance", "Accepts Out of Network Insurances", "UnitedHealthcare", "TRICARE", "Oxford", "Optum", "Medicare", "Medicaid", "Hotel 6", "Cigna", "Beacon Health", "AMERIGROUP", "Aetna", "1199SEIU"]
 program = "Behavioral Health Services"
-tags = []
+tags = ["LGBTQ+"]
 telehealth = "Yes"
 website = "http://www.hamiltonmadisonhouse.org/behavioral-health-services.html"
 [[locations]]

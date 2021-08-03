@@ -10,7 +10,7 @@ image = ""
 org = "Apicha Community Health Center"
 payment_types = ["Sliding scale fee for patients without insurance", "Any insurance"]
 program = "Clinic"
-tags = []
+tags = ["LGBTQ+"]
 telehealth = "Yes"
 website = "https://www.apicha.org/en/services-covid19"
 [[locations]]

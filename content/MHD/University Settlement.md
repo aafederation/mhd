@@ -9,7 +9,7 @@ image = ""
 org = "University Settlement"
 payment_types = ["Sliding scale fee for patients without insurance", "Emblem", "Fidelis", "GHI", "HealthFirst", "HIP", "MetroPlus", "VNS Choice Medicare", "Medicare", "Medicaid", "Aetna"]
 program = "Families Thriving"
-tags = []
+tags = ["LGBTQ+"]
 telehealth = "Yes"
 website = "https://www.universitysettlement.org/programs/mental-health-wellness/families-thriving/"
 [[locations]]

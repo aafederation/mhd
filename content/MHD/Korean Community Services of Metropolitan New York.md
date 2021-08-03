@@ -9,7 +9,7 @@ image = ""
 org = "Korean Community Services of Metropolitan New York"
 payment_types = ["Sliding scale fee for patients without insurance", "UnitedHealthcare", "Oxford", "Optum", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Aetna"]
 program = "KCS Mental Health Clinic "
-tags = []
+tags = ["LGBTQ+"]
 telehealth = "Yes"
 website = "https://www.kcsny.org/wellness/mental-health/"
 [[locations]]
