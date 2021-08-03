@@ -10,7 +10,7 @@ image = ""
 org = "Bleuler Psychotherapy Center, Inc. "
 payment_types = ["Sliding scale fee for patients without insurance", "UnitedHealthcare", "Oxford", "Optum", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Beacon Health", "AmeriHealth", "AMERIGROUP", "Aetna", "1199SEIU"]
 program = ""
-tags = []
+tags = ["LGBTQ+"]
 telehealth = "Yes"
 website = "https://www.bleulerpc.org/"
 [[locations]]
