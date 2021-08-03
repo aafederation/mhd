@@ -32,4 +32,3 @@ day_hours = "Monday-Friday 9 am-5 pm"
 transport_option = "Subway"
 
 +++
-**Apicha Community Health Center**
