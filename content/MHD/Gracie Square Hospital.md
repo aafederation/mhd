@@ -9,7 +9,7 @@ image = ""
 org = "Gracie Square Hospital"
 payment_types = ["UnitedHealthcare", "Oxford", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Aetna"]
 program = "Asian Psychiatry Program"
-tags = ["hospital"]
+tags = ["LGBTQ+", "Hospital"]
 telehealth = "No"
 website = "https://www.nygsh.org/asian-psychiatry.html"
 [[locations]]
