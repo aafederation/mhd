@@ -32,6 +32,4 @@ day_hours = "10 AM - 6 PM"
 transport_option = "Subway: 7, E, F, M, R"
 
 +++
-**Adhikaar**
-
 Adhikaar is to Promote human rights and social justice for all. We organize Nepali speaking community ( People from Nepal, Bhutan, India, Burma and Tebetian who speaks Nepali) Our main purpose is Immigration Rights, Worker Rights, Affordable health access and language justice but we provide services and organizes beyond our programs based on Community needs.
