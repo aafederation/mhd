@@ -19,8 +19,7 @@
 			margin-right: get-size("500");
 			margin-bottom: 0;
 
-			position: sticky;
-			position: -webkit-sticky;
+			position: static;
 			top: 1em;
 			align-self: flex-start;
 		}
