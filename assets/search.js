@@ -2,6 +2,8 @@
 
 {{ $searchDataFile := printf "%s.search-data.js" .Language.Lang }}
 {{ $searchData := resources.Get "search-data.js" | resources.ExecuteAsTemplate $searchDataFile . | resources.Minify | resources.Fingerprint }}
+{{ $defaultLatLng := site.Params.defaultLatLng }}
+
 
 (function () {
 	const idForFilterResults = "#mhd-tiles-search-result";
@@ -265,8 +267,13 @@
 			window.name="parent";
 			window.open(myPage.href);
 		};
-		h3.onclick = onClickGoToMap(myPage.id);
-		directions.onclick=function() {window.open("https://www.google.com/maps/dir/?api=1&destination="+ myPage.feature.properties.mappingAddress);};
+		if (myPage.location.latLng) {
+			h3.onclick = onClickGoToMap(myPage.id);
+			directions.onclick=function() {window.open("https://www.google.com/maps/dir/?api=1&destination="+ myPage.feature.properties.mappingAddress);};
+		} else {
+			directions.remove();
+			h3.setAttribute("data-variant", "disabled");
+		}
 
 		return clone;
 	}
@@ -291,11 +298,11 @@
 	 * currently showing in the results
    */
 	 function showMap() {
-	 	const aafCoords = [-73.91511627368108, 40.69551604585044];
+	 	const aafCoords = [-73.91511627368108, 40.69551604585044]; // Coords to show maximum service providers
 
 		map = new mapboxgl.Map({
 			container: "map",
-			center: aafCoords, // FullStack coordinates
+			center: aafCoords,
 			zoom: 10, // starting zoom
 			style: "mapbox://styles/mapbox/streets-v11", // mapbox has different styles
 		});
@@ -328,6 +335,9 @@
 	  }
 	  const markerEl = document.createElement('div');
 		markerEl.className = 'marker';
+		if (feature.properties.showFeature === false) {
+			markerEl.classList.add('hide-map');
+		}
 		markerEl.id = 'marker-' + feature.properties.id;
 	  markerEl.style.backgroundImage = `url(${iconURLs[type]})`;
 		markerEl.onclick = onClickGoToMap(feature.properties.id);
@@ -343,9 +353,13 @@
    * from the page parameter
    */
   function makeFeature(page) {
-		let coords = ["0","0"];
+		let coords = '{{ $defaultLatLng }}';
+		let showFeature = true;
 		if(page.location.latLng) {
-		coords = page.location.latLng.split(',');
+			coords = page.location.latLng.split(',');
+		} else {
+			coords = coords.split(',');
+			showFeature = false;
 		}
 		
 		const feature = {
@@ -362,7 +376,8 @@
         "title": page.title,
         "href": page.href,
         "address": page.location.address,
-				"mappingAddress": page.title + "+" + page.location.address + "+" + page.borough
+				"mappingAddress": page.title + "+" + page.location.address + "+" + page.borough,
+				 showFeature
       }
     }
 

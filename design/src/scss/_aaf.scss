@@ -80,3 +80,7 @@ header {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
+// hide service providers with no longitude and latitude
+.hide-map {
+	display: none;
+}

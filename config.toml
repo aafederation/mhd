@@ -12,6 +12,7 @@ pygmentsUseClasses = true
   author = "Pointy Far"
   mainSections = ["wonderland", "lorem", "looking-glass", "grimm"]
 	forestryTemplate = "service-provider"
+	defaultLatLng = "40.704938, -74.006006"
 
 [taxonomies]
   category = "categories"

@@ -1,4 +1,19 @@
-{{ $mappingAddress := print .org.org "+" .location.address "+" (index .location.boroughs 0) }}
+{{ $borough := index .location.boroughs 0 }}
+{{ $showPlace := true }}
+{{ $latLng := "" }}
+{{ $mappingAddress := "" }}
+
+{{ if ne .location.latLng "" }}
+	{{ $latLng = .location.latLng }}
+	{{ if or (in (slice "Citywide" "") $borough) (eq $borough nil) }}
+		{{ $borough = "New York City" }}
+	{{ end }}
+	{{ $mappingAddress = print .org.org "," .location.address "," $borough "+NY" }}
+	{{ $mappingAddress = replace $mappingAddress " " "+" }}
+{{ else }}
+	{{ $latLng = site.Params.defaultLatLng }}
+	{{ $showPlace = false }}
+{{ end }}
 
 <div class="[ wrapper ] [ bg-primary pad-top-500 color-white ]">
 	<h1>{{ .org.org }}</h1>
@@ -42,20 +57,26 @@
 				width="100%"
 				height="300px"
 				style="border:0"
-				src="https://www.google.com/maps/embed/v1/place?q={{ $mappingAddress }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=12&"
+				{{ if eq $showPlace true }}
+					src="https://www.google.com/maps/embed/v1/place?q={{ $mappingAddress }}&center={{ $latLng }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=12&"
+				{{ else }}
+					src="https://www.google.com/maps/embed/v1/view?center={{ $latLng }}&key=AIzaSyBq3mhYmZFPmQqp0q0koUSMbTtA49zjwQY&zoom=11&"
+				{{ end }}
 				allowfullscreen
 			></iframe>
-			<div class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300">
-				<a
-					href="https://www.google.com/maps/dir/?api=1&destination={{ $mappingAddress }}"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="link-pointer color-white bg-primary no-decoration"
-				>
-					<span class="font_icons">&#xe03c;</span>
-					<span class="weight-bold">Get directions</span>
-				</a>
-			</div>
+			{{ if eq $showPlace true }}
+				<div class="pad-left-300 pad-right-300 pad-top-300 pad-bottom-300">
+					<a
+						href="https://www.google.com/maps/dir/?api=1&destination={{ $latLng }}"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="link-pointer color-white bg-primary no-decoration"
+					>
+						<span class="font_icons">&#xe03c;</span>
+						<span class="weight-bold">Get directions</span>
+					</a>
+				</div>
+			{{ end }}
 		</div>
 		<div class="[ bg-white box-shadow-glow ]">
 			<h4
