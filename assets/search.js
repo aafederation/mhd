@@ -248,6 +248,7 @@
 			payments.textContent = myPage.payment.trim().split(' ')
 				.map(pay => {
 					pay = pay.replaceAll('-', ' ');
+					if (pay === 'na') return 'NA';
 					return pay.charAt(0).toUpperCase() + pay.slice(1);
 				})
 				.join(', ');
