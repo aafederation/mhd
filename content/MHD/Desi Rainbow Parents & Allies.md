@@ -9,7 +9,7 @@ image = ""
 org = "Desi Rainbow Parents & Allies"
 payment_types = ["NA"]
 program = ""
-tags = ["LGBTQ+"]
+tags = ["LGBTQ+", "Online"]
 telehealth = "No"
 website = "https://www.desirainbow.org/programs"
 [[locations]]
