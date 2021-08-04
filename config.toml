@@ -27,3 +27,7 @@ pygmentsUseClasses = true
   [[module.mounts]]
     source = ".forestry/front_matter/templates"
     target = "data"
+
+[markup.goldmark.renderer]
+	unsafe = true
+	hardWraps = true
