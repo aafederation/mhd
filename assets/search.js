@@ -218,6 +218,7 @@
 		let moreInfo = clone.querySelector("h4");
 		let address = clone.querySelector(".address");
 		let services = clone.querySelector(".services");
+		let clinicalServicesRow = clone.querySelector("#clinical-services-row");
 		let nonClinicalServices = clone.querySelector(".non-clinical-services");
 		let nonClinicalServicesRow = clone.querySelector("#non-clinical-services-row");
 		let phone = clone.querySelector(".phone");
@@ -228,9 +229,9 @@
 		h3.textContent = myPage.title;
 		address.textContent = myPage.location.address;
 
-		if (myPage.location.services) {
+		if (myPage.location.services.length > 0) {
 			services.textContent = myPage.location.services.join(", ");
-		}
+		} else clinicalServicesRow.remove();
 		if (myPage.location.non_clinical_services) {
 			nonClinicalServices.textContent = myPage.location.non_clinical_services.join(", ");
 		} else nonClinicalServicesRow.remove();
