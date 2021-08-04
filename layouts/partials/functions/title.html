@@ -4,8 +4,8 @@
 -->
 {{ $title := "" }}
 
-{{ if .Title }}
-  {{ $title = .Title }}
+{{ if .Params.org }}
+  {{ $title = .Params.org }}
 {{ else if and .IsSection .File }}
   {{ $title = path.Base .File.Dir | humanize | title }}
 {{ else if and .IsPage .File }}
