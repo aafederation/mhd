@@ -24,11 +24,12 @@ phone_number = "718-492-0409"
 psychotherapy = true
 psychotherapy_specialties = ["Stress", "Depression", "Anxiety"]
 psychotherapy_types = []
-public_transportation = []
 services = ["Psychotherapy"]
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 [[locations.hours_of_operation]]
-day_hours = "9 am - 5 pm "
+day_hours = "Monday - Tuesday: 9 am - 5 pm "
+[[locations.public_transportation]]
+transport_option = "Subway: D train to 9th Ave. Station"
 
 +++
 CPC is a social services organization that creates positive social change. We empower Asian American, immigrant, and low-income communities in New York City by ensuring they have equitable access to the resources and opportunities needed to thrive.
