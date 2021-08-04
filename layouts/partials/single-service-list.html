@@ -10,7 +10,7 @@
 				{{ if eq ( printf "%T" . ) "string" }}
 					<li>{{ . }}</li>
 				{{ else }}
-					{{ range . }}
+					{{ range sort . }}
 						{{ if reflect.IsMap . }}
 							{{ range $key, $value := . }}
 								<li>{{ $value }}</li>
