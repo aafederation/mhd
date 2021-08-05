@@ -218,33 +218,40 @@
 		let mainDiv = clone.querySelector(".tf-filter-item");
 		let h3 = clone.querySelector("h3");
 		let moreInfo = clone.querySelector("h4");
+		let addressRow = clone.querySelector("#address-row");
 		let address = clone.querySelector(".address");
 		let services = clone.querySelector(".services");
 		let clinicalServicesRow = clone.querySelector("#clinical-services-row");
 		let nonClinicalServices = clone.querySelector(".non-clinical-services");
 		let nonClinicalServicesRow = clone.querySelector("#non-clinical-services-row");
+		let phoneRow = clone.querySelector("#phone-row");
 		let phone = clone.querySelector(".phone");
+		let websiteRow = clone.querySelector("#website-row");
 		let website = clone.querySelector(".website");
+		let paymentsRow = clone.querySelector("#payments-row");
 		let payments = clone.querySelector(".payments");
 		let directions = clone.querySelector(".directions");
 
 		h3.textContent = myPage.title;
-		address.textContent = myPage.location.address;
+		
+		if (myPage.location.address) {
+			address.textContent = myPage.location.address;
+		} else addressRow.remove();
 
 		if (myPage.location.services.length > 0) {
 			services.textContent = myPage.location.services.join(", ");
 		} else clinicalServicesRow.remove();
-		if (myPage.location.non_clinical_services) {
+		if (myPage.location.non_clinical_services.length > 0) {
 			nonClinicalServices.textContent = myPage.location.non_clinical_services.join(", ");
 		} else nonClinicalServicesRow.remove();
 		if (myPage.location.phone_number) {
 			phone.textContent = myPage.location.phone_number;
-		}
+		} else phoneRow.remove();
 		if (myPage.website) {
 			website.textContent = myPage.website;
-			website.onclick=function() {window.open(myPage.website);};
-		}
-		if (myPage.payment) {
+			website.onclick = function () { window.open(myPage.website); };
+		} else websiteRow.remove();
+		if (myPage.payment !== 'no-payment') {
 			payments.textContent = myPage.payment.trim().split(' ')
 				.map(pay => {
 					pay = pay.replaceAll('-', ' ');
@@ -252,7 +259,7 @@
 					return pay.charAt(0).toUpperCase() + pay.slice(1);
 				})
 				.join(', ');
-		}
+		} else paymentsRow.remove();
 
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;

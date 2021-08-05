@@ -88,12 +88,14 @@
 				class="flow pad-top-300 pad-right-300 pad-bottom-500 pad-left-300"
 				style="--flow-space:0.5rem"
 			>
-				<div class="display-flex">
-					<span class="[ font_icons color-secondary ] [ position-icon ]"
-						>&#xe090;</span
-					>
-					<span>{{ .location.phone_number }}</span>
-				</div>
+				{{ with .location.phone_number }}
+					<div class="display-flex">
+						<span class="[ font_icons color-secondary ] [ position-icon ]"
+							>&#xe090;</span
+						>
+						<span>{{ . }}</span>
+					</div>
+				{{ end }}
 				{{ with .org.email }}
 					<div class="display-flex">
 						<span class="[ font_icons color-secondary ] [ position-icon ]"
@@ -109,18 +111,20 @@
 						</a>
 					</div>
 				{{ end }}
-				<div class="display-flex">
-					<span class="[ font_icons color-secondary ] [ position-icon ]"
-						>&#xe0e3;</span
-					>
-					<a
-						href="{{ if not (hasPrefix (lower .org.website) `http`) }}//{{ .org.website }}{{ else }}{{ .org.website }}{{ end }}"
-						class="link-pointer handle-long-url"
-						data-variant="invert"
-						target="_blank"
-						>{{ .org.website }}
-					</a>
-				</div>
+				{{ with .org.website }}
+					<div class="display-flex">
+						<span class="[ font_icons color-secondary ] [ position-icon ]"
+							>&#xe0e3;</span
+						>
+						<a
+							href="{{ if not (hasPrefix (lower .) `http`) }}//{{ . }}{{ else }}{{ . }}{{ end }}"
+							class="link-pointer handle-long-url"
+							data-variant="invert"
+							target="_blank"
+							>{{ . }}
+						</a>
+					</div>
+				{{ end }}
 				{{ with .location.hours_of_operation }}
 					<div class="display-flex">
 						<span
