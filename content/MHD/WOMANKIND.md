@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["All"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "info@iamwk.org"
 highlight = false
@@ -31,4 +31,5 @@ staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 day_hours = "9 am - 7 pm"
 
 +++
+
 Womankind brings critical resources and deep cultural humility to help survivors of all ages find refuge, recovery, and renewal from domestic violence, human trafficking, and sexual violence. Through our programs, we offer a wide variety of services in 18+ Asian languages and dialects, including: a toll-free 24/7 multilingual helpline, safe and confidential emergency housing, culturally-informed counseling, family law and immigration legal assistance, wellness activities, creative arts therapy, support groups, and economic empowerment workshops. We are an expert in serving Asian communities, yet our services are valuable and available to all. Whether in our services or in our increasing advocacy and policy work, Womankind first centers the survivor by uplifting them to control their own lives and narratives.

@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "All"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "lgiuliano@greenwichhouse.org"
 highlight = false
@@ -34,4 +34,5 @@ transport_option = "Subway: A, E, C, B, D, M, F, 1"
 transport_option = "Bus: M14"
 
 +++
+
 Adult and geriatric mental health services - psychotherapy services with medication management as supplemental.

@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = ""
 highlight = false
@@ -34,4 +34,5 @@ transport_option = "Bus: M22"
 transport_option = "Subway: F"
 
 +++
+
 Gouverneur Health is located in Lower Manhattan and is one of the city hospitals as part of the Health and Hospital Corporation.

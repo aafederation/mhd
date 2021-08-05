@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "info@tpny.org"
 highlight = false
@@ -34,4 +34,5 @@ transport_option = "Bus"
 transport_option = "Subway: E,F"
 
 +++
+
 Turning Point is the first non-profit in NYC to directly address domestic violence in the Muslim community. It is also the first to offer a youth program to Muslim girls, address bullying/Islamophobia and work with senior Muslim women, including elder abuse.

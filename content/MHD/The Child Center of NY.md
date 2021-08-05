@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "Toddlers and Preschoolers (0 to 5)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = " kellyperez@childcenterny.org"
 highlight = false
@@ -59,4 +59,5 @@ transport_option = "Bus: Q53, Q58 and Q60"
 transport_option = "Subway: R,V to Grand Avenue"
 
 +++
+
 Culturally competent and multi-lingual outpatient counseling for mental health and substance abuse issues.

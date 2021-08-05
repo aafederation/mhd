@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["All"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "contact@kafsc.org"
 highlight = false
@@ -36,4 +36,5 @@ transport_option = "Bus: Q65"
 transport_option = "Subway: 7"
 
 +++
+
 KAFSC provides social services to those who are affected by domestic violence, sexual assault, and child abuse. Our primary target population is low-income immigrants. All our services and programs are provided in a culturally sensitive and linguistically competent manner.

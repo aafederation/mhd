@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "whung@henrystreet.org or gireland@henrystreet.org"
 highlight = false
@@ -34,4 +34,5 @@ transport_option = "Subway: F, J, M, Z"
 transport_option = "Bus: M22, M9, M14A"
 
 +++
+
 Outpatient and PROS programs. Bilingual individual/family/group therapies, psychiatric medication management and case management

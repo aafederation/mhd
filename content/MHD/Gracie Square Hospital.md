@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "dvd9001@nyp.org"
 highlight = false
@@ -34,4 +34,5 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
+
 Gracie Square Hospital is a psychiatric hospital affiliated with New York-Presbyterian Hospital System, providing specialized inpatient services including our Asian Psychiatry Program tailored for the Asian community.

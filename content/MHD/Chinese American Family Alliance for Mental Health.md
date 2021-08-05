@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "info@cafamh.org"
 highlight = false
@@ -31,4 +31,5 @@ staff_gender = ["Male", "Female"]
 day_hours = "Monday - Friday: 9 am - 5 pm"
 
 +++
+
 Chinese-American Family Alliance for Mental Health (CAFAMH) seeks to promote self-empowerment and mutual support among Chinese-American caregivers of mentally ill individuals by providing a safe space for family support group meetings. CAFAMH aims to educate and raise community awareness of mental illness, improve the quality of services necessary for mental health patients, family members, and caregivers.

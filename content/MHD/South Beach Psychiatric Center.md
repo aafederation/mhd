@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = []
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = ""
 highlight = false
@@ -32,4 +32,5 @@ day_hours = "Inpatient: 24/7"
 transport_option = "Bus: S51 and S52 "
 
 +++
+
 The State Hospital is focused on Intermediate Care. We do not do direct admissions at inpatient as we service pts who have been at municipal hospitals like HHC, Lutheran, Maimonides, etc when their patient needs further hospitalization for further stabilization or language specificity. SBPC inpatient primarily serve Chinese dialects, but Ft Hamilton OPD does have some limited capacity for outpatient Korean language patient as well as Chinese. Bensonhurst OPD serves some Chinese speaking patient who live in their own catchment area.

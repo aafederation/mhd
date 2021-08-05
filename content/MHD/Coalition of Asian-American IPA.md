@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 draft = true
 email = "info@caipa.com"
@@ -33,4 +33,5 @@ day_hours = "Monday-Friday 9 am-6 pm"
 transport_option = "Subway: N,R,Q, 6"
 
 +++
+
 We are an independent practitioners' organization.

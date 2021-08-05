@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "joyluangphaxay@hmhonline.org"
 highlight = false
@@ -34,5 +34,6 @@ day_hours = "Monday-Friday: 9 am-7 pm"
 transport_option = "Subway: F train"
 
 +++
+
 With more than 120 years of dedicated service, our multilingual, multicultural staff has the professional expertise and personal experience to serve the increasingly diverse residents of the Lower East Side as well as neighborhoods throughout the five boroughs.<br>
 The Behavioral Health Services Department has developed a program model that understands and incorporates the strengths of individual cultures and addresses the stigma related to mental illness.

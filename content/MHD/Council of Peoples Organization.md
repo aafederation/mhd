@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "amehdi@copo.org"
 highlight = false
@@ -34,4 +34,5 @@ transport_option = "Bus: B-68"
 transport_option = "Subway: B, Q"
 
 +++
+
 COPO is a not-for-profit agency considered a one-stop shop for social services. Even though we are located in Midwood Brooklyn, we serve clients citywide.

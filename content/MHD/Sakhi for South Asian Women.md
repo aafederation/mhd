@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 draft = true
 email = "pooja.raj@sakhi.org"
@@ -33,4 +33,5 @@ day_hours = "Monday - Friday: 10 am - 5 pm"
 transport_option = "Subway: N, W, R, 4, 5, 6, "
 
 +++
+
 We provide direct services to South Asian survivors of trauma.

@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Youth and Teenagers (14 to 19)", "Adults (19 to 64)", "Preteens and Tweens (11 to 13)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = ""
 highlight = false
@@ -36,4 +36,5 @@ transport_option = "Bus"
 transport_option = "Subway: 1,2,3,4,5,6 & a,c,e,f,g"
 
 +++
+
 AAFSC's mission is to empower immigrants and refugees with the tools they need to successfully acclimate to the world around them and become active participants in their communities. We operate under 4 priority areas: Communicate, Promote, Prevent, and Get Ready. This allows us to be holistic in our work.

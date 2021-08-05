@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-client_requirements = []
+client_requirements = ""
 credentials = ""
 email = "info@homecrest.org"
 highlight = false
@@ -32,4 +32,5 @@ day_hours = "Monday-Friday: 8:30 am-4:00 pm"
 transport_option = "Avenue U Train Station"
 
 +++
+
 To improve the quality of life for Asian immigrants, seniors**,** and those who are otherwise disadvantaged to be more self-sufficient in society.
