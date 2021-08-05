@@ -27,12 +27,11 @@ psychotherapy_types = ["Ego Supportive", "Supportive therapy", "Trauma-informed"
 services = ["Substance Abuse Services", "Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
 [[locations.hours_of_operation]]
-day_hours = "9am-5pm"
+day_hours = "9 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: A, E, C, B, D, M, F, 1"
 [[locations.public_transportation]]
 transport_option = "Bus: M14"
 
 +++
-
 Adult and geriatric mental health services - psychotherapy services with medication management as supplemental.
