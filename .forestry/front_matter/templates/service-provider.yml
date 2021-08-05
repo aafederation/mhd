@@ -71,8 +71,9 @@ fields:
   label: Tags
   description: Any other associations for the organization
 - name: client_requirements
-  type: tag_list
-  default: []
+  type: text
+  config:
+    required: false
   label: Client requirements
   description: Does your organization have any special requirements for clients (be
     of a certain age, meet a certain income level, live in a certain catchment area,
