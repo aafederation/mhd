@@ -49,11 +49,11 @@ public_transportation = []
 services = ["Behavioral services", "Mental health services"]
 staff_gender = []
 [[locations.hours_of_operation]]
-day_hours = "M, Tu, F, Sa, 9 am-6 pm"
+day_hours = "Monday, Tuesday, Friday, Saturday: 9 am-6 pm"
 [[locations.hours_of_operation]]
-day_hours = "W, 10 am-6 pm"
+day_hours = "Wednesday: 10 am-6 pm"
 [[locations.hours_of_operation]]
-day_hours = "Th, 11 am-6 pm"
+day_hours = "Thursday: 11 am-6 pm"
 [[locations]]
 address = "137-43 45th Ave"
 boroughs = ["Queens"]
