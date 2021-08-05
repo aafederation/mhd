@@ -29,6 +29,15 @@ var htfConfig = {
 			countPrefix: "cservice-",
 		},
 		{
+			name: "nonClinicalService",
+			prefix: "nonClinicalService-",
+			buttonClass: "nonClinicalService-button",
+			allSelector: "#selectAllnonClinicalService",
+			attrName: "data-nonClinicalService",
+			selectedPrefix: "snonClinicalService-",
+			countPrefix: "cnonClinicalService-",
+		},
+		{
 			name: "specialty",
 			prefix: "specialty-",
 			buttonClass: "specialty-button",

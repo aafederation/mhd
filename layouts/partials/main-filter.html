@@ -3,6 +3,7 @@
 <!--DATA SOURCES-->
 {{ $boroughs := $.Site.Data.Boroughs }}
 {{ $clinical_services := (index $.Site.Data "Mental health services").Items }}
+{{ $non_clinical_services := (index $.Site.Data "Non clinical services").Items }}
 {{ $psychotherapy_specialties := (index $.Site.Data "Psychotherapy specialties").Items }}
 {{ $psychotherapy_types := (index $.Site.Data "Psychotherapy types").Items }}
 {{ $languages := $.Site.Data.Languages.Items }}
@@ -22,7 +23,8 @@
 
 {{ end }}
 
-{{ partial "filter-data.html" (dict "title" "service" "filter" "service" "allContent" $clinical_services ) }}
+{{ partial "filter-data.html" (dict "title" "clinical service" "filter" "service" "allContent" $clinical_services ) }}
+{{ partial "filter-data.html" (dict "title" "non-clinical service" "filter" "nonClinicalService" "allContent" $non_clinical_services ) }}
 <div class="display-none" id="psychotherapy-options">
 	{{ partial "filter-data.html" (dict "title" "psychotherapy specialty" "filter" "specialty" "allContent" $psychotherapy_specialties ) }}
 	{{ partial "filter-data.html" (dict "title" "psychotherapy type"  "filter" "type" "allContent" $psychotherapy_types ) }}
