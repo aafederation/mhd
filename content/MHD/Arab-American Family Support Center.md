@@ -27,14 +27,13 @@ psychotherapy_types = ["Trauma-informed"]
 services = ["Psychotherapy"]
 staff_gender = ["Female"]
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday 9 am-6 pm"
+day_hours = "Monday-Friday: 9 am-6 pm"
 [[locations.public_transportation]]
 transport_option = "LIRR: Atlantic Ave/Barclays"
 [[locations.public_transportation]]
 transport_option = "Bus"
 [[locations.public_transportation]]
-transport_option = "Subway: 1,2,3,4,5,6 & a,c,e,f,g"
+transport_option = "Subway: 1,2,3,4,5,6,A,C,E,F,G"
 
 +++
-
 AAFSC's mission is to empower immigrants and refugees with the tools they need to successfully acclimate to the world around them and become active participants in their communities. We operate under 4 priority areas: Communicate, Promote, Prevent, and Get Ready. This allows us to be holistic in our work.
