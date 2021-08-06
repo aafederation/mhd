@@ -41,7 +41,7 @@ latLng = "40.73736275419179, -73.88177615816086"
 new_clients = "Yes"
 non_clinical_services = ["Psychoeducation", "Domestic violence counseling"]
 parking = "Street parking"
-phone_number = "718-899-9810 xx2360"
+phone_number = "718-899-9810 x2360"
 psychotherapy = true
 psychotherapy_specialties = ["Trauma/PTSD", "Teen violence", "Suicidal ideation", "Substance abuse", "Stress", "Sexual abuse", "Self-harming", "Self-esteem", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Phobias/fears", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Mood disorders", "Medication management", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Drug abuse", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Caregiver stress and support", "Bipolar disorder", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management", "Alcohol abuse", "Addiction/recovery"]
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Cognitive Behavioral Therapy"]
@@ -59,5 +59,4 @@ transport_option = "Bus: Q53, Q58 and Q60"
 transport_option = "Subway: R,V to Grand Avenue"
 
 +++
-
 Culturally competent and multi-lingual outpatient counseling for mental health and substance abuse issues.
