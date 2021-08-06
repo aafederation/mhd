@@ -27,12 +27,11 @@ psychotherapy_types = []
 services = ["Support Groups"]
 staff_gender = ["Female"]
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday 10 am-6 pm"
+day_hours = "Monday-Friday: 10 am-6 pm"
 [[locations.public_transportation]]
 transport_option = "Bus"
 [[locations.public_transportation]]
 transport_option = "Subway: E,F"
 
 +++
-
 Turning Point is the first non-profit in NYC to directly address domestic violence in the Muslim community. It is also the first to offer a youth program to Muslim girls, address bullying/Islamophobia and work with senior Muslim women, including elder abuse.
