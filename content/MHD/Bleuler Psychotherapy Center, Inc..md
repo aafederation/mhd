@@ -29,7 +29,7 @@ staff_gender = ["Gender-neutral", "Female", "Male"]
 [[locations.hours_of_operation]]
 day_hours = "Saturday: 8 am-6 pm"
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday 8 am-10 pm"
+day_hours = "Monday-Friday: 8 am-10 pm"
 [[locations.public_transportation]]
 transport_option = "Train"
 [[locations.public_transportation]]
@@ -38,5 +38,4 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
-
 Outpatient behavioral health organization offering mental health and substance use treatment as well as medication management.
