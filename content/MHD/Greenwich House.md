@@ -15,7 +15,7 @@ website = "https://www.greenwichhouse.org/senior-services/senior-health-and-cons
 [[locations]]
 address = "27 Barrow Street, 3rd floor, New York, NY, 10014"
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
-languages = ["Chinese", "English"]
+languages = ["English"]
 latLng = "40.73302072109487, -74.00310885279998"
 new_clients = "No"
 non_clinical_services = ["Senior Centers ", "Case Management for Seniors", "After-School", "Music School", "Pottery School"]
@@ -27,7 +27,7 @@ psychotherapy_types = ["Ego Supportive", "Supportive therapy", "Trauma-informed"
 services = ["Substance Abuse Services", "Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
 [[locations.hours_of_operation]]
-day_hours = "9 am - 5 pm"
+day_hours = "Monday-Friday: 9 am - 7 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: A, E, C, B, D, M, F, 1"
 [[locations.public_transportation]]
