@@ -44,6 +44,11 @@ fields:
       path: Items
   label: Payment types (clinical)
   description: Types of payments accepted
+- name: sliding_scale_clinical
+  type: boolean
+  label: Sliding scale (clinical)
+  description: Does the service provider offer sliding scale for clinical services?
+  default: true
 - name: ada_compliant
   type: boolean
   label: ADA compliant
@@ -311,11 +316,6 @@ fields:
       path: Items
   label: Credentials
   description: Licenses or credentials for individuals
-- name: sliding_scale_clinical
-  type: boolean
-  label: Sliding scale (clinical)
-  description: Does the service provider offer sliding scale for clinical services?
-  default: true
 pages:
 - content/MHD/API Rainbow Parents of PFLAG NYC.md
 - content/MHD/Adhikaar.md
