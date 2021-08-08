@@ -42,7 +42,7 @@ fields:
       section: data
       file: data/Payment types.json
       path: Items
-  label: Payments types (clinical)
+  label: Payment types (clinical)
   description: Types of payments accepted
 - name: ada_compliant
   type: boolean
