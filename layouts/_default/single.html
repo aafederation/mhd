@@ -21,11 +21,20 @@
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.psychotherapy_specialties") "items" $location.psychotherapy_specialties) }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.psychotherapy_types") "items" $location.psychotherapy_types) }}
 							{{ end }}
+							{{ with $org.payment_types }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "payment_types") "items" .) }}
+							{{ end }}
+							{{ with $org.sliding_scale_clinical }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "sliding_scale_clinical") "items" .) }}
+							{{ end }}
 							{{ with $location.non_clinical_services }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.non_clinical_services") "items" .) }}
 							{{ end }}
-							{{ with $org.payment_types }}
-								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "payment_types") "items" .) }}
+							{{ with $org.payment_types_non_clinical }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "payment_types_non_clinical") "items" .) }}
+							{{ end }}
+							{{ with $org.sliding_scale_non_clinical }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "sliding_scale_non_clinical") "items" .) }}
 							{{ end }}
 							{{ with $org.telehealth }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "telehealth") "items" .) }}

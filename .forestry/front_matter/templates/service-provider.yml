@@ -49,7 +49,7 @@ fields:
   label: Sliding scale (clinical)
   description: Does the service provider offer sliding scale for clinical services?
   default: true
-- name: payment_types_non-clinical
+- name: payment_types_non_clinical
   type: list
   config:
     use_select: true
