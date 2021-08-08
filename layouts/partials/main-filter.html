@@ -2,14 +2,14 @@
 
 <!--DATA SOURCES-->
 {{ $boroughs := $.Site.Data.Boroughs }}
-{{ $clinical_services := (index $.Site.Data "Mental health services").Items }}
-{{ $non_clinical_services := (index $.Site.Data "Non clinical services").Items }}
-{{ $psychotherapy_specialties := (index $.Site.Data "Psychotherapy specialties").Items }}
-{{ $psychotherapy_types := (index $.Site.Data "Psychotherapy types").Items }}
-{{ $languages := $.Site.Data.Languages.Items }}
+{{ $clinical_services := sort (index $.Site.Data "Mental health services").Items }}
+{{ $non_clinical_services := sort (index $.Site.Data "Non clinical services").Items }}
+{{ $psychotherapy_specialties := sort (index $.Site.Data "Psychotherapy specialties").Items }}
+{{ $psychotherapy_types := sort (index $.Site.Data "Psychotherapy types").Items }}
+{{ $languages := sort $.Site.Data.Languages.Items }}
 <!--TAXONOMY COUNTS-->
-{{ $tags := $.Site.Taxonomies.tags.ByCount }}
-{{ $payments := $.Site.Taxonomies.payment_types.ByCount }}
+{{ $tags := $.Site.Taxonomies.tags.Alphabetical }}
+{{ $payments := $.Site.Taxonomies.payment_types.Alphabetical }}
 
 <!--TAXONOMY NO COUNT VAR-->
 {{ $.Scratch.Set "untagged" 0 }}
@@ -24,11 +24,11 @@
 {{ end }}
 
 {{ partial "filter-data.html" (dict "title" "clinical service" "filter" "service" "allContent" $clinical_services ) }}
-{{ partial "filter-data.html" (dict "title" "non-clinical service" "filter" "nonClinicalService" "allContent" $non_clinical_services ) }}
 <div class="display-none" id="psychotherapy-options">
 	{{ partial "filter-data.html" (dict "title" "psychotherapy specialty" "filter" "specialty" "allContent" $psychotherapy_specialties ) }}
 	{{ partial "filter-data.html" (dict "title" "psychotherapy type"  "filter" "type" "allContent" $psychotherapy_types ) }}
 </div>
+{{ partial "filter-data.html" (dict "title" "non-clinical service" "filter" "nonClinicalService" "allContent" $non_clinical_services ) }}
 {{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags ) }}
 {{ partial "filter-data.html" (dict "title" "borough" "filter" "borough" "allContent" $boroughs ) }}
 {{ partial "filter-data.html" (dict "title" "language" "filter" "language" "allContent" $languages ) }}
