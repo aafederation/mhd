@@ -43,25 +43,25 @@ fields:
       file: data/Payment types.json
       path: Items
   label: Payment types (clinical)
-  description: Types of payments accepted
+  description: Types of payments accepted for clinical services
 - name: sliding_scale_clinical
   type: boolean
   label: Sliding scale (clinical)
   description: Does the service provider offer sliding scale for clinical services?
   default: true
-- name: payment_types_non_clinical
-  type: select
-  default: ''
+- name: payment_types_non-clinical
+  type: list
   config:
-    required: false
-    options: []
+    use_select: true
+    min: 
+    max: 
     source:
       type: documents
       section: data
       file: data/Payment types non-clinical.json
       path: Items
-  label: Payment types (non clinical)
-  description: Types of payments accepted for non clinical service
+  description: Types of payments accepted for non clinical services
+  label: Payment types (non-clinical)
 - name: sliding_scale_non_clinical
   type: boolean
   label: Sliding scale (non-clinical)
