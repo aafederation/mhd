@@ -12,7 +12,7 @@ payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = ["LGBTQ+", "Online"]
+tags = ["LGBTQ+", "Online", "Organization"]
 telehealth = "Yes"
 website = "https://www.nqapia.org/wpp/healthandhealing/"
 [[locations]]
