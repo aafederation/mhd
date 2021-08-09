@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Greenwich House"
 payment_types = ["UnitedHealthcare", "Medicare", "Medicaid", "Humana", "Blue Cross/Blue Shield", "Aetna"]
+payment_types_non_clinical = []
 program = "Senior Health and Consultation Center"
-tags = ["LGBTQ+"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.greenwichhouse.org/senior-services/senior-health-and-consultation-center/"
 [[locations]]
