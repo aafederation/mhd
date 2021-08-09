@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Korean American Rainbow Parents (KARP)"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = ["LGBTQ+", "Online/Virtual"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["LGBTQ+", "Online"]
 telehealth = "Yes"
 website = "https://www.nqapia.org/wpp/healthandhealing/"
 [[locations]]
@@ -30,5 +33,4 @@ services = ["Support Groups"]
 staff_gender = []
 
 +++
-
 Korean American Rainbow Parents (KARP, 성소수자 자녀를 사랑하는 미주 한인 무지개 부모 모임) aims to build compassion on queer issues within the Korean American and Asian American communities, on behalf of our LGBTQ loved ones. We offer peer support and resources relating to LGBTQ topics via phone call, email**,** and in-person gathering.
