@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Council of Peoples Organization "
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "Yes"
 website = "https://copo.org/our-programs/"
 [[locations]]
@@ -34,5 +37,4 @@ transport_option = "Bus: B-68"
 transport_option = "Subway: B, Q"
 
 +++
-
 COPO is a not-for-profit agency considered a one-stop shop for social services. Even though we are located in Midwood Brooklyn, we serve clients citywide.
