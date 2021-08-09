@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Homecrest Community Services Inc."
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "No"
 website = "https://www.homecrest.org/senior-services"
 [[locations]]
@@ -32,5 +35,4 @@ day_hours = "Monday-Friday: 8:30 am-4:00 pm"
 transport_option = "Avenue U Train Station"
 
 +++
-
 To improve the quality of life for Asian immigrants, seniors**,** and those who are otherwise disadvantaged to be more self-sufficient in society.
