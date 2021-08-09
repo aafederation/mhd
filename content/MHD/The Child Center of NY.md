@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "The Child Center of NY"
 payment_types = ["UnitedHealthcare", "Blue Cross/Blue Shield", "Beacon Health", "AMERIGROUP", "1199SEIU", "Third-party insurance", "Medicaid", "Sliding scale fee for patients without insurance"]
+payment_types_non_clinical = []
 program = "Asian Outreach Program - Elmhurst Clinic"
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "Yes"
 website = "https://childcenterny.org/asian-outreach-program/"
 [[locations]]
