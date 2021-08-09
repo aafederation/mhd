@@ -8,8 +8,11 @@ highlight = true
 image = ""
 org = "Charles B. Wang Community Health Center"
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
+payment_types_non_clinical = []
 program = ""
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "Not applicable"
 website = "www.cbwchc.org"
 [[locations]]
