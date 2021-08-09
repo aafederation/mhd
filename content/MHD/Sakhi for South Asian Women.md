@@ -9,8 +9,11 @@ highlight = false
 image = ""
 org = "Sakhi for South Asian Women"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = ["Confidential Location"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
 website = "https://www.sakhi.org/mental-health-program/"
 [[locations]]
@@ -33,5 +36,4 @@ day_hours = "Monday - Friday: 10 am - 5 pm"
 transport_option = "Subway: N, W, R, 4, 5, 6, "
 
 +++
-
 We provide direct services to South Asian survivors of trauma.
