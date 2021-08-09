@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Hamilton-Madison House, Inc"
 payment_types = ["Sliding scale fee for patients without insurance", "Accepts Out of Network Insurances", "UnitedHealthcare", "TRICARE", "Oxford", "Optum", "Medicare", "Medicaid", "Hotel 6", "Cigna", "Beacon Health", "AMERIGROUP", "Aetna", "1199SEIU"]
+payment_types_non_clinical = []
 program = "Behavioral Health Services"
-tags = ["LGBTQ+"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "http://www.hamiltonmadisonhouse.org/behavioral-health-services.html"
 [[locations]]
@@ -34,6 +37,5 @@ day_hours = "Monday-Friday: 9 am-7 pm"
 transport_option = "Subway: F train"
 
 +++
-
 With more than 120 years of dedicated service, our multilingual, multicultural staff has the professional expertise and personal experience to serve the increasingly diverse residents of the Lower East Side as well as neighborhoods throughout the five boroughs.<br>
 The Behavioral Health Services Department has developed a program model that understands and incorporates the strengths of individual cultures and addresses the stigma related to mental illness.
