@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Henry Street Settlement"
 payment_types = ["Medicare", "Medicaid"]
+payment_types_non_clinical = []
 program = "Community Consultation Center"
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.henrystreet.org/programs/primary-behaviorial-health/mental-health-services/asian-bi-cultural-mental-health-services/"
 [[locations]]
@@ -34,5 +37,4 @@ transport_option = "Subway: F, J, M, Z"
 transport_option = "Bus: M22, M9, M14A"
 
 +++
-
 Outpatient and PROS programs. Bilingual individual/family/group therapies, psychiatric medication management and case management
