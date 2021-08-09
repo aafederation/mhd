@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "The Korean American Family Service Center"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = ["Confidential Location"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
 website = "https://kafsc.org/counseling"
 [[locations]]
@@ -36,5 +39,4 @@ transport_option = "Bus: Q65"
 transport_option = "Subway: 7"
 
 +++
-
 KAFSC provides social services to those who are affected by domestic violence, sexual assault, and child abuse. Our primary target population is low-income immigrants. All our services and programs are provided in a culturally sensitive and linguistically competent manner.
