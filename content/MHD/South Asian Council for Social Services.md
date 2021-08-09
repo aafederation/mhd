@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "South Asian Council for Social Services"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.sacssny.org/health-services---other-benefits.html"
 [[locations]]
