@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "API Rainbow Parents of PFLAG NYC"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = ["LGBTQ+"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "http://www.pflagnyc.org/support/api"
 [[locations]]
@@ -34,5 +37,4 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
-
 API Rainbow Parents of PFLAG NYC, a non-profit volunteer-based organization, provides support for LGBTQ+ individuals and families of Asian heritage, addressing cultural and linguistic needs of the API community. We also strive to advocate and educate the intersectional issues within the API and LGBTQ+ communities to create an API LGBTQ+ affirming environment. We are not a professional mental health provider organization.

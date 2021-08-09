@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Adhikaar"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "No"
 website = "https://adhikaar.org/#our_work"
 [[locations]]
