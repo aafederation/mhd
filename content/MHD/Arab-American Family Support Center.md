@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Arab-American Family Support Center"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = "Community Health and Well-Being"
-tags = []
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.aafscny.org/"
 [[locations]]

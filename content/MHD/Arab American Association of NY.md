@@ -8,8 +8,11 @@ highlight = true
 image = ""
 org = "Arab American Association of NY"
 payment_types = ["No insurance necessary"]
+payment_types_non_clinical = []
 program = ""
-tags = ["LGBTQ+"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.arabamericanny.org/"
 [[locations]]
