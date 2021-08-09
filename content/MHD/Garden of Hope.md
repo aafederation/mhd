@@ -8,8 +8,11 @@ highlight = false
 image = ""
 org = "Garden of Hope"
 payment_types = ["NA"]
+payment_types_non_clinical = []
 program = ""
-tags = ["Confidential Location"]
+sliding_scale_clinical = false
+sliding_scale_non_clinical = false
+tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
 website = "https://gohny.org/counseling/#gethelp"
 [[locations]]
@@ -34,5 +37,4 @@ day_hours = "Office: Monday - Friday: 9 am - 5 pm"
 transport_option = "Subway: 7"
 
 +++
-
 Garden of Hope, established in 2004, is a linguistically specific and culturally competent domestic violence, sexual assault**,** and human trafficking victim service organization that serves the vast Chinese immigrant community across NYC.
