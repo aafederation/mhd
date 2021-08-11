@@ -30,7 +30,7 @@ psychotherapy_types = ["Couples therapy", "Dialectical Behavioral Therapy", "Gro
 services = ["Psychotherapy", "Free mental health services", "Connections to Care Program"]
 staff_gender = ["Male", "Female"]
 [[locations.hours_of_operation]]
-day_hours = "Monday - Friday 10 am-6 pm"
+day_hours = "Monday - Friday: 10 am-6 pm"
 [[locations.public_transportation]]
 transport_option = "N, Q, W, R trains to Brooklyn"
 
