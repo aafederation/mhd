@@ -35,4 +35,4 @@ day_hours = "Monday-Friday: 8:30 am-4:00 pm"
 transport_option = "Avenue U Train Station"
 
 +++
-To improve the quality of life for Asian immigrants, seniors**,** and those who are otherwise disadvantaged to be more self-sufficient in society.
+Homecrest Community Services, Inc. (HCS) is a non-profit, IRS 501C(3) which provide community-based, multi-social services for seniors and immigrant families living in Southern Brooklyn. Our mission is to improve the quality of life for Asian immigrants, seniors, and those who are otherwise disadvantaged to be more self-sufficient in society.
