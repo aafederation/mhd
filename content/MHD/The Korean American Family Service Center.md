@@ -39,4 +39,4 @@ transport_option = "Bus: Q65"
 transport_option = "Subway: 7"
 
 +++
-KAFSC provides social services to those who are affected by domestic violence, sexual assault, and child abuse. Our primary target population is low-income immigrants. All our services and programs are provided in a culturally sensitive and linguistically competent manner.
+The Korean American Family Service Center (KAFSC) is a leading, nonprofit organization that supports and empowers adults, youth and children to lead safe and healthy lives based on dignity, compassion and mutual respect. We are committed to preventing and ending domestic violence, sexual assault, and relationship abuse, and creating a violence-free society. Our counseling, education and advocacy programs for individuals and families in the New York Tri-State area are provided in a culturally and linguistically appropriate setting.
