@@ -62,4 +62,4 @@ transport_option = "Bus: Q53, Q58 and Q60"
 transport_option = "Subway: R,V to Grand Avenue"
 
 +++
-Culturally competent and multi-lingual outpatient counseling for mental health and substance abuse issues.
+Our mission is to provide individualized, diagnostic, therapeutic, and educational services for the emotional and behavioral issues children exhibit in the home, school, and community via integrated community based psychiatric and support services that are child centered, family driven and culturally competent, and to advocate for preventative and educational services from community resources as well as promoting and/or developing other specialized services for children with serious mental, emotional, and behavioral disorders and their families.
