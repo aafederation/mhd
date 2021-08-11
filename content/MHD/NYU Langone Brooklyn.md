@@ -12,7 +12,7 @@ payment_types_non_clinical = []
 program = "Sunset Terrace Family Health Center"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = ["LGBTQ+", "Organization"]
+tags = ["LGBTQ+", "Organization", "Hospital"]
 telehealth = "Yes"
 website = "https://nyulangone.org/locations/sunset-terrace-family-health-center-at-nyu-langone"
 [[locations]]
@@ -37,3 +37,4 @@ transport_option = "Bus: B53, B37, B9"
 transport_option = "Subway: R"
 
 +++
+The team at Sunset Terrace Family Health Center, part of the Family Health Centers at NYU Langone, provides behavioral health services, adult primary and specialty care, an on-site pharmacy, and dental care for adults and children. All programs offer bilingual services and are respectful of the needs of the LGBTQ+ community. 
