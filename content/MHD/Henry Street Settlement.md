@@ -37,4 +37,4 @@ transport_option = "Subway: F, J, M, Z"
 transport_option = "Bus: M22, M9, M14A"
 
 +++
-Outpatient and PROS programs. Bilingual individual/family/group therapies, psychiatric medication management and case management
+Henry Street Settlement’s mission is to open doors of opportunity for Lower East Side residents and other New Yorkers through social services, arts, and health care programs. The organization is distinguished by its commitment to listening to and learning from our neighbors—and then acting to meet the most pressing needs of our community.
