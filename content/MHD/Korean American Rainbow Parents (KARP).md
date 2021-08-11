@@ -16,7 +16,7 @@ tags = ["LGBTQ+", "Online", "Organization"]
 telehealth = "Yes"
 website = "https://www.nqapia.org/wpp/healthandhealing/"
 [[locations]]
-address = "Online/Virtual"
+address = "Online Community"
 boroughs = ["Citywide"]
 hours_of_operation = []
 languages = ["Korean", "English"]
