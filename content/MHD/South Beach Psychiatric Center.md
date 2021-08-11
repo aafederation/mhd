@@ -12,7 +12,7 @@ payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = ["Organization"]
+tags = ["Organization", "Hospital"]
 telehealth = "Not applicable"
 website = "www.flushinghospital.org"
 [[locations]]
