@@ -37,4 +37,4 @@ transport_option = "Subway: A, E, C, B, D, M, F, 1"
 transport_option = "Bus: M14"
 
 +++
-Adult and geriatric mental health services - psychotherapy services with medication management as supplemental.
+The Senior Health and Consultation Center is a geriatric mental health program that enables clients who are isolated, have overwhelmed family caregivers, or would likely have to be institutionalized for survival to remain safely in their homes and the community for as long as they choose and are able.
