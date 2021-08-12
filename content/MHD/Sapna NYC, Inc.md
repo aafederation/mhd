@@ -16,11 +16,14 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "http://www.sapnanyc.org/"
 [[locations]]
-address = "2348 Waterbury Ave. 1st Fl, Bronx, NY 10462"
+address = "2348 Waterbury Ave. 1st Fl"
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Bangla", "English"]
 latLng = "40.83471350894672, -73.84663936846515"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Peer support groups", "Know Your Rights workshops", "Financial literacy", "ESL classes", "Entitlement/benefits/SNAP assistance", "Awareness and stigma campaigns", "Case management"]
 parking = "Street parking"
 phone_number = "718-828-9772"
@@ -29,6 +32,7 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = []
 staff_gender = ["Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday-Friday: 9 am-5 pm"
 [[locations.public_transportation]]
