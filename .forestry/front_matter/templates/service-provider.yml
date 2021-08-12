@@ -88,12 +88,25 @@ fields:
       path: 
   label: Telehealth service
   description: Do you offer telehealth services?
-- name: credentials
+- name: credentials1
   type: select
   default: ''
   config:
     required: false
     options: []
+    source:
+      type: documents
+      section: data
+      file: data/Licenses.json
+      path: Items
+  label: Credentials
+  description: Licensure credentials for individuals
+- name: credentials
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
     source:
       type: documents
       section: data
