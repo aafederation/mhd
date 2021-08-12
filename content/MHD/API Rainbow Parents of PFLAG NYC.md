@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "http://www.pflagnyc.org/support/api"
 [[locations]]
-address = "130 E. 25th Street, Suite M1, New York, NY 10010 (PFLAG NYC's office address)"
+address = "130 E. 25th St., Suite M1 (PFLAG NYC's office address)"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Vietnamese", "Korean", "Punjabi", "Tagalog", "Japanese", "Hindi", "Gujarati", "Chinese (Cantonese)", "Chinese (Taiwanese)", "Chinese (Fujianese)", "Chinese (Mandarin)", "English"]
 latLng = "40.741065124262384, -73.98417950323297"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Peer support groups", "Family support", "Advocacy", "Awareness and stigma campaigns"]
 parking = "No"
 phone_number = "212-463-0629"
@@ -29,6 +32,7 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = ["Support Groups"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 AM - 5 PM"
 [[locations.public_transportation]]
