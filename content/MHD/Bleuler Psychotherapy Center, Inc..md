@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.bleulerpc.org/"
 [[locations]]
-address = "104-70 Queens Blvd Forest Hills, NY 11375 Suite 200"
+address = "104-70 Queens Blvd Suite 200"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["English", "Chinese (Mandarin)"]
 latLng = "40.723222923044645, -73.84836192102757"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Psychoeducation", "Peer support groups", "Family support"]
 parking = "No"
 phone_number = "718-275-6010"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Group therapy", "Family therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychological testing and assessment", "Medication management"]
 staff_gender = ["Gender-neutral", "Female", "Male"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Saturday: 8 am-6 pm"
 [[locations.hours_of_operation]]
