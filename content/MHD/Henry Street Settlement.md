@@ -16,7 +16,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.henrystreet.org/programs/primary-behaviorial-health/mental-health-services/asian-bi-cultural-mental-health-services/"
 [[locations]]
-address = "40 Montgomery St"
+address = "40 Montgomery St."
 boroughs = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
 credentials = []
 culturally_competent_treatment = ""
