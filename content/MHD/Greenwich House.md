@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.greenwichhouse.org/senior-services/senior-health-and-consultation-center/"
 [[locations]]
-address = "27 Barrow Street, 3rd floor, New York, NY, 10014"
+address = "27 Barrow St, 3rd floor"
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["English"]
 latLng = "40.73302072109487, -74.00310885279998"
 new_clients = "No"
+new_clients_detail = ""
 non_clinical_services = ["Senior Centers ", "Case Management for Seniors", "After-School", "Music School", "Pottery School"]
 parking = "Yes"
 phone_number = "212-242-4140 x251"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spiritu
 psychotherapy_types = ["Ego Supportive", "Supportive therapy", "Trauma-informed", "Family therapy", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy", "Couples therapy"]
 services = ["Substance Abuse Services", "Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday-Friday: 9 am - 7 pm"
 [[locations.public_transportation]]
