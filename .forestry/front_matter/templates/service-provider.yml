@@ -271,6 +271,20 @@ fields:
         path: 
     label: New clients
     description: Are you accepting new clients?
+  - name: new_clients_detail
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: New clients detail
+    description: Please provide any additional details about your ability to accept
+      new clients (if applicable)
+    showOnly:
+      field: new_clients
+      value: 'Yes'
   - name: parking
     type: select
     default: 'Yes'
@@ -344,6 +358,17 @@ fields:
     maxSize: 64
   label: Image
   description: Attach an image if available
+- name: culturally_competent_treatment
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Culturally competent treatment
+  description: 'Please elaborate if you have been trained or educated in culturally
+    competent treatment models '
 pages:
 - content/MHD/API Rainbow Parents of PFLAG NYC.md
 - content/MHD/Adhikaar.md
