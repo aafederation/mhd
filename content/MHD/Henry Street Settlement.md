@@ -16,11 +16,14 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.henrystreet.org/programs/primary-behaviorial-health/mental-health-services/asian-bi-cultural-mental-health-services/"
 [[locations]]
-address = "40 Montgomery St, New York, NY 10002"
+address = "40 Montgomery St"
 boroughs = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Chinese", "English"]
 latLng = "40.71284346143906, -73.98569188708525"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Psychoeducation", "Financial literacy", "Family support", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Case management"]
 parking = "No"
 phone_number = "212-233-5032"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Suicidal ideation
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Group therapy", "Family therapy", "Cognitive Behavioral Therapy"]
 services = ["Personalized Recovery Services (PROS)", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "PROS: Monday - Friday 9am-3pm; Outpatient: Monday - Friday 9am-5pm"
 [[locations.public_transportation]]
