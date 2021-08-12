@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Organization", "Hospital"]
 telehealth = "Yes"
 website = "https://nyulangone.org/locations/sunset-terrace-family-health-center-at-nyu-langone"
 [[locations]]
-address = "514 49th Street"
+address = "514 49th St."
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Arabic (Yemeni)", "Arabic (Moroccan)", "Arabic (Egyptian)", "Arabic (Levantine)", "Chinese (Cantonese)", "Chinese (Mandarin)", "English"]
 latLng = "40.64594500085573, -74.00925300578919"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Psychoeducation"]
 parking = "No"
 phone_number = "718-437-5210"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Suicidal ideation
 psychotherapy_types = ["Solution-focused therapy", "Supportive therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychological testing and assessment", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Nonbinary", "Gender-neutral", "Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 AM - 5 PM"
 [[locations.public_transportation]]
@@ -37,4 +41,4 @@ transport_option = "Bus: B53, B37, B9"
 transport_option = "Subway: R"
 
 +++
-The team at Sunset Terrace Family Health Center, part of the Family Health Centers at NYU Langone, provides behavioral health services, adult primary and specialty care, an on-site pharmacy, and dental care for adults and children. All programs offer bilingual services and are respectful of the needs of the LGBTQ+ community. 
+The team at Sunset Terrace Family Health Center, part of the Family Health Centers at NYU Langone, provides behavioral health services, adult primary and specialty care, an on-site pharmacy, and dental care for adults and children. All programs offer bilingual services and are respectful of the needs of the LGBTQ+ community.
