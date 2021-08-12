@@ -228,6 +228,8 @@
 		let phone = clone.querySelector(".phone");
 		let websiteRow = clone.querySelector("#website-row");
 		let website = clone.querySelector(".website");
+		let trainingsRow = clone.querySelector("#trainings-row");
+		let trainings = clone.querySelector(".trainings");
 		let directions = clone.querySelector(".directions");
 
 		h3.textContent = myPage.title;
@@ -249,6 +251,9 @@
 			website.textContent = myPage.website;
 			website.onclick = function () { window.open(myPage.website); };
 		} else websiteRow.remove();
+		if (myPage.location.trainings) {
+			trainings.textContent = myPage.location.trainings;
+		} else trainingsRow.remove();
 
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;
