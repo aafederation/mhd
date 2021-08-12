@@ -228,8 +228,6 @@
 		let phone = clone.querySelector(".phone");
 		let websiteRow = clone.querySelector("#website-row");
 		let website = clone.querySelector(".website");
-		let paymentsRow = clone.querySelector("#payments-row");
-		let payments = clone.querySelector(".payments");
 		let directions = clone.querySelector(".directions");
 
 		h3.textContent = myPage.title;
@@ -251,15 +249,6 @@
 			website.textContent = myPage.website;
 			website.onclick = function () { window.open(myPage.website); };
 		} else websiteRow.remove();
-		if (myPage.payment !== 'no-payment') {
-			payments.textContent = myPage.payment.trim().split(' ')
-				.map(pay => {
-					pay = pay.replaceAll('-', ' ');
-					if (pay === 'na') return 'NA';
-					return pay.charAt(0).toUpperCase() + pay.slice(1);
-				})
-				.join(', ');
-		} else paymentsRow.remove();
 
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;
