@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Hospital", "Organization"]
 telehealth = "No"
 website = "https://www.nygsh.org/asian-psychiatry.html"
 [[locations]]
-address = "420 East 76th Street, New York, NY  20021"
+address = "420 East 76th St"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Chinese (Mandarin)", "Chinese (Taiwanese)", "Chinese (Fujianese)", "Chinese (Cantonese)", "Urdu", "Tagalog", "Korean", "Hindi", "English"]
 latLng = "40.769952318497886, -73.95308436454938"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Psychoeducation", "Awareness and stigma campaigns"]
 parking = "No"
 phone_number = "212-434-5415"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Suicidal ideation
 psychotherapy_types = ["Trauma-informed", "Group therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Psychological testing and assessment", "Psychiatric evaluation", "Music therapy", "Medication management", "Art therapy"]
 staff_gender = ["Male", "Female", "Nonbinary"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "24 hours"
 [[locations.public_transportation]]
