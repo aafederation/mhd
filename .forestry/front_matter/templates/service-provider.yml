@@ -313,8 +313,8 @@ fields:
       config:
         required: false
       label: Days hours
-      description: day(s) and hours service is available<br>e.g., <br>Sunday 11am-5pm<br>Monday-Friday
-        9am-6pm
+      description: 'day(s) and hours service is available<br>e.g., <br>Sunday: 11
+        am - 5 pm<br>Monday - Friday: 9 am - 5 pm'
     config:
       min: 
       max: 
