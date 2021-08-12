@@ -3,6 +3,7 @@ ada_compliant = true
 age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
 client_requirements = ""
 credentials = ""
+draft = true
 email = ""
 highlight = false
 image = ""
@@ -18,9 +19,12 @@ website = "https://www.apicha.org/en/services-covid19"
 [[locations]]
 address = "400 Broadway , New York NY. 10013"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Korean", "Japanese", "Chinese (Cantonese)", "Chinese (Mandarin)", "English"]
 latLng = "40.71881118722655, -74.00227703879322"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Case management"]
 parking = "No"
 phone_number = "(212) 334-6029"
@@ -29,6 +33,7 @@ psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Sexual abuse", "Relations
 psychotherapy_types = ["Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Medication management"]
 staff_gender = ["Female", "Male"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday-Friday 9 am-5 pm"
 [[locations.public_transportation]]
