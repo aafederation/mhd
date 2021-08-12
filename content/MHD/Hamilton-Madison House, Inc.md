@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "http://www.hamiltonmadisonhouse.org/behavioral-health-services.html"
 [[locations]]
-address = "253 South St 2nd floor, New York, NY 10002"
+address = "253 South St, 2nd floor"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Vietnamese", "Korean", "Khmer", "Japanese", "English", "Chinese (Cantonese)", "Chinese (Taiwanese)", "Chinese (Mandarin)"]
 latLng = "40.71035287477975, -73.99037110701536"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Family support", "Supported housing", "Psychoeducation", "ESL classes", "Case management", "Awareness and stigma campaigns"]
 parking = "Street parking"
 phone_number = "212-720-4540/4520"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Suicidal ideation
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Group therapy", "Family therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychological testing and assessment", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Saturday-Sunday: 9 am-5 pm"
 [[locations.hours_of_operation]]
