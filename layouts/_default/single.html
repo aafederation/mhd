@@ -45,6 +45,9 @@
 							{{ with $location.new_clients }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.new_clients") "items" .) }}
 							{{ end }}
+							{{ with $location.new_clients_detail }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.new_clients_detail") "items" .) }}
+							{{ end }}
 							{{ with $org.client_requirements }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "client_requirements") "items" .) }}
 							{{ end }}
@@ -56,6 +59,9 @@
 							{{ end }}
 							{{ with $location.staff_gender }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.staff_gender") "items" .) }}
+							{{ end }}
+							{{ with $location.culturally_competent_treatment }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.culturally_competent_treatment") "items" .) }}
 							{{ end }}
 							{{ with $location.public_transportation }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.public_transportation") "items" .) }}
