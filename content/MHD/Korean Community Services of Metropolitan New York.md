@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.kcsny.org/wellness/mental-health/"
 [[locations]]
-address = "42-16 162nd St 2nd floor, Flushing, NY 11358"
+address = "42-16 162nd St, 2nd floor"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Korean", "English"]
 latLng = "40.759355747442946, -73.80431829719579"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "Yes"
 phone_number = "(718) 366-9540"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Weight loss", "Trauma/PTSD", "Te
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Tuesday, Thursday: 9 am-8 pm"
 [[locations.hours_of_operation]]
