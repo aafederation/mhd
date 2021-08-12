@@ -88,40 +88,6 @@ fields:
       path: 
   label: Telehealth service
   description: Do you offer telehealth services?
-- name: credentials
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: documents
-      section: data
-      file: data/Licenses.json
-      path: Items
-  label: Credentials
-  description: Licensure credentials for individuals
-- name: trainings
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Trainings
-  description: Relevant background training or credentials
-- name: culturally_competent_treatment
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Culturally competent treatment
-  description: 'Please elaborate if you have been trained or educated in culturally
-    competent treatment models '
 - name: tags
   type: tag_list
   default: []
@@ -253,6 +219,40 @@ fields:
     label: Non-clinical services
     description: What non-clinical services does your organization provide? (check
       all that apply)
+  - name: credentials
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: documents
+        section: data
+        file: data/Licenses.json
+        path: Items
+    label: Credentials
+    description: Licensure credentials for individuals
+  - name: trainings
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Trainings
+    description: Relevant background training or credentials
+  - name: culturally_competent_treatment
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Culturally competent treatment
+    description: 'Please elaborate if you have been trained or educated in culturally
+      competent treatment models'
   - name: languages
     type: list
     config:
