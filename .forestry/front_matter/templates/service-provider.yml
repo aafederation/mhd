@@ -88,6 +88,19 @@ fields:
       path: 
   label: Telehealth service
   description: Do you offer telehealth services?
+- name: credentials
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: data
+      file: data/Licenses.json
+      path: Items
+  label: Credentials
+  description: Licensure credentials for individuals
 - name: tags
   type: tag_list
   default: []
@@ -321,19 +334,6 @@ fields:
     maxSize: 64
   label: Image
   description: Attach an image if available
-- name: credentials
-  type: select
-  default: ''
-  config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: data
-      file: data/Licenses.json
-      path: Items
-  label: Credentials
-  description: Licenses or credentials for individuals
 pages:
 - content/MHD/API Rainbow Parents of PFLAG NYC.md
 - content/MHD/Adhikaar.md
