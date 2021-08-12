@@ -16,11 +16,14 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.universitysettlement.org/programs/mental-health-wellness/families-thriving/"
 [[locations]]
-address = "184 Eldridge St, New York, NY 10002"
+address = "184 Eldridge St."
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Chinese (Mandarin)", "Chinese (Cantonese)", "Urdu", "English"]
 latLng = "40.72077973976234, -73.9906957820105"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Psychoeducation", "Peer support groups", "High school equivalency classes", "Family support", "ESL classes", "Entitlement/benefits/SNAP assistance", "Crisis intervention and management", "Crisis hotline", "Case management", "Advocacy"]
 parking = "Street parking"
 phone_number = "917-583-3266"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management", "Art therapy"]
 staff_gender = ["Nonbinary", "Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Saturday (hours vary depending on the program)"
 [[locations.public_transportation]]
