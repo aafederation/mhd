@@ -16,11 +16,14 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.aafscny.org/"
 [[locations]]
-address = "150 Court St # 3, Brooklyn, NY 11201"
+address = "150 Court St # 3"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Urdu", "Hindi", "Bangla", "Arabic (Levantine)"]
 latLng = "40.69091359431491, -73.99368798199002"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Family support", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis hotline", "Case management", "Advocacy"]
 parking = "Street parking"
 phone_number = "718-643-8000 x110"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Divorce and separation", "Depression", "Cultural a
 psychotherapy_types = ["Trauma-informed"]
 services = ["Psychotherapy"]
 staff_gender = ["Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday-Friday: 9 am-6 pm"
 [[locations.public_transportation]]
