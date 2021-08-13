@@ -16,11 +16,14 @@ tags = ["Organization"]
 telehealth = "No"
 website = "https://www.caipa.com/about-us/services/"
 [[locations]]
-address = "202 Canal Street, New York, NY"
+address = "202 Canal St."
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Chinese (Cantonese)", "Chinese (Mandarin)", "Chinese (Toishanese)", "Chinese (Fujianese)", "Chinese (Taiwanese)", "Chinese (Shanghainese)", "Korean", "Vietnamese", "English"]
 latLng = "40.717001092310404, -73.9985940387911"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = []
 parking = "No"
 phone_number = "212-965-9888"
@@ -29,6 +32,7 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = []
 staff_gender = ["Female", "Male"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday-Friday 9 am-6 pm"
 [[locations.public_transportation]]
