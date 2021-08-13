@@ -16,11 +16,14 @@ tags = ["Organization"]
 telehealth = "Not applicable"
 website = "www.cbwchc.org"
 [[locations]]
-address = "268 Canal St"
+address = "268 Canal St."
 boroughs = ["Citywide", "Manhattan"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Korean", "Mandarin", "Cantonese"]
 latLng = "40.71878963726238, -74.00132840234299"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
 phone_number = "212-941-2213"
@@ -30,6 +33,7 @@ psychotherapy_types = []
 public_transportation = []
 services = ["Behavioral services", "Mental health services"]
 staff_gender = []
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday, Tuesday, Friday, Saturday: 9 am-6 pm"
 [[locations.hours_of_operation]]
@@ -39,9 +43,12 @@ day_hours = "Thursday: 11 am-6 pm"
 [[locations]]
 address = "136-26 37th Ave"
 boroughs = ["Queens"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Korean", "Mandarin", "Cantonese"]
 latLng = "40.76170554286881, -73.83005267350512"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
 phone_number = "212-941-2213"
@@ -51,6 +58,7 @@ psychotherapy_types = []
 public_transportation = []
 services = ["Behavioral services", "Mental health services"]
 staff_gender = []
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday, Tuesday, Friday, Saturday: 9 am-6 pm"
 [[locations.hours_of_operation]]
@@ -60,9 +68,12 @@ day_hours = "Thursday: 11 am-6 pm"
 [[locations]]
 address = "137-43 45th Ave"
 boroughs = ["Queens"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Korean", "Mandarin", "Cantonese"]
 latLng = "40.75192982760588, -73.82200221212504"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
 phone_number = "718-866-7373"
@@ -72,6 +83,7 @@ psychotherapy_types = []
 public_transportation = []
 services = ["Behavioral services", "Mental health services"]
 staff_gender = []
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday, Tuesday, Friday, Saturday: 9 am-6 pm"
 [[locations.hours_of_operation]]
