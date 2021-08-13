@@ -16,7 +16,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.apicha.org/en/services-covid19"
 [[locations]]
-address = "400 Broadway , New York NY. 10013"
+address = "400 Broadway"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
