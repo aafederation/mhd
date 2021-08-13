@@ -16,7 +16,7 @@ tags = ["LGBTQ+", "Hospital", "Organization"]
 telehealth = "No"
 website = "https://www.nygsh.org/asian-psychiatry.html"
 [[locations]]
-address = "420 East 76th St"
+address = "420 East 76th St."
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
