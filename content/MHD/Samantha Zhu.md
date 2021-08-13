@@ -16,17 +16,16 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = ""
+address = "Address"
 boroughs = ["Citywide"]
-credentials = []
+credentials = ["LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = ""
-hours_of_operation = []
-languages = []
+languages = ["Chinese (Cantonese)", "English"]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = []
-parking = "Yes"
+non_clinical_services = ["Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
+parking = "No"
 phone_number = "646-535-8825"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Substance abuse", "Stress", "Sexual harassment and assault", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Pregnancy, perinatal, and postpartum mental health", "Phobias/fears", "Panic attacks/disorder", "Obsessive compulsive disorder", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Insomnia and sleep issues", "Infertility", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Caregiver stress and support", "Attachment issues", "ADHD", "Anxiety", "Alcohol abuse", "Addiction/recovery"]
@@ -35,5 +34,8 @@ public_transportation = []
 services = ["Substance use/addiction and support services", "Psychotherapy"]
 staff_gender = []
 trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: 8 am - 7 pm"
 
 +++
+I earned my dual B.S. in psychology and sociology from CUNY Hunter College and my M.A. in mental health counseling from CUNY Brooklyn College. I have over 5 years of experience in the mental health field with a wide range of levels including but not limited to depression, anxieties, LGBTQ+ related issues, intersectional identities, intergenerational trauma, and relational & interpersonal difficulties. I am trained in Psychodynamic and CBT Therapy. 
