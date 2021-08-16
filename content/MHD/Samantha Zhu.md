@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Adults (18 to 64)"]
 client_requirements = ""
-draft = true
 email = "info@samzhutherapy.com"
 highlight = false
 image = ""
