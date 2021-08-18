@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["All"]
 client_requirements = ""
 credentials = ""
-draft = true
 email = "pooja.raj@sakhi.org"
 highlight = false
 image = ""
@@ -19,9 +18,12 @@ website = "https://www.sakhi.org/mental-health-program/"
 [[locations]]
 address = "Confidential Location - contact helpline to be connected to services"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Gujarati", "Urdu", "Punjabi", "Hindi", "Bangla", "English"]
 latLng = ""
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Supported housing", "Psychoeducation", "Peer support groups", "Know Your Rights workshops", "Financial literacy", "Family support", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "No"
 phone_number = "917-615-3664"
@@ -30,10 +32,11 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = ["Substance use/addiction and support services", "Art therapy"]
 staff_gender = ["Transgender", "Nonbinary", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 10 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: N, W, R, 4, 5, 6, "
 
 +++
-We provide direct services to South Asian survivors of trauma.
+Sakhi for South Asian Women exists to represent the South Asian diaspora in a survivor-led movement for gender-justice and to honor the collective and inherent power of all survivors of violence. Sakhi is committed to serving survivors through a combination of efforts including—but not limited to—direct services, advocacy and organizing, technical assistance, and community outreach.
