@@ -34,7 +34,7 @@ services = ["Referrals to clinical services "]
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "10 AM - 6 PM"
+day_hours = "Monday - Friday: 10 am - 6 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: 7, E, F, M, R"
 
