@@ -18,9 +18,12 @@ website = "https://tpny.org/services/"
 [[locations]]
 address = "Confidential Location"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Urdu", "Hindi", "Bangla", "English"]
 latLng = ""
 new_clients = "No"
+new_clients_detail = ""
 non_clinical_services = ["Supported housing", "Peer support groups", "Know Your Rights workshops", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "Yes"
 phone_number = "718-550-3586"
@@ -29,8 +32,9 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Sexual abuse", "F
 psychotherapy_types = []
 services = ["Support Groups"]
 staff_gender = ["Female"]
+trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday: 10 am-6 pm"
+day_hours = "Monday - Friday: 10 am - 6 pm"
 [[locations.public_transportation]]
 transport_option = "Bus"
 [[locations.public_transportation]]
