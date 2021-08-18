@@ -34,7 +34,7 @@ services = ["Psychotherapy"]
 staff_gender = ["Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday: 9 am-6 pm"
+day_hours = "Monday - Friday: 9 am - 6 pm"
 [[locations.public_transportation]]
 transport_option = "LIRR: Atlantic Ave/Barclays"
 [[locations.public_transportation]]
