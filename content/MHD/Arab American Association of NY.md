@@ -34,7 +34,7 @@ services = ["Psychotherapy", "Free mental health services", "Connections to Care
 staff_gender = ["Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Monday - Friday: 10 am-6 pm"
+day_hours = "Monday - Friday: 10 am - 6 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: N, Q, W, R to Brooklyn"
 
