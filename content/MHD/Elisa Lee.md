@@ -41,3 +41,4 @@ transport_option = "Subway"
 transport_option = "Bus"
 
 +++
+I am an Asian American clinical psychologist in private practice. I specialize in helping my patients gain meaningful, long-term change through collaborative exploration of their thoughts, feelings, and behaviors along side practical, goal-oriented interventions.
