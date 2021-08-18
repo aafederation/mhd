@@ -34,7 +34,7 @@ services = ["Substance Abuse Services", "Substance use/addiction and support ser
 staff_gender = ["Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday: 9 am - 7 pm"
+day_hours = "Monday - Friday: 9 am - 7 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: A, E, C, B, D, M, F, 1"
 [[locations.public_transportation]]
