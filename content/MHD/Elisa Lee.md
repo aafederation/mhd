@@ -18,22 +18,26 @@ website = ""
 [[locations]]
 address = "5 West 86th St."
 boroughs = ["Manhattan"]
-credentials = []
+credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = ""
-hours_of_operation = []
-languages = []
+languages = ["English"]
 latLng = "40.785856632111006, -73.96976069389103"
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = []
-parking = "Yes"
+parking = "Street parking"
 phone_number = "646-818-9510"
 psychotherapy = true
 psychotherapy_specialties = ["Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Identity development", "Family conflict", "Depression", "Cultural adjustment", "Coping skills", "Attachment issues", "Anxiety"]
-psychotherapy_types = ["Supportive therapy", "Solution-focused therapy"]
-public_transportation = []
+psychotherapy_types = ["Humanistic", "Psychodynamic", "Supportive therapy", "Solution-focused therapy"]
 services = ["Psychotherapy"]
 staff_gender = []
 trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "10 am - 7 pm"
+[[locations.public_transportation]]
+transport_option = "Subway"
+[[locations.public_transportation]]
+transport_option = "Bus"
 
 +++
