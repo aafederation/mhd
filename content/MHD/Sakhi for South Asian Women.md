@@ -36,7 +36,7 @@ trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 10 am - 5 pm"
 [[locations.public_transportation]]
-transport_option = "Subway: N, W, R, 4, 5, 6, "
+transport_option = "Subway: N, W, R, 4, 5, 6"
 
 +++
 Sakhi for South Asian Women exists to represent the South Asian diaspora in a survivor-led movement for gender-justice and to honor the collective and inherent power of all survivors of violence. Sakhi is committed to serving survivors through a combination of efforts including—but not limited to—direct services, advocacy and organizing, technical assistance, and community outreach.
