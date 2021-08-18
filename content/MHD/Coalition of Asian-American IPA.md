@@ -39,4 +39,4 @@ day_hours = "Monday - Friday: 9 am - 6 pm"
 transport_option = "Subway: N,R,Q, 6"
 
 +++
-We are an independent practitioners' organization.
+At CAIPA, our mission has always been to unite the top health professionals to providing high quality care, utilizing the most cost-effective approach while enhancing the interests of relevant stakeholders in the public and private sectors.
