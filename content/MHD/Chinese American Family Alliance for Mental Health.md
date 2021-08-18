@@ -16,11 +16,14 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.cafamh.org/programs/"
 [[locations]]
-address = "168 Centre St, Manhattan"
+address = "168 Centre St."
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Chinese (Mandarin)", "English", "Chinese (Cantonese)"]
 latLng = "40.71885638032377, -73.99957693650443"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Peer support groups", "Know Your Rights workshops", "Family support", "Crisis hotline", "Awareness and stigma campaigns", "Advocacy", "Psychoeducation"]
 parking = "No"
 phone_number = "917-773-8624"
@@ -30,6 +33,7 @@ psychotherapy_types = []
 public_transportation = []
 services = ["Support Groups"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 5 pm"
 
