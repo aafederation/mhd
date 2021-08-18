@@ -18,9 +18,12 @@ website = "https://www.sacssny.org/health-services---other-benefits.html"
 [[locations]]
 address = "143-06 45th Ave"
 boroughs = ["Queens"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Urdu", "Punjabi", "Marathi", "Malayalam", "Hindi", "Bangla", "English"]
 latLng = "40.75467669607294, -73.81778974537971"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Home Delivered meals", "Food Pantry", "Assistance with health insurance (pre and post enrollment issues)", "Support groups for seniors", "Psychoeducation", "ESL classes", "Case management", "Advocacy"]
 parking = "Street parking"
 phone_number = "718-321-7929"
@@ -29,8 +32,9 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = []
 staff_gender = ["Female"]
+trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Saturday: 10 AM - 2 PM"
+day_hours = "Saturday: 10 am - 2 pm"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 10 AM - 5:30 PM"
 [[locations.public_transportation]]
