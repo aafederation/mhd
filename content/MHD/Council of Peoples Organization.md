@@ -16,11 +16,14 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://copo.org/our-programs/"
 [[locations]]
-address = "1077 Coney Island Ave, Brooklyn"
+address = "1077 Coney Island Ave"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Hindi", "Punjabi", "Urdu", "English"]
 latLng = "40.63184053509628, -73.96612170586249"
 new_clients = "Not applicable"
+new_clients_detail = ""
 non_clinical_services = ["Psychoeducation", "Domestic violence counseling", "Crisis intervention and management", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "Street parking"
 phone_number = "929-314-0309"
@@ -29,6 +32,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spiritu
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
