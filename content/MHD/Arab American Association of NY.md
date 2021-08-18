@@ -18,9 +18,12 @@ website = "https://www.arabamericanny.org/"
 [[locations]]
 address = "7111 5th Ave."
 boroughs = ["Brooklyn"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Arabic"]
 latLng = "40.63230551173878, -74.0212758446735"
 new_clients = ""
+new_clients_detail = ""
 non_clinical_services = ["Domestic violence counseling", "Crisis intervention and management", "Advocacy"]
 parking = ""
 phone_number = "718-745-3523"
@@ -29,10 +32,11 @@ psychotherapy_specialties = ["ADHD", "Anxiety", "Addiction/recovery"]
 psychotherapy_types = ["Couples therapy", "Dialectical Behavioral Therapy", "Group therapy"]
 services = ["Psychotherapy", "Free mental health services", "Connections to Care Program"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 10 am-6 pm"
 [[locations.public_transportation]]
-transport_option = "N, Q, W, R trains to Brooklyn"
+transport_option = "Subway: N, Q, W, R to Brooklyn"
 
 +++
 In 2001, a group of prominent Arab immigrants and Arab Americans recognized the growing need in the community for an organization that would serve the social and economic needs of the growing Arab population in Bay Ridge and the surrounding neighborhoods of Brooklyn, NY. Although the process of establishing the organization began before the September 11th attacks, the founders felt compelled to take more immediate action after they witnessed the heightened sense of fear and the acts of blatant discrimination aimed at their community in the days following the attacks.
