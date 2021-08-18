@@ -18,9 +18,12 @@ website = "https://kafsc.org/counseling"
 [[locations]]
 address = "Confidential Location - Contact for connection to services"
 boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Korean", "English"]
 latLng = ""
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Supported housing", "Psychoeducation", "Peer support groups", "Online self-help modules", "Know Your Rights workshops", "High school equivalency classes", "Financial literacy", "Family support", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "Yes"
 phone_number = "718-460-3800"
@@ -29,10 +32,11 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy", "Trauma-informed"]
 services = []
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Bilingual Hotline: 24 hours"
 [[locations.hours_of_operation]]
-day_hours = "Monday - Friday: 9 AM - 5 PM"
+day_hours = "Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Bus: Q65"
 [[locations.public_transportation]]
