@@ -39,7 +39,7 @@ day_hours = "Monday: 9 am - 5 pm"
 [[locations.hours_of_operation]]
 day_hours = "Tuesday - Thursday: 9 am - 9 pm"
 [[locations.hours_of_operation]]
-day_hours = "Saturday: 9 am-3 pm"
+day_hours = "Saturday: 9 am - 3 pm"
 [[locations]]
 address = "81-14 Queens Blvd, Elmhurst"
 boroughs = ["Queens"]
