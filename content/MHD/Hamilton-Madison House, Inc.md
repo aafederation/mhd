@@ -34,11 +34,11 @@ services = ["Substance use/addiction and support services", "Psychotherapy", "Ps
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Saturday-Sunday: 9 am-5 pm"
+day_hours = "Saturday - Sunday: 9 am - 5 pm"
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday: 9 am-7 pm"
+day_hours = "Monday - Friday: 9 am - 7 pm"
 [[locations.public_transportation]]
-transport_option = "Subway: F train"
+transport_option = "Subway: F"
 
 +++
 Hamilton-Madison House is a voluntary, non-profit settlement house dedicated to improving the quality of life of its community, primarily those in the Two Bridges/Chinatown area of Manhattan's Lower East Side. The neighborhood is a federally designated poverty area, with a constantly changing mixture of ethnic groups, and lack of adequate services and resources.
