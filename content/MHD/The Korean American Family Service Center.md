@@ -34,9 +34,9 @@ services = []
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Bilingual Hotline: 24 hours"
-[[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 5 pm"
+[[locations.hours_of_operation]]
+day_hours = "Bilingual Hotline: 24 hours"
 [[locations.public_transportation]]
 transport_option = "Bus: Q65"
 [[locations.public_transportation]]
