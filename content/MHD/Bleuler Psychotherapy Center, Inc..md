@@ -34,9 +34,9 @@ services = ["Substance use/addiction and support services", "Psychotherapy", "Ps
 staff_gender = ["Gender-neutral", "Female", "Male"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Saturday: 8 am-6 pm"
+day_hours = "Saturday: 8 am - 6 pm"
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday: 8 am-10 pm"
+day_hours = "Monday - Friday: 8 am - 10 pm"
 [[locations.public_transportation]]
 transport_option = "Train"
 [[locations.public_transportation]]
