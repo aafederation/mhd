@@ -34,7 +34,7 @@ services = []
 staff_gender = ["Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday: 9 am-5 pm"
+day_hours = "Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Bus: Bx4, Bx22, Q44-SBS"
 [[locations.public_transportation]]
