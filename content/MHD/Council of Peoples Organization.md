@@ -41,4 +41,4 @@ transport_option = "Bus: B-68"
 transport_option = "Subway: B, Q"
 
 +++
-COPO is a not-for-profit agency considered a one-stop shop for social services. Even though we are located in Midwood Brooklyn, we serve clients citywide.
+The Council of Peoples Organization’s (COPO) mission is to assist low income immigrant families, particularly South Asians and Muslims, to reach their full potential as residents of New York City. COPO empowers marginalized communities to advocate for their rights and understand their responsibilities as Americans. It helps to build community relations between Muslim and non-Muslim community groups. It continues to establish connections between the communities and various government agencies.
