@@ -34,7 +34,7 @@ services = ["Psychotherapy", "Medication management"]
 staff_gender = ["Female", "Male"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Monday-Friday 9 am-5 pm"
+day_hours = "Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Subway"
 
