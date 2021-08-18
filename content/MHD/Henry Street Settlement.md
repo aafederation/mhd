@@ -34,7 +34,7 @@ services = ["Personalized Recovery Services (PROS)", "Psychotherapy", "Psychiatr
 staff_gender = ["Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "PROS: Monday - Friday 9am-3pm; Outpatient: Monday - Friday 9am-5pm"
+day_hours = "PROS: Monday - Friday: 9 am - 3pm; Outpatient: Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: F, J, M, Z"
 [[locations.public_transportation]]
