@@ -18,9 +18,12 @@ website = "https://childcenterny.org/asian-outreach-program/"
 [[locations]]
 address = "140-15B Sanford Avenue, Flushing"
 boroughs = ["Queens"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bangla"]
 latLng = "40.757915557503125, -73.82652824466905"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
 phone_number = "718-358-8288"
@@ -30,8 +33,9 @@ psychotherapy_types = []
 public_transportation = []
 services = ["Substance Abuse Services", "Multi-lingual and multi-cultural counseling"]
 staff_gender = []
+trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "Monday: 9 am-5 pm"
+day_hours = "Monday: 9 am - 5 pm"
 [[locations.hours_of_operation]]
 day_hours = "Tuesday-Thursday: 9 am-9 pm"
 [[locations.hours_of_operation]]
@@ -39,9 +43,12 @@ day_hours = "Saturday: 9 am-3 pm"
 [[locations]]
 address = "81-14 Queens Blvd, Elmhurst"
 boroughs = ["Queens"]
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Urdu", "English", "Hindi", "Mandarin", "Cantonese", "Bangla"]
 latLng = "40.73736275419179, -73.88177615816086"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Psychoeducation", "Domestic violence counseling"]
 parking = "Street parking"
 phone_number = "718-899-9810 x2360"
@@ -50,6 +57,7 @@ psychotherapy_specialties = ["Trauma/PTSD", "Teen violence", "Suicidal ideation"
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Transgender", "Gender-neutral", "Nonbinary", "Female", "Male"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Saturday: 9 am-3 pm"
 [[locations.hours_of_operation]]
