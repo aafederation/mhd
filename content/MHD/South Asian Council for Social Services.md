@@ -36,7 +36,7 @@ trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Saturday: 10 am - 2 pm"
 [[locations.hours_of_operation]]
-day_hours = "Monday - Friday: 10 AM - 5:30 PM"
+day_hours = "Monday - Friday: 10 am - 5:30 pm"
 [[locations.public_transportation]]
 transport_option = "Bus: Q65, Q27, Q17, Q34"
 
