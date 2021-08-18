@@ -18,9 +18,12 @@ website = "https://gohny.org/counseling/#gethelp"
 [[locations]]
 address = "Confidential Locations - Call or Email for an appointment"
 boroughs = []
+credentials = []
+culturally_competent_treatment = ""
 languages = ["Chinese (Taiwanese)", "Chinese (Fujianese)", "Chinese (Shanghainese)", "Chinese (Cantonese)", "Chinese (Mandarin)", "English"]
 latLng = ""
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Supported housing", "Psychoeducation", "Peer support groups", "Online self-help modules", "Know Your Rights workshops", "Financial literacy", "Family support", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "Yes"
 phone_number = "(P): 347-466-3296 / Helpline: 1-877-990-8595"
@@ -29,10 +32,11 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "
 psychotherapy_types = ["Supportive therapy", "Trauma-informed", "Solution-focused therapy", "Group therapy", "Family therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Art therapy"]
 staff_gender = ["Female"]
-[[locations.hours_of_operation]]
-day_hours = "Safe Hours: 24 hours"
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Office: Monday - Friday: 9 am - 5 pm"
+[[locations.hours_of_operation]]
+day_hours = "Safe Hours: 24 hours"
 [[locations.public_transportation]]
 transport_option = "Subway: 7"
 
