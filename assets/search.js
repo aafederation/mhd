@@ -230,6 +230,8 @@
 		let website = clone.querySelector(".website");
 		let trainingsRow = clone.querySelector("#trainings-row");
 		let trainings = clone.querySelector(".trainings");
+		let credentialsRow = clone.querySelector("#credentials-row");
+		let credentials = clone.querySelector(".credentials");
 		let directions = clone.querySelector(".directions");
 
 		h3.textContent = myPage.title;
@@ -254,6 +256,9 @@
 		if (myPage.location.trainings) {
 			trainings.textContent = myPage.location.trainings;
 		} else trainingsRow.remove();
+		if (myPage.location.credentials && myPage.location.credentials.length > 0) {
+			credentials.textContent = myPage.location.credentials.join(", ");
+		} else credentialsRow.remove();
 
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;

@@ -14,6 +14,12 @@
 				<div class="[ wrapper ] [ bg-white pad-top-500 ]">
 					<h2 class="gap-bottom-500">Location Details</h2>
 					<div class="columns-2">
+							{{ with $location.trainings }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.trainings") "items" .) }}
+							{{ end }}
+							{{ with $location.credentials }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.credentials") "items" .) }}
+							{{ end }}
 							{{ with $location.services }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.services") "items" .) }}
 							{{ end }}
