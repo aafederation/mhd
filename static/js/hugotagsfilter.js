@@ -181,7 +181,7 @@ class HugoTagsFilter {
 
 	checkFilter(tag, tagType) {
 		/* Selects clicked button.*/
-		var selectedBtn = document.querySelector(`#${tagType}${tag}`);
+		var selectedBtn = document.getElementById(`${tagType}${tag}`);
 
 		for (var i = 0; i < this.FILTERS.length; i++) {
 			if (this.FILTERS[i]["prefix"] === tagType) {
