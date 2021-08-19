@@ -20,6 +20,7 @@ address = "Address"
 boroughs = ["Citywide"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = ""
+gender_identification = ["Women"]
 languages = ["Chinese (Cantonese)", "English"]
 latLng = ""
 new_clients = "Yes"
@@ -38,4 +39,4 @@ trainings = ""
 day_hours = "Monday - Friday: 8 am - 7 pm"
 
 +++
-I earned my dual B.S. in psychology and sociology from CUNY Hunter College and my M.A. in mental health counseling from CUNY Brooklyn College. I have over 5 years of experience in the mental health field with a wide range of levels including but not limited to depression, anxieties, LGBTQ+ related issues, intersectional identities, intergenerational trauma, and relational & interpersonal difficulties. I am trained in Psychodynamic and CBT Therapy. 
+I earned my dual B.S. in psychology and sociology from CUNY Hunter College and my M.A. in mental health counseling from CUNY Brooklyn College. I have over 5 years of experience in the mental health field with a wide range of levels including but not limited to depression, anxieties, LGBTQ+ related issues, intersectional identities, intergenerational trauma, and relational & interpersonal difficulties. I am trained in Psychodynamic and CBT Therapy.
