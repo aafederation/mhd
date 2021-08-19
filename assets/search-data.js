@@ -20,7 +20,6 @@
 
   {{- $pages := where .Site.Pages "Kind" "in" (slice "page" "section") -}}
   {{- $pages = where $pages "Params.booksearchexclude" "!=" true -}}
-  {{- $pages = where $pages "Content" "not in" (slice nil "") -}}
 
   {{ range $index, $page := $pages }}
 		{{ range $location := $page.Params.locations}}
