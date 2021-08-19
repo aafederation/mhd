@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Youth and Teenagers (14 to 19)", "Adults (19 to 64)", "Preteens and Tweens (11 to 13)"]
 client_requirements = ""
-credentials = ""
 email = ""
 highlight = false
 image = ""

@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = ""
-credentials = ""
 email = "info@homecrest.org"
 highlight = false
 image = ""

@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
 client_requirements = ""
-credentials = ""
 email = "info@tpny.org"
 highlight = false
 image = ""

@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["All"]
 client_requirements = ""
-credentials = ""
 email = "api@pflagnyc.org"
 highlight = false
 image = ""

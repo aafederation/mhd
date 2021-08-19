@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Preteens and Tweens (11 to 13)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
 client_requirements = "Currently only accepting new clients for mental health services"
-credentials = ""
 email = "info@arabamericanny.org"
 highlight = true
 image = ""

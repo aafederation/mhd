@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (18 to 64)", "Youth and Teenagers (14 to 17)", "Preteens and Tweens (11 to 13)", "Children (5+)"]
 client_requirements = ""
-credentials = ""
 email = "allison.devlin@nyulangone.org"
 highlight = false
 image = ""
