@@ -340,6 +340,18 @@ fields:
     label: Staff gender
     description: What is the gender of your staff(s) providing mental health services?
       (check all that apply)
+  - name: gender_identification
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: documents
+        section: data
+        file: data/Gender Identification.json
+        path: Items
+    label: Gender identification
   - name: hours_of_operation
     type: field_group_list
     fields:
