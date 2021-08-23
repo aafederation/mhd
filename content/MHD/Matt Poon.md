@@ -18,23 +18,25 @@ website = ""
 [[locations]]
 address = "352 7th Avenue, NY, NY"
 boroughs = ["Manhattan"]
-credentials = []
-culturally_competent_treatment = ""
-gender_identification = []
-hours_of_operation = []
-languages = []
+credentials = ["Licensed Psychologist (PhD/PsyD)"]
+culturally_competent_treatment = "Yearlong cultural competence sequence; ongoing CE"
+gender_identification = ["Male"]
+languages = ["English"]
 latLng = "40.74840213505704, -73.99285262479091"
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = []
-parking = "Yes"
+non_clinical_services = ["Psychoeducation", "Meditation/mindfulness practices"]
+parking = "No"
 phone_number = ""
 psychotherapy = true
 psychotherapy_specialties = ["Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Men's issues", "LGBTQIA, gender, and sexual identity", "Identity development", "Family conflict", "Divorce and separation", "Cultural adjustment", "Coping skills", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Solution-focused therapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
-public_transportation = []
 services = ["Psychotherapy"]
 staff_gender = []
-trainings = ""
+trainings = "Emotion Focused Therapy"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Thursday: 9 am-7 pm"
+[[locations.public_transportation]]
+transport_option = "Subway: F, D, B, A, C, E"
 
 +++
