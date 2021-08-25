@@ -1,20 +1,40 @@
 +++
 ada_compliant = true
-age_groups = []
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 17)"]
 client_requirements = ""
 draft = true
-email = ""
+email = "yejin@fullspectrumcat.com"
 highlight = false
 image = ""
-locations = []
 org = "Yejin Yoo"
 payment_types = []
-payment_types_non_clinical = []
-program = ""
+payment_types_non_clinical = ["NA"]
+program = "Full Spectrum Creative Arts Therapy"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
-telehealth = "Not applicable"
+tags = ["Individual"]
+telehealth = "Yes"
 website = ""
+[[locations]]
+address = "50 1/2 CLAY ST"
+boroughs = ["Queens", "Manhattan", "Brooklyn", "Citywide"]
+credentials = []
+culturally_competent_treatment = ""
+gender_identification = []
+hours_of_operation = []
+languages = []
+latLng = "40.736548506491765, -73.95633723674092"
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = []
+parking = "Yes"
+phone_number = "2122039243"
+psychotherapy = false
+psychotherapy_specialties = []
+psychotherapy_types = []
+public_transportation = []
+services = ["Psychotherapy", "Art therapy"]
+staff_gender = []
+trainings = ""
 
 +++
