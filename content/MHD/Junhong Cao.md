@@ -1,20 +1,48 @@
 +++
 ada_compliant = true
-age_groups = []
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
 client_requirements = ""
 draft = true
-email = ""
+email = "drjune@drjunhongcao.com"
 highlight = false
 image = ""
-locations = []
 org = "Junhong Cao"
-payment_types = []
+payment_types = ["Accepts Out of Network Insurances"]
 payment_types_non_clinical = []
-program = ""
+program = "Mind Connections"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
-telehealth = "Not applicable"
-website = ""
+tags = ["Individual"]
+telehealth = "Yes"
+website = "https://mindconnectionsnyc.com/about/june-cao/"
+[[locations]]
+address = "600 3RD AVE 2nd FL, New York, NY 10016"
+boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
+credentials = ["Licensed Psychologist (PhD/PsyD)"]
+culturally_competent_treatment = "Yes. In my doctoral program, multiculturalism and diversity training is required. In my internship and work places, cultural competency has been implemented in training and treatment models. I have also trained other clinicians and interns at medical schools cultural competency through workshops and webinars."
+gender_identification = ["Female"]
+languages = ["Korean", "Japanese", "Chinese (Cantonese)", "Chinese (Mandarin)", "English"]
+latLng = ""
+new_clients = "Yes"
+new_clients_detail = "Other well-trained clinicians are under my supervision to provide Mental Health Counseling. They are all Asians and at least bilingual in Chinese and English."
+non_clinical_services = ["Psychoeducation", "Peer support groups", "Meditation/mindfulness practices", "Breathwork"]
+parking = "Yes"
+phone_number = "3475428226"
+psychotherapy = true
+psychotherapy_specialties = ["Women's issues", "Weight loss", "Trauma/PTSD", "Stress", "Self-harming", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Phobias/fears", "Personality disorders", "Parenting", "Panic attacks/disorder", "Obsessive compulsive disorder", "Mood disorders", "Men's issues", "LGBTQIA, gender, and sexual identity", "Insomnia and sleep issues", "Infertility", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Eating disorders", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Bipolar disorder", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management"]
+psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
+services = ["Psychotherapy", "Psychological testing and assessment"]
+staff_gender = []
+trainings = "Gottman couples therapy training"
+[[locations.hours_of_operation]]
+day_hours = "10 am - 7 pm"
+[[locations.public_transportation]]
+transport_option = "Metro-North"
+[[locations.public_transportation]]
+transport_option = "LIRR"
+[[locations.public_transportation]]
+transport_option = "Bus"
+[[locations.public_transportation]]
+transport_option = "Subway: 4,5,6,7, S"
 
 +++
