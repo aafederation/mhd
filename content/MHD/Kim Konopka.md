@@ -18,23 +18,25 @@ website = "https://www.yungmeepsychotherapy.com/"
 [[locations]]
 address = "PO Box 4341 Highland Park, NJ 08904"
 boroughs = ["Citywide"]
-credentials = []
-culturally_competent_treatment = ""
-gender_identification = []
-hours_of_operation = []
-languages = []
+credentials = ["LCSW (Licensed Clinical Social Worker)"]
+culturally_competent_treatment = "Yes, my training is/was rooted in intersectional, anti-oppressive, trauma-informed perspectives"
+gender_identification = ["Nonbinary"]
+languages = ["English"]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = []
-parking = "Yes"
+parking = "No"
 phone_number = ""
 psychotherapy = true
-psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Self-esteem", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Identity development", "Codependency", "Autism spectrum disorder", "Attachment issues", "ADHD", "Anxiety"]
-psychotherapy_types = []
+psychotherapy_specialties = ["Transracial Adoption", "Trauma/PTSD", "Stress", "Self-esteem", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Identity development", "Codependency", "Autism spectrum disorder", "Attachment issues", "ADHD", "Anxiety"]
+psychotherapy_types = ["Trauma-informed", "Cognitive Behavioral Therapy", "Mindfulness-based"]
 public_transportation = []
 services = ["Psychotherapy"]
 staff_gender = []
 trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "11am-2pm and 5-7pm M-Th, 1pm-5pm F"
 
 +++
+Kim (they/them) is passionate about supporting people along their healing journeys and paths of self-discovery. Kim doesn’t believe individuals seek out therapy because they are “flawed” or need to be “fixed.” Instead, Kim views therapy as a powerful act of self-care when navigating challenging systems, -isms, circumstances and relationships. Their own lived experience as a neurodivergent Korean adoptee drives their commitment to practicing from a place that holds space for - and celebrates - each person’s multiple and intersecting identities.
