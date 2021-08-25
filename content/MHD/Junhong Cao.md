@@ -46,3 +46,4 @@ transport_option = "Bus"
 transport_option = "Subway: 4,5,6,7, S"
 
 +++
+I am a psychologist in New York with more than 15 years of clinical experience. My specialties include: helping Asians (AAPIs & international students) and LGTBQ+ community with their mental health and wellbeing, such as anxiety, OCD, depression, trauma, and relationship issues.
