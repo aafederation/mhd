@@ -1,20 +1,40 @@
 +++
-ada_compliant = true
-age_groups = []
+ada_compliant = false
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 17)"]
 client_requirements = ""
 draft = true
-email = ""
+email = "msoong@rocketmail.com "
 highlight = false
 image = ""
-locations = []
 org = "Melissa Soong"
-payment_types = []
+payment_types = ["NA"]
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
-telehealth = "Not applicable"
-website = ""
+tags = ["Individual"]
+telehealth = "Yes"
+website = "https://www.melissasoong.com/"
+[[locations]]
+address = "NYC"
+boroughs = ["Citywide"]
+credentials = []
+culturally_competent_treatment = ""
+gender_identification = []
+hours_of_operation = []
+languages = []
+latLng = ""
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = ["Yoga", "Meditation/mindfulness practices", "Breathwork", "Acupuncture"]
+parking = "Yes"
+phone_number = ""
+psychotherapy = false
+psychotherapy_specialties = []
+psychotherapy_types = []
+public_transportation = []
+services = []
+staff_gender = []
+trainings = ""
 
 +++
