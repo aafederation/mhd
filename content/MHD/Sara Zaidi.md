@@ -29,11 +29,11 @@ new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
 phone_number = "2014196835"
-psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
+psychotherapy = true
+psychotherapy_specialties = ["Trauma/PTSD", "Teen violence", "Stress", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Racial and cultural identity", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Identity development", "Family conflict", "Emotional disturbance", "Eating disorders", "Domestic violence", "Domestic abuse", "Developmental disorders", "Cultural adjustment", "Coping skills", "Caregiver stress and support", "Behavioral issues", "Attachment issues", "Anger management"]
+psychotherapy_types = ["Supportive therapy", "Trauma-informed", "Family therapy", "Cognitive Behavioral Therapy"]
 public_transportation = []
-services = ["Psychotherapy"]
+services = ["Play Therapy", "Psychotherapy"]
 staff_gender = []
 trainings = ""
 
