@@ -18,23 +18,24 @@ website = ""
 [[locations]]
 address = "50 1/2 CLAY ST"
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Citywide"]
-credentials = []
-culturally_competent_treatment = ""
+credentials = ["Licensed Creative Arts Therapist"]
+culturally_competent_treatment = "Cultural competency is a process of life time -- it is about meeting the human in front with an open heart and being present instead of being in an auto pilot mode. The curriculum in MPS Art Therapy includes cultural competency, as well as orientation requirements in the non-profit organizations I was part of in service to marginalized populations. I am currently participating in a year-long training program at Integrative Psychiatry Institute (IPI) where cultural competency training is structurally acknowledged. "
 gender_identification = []
 hours_of_operation = []
-languages = []
+languages = ["Korean", "English"]
 latLng = "40.736548506491765, -73.95633723674092"
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Reiki", "Meditation/mindfulness practices", "Psychoeducation"]
-parking = "Yes"
+non_clinical_services = ["Sound and embodied movement practices", "Reiki", "Meditation/mindfulness practices", "Psychoeducation"]
+parking = "Street parking"
 phone_number = "2122039243"
 psychotherapy = true
 psychotherapy_specialties = ["Trauma/PTSD", "Spirituality", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Anxiety"]
 psychotherapy_types = ["Somatic Psychotherapy", "Somatic IFS Therapy", "Trauma-informed", "Group therapy"]
-public_transportation = []
 services = ["Internal Family Systems Therapy", "Sensory Resonance Modalities", "Psychotherapy", "Art therapy"]
 staff_gender = []
-trainings = ""
+trainings = "I have fine arts background with MFA as well as MPS Art Therapy. I am a Reiki master and my practice is informed by body-centered psychotherapy, Internal Family System, and trauma-informed somatic modalities.  "
+[[locations.public_transportation]]
+transport_option = "R/W train on 23rd street, as well as 8 minutes walk to Union Square (L,N,Q,R,W,4,5,6)"
 
 +++
