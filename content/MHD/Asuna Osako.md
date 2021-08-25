@@ -18,16 +18,15 @@ website = "https://www.playfulrecovery.com/"
 [[locations]]
 address = "Online"
 boroughs = ["Citywide"]
-credentials = []
-culturally_competent_treatment = ""
-gender_identification = []
-hours_of_operation = []
-languages = []
+credentials = ["LMSW (Licensed Master Social Worker)"]
+culturally_competent_treatment = "Yes. My formal education in both social work and drama therapy required training in cultural competency. My experience at Womankind included a great deal of structured training in cultural competency, as well as learning through experience. Given my training, experience, and knowledge, I have also had the privilege of training others in this area."
+gender_identification = ["Female"]
+languages = ["Japanese", "English"]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = ["Mindset and Goal Setting", "Inner Child Work", "Storytelling & Expressive Art Processing", "Brainspotting", "Trauma-informed Life Coaching", "Somatic Therapy", "Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
-parking = "Yes"
+parking = "No"
 phone_number = "(347) 441-0766"
 psychotherapy = false
 psychotherapy_specialties = []
@@ -35,6 +34,8 @@ psychotherapy_types = []
 public_transportation = []
 services = []
 staff_gender = []
-trainings = ""
+trainings = "RDT (Registered Drama Therapist); Brainspotting Practitioner"
+[[locations.hours_of_operation]]
+day_hours = "Flexible; negotiated with client"
 
 +++
