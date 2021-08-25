@@ -20,14 +20,13 @@ address = "NYC"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
-gender_identification = []
-hours_of_operation = []
-languages = []
+gender_identification = ["Female"]
+languages = ["English"]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Yoga", "Meditation/mindfulness practices", "Breathwork", "Acupuncture"]
-parking = "Yes"
+non_clinical_services = ["Acupressure/Self Acupressure ", "Yoga", "Meditation/mindfulness practices", "Breathwork", "Acupuncture"]
+parking = "No"
 phone_number = ""
 psychotherapy = false
 psychotherapy_specialties = []
@@ -35,6 +34,8 @@ psychotherapy_types = []
 public_transportation = []
 services = []
 staff_gender = []
-trainings = ""
+trainings = "LMSW, Fordham University certificate for NonProfit Leadership, AcuDetox Specialist - NADA "
+[[locations.hours_of_operation]]
+day_hours = "Flexible "
 
 +++
