@@ -29,11 +29,11 @@ new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
 phone_number = "2122039243"
-psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
+psychotherapy = true
+psychotherapy_specialties = ["Trauma/PTSD", "Spirituality", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Anxiety"]
+psychotherapy_types = ["Trauma-informed", "Group therapy"]
 public_transportation = []
-services = ["Psychotherapy", "Art therapy"]
+services = ["Internal Family Systems Therapy", "Sensory Resonance Modalities", "Psychotherapy", "Art therapy"]
 staff_gender = []
 trainings = ""
 
