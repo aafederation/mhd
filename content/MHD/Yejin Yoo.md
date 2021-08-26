@@ -16,7 +16,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "50 1/2 CLAY ST"
+address = "50 1/2 Clay St."
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Citywide"]
 credentials = ["Licensed Creative Arts Therapist"]
 culturally_competent_treatment = "Cultural competency is a process of life time -- it is about meeting the human in front with an open heart and being present instead of being in an auto pilot mode. The curriculum in MPS Art Therapy includes cultural competency, as well as orientation requirements in the non-profit organizations I was part of in service to marginalized populations. I am currently participating in a year-long training program at Integrative Psychiatry Institute (IPI) where cultural competency training is structurally acknowledged. "

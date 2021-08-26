@@ -16,7 +16,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "6 East 39th Street, 8th Floor New York, NY 10016"
+address = "6 East 39th St, 8th Fl"
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = "No"
