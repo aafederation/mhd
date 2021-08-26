@@ -14,7 +14,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = []
 telehealth = "Yes"
-website = ""
+website = "https://byrepose.com/meghan-sunayna-mehta-lmsw"
 [[locations]]
 address = "276 5th Ave "
 boroughs = ["Staten Island", "Queens", "Manhattan", "Citywide", "Bronx"]
