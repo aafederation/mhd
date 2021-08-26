@@ -1,24 +1,24 @@
 {
   "Items": [
-    "Internal Family Systems",
     "Accelerated Experiential Dynamic Psychotherapy",
-    "Mindfulness-based",
-    "Somatic IFS Therapy",
-    "Somatic Psychotherapy",
-    "Psychoanalysis",
-    "EMDR",
     "Acceptance and Commitment Therapy",
-    "Emotion Focused Therapy",
-    "Humanistic",
-    "Psychodynamic",
-    "Ego Supportive",
     "Cognitive Behavioral Therapy",
-    "Couples therapy",
+    "Couples Therapy",
     "Dialectical Behavioral Therapy",
+    "Ego Supportive",
+    "EMDR",
+    "Emotion Focused Therapy",
     "Family therapy",
     "Group therapy",
-    "Trauma-informed",
-    "Solution-focused therapy",
-    "Supportive therapy"
+    "Humanistic",
+    "Internal Family Systems",
+    "Mindfulness-based",
+    "Psychoanalysis",
+    "Psychodynamic",
+    "Solution-focused Therapy",
+    "Somatic IFS Therapy",
+    "Somatic Psychotherapy",
+    "Supportive Therapy",
+    "Trauma-informed"
   ]
 }

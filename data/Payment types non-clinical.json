@@ -1,10 +1,10 @@
 {
   "Items": [
-    "Any insurance",
-    "Third-party insurance",
-    "Sliding scale fee for patients without insurance",
     "Accepts Out of Network Insurances",
+    "Any insurance",
     "NA",
-    "No insurance necessary"
+    "No insurance necessary",
+    "Sliding scale fee for patients without insurance",
+    "Third-party insurance"
   ]
 }
