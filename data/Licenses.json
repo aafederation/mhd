@@ -1,13 +1,13 @@
 {
   "Items": [
-    "LMSW (Licensed Master Social Worker)",
-    "Licensed Psychologist (PhD/PsyD)",
-    "Licensed Psychiatrist",
-    "LPC (Licensed Professional Counselor)",
-    "LMHC (Licensed Mental Health Counselor)",
-    "LMFT (Licensed Marriage and Family Therapist)",
-    "Licensed Creative Arts Therapist",
+    "LCADAC (Licensed Clinical Alcohol & Drug Abuse Counselor)",
     "LCSW (Licensed Clinical Social Worker)",
-    "LCADAC (Licensed Clinical Alcohol & Drug Abuse Counselor)"
+    "Licensed Creative Arts Therapist",
+    "Licensed Psychiatrist",
+    "Licensed Psychologist (PhD/PsyD)",
+    "LMFT (Licensed Marriage and Family Therapist)",
+    "LMHC (Licensed Mental Health Counselor)",
+    "LMSW (Licensed Master Social Worker)",
+    "LPC (Licensed Professional Counselor)"
   ]
 }
