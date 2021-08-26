@@ -1,16 +1,16 @@
 {
   "Items": [
-    "Seniors (55+)",
-    "Youth and Teenagers (13+)",
-    "Children (5+)",
     "Adults (18+)",
-    "Seniors (60+)",
+    "Adults (19 to 64)",
     "All",
-    "Toddlers and Preschoolers (0 to 5)",
+    "Children (5+)",
     "Children (6 to 10)",
     "Preteens and Tweens (11 to 13)",
-    "Youth and Teenagers (14 to 19)",
-    "Adults (19 to 64)",
-    "Seniors (65+)"
+    "Seniors (55+)",
+    "Seniors (60+)",
+    "Seniors (65+)",
+    "Toddlers and Preschoolers (0 to 5)",
+    "Youth and Teenagers (13+)",
+    "Youth and Teenagers (14 to 19)"
   ]
 }
