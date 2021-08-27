@@ -35,7 +35,7 @@ services = ["Play Therapy", "Psychotherapy"]
 staff_gender = []
 trainings = "Developmental Psychology, Play Therapy, Filial Therapy"
 [[locations.hours_of_operation]]
-day_hours = "9:30-5:30"
+day_hours = "9:30 - 5:30"
 [[locations.public_transportation]]
 transport_option = "Herald Square Subway Station"
 

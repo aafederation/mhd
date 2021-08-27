@@ -16,7 +16,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "352 7th Avenue, NY, NY"
+address = "352 7th Ave."
 boroughs = ["Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "Yearlong cultural competence sequence; ongoing CE"
@@ -35,7 +35,7 @@ services = ["Psychotherapy"]
 staff_gender = []
 trainings = "Emotion Focused Therapy"
 [[locations.hours_of_operation]]
-day_hours = "Monday - Thursday: 9 am-7 pm"
+day_hours = "Monday - Thursday: 9 am - 7 pm"
 [[locations.public_transportation]]
 transport_option = "Subway: F, D, B, A, C, E"
 

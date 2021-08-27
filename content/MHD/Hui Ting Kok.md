@@ -36,6 +36,6 @@ services = ["Substance use/addiction and support services", "Psychotherapy"]
 staff_gender = []
 trainings = "CASAC, CBT, EMDR"
 [[locations.hours_of_operation]]
-day_hours = "Mon-Fr 9-6pm"
+day_hours = "Monday - Friday: 9 am - 6 pm"
 
 +++

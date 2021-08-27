@@ -36,7 +36,11 @@ services = ["Psychotherapy"]
 staff_gender = []
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "11am-2pm and 5-7pm M-Th, 1pm-5pm F"
+day_hours = "Friday: 1 pm - 5 pm"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Thursday: 5 pm - 7 pm"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Thursday: 11 am - 2 pm"
 
 +++
 Kim (they/them) is passionate about supporting people along their healing journeys and paths of self-discovery. Kim doesn’t believe individuals seek out therapy because they are “flawed” or need to be “fixed.” Instead, Kim views therapy as a powerful act of self-care when navigating challenging systems, -isms, circumstances and relationships. Their own lived experience as a neurodivergent Korean adoptee drives their commitment to practicing from a place that holds space for - and celebrates - each person’s multiple and intersecting identities.

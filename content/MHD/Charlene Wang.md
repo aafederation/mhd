@@ -37,7 +37,7 @@ trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Saturday: 9 am - 8 pm"
 [[locations.public_transportation]]
-transport_option = "Times Square Station "
+transport_option = "Subway: N,Q,R,S,1,2,3,7"
 
 +++
 I am an immigrant from Hong Kong and have made a life working on Wall Street for 30 years. Helping with people's healing is my way of giving back to the community.

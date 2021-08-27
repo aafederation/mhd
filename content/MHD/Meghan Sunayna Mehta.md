@@ -12,11 +12,11 @@ payment_types_non_clinical = []
 program = "Repose"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual"]
 telehealth = "Yes"
 website = "https://byrepose.com/meghan-sunayna-mehta-lmsw"
 [[locations]]
-address = "276 5th Ave "
+address = "276 5th Ave."
 boroughs = ["Staten Island", "Queens", "Manhattan", "Citywide", "Bronx"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 culturally_competent_treatment = "Yes, cultural competency is incorporated into all of my practice. "
@@ -35,7 +35,7 @@ services = ["Psychotherapy", "Psychological testing and assessment", "Art therap
 staff_gender = []
 trainings = "MSW from Columbia University, Trauma Informed Cognitive Behavioral Therapy Certification, Motivational Interviewing Certification"
 [[locations.hours_of_operation]]
-day_hours = "9am - 8pm"
+day_hours = "9 am - 8 pm"
 [[locations.public_transportation]]
 transport_option = "Bus"
 [[locations.public_transportation]]

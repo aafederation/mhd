@@ -12,7 +12,7 @@ payment_types_non_clinical = []
 program = "Melissa Moy - Private Practice"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = ["Individual"]
+tags = ["Individual", "Online"]
 telehealth = "Yes"
 website = "https://www.melissamoynp.com/"
 [[locations]]
@@ -36,6 +36,10 @@ services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = []
 trainings = "BS in psychology; BS in Nursing; RN; CBT, REBT"
 [[locations.hours_of_operation]]
-day_hours = "M, T (12-5pm); Wed-Thurs (9-5); Fri (9-3)"
+day_hours = "Friday: 9 am - 3 pm"
+[[locations.hours_of_operation]]
+day_hours = "Wednesday - Thursday: 9 am - 5 pm"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Tuesday: 12 pm - 5 pm"
 
 +++

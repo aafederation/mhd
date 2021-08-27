@@ -12,7 +12,7 @@ payment_types_non_clinical = []
 program = "Repose"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Online", "Individual"]
 telehealth = "Yes"
 website = "https://byrepose.com/repose-therapist-prerna-menon-lmsw-ctp-o"
 [[locations]]
@@ -36,7 +36,7 @@ services = ["Substance Abuse Services", "Psychotherapy"]
 staff_gender = []
 trainings = "Yes, NYU grad school had a DROP class specifically designed for this. "
 [[locations.hours_of_operation]]
-day_hours = "9-8"
+day_hours = "9 am - 8 pm"
 
 +++
 I use my intersectional identity as a queer immigrant of color to create an inclusive space for the clients I serve. I am competent in helping folks navigate the entanglements and beauty of sexuality, gender, spirituality, race, culture, and integration. My goal is to help you feel liberated in your body, unashamedly free, and excited for the future. I believe in the therapeutic process as being relational, collaborative & tailor made to your needs, where we explore your inner world without judgment & with curiosity. We do this, in the safety of a compassionate & authentic therapeutic relationship, where we can awaken and embolden your innate capabilities for growth & wisdom. I am a certified trauma professional and am also certified in the implementation of evidenced-based practices with individuals suffering from severe and persistent mental illness. I have also completed certification trainings in DBT, CBT, MI, ACT, SE, IFS, and IPT. I am warm, compassionate, and always practice with humility. I use an amalgamation of talk therapy, humor, and integrative mind-body techniques to help folks navigate life's often daunting challenges with courage & bravery. I believe in the core of this work, and would be humbled by the chance to work with you. Call today for your free consult.

@@ -16,7 +16,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "7111 5th Ave"
+address = "7111 5th Ave."
 boroughs = ["Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
