@@ -16,7 +16,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "Jackson Heights, 11372"
+address = "Jackson Heights"
 boroughs = ["Citywide"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "yes, social work school. "

@@ -12,11 +12,11 @@ payment_types_non_clinical = []
 program = "Arab American Association"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "7111 5th Ave, Brooklyn, NY 11209"
+address = "7111 5th Ave"
 boroughs = ["Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""

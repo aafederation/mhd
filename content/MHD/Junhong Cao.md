@@ -16,13 +16,13 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "https://mindconnectionsnyc.com/about/june-cao/"
 [[locations]]
-address = "600 3RD AVE 2nd FL, New York, NY 10016"
+address = "600 3rd Ave, 2nd Fl"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "Yes. In my doctoral program, multiculturalism and diversity training is required. In my internship and work places, cultural competency has been implemented in training and treatment models. I have also trained other clinicians and interns at medical schools cultural competency through workshops and webinars."
 gender_identification = ["Female"]
 languages = ["Korean", "Japanese", "Chinese (Cantonese)", "Chinese (Mandarin)", "English"]
-latLng = ""
+latLng = "40.749461933449695, -73.97595211147755"
 new_clients = "Yes"
 new_clients_detail = "Other well-trained clinicians are under my supervision to provide Mental Health Counseling. They are all Asians and at least bilingual in Chinese and English."
 non_clinical_services = ["Psychoeducation", "Peer support groups", "Meditation/mindfulness practices", "Breathwork"]

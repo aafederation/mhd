@@ -12,7 +12,7 @@ payment_types_non_clinical = []
 program = "Private practice"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Online", "Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]

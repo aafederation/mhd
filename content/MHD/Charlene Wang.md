@@ -16,7 +16,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "29 west 38th street, 10th floor"
+address = "29 west 38th St, 10th Fl"
 boroughs = ["Manhattan"]
 credentials = []
 culturally_competent_treatment = ""

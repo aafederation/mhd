@@ -16,7 +16,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "85 Livingston Street , Brooklyn NY 11201"
+address = "85 Livingston St."
 boroughs = ["Manhattan", "Brooklyn"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "Yes, via my training at NYU's School of Social Work"

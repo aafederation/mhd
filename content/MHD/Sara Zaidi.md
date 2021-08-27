@@ -16,13 +16,13 @@ tags = []
 telehealth = "Yes"
 website = "http://www.sara-zaidi.com/about"
 [[locations]]
-address = "19 West 34th Street, NY NY 10001"
+address = "19 West 34th St."
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = "Yes. Received several trainings on best practices while working with culturally specific populations, including understanding mannerisms, behaviors, social norms and preferences."
 gender_identification = ["Female"]
 languages = ["Urdu", "Hindi", "English"]
-latLng = ""
+latLng = "40.7494613163678, -73.98590139508286"
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = ["Psychoeducation"]
