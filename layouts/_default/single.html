@@ -66,6 +66,9 @@
 							{{ with $location.staff_gender }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.staff_gender") "items" .) }}
 							{{ end }}
+							{{ with $location.gender_identification }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.gender_identification") "items" .) }}
+							{{ end }}
 							{{ with $location.culturally_competent_treatment }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.culturally_competent_treatment") "items" .) }}
 							{{ end }}
