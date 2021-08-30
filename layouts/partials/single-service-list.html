@@ -8,7 +8,7 @@
 		{{ else }}
 			{{ with .items }}
 				{{ if eq ( printf "%T" . ) "string" }}
-					<li>{{ . }}</li>
+					<li>{{ safeHTML (replace . "\n" "<br>") }}</li>
 				{{ else }}
 					{{ range sort . }}
 						{{ if reflect.IsMap . }}
