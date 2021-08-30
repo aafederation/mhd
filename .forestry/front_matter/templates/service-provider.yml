@@ -49,6 +49,16 @@ fields:
   label: Sliding scale (clinical)
   description: Does the service provider offer sliding scale for clinical services?
   default: true
+- name: payment_info_clinical
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Payment info (clinical)
+  description: Payment info for clinical services
 - name: payment_types_non_clinical
   type: list
   config:
@@ -67,6 +77,16 @@ fields:
   label: Sliding scale (non-clinical)
   description: Does the service provider offer sliding scale for non clinical services?
   default: true
+- name: payment_info_non_clinical
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Payment info (non-clinical)
+  description: Payment info for non-clinical services
 - name: ada_compliant
   type: boolean
   label: ADA compliant
