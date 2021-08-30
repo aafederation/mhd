@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = []
 client_requirements = ""
-draft = true
 email = "rushil.shakya@aafederation.org"
 highlight = false
 image = ""
