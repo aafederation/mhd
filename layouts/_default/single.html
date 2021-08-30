@@ -30,6 +30,9 @@
 							{{ with $org.payment_types }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "payment_types") "items" .) }}
 							{{ end }}
+							{{ with $org.payment_info_clinical }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "payment_info_clinical") "items" .) }}
+							{{ end }}
 							{{ with $org.sliding_scale_clinical }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "sliding_scale_clinical") "items" .) }}
 							{{ end }}
@@ -38,6 +41,9 @@
 							{{ end }}
 							{{ with $org.payment_types_non_clinical }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "payment_types_non_clinical") "items" .) }}
+							{{ end }}
+							{{ with $org.payment_info_non_clinical }}
+								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "payment_info_non_clinical") "items" .) }}
 							{{ end }}
 							{{ with $org.sliding_scale_non_clinical }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "sliding_scale_non_clinical") "items" .) }}
