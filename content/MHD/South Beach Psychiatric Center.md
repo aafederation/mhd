@@ -6,6 +6,8 @@ email = ""
 highlight = false
 image = ""
 org = "South Beach Psychiatric Center"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 payment_types_non_clinical = []
 program = ""
@@ -15,11 +17,15 @@ tags = ["Organization", "Hospital"]
 telehealth = "Not applicable"
 website = "www.flushinghospital.org"
 [[locations]]
-address = "777 Seaview Avenue"
+address = "777 Seaview Ave."
 boroughs = ["Staten Island", "Manhattan", "Brooklyn"]
+credentials = []
+culturally_competent_treatment = ""
+gender_identification = []
 languages = []
 latLng = "40.58212250719449, -74.08047759999998"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
 phone_number = ""
@@ -28,6 +34,7 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 services = ["support Groups", "Outpatient and inpatient mental health services"]
 staff_gender = []
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Inpatient: 24/7"
 [[locations.public_transportation]]
