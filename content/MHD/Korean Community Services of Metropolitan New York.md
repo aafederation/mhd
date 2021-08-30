@@ -6,6 +6,8 @@ email = "yyoun@kcsny.org"
 highlight = false
 image = ""
 org = "Korean Community Services of Metropolitan New York"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["Sliding scale fee for patients without insurance", "UnitedHealthcare", "Oxford", "Optum", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Aetna"]
 payment_types_non_clinical = []
 program = "KCS Mental Health Clinic "
@@ -15,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.kcsny.org/wellness/mental-health/"
 [[locations]]
-address = "42-16 162nd St, 2nd floor"
+address = "42-16 162nd St, 2nd Fl"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
