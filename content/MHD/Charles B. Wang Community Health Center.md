@@ -6,6 +6,8 @@ email = ""
 highlight = true
 image = ""
 org = "Charles B. Wang Community Health Center"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["Third-party insurance", "Medicare", "Medicaid", "Sliding scale fee for patients without insurance"]
 payment_types_non_clinical = []
 program = ""
@@ -19,6 +21,7 @@ address = "268 Canal St."
 boroughs = ["Citywide", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
+gender_identification = []
 languages = ["Korean", "Mandarin", "Cantonese"]
 latLng = "40.71878963726238, -74.00132840234299"
 new_clients = "Yes"
@@ -40,10 +43,11 @@ day_hours = "Wednesday: 10 am - 6 pm"
 [[locations.hours_of_operation]]
 day_hours = "Thursday: 11 am - 6 pm"
 [[locations]]
-address = "136-26 37th Ave"
+address = "136-26 37th Ave."
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
+gender_identification = []
 languages = ["Korean", "Mandarin", "Cantonese"]
 latLng = "40.76170554286881, -73.83005267350512"
 new_clients = "Yes"
@@ -65,10 +69,11 @@ day_hours = "Wednesday: 10 am-6 pm"
 [[locations.hours_of_operation]]
 day_hours = "Thursday: 11 am-6 pm"
 [[locations]]
-address = "137-43 45th Ave"
+address = "137-43 45th Ave."
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
+gender_identification = []
 languages = ["Korean", "Mandarin", "Cantonese"]
 latLng = "40.75192982760588, -73.82200221212504"
 new_clients = "Yes"
