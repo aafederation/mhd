@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-age_groups = []
+age_groups = ["Children (1 to 5)"]
 client_requirements = ""
 email = "rushil.shakya@aafederation.org"
 highlight = false
