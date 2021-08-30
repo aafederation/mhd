@@ -21,7 +21,7 @@ website = "https://teresaleemd.com/"
 address = "99 Wall St #136, NY, NY 10005"
 boroughs = ["Citywide"]
 credentials = []
-culturally_competent_treatment = "I have been participating in group trainings and organizations for years now, which have cultural and social justice programming and dialogue. I have been running online groups for APISA identified therapists since 4/2020. I also work with APISA identified persons in individual and group therapies and medication management. "
+culturally_competent_treatment = ""
 gender_identification = ["Female"]
 languages = ["English"]
 latLng = "40.71061133836187, -74.00689568702596"
@@ -41,3 +41,4 @@ trainings = "MD, Group Therapist"
 day_hours = "11 am - 7 pm"
 
 +++
+I am a psychiatrist who also provides therapy for individuals, couples, and groups. All of my sessions are online so people can have more flexibility to fit their sessions into their busy schedules. Feeling "stuck" or even "paralyzed" in your career, daily life, or relationships (in areas even beyond romantic) are often why people seek me. My culturally open approach means we will understand how your past and present relationships, ideas, and feelings shape who you are today. I believe talk therapy can lead to deep and lasting changes, and medications, when thoughtfully prescribed, can lessen the intensity of pain and suffering. With my medical and therapy resources, we will create an approach that balances both comfort and personal growth.
