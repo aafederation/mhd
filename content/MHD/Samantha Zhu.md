@@ -2,11 +2,12 @@
 ada_compliant = true
 age_groups = ["Adults (18 to 64)"]
 client_requirements = ""
-draft = true
 email = "info@samzhutherapy.com"
 highlight = false
 image = ""
 org = "Samantha Zhu"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["NA"]
 payment_types_non_clinical = []
 program = "Samantha Zhu Mental Health Counseling P.C."
