@@ -41,4 +41,4 @@ day_hours = "Inpatient: 24/7"
 transport_option = "Bus: S51 and S52 "
 
 +++
-The State Hospital is focused on Intermediate Care. We do not do direct admissions at inpatient as we service pts who have been at municipal hospitals like HHC, Lutheran, Maimonides, etc when their patient needs further hospitalization for further stabilization or language specificity. SBPC inpatient primarily serve Chinese dialects, but Ft Hamilton OPD does have some limited capacity for outpatient Korean language patient as well as Chinese. Bensonhurst OPD serves some Chinese speaking patient who live in their own catchment area.
+South Beach Psychiatric Center provides intermediate level inpatient services to persons living in western Brooklyn, southern Staten Island, and Manhattan south of 42nd Street. The center also operates a specialized eight bed inpatient unit for monolingual Chinese persons from Brooklyn, Queens, and Manhattan who are in need of intermediate care.

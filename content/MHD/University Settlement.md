@@ -43,4 +43,4 @@ transport_option = "Bus"
 transport_option = "Subway: B,D,F"
 
 +++
-We work with New Yorkers of all ages. We infuse a commitment to civic engagement, equity, and communal action into each of our programs, which include early childhood education, mental health and wellness, benefits assistance and eviction prevention, adult literacy and education, healthy aging, community and recreation centers, performing and visual arts, and youth development.
+University Settlement has been offering the individuals and families we serve resources by which they can learn, grow, and thrive since 1926. To this day, we are proud to be at the forefront of social service providers in the Broadway-Slavic Village neighborhood. By removing barriers to help families overcome poverty, we empower citizens to maximize their potential and reach their goals. We do this by protecting and educating children, advancing literacy and job readiness, providing nutritious and sustaining meals, strengthening families, and serving the elderly.
