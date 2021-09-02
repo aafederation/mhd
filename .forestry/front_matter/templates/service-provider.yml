@@ -357,9 +357,8 @@ fields:
         section: data
         file: data/Staff gender.json
         path: Items
-    label: Staff gender
-    description: What is the gender of your staff(s) providing mental health services?
-      (check all that apply)
+    description: What is the gender of the service provider(s)? (check all that apply)
+    label: Gender Identification of Provider(s)
   - name: gender_identification
     type: list
     config:
