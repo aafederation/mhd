@@ -6,7 +6,9 @@ email = ""
 highlight = false
 image = ""
 org = "Gouverneur Health "
-payment_types = ["Child Health Plus", "Sliding scale fee for patients without insurance", "MetroPlus", "HealthFirst", "Fidelis", "Emblem", "Oxford", "Medicare", "Medicaid", "Blue Cross/Blue Shield", "Aetna"]
+payment_info_clinical = ""
+payment_info_non_clinical = ""
+payment_types = ["Child Health Plus", "Sliding scale fee for patients without insurance", "MetroPlus", "HealthFirst", "Fidelis", "EmblemHealth", "Oxford", "Medicare", "Medicaid", "Blue Cross/Blue Shield", "Aetna"]
 payment_types_non_clinical = []
 program = "Asian Bicultural Clinic (ABC)"
 sliding_scale_clinical = false
@@ -17,9 +19,12 @@ website = "https://www.nychealthandhospitals.org/gothamhealth/gouverneur/our-ser
 [[locations]]
 address = "227 Madison St."
 boroughs = ["Citywide"]
+credentials = []
+gender_identification = []
 languages = ["Chinese (Cantonese)", "Chinese (Toishanese)", "Chinese (Mandarin)", "English"]
 latLng = "40.713609123793916, -73.98796082840033"
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Supported housing", "Psychoeducation", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Case management"]
 parking = "Street parking"
 phone_number = "212-238-7332"
@@ -28,6 +33,7 @@ psychotherapy_specialties = ["Women's issues", "Weight loss", "Trauma/PTSD", "Su
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychological testing and assessment", "Psychiatric evaluation", "Medication management", "Art therapy"]
 staff_gender = ["Male", "Female"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 5 pm"
 [[locations.public_transportation]]
