@@ -6,7 +6,9 @@ email = "karp.lgbtq@gmail.com"
 highlight = false
 image = ""
 org = "Korean American Rainbow Parents (KARP)"
-payment_types = ["NA"]
+payment_info_clinical = ""
+payment_info_non_clinical = ""
+payment_types = []
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = false
@@ -17,10 +19,13 @@ website = "https://www.nqapia.org/wpp/healthandhealing/"
 [[locations]]
 address = "Online Community"
 boroughs = ["Citywide"]
+credentials = []
+gender_identification = []
 hours_of_operation = []
 languages = ["Korean", "English"]
 latLng = ""
 new_clients = "Yes"
+new_clients_detail = ""
 non_clinical_services = ["Family support", "Awareness and stigma campaigns", "Advocacy", "Peer support groups"]
 parking = "No"
 phone_number = ""
@@ -30,6 +35,7 @@ psychotherapy_types = []
 public_transportation = []
 services = ["Support Groups"]
 staff_gender = []
+trainings = ""
 
 +++
 Korean American Rainbow Parents (KARP, 성소수자 자녀를 사랑하는 미주 한인 무지개 부모 모임) aims to build compassion on queer issues within the Korean American and Asian American communities, on behalf of our LGBTQ loved ones. We offer peer support and resources relating to LGBTQ topics via phone call, email, and in-person gathering.
