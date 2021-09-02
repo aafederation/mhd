@@ -43,4 +43,4 @@ transport_option = "Subway: A, E, C, B, D, M, F, 1"
 transport_option = "Bus: M14"
 
 +++
-The Senior Health and Consultation Center is a geriatric mental health program that enables clients who are isolated, have overwhelmed family caregivers, or would likely have to be institutionalized for survival to remain safely in their homes and the community for as long as they choose and are able.
+Greenwich House helps individuals and families lead more fulfilling lives by offering social and health services, cultural and educational programs and opportunities for civic involvement to New Yorkers of all ages and backgrounds.

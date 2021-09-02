@@ -38,4 +38,4 @@ staff_gender = []
 trainings = ""
 
 +++
-Korean American Rainbow Parents (KARP, 성소수자 자녀를 사랑하는 미주 한인 무지개 부모 모임) aims to build compassion on queer issues within the Korean American and Asian American communities, on behalf of our LGBTQ loved ones. We offer peer support and resources relating to LGBTQ topics via phone call, email, and in-person gathering.
+We're building bridges among lesbian, gay, bisexual, trans, and questioning (LGBTQ) people of Korean descent, with parents, family members, faith institutions, and allies. We seek to transform the Korean American community into a welcoming and loving space for everyone.

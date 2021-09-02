@@ -6,6 +6,8 @@ email = "allison.devlin@nyulangone.org"
 highlight = false
 image = ""
 org = "NYU Langone Brooklyn"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["Sliding scale fee for patients without insurance", "TriWest", "TRICARE", "Oxford", "Medicare", "Medicaid", "Humana", "Cigna", "Blue Cross/Blue Shield", "Beacon Health", "AmeriHealth", "AMERIGROUP", "Aetna", "1199SEIU"]
 payment_types_non_clinical = []
 program = "Sunset Terrace Family Health Center"
@@ -19,6 +21,7 @@ address = "514 49th St."
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
+gender_identification = []
 languages = ["Arabic (Yemeni)", "Arabic (Moroccan)", "Arabic (Egyptian)", "Arabic (Levantine)", "Chinese (Cantonese)", "Chinese (Mandarin)", "English"]
 latLng = "40.64594500085573, -74.00925300578919"
 new_clients = "Yes"
@@ -40,4 +43,4 @@ transport_option = "Bus: B53, B37, B9"
 transport_option = "Subway: R"
 
 +++
-The team at Sunset Terrace Family Health Center, part of the Family Health Centers at NYU Langone, provides behavioral health services, adult primary and specialty care, an on-site pharmacy, and dental care for adults and children. All programs offer bilingual services and are respectful of the needs of the LGBTQ+ community.
+The mission of NYU Langone is to **serve, to teach, and to discover**. We are committed to making world- class contributions that place service to human health at the center of an academic culture devoted to excellence in research, patient care, and education.
