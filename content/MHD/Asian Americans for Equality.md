@@ -13,7 +13,7 @@ payment_types_non_clinical = ["No insurance necessary"]
 program = ""
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Organization"]
 telehealth = "Not applicable"
 website = "https://www.aafe.org/2016/10/aafe-helps-people-improve-their-lives.html"
 [[locations]]

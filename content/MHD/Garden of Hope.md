@@ -18,7 +18,7 @@ telehealth = "Yes"
 website = "https://gohny.org/counseling/#gethelp"
 [[locations]]
 address = "Confidential Locations - Call or Email for an appointment"
-boroughs = []
+boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
