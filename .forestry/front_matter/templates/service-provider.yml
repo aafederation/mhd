@@ -262,17 +262,6 @@ fields:
         format: markdown
     label: Trainings
     description: Relevant background training or credentials
-  - name: culturally_competent_treatment
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Culturally competent treatment
-    description: Please elaborate if you have been trained or educated in culturally
-      competent treatment models
   - name: languages
     type: list
     config:
