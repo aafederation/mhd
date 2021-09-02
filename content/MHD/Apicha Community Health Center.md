@@ -6,6 +6,8 @@ email = ""
 highlight = false
 image = ""
 org = "Apicha Community Health Center"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["Sliding scale fee for patients without insurance", "Any insurance"]
 payment_types_non_clinical = []
 program = "Clinic"
@@ -19,6 +21,7 @@ address = "400 Broadway"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
+gender_identification = []
 languages = ["Korean", "Japanese", "Chinese (Cantonese)", "Chinese (Mandarin)", "English"]
 latLng = "40.71881118722655, -74.00227703879322"
 new_clients = "Yes"
@@ -38,3 +41,4 @@ day_hours = "Monday - Friday: 9 am - 5 pm"
 transport_option = "Subway"
 
 +++
+_Apicha Community Health Center’s_ mission is to improve the health of our community and to increase access to comprehensive primary care, preventative health services, mental health, and supportive services. We are committed to excellence and to providing culturally competent services that enhance the quality of life. We advocate for and provide a welcoming environment for underserved and vulnerable people, especially Asians and Pacific Islanders, the LGBT Community, and individuals living with and affected by HIV/AIDS.

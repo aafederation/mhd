@@ -47,4 +47,4 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
-Outpatient behavioral health organization offering mental health and substance use treatment as well as medication management.
+Bleuler Psychotherapy Center's (BPC) mission is to provide high quality, low cost psychotherapeutic services to children, adolescents, adults, couples and families. 

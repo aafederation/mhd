@@ -6,6 +6,8 @@ email = "info@arabamericanny.org"
 highlight = true
 image = ""
 org = "Arab American Association of NY"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["No insurance necessary"]
 payment_types_non_clinical = []
 program = ""
@@ -19,6 +21,7 @@ address = "7111 5th Ave."
 boroughs = ["Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
+gender_identification = []
 languages = ["Arabic"]
 latLng = "40.63230551173878, -74.0212758446735"
 new_clients = ""
@@ -38,4 +41,4 @@ day_hours = "Monday - Friday: 10 am - 6 pm"
 transport_option = "Subway: N, Q, W, R to Brooklyn"
 
 +++
-In 2001, a group of prominent Arab immigrants and Arab Americans recognized the growing need in the community for an organization that would serve the social and economic needs of the growing Arab population in Bay Ridge and the surrounding neighborhoods of Brooklyn, NY. Although the process of establishing the organization began before the September 11th attacks, the founders felt compelled to take more immediate action after they witnessed the heightened sense of fear and the acts of blatant discrimination aimed at their community in the days following the attacks.
+Our mission is to support and empower the Arab American and Arab immigrant community by providing services to help them adjust to their new home and become active members of society. Our aim is for families to achieve goals of independence, productivity, and stability.

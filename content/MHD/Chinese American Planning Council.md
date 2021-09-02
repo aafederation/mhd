@@ -41,4 +41,4 @@ day_hours = "Monday - Tuesday: 9 am - 5 pm "
 transport_option = "Subway: D train to 9th Ave. Station"
 
 +++
-CPC is a social services organization that creates positive social change. We empower Asian American, immigrant, and low-income communities in New York City by ensuring they have equitable access to the resources and opportunities needed to thrive.
+Chinese-American Planning Council’s mission is to promote the social and economic empowerment of Chinese American, immigrant, and low-income communities.
