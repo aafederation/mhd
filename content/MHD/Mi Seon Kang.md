@@ -7,6 +7,8 @@ email = "miseon@verizon.net"
 highlight = false
 image = ""
 org = "Mi Seon Kang"
+payment_info_clinical = "$175 per session"
+payment_info_non_clinical = ""
 payment_types = ["NA"]
 payment_types_non_clinical = []
 program = "Private Practice"
@@ -42,4 +44,4 @@ transport_option = "Subway"
 transport_option = "Bus"
 
 +++
-"As you embark on the courageous path of self-discovery and healing, connecting with a caring, collaborative, skillful therapist is a crucial first step. With years of experience, I offer a warm, reflective, and compassionate safe space that will enable you gain clarity, a greater sense of freedom and authenticity by exploring your unconscious and limited thought patterns/beliefs and experientially processing your unresolved past traumas. 
+"As you embark on the courageous path of self-discovery and healing, connecting with a caring, collaborative, skillful therapist is a crucial first step. With years of experience, I offer a warm, reflective, and compassionate safe space that will enable you gain clarity, a greater sense of freedom and authenticity by exploring your unconscious and limited thought patterns/beliefs and experientially processing your unresolved past traumas.
