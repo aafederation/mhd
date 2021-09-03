@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.iamwomankind.org/our-services/"
 [[locations]]
-address = "32 Broadway, 10th Fl"
+address = "32 Broadway, 10th Fl."
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
