@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.kcsny.org/wellness/mental-health/"
 [[locations]]
-address = "42-16 162nd St, 2nd Fl"
+address = "42-16 162nd St, 2nd Fl."
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
