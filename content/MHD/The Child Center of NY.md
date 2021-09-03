@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://childcenterny.org/asian-outreach-program/"
 [[locations]]
-address = "140-15B Sanford Avenue, Flushing"
+address = "140-15B Sanford Ave, Flushing"
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
