@@ -1,16 +1,15 @@
 +++
 ada_compliant = true
-age_groups = []
+age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = ""
 draft = true
-email = ""
+email = "callacjo@gmail.com"
 highlight = false
 image = ""
-locations = []
 org = "Calla C. Jo, LP, LCSW"
-payment_info_clinical = ""
-payment_info_non_clinical = ""
-payment_types = []
+payment_info_clinical = "$150 - $250"
+payment_info_non_clinical = "$150 - $250"
+payment_types = ["N/A"]
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
@@ -18,6 +17,28 @@ sliding_scale_non_clinical = true
 tags = []
 telehealth = "Not applicable"
 website = ""
+[[locations]]
+address = "928 Broadway, Suite 804, New York, NY 10010, USA"
+boroughs = ["Manhattan"]
+credentials = ["LCSW (Licensed Clinical Social Worker)"]
+gender_identification = []
+languages = ["English"]
+latLng = "40.740190665800064, -73.98920520877783"
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = []
+parking = "No"
+phone_number = "917-428-7347"
+psychotherapy = true
+psychotherapy_specialties = ["Suicidal ideation", "Sexual harassment and assault", "Racial and cultural identity", "Parenting", "Panic attacks/disorder", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Chronic illness", "Caregiver stress and support", "Attachment issues", "Anxiety", "Anger management"]
+psychotherapy_types = ["Group therapy", "Family therapy", "Couples Therapy"]
+services = ["Psychotherapy"]
+staff_gender = ["Female"]
+trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: Midday to evening hours"
+[[locations.public_transportation]]
+transport_option = "M23 bus, N/R/6 trains"
 
 +++
 Experienced practitioner with a warm and collaborative approach. Licensed in Psychoanalysis and Clinical Social Work.
