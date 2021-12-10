@@ -37,7 +37,7 @@ services = ["Psychotherapy"]
 staff_gender = ["Female"]
 trainings = "MBTI Certified "
 [[locations.hours_of_operation]]
-day_hours = "Varies"
+day_hours = "See my website for up-to-date information about my availability. "
 
 +++
 Asha De Costa is a Sri Lankan-Japanese therapist specializing in treating adults with anxiety, depression, race-related stress, and trauma. She uses a combination of strengths-based therapy, CBT, and DBT to help clients feel empowered and reach their goals. A graduate of Columbia University’s multicultural counseling program, Asha strives to provide empathic and tailored counseling.
