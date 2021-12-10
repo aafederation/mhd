@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
 client_requirements = ""
-draft = true
 email = "farzana@aisle-talk.com"
 highlight = false
 image = "/img/img_9146-farzana-rahman.jpg"
