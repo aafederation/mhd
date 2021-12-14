@@ -1,22 +1,44 @@
 +++
 ada_compliant = true
-age_groups = []
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
 client_requirements = ""
 draft = true
-email = ""
+email = "drdongsookim@gmail.com"
 highlight = false
-image = ""
-locations = []
+image = "/img/dongsoo-kim.jpg"
 org = "Dongsoo Kim"
-payment_info_clinical = ""
-payment_info_non_clinical = ""
-payment_types = []
+payment_info_clinical = "For initial psychotherapy interview, $300 - $400 and follow-ups $200 -$300\n"
+payment_info_non_clinical = "Same as the clinical fee schedule "
+payment_types = ["Medicare"]
 payment_types_non_clinical = []
-program = ""
+program = "Dongsoo Kim, PHD"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = []
-telehealth = "Not applicable"
+telehealth = "Yes"
 website = ""
+[[locations]]
+address = "163 Engle Street\nBLD #1A\nEnglewood, NJ 07631"
+boroughs = ["Citywide"]
+credentials = ["Licensed Psychologist (PhD/PsyD)"]
+gender_identification = ["Male"]
+languages = ["Korean", "English"]
+latLng = "40.89839706896926, -73.96974040893102"
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = ["Psychoeducation", "Meditation/mindfulness practices"]
+parking = "Yes"
+phone_number = "201-894-1115"
+psychotherapy = true
+psychotherapy_specialties = ["Trauma/PTSD", "Suicidal ideation", "Stress", "Self-esteem", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Personality disorders", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Mood disorders", "Men's issues", "Intellectual disability", "Identity development", "Family conflict", "Emotional disturbance", "Eating disorders", "Domestic violence", "Divorce and separation", "Depression", "Dementia", "Cultural adjustment", "Coping skills", "Codependency", "Bipolar disorder", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management", "Alcohol abuse"]
+psychotherapy_types = ["Supportive Therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
+services = ["Psychotherapy", "Psychological testing and assessment"]
+staff_gender = []
+trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "10 am - 7 pm"
+[[locations.public_transportation]]
+transport_option = "Bus"
 
 +++
+I am a bilingual clinical neuropsychologist and clinical psychologist licensed in NJ and NY.
