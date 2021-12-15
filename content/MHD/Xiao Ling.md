@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-client_requirements = "Currently I'm conducting teletherapy only. Clients must be above 18. Clients must reside in NY or NJ. I'm unable to accept high-risk clients (e.g. suicidal or homicidal, severe eating disorder, servere substance use, etc) due to the limited resources at my practice. "
+client_requirements = ""
 draft = true
 email = "xiaolinghsp@gmail.com"
 highlight = false
