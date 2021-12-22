@@ -16,7 +16,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "http://www.sara-zaidi.com/about"
 [[locations]]
 address = "19W 34th St.\nNew York, NY 10036"
 boroughs = ["Citywide"]
