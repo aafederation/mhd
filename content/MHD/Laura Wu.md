@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 client_requirements = ""
-draft = true
 email = "laura.wu@resiliencelab.us"
 highlight = false
 image = "/img/dsc_3696-copy-2-laura-wu.JPG"
