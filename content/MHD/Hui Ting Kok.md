@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
 client_requirements = ""
-draft = true
 email = "Huiting@huitingkok.com"
 highlight = false
 image = ""

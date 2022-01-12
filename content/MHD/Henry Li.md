@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["All"]
 client_requirements = ""
-draft = true
 email = "henryli0103@gmail.com"
 highlight = false
 image = "/img/inbound5555022260756816282-henry-li.jpg"
