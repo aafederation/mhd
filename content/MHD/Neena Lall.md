@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 client_requirements = ""
-draft = true
 email = "neenalallLCSW@gmail.com"
 highlight = false
 image = "/img/neena_0010-neena-lall.jpg"

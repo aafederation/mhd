@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 client_requirements = ""
-draft = true
 email = "naeema@coopertherapy.com"
 highlight = false
 image = "/img/screen-shot-2021-12-07-at-6-24-36-pm-naeema-akter.png"
