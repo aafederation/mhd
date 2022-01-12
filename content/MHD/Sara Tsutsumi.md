@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = ""
-draft = true
 email = "wessmst@gmail.com"
 highlight = false
 image = "/img/profile-photo-img_0109-sara-tsutsumi.jpg"

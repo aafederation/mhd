@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "Toddlers and Preschoolers (0 to 5)"]
 client_requirements = ""
-draft = true
 email = "sz506@nyu.edu"
 highlight = false
 image = "/img/c293cdc0-4541-434c-8a15-da630bfc15ee-sara-zaidi.jpeg"
