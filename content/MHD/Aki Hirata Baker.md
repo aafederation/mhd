@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = []
 client_requirements = ""
-draft = true
 email = "Soulflowermedicine@gmail.com"
 highlight = false
 image = "/img/cd1a72f3-86c9-4c0d-bca2-32349c1391fa-aki-baker.jpeg"
