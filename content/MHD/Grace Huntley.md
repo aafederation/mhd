@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
 client_requirements = ""
-draft = true
 email = "hello@gracehuntleycounseling.com"
 highlight = false
 image = "/img/c61c3312-388c-4503-942f-84b2fad005fe-grace-huntley.png"
