@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
 client_requirements = "Accepting self pay clients at this time"
-draft = true
 email = "support@ninonuevoconsulting.com"
 highlight = false
 image = "/img/self-photo-for-pt-posts-ireen-ninonuevo.jpg"
