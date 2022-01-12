@@ -43,4 +43,6 @@ day_hours = "Saturday - Sunday: 9 am - 5 pm"
 transport_option = "Subway: F"
 
 +++
+Hamilton-Madison House empowers individuals and families in New York City to achieve success at all stages of their lives. Through culturally sensitive and linguistically accessible services, Hamilton-Madison House addresses the education, health and social needs of all New York City residents, immigrant and ethnic minority communities, including but not limited to the Lower East Side, Chinatown and Two Bridges neighborhoods of Manhattan.
+
 Hamilton-Madison House is a voluntary, non-profit settlement house dedicated to improving the quality of life of its community, primarily those in the Two Bridges/Chinatown area of Manhattan's Lower East Side. The neighborhood is a federally designated poverty area, with a constantly changing mixture of ethnic groups, and lack of adequate services and resources.
