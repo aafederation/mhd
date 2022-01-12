@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
 client_requirements = ""
-draft = true
 email = "be@dantanh.com"
 highlight = false
 image = ""

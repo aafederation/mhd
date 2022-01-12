@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["All"]
 client_requirements = ""
-draft = true
 email = "contact@queenspsychology.com"
 highlight = false
 image = "/img/elsa-lee-professional-picture-elsa-lee.jpg"
