@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (18 to 64)", "Youth and Teenagers (14 to 17)"]
 client_requirements = ""
-draft = true
 email = "ykcphd@gmail.com"
 highlight = false
 image = ""

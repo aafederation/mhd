@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
 client_requirements = ""
-draft = true
 email = "yejin@yejinlee.co"
 highlight = false
 image = "/img/ap5a5025-yejin-lee.jpg"

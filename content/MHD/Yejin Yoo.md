@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 17)"]
 client_requirements = ""
-draft = true
 email = "yejin@fullspectrumcat.com"
 highlight = false
 image = ""
