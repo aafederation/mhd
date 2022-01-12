@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (18 to 64)"]
 client_requirements = ""
-draft = true
 email = "info@dramishah.com"
 highlight = false
 image = ""
