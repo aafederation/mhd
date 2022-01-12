@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
 client_requirements = "St. Francis Counseling Center provides services to adults age 21 and older"
-draft = true
 email = "info@stfranciscounseling.org"
 highlight = false
 image = ""
