@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Children (6 to 10)", "Toddlers and Preschoolers (0 to 5)"]
 client_requirements = ""
-draft = true
 email = "hello@byrepose.com"
 highlight = false
 image = "/img/img_0733-zaineb-qureshi.jpeg"
