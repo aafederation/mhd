@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
 client_requirements = ""
-draft = true
 email = "noilyn@theradiantu.com"
 highlight = false
 image = "/img/70373407_769049074086_3039092002219098112_n-noilyn-mendoza.jpg"
