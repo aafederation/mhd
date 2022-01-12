@@ -2,7 +2,6 @@
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
 client_requirements = ""
-draft = true
 email = "jjleetherapy@gmail.com"
 highlight = false
 image = "/img/3fef20ee-f421-4b0e-b03e-2da7c26cd54c_rw_1200-jenny-lee.jpg"

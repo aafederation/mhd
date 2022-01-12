@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = []
 client_requirements = ""
-draft = true
 email = ""
 highlight = false
 image = ""
