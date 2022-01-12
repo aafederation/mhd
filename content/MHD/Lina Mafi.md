@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
 client_requirements = ""
-draft = true
 email = "lina@intuitivehealingnyc.com"
 highlight = false
 image = "/img/closeup-closed-smile-lina-mafi.heic"

@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = ""
-draft = true
 email = "ldnguyen.phd@gmail.com"
 highlight = false
 image = "/img/31529359-1ef6-4ee1-815e-f46839964e1c-leanh-nguyen.jpeg"

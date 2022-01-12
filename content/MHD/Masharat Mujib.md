@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = []
 client_requirements = ""
-draft = true
 email = "masharattherapy@gmail.com"
 highlight = false
 image = "/img/2020-05-26-20-10-05-808-masharat-mujib.jpg"
