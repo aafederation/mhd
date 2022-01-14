@@ -21,8 +21,7 @@ website = "https://childcenterny.org/"
 address = "Woodside Clinic 67-14 41st Avenue\nWoodside, NY 11377"
 boroughs = ["Queens"]
 credentials = []
-gender_identification = []
-hours_of_operation = []
+gender_identification = ["Male", "Female"]
 languages = ["Tagalog", "Punjabi", "Korean", "Chinese (Mandarin)", "Chinese (Cantonese)", "Bangla", "English"]
 latLng = "40.74484340702596, -73.8968917693133"
 new_clients = "Yes"
@@ -34,8 +33,12 @@ psychotherapy = true
 psychotherapy_specialties = ["Trauma/PTSD", "Suicidal ideation", "Substance abuse", "Stress", "Sexual abuse", "Self-harming", "Self-esteem", "Phobias/fears", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Mood disorders", "Medication management", "LGBTQIA, gender, and sexual identity", "Internet addiction", "Grief, loss, and bereavement", "Gambling", "Family conflict", "Emotional disturbance", "Drug abuse", "Domestic abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Bipolar disorder", "Behavioral issues", "ADHD", "Anxiety", "Anger management", "Alcohol abuse", "Addiction/recovery"]
 psychotherapy_types = ["Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy"]
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
-staff_gender = []
+staff_gender = ["Male", "Female"]
 trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "Tuesdays and Wednesdays: 9 am - 9 pm"
+[[locations.hours_of_operation]]
+day_hours = "Mondays and Thursdays: 9 am - 8 pm "
 [[locations.public_transportation]]
 transport_option = "7 train or Q32 bus to 69th/Fisk; E,F,R,M to 74th St/Roosevelt Avenue; Q60 bus to 69th St. and Queens Blvd.  "
 
