@@ -1,23 +1,43 @@
 +++
-ada_compliant = true
-age_groups = []
+ada_compliant = false
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
 client_requirements = ""
 draft = true
-email = ""
+email = "drdebleenadas@gmail.com"
 highlight = false
 image = "/img/directory-headshot-debleena-das.png"
-locations = []
 org = "Debleena Das"
-payment_info_clinical = ""
+payment_info_clinical = "$150-250, Sliding scale on case-by-case basis"
 payment_info_non_clinical = ""
-payment_types = []
+payment_types = ["N/A"]
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
-sliding_scale_non_clinical = true
+sliding_scale_non_clinical = false
 tags = []
-telehealth = "Not applicable"
+telehealth = "Yes"
 website = ""
+[[locations]]
+address = "Telehealth"
+boroughs = ["Citywide"]
+credentials = ["Licensed Psychologist (PhD/PsyD)"]
+gender_identification = ["Female"]
+languages = ["Bangla", "English"]
+latLng = ""
+new_clients = "Yes"
+new_clients_detail = "Sliding scale available on a case by case basis"
+non_clinical_services = []
+parking = ""
+phone_number = "(484) 704-2505"
+psychotherapy = true
+psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Personality disorders", "Parenting", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Caregiver stress and support", "Bipolar disorder", "Attachment issues", "Anxiety"]
+psychotherapy_types = ["Relational Therapy", "Psychodynamic", "Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy"]
+public_transportation = []
+services = ["Psychotherapy"]
+staff_gender = ["Female"]
+trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "Please inquire"
 
 +++
 Hello! My name is Dr. Debleena Das and I am a licensed clinical psychologist able to see clients in NY & NJ. Do you feel overwhelmed navigating certain aspects of your life or finding yourself having difficulty with a new transition? Are you struggling with feelings of loneliness, entering the world of dating for the first time or processing a break-up? In my work, I strive to use a client-centered, strengths-based approach as I believe that each person who seeks me out is unique and deserves a tailored approach to match their needs and personality. I bring warmth, compassion and a touch of humor into the room as I find these are all important aspects in fostering a strong therapeutic alliance that feels safe & collaborative. 
