@@ -1,23 +1,42 @@
 +++
 ada_compliant = true
-age_groups = []
+age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = ""
 draft = true
 email = "TheBareIvy@gmail.com"
 highlight = false
 image = "/img/ivyheadshot-ivy-kwong.jpg"
-locations = []
 org = "Ivy Kwong"
-payment_info_clinical = ""
+payment_info_clinical = "$275/50-minute session. My sliding scale spots are currently full at this time but spots may open up in April 2022."
 payment_info_non_clinical = ""
-payment_types = []
+payment_types = ["N/A"]
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
-sliding_scale_non_clinical = true
+sliding_scale_non_clinical = false
 tags = []
-telehealth = "Not applicable"
+telehealth = "Yes"
 website = "BareIvy.com"
+[[locations]]
+address = "Telehealth "
+boroughs = ["Citywide"]
+credentials = []
+gender_identification = []
+hours_of_operation = []
+languages = []
+latLng = ""
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = []
+parking = "Yes"
+phone_number = "BareIvy.com"
+psychotherapy = true
+psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Sexual health/dysfunction", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Attachment issues", "Anxiety"]
+psychotherapy_types = ["Trauma-informed"]
+public_transportation = []
+services = ["Psychotherapy"]
+staff_gender = []
+trainings = ""
 
 +++
 Hello! My name is Ivy Kwong. I have been a therapist for over sixteen years and am a lifelong student of the healing arts. I see and honor your commitment to invest in your mental health and wellness at this point on your journey. 
