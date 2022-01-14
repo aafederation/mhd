@@ -21,8 +21,7 @@ website = "BareIvy.com"
 address = "Telehealth "
 boroughs = ["Citywide"]
 credentials = ["LMFT (Licensed Marriage and Family Therapist)"]
-gender_identification = []
-hours_of_operation = []
+gender_identification = ["Female"]
 languages = ["English", "Chinese (Cantonese)"]
 latLng = ""
 new_clients = "Yes"
@@ -34,8 +33,10 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Sexual health/dysfunction", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Every client is unique, and a custom approach is explored and co-created with each individual.", "Trauma-informed"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Certified Life Coach"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Thursday: 11 am - 8:30 pm"
 [[locations.public_transportation]]
 transport_option = "I offer virtual, telehealth sessions only at this time."
 
