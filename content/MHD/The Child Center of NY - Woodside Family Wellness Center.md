@@ -2,7 +2,6 @@
 ada_compliant = true
 age_groups = ["All"]
 client_requirements = "We accept clients who are able to commute to the clinic if needed for in-person services; Queens residents will be more likely to commute to the clinic with minimal hardship."
-draft = true
 email = "WoodsideIntakeTeam@childcenterny.org"
 highlight = false
 image = ""
