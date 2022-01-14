@@ -37,6 +37,8 @@ staff_gender = ["Female"]
 trainings = "Certified Life Coach"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Thursday: 11 am - 8:30 pm"
+[[locations.hours_of_operation]]
+day_hours = " Saturday: 11 am - 2 pm"
 [[locations.public_transportation]]
 transport_option = "I offer virtual, telehealth sessions only at this time."
 
