@@ -20,20 +20,20 @@ website = "https://www.samiashafi.com/"
 [[locations]]
 address = "26 Court Street\nBrooklyn NY 11242"
 boroughs = ["Brooklyn"]
-credentials = []
+credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 hours_of_operation = []
-languages = []
+languages = ["English"]
 latLng = "40.693463669325226, -73.99043671796453"
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = []
+non_clinical_services = ["Psychoeducation"]
 parking = "No"
 phone_number = "(724) 264-5236"
-psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
-services = []
+psychotherapy = true
+psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Suicidal ideation", "Stress", "Spirituality", "Sexual health/dysfunction", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Phobias/fears", "Panic attacks/disorder", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Dementia", "Cultural adjustment", "Coping skills", "Codependency", "Chronic pain", "Chronic illness", "Behavioral issues", "Attachment issues", "Anxiety"]
+psychotherapy_types = ["Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Family therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
+services = ["Psychotherapy"]
 staff_gender = []
 trainings = ""
 [[locations.public_transportation]]
