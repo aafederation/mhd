@@ -19,23 +19,24 @@ website = "https://www.cultivatepsychiatry.com/"
 [[locations]]
 address = "Telehealth"
 boroughs = ["Citywide"]
-credentials = []
+credentials = ["MD (Doctor of Medicine)"]
 gender_identification = []
-hours_of_operation = []
-languages = []
+languages = ["Korean", "English"]
 latLng = ""
 new_clients = "Yes"
-new_clients_detail = ""
+new_clients_detail = "Potential clients can make a free zoom consultation appointment through website to meet me before making actual appointment"
 non_clinical_services = []
-parking = "Yes"
+parking = "No"
 phone_number = "202-743-1646"
 psychotherapy = true
 psychotherapy_specialties = ["Trauma/PTSD", "Suicidal ideation", "Stress", "Self-harming", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Phobias/fears", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Mood disorders", "Medication management", "LGBTQIA, gender, and sexual identity", "Insomnia and sleep issues", "Identity development", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Bipolar disorder", "Behavioral issues", "ADHD", "Anxiety"]
 psychotherapy_types = ["Supportive Therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Board certified in Child and Adult psychiatry"
+[[locations.hours_of_operation]]
+day_hours = "11am-8pm "
 
 +++
 Bicultural bilingual Child, Adolescent and Adult Psychiatrist
