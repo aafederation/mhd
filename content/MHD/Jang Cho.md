@@ -35,7 +35,7 @@ psychotherapy_types = ["Supportive Therapy", "Trauma-informed", "Cognitive Behav
 public_transportation = []
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = []
-trainings = ""
+trainings = "Board certified in Child and Adult psychiatry"
 
 +++
 Bicultural bilingual Child, Adolescent and Adult Psychiatrist
