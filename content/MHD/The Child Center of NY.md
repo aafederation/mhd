@@ -10,7 +10,7 @@ payment_info_clinical = ""
 payment_info_non_clinical = ""
 payment_types = ["UnitedHealthcare", "Blue Cross/Blue Shield", "Beacon Health", "AMERIGROUP", "1199SEIU", "Medicaid", "Sliding scale fee for patients without insurance"]
 payment_types_non_clinical = []
-program = "Asian Outreach Program - Elmhurst Clinic"
+program = "Asian Outreach Program - Flushing Clinic"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
@@ -42,35 +42,6 @@ day_hours = "Monday: 9 am - 5 pm"
 day_hours = "Tuesday - Thursday: 9 am - 9 pm"
 [[locations.hours_of_operation]]
 day_hours = "Saturday: 9 am - 3 pm"
-[[locations]]
-address = "81-14 Queens Blvd, Elmhurst"
-boroughs = ["Queens"]
-credentials = []
-culturally_competent_treatment = ""
-gender_identification = []
-languages = ["Urdu", "English", "Hindi", "Mandarin", "Cantonese", "Bangla"]
-latLng = "40.73736275419179, -73.88177615816086"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = ["Psychoeducation", "Domestic violence counseling"]
-parking = "Street parking"
-phone_number = "718-899-9810 x2360"
-psychotherapy = true
-psychotherapy_specialties = ["Trauma/PTSD", "Teen violence", "Suicidal ideation", "Substance abuse", "Stress", "Sexual abuse", "Self-harming", "Self-esteem", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Phobias/fears", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Mood disorders", "Medication management", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Drug abuse", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Caregiver stress and support", "Bipolar disorder", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management", "Alcohol abuse", "Addiction/recovery"]
-psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Cognitive Behavioral Therapy"]
-services = ["Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
-staff_gender = ["Transgender", "Gender-neutral", "Nonbinary", "Female", "Male"]
-trainings = ""
-[[locations.hours_of_operation]]
-day_hours = "Saturday: 9 am-3 pm"
-[[locations.hours_of_operation]]
-day_hours = "Tuesday-Thursday: 9 am-9 pm"
-[[locations.hours_of_operation]]
-day_hours = "Monday: 9 am-5 pm"
-[[locations.public_transportation]]
-transport_option = "Bus: Q53, Q58 and Q60"
-[[locations.public_transportation]]
-transport_option = "Subway: R,V to Grand Avenue"
 
 +++
 Our mission is to provide individualized, diagnostic, therapeutic, and educational services for the emotional and behavioral issues children exhibit in the home, school, and community via integrated community based psychiatric and support services that are child centered, family driven and culturally competent, and to advocate for preventative and educational services from community resources as well as promoting and/or developing other specialized services for children with serious mental, emotional, and behavioral disorders and their families.
