@@ -20,23 +20,23 @@ website = ""
 [[locations]]
 address = "Telehealth"
 boroughs = ["Citywide"]
-credentials = []
-gender_identification = []
+credentials = ["LCSW (Licensed Clinical Social Worker)"]
+gender_identification = ["Female"]
 hours_of_operation = []
-languages = []
+languages = ["English"]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = []
-parking = "Yes"
+parking = "No"
 phone_number = ""
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Depression", "Cultural adjustment", "Attachment issues", "Anxiety"]
-psychotherapy_types = ["EMDR", "Relational Therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
+psychotherapy_types = ["Strengths based", "Client Centered", "EMDR", "Relational Therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Psychotherapy"]
-staff_gender = []
-trainings = ""
+staff_gender = ["Female"]
+trainings = " CCTP, EMDR trained"
 
 +++
 Life, at times, can feel heavy and I am here to lessen that load. You don't need to carry the burden of your struggles and experiences alone. It could be challenging to find a space to open up about all the different areas in your life that make you who you are, past and present, and look forward to what you want in the future. Whether you are experiencing anxiety, depression, symptoms of trauma, 1st gen family and cultural conflicts, coping with life transitions, relationship issues, identifying and setting healthy boundaries, or the myriad challenges that can arise, I am here to support and help you reach your highest potential! 
