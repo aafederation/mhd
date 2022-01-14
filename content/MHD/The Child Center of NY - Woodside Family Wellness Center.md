@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = "https://childcenterny.org/"
+website = "https://childcenterny.org/asian-outreach-program/"
 [[locations]]
 address = "Woodside Clinic 67-14 41st Avenue\nWoodside, NY 11377"
 boroughs = ["Queens"]
