@@ -36,6 +36,8 @@ services = ["Substance use/addiction and support services", "Psychotherapy", "Ps
 staff_gender = ["Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
+day_hours = "Saturdays: 9 am - 3 pm"
+[[locations.hours_of_operation]]
 day_hours = "Tuesdays and Wednesdays: 9 am - 9 pm"
 [[locations.hours_of_operation]]
 day_hours = "Mondays and Thursdays: 9 am - 8 pm "
