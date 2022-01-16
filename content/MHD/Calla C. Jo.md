@@ -19,7 +19,7 @@ website = ""
 [[locations]]
 address = "928 Broadway, Suite 804, New York, NY 10010, USA"
 boroughs = ["Manhattan"]
-credentials = ["LCSW (Licensed Clinical Social Worker)"]
+credentials = ["Licensed Psychoanalyst", "LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["English"]
 latLng = "40.740190665800064, -73.98920520877783"
