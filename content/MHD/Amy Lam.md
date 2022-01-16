@@ -34,7 +34,7 @@ psychotherapy_types = []
 public_transportation = []
 services = []
 staff_gender = []
-trainings = "Bioenergy Balancing; VortexHealing Divine Energy Healing"
+trainings = "MA Counseling Psychology; PhD Cultural Psychology; Bioenergy Balancing; VortexHealing Divine Energy Healing"
 [[locations.hours_of_operation]]
 day_hours = "12:30 pm - 5:30 pm "
 
