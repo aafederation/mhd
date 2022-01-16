@@ -17,7 +17,7 @@ tags = []
 telehealth = "Not applicable"
 website = "dantanh.com"
 [[locations]]
-address = "dantanh.com (virtual only)"
+address = "Telehealth"
 boroughs = ["Citywide"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
