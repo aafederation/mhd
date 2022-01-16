@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "Virtual "
+address = "Telehealth "
 boroughs = ["Citywide"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
@@ -30,7 +30,7 @@ parking = "No"
 phone_number = "646-256-7407"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Suicidal ideation", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Phobias/fears", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Domestic abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Chronic illness", "Caregiver stress and support", "Attachment issues", "Anxiety"]
-psychotherapy_types = ["Supportive Therapy", "Trauma-informed", "Family therapy", "Couples Therapy"]
+psychotherapy_types = ["Relational Therapy", "Supportive Therapy", "Trauma-informed", "Family therapy", "Couples Therapy"]
 public_transportation = []
 services = ["Psychotherapy"]
 staff_gender = ["Female"]
