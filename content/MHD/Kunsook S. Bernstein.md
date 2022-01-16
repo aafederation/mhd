@@ -19,7 +19,7 @@ website = ""
 [[locations]]
 address = "Telehealth "
 boroughs = ["Queens"]
-credentials = []
+credentials = ["Psychiatric Mental Health Nurse Practitioner"]
 gender_identification = []
 languages = ["Korean", "English"]
 latLng = ""
