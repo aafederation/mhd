@@ -33,7 +33,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Sexual health/dys
 psychotherapy_types = ["Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
 staff_gender = []
-trainings = ""
+trainings = "MA Counseling Psychology; PhD Cultural Psychology"
 [[locations.hours_of_operation]]
 day_hours = "11 am - 7 pm"
 [[locations.public_transportation]]
