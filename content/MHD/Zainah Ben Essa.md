@@ -2,6 +2,7 @@
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
 client_requirements = ""
+draft = true
 email = "zainah.ben@talkingforwellness.com"
 highlight = false
 image = "/img/headshot-zainah-ben-essa.jpeg"
@@ -21,7 +22,7 @@ address = "153 W 27th St \nNew York, NY 10001"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = []
-languages = ["English", "Arabic (Levantine)", "Arabic"]
+languages = ["English", "Arabic (Gulf dialects)", "Arabic (Levantine)", "Arabic"]
 latLng = "40.74660988964034, -73.99295540893824"
 new_clients = "Yes"
 new_clients_detail = ""
