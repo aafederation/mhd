@@ -20,7 +20,7 @@ website = ""
 address = "116 W. 23rd St.  Suite 500 \nNew York, NY 10011"
 boroughs = ["Citywide"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
-gender_identification = ["Nonbinary", "Female"]
+gender_identification = ["Genderqueer", "Nonbinary", "Female"]
 languages = ["English"]
 latLng = "40.74300666643894, -73.99347882416929"
 new_clients = "Yes"
@@ -32,8 +32,8 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Sexual health/dysfunction", "Sexual harassment and assault", "Relationship issues", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Coping skills", "Behavioral issues", "Anxiety"]
 psychotherapy_types = ["Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
-trainings = "MA Counseling Psychology; PhD Cultural Psychology"
+staff_gender = ["Female", "Nonbinary", "Genderqueer"]
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "11 am - 7 pm"
 [[locations.public_transportation]]
