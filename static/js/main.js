@@ -38,6 +38,15 @@ var htfConfig = {
 			countPrefix: "cnonClinicalService-",
 		},
 		{
+			name: "staffGender",
+			prefix: "staffGender-",
+			buttonClass: "staffGender-button",
+			allSelector: "#selectAllstaffGender",
+			attrName: "data-staffGender",
+			selectedPrefix: "sstaffGender-",
+			countPrefix: "cstaffGender-",
+		},
+		{
 			name: "specialty",
 			prefix: "specialty-",
 			buttonClass: "specialty-button",
