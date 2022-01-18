@@ -9,8 +9,8 @@
 
   indexCfg.doc = {
     id: 'id',
-    field: ['borough','language','service','specialty','type','nonClinicalService','title','tag','staffGender','content'],
-    store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance', 'location', 'website', 'service','specialty','type','nonClinicalService','staffGender'],
+    field: ['borough','language','service','specialty','type','nonClinicalService','title','tag','staffGender','ageGroup','content'],
+    store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance', 'location', 'website', 'service','specialty','type','nonClinicalService','staffGender','ageGroup'],
   };
 
   const index = FlexSearch.create('balance', indexCfg);
@@ -41,6 +41,7 @@
 				'type': {{ with $location.psychotherapy_types }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-type" | jsonify}} {{ end }},
 				'nonClinicalService': {{ with $location.non_clinical_services }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-nonClinicalService" | jsonify}}{{ end }},
 				'staffGender': {{ with $location.staff_gender }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-staffGender" | jsonify}}{{ end }},
+				'ageGroup':  {{ with $page.Params.age_groups }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-ageGroup"|jsonify}}{{ end }},
 		  });
 			indexCount++;
 	  {{- end -}}

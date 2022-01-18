@@ -47,6 +47,15 @@ var htfConfig = {
 			countPrefix: "cstaffGender-",
 		},
 		{
+			name: "ageGroup",
+			prefix: "ageGroup-",
+			buttonClass: "ageGroup-button",
+			allSelector: "#selectAllageGroup",
+			attrName: "data-ageGroup",
+			selectedPrefix: "sageGroup-",
+			countPrefix: "cageGroup-",
+		},
+		{
 			name: "specialty",
 			prefix: "specialty-",
 			buttonClass: "specialty-button",

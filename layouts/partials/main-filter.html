@@ -5,6 +5,7 @@
 {{ $clinical_services := sort (index $.Site.Data "Mental health services").Items }}
 {{ $non_clinical_services := sort (index $.Site.Data "Non clinical services").Items }}
 {{ $staff_gender := sort (index $.Site.Data "Staff gender").Items }}
+{{ $client_age := sort (index $.Site.Data "Age groups").Items }}
 {{ $psychotherapy_specialties := sort (index $.Site.Data "Psychotherapy specialties").Items }}
 {{ $psychotherapy_types := sort (index $.Site.Data "Psychotherapy types").Items }}
 {{ $languages := sort $.Site.Data.Languages.Items }}
@@ -34,4 +35,5 @@
 {{ partial "filter-data.html" (dict "title" "borough" "filter" "borough" "allContent" $boroughs ) }}
 {{ partial "filter-data.html" (dict "title" "language" "filter" "language" "allContent" $languages ) }}
 {{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments ) }}
+{{ partial "filter-data.html" (dict "title" "client age" "filter" "ageGroup" "allContent" $client_age ) }}
 {{ partial "filter-data.html" (dict "title" "provider gender" "filter" "staffGender" "allContent" $staff_gender ) }}

@@ -267,6 +267,7 @@
 		mainDiv.setAttribute("data-service", myPage.service);
 		mainDiv.setAttribute("data-nonclinicalservice", myPage.nonClinicalService);
 		mainDiv.setAttribute("data-staffgender", myPage.staffGender);
+		mainDiv.setAttribute("data-ageGroup", myPage.ageGroup);
 		mainDiv.setAttribute("data-specialty", myPage.specialty);
 		mainDiv.setAttribute("data-type", myPage.type);
 		mainDiv.setAttribute("data-language", myPage.language);
