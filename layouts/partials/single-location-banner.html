@@ -9,6 +9,7 @@
 		{{ $borough = "New York City" }}
 	{{ end }}
 	{{ $mappingAddress = print .org.org "," .location.address "," $borough "+NY" }}
+	{{ $mappingAddress = replace $mappingAddress "\n" "+" }}
 	{{ $mappingAddress = replace $mappingAddress " " "+" }}
 {{ else }}
 	{{ $latLng = site.Params.defaultLatLng }}
