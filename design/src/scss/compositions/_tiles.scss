@@ -29,4 +29,26 @@
       }
     }
   }
+
+  &[data-variant="three-per-row"] {
+    > * {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: get-size("500");
+      }
+    }
+    @include media-query("md") {
+      > * {
+        width: 30%;
+        margin-left: get-size("300");
+        margin-right: get-size("300");
+        margin-bottom: 0;
+
+        &:not(:last-child) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
 }
