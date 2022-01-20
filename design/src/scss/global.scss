@@ -5,10 +5,10 @@
 
 // Globals start
 body {
-	color: get-color("dark");
-	background: get-color("white");
+  color: get-color("dark");
+  background: get-color("white");
 
-	@include apply-utility("font", "base");
+  @include apply-utility("font", "base");
 }
 
 /// Default typography
@@ -17,32 +17,32 @@ h1,
 h2,
 h3,
 h4 {
-	line-height: 1.1;
-	@include apply-utility("font", "serif");
+  line-height: 1.1;
+  @include apply-utility("font", "serif");
 }
 
 a {
-	color: currentColor;
+  color: currentColor;
 }
 
 p {
-	max-width: 70ch;
+  max-width: 70ch;
 }
 
 svg {
-	width: 1em;
-	height: 1em;
-	display: inline-block;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
 }
 
 // Interactive states
 :focus {
-	outline: 1px solid get-color("tertiary");
-	outline-offset: 0.25rem;
+  outline: 1px solid get-color("tertiary");
+  outline-offset: 0.25rem;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 // Import utilities
