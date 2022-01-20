@@ -3624,23 +3624,11 @@ svg:not(:root) {
   }
 }
 .dl-menuwrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 1000;
-  -webkit-perspective: 1000px;
-  -moz-perspective: 1000px;
-  perspective: 1000px;
-  -webkit-perspective-origin: 50% 200%;
-  -moz-perspective-origin: 50% 200%;
-  perspective-origin: 50% 200%;
 }
 @media only screen and (min-width: 48em) {
   .dl-menuwrapper {
-    position: absolute;
-    max-width: 175px;
-    top: 25px;
-    left: 25px;
+    max-width: 240px;
   }
 }
 .dl-menuwrapper.dl-menuopen {
@@ -3650,7 +3638,6 @@ svg:not(:root) {
 .dl-menuwrapper button {
   top: 0;
   left: 0;
-  background: #222;
   border: none;
   width: 48px;
   height: 45px;
@@ -3660,7 +3647,6 @@ svg:not(:root) {
   cursor: pointer;
   outline: none;
   border-radius: 0 0 3px 0;
-  opacity: 0.6;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   transition: 0.4s ease-in-out;
 }
@@ -3673,8 +3659,7 @@ svg:not(:root) {
   }
 }
 .dl-menuwrapper button:hover,
-.dl-menuwrapper button.dl-active,
-.dl-menuwrapper ul {
+.dl-menuwrapper button.dl-active {
   background: #aaa;
 }
 .dl-menuwrapper button:after {
@@ -3717,15 +3702,16 @@ svg:not(:root) {
   font-size: 0.875rem;
 }
 .dl-menuwrapper li a {
+  text-align: right;
   display: block;
   position: relative;
   padding: 15px 20px;
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   line-height: 20px;
   font-weight: 400;
   color: #fff;
   outline: none;
+  text-decoration: none;
 }
 .dl-menuwrapper li.dl-back > a {
   padding-left: 30px;
@@ -3835,6 +3821,8 @@ svg:not(:root) {
 }
 .no-touch .dl-menuwrapper li a:hover {
   background: rgba(255, 248, 213, 0.1);
+  background-color: var(--White);
+  color: var(--Fire);
 }
 .no-js .dl-trigger {
   display: none;
@@ -3874,8 +3862,7 @@ svg:not(:root) {
   display: block;
 }
 .dl-menuwrapper button:hover,
-.dl-menuwrapper button.dl-active,
-.dl-menuwrapper ul {
+.dl-menuwrapper button.dl-active {
   background: #222;
 }
 .dl-menu li {

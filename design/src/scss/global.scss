@@ -4,6 +4,38 @@
 @import "../../node_modules/gorko/gorko.scss";
 
 // Globals start
+:root {
+  --primary: #e4232a;
+  --secondary: #5271ff;
+  --lightest-grey: #f0f0f0;
+  --lighter-grey: #dbdbdb;
+  --h4-grey: #717171;
+  --site-grey: #383838;
+  --footer-grey: #222222;
+  --Fire: #e4232a;
+  --Onyx: #141413;
+  --Canvas: #f3e4d1;
+  --Rattan: #d9b06f;
+  --Gold: #ee9a12;
+  --Indigo: #362d8b;
+  --Bloom: #f6a6c7;
+  --Mint: #b2e4dc;
+  --Powder: #fff6ee;
+  --Straw: #eac896;
+  --Graphite: #606161;
+  --Disabledbg: #b0b0b0;
+  --Disabledtxt: #858585;
+  --White: #ffffff;
+  --Primary-font: Decalo-bold;
+  --Primary-font-regular: Decalo-regular;
+  --Primary-font-black: Decalo-black;
+  --Secondary-font: Roboto;
+  --Secondary-font-bold: Roboto-bold;
+  --wc-box-h-spacing-unit: 1.25rem;
+  --wc-box-v-spacing-unit: 1rem;
+  --wrapper-max-width: 1280px;
+}
+
 body {
   color: get-color("dark");
   background: get-color("white");
@@ -59,6 +91,7 @@ a:hover {
 @import "utilities/box-shadow-glow";
 @import "utilities/no-decoration";
 @import "utilities/right-align";
+@import "utilities/spacings";
 
 // Import blocks
 @import "blocks/brand";
