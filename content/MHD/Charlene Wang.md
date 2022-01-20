@@ -34,7 +34,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Stress", "Spirituality", "Self-esteem", "Relationship issues", "Depression", "Coping skills", "Anxiety"]
 psychotherapy_types = ["Group therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Saturday: 9 am - 8 pm"
@@ -42,4 +42,5 @@ day_hours = "Monday - Saturday: 9 am - 8 pm"
 transport_option = "Subway: N,Q,R,S,1,2,3,7"
 
 +++
+
 I am an immigrant from Hong Kong and have made a life working on Wall Street for 30 years. Helping with people's healing is my way of giving back to the community.

@@ -34,7 +34,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spiritu
 psychotherapy_types = ["Psychodynamic", "Solution-focused therapy", "Supportive therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Male"]
 trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Sunday: 10 am - 5 pm"

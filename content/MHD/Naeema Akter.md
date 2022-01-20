@@ -32,7 +32,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Substance abuse", "Stress", "Spirituality", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Grief, loss, and bereavement", "Drug abuse", "Depression", "Cultural adjustment", "Coping skills", "Anxiety", "Anger management", "Alcohol abuse", "Addiction/recovery"]
 psychotherapy_types = ["Solution-focused Therapy", "Supportive Therapy", "Trauma-informed", "Couples Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Nonbinary", "Gender-neutral", "Transgender", "Male", "Female"]
 trainings = "Unlicensed Psychologist"
 [[locations.hours_of_operation]]
 day_hours = "9 am - 8 pm "

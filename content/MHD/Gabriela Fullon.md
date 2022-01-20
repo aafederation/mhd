@@ -33,7 +33,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Stress", "Spirituality", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Parenting", "Mood disorders", "Identity development", "Family conflict", "Emotional disturbance", "Depression", "Cultural adjustment", "Coping skills", "Chronic pain", "Chronic illness", "Caregiver stress and support", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Supportive Therapy", "Trauma-informed", "Family therapy", "Couples Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "No"
 [[locations.hours_of_operation]]
 day_hours = "Friday: 12 pm - 6 pm"

@@ -33,7 +33,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Weight loss", "Trauma/PTSD", "Suicidal ideation", "Stress", "Spirituality", "Sexual abuse", "Self-harming", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Obesity", "Grief, loss, and bereavement", "Emotional disturbance", "Eating disorders", "Domestic abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Behavioral issues", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Cognitive Behavioral Therapy", "Psychodynamic"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Reiki Master, 200hr Yoga Teacher Training Certificate, Wellness Coach, Holistic Nutrition Specialist"
 [[locations.hours_of_operation]]
 day_hours = "9 am - 8 pm"

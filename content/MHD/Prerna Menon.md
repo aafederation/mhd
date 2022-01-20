@@ -34,7 +34,7 @@ psychotherapy_specialties = ["Trauma/PTSD", "Suicidal ideation", "Substance abus
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Substance Abuse Services", "Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Yes, NYU grad school had a DROP class specifically designed for this. "
 [[locations.hours_of_operation]]
 day_hours = "9 am - 8 pm"

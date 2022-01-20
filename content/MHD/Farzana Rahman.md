@@ -32,7 +32,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Pregnancy, perinatal, and postpartum mental health", "Parenting", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Divorce and separation", "Depression", "Cultural adjustment", "Codependency", "Bipolar disorder", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Psychodynamic", "Supportive Therapy", "Trauma-informed", "Family therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Certified in pre-marital and marital counseling via Prepare/Enrich, trained in Group Attachment Based Intervention and Dyadic Developmental Therapy"
 [[locations.hours_of_operation]]
 day_hours = "11 am - 8 pm "

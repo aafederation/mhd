@@ -34,7 +34,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Trauma/PTSD", "Spirituality", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Anxiety"]
 psychotherapy_types = ["Somatic Psychotherapy", "Somatic IFS Therapy", "Trauma-informed", "Group therapy"]
 services = ["Internal Family Systems Therapy", "Sensory Resonance Modalities", "Psychotherapy", "Art therapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "I have fine arts background with MFA as well as MPS Art Therapy. I am a Reiki master and my practice is informed by body-centered psychotherapy, Internal Family System, and trauma-informed somatic modalities.  "
 [[locations.public_transportation]]
 transport_option = "R/W train on 23rd street, as well as 8 minutes walk to Union Square (L,N,Q,R,W,4,5,6)"

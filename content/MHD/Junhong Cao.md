@@ -33,7 +33,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Weight loss", "Trauma/PTSD", "Stress", "Self-harming", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Phobias/fears", "Personality disorders", "Parenting", "Panic attacks/disorder", "Obsessive compulsive disorder", "Mood disorders", "Men's issues", "LGBTQIA, gender, and sexual identity", "Insomnia and sleep issues", "Infertility", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Eating disorders", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Bipolar disorder", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management"]
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Group therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Psychological testing and assessment"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Gottman couples therapy training"
 [[locations.hours_of_operation]]
 day_hours = "10 am - 7 pm"

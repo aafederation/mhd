@@ -34,7 +34,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Substance abuse",
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Substance use/addiction and support services", "Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 8 am - 7 pm"

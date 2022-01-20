@@ -34,7 +34,7 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
 services = []
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "LMSW, Fordham University certificate for NonProfit Leadership, AcuDetox Specialist - NADA "
 [[locations.hours_of_operation]]
 day_hours = "Flexible "

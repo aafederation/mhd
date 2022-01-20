@@ -33,7 +33,7 @@ psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Self-esteem", "Cultural a
 psychotherapy_types = ["Trauma-informed", "Group therapy"]
 public_transportation = []
 services = ["Psychotherapy", "Art therapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Mondays: 10 am - 6:30 pm, Thursdays: 12 pm - 8:30 pm"

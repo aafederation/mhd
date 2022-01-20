@@ -32,7 +32,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Trauma/PTSD", "Suicidal ideation", "Stress", "Self-esteem", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Personality disorders", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Mood disorders", "Men's issues", "Intellectual disability", "Identity development", "Family conflict", "Emotional disturbance", "Eating disorders", "Domestic violence", "Divorce and separation", "Depression", "Dementia", "Cultural adjustment", "Coping skills", "Codependency", "Bipolar disorder", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management", "Alcohol abuse"]
 psychotherapy_types = ["Supportive Therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Psychological testing and assessment"]
-staff_gender = []
+staff_gender = ["Male"]
 trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "10 am - 7 pm"

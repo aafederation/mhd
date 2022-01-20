@@ -33,7 +33,7 @@ psychotherapy_specialties = ["Trauma/PTSD", "Sexual abuse", "Domestic violence",
 psychotherapy_types = ["Trauma-informed"]
 public_transportation = []
 services = []
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "AEDP"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 5 pm"

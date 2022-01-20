@@ -34,7 +34,7 @@ psychotherapy_specialties = ["Stress", "Panic attacks/disorder", "Obsessive comp
 psychotherapy_types = ["Supportive therapy", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "BS in psychology; BS in Nursing; RN; CBT, REBT"
 [[locations.hours_of_operation]]
 day_hours = "Friday: 9 am - 3 pm"

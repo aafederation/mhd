@@ -33,7 +33,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Panic attacks/disorder", "Obsessive compulsive disorder", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Caregiver stress and support", "Attachment issues", "ADHD", "Anxiety", "Adoption and foster care"]
 psychotherapy_types = ["Accelerated Experiential Dynamic Psychotherapy", "Internal Family Systems", "Trauma-informed", "Somatic Psychotherapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Art therapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Family Therapy, Psychoanalytic, Somatic Therapy, Accelerated Experiential Dynamic Therapy, and Internal Family System Therapy"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 10 am - 8 pm"

@@ -34,7 +34,7 @@ psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "
 psychotherapy_types = ["Psychoanalysis", "EMDR", "Trauma-informed"]
 public_transportation = []
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "EMDR Trauma and Psychoanalysis"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 6 pm"

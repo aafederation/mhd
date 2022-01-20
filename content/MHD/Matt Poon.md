@@ -33,7 +33,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Men's issues", "LGBTQIA, gender, and sexual identity", "Identity development", "Family conflict", "Divorce and separation", "Cultural adjustment", "Coping skills", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Solution-focused therapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Male"]
 trainings = "Emotion Focused Therapy"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Thursday: 9 am - 7 pm"

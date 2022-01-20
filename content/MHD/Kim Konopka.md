@@ -34,7 +34,7 @@ psychotherapy_specialties = ["Transracial Adoption", "Trauma/PTSD", "Stress", "S
 psychotherapy_types = ["Trauma-informed", "Cognitive Behavioral Therapy", "Mindfulness-based"]
 public_transportation = []
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Nonbinary"]
 trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Friday: 1 pm - 5 pm"

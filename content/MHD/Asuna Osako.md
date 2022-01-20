@@ -32,7 +32,7 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
 services = []
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "RDT (Registered Drama Therapist); Brainspotting Practitioner"
 [[locations.hours_of_operation]]
 day_hours = "Flexible; negotiated with client"

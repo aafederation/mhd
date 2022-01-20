@@ -34,7 +34,7 @@ psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Self-esteem", "Relationsh
 psychotherapy_types = ["Mindfulness-based", "EMDR", "Solution-focused therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Substance use/addiction and support services", "Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "CASAC, CBT, EMDR"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 6 pm"

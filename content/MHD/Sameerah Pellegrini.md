@@ -34,7 +34,7 @@ psychotherapy = true
 psychotherapy_specialties = []
 psychotherapy_types = ["Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "9 am - 5 pm"

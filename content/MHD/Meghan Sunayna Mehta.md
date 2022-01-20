@@ -33,7 +33,7 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Panic attacks/disorder", "Obsessive compulsive disorder", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Grief, loss, and bereavement", "Family conflict", "Eating disorders", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Bipolar disorder", "Attachment issues", "Anxiety", "Anger management"]
 psychotherapy_types = ["Supportive therapy", "Trauma-informed", "Group therapy", "Dialectical Behavioral Therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy", "Psychological testing and assessment", "Art therapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "MSW from Columbia University, Trauma Informed Cognitive Behavioral Therapy Certification, Motivational Interviewing Certification"
 [[locations.hours_of_operation]]
 day_hours = "9 am - 8 pm"
