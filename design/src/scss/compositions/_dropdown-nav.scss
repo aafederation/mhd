@@ -3628,7 +3628,7 @@ svg:not(:root) {
 }
 @media only screen and (min-width: 48em) {
   .dl-menuwrapper {
-    max-width: 240px;
+    max-width: 278px;
   }
 }
 .dl-menuwrapper.dl-menuopen {
@@ -3712,6 +3712,7 @@ svg:not(:root) {
   color: #fff;
   outline: none;
   text-decoration: none;
+  cursor: pointer;
 }
 .dl-menuwrapper li.dl-back > a {
   padding-left: 30px;
@@ -4426,4 +4427,8 @@ header .entry-meta {
   border-style: solid !important;
   border-color: #a2a2a2;
   border-radius: 3px;
+}
+// Additional properties
+.display-none-important {
+  display: none !important;
 }

@@ -95,8 +95,8 @@
 				let goBack = document.getElementById("go-back");
 				let goHome = document.getElementById("go-home");
 				const homeWindow = window.open("", "parent");
-				goBack.classList.remove("display-none");
-				goHome.classList.add("display-none");
+				goBack.classList.remove("display-none-important");
+				goHome.classList.add("display-none-important");
 				goBack.addEventListener("click", function () {
 					homeWindow.focus();
 					close();
@@ -104,4 +104,5 @@
 			}
 		})();
 	</script>
+	<script defer src="{{ "js/navDropdown.js" | relURL }}"></script>
 {{ end }}
