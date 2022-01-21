@@ -1,5 +1,6 @@
 {{ $filter := .filter }}
 {{ $selectAll := print `selectAll` $filter }}
+{{ $titles := .titles }}
 
 <button
 	class="acc button split-pair"
@@ -15,7 +16,7 @@
 			All {{ pluralize $filter }}
 		</button>
 	</li>
-	{{ range .allContent }}
+	{{ range $key, $value := .allContent }}
 		{{ if .Term }}
 			{{ $termURLize := .Term | replaceRE "[.]" "_" | urlize }}
 			<li>
@@ -24,11 +25,7 @@
 					id="{{ $filter }}-{{ $termURLize }}"
 					onclick="htf.checkFilter('{{ $termURLize }}', '{{ $filter }}-')"
 				>
-					{{ if eq .Term "lgbtq+" }}
-						<span>LGBTQ+</span>
-					{{ else }}
-						<span>{{ .Term | humanize | title }}</span>
-					{{ end }}
+					<span>{{ index $titles $key }}</span>
 					<span id="s{{ $filter }}-{{ $termURLize }}">-count-</span> |
 					<span id="c{{ $filter }}-{{ $termURLize }}">-count-</span>
 				</button>

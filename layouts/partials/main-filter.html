@@ -1,5 +1,6 @@
 {{ $pages := .Site.RegularPages }}
-
+{{ $paymentTitles := slice }}
+{{ $tagTitles := slice }}
 <!--DATA SOURCES-->
 {{ $boroughs := $.Site.Data.Boroughs }}
 {{ $clinical_services := sort (index $.Site.Data "Mental health services").Items }}
@@ -11,8 +12,13 @@
 {{ $languages := sort $.Site.Data.Languages.Items }}
 <!--TAXONOMY COUNTS-->
 {{ $tags := $.Site.Taxonomies.tags.Alphabetical }}
+{{ range sort .Site.Taxonomies.tags ".Page.Params.title" "asc" }}
+  {{ $tagTitles = append .Page.Params.title $tagTitles }}
+{{ end }}
 {{ $payments := $.Site.Taxonomies.payment_types.Alphabetical }}
-
+{{ range sort .Site.Taxonomies.payment_types ".Page.Params.title" "asc" }}
+  {{ $paymentTitles = append .Page.Params.title $paymentTitles }}
+{{ end }}
 <!--TAXONOMY NO COUNT VAR-->
 {{ $.Scratch.Set "untagged" 0 }}
 {{ $.Scratch.Set "noPayments" 0 }}
@@ -31,9 +37,9 @@
 	{{ partial "filter-data.html" (dict "title" "psychotherapy type"  "filter" "type" "allContent" $psychotherapy_types ) }}
 </div>
 {{ partial "filter-data.html" (dict "title" "non-clinical service" "filter" "nonClinicalService" "allContent" $non_clinical_services ) }}
-{{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags ) }}
+{{ partial "filter-taxonomy.html" (dict "filter" "tag" "noCount" ($.Scratch.Get "untagged") "allContent" $tags "titles" $tagTitles ) }}
 {{ partial "filter-data.html" (dict "title" "borough" "filter" "borough" "allContent" $boroughs ) }}
 {{ partial "filter-data.html" (dict "title" "language" "filter" "language" "allContent" $languages ) }}
-{{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments ) }}
+{{ partial "filter-taxonomy.html" (dict "filter" "payment" "noCount" ($.Scratch.Get "noPayments") "allContent" $payments "titles" $paymentTitles ) }}
 {{ partial "filter-data.html" (dict "title" "client age" "filter" "ageGroup" "allContent" $client_age ) }}
 {{ partial "filter-data.html" (dict "title" "provider gender" "filter" "staffGender" "allContent" $staff_gender ) }}
