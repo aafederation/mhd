@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = []
 telehealth = "Yes"
-website = ""
+website = "www.pondpractice.com"
 [[locations]]
 address = "115 West 30th Street \nSuite 709\nNew York, NY 10001, USA"
 boroughs = ["Citywide"]

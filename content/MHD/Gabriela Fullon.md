@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual"]
 telehealth = "Yes"
-website = ""
+website = "https://www.buenviajecounseling.com/"
 [[locations]]
 address = "6 East 39th St, 8th Fl"
 boroughs = ["Manhattan"]

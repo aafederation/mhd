@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "www.jamydoestherapy.com"
 [[locations]]
 address = "116 W. 23rd St.  Suite 500 \nNew York, NY 10011"
 boroughs = ["Citywide"]

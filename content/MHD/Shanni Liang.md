@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Individual"]
 telehealth = "Yes"
-website = ""
+website = "www.therapywithshanni.com"
 [[locations]]
 address = "Jackson Heights"
 boroughs = ["Citywide"]

@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "www.talkingforwellness.com"
 [[locations]]
 address = "153 West 27th Street\nSuite 300\nNew York, NY 10001"
 boroughs = ["Manhattan", "Brooklyn"]

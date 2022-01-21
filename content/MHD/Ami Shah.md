@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Individual", "Online"]
 telehealth = "Yes"
-website = ""
+website = "https://southasiantherapists.org/therapist/ami-shah-psyd/"
 [[locations]]
 address = "Online"
 boroughs = ["Citywide"]
@@ -40,5 +40,4 @@ trainings = "Yes - doctorate program courses "
 day_hours = "8 am - 6 pm"
 
 +++
-
 I’m a clinical psychologist with a specialization in working with adults and geriatric clients with a range of cognitive and socio-emotional challenges. My clinical interests and specialties include treating clients with comorbid anxiety, depression, insomnia, chronic pain, PTSD/trauma, grief and loss, anger and stress management, neurocognitive disorders, caregiver burden (including those caregiving loved ones w/dementia, stroke, TBI), and a range of issues related to multiculturalism in health care.

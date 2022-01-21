@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "www.queenspsychology.com"
 [[locations]]
 address = "505 Northern Blvd\nGreat Neck, NY 11021, USA"
 boroughs = ["Queens"]

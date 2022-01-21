@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual"]
 telehealth = "Yes"
-website = ""
+website = "https://www.psychologytoday.com/us/therapists/yejin-yoo-brooklyn-ny/917202"
 [[locations]]
 address = "50 1/2 Clay St."
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Citywide"]

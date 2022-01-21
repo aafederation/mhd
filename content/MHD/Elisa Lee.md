@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual"]
 telehealth = "Yes"
-website = ""
+website = "http://elisaleephd.com"
 [[locations]]
 address = "5 West 86th St."
 boroughs = ["Manhattan"]
