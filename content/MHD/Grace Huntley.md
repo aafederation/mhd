@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "https://www.gracehuntleycounseling.com/"
 [[locations]]
 address = "Telehealth "
 boroughs = ["Citywide"]
