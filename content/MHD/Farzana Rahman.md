@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = []
 telehealth = "Yes"
-website = ""
+website = "https://www.psychologytoday.com/us/therapists/farzana-rahman-new-york-ny/849661"
 [[locations]]
 address = "353 Lexington Avenue, 3rd Floor, New York, NY 10016"
 boroughs = ["Manhattan"]
