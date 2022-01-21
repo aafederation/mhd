@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = []
 telehealth = "Not applicable"
-website = ""
+website = "www.chdny.org"
 [[locations]]
 address = "928 Broadway, Suite 804, New York, NY 10010, USA"
 boroughs = ["Manhattan"]
