@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
-website = "https://kafsc.org/counseling"
+website = "kafsc.org"
 [[locations]]
 address = "Confidential Location - Contact for connection to services"
 boroughs = ["Citywide"]
