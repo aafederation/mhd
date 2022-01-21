@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = true
 tags = []
 telehealth = "Yes"
-website = ""
+website = "yejinlee.co"
 [[locations]]
 address = "Remote"
 boroughs = ["Citywide"]
