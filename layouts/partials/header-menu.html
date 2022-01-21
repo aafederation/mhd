@@ -1,26 +1,36 @@
-<header
-	class="pad-top-500 pad-bottom-500 wrapper split-pair text-500 weight-light"
->
-	<div>
-		<a href="https://www.aafederation.org" target="_blank">
-			<img src="/img/logo/AAF-Logo.svg" alt="logo" class="header-logo" />
-		</a>
+<div class="display-grid js no-touch cssanimations csstransitions">
+	<div class="nav-grid-logo">
+		<header
+			class="pad-top-500 pad-bottom-500 wrapper split-pair text-500 weight-light"
+		>
+			<div>
+				<a href="https://www.aafederation.org" target="_blank">
+					<img src="/img/logo/AAF-Logo.svg" alt="logo" class="header-logo" />
+				</a>
+			</div>
+		</header>
 	</div>
-	<nav aria-label="main menu" class="font-serif right-align">
-		<ul class="nav" role="list">
-			<li class="display-none" id="go-back">
-				<span class="link-pointer">❮ Back to search results</span>
-			</li>
-			<li id="go-home">
-				<a href="/" class="link-pointer" {{ if .IsHome }}data-variant="invert"{{ end }}>Directory Home</a>
-			</li>
-			<li>
-				<a href="https://forms.gle/BKeJSPd3vBY37GCr8" class="link-pointer" target="_blank" rel="noopener noreferrer">Join The Directory</a>
-			</li>
-			<li>
-				<a href="mailto:MH.Directory@aafederation.org" class="link-pointer">Contact Us</a
-            >
-			</li>
-		</ul>
-	</nav>
-</header>
+	<article class="[ bg-img-vector ] [ nav-grid-hero ]">
+		<div class="[ center-text-section ] [ flow wrapper ] [ overlay ] ">
+			<div class="text-800 font-serif weight-black color-white">
+				Mental Health Directory
+			</div>
+			<div class="text-500 md:text-600 weight-bold color-white">
+				Bringing Together Mental Health Resources for Asian New Yorkers
+			</div>
+		</div>
+	</article>
+	<div class="nav-grid-button">
+		<div class="wrapper pad-top-500">
+			<nav id="dl-menu" class="dl-menuwrapper font-serif right-align" role="navigation">
+				<button id="dl-menu-button" class="dl-trigger display-block right-align margin-top-05rem bg-primary">Open Menu</button>
+				<ul id="dl-menu-options" class="dl-menu bg-primary">
+				  <li class="display-none-important" id="go-back"><a>❮ Back To Search Results</a></li>
+				  <li id="go-home"><a href="/">Directory Home</a></li>
+				  <li><a href="https://forms.gle/BKeJSPd3vBY37GCr8" target="_blank" rel="noopener noreferrer">Join The Directory</a></li>
+				  <li><a href="mailto:MH.Directory@aafederation.org">Contact Us</a>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
