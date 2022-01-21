@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "https://www.psychologytoday.com/us/therapists/henry-li-flushing-ny/907362"
 [[locations]]
 address = "6520 77th St. \nMiddle Village, NY 11379"
 boroughs = ["Queens", "Brooklyn", "Citywide"]
