@@ -15,7 +15,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual"]
 telehealth = "Yes"
-website = ""
+website = "https://www.psychologytoday.com/us/therapists/yu-kang-chen-new-york-ny/866279"
 [[locations]]
 address = "One Penn Plaza"
 boroughs = ["Queens", "Manhattan", "Brooklyn"]
