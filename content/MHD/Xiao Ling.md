@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "https://www.psychologytoday.com/profile/473506"
 [[locations]]
 address = "19 W 34th St PH\nNew York, NY 10001 \n(Currently remote only)"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
