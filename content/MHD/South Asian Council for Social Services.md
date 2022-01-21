@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
-website = "https://www.sacssny.org/health-services---other-benefits.html"
+website = "www.sacssny.org"
 [[locations]]
 address = "143-06 45th Ave."
 boroughs = ["Queens"]
