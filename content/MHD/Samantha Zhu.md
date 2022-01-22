@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-age_groups = ["Adults (18 to 64)"]
+age_groups = ["Adults (19 to 64)"]
 client_requirements = ""
 email = "info@samzhutherapy.com"
 highlight = false
@@ -40,4 +40,5 @@ trainings = ""
 day_hours = "Monday - Friday: 8 am - 7 pm"
 
 +++
+
 I earned my dual B.S. in psychology and sociology from CUNY Hunter College and my M.A. in mental health counseling from CUNY Brooklyn College. I have over 5 years of experience in the mental health field with a wide range of levels including but not limited to depression, anxieties, LGBTQ+ related issues, intersectional identities, intergenerational trauma, and relational & interpersonal difficulties. I am trained in Psychodynamic and CBT Therapy.

@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
+age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
 client_requirements = ""
 email = ""
 highlight = false
@@ -41,4 +41,5 @@ day_hours = "Monday - Friday: 9 am - 5 pm"
 transport_option = "Subway"
 
 +++
+
 _Apicha Community Health Center’s_ mission is to improve the health of our community and to increase access to comprehensive primary care, preventative health services, mental health, and supportive services. We are committed to excellence and to providing culturally competent services that enhance the quality of life. We advocate for and provide a welcoming environment for underserved and vulnerable people, especially Asians and Pacific Islanders, the LGBT Community, and individuals living with and affected by HIV/AIDS.

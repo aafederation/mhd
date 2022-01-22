@@ -1,6 +1,6 @@
 +++
 ada_compliant = false
-age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 17)"]
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 client_requirements = ""
 email = "msoong@rocketmail.com "
 highlight = false

@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-age_groups = ["Seniors (65+)", "Adults (18 to 64)", "Youth and Teenagers (14 to 17)", "Preteens and Tweens (11 to 13)", "Children (5+)"]
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (5+)"]
 client_requirements = ""
 email = "allison.devlin@nyulangone.org"
 highlight = false
@@ -43,4 +43,5 @@ transport_option = "Bus: B53, B37, B9"
 transport_option = "Subway: R"
 
 +++
+
 The mission of NYU Langone is to **serve, to teach, and to discover**. We are committed to making world- class contributions that place service to human health at the center of an academic culture devoted to excellence in research, patient care, and education.

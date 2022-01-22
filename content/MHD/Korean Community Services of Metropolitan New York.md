@@ -1,6 +1,6 @@
 +++
 ada_compliant = false
-age_groups = ["Youth and Teenagers (14 to 17)", "Youth and Teenagers (13+)", "Seniors (65+)", "Adults (19 to 64)"]
+age_groups = ["Youth and Teenagers (14 to 19)", "Youth and Teenagers (13+)", "Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = ""
 email = "yyoun@kcsny.org"
 highlight = false
@@ -47,4 +47,5 @@ transport_option = "Bus: Q3"
 transport_option = "Subway: 7"
 
 +++
+
 Our mission is to assist and empower Korean American individuals, families, and the greater immigrant community. This mission is achieved through the promotion of projects and programs that provide culturally and professionally competent human services to underserved Korean Americans. We believe that healthier individuals and communities results from a combination of outreach, treatment, and prevention efforts.

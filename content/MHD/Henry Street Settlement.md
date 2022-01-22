@@ -1,6 +1,6 @@
 +++
 ada_compliant = true
-age_groups = ["Adults (18 to 64)", "Seniors (65+)"]
+age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
 client_requirements = ""
 email = "whung@henrystreet.org or gireland@henrystreet.org"
 highlight = false
@@ -19,7 +19,7 @@ address = "40 Montgomery St."
 boroughs = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
 credentials = []
 culturally_competent_treatment = ""
-languages = ["Chinese", "English"]
+languages = ["Chinese (Mandarin)", "English"]
 latLng = "40.71284346143906, -73.98569188708525"
 new_clients = "Yes"
 new_clients_detail = ""
@@ -40,4 +40,5 @@ transport_option = "Subway: F, J, M, Z"
 transport_option = "Bus: M22, M9, M14A"
 
 +++
+
 Henry Street Settlement’s mission is to open doors of opportunity for Lower East Side residents and other New Yorkers through social services, arts, and health care programs. The organization is distinguished by its commitment to listening to and learning from our neighbors—and then acting to meet the most pressing needs of our community.

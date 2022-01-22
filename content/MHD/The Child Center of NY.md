@@ -22,7 +22,7 @@ boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
-languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Mandarin", "Gujarati", "Cantonese", "Bangla"]
+languages = ["Urdu", "Tagalog", "Marathi", "Korean", "Hindi", "Chinese (Mandarin)", "Gujarati", "Chinese (Cantonese)", "Bangla"]
 latLng = "40.757915557503125, -73.82652824466905"
 new_clients = "Yes"
 new_clients_detail = ""
@@ -44,4 +44,5 @@ day_hours = "Tuesday - Thursday: 9 am - 9 pm"
 day_hours = "Saturday: 9 am - 3 pm"
 
 +++
+
 Our mission is to provide individualized, diagnostic, therapeutic, and educational services for the emotional and behavioral issues children exhibit in the home, school, and community via integrated community based psychiatric and support services that are child centered, family driven and culturally competent, and to advocate for preventative and educational services from community resources as well as promoting and/or developing other specialized services for children with serious mental, emotional, and behavioral disorders and their families.

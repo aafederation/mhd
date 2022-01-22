@@ -22,7 +22,7 @@ boroughs = ["Citywide", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
-languages = ["Korean", "Mandarin", "Cantonese"]
+languages = ["Korean", "Chinese (Mandarin)", "Chinese (Cantonese)"]
 latLng = "40.71878963726238, -74.00132840234299"
 new_clients = "Yes"
 new_clients_detail = ""
@@ -48,7 +48,7 @@ boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
-languages = ["Korean", "Mandarin", "Cantonese"]
+languages = ["Korean", "Chinese (Mandarin)", "Chinese (Cantonese)"]
 latLng = "40.76170554286881, -73.83005267350512"
 new_clients = "Yes"
 new_clients_detail = ""
@@ -74,7 +74,7 @@ boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
-languages = ["Korean", "Mandarin", "Cantonese"]
+languages = ["Korean", "Chinese (Mandarin)", "Chinese (Cantonese)"]
 latLng = "40.75192982760588, -73.82200221212504"
 new_clients = "Yes"
 new_clients_detail = ""
@@ -96,4 +96,5 @@ day_hours = "Wednesday: 10 am-6 pm"
 day_hours = "Thursday: 11 am-6 pm"
 
 +++
+
 Charles B. Wang Community Health Center's mission statement is to provide high quality and affordable health care to the underserved, with a focus on Asian Americans.

@@ -1,6 +1,6 @@
 +++
 ada_compliant = false
-age_groups = ["Seniors (65+)", "Adults (18 to 64)"]
+age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 client_requirements = ""
 email = "info@desirainbow.org"
 highlight = false
@@ -42,4 +42,5 @@ day_hours = "Monday - Friday: 9 am - 5 pm"
 day_hours = "Support groups available in the evenings"
 
 +++
+
 Desi Rainbow Parents & Allies mission is to foster understanding and acceptance among families, with the goal of affirming and celebrating our LGBTQ+ loved ones.
