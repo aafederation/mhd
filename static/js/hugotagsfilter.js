@@ -23,7 +23,7 @@ class HugoTagsFilter {
 				attrName: "data-section",
 			},
 		];
-
+		this.DEBUG = false;
 		this.FILTERS = config && config.filters ? config.filters : defaultFilters;
 		this.showItemClass =
 			config && config.showItemClass ? config.showItemClass : "tf-show";
@@ -88,6 +88,13 @@ class HugoTagsFilter {
 				for (k in fvc) {
 					var attrs = this.getAttrs(k, showing[l]);
 					for (var m = 0; m < attrs.length; m++) {
+						if(this.DEBUG) {
+							console.dir(fvc);
+							console.log("k is", k);
+							console.dir(attrs);
+							console.log("m is", m);
+							console.log("selected is", fvc[k][attrs[m]].selected);
+						}
 						fvc[k][attrs[m]].selected++;
 					}
 				}
