@@ -15,7 +15,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Individual", "Online"]
 telehealth = "Yes"
-website = "https://www.huitingkok.com/"
+website = "https://www.huitingkok.com/ (Best way to contact)"
 [[locations]]
 address = "Online"
 boroughs = ["Manhattan"]
