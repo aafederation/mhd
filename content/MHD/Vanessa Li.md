@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.pondpractice.com"
 [[locations]]
-address = "115 West 30th Street \nSuite 709\nNew York, NY 10001, USA"
+address = "115 West 30th Street, Suite 709, New York, NY 10001"
 boroughs = ["Citywide"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = []
