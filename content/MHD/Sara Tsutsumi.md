@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "2 Fifth Avenue \nApt. #9N\nNew York, NY 10011, US"
+address = "2 Fifth Avenue, Apartment 9N, New York, NY 10011"
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)", "Licensed Creative Arts Therapist"]
 gender_identification = []
