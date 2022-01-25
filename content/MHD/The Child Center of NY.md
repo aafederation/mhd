@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://childcenterny.org/asian-outreach-program/"
 [[locations]]
-address = "140-15B Sanford Ave, Flushing"
+address = "140-15B Sanford Avenue, Second Floor, Flushing, NY 11355"
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
@@ -44,5 +44,4 @@ day_hours = "Tuesday - Thursday: 9 am - 9 pm"
 day_hours = "Saturday: 9 am - 3 pm"
 
 +++
-
 Our mission is to provide individualized, diagnostic, therapeutic, and educational services for the emotional and behavioral issues children exhibit in the home, school, and community via integrated community based psychiatric and support services that are child centered, family driven and culturally competent, and to advocate for preventative and educational services from community resources as well as promoting and/or developing other specialized services for children with serious mental, emotional, and behavioral disorders and their families.
