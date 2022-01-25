@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "http://www.sara-zaidi.com/about"
 [[locations]]
-address = "19W 34th St.\nNew York, NY 10036"
+address = "19 West 34th Street, New York, NY 10036"
 boroughs = ["Citywide"]
 credentials = ["LPC (Licensed Professional Counselor)", "LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
