@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "https://www.psychologytoday.com/us/therapists/yu-kang-chen-new-york-ny/866279"
 [[locations]]
-address = "One Penn Plaza"
+address = "One Penn Plaza, New York, NY 10119"
 boroughs = ["Queens", "Manhattan", "Brooklyn"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "In addition to my private practice, I am a clinical psychologist and training director at a community mental health clinic serving primarily Asian/Chinese communities."
