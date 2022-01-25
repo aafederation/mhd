@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "www.therapywithshanni.com"
 [[locations]]
-address = "Jackson Heights"
+address = "Jackson Heights, 11372"
 boroughs = ["Citywide"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "yes, social work school. "
@@ -40,5 +40,4 @@ trainings = "EMDR Trauma and Psychoanalysis"
 day_hours = "Monday - Friday: 9 am - 6 pm"
 
 +++
-
 I work with people facing a wide variety of life challenges including depression, anxiety, family conflict, career transition, and trauma. I use a EMDR as well as other supportive approaches blending psychodynamic. My upbringing and life experiences provide me with a bi-cultural lens. My social work training allows me to discuss and address with you how racism and oppression has affected your mental health and your sense of belonging in this world.
