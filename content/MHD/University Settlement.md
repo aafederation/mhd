@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.universitysettlement.org/programs/mental-health-wellness/families-thriving/"
 [[locations]]
-address = "184 Eldridge St."
+address = "184 Eldridge Street, New York, NY 10002"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
