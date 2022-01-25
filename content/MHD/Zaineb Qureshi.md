@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://byrepose.com/"
 [[locations]]
-address = "Virtual"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = ["Licensed Creative Arts Therapist"]
 gender_identification = ["Female"]
