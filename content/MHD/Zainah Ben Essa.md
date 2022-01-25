@@ -18,7 +18,7 @@ tags = []
 telehealth = "Yes"
 website = "https://talkingforwellness.com/"
 [[locations]]
-address = "153 W 27th St \nNew York, NY 10001"
+address = "153 West 27th Street, New York, NY 10001"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = []
