@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.samiashafi.com/"
 [[locations]]
-address = "26 Court Street\nBrooklyn NY 11242"
+address = "26 Court Street, Brooklyn, NY 11242"
 boroughs = ["Brooklyn"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = ["Female"]
