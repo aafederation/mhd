@@ -17,7 +17,7 @@ tags = ["Organization", "Hospital"]
 telehealth = "Not applicable"
 website = "www.flushinghospital.org"
 [[locations]]
-address = "777 Seaview Ave."
+address = "777 Seaview Avenue, Staten Island, NY 10305"
 boroughs = ["Staten Island", "Manhattan", "Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
