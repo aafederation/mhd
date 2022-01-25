@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.wovetherapy.com/"
 [[locations]]
-address = "39 W 32nd St \nSuite 1103-4 \nNew York, NY 10001"
+address = "39 West 32nd Street, Suite 1103-4, New York, NY 10001"
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
