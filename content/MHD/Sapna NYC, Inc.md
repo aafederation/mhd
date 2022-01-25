@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "http://www.sapnanyc.org/"
 [[locations]]
-address = "2348 Waterbury Ave, 1st Fl."
+address = "2348 Waterbury Ave, 1st Floor, Bronx, NY 10462"
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
 credentials = []
 culturally_competent_treatment = ""
