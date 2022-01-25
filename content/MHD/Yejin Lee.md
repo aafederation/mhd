@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "yejinlee.co"
 [[locations]]
-address = "Remote"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = []
