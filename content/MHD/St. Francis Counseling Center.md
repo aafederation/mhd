@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://stfrancisnyc.org/counseling-center/"
 [[locations]]
-address = "135 31st Street \nNew York, NY 10001"
+address = "135 31st Street, New York, NY 10001"
 boroughs = ["Manhattan"]
 credentials = []
 gender_identification = []
