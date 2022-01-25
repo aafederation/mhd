@@ -17,13 +17,13 @@ tags = []
 telehealth = "Yes"
 website = "https://teresaleemd.com/"
 [[locations]]
-address = "99 Wall Street, #136, New York, NY 10005"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = ["Female"]
 languages = ["English"]
-latLng = "40.71061133836187, -74.00689568702596"
+latLng = ""
 new_clients = "Yes"
 new_clients_detail = "I accept new clients for weekly therapy and medications but not medications alone. I have more room in my practice to accept persons for group therapy. "
 non_clinical_services = []
