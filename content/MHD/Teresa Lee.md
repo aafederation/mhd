@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://teresaleemd.com/"
 [[locations]]
-address = "99 Wall St #136, NY, NY 10005"
+address = "99 Wall Street, #136, New York, NY 10005"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
