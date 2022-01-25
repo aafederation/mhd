@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://graymattersmd.com/"
 [[locations]]
-address = "19 W 21st St\nSuite 1003\nNew York, NY 10010"
+address = "19 West 21st Street, Suite 1003, New York, NY 10010"
 boroughs = ["Manhattan"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = ["Female"]
