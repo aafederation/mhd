@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "www.sacssny.org"
 [[locations]]
-address = "143-06 45th Ave."
+address = "143-06 45th Avenue, Queens, NY 11355"
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
@@ -43,5 +43,4 @@ day_hours = "Saturday: 10 am - 2 pm"
 transport_option = "Bus: Q65, Q27, Q17, Q34"
 
 +++
-
 Our mission is to empower and integrate underserved South Asians and other immigrants into the civic and economic life of New York. SACSS’ target diaspora is comprised of immigrants and their children hailing from the South Asian region which includes India, Pakistan, Bangladesh, Nepal, Sri Lanka, Afghanistan, Bhutan, and the Maldives. It also includes Indo-Caribbeans who are individuals from Caribbean nations who trace their heritage back to South Asia.
