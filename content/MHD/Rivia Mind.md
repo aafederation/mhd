@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.riviamind.com/"
 [[locations]]
-address = "274 Madison Avenue \nSte 1501 \nNew York, NY 10016"
+address = "274 Madison Avenue, Suite 1501, New York, NY 10016"
 boroughs = ["Citywide"]
 credentials = ["LMSW (Licensed Master Social Worker)", "Licensed Psychiatrist", "LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
