@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://childcenterny.org/asian-outreach-program/"
 [[locations]]
-address = "67-14 41st Avenue\nWoodside, NY 11377"
+address = "67-14 41st Avenue, Woodside, NY 11377"
 boroughs = ["Queens"]
 credentials = []
 gender_identification = ["Male", "Female"]
