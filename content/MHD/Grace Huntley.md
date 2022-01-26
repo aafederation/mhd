@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.gracehuntleycounseling.com/"
 [[locations]]
-address = "Telehealth "
+address = "Online"
 boroughs = ["Citywide"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
