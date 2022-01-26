@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "http://www.hamiltonmadisonhouse.org/behavioral-health-services.html"
 [[locations]]
-address = "253 South St, 2nd Fl."
+address = "253 South St, 2nd Floor, New York, NY 10002"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
