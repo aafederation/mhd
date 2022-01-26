@@ -18,7 +18,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "29 west 38th St, 10th Fl"
+address = "29 West 38th Street, 10th Floor, New York, NY 10018"
 boroughs = ["Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
@@ -42,5 +42,4 @@ day_hours = "Monday - Saturday: 9 am - 8 pm"
 transport_option = "Subway: N,Q,R,S,1,2,3,7"
 
 +++
-
 I am an immigrant from Hong Kong and have made a life working on Wall Street for 30 years. Helping with people's healing is my way of giving back to the community.
