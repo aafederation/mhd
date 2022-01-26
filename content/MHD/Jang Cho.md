@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.cultivatepsychiatry.com/"
 [[locations]]
-address = "Telehealth"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = ["MD (Doctor of Medicine)"]
 gender_identification = []
