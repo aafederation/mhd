@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "Telehealth"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = ["Female"]
