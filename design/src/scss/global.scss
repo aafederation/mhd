@@ -53,6 +53,12 @@ h4 {
   @include apply-utility("font", "serif");
 }
 
+h5,
+h6 {
+  line-height: 1.1;
+  @include apply-utility("font", "base");
+}
+
 a {
   color: currentColor;
 }
