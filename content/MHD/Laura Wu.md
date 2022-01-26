@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://calendly.com/laura-e-wu/therapy-consultation"
 [[locations]]
-address = "19 West 45th Street\nNew York, NY 10036"
+address = "19 West 45th Street, New York, NY 10036"
 boroughs = ["Citywide"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = []
