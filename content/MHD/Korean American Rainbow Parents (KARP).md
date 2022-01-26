@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Online", "Organization"]
 telehealth = "Yes"
 website = "https://www.nqapia.org/wpp/healthandhealing/"
 [[locations]]
-address = "Online Community"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = []
