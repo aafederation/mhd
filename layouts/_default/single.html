@@ -72,9 +72,6 @@
 							{{ with $location.staff_gender }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.staff_gender") "items" .) }}
 							{{ end }}
-							{{ with $location.culturally_competent_treatment }}
-								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.culturally_competent_treatment") "items" .) }}
-							{{ end }}
 							{{ with $location.public_transportation }}
 								{{ partial "single-service-list" (dict "title" (partial "functions/forestryLabel" "locations.public_transportation") "items" .) }}
 							{{ end }}
