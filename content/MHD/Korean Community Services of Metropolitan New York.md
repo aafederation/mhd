@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.kcsny.org/wellness/mental-health/"
 [[locations]]
-address = "42-16 162nd St, 2nd Fl."
+address = "42-16 162nd St, 2nd Floor, Flushing, NY 11358"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
@@ -47,5 +47,4 @@ transport_option = "Bus: Q3"
 transport_option = "Subway: 7"
 
 +++
-
 Our mission is to assist and empower Korean American individuals, families, and the greater immigrant community. This mission is achieved through the promotion of projects and programs that provide culturally and professionally competent human services to underserved Korean Americans. We believe that healthier individuals and communities results from a combination of outreach, treatment, and prevention efforts.
