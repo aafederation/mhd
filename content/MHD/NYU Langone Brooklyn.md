@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization", "Hospital"]
 telehealth = "Yes"
 website = "https://nyulangone.org/locations/sunset-terrace-family-health-center-at-nyu-langone"
 [[locations]]
-address = "514 49th St."
+address = "514 49th Street, Brooklyn, NY 11220"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
@@ -43,5 +43,4 @@ transport_option = "Bus: B53, B37, B9"
 transport_option = "Subway: R"
 
 +++
-
 The mission of NYU Langone is to **serve, to teach, and to discover**. We are committed to making world- class contributions that place service to human health at the center of an academic culture devoted to excellence in research, patient care, and education.
