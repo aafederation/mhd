@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Not applicable"
 website = "https://www.aafe.org/2016/10/aafe-helps-people-improve-their-lives.html"
 [[locations]]
-address = "2 Allen St, 7th Fl."
+address = "2 Allen Street, 7th Floor, New York, NY 10002"
 boroughs = ["Queens", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
