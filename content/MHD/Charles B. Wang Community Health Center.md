@@ -69,7 +69,7 @@ day_hours = "Wednesday: 10 am-6 pm"
 [[locations.hours_of_operation]]
 day_hours = "Thursday: 11 am-6 pm"
 [[locations]]
-address = "137-43 45th Ave."
+address = "137-43 45th Avenue, Queens, NY 11355"
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
