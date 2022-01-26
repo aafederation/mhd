@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://copo.org/our-programs/"
 [[locations]]
-address = "1077 Coney Island Ave."
+address = "1077 Coney Island Avenue, Brooklyn, NY 11230"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
