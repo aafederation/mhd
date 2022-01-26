@@ -17,7 +17,7 @@ tags = []
 telehealth = "Not applicable"
 website = "www.chdny.org"
 [[locations]]
-address = "928 Broadway, Suite 804, New York, NY 10010, USA"
+address = "928 Broadway, Suite 804, New York, NY 10010"
 boroughs = ["Manhattan"]
 credentials = ["Licensed Psychoanalyst", "LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
