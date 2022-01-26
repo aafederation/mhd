@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Not applicable"
 website = "www.cbwchc.org"
 [[locations]]
-address = "268 Canal St."
+address = "268 Canal Street, New York, NY 10013"
 boroughs = ["Citywide", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
@@ -96,5 +96,4 @@ day_hours = "Wednesday: 10 am-6 pm"
 day_hours = "Thursday: 11 am-6 pm"
 
 +++
-
 Charles B. Wang Community Health Center's mission statement is to provide high quality and affordable health care to the underserved, with a focus on Asian Americans.
