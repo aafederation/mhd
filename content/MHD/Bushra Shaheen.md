@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://byrepose.com/bushra-shaheen-lmsw-o"
 [[locations]]
-address = "276 5th Ave, New York, NY 10001"
+address = "276 5th Avenue, New York, NY 10001"
 boroughs = ["Manhattan", "Brooklyn", "Bronx"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 culturally_competent_treatment = "Community residency model"
