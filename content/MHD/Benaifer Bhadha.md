@@ -39,3 +39,4 @@ trainings = ""
 day_hours = "9 am - 5 pm"
 
 +++
+My guiding principle as a therapist, facilitator and performer is deep listening without judgment, so that people can feel the freedom to express themselves, explore their experiences and create authentic connection. I believe that listening is an essential tool in healing and feeling valued. My approach is trauma informed and client-centered with an anti-oppression lens. I am committed to the lifelong unlearning of colonial structures that are deeply rooted in mental health and holding space for others to unpack how societal and institutional structures have impacted their mental health and wellness.
