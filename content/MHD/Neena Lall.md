@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "NeenaLallLCSW.com"
 [[locations]]
-address = "35 West 31st Street\nUnit 10005\nNew York, NY 10001"
+address = "35 West 31st Street, Unit 10005, New York, NY 10001"
 boroughs = ["Manhattan"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
