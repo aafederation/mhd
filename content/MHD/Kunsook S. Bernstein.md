@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "Telehealth "
+address = "Online"
 boroughs = ["Queens"]
 credentials = ["Psychiatric Mental Health Nurse Practitioner"]
 gender_identification = []
