@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.aafscny.org/"
 [[locations]]
-address = "150 Court St. # 3"
+address = "150 Court Street, #3, Brooklyn, NY 11201"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
