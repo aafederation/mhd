@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://amygracelam.com/"
 [[locations]]
-address = "San Francisco, CA"
+address = "Online, San Francisco, CA"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = ["Genderqueer"]
