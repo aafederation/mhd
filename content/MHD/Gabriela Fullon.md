@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "https://www.buenviajecounseling.com/"
 [[locations]]
-address = "6 East 39th St, 8th Fl"
+address = "6 East 39th Street, 8th Floor, New York, NY 10016"
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = "No"
