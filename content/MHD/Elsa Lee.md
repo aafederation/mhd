@@ -35,7 +35,7 @@ services = ["Psychotherapy", "Psychological testing and assessment"]
 staff_gender = ["Female"]
 trainings = ""
 [[locations.hours_of_operation]]
-day_hours = "weekdays, by appointment "
+day_hours = "Weekdays by appointment "
 [[locations.public_transportation]]
 transport_option = "Long Island Railroad, Bus"
 
