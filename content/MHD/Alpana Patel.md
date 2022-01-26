@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.mountsinai.org/patient-care/service-areas/community-medicine/sexual-assault-and-violence-intervention-program-savi"
 [[locations]]
-address = "Elmhurst Hospital\nSAVI program\n79-01 Broadway\nElmhurst, NY 11418"
+address = "Elmhurst Hospital, SAVI Program, 79-01 Broadway, Elmhurst, NY 11418"
 boroughs = ["Queens"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = ["Female"]
