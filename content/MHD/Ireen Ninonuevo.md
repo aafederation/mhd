@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.NinoNuevoConsulting.com"
 [[locations]]
-address = "99 Wall Street Suite 787\nNew York, NY 10005"
+address = "99 Wall Street, Suite 787, New York, NY 10005"
 boroughs = ["Citywide"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
