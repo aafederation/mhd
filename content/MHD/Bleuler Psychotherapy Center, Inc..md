@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.bleulerpc.org/"
 [[locations]]
-address = "104-70 Queens Blvd, Suite 200"
+address = "104-70 Queens Boulevard, Suite 200, Forest Hills, NY 11375"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
@@ -47,4 +47,4 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
-Bleuler Psychotherapy Center's (BPC) mission is to provide high quality, low cost psychotherapeutic services to children, adolescents, adults, couples and families. 
+Bleuler Psychotherapy Center's (BPC) mission is to provide high quality, low cost psychotherapeutic services to children, adolescents, adults, couples and families.
