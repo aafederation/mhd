@@ -17,7 +17,7 @@ tags = []
 telehealth = "Not applicable"
 website = ""
 [[locations]]
-address = "229 9th Street\n#507 \nBrooklyn, NY 11215"
+address = "229 9th Street, #507, Brooklyn, NY 11215"
 boroughs = ["Brooklyn"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = []
