@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://secure.helloalma.com/providers/asha-de-costa/"
 [[locations]]
-address = "Telehealth"
+address = "Online"
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
