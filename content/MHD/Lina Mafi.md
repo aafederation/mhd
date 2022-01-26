@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.therapywithlina.com"
 [[locations]]
-address = "875 6th Avenue\nNew York, NY 10001"
+address = "875 6th Avenue, New York, NY 10001"
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
