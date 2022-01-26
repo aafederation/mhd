@@ -31,6 +31,22 @@ fields:
     required: false
   label: Email
   description: Email address to contact the service provider
+- name: best_way_to_contact
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Phone
+    - Email
+    - Website
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Best way to contact
+  description: Choose the best way to contact
 - name: payment_types
   type: list
   config:
