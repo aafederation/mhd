@@ -6,6 +6,8 @@ email = "whung@henrystreet.org or gireland@henrystreet.org"
 highlight = false
 image = ""
 org = "Henry Street Settlement"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["Medicare", "Medicaid"]
 payment_types_non_clinical = []
 program = "Community Consultation Center"
@@ -15,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.henrystreet.org/programs/primary-behaviorial-health/mental-health-services/asian-bi-cultural-mental-health-services/"
 [[locations]]
-address = "40 Montgomery St."
+address = "40 Montgomery Street, New York, NY 10002"
 boroughs = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
 credentials = []
 culturally_competent_treatment = ""
@@ -40,5 +42,4 @@ transport_option = "Subway: F, J, M, Z"
 transport_option = "Bus: M22, M9, M14A"
 
 +++
-
 Henry Street Settlement’s mission is to open doors of opportunity for Lower East Side residents and other New Yorkers through social services, arts, and health care programs. The organization is distinguished by its commitment to listening to and learning from our neighbors—and then acting to meet the most pressing needs of our community.
