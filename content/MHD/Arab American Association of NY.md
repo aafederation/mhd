@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.arabamericanny.org/"
 [[locations]]
-address = "7111 5th Ave."
+address = "7111 5th Avenue, Brooklyn, NY 11209"
 boroughs = ["Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
