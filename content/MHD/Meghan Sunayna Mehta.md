@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "https://byrepose.com/meghan-sunayna-mehta-lmsw"
 [[locations]]
-address = "276 5th Ave."
+address = "276 5th Avenue, New York, NY 10001"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Citywide", "Bronx"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 culturally_competent_treatment = "Yes, cultural competency is incorporated into all of my practice. "
