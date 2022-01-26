@@ -6,6 +6,8 @@ email = "dvd9001@nyp.org"
 highlight = false
 image = ""
 org = "Gracie Square Hospital"
+payment_info_clinical = ""
+payment_info_non_clinical = ""
 payment_types = ["UnitedHealthcare", "Oxford", "Medicare", "Medicaid", "Cigna", "Blue Cross/Blue Shield", "Aetna"]
 payment_types_non_clinical = []
 program = "Asian Psychiatry Program"
@@ -15,7 +17,7 @@ tags = ["LGBTQ+", "Hospital", "Organization"]
 telehealth = "No"
 website = "https://www.nygsh.org/asian-psychiatry.html"
 [[locations]]
-address = "420 East 76th St."
+address = "420 East 76th Street, New York, NY 10021"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
@@ -40,5 +42,4 @@ transport_option = "Bus"
 transport_option = "Subway"
 
 +++
-
 Gracie Square Hospital is a psychiatric hospital affiliated with New York-Presbyterian Hospital System, providing specialized inpatient services including our Asian Psychiatry Program tailored for the Asian community.
