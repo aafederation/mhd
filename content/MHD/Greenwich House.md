@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "https://www.greenwichhouse.org/senior-services/senior-health-and-consultation-center/"
 [[locations]]
-address = "27 Barrow St, 3rd Fl."
+address = "27 Barrow St, 3rd Floor, New York, NY 10014"
 boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
 credentials = []
 culturally_competent_treatment = ""
