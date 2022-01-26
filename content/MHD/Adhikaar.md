@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "No"
 website = "https://adhikaar.org/#our_work"
 [[locations]]
-address = "71-07 Woodside Ave."
+address = "71-07 Woodside Avenue, Flushing, NY 11377"
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
