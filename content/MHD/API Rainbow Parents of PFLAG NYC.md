@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "http://www.pflagnyc.org/support/api"
 [[locations]]
-address = "130 E. 25th St, Suite M1 (PFLAG NYC's office address)"
+address = "130 East 25th Street, Suite M1, New York, NY 10010 (PFLAG NYC's office address)"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
