@@ -113,6 +113,9 @@
 						<span>{{ . }}</span>
 					</div>
 				{{ end }}
+				{{ if eq .org.best_way_to_contact "Phone"}}
+					<h5 class="sub-header">* Best way to contact</h5>
+				{{ end }}
 				{{ with .org.email }}
 					<div class="display-flex">
 						<span class="[ font_icons color-secondary ] [ position-icon ]"
@@ -128,6 +131,9 @@
 						</a>
 					</div>
 				{{ end }}
+				{{ if eq .org.best_way_to_contact "Email"}}
+					<h5 class="sub-header">* Best way to contact</h5>
+				{{ end }}
 				{{ with .org.website }}
 					<div class="display-flex">
 						<span class="[ font_icons color-secondary ] [ position-icon ]"
@@ -141,6 +147,9 @@
 							>{{ . }}
 						</a>
 					</div>
+				{{ end }}
+				{{ if eq .org.best_way_to_contact "Website"}}
+					<h5 class="sub-header">* Best way to contact</h5>
 				{{ end }}
 				{{ with .location.hours_of_operation }}
 					<div class="display-flex">
