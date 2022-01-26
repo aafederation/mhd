@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "http://elisaleephd.com"
 [[locations]]
-address = "5 West 86th St."
+address = "5 West 86th Street, New York, NY 10024"
 boroughs = ["Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = ""
@@ -43,5 +43,4 @@ transport_option = "Subway"
 transport_option = "Bus"
 
 +++
-
 I am an Asian American clinical psychologist in private practice. I specialize in helping my patients gain meaningful, long-term change through collaborative exploration of their thoughts, feelings, and behaviors along side practical, goal-oriented interventions.
