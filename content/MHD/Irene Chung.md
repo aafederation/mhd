@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-client_requirements = "Will offer phone consultation first to determine capacity and compatibility for working relationship"
+client_requirements = ""
 email = "ichung765@gmail.com"
 highlight = false
 image = "/img/c8526225-9ef1-4dec-a7de-2105f94d2b3c-irene-chung.jpeg"
