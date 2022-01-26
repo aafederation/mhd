@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "Telehealth"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = ["Female"]
