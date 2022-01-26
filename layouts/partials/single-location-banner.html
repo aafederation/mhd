@@ -8,7 +8,11 @@
 	{{ if or (in (slice "Citywide" "") $borough) (eq $borough nil) }}
 		{{ $borough = "New York City" }}
 	{{ end }}
-	{{ $mappingAddress = print .org.org "," .location.address "," $borough "+NY" }}
+	{{ if in .org.tags "Individual"}}
+		{{ $mappingAddress = print .location.address "," $borough "+NY" }}
+	{{ else }}
+		{{ $mappingAddress = print .org.org "," .location.address "," $borough "+NY" }}
+	{{ end }}
 	{{ $mappingAddress = replace $mappingAddress "\n" "+" }}
 	{{ $mappingAddress = replace $mappingAddress " " "+" }}
 {{ else }}
