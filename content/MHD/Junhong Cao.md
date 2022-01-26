@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "https://mindconnectionsnyc.com/about/june-cao/"
 [[locations]]
-address = "600 3rd Ave, 2nd Fl"
+address = "600 3rd Ave, 2nd Floor, New York, NY 10016"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "Yes. In my doctoral program, multiculturalism and diversity training is required. In my internship and work places, cultural competency has been implemented in training and treatment models. I have also trained other clinicians and interns at medical schools cultural competency through workshops and webinars."
