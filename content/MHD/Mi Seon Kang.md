@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "https://www.mskpsychotherapy.com/"
 [[locations]]
-address = "26 Court St."
+address = "26 Court Street, Brooklyn, NY 11242\n"
 boroughs = ["Brooklyn"]
 credentials = ["Licensed Creative Arts Therapist"]
 culturally_competent_treatment = "I received trainings in working with culturally diverse children and families at Ackerman Institute for the Family "
