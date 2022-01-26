@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "163 Engle Street\nBLD #1A\nEnglewood, NJ 07631"
+address = "163 Engle Street, Building #1A, Englewood, NJ 07631"
 boroughs = ["Citywide"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = ["Male"]
