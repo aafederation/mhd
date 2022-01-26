@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://jjleeart.myportfolio.com/"
 [[locations]]
-address = "Telehealth"
+address = "Online"
 boroughs = ["Manhattan"]
 credentials = ["Licensed Creative Arts Therapist"]
 gender_identification = []
