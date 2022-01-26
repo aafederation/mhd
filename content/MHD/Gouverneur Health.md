@@ -17,7 +17,7 @@ tags = ["hospital", "Organization"]
 telehealth = "Yes"
 website = "https://www.nychealthandhospitals.org/gothamhealth/gouverneur/our-services/behavioral-health/"
 [[locations]]
-address = "227 Madison St."
+address = "227 Madison Street, Manhattan, NY 10002"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = []
