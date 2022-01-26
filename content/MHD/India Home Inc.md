@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "No"
 website = "https://indiahome.org/health-wellness-programs/"
 [[locations]]
-address = "178-36 Wexford Terrace, Suite 2C"
+address = "178-36 Wexford Terrace, Suite 2C, Queens, NY 11432"
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
