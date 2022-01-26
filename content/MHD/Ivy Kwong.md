@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "BareIvy.com"
 [[locations]]
-address = "Telehealth "
+address = "Online"
 boroughs = ["Citywide"]
 credentials = ["LMFT (Licensed Marriage and Family Therapist)"]
 gender_identification = ["Female"]
