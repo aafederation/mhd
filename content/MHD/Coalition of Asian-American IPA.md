@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "No"
 website = "https://www.caipa.com/about-us/services/"
 [[locations]]
-address = "202 Canal St."
+address = "202 Canal Street, New York, NY 10013"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
