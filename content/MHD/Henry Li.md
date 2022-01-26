@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.psychologytoday.com/us/therapists/henry-li-flushing-ny/907362"
 [[locations]]
-address = "6520 77th St. \nMiddle Village, NY 11379"
+address = "6520 77th Street, Middle Village, NY 11379"
 boroughs = ["Queens", "Brooklyn", "Citywide"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
