@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.cafamh.org/programs/"
 [[locations]]
-address = "168 Centre St."
+address = "168 Centre Street, New York, NY 10013"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
