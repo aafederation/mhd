@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "No"
 website = "https://www.homecrest.org/senior-services"
 [[locations]]
-address = "1413 Ave. T"
+address = "1413 Avenue T, Brooklyn, NY 11229"
 boroughs = ["Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
