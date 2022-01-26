@@ -17,7 +17,7 @@ tags = ["LGBTQ+", "Online", "Organization"]
 telehealth = "No"
 website = "https://www.desirainbow.org/programs"
 [[locations]]
-address = "Online Community"
+address = "Online"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
@@ -42,5 +42,4 @@ day_hours = "Monday - Friday: 9 am - 5 pm"
 day_hours = "Support groups available in the evenings"
 
 +++
-
 Desi Rainbow Parents & Allies mission is to foster understanding and acceptance among families, with the goal of affirming and celebrating our LGBTQ+ loved ones.
