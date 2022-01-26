@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.talkingforwellness.com"
 [[locations]]
-address = "153 West 27th Street\nSuite 300\nNew York, NY 10001"
+address = "153 West 27th Street, Suite 300, New York, NY 10001"
 boroughs = ["Manhattan", "Brooklyn"]
 credentials = ["LMHC (Licensed Mental Health Counselor)", "LPC (Licensed Professional Counselor)"]
 gender_identification = []
