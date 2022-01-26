@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.queenspsychology.com"
 [[locations]]
-address = "505 Northern Blvd\nGreat Neck, NY 11021, USA"
+address = "505 Northern Boulevard, Great Neck, NY 11021"
 boroughs = ["Queens"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = []
