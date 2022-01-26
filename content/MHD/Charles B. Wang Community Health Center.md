@@ -43,7 +43,7 @@ day_hours = "Wednesday: 10 am - 6 pm"
 [[locations.hours_of_operation]]
 day_hours = "Thursday: 11 am - 6 pm"
 [[locations]]
-address = "136-26 37th Ave."
+address = "136-26 37th Avenue, Flushing, NY 11354"
 boroughs = ["Queens"]
 credentials = []
 culturally_competent_treatment = ""
