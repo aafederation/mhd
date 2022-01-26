@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.theradiantu.com"
 [[locations]]
-address = "Virtual "
+address = "Online"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = []
