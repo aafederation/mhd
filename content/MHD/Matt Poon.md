@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = ""
 [[locations]]
-address = "352 7th Ave."
+address = "352 7th Avenue, New York, NY 10001"
 boroughs = ["Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "Yearlong cultural competence sequence; ongoing CE"
