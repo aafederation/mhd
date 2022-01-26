@@ -2,6 +2,7 @@
 {{ $showPlace := true }}
 {{ $latLng := "" }}
 {{ $mappingAddress := "" }}
+{{ $bestWayToContact := .org.best_way_to_contact }}
 
 {{ if ne .location.latLng "" }}
 	{{ $latLng = .location.latLng }}
@@ -110,14 +111,16 @@
 						<span class="[ font_icons color-secondary ] [ position-icon ]"
 							>&#xe090;</span
 						>
-						<span>{{ . }}</span>
+						<span>
+							{{ . }}
+							{{ if eq $bestWayToContact "Phone"}}
+								<h5 class="inline-display">(best way to contact)</h5>
+							{{ end }}
+						</span>
 					</div>
 				{{ end }}
-				{{ if eq .org.best_way_to_contact "Phone"}}
-					<h5 class="sub-header">* Best way to contact</h5>
-				{{ end }}
 				{{ with .org.email }}
-					<div class="display-flex">
+					<div class="display-flex flex-wrap-wrap">
 						<span class="[ font_icons color-secondary ] [ position-icon ]"
 							>&#xe010;</span
 						>
@@ -129,13 +132,13 @@
 						>
 							{{ . }}
 						</a>
+						{{ if eq $bestWayToContact "Email"}}
+							<h5 class="inline-display" data-variant="link">(best way to contact)</h5>
+						{{ end }}
 					</div>
 				{{ end }}
-				{{ if eq .org.best_way_to_contact "Email"}}
-					<h5 class="sub-header">* Best way to contact</h5>
-				{{ end }}
 				{{ with .org.website }}
-					<div class="display-flex">
+					<div class="display-flex flex-wrap-wrap">
 						<span class="[ font_icons color-secondary ] [ position-icon ]"
 							>&#xe0e3;</span
 						>
@@ -146,10 +149,10 @@
 							target="_blank"
 							>{{ . }}
 						</a>
+						{{ if eq $bestWayToContact "Website"}}
+							<h5 class="inline-display" data-variant="link">(best way to contact)</h5>
+						{{ end }}
 					</div>
-				{{ end }}
-				{{ if eq .org.best_way_to_contact "Website"}}
-					<h5 class="sub-header">* Best way to contact</h5>
 				{{ end }}
 				{{ with .location.hours_of_operation }}
 					<div class="display-flex">
