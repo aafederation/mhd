@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.jamydoestherapy.com"
 [[locations]]
-address = "116 W. 23rd St.  Suite 500 \nNew York, NY 10011"
+address = "116 West 23rd Street, Suite 500, New York, NY 10011"
 boroughs = ["Citywide"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = ["Genderqueer", "Nonbinary", "Female"]
