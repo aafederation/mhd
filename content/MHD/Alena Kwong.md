@@ -17,7 +17,7 @@ tags = ["Individual"]
 telehealth = "Yes"
 website = "http://www.marymccluskeydsw.com/home.html"
 [[locations]]
-address = "85 Livingston St."
+address = "85 Livingston Street, Brooklyn, NY 11201"
 boroughs = ["Manhattan", "Brooklyn"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "Yes, via my training at NYU's School of Social Work"
