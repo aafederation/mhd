@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "www.masharatmujib.com"
 [[locations]]
-address = "Telehealth"
+address = "Online"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
