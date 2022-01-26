@@ -17,7 +17,7 @@ tags = []
 telehealth = "Yes"
 website = "byrepose.com"
 [[locations]]
-address = "276 5th Ave, New York, NY 10001"
+address = "276 5th Avenue, New York, NY 10001"
 boroughs = ["Citywide"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = []
