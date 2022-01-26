@@ -17,7 +17,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 website = "https://www.cpc-nyc.org/news/2196/cpc-geriatric-mental-health-initiative-program-visits-brooklyn-botanical-garden-and"
 [[locations]]
-address = "4101 8 Ave."
+address = "4101 8th Avenue, Brooklyn, NY 11232"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
