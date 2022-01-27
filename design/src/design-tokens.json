@@ -13,8 +13,8 @@
 		"grey": "#c4c4c4"
 	},
 	"fonts": {
-		"base": "Raleway",
-		"serif": "Montserrat"
+		"base": "Roboto",
+		"serif": "Decalo-bold"
 	},
 	"sizes": {
 		"0": 0,
