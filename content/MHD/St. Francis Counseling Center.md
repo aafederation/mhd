@@ -1,10 +1,11 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = "St. Francis Counseling Center provides services to adults age 21 and older"
 email = "info@stfranciscounseling.org"
 highlight = false
-image = ""
+image = "/img/sfcc-logo-1.jpg"
 org = "St. Francis Counseling Center"
 payment_info_clinical = "Psychotherapy session fees are on a sliding scale basis"
 payment_info_non_clinical = "Psychotherapy session fees are on a sliding scale basis"
