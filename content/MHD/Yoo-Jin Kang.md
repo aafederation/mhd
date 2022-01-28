@@ -27,7 +27,7 @@ languages = []
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Career coaching", "Yoga", "Somatic therapy", "Reiki", "Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
+non_clinical_services = ["Healing Sessions", "Consulting", "Career coaching", "Yoga", "Somatic therapy", "Reiki", "Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
 parking = "Yes"
 phone_number = ""
 psychotherapy = false
@@ -36,7 +36,7 @@ psychotherapy_types = []
 public_transportation = []
 services = []
 staff_gender = []
-trainings = ""
+trainings = "Certified Yoga Teacher, Reiki I Healing Practitioner, Certified Trauma-Informed Advocate\n\nDiversity, Equity, and Inclusion in the Workplace Certificate- University of South Florida  Racial Justice Leadership Institute - Race Forward   Mental Health First Aid- Mental Health First Aid Inc.  Motivational Interviewing - Motivational Interviewing Network   Healthy Masculinity Training Institute - Men Can Stop Rape,  Mind-Body Medicine Fundamentals- The Center for Mind-Body Medicine    40-Hour IPV Advocacy Training - Maryland Network Against Domestic Violence   Trauma-Informed Training - Maryland Coalition Against Sexual Assault "
 
 +++
 Yoo-Jin Kang (she/hers) is a first-generation Korean-American born in Seoul, South Korea and raised in Seattle, Washington (Coast Salish & Puyallup Land) and the DC/Maryland area (Susquehannock, Nentego, & Piscataway Land). 
