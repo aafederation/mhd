@@ -1,10 +1,11 @@
 +++
 ada_compliant = true
 age_groups = ["Youth and Teenagers (14 to 19)", "Adults (19 to 64)", "Preteens and Tweens (11 to 13)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = ""
 highlight = false
-image = ""
+image = "/img/aafsc-logo.png"
 org = "Arab-American Family Support Center"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
