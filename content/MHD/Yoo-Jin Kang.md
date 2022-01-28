@@ -22,21 +22,22 @@ website = "https://www.ykangconsulting.com"
 address = "Online"
 boroughs = ["Citywide"]
 credentials = []
-hours_of_operation = []
-languages = []
+languages = ["English"]
 latLng = ""
 new_clients = "Yes"
-new_clients_detail = ""
+new_clients_detail = "Open for individual coaching/consulting/healing sessions- priority is given to BIPOC & First-Generation folks "
 non_clinical_services = ["Healing Sessions", "Consulting", "Career coaching", "Yoga", "Somatic therapy", "Reiki", "Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
-parking = "Yes"
+parking = "No"
 phone_number = ""
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
 services = []
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Certified Yoga Teacher, Reiki I Healing Practitioner, Certified Trauma-Informed Advocate\n\nDiversity, Equity, and Inclusion in the Workplace Certificate- University of South Florida  Racial Justice Leadership Institute - Race Forward   Mental Health First Aid- Mental Health First Aid Inc.  Motivational Interviewing - Motivational Interviewing Network   Healthy Masculinity Training Institute - Men Can Stop Rape,  Mind-Body Medicine Fundamentals- The Center for Mind-Body Medicine    40-Hour IPV Advocacy Training - Maryland Network Against Domestic Violence   Trauma-Informed Training - Maryland Coalition Against Sexual Assault "
+[[locations.hours_of_operation]]
+day_hours = "Flexible and varies based on appointments/ consultations"
 
 +++
 Yoo-Jin Kang (she/hers) is a first-generation Korean-American born in Seoul, South Korea and raised in Seattle, Washington (Coast Salish & Puyallup Land) and the DC/Maryland area (Susquehannock, Nentego, & Piscataway Land). 
