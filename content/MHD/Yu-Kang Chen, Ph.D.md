@@ -1,10 +1,11 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "ykcphd@gmail.com"
 highlight = false
-image = ""
+image = "/img/yu-kang-chen.jpg"
 org = "Yu-Kang Chen, Ph.D."
 payment_info_clinical = "$200+ per session"
 payment_info_non_clinical = "Please contact me directly"
