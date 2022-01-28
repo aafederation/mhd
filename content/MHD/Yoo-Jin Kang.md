@@ -1,24 +1,42 @@
 +++
-ada_compliant = true
-age_groups = []
+ada_compliant = false
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
 best_way_to_contact = ""
 client_requirements = ""
 draft = true
-email = ""
+email = "ykangconsulting@gmail.com"
 highlight = false
 image = "/img/yoo-jin-kang-headshot-2022-yoo-jin-kang.png"
-locations = []
 org = "Yoo-Jin Kang"
 payment_info_clinical = ""
-payment_info_non_clinical = ""
+payment_info_non_clinical = "My pricing philosophy and services can be found here: https://www.ykangconsulting.com/pricing\n"
 payment_types = []
-payment_types_non_clinical = []
-program = ""
-sliding_scale_clinical = true
+payment_types_non_clinical = ["N/A"]
+program = "Yoo-Jin Kang Consulting "
+sliding_scale_clinical = false
 sliding_scale_non_clinical = true
 tags = []
-telehealth = "Not applicable"
-website = ""
+telehealth = "Yes"
+website = "https://www.ykangconsulting.com"
+[[locations]]
+address = "Online"
+boroughs = ["Citywide"]
+credentials = []
+hours_of_operation = []
+languages = []
+latLng = ""
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = ["Career coaching", "Yoga", "Somatic therapy", "Reiki", "Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
+parking = "Yes"
+phone_number = ""
+psychotherapy = false
+psychotherapy_specialties = []
+psychotherapy_types = []
+public_transportation = []
+services = []
+staff_gender = []
+trainings = ""
 
 +++
 Yoo-Jin Kang (she/hers) is a first-generation Korean-American born in Seoul, South Korea and raised in Seattle, Washington (Coast Salish & Puyallup Land) and the DC/Maryland area (Susquehannock, Nentego, & Piscataway Land). 
