@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = "Phone"
 client_requirements = ""
 email = "info@gohny.org"
 highlight = false
