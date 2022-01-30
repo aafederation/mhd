@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "drdebleenadas@gmail.com"
 highlight = false
@@ -27,7 +28,7 @@ new_clients = "Yes"
 new_clients_detail = "Sliding scale available on a case by case basis"
 non_clinical_services = []
 parking = ""
-phone_number = "(484) 704-2505"
+phone_number = "(484) 704-2505 (text/call) "
 psychotherapy = true
 psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Personality disorders", "Parenting", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Caregiver stress and support", "Bipolar disorder", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Relational Therapy", "Psychodynamic", "Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy"]
