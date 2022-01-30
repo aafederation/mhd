@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "therapywithalena@gmail.com"
 highlight = false
