@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "contact@queenspsychology.com"
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = []
 program = "QNS"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "www.queenspsychology.com"
 [[locations]]
