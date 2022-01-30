@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "info@tpny.org"
 highlight = false
@@ -28,7 +29,7 @@ new_clients = "No"
 new_clients_detail = ""
 non_clinical_services = ["Supported housing", "Peer support groups", "Know Your Rights workshops", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "Yes"
-phone_number = "718-550-3586"
+phone_number = "Call/Text our Helpline: 718-550-3586 ; Or call our office at 718-262-8722"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Sexual abuse", "Family conflict", "Domestic abuse", "Divorce and separation"]
 psychotherapy_types = []
