@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Herald Square Psychology PLLC"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://www.psychologytoday.com/profile/473506"
 [[locations]]
