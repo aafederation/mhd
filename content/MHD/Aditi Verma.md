@@ -41,6 +41,5 @@ day_hours = "Monday - Thursday: 9 am - 6 pm"
 transport_option = "NYC MTA (1,2,3, NQRW subway lines) "
 
 +++
-I utilize a multi-cultural framework to work with clients struggling with codependence, relationship conflict, building a healthy self-image and confidence, acculturation and third culture identity formation, and mood fluctuations. As a therapist of color, I recognize the importance of understanding your values and beliefs with cultural respect.
-
+I utilize a multi-cultural framework to work with clients struggling with codependence, relationship conflict, building a healthy self-image and confidence, acculturation and third culture identity formation, and mood fluctuations. As a therapist of color, I recognize the importance of understanding your values and beliefs with cultural respect.  
 The core of my therapeutic work is creating a space that encourages support, insight, and change. My aim is to help you draw awareness into developing your own coping strategies, engage in creative problem solving, and highlight your personal strength and resiliency. With a curious perspective, we will work together to allow your story to energize you.
