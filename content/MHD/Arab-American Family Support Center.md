@@ -1,9 +1,9 @@
 +++
 ada_compliant = true
 age_groups = ["Youth and Teenagers (14 to 19)", "Adults (19 to 64)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = ""
+best_way_to_contact = "Phone"
 client_requirements = ""
-email = ""
+email = " Zarin@aafscny.org, info@aafscny.org"
 highlight = false
 image = "/img/aafsc-logo.png"
 org = "Arab-American Family Support Center"
