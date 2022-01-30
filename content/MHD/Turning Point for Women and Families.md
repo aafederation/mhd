@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = "Phone"
 client_requirements = ""
 email = "info@tpny.org"
 highlight = false
