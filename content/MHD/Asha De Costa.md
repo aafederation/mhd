@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = "Website"
 client_requirements = ""
 email = "asha@ashawellbeing.com"
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://secure.helloalma.com/providers/asha-de-costa/"
 [[locations]]
