@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = "Website"
 client_requirements = ""
 email = "mmoypsychiatry@melissamoynp.com"
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = []
 program = "Melissa Moy - Private Practice"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = ["Individual", "Online"]
+tags = ["Online", "Individual Provider"]
 telehealth = "Yes"
 website = "https://www.melissamoynp.com/"
 [[locations]]
