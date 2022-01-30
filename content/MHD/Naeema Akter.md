@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Cooper Mental Health Counseling "
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://coopertherapy.com/staff/naeema-akter/"
 [[locations]]
