@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "Huiting@huitingkok.com"
 highlight = false
@@ -15,7 +16,7 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Individual", "Online"]
 telehealth = "Yes"
-website = "https://www.huitingkok.com/ (Best way to contact)"
+website = "https://www.huitingkok.com/ "
 [[locations]]
 address = "Online"
 boroughs = ["Manhattan"]
