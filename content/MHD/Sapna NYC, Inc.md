@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "info@sapnanyc.org"
 highlight = false
@@ -28,7 +29,7 @@ new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = ["Peer support groups", "Know Your Rights workshops", "Financial literacy", "ESL classes", "Entitlement/benefits/SNAP assistance", "Awareness and stigma campaigns", "Case management"]
 parking = "Street parking"
-phone_number = "718-828-9772"
+phone_number = "347-973-7970"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
