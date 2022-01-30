@@ -14,7 +14,7 @@ payment_types_non_clinical = []
 program = "Building Healthy Minds & Happy Families"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "http://www.sara-zaidi.com/about"
 [[locations]]
