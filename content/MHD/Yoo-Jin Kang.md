@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Yoo-Jin Kang Consulting "
 sliding_scale_clinical = false
 sliding_scale_non_clinical = true
-tags = ["Individual Provider"]
+tags = ["Individual Provider - Nonclinical"]
 telehealth = "Yes"
 website = "https://www.ykangconsulting.com"
 [[locations]]
