@@ -49,4 +49,4 @@ To achieve our mission:
 * We facilitate access to information and resources on immigration, health, workers’ rights, and other issues;
 * We organize the community to collectively advocate against social injustices and human rights abuses;
 * We conduct participatory action research and policy advocacy on issues affecting our community;
-* We build the leadership of members, with the focus on marginalized groups within the Nepali-speaking community. 
+* We build the leadership of members, with the focus on marginalized groups within the Nepali-speaking community. .
