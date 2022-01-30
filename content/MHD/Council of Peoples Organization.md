@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "amehdi@copo.org"
 highlight = false
@@ -28,7 +29,7 @@ new_clients = "Not applicable"
 new_clients_detail = ""
 non_clinical_services = ["Psychoeducation", "Domestic violence counseling", "Crisis intervention and management", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "Street parking"
-phone_number = "929-314-0309"
+phone_number = "718-434-3266"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Panic attacks/disorder", "Mood disorders", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Domestic violence", "Domestic abuse", "Depression", "Cultural adjustment", "Coping skills", "Caregiver stress and support", "Bipolar disorder", "Behavioral issues", "Attachment issues", "Anxiety", "Anger management"]
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
