@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "naeema@coopertherapy.com"
 highlight = false
@@ -15,7 +16,7 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
-website = ""
+website = "https://coopertherapy.com/staff/naeema-akter/"
 [[locations]]
 address = "224 West 30th Street, New York, NY 10001"
 boroughs = ["Citywide"]
