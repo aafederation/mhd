@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Full Spectrum Creative Arts Therapy"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://www.psychologytoday.com/us/therapists/yejin-yoo-brooklyn-ny/917202"
 [[locations]]
