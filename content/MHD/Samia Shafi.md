@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "appointments@samiashafi.com"
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://www.samiashafi.com/"
 [[locations]]
