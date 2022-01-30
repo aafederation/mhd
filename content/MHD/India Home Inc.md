@@ -1,8 +1,9 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (60+)"]
+best_way_to_contact = ""
 client_requirements = ""
-email = "selvia@indiahome.org"
+email = "selvia@indiahome.org, info@indiahome.org"
 highlight = false
 image = "/img/indiahome.png"
 org = "India Home Inc. "
