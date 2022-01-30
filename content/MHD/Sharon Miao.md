@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "smiao@graymattersmd.com"
 highlight = false
@@ -13,11 +14,11 @@ payment_types_non_clinical = []
 program = "graymatters medical practice"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://graymattersmd.com/"
 [[locations]]
-address = "19 West 21st Street, Suite 1003, New York, NY 10010"
+address = "19 W 21st Street, Suite 1003, New York, NY 10010"
 boroughs = ["Manhattan"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = ["Female"]
