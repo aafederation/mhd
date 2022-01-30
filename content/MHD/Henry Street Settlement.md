@@ -1,8 +1,9 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
+best_way_to_contact = ""
 client_requirements = ""
-email = "whung@henrystreet.org or gireland@henrystreet.org"
+email = "whung@henrystreet.org, gireland@henrystreet.org"
 highlight = false
 image = ""
 org = "Henry Street Settlement"
