@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = ""
+best_way_to_contact = "Website"
 client_requirements = ""
 email = "ykangconsulting@gmail.com"
 highlight = false
@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Yoo-Jin Kang Consulting "
 sliding_scale_clinical = false
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://www.ykangconsulting.com"
 [[locations]]
