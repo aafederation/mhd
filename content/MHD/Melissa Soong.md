@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = "Website"
 client_requirements = ""
 email = "msoong@rocketmail.com "
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual"]
+tags = ["Individual Provider - Nonclinical"]
 telehealth = "Yes"
 website = "https://www.melissasoong.com/"
 [[locations]]
