@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "xiaolinghsp@gmail.com"
 highlight = false
@@ -17,7 +18,7 @@ tags = []
 telehealth = "Yes"
 website = "https://www.psychologytoday.com/profile/473506"
 [[locations]]
-address = "19 West 34th Street, PH, New York, NY 10001 \n(Currently remote only)"
+address = "19 W 34th Street, PH, New York, NY 10001 \n(Currently remote only)"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
