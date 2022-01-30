@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "noilyn@theradiantu.com"
 highlight = false
