@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = []
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "masharattherapy@gmail.com"
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Masharat Mujib Therapy"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "www.masharatmujib.com"
 [[locations]]
