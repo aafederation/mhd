@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "AisleTalk"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://www.psychologytoday.com/us/therapists/farzana-rahman-new-york-ny/849661"
 [[locations]]
