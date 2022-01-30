@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "jjleetherapy@gmail.com"
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://jjleeart.myportfolio.com/"
 [[locations]]
