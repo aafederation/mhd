@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
+best_way_to_contact = "Phone"
 client_requirements = ""
 email = "marya@sacssny.org"
 highlight = false
