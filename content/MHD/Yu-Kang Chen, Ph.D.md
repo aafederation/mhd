@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = ""
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "ykcphd@gmail.com"
 highlight = false
@@ -14,7 +14,7 @@ payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://www.psychologytoday.com/us/therapists/yu-kang-chen-new-york-ny/866279"
 [[locations]]
