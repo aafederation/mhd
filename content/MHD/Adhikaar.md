@@ -44,6 +44,8 @@ transport_option = "Subway: 7, E, F, M, R"
 +++
 Adhikaar, meaning rights, is a New York-based nonprofit organizing Nepali-speaking community to promote human rights and social justice for all.
 
+\-
+
 To achieve our mission:
 
 * We facilitate access to information and resources on immigration, health, workers’ rights, and other issues;
