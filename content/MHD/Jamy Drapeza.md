@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "jdrapeza@sixthstreetwellness.com"
 highlight = false
@@ -17,7 +18,7 @@ tags = []
 telehealth = "Yes"
 website = "www.jamydoestherapy.com"
 [[locations]]
-address = "116 West 23rd Street, Suite 500, New York, NY 10011"
+address = "116 W 23rd Street, Suite 500, New York, NY 10011"
 boroughs = ["Citywide"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = ["Genderqueer", "Nonbinary", "Female"]
