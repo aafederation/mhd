@@ -1,8 +1,9 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = ""
-email = "das.pabitra@adhikaar.org or sandhya@adhikaar.org"
+email = "das.pabitra@adhikaar.org, sandhya@adhikaar.org"
 highlight = false
 image = "/img/adhikaar.png"
 org = "Adhikaar"
