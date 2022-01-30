@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Sixth Street Wellness (NY), Magnolia Mental Health (DC)"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "www.jamydoestherapy.com"
 [[locations]]
