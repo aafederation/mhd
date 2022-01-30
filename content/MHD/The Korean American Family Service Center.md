@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["All"]
+best_way_to_contact = "Phone"
 client_requirements = ""
 email = "contact@kafsc.org"
 highlight = false
