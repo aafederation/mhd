@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = "Email"
 client_requirements = ""
 email = "neenalallLCSW@gmail.com"
 highlight = false
@@ -17,7 +18,7 @@ tags = []
 telehealth = "Yes"
 website = "NeenaLallLCSW.com"
 [[locations]]
-address = "35 West 31st Street, Unit 10005, New York, NY 10001"
+address = "35 W 31st Street, Unit 10005, New York, NY 10001"
 boroughs = ["Manhattan"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
