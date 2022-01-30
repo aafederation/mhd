@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = "Phone"
 client_requirements = ""
 email = "pooja.raj@sakhi.org"
 highlight = false
@@ -28,7 +29,7 @@ new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = ["Supported housing", "Psychoeducation", "Peer support groups", "Know Your Rights workshops", "Financial literacy", "Family support", "ESL classes", "Entitlement/benefits/SNAP assistance", "Domestic violence counseling", "Crisis intervention and management", "Crisis hotline", "Case management", "Awareness and stigma campaigns", "Advocacy"]
 parking = "No"
-phone_number = "917-615-3664"
+phone_number = "212-868-6741"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
