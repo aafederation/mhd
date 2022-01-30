@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "joyluangphaxay@hmhonline.org"
 highlight = false
@@ -28,7 +29,7 @@ new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = ["Family support", "Supported housing", "Psychoeducation", "ESL classes", "Case management", "Awareness and stigma campaigns"]
 parking = "Street parking"
-phone_number = "212-720-4540/4520"
+phone_number = "212-720-4540"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Suicidal ideation", "Substance abuse", "Stress", "Spirituality", "Sexual harassment and assault", "Sexual addiction", "Sexual abuse", "Self-harming", "Self-esteem", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Pregnancy, perinatal, and postpartum mental health", "Phobias/fears", "Personality disorders", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Obesity", "Mood disorders", "Men's issues", "Medication management", "LGBTQIA, gender, and sexual identity", "Learning disabilities", "Internet addiction", "Insomnia and sleep issues", "Identity development", "Grief, loss, and bereavement", "Gambling", "Family conflict", "Emotional disturbance", "Eating disorders", "Drug abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Caregiver stress and support", "Bipolar disorder", "Behavioral issues", "ADHD", "Anxiety", "Alcohol abuse", "Addiction/recovery"]
 psychotherapy_types = ["Supportive therapy", "Solution-focused therapy", "Group therapy", "Family therapy", "Couples therapy", "Cognitive Behavioral Therapy"]
