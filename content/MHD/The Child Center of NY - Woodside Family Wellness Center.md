@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = "Email"
 client_requirements = "We accept clients who are able to commute to the clinic if needed for in-person services; Queens residents will be more likely to commute to the clinic with minimal hardship."
 email = "WoodsideIntakeTeam@childcenterny.org"
 highlight = false
@@ -13,7 +14,7 @@ payment_types_non_clinical = []
 program = "Woodside Family Wellness Center"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Organization"]
 telehealth = "Yes"
 website = "https://childcenterny.org/asian-outreach-program/"
 [[locations]]
