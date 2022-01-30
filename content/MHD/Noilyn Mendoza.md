@@ -14,7 +14,7 @@ payment_types_non_clinical = []
 program = "The Radiant U, LLC"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "www.theradiantu.com"
 [[locations]]
