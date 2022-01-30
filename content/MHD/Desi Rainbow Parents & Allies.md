@@ -1,6 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = "Website"
 client_requirements = ""
 email = "info@desirainbow.org"
 highlight = false
