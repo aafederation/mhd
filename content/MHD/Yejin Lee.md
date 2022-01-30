@@ -1,8 +1,9 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = "Email"
 client_requirements = ""
-email = "yejin@yejinlee.co"
+email = "yejin.lee1@gmail.com"
 highlight = false
 image = "/img/ap5a5025-yejin-lee.jpg"
 org = "Yejin Lee"
@@ -13,7 +14,7 @@ payment_types_non_clinical = []
 program = "Jeong Coaching & Consulting LLC"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "yejinlee.co"
 [[locations]]
