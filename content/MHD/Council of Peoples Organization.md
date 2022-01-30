@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-best_way_to_contact = ""
+best_way_to_contact = "Phone"
 client_requirements = ""
 email = "amehdi@copo.org"
 highlight = false
