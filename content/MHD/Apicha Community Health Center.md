@@ -1,10 +1,11 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = ""
 highlight = false
-image = "/img/apicha.jpg"
+image = "/img/apicha_2020_logo_treatment_horizontal.png"
 org = "Apicha Community Health Center"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
