@@ -42,11 +42,11 @@ day_hours = "Monday - Friday: 10 am - 6 pm"
 transport_option = "Subway: 7, E, F, M, R"
 
 +++
-Adhikaar, meaning rights, is a New York-based nonprofit organizing Nepali-speaking community to promote human rights and social justice for all.
+Adhikaar, meaning rights, is a New York-based nonprofit organizing Nepali-speaking community to promote human rights and social justice for all. <br>
 
 To achieve our mission:
 
 * We facilitate access to information and resources on immigration, health, workers’ rights, and other issues;
 * We organize the community to collectively advocate against social injustices and human rights abuses;
 * We conduct participatory action research and policy advocacy on issues affecting our community;
-* We build the leadership of members, with the focus on marginalized groups within the Nepali-speaking community. 
+* We build the leadership of members, with the focus on marginalized groups within the Nepali-speaking community.
