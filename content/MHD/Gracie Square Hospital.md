@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "dvd9001@nyp.org"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Gracie Square Hospital"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,9 +20,12 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Hospital", "Organization"]
 telehealth = "No"
+tiktok = ""
+twitter = ""
 website = "https://www.nygsh.org/asian-psychiatry.html"
+youtube = ""
 [[locations]]
-address = "420 East 76th Street, New York, NY 10021"
+address = "420 E 76th Street, New York, NY 10021"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
