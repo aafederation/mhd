@@ -21,21 +21,22 @@ website = "https://www.renew-therapy.org/asuna_osako.php"
 [[locations]]
 address = "Online"
 boroughs = ["Citywide"]
-credentials = []
-hours_of_operation = []
-languages = []
+credentials = ["LMSW (Licensed Master Social Worker)"]
+languages = ["Japanese", "English"]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = ["Brainspotting"]
-parking = "Yes"
+parking = ""
 phone_number = "(646) 580-1683"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "Suicidal ideation", "Stress", "Spirituality", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Phobias/fears", "Parenting", "Panic attacks/disorder", "Obsessive compulsive disorder", "Mood disorders", "LGBTQIA, gender, and sexual identity", "Insomnia and sleep issues", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Eating disorders", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Chronic pain", "Chronic illness", "Caregiver stress and support", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management"]
 psychotherapy_types = ["Art Therapy", "Mindfulness-based", "Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
 public_transportation = []
 services = ["Drama Therapy", "Psychotherapy"]
-staff_gender = []
-trainings = ""
+staff_gender = ["Female"]
+trainings = "RDT (Registered Drama Therapist); Brainspotting Practitioner"
+[[locations.hours_of_operation]]
+day_hours = "Friday, Saturday"
 
 +++
