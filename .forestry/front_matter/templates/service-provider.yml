@@ -31,6 +31,41 @@ fields:
     required: false
   label: Email
   description: Email address to contact the service provider
+- name: facebook
+  type: text
+  config:
+    required: false
+  label: Facebook
+- name: twitter
+  type: text
+  config:
+    required: false
+  label: Twitter
+- name: instagram
+  type: text
+  config:
+    required: false
+  label: Instagram
+- name: linkedin
+  type: text
+  config:
+    required: false
+  label: Linkedin
+- name: youtube
+  type: text
+  config:
+    required: false
+  label: Youtube
+- name: tiktok
+  type: text
+  config:
+    required: false
+  label: Tiktok
+- name: medium
+  type: text
+  config:
+    required: false
+  label: Medium
 - name: best_way_to_contact
   type: select
   default: ''
