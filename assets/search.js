@@ -261,9 +261,9 @@
 			credentials.textContent = myPage.location.credentials.join(", ");
 		} else credentialsRow.remove();
 		if (['individual', 'individual-provider'].some(i => myPage.tag.includes(i))) {
-			providerType.textContent = "(Individual Provider)";
+			providerType.textContent = "Individual Provider";
 		} else {
-			providerType.textContent = "(Organization)";
+			providerType.textContent = "Organization";
 		}
 
 		mainDiv.classList.add("show-item");
