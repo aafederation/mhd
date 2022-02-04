@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = "Phone"
 client_requirements = "St. Francis Counseling Center provides services to adults age 21 and older"
 email = "info@stfranciscounseling.org"
 highlight = false
@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Organization"]
 telehealth = "Yes"
 website = "https://stfrancisnyc.org/counseling-center/"
 [[locations]]
