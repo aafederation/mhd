@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Adults (18+)"]
 best_way_to_contact = ""
 client_requirements = ""
-draft = true
 email = "renewtherapynyc@gmail.com"
 highlight = false
 image = "/img/asunaheadshot2.jpeg"
