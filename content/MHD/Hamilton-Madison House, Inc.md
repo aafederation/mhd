@@ -4,8 +4,12 @@ age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 
 best_way_to_contact = "Phone"
 client_requirements = ""
 email = "BehavioralHealth@hmhonline.org, lilyaberns@hmhonline.org"
+facebook = ""
 highlight = false
 image = "/img/hmh.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Hamilton-Madison House, Inc"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "http://www.hamiltonmadisonhouse.org/behavioral-health-services.html"
+youtube = ""
 [[locations]]
 address = "253 South St, 2nd Floor, New York, NY 10002"
 boroughs = ["Citywide"]
@@ -45,5 +52,7 @@ transport_option = "Subway: F"
 
 +++
 Hamilton-Madison House empowers individuals and families in New York City to achieve success at all stages of their lives. Through culturally sensitive and linguistically accessible services, Hamilton-Madison House addresses the education, health and social needs of all New York City residents, immigrant and ethnic minority communities, including but not limited to the Lower East Side, Chinatown and Two Bridges neighborhoods of Manhattan.
+
+<br>
 
 Hamilton-Madison House is a voluntary, non-profit settlement house dedicated to improving the quality of life of its community, primarily those in the Two Bridges/Chinatown area of Manhattan's Lower East Side. The neighborhood is a federally designated poverty area, with a constantly changing mixture of ethnic groups, and lack of adequate services and resources.
