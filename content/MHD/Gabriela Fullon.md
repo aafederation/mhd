@@ -4,8 +4,12 @@ age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 best_way_to_contact = "Email"
 client_requirements = ""
 email = "buenviajecounseling@gmail.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Gabriela Fullon"
 payment_info_clinical = "$150 per session"
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.buenviajecounseling.com/"
+youtube = ""
 [[locations]]
 address = "6 E 39th Street, 8th Floor, New York, NY 10016"
 boroughs = ["Manhattan"]
@@ -35,7 +42,7 @@ psychotherapy_specialties = ["Stress", "Spirituality", "Self-esteem", "Relations
 psychotherapy_types = ["Supportive Therapy", "Trauma-informed", "Family therapy", "Couples Therapy"]
 services = ["Psychotherapy"]
 staff_gender = ["Female"]
-trainings = "No"
+trainings = ""
 [[locations.hours_of_operation]]
 day_hours = "Friday: 12 pm - 6 pm"
 [[locations.hours_of_operation]]
