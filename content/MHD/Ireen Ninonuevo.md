@@ -4,8 +4,12 @@ age_groups = ["Adults (19 to 64)"]
 best_way_to_contact = "Email"
 client_requirements = "Accepting self pay clients at this time"
 email = "support@ninonuevoconsulting.com"
+facebook = ""
 highlight = false
 image = "/img/self-photo-for-pt-posts-ireen-ninonuevo.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Ireen Ninonuevo"
 payment_info_clinical = "$200 for 55 minute session. Sliding scale within $25 less than full rate. I can provide a superbill for out of network submission by clients. "
 payment_info_non_clinical = "$250 per 55 minute coaching session. "
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "www.NinoNuevoConsulting.com"
+youtube = ""
 [[locations]]
 address = "99 Wall Street, Suite 787, New York, NY 10005"
 boroughs = ["Citywide"]
@@ -41,14 +48,24 @@ day_hours = "Monday - Friday: 1 pm - 3 pm, 6 pm to 9 pm "
 transport_option = "All mass transit options"
 
 +++
-I sensed a calling to help survivors of abuse, and became well versed in treating trauma, depression, anxiety, and stress, because many survivors experience these symptoms. My arts background helped me become a flexible, creative, and intuitive counselor. I weave insight oriented talk and creative therapies with research-backed therapy techniques along with compassion, and hundreds of people have responded well to it. I use EMDR, Cognitive Processing Therapy, and Trauma Focused CBT to help clients gain insight on themselves and move forward in their lives. 
+I sensed a calling to help survivors of abuse, and became well versed in treating trauma, depression, anxiety, and stress, because many survivors experience these symptoms. My arts background helped me become a flexible, creative, and intuitive counselor. I weave insight oriented talk and creative therapies with research-backed therapy techniques along with compassion, and hundreds of people have responded well to it. I use EMDR, Cognitive Processing Therapy, and Trauma Focused CBT to help clients gain insight on themselves and move forward in their lives.
 
-If you’re looking for a therapist who is passionate about helping you move from feeling like you’re helpless against symptoms you experience into someone who has the skills to keep making progress, you’ve found her. 
+<br>
 
-If you want to take joy in your daily life instead of just getting through them, I can help you get there. If there have been too many days feeling depressed, anxious, or constant flashbacks and recurring thoughts about painful situations - and you want to be free of that, I’m here for you. 
+If you’re looking for a therapist who is passionate about helping you move from feeling like you’re helpless against symptoms you experience into someone who has the skills to keep making progress, you’ve found her.
 
-If you feel at times like your body isn’t your own, I can help you understand what’s going on so you can reclaim it. 
+<br>
 
-If you’re ready to work with someone who wants to walk with you on your healing journey, you’re in the right place. 
+If you want to take joy in your daily life instead of just getting through them, I can help you get there. If there have been too many days feeling depressed, anxious, or constant flashbacks and recurring thoughts about painful situations - and you want to be free of that, I’m here for you.
+
+<br>
+
+If you feel at times like your body isn’t your own, I can help you understand what’s going on so you can reclaim it.
+
+<br>
+
+If you’re ready to work with someone who wants to walk with you on your healing journey, you’re in the right place.
+
+<br>
 
 If you’ve ever felt that you can’t take back your life and that discouragement will always be with you, I could state that this isn’t true based on 18 years of experience.
