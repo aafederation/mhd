@@ -14,7 +14,7 @@ payment_types_non_clinical = []
 program = "Playful Recovery"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider - Nonclinical"]
 telehealth = "Yes"
 website = "https://www.playfulrecovery.com/"
 [[locations]]
