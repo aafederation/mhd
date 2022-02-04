@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "api@pflagnyc.org"
 highlight = false
@@ -17,7 +18,7 @@ tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 website = "http://www.pflagnyc.org/support/api"
 [[locations]]
-address = "130 East 25th Street, Suite M1, New York, NY 10010 (PFLAG NYC's office address)"
+address = "130 E 25th Street, Suite M1, New York, NY 10010 (PFLAG NYC's office address)"
 boroughs = ["Citywide"]
 credentials = []
 culturally_competent_treatment = ""
