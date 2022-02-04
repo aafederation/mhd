@@ -40,3 +40,6 @@ trainings = "RDT (Registered Drama Therapist); Brainspotting Practitioner"
 day_hours = "Friday, Saturday"
 
 +++
+Asuna Osako, LMSW, RDT (she/they): Asuna is a licensed social worker, registered drama therapist and life coach with over 14 years of experience in the helping profession. She is bilingual in Japanese and English, and has worked extensively with survivors of trauma and gender-based violence in the nonprofit sector. She also has a passion for working with those who identify as queer or questioning, artist/creatives, and multicultural individuals and TCKs (Third Culture Kids) who are struggling with identity, cross-cultural issues, and self-acceptance. <br>
+
+Asuna currently provides life coaching globally at Playful Recovery, and is a psychotherapist at Renew Therapy in NYC. She also offers self-care and processing spaces and workshops for other providers.
