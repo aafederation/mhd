@@ -233,6 +233,7 @@
 		let credentialsRow = clone.querySelector("#credentials-row");
 		let credentials = clone.querySelector(".credentials");
 		let directions = clone.querySelector(".directions");
+		let providerType = clone.querySelector(".provider-type");
 
 		h3.textContent = myPage.title;
 		
@@ -259,6 +260,11 @@
 		if (myPage.location.credentials && myPage.location.credentials.length > 0) {
 			credentials.textContent = myPage.location.credentials.join(", ");
 		} else credentialsRow.remove();
+		if (['individual', 'individual-provider'].some(i => myPage.tag.includes(i))) {
+			providerType.textContent = "(Individual Provider)";
+		} else {
+			providerType.textContent = "(Organization)";
+		}
 
 		mainDiv.classList.add("show-item");
 		mainDiv.id = "listing-" + myPage.id;
