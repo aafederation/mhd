@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 best_way_to_contact = ""
 client_requirements = ""
-draft = true
 email = "therapywithbokyung@gmail.com"
 highlight = false
 image = "/img/img-5995-bokyung-kim.JPG"
