@@ -1,6 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = ""
 highlight = false
@@ -39,3 +40,4 @@ trainings = "AEDP"
 day_hours = "Monday - Friday: 9 am - 5 pm"
 
 +++
+Alpana Patel, LCSW, MA is Program Coordinator and Clinician for the Mount Sinai Sexual Assault and Violence Intervention (SAVI) Program based at Elmhurst Hospital where she provides services for survivors of sexual assault, child sexual abuse, human trafficking, and intimate partner violence and is fluent in the South Asian languages of Hindi, Urdu, and Gujarati.
