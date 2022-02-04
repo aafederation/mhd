@@ -35,7 +35,7 @@ psychotherapy_types = ["Trauma-informed"]
 public_transportation = []
 services = []
 staff_gender = ["Female"]
-trainings = "AEDP"
+trainings = "Accelerated Experiential Dynamic Psychotherapy"
 [[locations.hours_of_operation]]
 day_hours = "Monday - Friday: 9 am - 5 pm"
 
