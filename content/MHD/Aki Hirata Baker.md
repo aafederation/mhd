@@ -32,13 +32,12 @@ phone_number = ""
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
+public_transportation = []
 services = []
 staff_gender = ["Gender nonconforming"]
 trainings = "Reiki Master Teacher, certified flower essence therapist, Initiated Medicine Woman, Certified Ayurvedic counselor, Certified Yoga teacher"
 [[locations.hours_of_operation]]
 day_hours = "Based on appointments "
-[[locations.public_transportation]]
-transport_option = ""
 
 +++
 Aki Hirata Baker is an initiated Medicine Woman, Moondancer, teacher, speaker, space holder, multi-modality healing practitioner, and community organizer whose work is based on the anti-racial spiritual liberation principle.
