@@ -14,7 +14,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Mount Sinai Sexual Assault and Violence Intervention Program at Elmhurst Hospital "
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 website = "https://www.mountsinai.org/patient-care/service-areas/community-medicine/sexual-assault-and-violence-intervention-program-savi"
 [[locations]]
