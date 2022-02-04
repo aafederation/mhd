@@ -4,8 +4,12 @@ age_groups = ["All"]
 best_way_to_contact = "Phone"
 client_requirements = ""
 email = "info@gohny.org"
+facebook = ""
 highlight = false
 image = "/img/gardenofhope.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Garden of Hope"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://gohny.org/counseling/#gethelp"
+youtube = ""
 [[locations]]
 address = "Confidential Locations - Call or Email for an appointment"
 boroughs = ["Citywide"]
@@ -44,4 +51,4 @@ day_hours = "Safe Hours: 24 hours"
 transport_option = "Subway: 7"
 
 +++
-Garden of Hope, established in 2004, is a linguistically specific and culturally competent domestic violence, sexual assault**,** and human trafficking victim service organization that serves the vast Chinese immigrant community across NYC.
+Garden of Hope, established in 2004, is a linguistically specific and culturally competent domestic violence, sexual assault, and human trafficking victim service organization that serves the vast Chinese immigrant community across NYC.

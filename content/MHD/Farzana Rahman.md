@@ -4,8 +4,12 @@ age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens a
 best_way_to_contact = "Email"
 client_requirements = ""
 email = "farzana@aisle-talk.com"
+facebook = ""
 highlight = false
 image = "/img/img_9146-farzana-rahman.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Farzana Rahman"
 payment_info_clinical = "Individual Counseling: $175\nCouples and Family Counseling: $200 "
 payment_info_non_clinical = "Non-clinical services are included within the clinical work (psychotherapy). "
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.psychologytoday.com/us/therapists/farzana-rahman-new-york-ny/849661"
+youtube = ""
 [[locations]]
 address = "353 Lexington Avenue, 3rd Floor, New York, NY 10016"
 boroughs = ["Manhattan"]
@@ -41,3 +48,4 @@ day_hours = "11 am - 8 pm "
 transport_option = "4, 5, 6, and 7 Trains"
 
 +++
+My passion in this field has stemmed from wanting to support individuals, couples, and families to recognize their full potential. Over the years, I have learned about the numerous emotional concerns and daily life stressors that people of color endure. As a therapist, I strive to create a space that is warm, accepting, and trauma informed. A goal of mine also includes de-stigmatizing mental health therapy, so I understand the courage it takes to reach out for extra support. Whether through individual or couples counseling, we can work together to help you gain insight and flourish within your relationships.

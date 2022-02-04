@@ -4,8 +4,12 @@ age_groups = ["All"]
 best_way_to_contact = "Email"
 client_requirements = ""
 email = "henryli0103@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/inbound5555022260756816282-henry-li.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Henry Li"
 payment_info_clinical = "$120 to $180"
 payment_info_non_clinical = "Advanced Hypnosis work is extra. "
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.psychologytoday.com/us/therapists/henry-li-flushing-ny/907362"
+youtube = ""
 [[locations]]
 address = "6520 77th Street, Middle Village, NY 11379"
 boroughs = ["Queens", "Brooklyn", "Citywide"]
@@ -41,8 +48,12 @@ day_hours = "7 days a week"
 transport_option = "M train"
 
 +++
-Hello everyone, please welcome and allow me to first begin in thanking you. The choice to start therapy isn’t always easy, sometimes it is the most difficult thing to do is to even consider it, then admit you want/need it before even taking the steps to start, but you are not alone on this journey. Perhaps there has been times that you have found yourself feeling stressed, down, lacking confidence, or stuck in a pattern that no longer serves you. Perhaps you’re ready to take steps toward changes but feel stuck or unsure where to start. Or even feeling lost in your relationships in life or even disconnected from them. 
+Hello everyone, please welcome and allow me to first begin in thanking you. The choice to start therapy isn’t always easy, sometimes it is the most difficult thing to do is to even consider it, then admit you want/need it before even taking the steps to start, but you are not alone on this journey. Perhaps there has been times that you have found yourself feeling stressed, down, lacking confidence, or stuck in a pattern that no longer serves you. Perhaps you’re ready to take steps toward changes but feel stuck or unsure where to start. Or even feeling lost in your relationships in life or even disconnected from them.
 
-I have numerous experiences from my time working with individuals from different cultural backgrounds, socioeconomic status and physical limitations. I am fluent in ASL on top of spoken Chinese and English so my communication is not limited. 
+<br>
+
+I have numerous experiences from my time working with individuals from different cultural backgrounds, socioeconomic status and physical limitations. I am fluent in ASL on top of spoken Chinese and English so my communication is not limited.
+
+<br>
 
 I will at times challenge you, but I am always there to validate, empower, and help you do your best to reach the goals you bring in with me. Once again, thank you for reading this, taking the time out to hear me out, but most importantly thank you for taking the steps in getting the help. When we work together we will do our best to help you improve in you life.

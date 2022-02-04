@@ -4,8 +4,12 @@ age_groups = ["All"]
 best_way_to_contact = "Email"
 client_requirements = ""
 email = "contact@queenspsychology.com"
+facebook = ""
 highlight = false
 image = "/img/elsa-lee-professional-picture-elsa-lee.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Elsa Lee"
 payment_info_clinical = "Varies by service "
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "www.queenspsychology.com"
+youtube = ""
 [[locations]]
 address = "505 Northern Boulevard, Great Neck, NY 11021"
 boroughs = ["Queens"]
@@ -41,6 +48,8 @@ day_hours = "Weekdays by appointment "
 transport_option = "Long Island Railroad, Bus"
 
 +++
-Dr. Lee has a uniquely integrative background in counseling and clinical neuropsychology. She has over a decade of clinical experience working in community mental health clinics, hospitals, and schools in NYC. She completed an internship in clinical psychology at New York University Langone Medical Center Rusk Rehabilitation Institute. She then pursued a postdoctoral fellowship in clinical neuropsychology and rehabilitation research at the Icahn School of Medicine at Mount Sinai, specializing in the evaluation and neurorehabilitation of individuals diagnosed with neurological disorders. Dr. Lee adopts a lifespan approach (ages 5+) in her practice, and conducts neuropsychological and psychoeducational assessments, cognitive remediation, and psychotherapy. She is an adjunct faculty at New York University and the Icahn School of Medicine at Mount Sinai. 
+Dr. Lee has a uniquely integrative background in counseling and clinical neuropsychology. She has over a decade of clinical experience working in community mental health clinics, hospitals, and schools in NYC. She completed an internship in clinical psychology at New York University Langone Medical Center Rusk Rehabilitation Institute. She then pursued a postdoctoral fellowship in clinical neuropsychology and rehabilitation research at the Icahn School of Medicine at Mount Sinai, specializing in the evaluation and neurorehabilitation of individuals diagnosed with neurological disorders. Dr. Lee adopts a lifespan approach (ages 5+) in her practice, and conducts neuropsychological and psychoeducational assessments, cognitive remediation, and psychotherapy. She is an adjunct faculty at New York University and the Icahn School of Medicine at Mount Sinai.
+
+<br>
 
 Dr Lee is fluent in Cantonese and Mandarin.
