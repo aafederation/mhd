@@ -154,6 +154,76 @@
 						{{ end }}
 					</div>
 				{{ end }}
+				{{ with .org.facebook }}
+					<div class="display-flex flex-wrap-wrap">
+						<span class="[ font_icons color-secondary ] [ position-icon ]"
+							>&#xe093;</span
+						>
+						<span>
+							{{ . }}
+						</span>
+					</div>
+				{{ end }}
+				{{ with .org.twitter }}
+					<div class="display-flex flex-wrap-wrap">
+						<span class="[ font_icons color-secondary ] [ position-icon ]"
+							>&#xe094;</span
+						>
+						<span>
+							{{ . }}
+						</span>
+					</div>
+				{{ end }}
+				{{ with .org.instagram }}
+					<div class="display-flex flex-wrap-wrap">
+						<span class="[ font_icons color-secondary ] [ position-icon ]"
+							>&#xe09a;</span
+						>
+						<span>
+							{{ . }}
+						</span>
+					</div>
+				{{ end }}				
+				{{ with .org.linkedin }}
+					<div class="display-flex flex-wrap-wrap">
+						<span class="[ font_icons color-secondary ] [ position-icon ]"
+							>&#xe09d;</span
+						>
+						<span>
+							{{ . }}
+						</span>
+					</div>
+				{{ end }}
+				{{ with .org.youtube }}
+					<div class="display-flex flex-wrap-wrap">
+						<span class="[ font_icons color-secondary ] [ position-icon ]"
+							>&#xe0a3;</span
+						>
+						<span>
+							{{ . }}
+						</span>
+					</div>
+				{{ end }}
+				{{ with .org.tiktok }}
+					<div class="display-flex flex-wrap-wrap">
+						<span class="[ color-secondary ] [ position-icon ]"
+							>T</span
+						>
+						<span>
+							{{ . }}
+						</span>
+					</div>
+				{{ end }}				
+				{{ with .org.medium }}
+					<div class="display-flex flex-wrap-wrap">
+						<span class="[ color-secondary ] [ position-icon ]"
+							>M</span
+						>
+						<span>
+							{{ . }}
+						</span>
+					</div>
+				{{ end }}
 				{{ with .location.hours_of_operation }}
 					<div class="display-flex">
 						<span
