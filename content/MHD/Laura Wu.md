@@ -1,10 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "laura.wu@resiliencelab.us"
+facebook = ""
 highlight = false
 image = "/img/dsc_3696-copy-2-laura-wu.JPG"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Laura Wu"
 payment_info_clinical = "$25-$200"
 payment_info_non_clinical = "$25-$200"
@@ -15,9 +20,12 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = []
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://calendly.com/laura-e-wu/therapy-consultation"
+youtube = ""
 [[locations]]
-address = "19 West 45th Street, New York, NY 10036"
+address = "19 W 45th Street, New York, NY 10036"
 boroughs = ["Citywide"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = []
@@ -40,8 +48,12 @@ day_hours = "10 am - 7 pm"
 transport_option = "B, D, F, M, 4, 5, 6, 7, S, 1, 2, 3"
 
 +++
-Seeking a therapist is the first step towards taking control of your life. Maybe you’re feeling pain, stress, frustration, or hopeless. You’re tired of pretending to be happy and sacrificing your own needs for the needs of others. Sometimes, you’re balancing so much you’re not sure what to tackle first. 
+Seeking a therapist is the first step towards taking control of your life. Maybe you’re feeling pain, stress, frustration, or hopeless. You’re tired of pretending to be happy and sacrificing your own needs for the needs of others. Sometimes, you’re balancing so much you’re not sure what to tackle first.
 
-I will guide you as you navigate the intricacies of life. In therapy, I emphasize empowerment, collaboration and honesty. In a world filled with xenophobia, I strive to honor your individuality and self-expression. My clients describe me as nurturing, empathetic, nonjudgmental, and sincere. 
+<br>
+
+I will guide you as you navigate the intricacies of life. In therapy, I emphasize empowerment, collaboration and honesty. In a world filled with xenophobia, I strive to honor your individuality and self-expression. My clients describe me as nurturing, empathetic, nonjudgmental, and sincere.
+
+<br>
 
 Whether you’re struggling with your mood, anxiety, family relationships, or your identity, I am here to help. I look forward to fostering a safe environment for us to speak freely and inspire change. Contact me at laura.wu@resiliencelab.us or [https://calendly.com/laura-e-wu/therapy-consultation](https://calendly.com/laura-e-wu/therapy-consultation "https://calendly.com/laura-e-wu/therapy-consultation") for a free consultation to see if we are a good fit!
