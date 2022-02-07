@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "drjune@drjunhongcao.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Junhong Cao"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -13,9 +18,12 @@ payment_types_non_clinical = []
 program = "Mind Connections"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://mindconnectionsnyc.com/about/june-cao/"
+youtube = ""
 [[locations]]
 address = "600 3rd Ave, 2nd Floor, New York, NY 10016"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
