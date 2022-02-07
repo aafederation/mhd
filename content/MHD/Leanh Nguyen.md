@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "ldnguyen.phd@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/31529359-1ef6-4ee1-815e-f46839964e1c-leanh-nguyen.jpeg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Leanh Nguyen"
 payment_info_clinical = "$275/session"
 payment_info_non_clinical = ""
@@ -13,9 +18,12 @@ payment_types_non_clinical = ["N/A"]
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Not applicable"
+tiktok = ""
+twitter = ""
 website = ""
+youtube = ""
 [[locations]]
 address = "229 9th Street, #507, Brooklyn, NY 11215"
 boroughs = ["Brooklyn"]
