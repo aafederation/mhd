@@ -42,7 +42,7 @@ psychotherapy_types = ["Supportive Therapy", "Trauma-informed", "Cognitive Behav
 public_transportation = []
 services = ["Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Female"]
-trainings = "Board certified in Child and Adult psychiatry"
+trainings = "Board certified in Child and Adult Psychiatry"
 [[locations.hours_of_operation]]
 day_hours = "11am - 8pm "
 
