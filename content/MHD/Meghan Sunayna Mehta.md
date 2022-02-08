@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "hello@byrepose.com"
+facebook = ""
 highlight = false
 image = "/img/meghan-sunayna-mehta.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Meghan Sunayna Mehta"
 payment_info_clinical = "$180-225"
 payment_info_non_clinical = ""
@@ -13,9 +18,12 @@ payment_types_non_clinical = []
 program = "Repose"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = ["Individual"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://byrepose.com/meghan-sunayna-mehta-lmsw"
+youtube = ""
 [[locations]]
 address = "276 5th Avenue, New York, NY 10001"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Citywide", "Bronx"]
