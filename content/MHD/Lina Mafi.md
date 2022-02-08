@@ -4,8 +4,12 @@ age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 
 best_way_to_contact = "Email"
 client_requirements = ""
 email = "lina@intuitivehealingnyc.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Lina Mafi"
 payment_info_clinical = "$160 per individual session, $180 per couples session"
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "www.therapywithlina.com"
+youtube = ""
 [[locations]]
 address = "875 6th Avenue, New York, NY 10001"
 boroughs = ["Manhattan"]
@@ -41,6 +48,8 @@ day_hours = "Monday - Friday: 9 am - 5 pm"
 transport_option = "My office is conveniently located in Herald Square, near Penn Station, 33rd Street PATH station, and MTA Subway trains: 123, ACE, BDFM, NQRW."
 
 +++
-I am a proud queer and multicultural therapist of Tongan, Mexican, and European descent. I believe that we are the experts of our own experiences and that our intersecting identities shape these experiences. Growing up in a multicultural household taught me the significance of culture in shaping our identities and relationships. Informed by intersectional feminist theory, I provide a space that centers clients’ unique identities and cultural backgrounds in the healing process. 
+I am a proud queer and multicultural therapist of Tongan, Mexican, and European descent. I believe that we are the experts of our own experiences and that our intersecting identities shape these experiences. Growing up in a multicultural household taught me the significance of culture in shaping our identities and relationships. Informed by intersectional feminist theory, I provide a space that centers clients’ unique identities and cultural backgrounds in the healing process.
+
+<br>
 
 My approach to therapy is collaborative, exploratory, culturally responsive and trauma-informed. I work to create a healing relationship based on authenticity and empathy, where I honor clients as holistic individuals. I help clients engage in self discovery, honor their authenticity and intentionally forge their life paths.I am passionate about supporting adolescents, adults, and couples who are coping with family conflict, anger management, identity development, low self-esteem, parenting stress, anxiety, acculturation and racial stress, and intergenerational trauma.
