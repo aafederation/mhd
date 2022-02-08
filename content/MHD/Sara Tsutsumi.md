@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "wessmst@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/profile-photo-img_0109-sara-tsutsumi.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Sara Tsutsumi"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -13,9 +18,12 @@ payment_types_non_clinical = ["N/A"]
 program = "Sara Tsutsumi Psychotherapy"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = ""
+youtube = ""
 [[locations]]
 address = "2 Fifth Avenue, Apartment 9N, New York, NY 10011"
 boroughs = ["Manhattan"]
