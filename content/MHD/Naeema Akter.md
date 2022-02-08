@@ -25,7 +25,7 @@ twitter = ""
 website = "https://coopertherapy.com/staff/naeema-akter/"
 youtube = ""
 [[locations]]
-address = "224 West 30th Street, New York, NY 10001"
+address = "224 W 30th Street, New York, NY 10001"
 boroughs = ["Citywide"]
 credentials = []
 gender_identification = ["Nonbinary", "Gender-neutral", "Transgender", "Male", "Female"]
