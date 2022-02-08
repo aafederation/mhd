@@ -4,8 +4,12 @@ age_groups = ["Adults (19 to 64)"]
 best_way_to_contact = "Website"
 client_requirements = ""
 email = "mmoypsychiatry@melissamoynp.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Melissa Moy"
 payment_info_clinical = "$300 initial evaluation, $175 follow up"
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Online", "Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.melissamoynp.com/"
+youtube = ""
 [[locations]]
 address = "Online"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
@@ -45,3 +52,4 @@ day_hours = "Wednesday - Thursday: 9 am - 5 pm"
 day_hours = "Monday - Tuesday: 12 pm - 5 pm"
 
 +++
+Melissa Moy is a NYS board-certified Psychiatric-Mental Health Nurse Practitioner (PMHNP-BC) and holds a graduate degree from New York University's Master’s of Science in Psychiatric and Mental Health Nursing program. Melissa has over 12 years of mental health experience in both inpatient and outpatient settings. She currently manages a psychiatric private practice, providing telehealth consultations and follow up appointments. Melissa's focus is primarily medication evaluation and management, combined with brief supportive psychotherapy for mental health conditions such as depression, anxiety, ADHD, and OCD. Melissa offers an empathetic, non-judgemental, safe space to explore thoughts/emotions/behaviors. She utilizes a comprehensive, individualized, and collaborative approach to promote optimal psychological and emotional well-being and decrease suffering.
