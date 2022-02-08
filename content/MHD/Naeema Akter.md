@@ -4,8 +4,12 @@ age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 
 best_way_to_contact = "Email"
 client_requirements = ""
 email = "naeema@coopertherapy.com"
+facebook = ""
 highlight = false
 image = "/img/screen-shot-2021-12-07-at-6-24-36-pm-naeema-akter.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Naeema Akter "
 payment_info_clinical = "$180 per session "
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://coopertherapy.com/staff/naeema-akter/"
+youtube = ""
 [[locations]]
 address = "224 West 30th Street, New York, NY 10001"
 boroughs = ["Citywide"]
@@ -41,8 +48,12 @@ day_hours = "9 am - 8 pm "
 transport_option = "F, D, R, W "
 
 +++
-When overwhelmed by the world and those around you, you may experience feeling dissatisfied or drained with your relationships, occupation, and other aspects of your life. Or you may be curious about your inner experiences and want to learn more about yourself to become more self-aware, present, and adept at handling life’s troubles. You deserve a therapist who will work with you to improve the quality of your life. This may be accomplished through building effective skills, such as self-soothing skills, problem-solving skills, emotion regulation skills, and building healthy relationships and ending destructive ones. 
+When overwhelmed by the world and those around you, you may experience feeling dissatisfied or drained with your relationships, occupation, and other aspects of your life. Or you may be curious about your inner experiences and want to learn more about yourself to become more self-aware, present, and adept at handling life’s troubles. You deserve a therapist who will work with you to improve the quality of your life. This may be accomplished through building effective skills, such as self-soothing skills, problem-solving skills, emotion regulation skills, and building healthy relationships and ending destructive ones.
 
-My doctoral training and many years of delivering psychotherapy have provided me with extensive experience helping adults with anxiety, depression, substance abuse, trauma, identity exploration, adjustment and life transition issues, and other life situations. I also have experience in outpatient and inpatient hospitals and community mental health clinics. 
+<br>
+
+My doctoral training and many years of delivering psychotherapy have provided me with extensive experience helping adults with anxiety, depression, substance abuse, trauma, identity exploration, adjustment and life transition issues, and other life situations. I also have experience in outpatient and inpatient hospitals and community mental health clinics.
+
+<br>
 
 Therapy is a collaborative approach, where I am warm, empathic, curious and nonjudgmental and can help you create and live a life you find fulfilling. My integrative approach is well-suited for addressing interpersonal and multicultural issues. I work from a social justice-oriented and trauma-informed lens to provide you with culturally competent treatment.
