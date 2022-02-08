@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = []
+best_way_to_contact = ""
 client_requirements = ""
 email = "Matt@drmattpoon.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Matt Poon"
 payment_info_clinical = "$150-250 per session"
 payment_info_non_clinical = "$500 per hour for workshops"
@@ -13,9 +18,12 @@ payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = ""
+youtube = ""
 [[locations]]
 address = "352 7th Avenue, New York, NY 10001"
 boroughs = ["Manhattan"]
