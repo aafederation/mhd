@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "All"]
+best_way_to_contact = ""
 client_requirements = ""
 email = "Pamyewschwartz@gmail.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Pamela Yew Schwartz"
 payment_info_clinical = "$180 +"
 payment_info_non_clinical = ""
@@ -15,9 +20,12 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = ""
+youtube = ""
 [[locations]]
-address = "Telehealth / Office located in Chelsea, Manhattan\n"
+address = "Online / Office located in Chelsea, Manhattan\n"
 boroughs = ["Manhattan", "Citywide"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
