@@ -18,7 +18,7 @@ payment_types_non_clinical = []
 program = "Visiting Nurse Service of New York, Hospice & Palliative Care"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
@@ -48,10 +48,16 @@ day_hours = "Call to schedule"
 transport_option = "Penn Station, Subways 1, 2, 3, A, B, C, D, E, F, N, Q, R"
 
 +++
-For the last 14 years, I have been working in a hospice program, involved in end-of-life and bereavement work with Asian and Chinese (Cantonese, Mandarin and some Shanghainese) clients and families. I also work with the general population in grief and loss, individually and in groups (Parent Loss, Spousal Loss, Loss of a Child). 
+For the last 14 years, I have been working in a hospice program, involved in end-of-life and bereavement work with Asian and Chinese (Cantonese, Mandarin and some Shanghainese) clients and families. I also work with the general population in grief and loss, individually and in groups (Parent Loss, Spousal Loss, Loss of a Child).
 
-Prior to that I have over 30 years of inpatient, outpatient and community as well as forensic psychiatric experience, working with the severely and persistently ill patients, including trauma, substance abuse and with special interest in patients with depression and suicidality. 
+<br>
 
-In my private practice, I see individuals, couples and families of all ages from young adults to the elderly, and children within the context of the family constellation. Many of them work on intercultural, intergenerational, adjustment and relational issues and dealing with feelings of loss, depression and anxieties. I am doing telehealth predominantly at this time and has the capacity to have in-person sessions as needed. 
+Prior to that I have over 30 years of inpatient, outpatient and community as well as forensic psychiatric experience, working with the severely and persistently ill patients, including trauma, substance abuse and with special interest in patients with depression and suicidality.
+
+<br>
+
+In my private practice, I see individuals, couples and families of all ages from young adults to the elderly, and children within the context of the family constellation. Many of them work on intercultural, intergenerational, adjustment and relational issues and dealing with feelings of loss, depression and anxieties. I am doing telehealth predominantly at this time and has the capacity to have in-person sessions as needed.
+
+<br>
 
 I am a founding member of the New York Coalition for Asian American Mental Health. I have published in the areas of mental health, depression and Chinese immigrants and have presented and taught classes in these areas as well as bereavement and end of life and Asian cultural issues relate to depression, neurasthenia, grief and loss.
