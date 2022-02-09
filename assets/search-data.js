@@ -10,7 +10,7 @@
   indexCfg.doc = {
     id: 'id',
     field: ['borough','language','service','specialty','type','nonClinicalService','title','tag','staffGender','ageGroup','content'],
-    store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance', 'location', 'website', 'service','specialty','type','nonClinicalService','staffGender','ageGroup'],
+    store: ['title', 'href', 'section', 'content', 'tag', 'borough', 'language', 'payment', 'ADAcompliance', 'location', 'website', 'service','specialty','type','nonClinicalService','staffGender','ageGroup','email'],
   };
 
   const index = FlexSearch.create('balance', indexCfg);
@@ -29,6 +29,7 @@
 		    'title': {{ (partial "functions/title" $page) | jsonify }},
 		    'section': {{ (partial "functions/title" $page.Parent) | jsonify }},
 		    'content': {{ $page.Plain | jsonify }},
+		    'email': {{ $page.Params.email | jsonify }},
 				'tag': {{ with $page.Params.tags }}{{print `"`}}{{ range . }}{{ print . | replaceRE "[.]" "_" | urlize }}{{print " "}}{{ end }}{{print `"`}}{{ else }} {{ "no-tag" | jsonify }} {{ end }},
 				'borough': {{ with $location.boroughs }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-borough" | jsonify}} {{ end }},
 				'language': {{ with $location.languages }}{{print `"`}}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }}{{print `"`}}{{ else }} {{"no-language"|jsonify}}{{ end }},

@@ -226,6 +226,8 @@
 		let nonClinicalServicesRow = clone.querySelector("#non-clinical-services-row");
 		let phoneRow = clone.querySelector("#phone-row");
 		let phone = clone.querySelector(".phone");
+		let emailRow = clone.querySelector("#email-row");
+		let email = clone.querySelector(".email");
 		let websiteRow = clone.querySelector("#website-row");
 		let website = clone.querySelector(".website");
 		let trainingsRow = clone.querySelector("#trainings-row");
@@ -250,6 +252,9 @@
 		if (myPage.location.phone_number) {
 			phone.textContent = myPage.location.phone_number;
 		} else phoneRow.remove();
+		if (myPage.email) {
+			email.innerHTML = `<a href="mailto: ${myPage.email}" class="link-pointer" data-variant="invert" target="_blank">${myPage.email}</a>`
+		} else emailRow.remove();
 		if (myPage.website) {
 			website.textContent = myPage.website;
 			website.onclick = function () { window.open(myPage.website); };
