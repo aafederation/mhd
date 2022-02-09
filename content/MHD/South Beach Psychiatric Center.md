@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = []
+best_way_to_contact = []
 client_requirements = ""
 email = ""
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "South Beach Psychiatric Center"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,7 +20,10 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization", "Hospital"]
 telehealth = "Not applicable"
+tiktok = ""
+twitter = ""
 website = "www.flushinghospital.org"
+youtube = ""
 [[locations]]
 address = "777 Seaview Avenue, Staten Island, NY 10305"
 boroughs = ["Staten Island", "Manhattan", "Brooklyn"]
@@ -32,7 +40,7 @@ phone_number = ""
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
-services = ["support Groups", "Outpatient and inpatient mental health services"]
+services = ["Outpatient and inpatient mental health services"]
 staff_gender = []
 trainings = ""
 [[locations.hours_of_operation]]
