@@ -67,7 +67,7 @@ fields:
     required: false
   label: Medium
 - name: best_way_to_contact
-  type: select
+  type: list
   default: ''
   config:
     required: false
