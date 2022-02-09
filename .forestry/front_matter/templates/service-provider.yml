@@ -80,6 +80,7 @@ fields:
       section: 
       file: 
       path: 
+    use_select: true
   label: Best way to contact
   description: Choose the best way to contact
 - name: payment_types
