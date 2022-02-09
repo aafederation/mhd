@@ -60,6 +60,12 @@
 
 		@include spin(1s);
 	}
+	.book-search-eyeglass {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: get-size("300");
+	}
 }
 .book-search-outer {
 	border-radius: 0.25rem;
