@@ -113,7 +113,7 @@
 						>
 						<span>
 							{{ . }}
-							{{ if eq $bestWayToContact "Phone"}}
+							{{ if in $bestWayToContact "Phone"}}
 								<h5 class="inline-display">(best way to contact)</h5>
 							{{ end }}
 						</span>
@@ -132,7 +132,7 @@
 						>
 							{{ . }}
 						</a>
-						{{ if eq $bestWayToContact "Email"}}
+						{{ if in $bestWayToContact "Email"}}
 							<h5 class="inline-display" data-variant="link">(best way to contact)</h5>
 						{{ end }}
 					</div>
@@ -149,7 +149,7 @@
 							target="_blank"
 							>{{ . }}
 						</a>
-						{{ if eq $bestWayToContact "Website"}}
+						{{ if in $bestWayToContact "Website"}}
 							<h5 class="inline-display" data-variant="link">(best way to contact)</h5>
 						{{ end }}
 					</div>
