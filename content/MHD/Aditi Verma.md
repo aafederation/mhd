@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = ["Website", "Email"]
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "verma.lmhc@talkingforwellness.com"
 facebook = ""
