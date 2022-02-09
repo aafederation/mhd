@@ -110,7 +110,8 @@ function toggleAcc(el) {
   if (panel.style.maxHeight) {
     panel.style.maxHeight = null;
   } else {
-    panel.style.maxHeight = panel.scrollHeight + "px";
+    // panel.style.maxHeight = panel.scrollHeight + "px";
+    panel.style.maxHeight = "190px";
   }
 }
 

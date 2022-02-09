@@ -1,21 +1,22 @@
 /*START: ACCORDION Style the collapsible content*/
 .panel {
-	padding: 0 18px;
-	margin-block-start: 0em;
-	margin-block-end: 0.2em;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
+  padding: 0 18px;
+  margin-block-start: 0em;
+  margin-block-end: 0.2em;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  overflow-y: auto;
 }
 
 .acc:after {
-	font-family: "ElegantIcons";
-	content: "\3b";
-	font-size: get-size("400");
-	margin-left: auto;
+  font-family: "ElegantIcons";
+  content: "\3b";
+  font-size: get-size("400");
+  margin-left: auto;
 }
 
 .acc.active:after {
-	content: "\3a";
+  content: "\3a";
 }
 /*END: ACCORDION*/
