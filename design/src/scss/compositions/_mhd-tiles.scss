@@ -14,7 +14,7 @@
 		position: fixed;
 
 		@include media-query("sm") {
-			margin-top: get-size("1000");
+			margin-top: get-size("major");
 			margin-left: 0;
 			margin-right: get-size("500");
 			margin-bottom: 0;
