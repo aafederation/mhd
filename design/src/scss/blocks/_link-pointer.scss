@@ -1,21 +1,25 @@
-.link-pointer {
+.link-pointer-basic {
   cursor: pointer;
   border-radius: 3px;
   padding: 0.25em 0.5em;
   display: inline-block;
   text-decoration: none;
-  background: get-color("secondary");
-  color: get-color("black");
   &:hover {
     background: get-color("light");
     color: get-color("primary");
   }
+}
+.link-pointer {
+  @extend .link-pointer-basic;
+  background: get-color("secondary");
+  color: get-color("black");
+
   &[data-variant="invert"] {
     background: get-color("light");
     color: get-color("primary");
     &:hover {
-      background: get-color("primary");
-      color: get-color("light");
+      background: get-color("secondary");
+      color: get-color("black");
     }
   }
   &[data-variant="disabled"] {

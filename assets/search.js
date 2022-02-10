@@ -236,6 +236,7 @@
 		let credentials = clone.querySelector(".credentials");
 		let directions = clone.querySelector(".directions");
 		let providerType = clone.querySelector(".provider-type");
+		let providerHeader = clone.querySelector("#provider-header");
 
 		h3.textContent = myPage.title;
 		
@@ -267,8 +268,10 @@
 		} else credentialsRow.remove();
 		if (['individual', 'individual-provider'].some(i => myPage.tag.includes(i))) {
 			providerType.textContent = "Individual Provider";
+			providerHeader.classList.add("bg-individual", "color-individual-invert");
 		} else {
 			providerType.textContent = "Organization";
+			providerHeader.classList.add("bg-organization", "color-organization-invert");
 		}
 
 		mainDiv.classList.add("show-item");
