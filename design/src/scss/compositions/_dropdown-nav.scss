@@ -33,19 +33,15 @@
     border-radius: 3px;
   }
 }
-.dl-menuwrapper button:hover,
-.dl-menuwrapper button.dl-active {
-  background: #aaa;
-}
 .dl-menuwrapper button:after {
   content: "";
   position: absolute;
   width: 68%;
   height: 5px;
-  background: #fff;
+  background: #000;
   top: 10px;
   left: 16%;
-  box-shadow: 0 10px 0 #fff, 0 20px 0 #fff;
+  box-shadow: 0 10px 0 #000, 0 20px 0 #000;
 }
 .dl-menuwrapper ul {
   padding: 0;
@@ -84,7 +80,7 @@
   font-size: 1.2rem;
   line-height: 20px;
   font-weight: 400;
-  color: #fff;
+  color: #000;
   outline: none;
   text-decoration: none;
   cursor: pointer;
@@ -202,7 +198,7 @@
 }
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active {
-  background: #222;
+  background: var(--primary);
 }
 .dl-menu li {
   display: none;
