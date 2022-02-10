@@ -242,6 +242,30 @@ class HugoTagsFilter {
 		}
 
 		this.showCheck(this.FILTERS[0]["name"], true);
+		this.clearAllFilters();
+	}
+
+	/**
+	 * clearAllFilters - Clears all the filters if applied
+	 */
+	 clearAllFilters() {
+		for (var i = 0; i < this.FILTERS.length; i++) {
+			if (
+				this.FILTERS[i]["selected"].length === 0 ||
+				this.FILTERS[i]["selected"].length === this.FILTERS[i]["buttonTotal"]
+			) {
+				var iBtns = document.getElementsByClassName(
+					this.FILTERS[i]["buttonClass"]
+				);
+				for (var j = 0; j < iBtns.length; j++) {
+					this.delClassIfPresent(iBtns[j], this.activeButtonClass);
+				}
+				this.addClassIfMissing(
+					document.querySelector(this.FILTERS[i]["allSelector"]),
+					this.activeButtonClass
+				);
+			}
+		}
 	}
 
 	/**
