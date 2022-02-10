@@ -11,11 +11,12 @@ const jsScripts = require("./gulp-tasks/jsScripts.js");
 // will run when a file changes.
 const watcher = () => {
 	watch("./src/scss/**/*.scss", { ignoreInitial: true }, sass);
-	watch("./src/js/**/*.js", { ignoreInitial: true }, jsScripts);
+	// watch("./src/js/**/*.js", { ignoreInitial: true }, jsScripts);
 };
 
 // The default (if someone just runs `gulp`) is to run each task in parrallel
-exports.default = parallel(fonts, sass, jsScripts);
+// exports.default = parallel(fonts, sass, jsScripts);
+exports.default = parallel(fonts, sass);
 
 // This is our watcher task that instructs gulp to watch directories and
 // act accordingly
