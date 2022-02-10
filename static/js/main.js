@@ -116,9 +116,14 @@ function toggleAcc(el) {
 }
 
 (function () {
+  //1. Get handles to elements
   let filterPageOverlay = document.getElementById("filter-page-overlay");
   let showFilterButton = document.getElementById("show-filter-button");
   let mainFilter = document.getElementById("main-filter");
+  //Clear all filters id handle
+  let clearAllFilters = document.getElementById("clear-all-filters");
+
+  //2. Add eventlisteners
   showFilterButton.addEventListener("click", function () {
     toggleVis(mainFilter);
     toggleVis(filterPageOverlay);
@@ -129,7 +134,12 @@ function toggleAcc(el) {
       this.textContent = "SHOW FILTER";
     }
   });
+  //Eventlistener to clear all filters
+  clearAllFilters.addEventListener('click', function () {
+    htf.showCheckFromSearch();
+  });
 
+  //3. Helper functions
   function handleVis(el) {
     if (el.classList.contains("display-none")) {
       let psychotherapyPill = document.getElementById(
