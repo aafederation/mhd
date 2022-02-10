@@ -1,5 +1,6 @@
 {{ $borough := index .location.boroughs 0 }}
 {{ $showPlace := true }}
+{{ $individual := true }}
 {{ $latLng := "" }}
 {{ $mappingAddress := "" }}
 {{ $bestWayToContact := .org.best_way_to_contact }}
@@ -13,6 +14,7 @@
 		{{ $mappingAddress = print .location.address "," $borough "+NY" }}
 	{{ else }}
 		{{ $mappingAddress = print .org.org "," .location.address "," $borough "+NY" }}
+		{{ $individual = false }}
 	{{ end }}
 	{{ $mappingAddress = replace $mappingAddress "\n" "+" }}
 	{{ $mappingAddress = replace $mappingAddress " " "+" }}
@@ -21,10 +23,19 @@
 	{{ $showPlace = false }}
 {{ end }}
 
-<div class="[ wrapper ] [ bg-primary pad-top-500 color-white ]">
+{{ if $individual }}
+<div class="[ wrapper ] [ bg-individual pad-top-500 color-individual-invert ]">
+{{ else }}
+<div class="[ wrapper ] [ bg-organization pad-top-500 color-organization-invert ]">
+{{ end }}
 	<h1>{{ .org.org }}</h1>
 </div>
-<div class="[ wrapper ] [ bg-primary pad-top-500 pad-bottom-500 color-white ]">
+
+{{ if $individual }}
+<div class="[ wrapper ] [ bg-individual pad-top-500 pad-bottom-500 color-individual-invert ]">
+{{ else }}
+<div class="[ wrapper ] [ bg-organization pad-top-500 pad-bottom-500 color-organization-invert ]">
+{{ end }}
 	<div class="[ split-pair ] [ text-400 ]">
 		<h3>
 			<span class="font_icons">&#xe01d;</span>
