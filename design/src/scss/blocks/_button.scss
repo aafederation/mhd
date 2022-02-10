@@ -12,8 +12,8 @@
 	@include button-basics;
 	text-align: left;
 	padding: var(--button-padding, 0.5rem 1rem 0.5rem 1rem);
-	color: get-color("light");
-	border: $stroke-width solid get-color("primary");
+	color: get-color("black");
+	border: $stroke-width solid get-color("secondary");
 	border-radius: 5px;
 	text-transform: uppercase;
 
@@ -21,7 +21,7 @@
 
 	/// Only applies background where utility is not present
 	&:not([class*="bg-"]) {
-		background: get-color("primary");
+		background: get-color("secondary");
 	}
 
 	/// We absolutely want this hover state *regardless* of what

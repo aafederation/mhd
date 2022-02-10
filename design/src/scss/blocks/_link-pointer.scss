@@ -4,8 +4,8 @@
   padding: 0.25em 0.5em;
   display: inline-block;
   text-decoration: none;
-  background: get-color("primary");
-  color: get-color("light");
+  background: get-color("secondary");
+  color: get-color("black");
   &:hover {
     background: get-color("light");
     color: get-color("primary");
