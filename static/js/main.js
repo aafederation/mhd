@@ -116,13 +116,6 @@ function toggleAcc(el) {
 }
 
 (function () {
-  let x = document.getElementById("psychotherapy-options");
-
-  let psychotherapy = document.getElementById("service-psychotherapy");
-  psychotherapy.addEventListener("click", function () {
-    handleVis(x);
-  });
-
   let filterPageOverlay = document.getElementById("filter-page-overlay");
   let showFilterButton = document.getElementById("show-filter-button");
   let mainFilter = document.getElementById("main-filter");
