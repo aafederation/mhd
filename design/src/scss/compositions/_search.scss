@@ -1,73 +1,71 @@
 /*START: defaults for search*/
 @mixin spin($duration) {
-	animation: spin $duration ease infinite;
-	@keyframes spin {
-		100% {
-			transform: rotate(360deg);
-		}
-	}
+  animation: spin $duration ease infinite;
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 }
 /*END: defaults for search*/
 
 /*START: Search section styles*/
 .book-search {
-	position: relative;
-	border-bottom: 1px solid transparent;
-	max-width: 30rem;
-	margin-left: 1.25em;
-	margin-right: 1.25em;
+  position: relative;
+  border-bottom: 1px solid transparent;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
 
-	@media screen and (min-width: 35rem) {
-		margin-left: auto;
-	}
+  .hidden {
+    display: none;
+  }
 
-	.hidden {
-		display: none;
-	}
+  input {
+    width: 100%;
+    padding: get-size("300");
 
-	input {
-		width: 100%;
-		padding: get-size("300");
+    border: 0;
+    border-radius: 0.25rem;
 
-		border: 0;
-		border-radius: 0.25rem;
+    background: get-color("light");
+    color: get-color("primary");
 
-		background: get-color("light");
-		color: get-color("primary");
+    &:required + .book-search-spinner {
+      display: block;
+    }
+    &:focus {
+      outline-style: auto;
+      outline-color: currentColor;
+      outline-color: -webkit-focus-ring-color;
+    }
+  }
 
-		&:required + .book-search-spinner {
-			display: block;
-		}
-		&:focus {
-			outline-style: auto;
-			outline-color: currentColor;
-			outline-color: -webkit-focus-ring-color;
-		}
-	}
+  .book-search-spinner {
+    position: absolute;
+    top: 0;
+    margin: get-size("300");
+    margin-inline-start: calc(100% - get-size("700"));
 
-	.book-search-spinner {
-		position: absolute;
-		top: 0;
-		margin: get-size("300");
-		margin-inline-start: calc(100% - get-size("700"));
+    width: get-size("400");
+    height: get-size("400");
 
-		width: get-size("400");
-		height: get-size("400");
+    border: 1px solid transparent;
+    border-top-color: var(--body-font-color);
+    border-radius: 50%;
 
-		border: 1px solid transparent;
-		border-top-color: var(--body-font-color);
-		border-radius: 50%;
-
-		@include spin(1s);
-	}
-	.book-search-eyeglass {
-		position: absolute;
-		top: 0;
-		right: 0;
-		margin: get-size("300");
-	}
+    @include spin(1s);
+  }
+  .book-search-eyeglass {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: get-size("300");
+  }
 }
 .book-search-outer {
-	border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
 }
 /*START: Search section styles*/
