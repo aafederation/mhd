@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "info@wovetherapy.com"
+facebook = ""
 highlight = false
 image = "/img/wove-lockup-black-wove-therapy-info.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Wove Therapy"
 payment_info_clinical = "In network co-pays OR out of network $80-225 per session. Sessions are once or twice weekly."
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.wovetherapy.com/"
+youtube = ""
 [[locations]]
 address = "39 West 32nd Street, Suite 1103-4, New York, NY 10001"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 hours_of_operation = []
