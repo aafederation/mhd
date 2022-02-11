@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "Toddlers and Preschoolers (0 to 5)"]
+best_way_to_contact = []
 client_requirements = ""
 email = " kellyperez@childcenterny.org"
+facebook = ""
 highlight = false
 image = "/img/97014542_3272684219451015_1568133727031132160_n-1.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "The Child Center of NY"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://childcenterny.org/asian-outreach-program/"
+youtube = ""
 [[locations]]
 address = "140-15B Sanford Avenue, Second Floor, Flushing, NY 11355"
-boroughs = ["Queens"]
+boroughs = ["Online", "Queens"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
