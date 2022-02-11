@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = "St. Francis Counseling Center provides services to adults age 21 and older"
 email = "info@stfranciscounseling.org"
+facebook = ""
 highlight = false
 image = "/img/sfcc-logo-1.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "St. Francis Counseling Center"
 payment_info_clinical = "Psychotherapy session fees are on a sliding scale basis ($40 - $100)"
 payment_info_non_clinical = "Psychotherapy session fees are on a sliding scale basis"
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://stfrancisnyc.org/counseling-center/"
+youtube = ""
 [[locations]]
 address = "135 31st Street, New York, NY 10001"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = []
 gender_identification = []
 languages = ["English"]
