@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "hello@byrepose.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://byrepose.com/repose-therapist-prerna-menon-lmsw-ctp-o"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
+boroughs = ["Online"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 culturally_competent_treatment = "Yes, I have worked in the Lower East Side Methadone Clinic, which has a primary Asian population. I also currently work primary with south asian folks."
 gender_identification = ["Female"]
