@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "All"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "Pamyewschwartz@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "Online / Office located in Chelsea, Manhattan\n"
-boroughs = ["Manhattan", "Citywide"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["Chinese (Shanghainese)", "Chinese (Mandarin)", "Chinese (Cantonese)", "English"]
