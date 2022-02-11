@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "Dr. Li@pondpractice.com"
+facebook = ""
 highlight = false
 image = "/img/vl-headshot-dr-vanessa-li.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Vanessa Li"
 payment_info_clinical = "$100 - $500"
 payment_info_non_clinical = "$80 for group therapy"
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "www.pondpractice.com"
+youtube = ""
 [[locations]]
-address = "115 West 30th Street, Suite 709, New York, NY 10001"
-boroughs = ["Citywide"]
+address = "115 W 30th Street, Suite 709, New York, NY 10001"
+boroughs = ["Online", "Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = []
 languages = ["Chinese (Mandarin)", "Chinese (Cantonese)", "English"]
