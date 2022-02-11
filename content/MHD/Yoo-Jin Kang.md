@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "ykangconsulting@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/yoo-jin-kang-headshot-2022-yoo-jin-kang.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Yoo-Jin Kang"
 payment_info_clinical = ""
 payment_info_non_clinical = "My pricing philosophy and services can be found here: https://www.ykangconsulting.com/pricing\n"
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = true
 tags = ["Individual Provider - Nonclinical"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.ykangconsulting.com"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 languages = ["English"]
 latLng = ""
