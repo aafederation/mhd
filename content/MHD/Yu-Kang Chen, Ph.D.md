@@ -26,7 +26,7 @@ website = "https://www.psychologytoday.com/us/therapists/yu-kang-chen-new-york-n
 youtube = ""
 [[locations]]
 address = "One Penn Plaza, New York, NY 10119"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "In addition to my private practice, I am a clinical psychologist and training director at a community mental health clinic serving primarily Asian/Chinese communities."
 gender_identification = ["Male"]
