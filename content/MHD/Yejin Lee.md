@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "yejin.lee1@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/ap5a5025-yejin-lee.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Yejin Lee"
 payment_info_clinical = ""
 payment_info_non_clinical = "I have a sliding scale for those with minoritized/marginalized identities, but at full cost: package of 3 coaching sessions is $750, a package of 6 is $1,275, and a package of 12 is $2,250. "
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "yejinlee.co"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 gender_identification = []
 languages = ["English"]
