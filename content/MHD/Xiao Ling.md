@@ -26,7 +26,7 @@ website = "https://www.psychologytoday.com/profile/473506"
 youtube = ""
 [[locations]]
 address = "19 W 34th Street, PH, New York, NY 10001 \n(Currently remote only)"
-boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["English", "Chinese (Mandarin)"]
