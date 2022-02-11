@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = []
 client_requirements = ""
 email = "FT@universitysettlement.org"
+facebook = ""
 highlight = false
 image = "/img/universitysettlement.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "University Settlement"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.universitysettlement.org/programs/mental-health-wellness/families-thriving/"
+youtube = ""
 [[locations]]
 address = "184 Eldridge Street, New York, NY 10002"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
