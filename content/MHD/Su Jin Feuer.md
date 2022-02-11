@@ -1,10 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
+best_way_to_contact = []
 client_requirements = ""
 email = "feuerpsychotherapy@gmail.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Su Jin Feuer"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Online", "Individual"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = ""
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
+boroughs = ["Online"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "Yes- Over 20 years of experience training, supervising and working on cultural competent programming, organizing, teaching, supervising and clinical practice."
 gender_identification = ["Female"]
