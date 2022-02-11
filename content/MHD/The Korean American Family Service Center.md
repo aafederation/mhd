@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["All"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "contact@kafsc.org"
+facebook = ""
 highlight = false
 image = "/img/kafsc.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "The Korean American Family Service Center"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "kafsc.org"
+youtube = ""
 [[locations]]
 address = "Confidential Location - Contact for connection to services"
-boroughs = ["Citywide"]
+boroughs = []
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
