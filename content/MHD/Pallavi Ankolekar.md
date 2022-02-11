@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "pallavi@daniellemurphylcsw.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = ["Female"]
 hours_of_operation = []
