@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "info@riviamind.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.riviamind.com/"
 youtube = ""
 [[locations]]
 address = "274 Madison Avenue, Suite 1501, New York, NY 10016"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = ["LMSW (Licensed Master Social Worker)", "Licensed Psychiatrist", "LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["Chinese (Mandarin)", "Chinese (Cantonese)", "Vietnamese", "Korean", "Japanese"]
