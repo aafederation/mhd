@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "info@sapnanyc.org"
+facebook = ""
 highlight = false
 image = "/img/sapnanyc.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Sapna NYC, Inc."
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "http://www.sapnanyc.org/"
+youtube = ""
 [[locations]]
 address = "2348 Waterbury Ave, 1st Floor, Bronx, NY 10462"
-boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
+boroughs = ["Online", "Bronx"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
