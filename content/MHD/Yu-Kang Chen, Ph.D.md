@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "ykcphd@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/yu-kang-chen.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Yu-Kang Chen, Ph.D."
 payment_info_clinical = "$200+ per session"
 payment_info_non_clinical = "Please contact me directly"
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.psychologytoday.com/us/therapists/yu-kang-chen-new-york-ny/866279"
+youtube = ""
 [[locations]]
 address = "One Penn Plaza, New York, NY 10119"
-boroughs = ["Queens", "Manhattan", "Brooklyn"]
+boroughs = ["Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "In addition to my private practice, I am a clinical psychologist and training director at a community mental health clinic serving primarily Asian/Chinese communities."
 gender_identification = ["Male"]
