@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "psychiatry@teresaleemd.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Teresa Lee"
 payment_info_clinical = "After the first 10 minutes of a non-session service (ie document review, completion, speaking to insurances or family members), I charge $75 per additional 10 minutes. "
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://teresaleemd.com/"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = ["Female"]
