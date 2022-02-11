@@ -1,10 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["All"]
+best_way_to_contact = []
 client_requirements = ""
 email = "info@iamwk.org"
+facebook = ""
 highlight = false
 image = "/img/womankind.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "WOMANKIND"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.iamwomankind.org/our-services/"
+youtube = ""
 [[locations]]
 address = "32 Broadway, 10th Floor, New York, NY 10004"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
