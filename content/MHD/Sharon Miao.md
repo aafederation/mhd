@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "smiao@graymattersmd.com"
+facebook = ""
 highlight = false
 image = "/img/sharon-miao.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Sharon Miao"
 payment_info_clinical = "$200/session"
 payment_info_non_clinical = "$200/session"
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://graymattersmd.com/"
+youtube = ""
 [[locations]]
 address = "19 W 21st Street, Suite 1003, New York, NY 10010"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = ["Female"]
 languages = ["Chinese (Mandarin)", "English"]
