@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "info@tpny.org"
+facebook = ""
 highlight = false
 image = "/img/turningpoint.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Turning Point for Women and Families"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Confidential Location", "Organization"]
 telehealth = "Not applicable"
+tiktok = ""
+twitter = ""
 website = "https://tpny.org/services/"
+youtube = ""
 [[locations]]
 address = "Confidential Location"
-boroughs = ["Citywide"]
+boroughs = []
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
