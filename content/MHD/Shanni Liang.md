@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "shanni.liang@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "www.therapywithshanni.com"
 youtube = ""
 [[locations]]
 address = "Jackson Heights, 11372"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Queens"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "yes, social work school. "
 gender_identification = ["Female"]
