@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "Toddlers and Preschoolers (0 to 5)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "sz506@nyu.edu"
 facebook = ""
@@ -26,7 +26,7 @@ website = "http://www.sara-zaidi.com/about"
 youtube = ""
 [[locations]]
 address = "19 W 34th Street, New York, NY 10036"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = ["LPC (Licensed Professional Counselor)", "LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["English", "Urdu", "Hindi"]
