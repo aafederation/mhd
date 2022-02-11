@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = "We accept clients who are able to commute to the clinic if needed for in-person services; Queens residents will be more likely to commute to the clinic with minimal hardship."
 email = "WoodsideIntakeTeam@childcenterny.org"
+facebook = ""
 highlight = false
 image = "/img/97014542_3272684219451015_1568133727031132160_n.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "The Child Center of NY"
 payment_info_clinical = "We accept insurance and have sliding scale fees. At the time of application, we will be able to notify you if we are in-network with your insurance carrier.  "
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://childcenterny.org/asian-outreach-program/"
+youtube = ""
 [[locations]]
 address = "67-14 41st Avenue, Woodside, NY 11377"
-boroughs = ["Queens"]
+boroughs = ["Online", "Queens"]
 credentials = []
 gender_identification = ["Male", "Female"]
 languages = ["Tagalog", "Punjabi", "Korean", "Chinese (Mandarin)", "Chinese (Cantonese)", "Bangla", "English"]
