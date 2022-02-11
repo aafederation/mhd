@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Children (6 to 10)", "Toddlers and Preschoolers (0 to 5)"]
+best_way_to_contact = []
 client_requirements = ""
 email = "hello@byrepose.com"
+facebook = ""
 highlight = false
 image = "/img/img_0733-zaineb-qureshi.jpeg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Zaineb Qureshi"
 payment_info_clinical = "$180-225"
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = []
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://byrepose.com/"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["Licensed Creative Arts Therapist"]
 gender_identification = ["Female"]
 languages = ["Urdu", "English"]
