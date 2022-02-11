@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "appointments@samiashafi.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.samiashafi.com/"
 youtube = ""
 [[locations]]
 address = "26 Court Street, Brooklyn, NY 11242"
-boroughs = ["Brooklyn"]
+boroughs = ["Online", "Brooklyn"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = ["Female"]
 languages = ["English"]
