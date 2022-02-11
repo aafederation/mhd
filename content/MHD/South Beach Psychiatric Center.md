@@ -26,7 +26,7 @@ website = "www.flushinghospital.org"
 youtube = ""
 [[locations]]
 address = "777 Seaview Avenue, Staten Island, NY 10305"
-boroughs = ["Staten Island", "Manhattan", "Brooklyn"]
+boroughs = ["Staten Island"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
