@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "xiaolinghsp@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/0724_2-xiao-ling.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Xiao Ling"
 payment_info_clinical = "My standard price range for clients is $0-140 per 45min session depending on clients' insurance plans.\n\nIn addition to therapy appointments, clients will be charged $250/hr for other professional services they may need, though I will break down the hourly cost if we work for periods of less than one hour. So for each 10 minutes I charge $25, 20 minutes $50 and so on. Not covered by insurance.\n\nOther services include report writing, telephone conversations lasting longer than 10 minutes, attendance at meetings with other professionals the clients have authorized, preparation of records or treatment summaries, and the time spent performing any other service the clients may request of me. If the client becomes involved in legal proceedings that require my participation, I charge $300 per hour for preparation and attendance at any legal proceeding because of the difficulty of legal involvement."
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.psychologytoday.com/profile/473506"
+youtube = ""
 [[locations]]
 address = "19 W 34th Street, PH, New York, NY 10001 \n(Currently remote only)"
 boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
