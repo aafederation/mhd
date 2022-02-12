@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "miseon@verizon.net"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.mskpsychotherapy.com/"
 youtube = ""
 [[locations]]
 address = "26 Court Street, Brooklyn, NY 11242\n"
-boroughs = ["Brooklyn"]
+boroughs = ["Online", "Brooklyn"]
 credentials = ["Licensed Creative Arts Therapist"]
 culturally_competent_treatment = "I received trainings in working with culturally diverse children and families at Ackerman Institute for the Family "
 gender_identification = ["Female"]
