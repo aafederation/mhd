@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.samzhutherapy.com"
+website = "https://samzhutherapy.com/"
 youtube = ""
 [[locations]]
 address = "Online"
