@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "msoong@rocketmail.com "
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.melissasoong.com/"
 youtube = ""
 [[locations]]
 address = "NYC"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = ["Female"]
