@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "neenalallLCSW@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/neena_0010-neena-lall.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Neena Lall"
 payment_info_clinical = "$250 per session, sliding scale based on income"
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
-website = "NeenaLallLCSW.com"
+tiktok = ""
+twitter = ""
+website = "https://www.neenalalllcsw.com/"
+youtube = ""
 [[locations]]
 address = "35 W 31st Street, Unit 10005, New York, NY 10001"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["English"]
