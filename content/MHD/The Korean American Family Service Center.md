@@ -22,7 +22,7 @@ tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "kafsc.org"
+website = "https://www.kafsc.org/"
 youtube = ""
 [[locations]]
 address = "Confidential Location - Contact for connection to services"
