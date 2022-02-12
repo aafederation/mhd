@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.pondpractice.com"
+website = "https://www.pondpractice.com/"
 youtube = ""
 [[locations]]
 address = "115 W 30th Street, Suite 709, New York, NY 10001"
