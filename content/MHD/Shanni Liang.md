@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.therapywithshanni.com"
+website = "https://www.therapywithshanni.com/"
 youtube = ""
 [[locations]]
 address = "Jackson Heights, 11372"
