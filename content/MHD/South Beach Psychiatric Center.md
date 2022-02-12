@@ -22,7 +22,7 @@ tags = ["Organization", "Hospital"]
 telehealth = "Not applicable"
 tiktok = ""
 twitter = ""
-website = "www.flushinghospital.org"
+website = "https://flushinghospital.org/"
 youtube = ""
 [[locations]]
 address = "777 Seaview Avenue, Staten Island, NY 10305"
