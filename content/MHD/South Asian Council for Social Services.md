@@ -22,7 +22,7 @@ tags = ["Organization"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.sacssny.org"
+website = "https://www.sacssny.org/"
 youtube = ""
 [[locations]]
 address = "143-06 45th Avenue, Queens, NY 11355"
