@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "noilyn@theradiantu.com"
 facebook = ""
@@ -22,11 +22,11 @@ tags = ["Individual Provider", "Individual Provider - Nonclinical"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.theradiantu.com"
+website = "https://www.theradiantu.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 gender_identification = []
 languages = ["English"]
