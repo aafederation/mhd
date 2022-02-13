@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = []
 client_requirements = ""
 email = "karp.lgbtq@gmail.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Korean American Rainbow Parents (KARP)"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Online", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.nqapia.org/wpp/healthandhealing/"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 gender_identification = []
 hours_of_operation = []
