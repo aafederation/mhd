@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "ichung765@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/c8526225-9ef1-4dec-a7de-2105f94d2b3c-irene-chung.jpeg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Irene Chung"
 payment_info_clinical = "Standard price range for individual sessions: $135-160; family and couples: $150-200. <br>\nI do not accept insurance, but will assist in getting reimbursement for out of network provider coverage."
 payment_info_non_clinical = "I do not accept insurance, but will assist in getting reimbursement for out of network provider coverage.\n"
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = ""
+youtube = ""
 [[locations]]
 address = "Online "
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["English", "Chinese (Cantonese)"]
