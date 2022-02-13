@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "hello@gracehuntleycounseling.com"
+facebook = ""
 highlight = false
 image = "/img/c61c3312-388c-4503-942f-84b2fad005fe-grace-huntley.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Grace Huntley"
 payment_info_clinical = "$150-250 per session."
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.gracehuntleycounseling.com/"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["English"]
