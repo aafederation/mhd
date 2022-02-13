@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "kunsook@aol.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Queens"]
+boroughs = ["Online", "Queens"]
 credentials = ["Psychiatric Mental Health Nurse Practitioner"]
 gender_identification = []
 languages = ["Korean", "English"]
