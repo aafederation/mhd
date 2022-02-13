@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "elisaleephd@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "http://elisaleephd.com"
 youtube = ""
 [[locations]]
 address = "5 W 86th Street, New York, NY 10024"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = ""
 gender_identification = []
