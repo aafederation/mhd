@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "lina@intuitivehealingnyc.com"
 facebook = ""
@@ -22,11 +22,11 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.therapywithlina.com"
+website = "https://www.therapywithlina.com/"
 youtube = ""
 [[locations]]
 address = "875 6th Avenue, New York, NY 10001"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["English"]
