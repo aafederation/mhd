@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "All"]
+best_way_to_contact = []
 client_requirements = ""
 email = "lgiuliano@greenwichhouse.org"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Greenwich House"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.greenwichhouse.org/senior-services/senior-health-and-consultation-center/"
+youtube = ""
 [[locations]]
 address = "27 Barrow St, 3rd Floor, New York, NY 10014"
-boroughs = ["Queens", "Manhattan", "Brooklyn", "Bronx"]
+boroughs = ["Online", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
