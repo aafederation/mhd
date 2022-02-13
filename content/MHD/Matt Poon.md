@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = []
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "Matt@drmattpoon.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "352 7th Avenue, New York, NY 10001"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "Yearlong cultural competence sequence; ongoing CE"
 gender_identification = ["Male"]
