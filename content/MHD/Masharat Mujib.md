@@ -26,7 +26,7 @@ website = "https://www.masharatmujib.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
+boroughs = ["Online"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["Hindi", "Bangla", "English"]
