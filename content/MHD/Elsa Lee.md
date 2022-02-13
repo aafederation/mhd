@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "contact@queenspsychology.com"
 facebook = ""
@@ -22,11 +22,11 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.queenspsychology.com"
+website = "https://www.queenspsychology.com/"
 youtube = ""
 [[locations]]
 address = "505 Northern Boulevard, Great Neck, NY 11021"
-boroughs = ["Queens"]
+boroughs = ["Online", "Queens"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = []
 languages = ["Chinese (Mandarin)", "Chinese (Cantonese)", "English"]
