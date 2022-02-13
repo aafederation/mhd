@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "drdongsookim@gmail.com"
 facebook = ""
@@ -15,7 +15,7 @@ payment_info_clinical = "Initial psychotherapy interview: $300 - $400 Follow-ups
 payment_info_non_clinical = "Same as the clinical fee schedule "
 payment_types = ["SMG Wellcare Medicare", "Clover Medicare", "Medicare"]
 payment_types_non_clinical = []
-program = "Dongsoo Kim, PHD"
+program = "Dongsoo Kim, Ph.D."
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "163 Engle Street, Building #1A, Englewood, NJ 07631"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = ["Male"]
 languages = ["Korean", "English"]
