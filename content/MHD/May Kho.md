@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "maykholmhc@gmail.com"
 facebook = ""
@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "Headway.co"
+website = "https://headway.co/"
 youtube = ""
 [[locations]]
 address = "Online"
