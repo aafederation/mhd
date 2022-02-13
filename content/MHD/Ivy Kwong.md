@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "TheBareIvy@gmail.com"
 facebook = ""
@@ -22,11 +22,11 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "BareIvy.com"
+website = "https://www.bareivy.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LMFT (Licensed Marriage and Family Therapist)"]
 gender_identification = ["Female"]
 languages = ["English", "Chinese (Cantonese)"]
