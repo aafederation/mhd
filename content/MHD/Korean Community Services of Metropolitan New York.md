@@ -1,10 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Youth and Teenagers (14 to 19)", "Youth and Teenagers (13+)", "Seniors (65+)", "Adults (19 to 64)"]
+best_way_to_contact = []
 client_requirements = ""
 email = "yyoun@kcsny.org"
+facebook = ""
 highlight = false
 image = "/img/kcs.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Korean Community Services of Metropolitan New York"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.kcsny.org/wellness/mental-health/"
+youtube = ""
 [[locations]]
 address = "42-16 162nd St, 2nd Floor, Flushing, NY 11358"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Queens"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
