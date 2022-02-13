@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "jjleetherapy@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://jjleeart.myportfolio.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["Licensed Creative Arts Therapist"]
 gender_identification = []
 languages = ["Korean", "English"]
