@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "ldnguyen.phd@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "229 9th Street, #507, Brooklyn, NY 11215"
-boroughs = ["Brooklyn"]
+boroughs = ["Online", "Brooklyn"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = []
 languages = ["Vietnamese", "English"]
