@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "jasminkwokphd@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.jasminkwokphd.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 languages = ["English"]
 latLng = ""
