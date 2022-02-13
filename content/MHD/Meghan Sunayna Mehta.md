@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "hello@byrepose.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://byrepose.com/meghan-sunayna-mehta-lmsw"
 youtube = ""
 [[locations]]
 address = "276 5th Avenue, New York, NY 10001"
-boroughs = ["Staten Island", "Queens", "Manhattan", "Citywide", "Bronx"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 culturally_competent_treatment = "Yes, cultural competency is incorporated into all of my practice. "
 gender_identification = ["Female"]
