@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "BehavioralHealth@hmhonline.org, lilyaberns@hmhonline.org"
 facebook = ""
@@ -26,7 +26,7 @@ website = "http://www.hamiltonmadisonhouse.org/behavioral-health-services.html"
 youtube = ""
 [[locations]]
 address = "253 South St, 2nd Floor, New York, NY 10002"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
