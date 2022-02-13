@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "mmoypsychiatry@melissamoynp.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.melissamoynp.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx", "Citywide"]
+boroughs = ["Online"]
 credentials = ["Licensed Psychiatrist", "LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = "yes, CEU's on culturally competent care and LGBT affirmative care; graduate thesis on LGBT affirmative care and best practices "
 gender_identification = ["Female"]
