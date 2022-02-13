@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "jdrapeza@sixthstreetwellness.com"
+facebook = ""
 highlight = false
 image = "/img/jamy-drapeza-87-jamy-drapeza.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Jamy Drapeza"
 payment_info_clinical = "$125 for individual sessions, $200 for couples"
 payment_info_non_clinical = "$60 per session for peer groups"
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
-website = "www.jamydoestherapy.com"
+tiktok = ""
+twitter = ""
+website = "https://www.jamydoestherapy.com/"
+youtube = ""
 [[locations]]
 address = "116 W 23rd Street, Suite 500, New York, NY 10011"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = ["Genderqueer", "Nonbinary", "Female"]
 languages = ["English"]
