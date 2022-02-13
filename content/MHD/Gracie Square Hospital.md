@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "dvd9001@nyp.org"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.nygsh.org/asian-psychiatry.html"
 youtube = ""
 [[locations]]
 address = "420 E 76th Street, New York, NY 10021"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 languages = ["Chinese (Mandarin)", "Chinese (Taiwanese)", "Chinese (Fujianese)", "Chinese (Cantonese)", "Urdu", "Tagalog", "Korean", "Hindi", "English"]
