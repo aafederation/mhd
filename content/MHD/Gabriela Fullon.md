@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "buenviajecounseling@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.buenviajecounseling.com/"
 youtube = ""
 [[locations]]
 address = "6 E 39th Street, 8th Floor, New York, NY 10016"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = "No"
 gender_identification = ["Female"]
