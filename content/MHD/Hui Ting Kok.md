@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "Huiting@huitingkok.com"
+facebook = ""
 highlight = false
 image = "/img/hui-ting-kok.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Hui Ting Kok"
 payment_info_clinical = "$175 (60min intake); $150 (45min session)"
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Online", "Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.huitingkok.com/ "
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 culturally_competent_treatment = "Yes, in graduate programs and continuing education through conferences and workshops."
 gender_identification = ["Female"]
