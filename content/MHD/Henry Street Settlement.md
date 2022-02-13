@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "whung@henrystreet.org, gireland@henrystreet.org"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Henry Street Settlement"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.henrystreet.org/programs/primary-behaviorial-health/mental-health-services/asian-bi-cultural-mental-health-services/"
+youtube = ""
 [[locations]]
 address = "40 Montgomery Street, New York, NY 10002"
-boroughs = ["Bronx", "Brooklyn", "Manhattan", "Queens", "Staten Island"]
+boroughs = ["Online", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 languages = ["Chinese (Mandarin)", "English"]
