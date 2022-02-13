@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
+best_way_to_contact = []
 client_requirements = ""
 email = ""
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Gouverneur Health "
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["hospital", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.nychealthandhospitals.org/gothamhealth/gouverneur/our-services/behavioral-health/"
+youtube = ""
 [[locations]]
 address = "227 Madison Street, Manhattan, NY 10002"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Manhattan"]
 credentials = []
 gender_identification = []
 languages = ["Chinese (Cantonese)", "Chinese (Toishanese)", "Chinese (Mandarin)", "English"]
