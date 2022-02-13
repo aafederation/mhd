@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "laura.wu@resiliencelab.us"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://calendly.com/laura-e-wu/therapy-consultation"
 youtube = ""
 [[locations]]
 address = "19 W 45th Street, New York, NY 10036"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = []
 languages = ["English"]
