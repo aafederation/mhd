@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "kim@yungmeepsychotherapy.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Kim Konopka"
 payment_info_clinical = "$150 per 45 minute sessions "
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.yungmeepsychotherapy.com/"
+youtube = ""
 [[locations]]
 address = "PO Box 4341 Highland Park, NJ 08904"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "Yes, my training is/was rooted in intersectional, anti-oppressive, trauma-informed perspectives"
 gender_identification = ["Nonbinary"]
