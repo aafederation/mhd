@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "info@gohny.org"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://gohny.org/counseling/#gethelp"
 youtube = ""
 [[locations]]
 address = "Confidential Locations - Call or Email for an appointment"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
