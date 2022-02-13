@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = []
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "masharattherapy@gmail.com"
 facebook = ""
@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.masharatmujib.com"
+website = "https://www.masharatmujib.com/"
 youtube = ""
 [[locations]]
 address = "Online"
