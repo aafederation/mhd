@@ -26,7 +26,7 @@ website = "https://headway.co/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 languages = ["English"]
 latLng = ""
