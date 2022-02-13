@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "DrIreneCheng@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "26 Court Street, Brooklyn, NY 11242 "
-boroughs = ["Citywide"]
+boroughs = ["Online", "Brooklyn"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 languages = ["Chinese (Mandarin)", "Chinese (Cantonese)", "English"]
 latLng = "40.693512477488945, -73.99056009951673"
