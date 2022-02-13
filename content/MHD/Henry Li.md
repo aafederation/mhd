@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "henryli0103@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.psychologytoday.com/us/therapists/henry-li-flushing-ny/90
 youtube = ""
 [[locations]]
 address = "6520 77th Street, Middle Village, NY 11379"
-boroughs = ["Queens", "Brooklyn", "Citywide"]
+boroughs = ["Online", "Queens"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["Sign Language", "Chinese (Toishanese)", "Chinese (Cantonese)", "English"]
