@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "farzana@aisle-talk.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.psychologytoday.com/us/therapists/farzana-rahman-new-york
 youtube = ""
 [[locations]]
 address = "353 Lexington Avenue, 3rd Floor, New York, NY 10016"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = ["Female"]
 languages = ["English", "Bangla"]
