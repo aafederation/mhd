@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "info@cultivatepsychiatry.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.cultivatepsychiatry.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["MD (Doctor of Medicine)"]
 gender_identification = []
 languages = ["Korean", "English"]
