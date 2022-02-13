@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = "Accepting self pay clients at this time"
 email = "support@ninonuevoconsulting.com"
 facebook = ""
@@ -22,11 +22,11 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.NinoNuevoConsulting.com"
+website = "https://www.ninonuevoconsulting.com/"
 youtube = ""
 [[locations]]
 address = "99 Wall Street, Suite 787, New York, NY 10005"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["Tagalog", "English"]
