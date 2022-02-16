@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "asha@ashawellbeing.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://secure.helloalma.com/providers/asha-de-costa/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
 languages = ["Japanese", "English"]
