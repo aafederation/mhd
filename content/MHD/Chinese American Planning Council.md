@@ -1,10 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)"]
+best_way_to_contact = []
 client_requirements = ""
 email = "xliu@cpc-nyc.org"
+facebook = ""
 highlight = false
 image = "/img/cpc.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Chinese American Planning Council"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.cpc-nyc.org/news/2196/cpc-geriatric-mental-health-initiative-program-visits-brooklyn-botanical-garden-and"
+youtube = ""
 [[locations]]
 address = "4101 8th Avenue, Brooklyn, NY 11232"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
