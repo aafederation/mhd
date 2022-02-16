@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Preteens and Tweens (11 to 13)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
+best_way_to_contact = []
 client_requirements = "Currently only accepting new clients for mental health services"
 email = "info@arabamericanny.org"
+facebook = ""
 highlight = true
 image = "/img/arabamericanny.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Arab American Association of NY"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.arabamericanny.org/"
+youtube = ""
 [[locations]]
 address = "7111 5th Avenue, Brooklyn, NY 11209"
-boroughs = ["Brooklyn"]
+boroughs = ["Online", "Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
