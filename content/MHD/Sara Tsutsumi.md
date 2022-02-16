@@ -48,4 +48,4 @@ day_hours = "8 am - 8 pm"
 transport_option = "Subway ACE, 1, QRW, 6, FM"
 
 +++
-As a blind Japanese immigrant, I work especially well with differently-abled people and Pan Asians. I have been trained in expressive arts therapy and am a certified gestalt therapist. I utilizes the arts according to each person’s abilities to imagine and develop body awareness. My eclectic approach suits people who seek to find themselves in mental health.
+As a blind Japanese immigrant, I work especially well with differently-abled people and Pan Asians. I have been trained in expressive arts therapy and am a certified gestalt therapist. I utilize the arts according to each person’s abilities to imagine and develop body awareness. My eclectic approach suits people who seek to find themselves in mental health.
