@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Website"
+best_way_to_contact = ["Website"]
 client_requirements = ""
 email = "info@desirainbow.org"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Desi Rainbow Parents & Allies"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Online", "Organization"]
 telehealth = "No"
+tiktok = ""
+twitter = ""
 website = "https://www.desirainbow.org/programs"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
