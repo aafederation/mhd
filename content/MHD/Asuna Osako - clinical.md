@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (18+)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "renewtherapynyc@gmail.com"
 facebook = ""
@@ -10,7 +10,7 @@ image = "/img/asunaheadshot2.jpeg"
 instagram = ""
 linkedin = ""
 medium = ""
-org = "Asuna Osako"
+org = "Asuna Osako - Renew Therapy"
 payment_info_clinical = "$150 (45-min session)"
 payment_info_non_clinical = ""
 payment_types = ["Blue Cross/Blue Shield", "Affinity", "MetroPlus", "Medicaid", "HealthFirst"]
