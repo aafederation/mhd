@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "amehdi@copo.org"
+facebook = ""
 highlight = false
 image = "/img/copo.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Council of Peoples Organization "
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://copo.org/our-programs/"
+youtube = ""
 [[locations]]
 address = "1077 Coney Island Avenue, Brooklyn, NY 11230"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
