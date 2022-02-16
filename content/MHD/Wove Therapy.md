@@ -47,6 +47,8 @@ trainings = "Founder and Director (Alpana Choudhury) is candidate in psychoanaly
 transport_option = "All subways and buses that stop at 33rd and 34th St"
 
 +++
-Wove Therapy centers and reflects marginalized identities. Our clients are deeply interested in learning about themselves and the systems in which they exist. Our goal is to foster productive therapeutic alliances that are safe and challenging at the same time. Together, clients and therapists unpack forces that contribute to stress, anxiety, poor self-esteem, trauma, mood problems, relationships issues, and more. 
+Wove Therapy centers and reflects marginalized identities. Our clients are deeply interested in learning about themselves and the systems in which they exist. Our goal is to foster productive therapeutic alliances that are safe and challenging at the same time. Together, clients and therapists unpack forces that contribute to stress, anxiety, poor self-esteem, trauma, mood problems, relationships issues, and more.
+
+<br>
 
 Wove therapists excel in mental health issues around race, class, third cultures, immigration, patriarchy, intergenerational trauma, social justice, and intersectionality. Therapy at Wove is a relational process that utilizes narratives, lived experiences, and history to help people grow into freer and more powerful versions of themselves.
