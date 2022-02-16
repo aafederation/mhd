@@ -25,7 +25,7 @@ twitter = ""
 website = "https://www.wovetherapy.com/"
 youtube = ""
 [[locations]]
-address = "39 West 32nd Street, Suite 1103-4, New York, NY 10001"
+address = "39 W 32nd Street, Suite 1103-4, New York, NY 10001"
 boroughs = ["Online", "Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
 gender_identification = []
