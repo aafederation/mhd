@@ -7,7 +7,7 @@ email = "contact@kafsc.org"
 facebook = ""
 highlight = false
 image = "/img/kafsc.png"
-instagram = ""
+instagram = "@kafsc_ny"
 linkedin = ""
 medium = ""
 org = "The Korean American Family Service Center"
@@ -21,7 +21,7 @@ sliding_scale_non_clinical = false
 tags = ["Confidential Location", "Organization"]
 telehealth = "Yes"
 tiktok = ""
-twitter = ""
+twitter = "@kafscny"
 website = "https://www.kafsc.org/"
 youtube = ""
 [[locations]]
