@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "info@dramishah.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Ami Shah"
 payment_info_clinical = "$150 per session"
 payment_info_non_clinical = ""
@@ -14,12 +18,15 @@ payment_types_non_clinical = []
 program = "Shah Psychotherapy Services "
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = ["Online", "Individual Provider"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://southasiantherapists.org/therapist/ami-shah-psyd/"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = "Completed dissertation research on the East Asian and South Asian American population and the impact of autonomy/relatedness as well as intergenerational family conflict on emotional well-being."
 gender_identification = ["Female"]
