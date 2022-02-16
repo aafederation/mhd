@@ -48,8 +48,12 @@ day_hours = "Monday - Friday: 8:30 am - 8 pm"
 transport_option = "Path, Subway, buses"
 
 +++
-My experience and interests working with clients include anxiety, self-doubt, procrastination, negative intrusive thoughts, life transitions and various types of relationship difficulties. Having lived in Hong Kong and England, I am bilingual, and especially sensitive to cultural issues. Further, I trained in some of the most challenging environments in NYC, including Bellevue Hospital Ctr. Additionally, I am involved in research activities and have papers published in J of Clinical Psychology, APA Handbook of the Psychology of Women. My research commitment is to advocate against and dispelling mental health stigma. ​ 
+My experience and interests working with clients include anxiety, self-doubt, procrastination, negative intrusive thoughts, life transitions and various types of relationship difficulties. Having lived in Hong Kong and England, I am bilingual, and especially sensitive to cultural issues. Further, I trained in some of the most challenging environments in NYC, including Bellevue Hospital Ctr. Additionally, I am involved in research activities and have papers published in J of Clinical Psychology, APA Handbook of the Psychology of Women. My research commitment is to advocate against and dispelling mental health stigma. ​
 
-My approach to psychotherapy is three-fold. First, I personalize therapy based on my client’s needs. Second, I draw from various evidenced-based theories ranging from psychodynamic, cognitive behavioral (CBT), dialectical behavioral (DBT) and mindfulness modalities, to name a few. Thirdly, I value flexibility, and authentic feedback from clients. 
+<br>
+
+My approach to psychotherapy is three-fold. First, I personalize therapy based on my client’s needs. Second, I draw from various evidenced-based theories ranging from psychodynamic, cognitive behavioral (CBT), dialectical behavioral (DBT) and mindfulness modalities, to name a few. Thirdly, I value flexibility, and authentic feedback from clients.
+
+<br>
 
 From my experience working with clients for over 10 years, I have come to view psychotherapy as a respectful and collaborative journey in which I can share my expertise to help them navigate life’s roadblocks. I am humbled that together we will decide which signposts to follow so that they can lead more fulfilling and joyful lives.
