@@ -18,7 +18,7 @@ payment_types_non_clinical = []
 program = "MINKA brooklyn"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual Provider - Nonclinical"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
@@ -26,7 +26,7 @@ website = "http://minkabrooklyn.com/"
 youtube = ""
 [[locations]]
 address = "Varies"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 gender_identification = ["Gender nonconforming"]
 languages = ["Japanese", "English"]
