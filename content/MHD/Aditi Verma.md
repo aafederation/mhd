@@ -22,11 +22,11 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.talkingforwellness.com"
+website = "https://talkingforwellness.com/"
 youtube = ""
 [[locations]]
 address = "153 W 27th Street, Suite 300, New York, NY 10001"
-boroughs = ["Manhattan", "Brooklyn"]
+boroughs = ["Online", "Manhattan", "Brooklyn"]
 credentials = ["LMHC (Licensed Mental Health Counselor)", "LPC (Licensed Professional Counselor)"]
 gender_identification = []
 languages = ["English"]
