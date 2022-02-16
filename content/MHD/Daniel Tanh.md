@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "be@dantanh.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = "https://www.dantanh.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["Chinese (Teochew)", "English"]
