@@ -4,7 +4,7 @@ age_groups = ["All"]
 best_way_to_contact = ["Email"]
 client_requirements = "We accept clients who are able to commute to the clinic if needed for in-person services; Queens residents will be more likely to commute to the clinic with minimal hardship."
 email = "WoodsideIntakeTeam@childcenterny.org"
-facebook = ""
+facebook = "@childcenterny"
 highlight = false
 image = "/img/97014542_3272684219451015_1568133727031132160_n.jpg"
 instagram = ""
@@ -21,7 +21,7 @@ sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
 tiktok = ""
-twitter = ""
+twitter = "@ChildCenterNY"
 website = "https://childcenterny.org/asian-outreach-program/"
 youtube = ""
 [[locations]]
