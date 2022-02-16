@@ -26,7 +26,7 @@ website = "https://www.renew-therapy.org/asuna_osako.php"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 languages = ["Japanese", "English"]
 latLng = ""
