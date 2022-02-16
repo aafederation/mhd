@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (18+)"]
-best_way_to_contact = []
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "renewtherapynyc@gmail.com"
 facebook = ""
