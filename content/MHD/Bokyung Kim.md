@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "therapywithbokyung@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/img-5995-bokyung-kim.JPG"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Bokyung Kim"
 payment_info_clinical = "Standard Cost - $175. Sliding scale is available for all Black folks, and for People of Color with limited financial means. I do not take insurance, but can create a superbill to be submitted for out of network benefits."
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = ""
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Brooklyn"]
+boroughs = ["Online", "Brooklyn"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 languages = ["Korean", "English"]
 latLng = ""
