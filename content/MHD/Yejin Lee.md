@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "yejinlee.co"
+website = "https://yejinlee.co/"
 youtube = ""
 [[locations]]
 address = "Online"
