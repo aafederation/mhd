@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "callacjo@gmail.com"
 facebook = ""
@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Not applicable"
 tiktok = ""
 twitter = ""
-website = "www.chdny.org"
+website = "http://www.chdny.org/index.html"
 youtube = ""
 [[locations]]
 address = "928 Broadway, Suite 804, New York, NY 10010"
