@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)", "All"]
-best_way_to_contact = []
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "lgiuliano@greenwichhouse.org"
 facebook = ""
