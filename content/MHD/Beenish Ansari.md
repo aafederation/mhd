@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "hello@byrepose.com"
 facebook = ""
@@ -22,11 +22,11 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "byrepose.com"
+website = "https://byrepose.com/"
 youtube = ""
 [[locations]]
 address = "276 5th Avenue, New York, NY 10001"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 gender_identification = []
 languages = ["English", "Urdu", "Hindi"]
