@@ -19,14 +19,14 @@ program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
-telehealth = "Not applicable"
+telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = "http://www.chdny.org/index.html"
 youtube = ""
 [[locations]]
 address = "928 Broadway, Suite 804, New York, NY 10010"
-boroughs = ["Manhattan"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["Licensed Psychoanalyst", "LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["English"]
