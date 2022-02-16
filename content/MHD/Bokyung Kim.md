@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = []
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "therapywithbokyung@gmail.com"
 facebook = ""
@@ -22,7 +22,7 @@ tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = ""
+website = "https://www.therapywithbokyung.com/"
 youtube = ""
 [[locations]]
 address = "Online"
