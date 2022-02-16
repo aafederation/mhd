@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "info@playfulrecovery.com"
 facebook = ""
@@ -18,7 +18,7 @@ payment_types_non_clinical = ["N/A"]
 program = "Playful Recovery"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = true
-tags = ["Individual Provider - Nonclinical"]
+tags = ["Individual Provider"]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
@@ -26,7 +26,7 @@ website = "https://www.playfulrecovery.com/"
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 culturally_competent_treatment = "Yes. My formal education in both social work and drama therapy required training in cultural competency. My experience at Womankind included a great deal of structured training in cultural competency, as well as learning through experience. Given my training, experience, and knowledge, I have also had the privilege of training others in this area."
 gender_identification = ["Female"]
