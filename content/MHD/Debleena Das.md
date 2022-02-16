@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "drdebleenadas@gmail.com"
 facebook = ""
@@ -26,7 +26,7 @@ website = ""
 youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 gender_identification = ["Female"]
 languages = ["Bangla", "English"]
