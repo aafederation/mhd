@@ -4,7 +4,7 @@ age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 
 best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "BehavioralHealth@hmhonline.org, lilyaberns@hmhonline.org"
-facebook = ""
+facebook = "@HMH.HamiltonMadisonHouse"
 highlight = false
 image = "/img/hmh.png"
 instagram = ""
@@ -21,7 +21,7 @@ sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
 tiktok = ""
-twitter = ""
+twitter = "@HamiltonMadison"
 website = "http://www.hamiltonmadisonhouse.org/behavioral-health-services.html"
 youtube = ""
 [[locations]]
