@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = []
 client_requirements = ""
 email = ""
+facebook = ""
 highlight = false
 image = "/img/aafe.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Asian Americans for Equality"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Not applicable"
+tiktok = ""
+twitter = ""
 website = "https://www.aafe.org/2016/10/aafe-helps-people-improve-their-lives.html"
+youtube = ""
 [[locations]]
 address = "2 Allen Street, 7th Floor, New York, NY 10002"
-boroughs = ["Queens", "Manhattan"]
+boroughs = ["Online", "Queens", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
