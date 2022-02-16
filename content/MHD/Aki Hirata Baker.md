@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = []
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "Soulflowermedicine@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/cd1a72f3-86c9-4c0d-bca2-32349c1391fa-aki-baker.jpeg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Aki Hirata Baker"
 payment_info_clinical = "Sliding scale, no standard price point"
 payment_info_non_clinical = "Sliding Scale "
@@ -16,7 +20,10 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider - Nonclinical"]
 telehealth = "Yes"
-website = "minkabrooklyn.com"
+tiktok = ""
+twitter = ""
+website = "http://minkabrooklyn.com/"
+youtube = ""
 [[locations]]
 address = "Varies"
 boroughs = ["Citywide"]
