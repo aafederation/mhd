@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = ""
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Alpana Patel"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.mountsinai.org/patient-care/service-areas/community-medicine/sexual-assault-and-violence-intervention-program-savi"
+youtube = ""
 [[locations]]
 address = "Elmhurst Hospital, SAVI Program, 79-01 Broadway, Elmhurst, NY 11418"
-boroughs = ["Queens"]
+boroughs = ["Online", "Queens"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = ["Female"]
 languages = ["Urdu", "Hindi", "Gujarati"]
