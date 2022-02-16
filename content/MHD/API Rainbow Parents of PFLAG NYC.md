@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "api@pflagnyc.org"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "API Rainbow Parents of PFLAG NYC"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "http://www.pflagnyc.org/support/api"
+youtube = ""
 [[locations]]
 address = "130 E 25th Street, Suite M1, New York, NY 10010 (PFLAG NYC's office address)"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
