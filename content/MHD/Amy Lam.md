@@ -26,7 +26,7 @@ website = "https://amygracelam.com/"
 youtube = ""
 [[locations]]
 address = "Online, San Francisco, CA"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = []
 gender_identification = ["Genderqueer"]
 languages = ["English"]
