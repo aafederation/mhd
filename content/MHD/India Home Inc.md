@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (60+)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = "shubhra@indiahome.org, info@indiahome.org"
+facebook = "@indiahomeusa"
 highlight = false
 image = "/img/indiahome.png"
+instagram = "@indiahomeusa"
+linkedin = ""
+medium = ""
 org = "India Home Inc. "
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,7 +20,10 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "No"
+tiktok = ""
+twitter = "@indiahomeusa"
 website = "https://indiahome.org/health-wellness-programs/"
+youtube = ""
 [[locations]]
 address = "178-36 Wexford Terrace, Suite 2C, Queens, NY 11432"
 boroughs = ["Queens"]
