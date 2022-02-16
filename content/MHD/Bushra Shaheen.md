@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "bushra@byrepose.com"
+facebook = ""
 highlight = false
 image = "/img/bushra-shaheen.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Bushra Shaheen"
 payment_info_clinical = "$180 - $225"
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://byrepose.com/bushra-shaheen-lmsw-o"
+youtube = ""
 [[locations]]
 address = "276 5th Avenue, New York, NY 10001"
-boroughs = ["Manhattan", "Brooklyn", "Bronx"]
+boroughs = ["Online", "Manhattan"]
 credentials = ["LMSW (Licensed Master Social Worker)"]
 culturally_competent_treatment = "Community residency model"
 gender_identification = ["Female"]
