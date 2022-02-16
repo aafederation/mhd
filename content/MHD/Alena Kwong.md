@@ -1,11 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "therapywithalena@gmail.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Alena Kwong"
 payment_info_clinical = "$125-200 per session"
 payment_info_non_clinical = "$125 for Reiki/Chakra Balancing Session for 45 minutes session"
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "http://www.marymccluskeydsw.com/home.html"
+youtube = ""
 [[locations]]
 address = "85 Livingston Street, Brooklyn, NY 11201"
-boroughs = ["Manhattan", "Brooklyn"]
+boroughs = ["Online", "Manhattan", "Brooklyn"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 culturally_competent_treatment = "Yes, via my training at NYU's School of Social Work"
 gender_identification = ["Female"]
