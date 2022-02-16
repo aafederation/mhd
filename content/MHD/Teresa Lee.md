@@ -27,7 +27,7 @@ youtube = ""
 [[locations]]
 address = "Online"
 boroughs = ["Online"]
-credentials = []
+credentials = ["MD (Doctor of Medicine)"]
 culturally_competent_treatment = ""
 gender_identification = ["Female"]
 languages = ["English"]
@@ -43,7 +43,7 @@ psychotherapy_types = ["Psychodynamic", "Supportive Therapy", "Trauma-informed",
 public_transportation = []
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
 staff_gender = ["Female"]
-trainings = "MD, Group Therapist"
+trainings = "I am a group therapist as well."
 [[locations.hours_of_operation]]
 day_hours = "11 am - 7 pm"
 
