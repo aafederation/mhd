@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
-best_way_to_contact = "Email"
+best_way_to_contact = ["Email"]
 client_requirements = ""
 email = "benaiferlcsw@gmail.com"
+facebook = ""
 highlight = false
 image = "/img/img-20210907-wa0144_2-benaifer-bhadha.jpg"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Benaifer Bhadha"
 payment_info_clinical = "$150 - $250 per session"
 payment_info_non_clinical = "$150 - $250 per session"
@@ -16,10 +20,13 @@ sliding_scale_clinical = true
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
 telehealth = "Yes"
-website = "www.benaiferbhadha.com"
+tiktok = ""
+twitter = ""
+website = "https://www.benaiferbhadha.com/"
+youtube = ""
 [[locations]]
 address = "Online"
-boroughs = ["Citywide"]
+boroughs = ["Online"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 gender_identification = []
 languages = ["English"]
