@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Youth and Teenagers (14 to 19)", "Adults (19 to 64)", "Preteens and Tweens (11 to 13)"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = " Zarin@aafscny.org, info@aafscny.org"
+facebook = ""
 highlight = false
 image = "/img/aafsc-logo.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Arab-American Family Support Center"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.aafscny.org/"
+youtube = ""
 [[locations]]
 address = "150 Court Street, #3, Brooklyn, NY 11201"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Brooklyn"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
