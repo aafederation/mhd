@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
-best_way_to_contact = "Phone"
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 email = "Info@bleulerpc.org"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Bleuler Psychotherapy Center, Inc. "
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.bleulerpc.org/"
+youtube = ""
 [[locations]]
 address = "104-70 Queens Boulevard, Suite 200, Forest Hills, NY 11375"
-boroughs = ["Citywide"]
+boroughs = ["Queens", "Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
