@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = []
+best_way_to_contact = []
 client_requirements = ""
 email = ""
+facebook = ""
 highlight = true
 image = "/img/charlesbwang.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Charles B. Wang Community Health Center"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Not applicable"
+tiktok = ""
+twitter = ""
 website = "www.cbwchc.org"
+youtube = ""
 [[locations]]
 address = "268 Canal Street, New York, NY 10013"
-boroughs = ["Citywide", "Manhattan"]
+boroughs = ["Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
