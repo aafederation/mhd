@@ -1,10 +1,15 @@
 +++
 ada_compliant = false
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = []
 client_requirements = ""
 email = "info@cafamh.org"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Chinese American Family Alliance for Mental Health"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.cafamh.org/programs/"
+youtube = ""
 [[locations]]
 address = "168 Centre Street, New York, NY 10013"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan", "Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
