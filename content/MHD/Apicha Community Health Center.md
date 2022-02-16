@@ -1,11 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Seniors (65+)"]
-best_way_to_contact = ""
+best_way_to_contact = []
 client_requirements = ""
 email = ""
+facebook = ""
 highlight = false
 image = "/img/apicha.png"
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Apicha Community Health Center"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -16,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["LGBTQ+", "Organization"]
 telehealth = "Yes"
+tiktok = ""
+twitter = ""
 website = "https://www.apicha.org/en/services-covid19"
+youtube = ""
 [[locations]]
 address = "400 Broadway, New York, NY 10013"
-boroughs = ["Citywide"]
+boroughs = ["Online", "Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
