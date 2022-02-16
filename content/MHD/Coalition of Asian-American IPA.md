@@ -1,10 +1,15 @@
 +++
 ada_compliant = true
 age_groups = ["All"]
+best_way_to_contact = []
 client_requirements = ""
 email = "info@caipa.com"
+facebook = ""
 highlight = false
 image = ""
+instagram = ""
+linkedin = ""
+medium = ""
 org = "Coalition of Asian-American IPA"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
@@ -15,10 +20,13 @@ sliding_scale_clinical = false
 sliding_scale_non_clinical = false
 tags = ["Organization"]
 telehealth = "No"
+tiktok = ""
+twitter = ""
 website = "https://www.caipa.com/about-us/services/"
+youtube = ""
 [[locations]]
 address = "202 Canal Street, New York, NY 10013"
-boroughs = ["Citywide"]
+boroughs = ["Manhattan"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
