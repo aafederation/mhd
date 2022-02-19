@@ -26,7 +26,7 @@ website = "https://gohny.org/counseling/#gethelp"
 youtube = ""
 [[locations]]
 address = "Confidential Locations - Call or Email for an appointment"
-boroughs = ["Online"]
+boroughs = ["Confidential Location", "Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
