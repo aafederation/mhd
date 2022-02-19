@@ -26,7 +26,7 @@ website = "https://tpny.org/services/"
 youtube = ""
 [[locations]]
 address = "Confidential Location"
-boroughs = []
+boroughs = ["Confidential Location"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
