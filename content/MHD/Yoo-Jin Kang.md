@@ -46,8 +46,12 @@ trainings = "Certified Yoga Teacher, Reiki I Healing Practitioner, Certified Tra
 day_hours = "Flexible and varies based on appointments/ consultations"
 
 +++
-Yoo-Jin Kang (she/hers) is a first-generation Korean-American born in Seoul, South Korea and raised in Seattle, Washington (Coast Salish & Puyallup Land) and the DC/Maryland area (Susquehannock, Nentego, & Piscataway Land). 
+Yoo-Jin Kang (she/hers) is a first-generation Korean-American born in Seoul, South Korea and raised in Seattle, Washington (Coast Salish & Puyallup Land) and the DC/Maryland area (Susquehannock, Nentego, & Piscataway Land).
 
-Yoo-Jin is a 200-hour certified Yoga instructor (with a special interest in trauma-informed yoga), Reiki Energy Healer, and certified in Mind-Body Medicine fundamentals. She approaches coaching, consulting, and healing justice work from an anti-racist, person-centered, and trauma-informed lens. 
+<br>
+
+Yoo-Jin is a 200-hour certified Yoga instructor (with a special interest in trauma-informed yoga), Reiki Energy Healer, and certified in Mind-Body Medicine fundamentals. She approaches coaching, consulting, and healing justice work from an anti-racist, person-centered, and trauma-informed lens.
+
+<br>
 
 She brings a decade of experience in the nonprofit, public health, & higher education sectors, guiding individuals, teams, & organizations in career coaching, trauma-informed care, healing from workplace trauma, integrating radical self-care, and implementing diversity, equity, and inclusion measures into organizations.
