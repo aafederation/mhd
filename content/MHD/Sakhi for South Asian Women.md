@@ -26,7 +26,7 @@ website = "https://www.sakhi.org/mental-health-program/"
 youtube = ""
 [[locations]]
 address = "Confidential Location - contact helpline to be connected to services"
-boroughs = ["Online"]
+boroughs = ["Confidential Location", "Online"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
