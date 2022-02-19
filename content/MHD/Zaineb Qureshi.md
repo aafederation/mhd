@@ -6,7 +6,7 @@ client_requirements = ""
 email = "hello@byrepose.com"
 facebook = ""
 highlight = false
-image = "/img/img_0733-zaineb-qureshi.jpeg"
+image = "/img/img_0733-zaineb-qureshi-1.jpeg"
 instagram = "@byrepose"
 linkedin = ""
 medium = ""
@@ -47,10 +47,16 @@ trainings = ""
 day_hours = "Mondays: 10 am - 6:30 pm, Thursdays: 12 pm - 8:30 pm"
 
 +++
-I FIRMLY BELIEVE that you are an expert of your own life. I offer art therapy integrated with traditional talk therapy through a humanistic lens in order to support you on your journey towards self-awareness and self-acceptance. 
+I FIRMLY BELIEVE that you are an expert of your own life. I offer art therapy integrated with traditional talk therapy through a humanistic lens in order to support you on your journey towards self-awareness and self-acceptance.
 
-CREATING ARTWORK can become a tool for communication when we cannot find the words to express ourselves, or words are just not enough. The process of art-making itself is a unique way of grounding and finding inner peace. 
+<br>
 
-WORKING FROM A CLIENT-CENTERED and holistic approach, I strive to establish a safe and supportive environment where you may explore, play, and be creative. 
+CREATING ARTWORK can become a tool for communication when we cannot find the words to express ourselves, or words are just not enough. The process of art-making itself is a unique way of grounding and finding inner peace.
+
+<br>
+
+WORKING FROM A CLIENT-CENTERED and holistic approach, I strive to establish a safe and supportive environment where you may explore, play, and be creative.
+
+<br>
 
 TOGETHER, we can nurture your inner voice and develop long-lasting resiliency.
