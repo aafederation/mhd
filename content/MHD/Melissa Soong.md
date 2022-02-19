@@ -25,7 +25,7 @@ twitter = ""
 website = "https://www.melissasoong.com/"
 youtube = ""
 [[locations]]
-address = "NYC"
+address = "Online"
 boroughs = ["Online"]
 credentials = []
 culturally_competent_treatment = ""
