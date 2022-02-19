@@ -26,7 +26,7 @@ website = "https://www.kafsc.org/"
 youtube = ""
 [[locations]]
 address = "Confidential Location - Contact for connection to services"
-boroughs = []
+boroughs = ["Confidential Location"]
 credentials = []
 culturally_competent_treatment = ""
 gender_identification = []
