@@ -195,15 +195,17 @@
 							</span>
 						{{ end }}				
 						{{ with .org.linkedin }}
+							{{ $handle := trim . " " }}
 							<span class="[ font_icons color-icon ] [ position-icon ]">
-								<a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+								<a href="{{ $handle }}" target="_blank" rel="noopener noreferrer">
 									&#xe0b4;
 								</a>
 							</span>
 						{{ end }}
 						{{ with .org.youtube }}
+							{{ $handle := trim . " " }}
 							<span class="[ font_icons color-icon ] [ position-icon ]">
-								<a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+								<a href="{{ $handle }}" target="_blank" rel="noopener noreferrer">
 									&#xe0ba;
 								</a>
 							</span>
