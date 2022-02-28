@@ -5,7 +5,7 @@
   display: inline-block;
   text-decoration: none;
   &:hover {
-    background: get-color("light");
+    background: get-color("powder");
     color: get-color("primary");
   }
 }
@@ -15,7 +15,7 @@
   color: get-color("black");
 
   &[data-variant="invert"] {
-    background: get-color("light");
+    background: get-color("powder");
     color: get-color("primary");
     &:hover {
       background: get-color("secondary");
