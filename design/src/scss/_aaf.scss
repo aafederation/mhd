@@ -19,6 +19,14 @@
 		}
 	}
 }
+.font_icons {
+	a {
+		text-decoration: none;
+		&:hover {
+			color: get-color("primary");
+		}
+	}
+}
 .mhd-button-widget {
 	padding: 7px 21px;
 	border-radius: 5em;

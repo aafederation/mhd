@@ -165,76 +165,59 @@
 						{{ end }}
 					</div>
 				{{ end }}
-				{{ with .org.facebook }}
-					<div class="display-flex flex-wrap-wrap">
-						<span class="[ font_icons color-icon ] [ position-icon ]"
-							>&#xe093;</span
-						>
-						<span>
-							{{ . }}
-						</span>
-					</div>
-				{{ end }}
-				{{ with .org.twitter }}
-					<div class="display-flex flex-wrap-wrap">
-						<span class="[ font_icons color-icon ] [ position-icon ]"
-							>&#xe094;</span
-						>
-						<span>
-							{{ . }}
-						</span>
-					</div>
-				{{ end }}
-				{{ with .org.instagram }}
-					<div class="display-flex flex-wrap-wrap">
-						<span class="[ font_icons color-icon ] [ position-icon ]"
-							>&#xe09a;</span
-						>
-						<span>
-							{{ . }}
-						</span>
-					</div>
-				{{ end }}				
-				{{ with .org.linkedin }}
-					<div class="display-flex flex-wrap-wrap">
-						<span class="[ font_icons color-icon ] [ position-icon ]"
-							>&#xe09d;</span
-						>
-						<span>
-							{{ . }}
-						</span>
-					</div>
-				{{ end }}
-				{{ with .org.youtube }}
-					<div class="display-flex flex-wrap-wrap">
-						<span class="[ font_icons color-icon ] [ position-icon ]"
-							>&#xe0a3;</span
-						>
-						<span>
-							{{ . }}
-						</span>
-					</div>
-				{{ end }}
-				{{ with .org.tiktok }}
-					<div class="display-flex flex-wrap-wrap">
-						<span class="[ color-icon ] [ position-icon ]"
-							>T</span
-						>
-						<span>
-							{{ . }}
-						</span>
-					</div>
-				{{ end }}				
-				{{ with .org.medium }}
-					<div class="display-flex flex-wrap-wrap">
-						<span class="[ color-icon ] [ position-icon ]"
-							>M</span
-						>
-						<span>
-							{{ . }}
-						</span>
-					</div>
-				{{ end }}
+				<div class="display-flex flex-wrap-wrap">
+					<span class="[ font_icons color-icon ] [ position-icon ]"
+						>&#xe0a0;</span
+					>
+					<span>
+						{{ with .org.facebook }}
+							{{ $handle := trim . "@" }}
+							<span class="[ font_icons color-icon ] [ position-icon ]">
+								<a href="https://facebook.com/{{ $handle }}" target="_blank" rel="noopener noreferrer">
+									&#xe0aa;
+								</a>
+							</span>
+						{{ end }}
+						{{ with .org.twitter }}
+							{{ $handle := trim . "@" }}
+							<span class="[ font_icons color-icon ] [ position-icon ]">
+								<a href="https://twitter.com/{{ $handle }}" target="_blank" rel="noopener noreferrer">
+									&#xe0ab;
+								</a>
+							</span>
+						{{ end }}
+						{{ with .org.instagram }}
+							{{ $handle := trim . "@" }}
+							<span class="[ font_icons color-icon ] [ position-icon ]">
+								<a href="https://instagram.com/{{ $handle }}" target="_blank" rel="noopener noreferrer">
+									&#xe0b1;
+								</a>
+							</span>
+						{{ end }}				
+						{{ with .org.linkedin }}
+							<span class="[ font_icons color-icon ] [ position-icon ]">
+								<a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+									&#xe0b4;
+								</a>
+							</span>
+						{{ end }}
+						{{ with .org.youtube }}
+							<span class="[ font_icons color-icon ] [ position-icon ]">
+								<a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+									&#xe0ba;
+								</a>
+							</span>
+						{{ end }}			
+						{{ with .org.medium }}
+							{{ $handle := trim . "@" }}
+							<span class="[ color-icon ] [ position-icon ]">
+								<a href="https://{{ $handle }}.medium.com" target="_blank" rel="noopener noreferrer">
+									M
+								</a>
+							</span>
+						{{ end }}
+					</span>
+				</div>
 				{{ with .location.hours_of_operation }}
 					<div class="display-flex">
 						<span
