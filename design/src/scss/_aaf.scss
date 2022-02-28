@@ -27,6 +27,16 @@
     }
   }
 }
+.position-icon {
+  a.svg-color {
+    filter: invert(40%) sepia(63%) saturate(1581%) hue-rotate(180deg)
+      brightness(84%) contrast(75%);
+  }
+  a.svg-color:hover {
+    filter: invert(50%) sepia(96%) saturate(7381%) hue-rotate(346deg)
+      brightness(91%) contrast(96%);
+  }
+}
 .mhd-button-widget {
   padding: 7px 21px;
   border-radius: 5em;
