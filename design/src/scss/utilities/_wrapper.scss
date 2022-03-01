@@ -1,10 +1,13 @@
 .wrapper {
-	max-width: 75rem;
-	padding-left: get-size("500");
-	padding-right: get-size("500");
-	margin-left: auto;
-	margin-right: auto;
-	&[data-variant="no-padding"] {
-		padding: 0;
-	}
+  max-width: 75rem;
+  padding-left: get-size("500");
+  padding-right: get-size("500");
+  margin-left: auto;
+  margin-right: auto;
+  &[data-variant="no-padding"] {
+    padding: 0;
+  }
+  &[data-variant="narrow"] {
+    max-width: 40rem;
+  }
 }

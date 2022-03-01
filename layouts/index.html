@@ -1,7 +1,7 @@
 {{ define "main" }}
 	{{- partial "index-scripts.html" . -}}
 	<div
-		class="[  index-blurb flow ] [ pad-top-900 pad-right-500 pad-bottom-900 pad-left-500 bg-canvas ]"
+		class="[  index-blurb flow ] [ gap-top-300 pad-top-900 pad-right-500 pad-bottom-900 pad-left-500 bg-canvas ]"
 	>
 		<p class="text-500">
 			All Asian Americans deserve access to culturally competent mental health
@@ -43,5 +43,24 @@
 			class="[ fixed-full-screen ] [ bg-dark opacity-75 display-none sm:display-none position-fixed sm:position-static ] [ top-0 right-0 bottom-0 left-0 z-1 ]"
 			id="filter-page-overlay"
 		></div>
+	</div>
+	<div
+		class="[  index-blurb flow ] [ pad-top-900 pad-right-500 pad-bottom-900 pad-left-500 bg-canvas ]"
+	>
+		<p class="text-500 weight-bold ta-center">
+			AAF's Mental Health Directory was made possible with support from
+		</p>
+		<div class="wrapper" data-variant="narrow">
+			<div class="tiles" data-variant="two-per-row">
+				<img src="/img/logo/Peloton_logo.png" style="margin-bottom: auto;"/>
+				<img src="/img/logo/MotherCabriniLogo.png"/>
+			</div>
+		</div>
+		<p class="text-500 ta-center">and New York State Health Foundation</p>
+		<span class="text-400 ta-center">
+			<p>We thank our partners for their collaboration:</p>
+			<p><a href="https://www.arabamericanny.org/">Arab American Association of New York</a>, <a href="http://www.hamiltonmadisonhouse.org/">Hamilton-Madison House</a></p>
+			<p><a href="https://www.kcsny.org/">Korean Community Services of Metropolitan New York</a>, and <a href="http://sapnanyc.org/">Sapna NYC</a></p>
+		</span>
 	</div>
 {{ end }}
