@@ -37,10 +37,10 @@ new_clients_detail = ""
 non_clinical_services = ["ESL classes", "Case management"]
 parking = "No"
 phone_number = "718-492-0409"
-psychotherapy = true
+psychotherapy = false
 psychotherapy_specialties = ["Stress", "Depression", "Anxiety"]
 psychotherapy_types = []
-services = ["Psychotherapy"]
+services = []
 staff_gender = ["Transgender", "Nonbinary", "Gender-neutral", "Male", "Female"]
 trainings = ""
 [[locations.hours_of_operation]]
