@@ -25,7 +25,7 @@ twitter = ""
 website = "http://elisaleephd.com"
 youtube = ""
 [[locations]]
-address = "5 W 86th Street, New York, NY 10024"
+address = "220 5th Avenue, 11th Floor, New York, NY 10001"
 boroughs = ["Online", "Manhattan"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
 culturally_competent_treatment = ""
