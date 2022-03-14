@@ -1,6 +1,6 @@
 .modal {
   align-items: center;
-  display: none;
+  display: block;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
@@ -9,9 +9,6 @@
   left: 0;
   right: 0;
   top: 0;
-}
-.LangSelectContainer_YHgsG {
-  display: block;
   z-index: 1500;
 }
 .modal-background {
@@ -22,50 +19,26 @@
   right: 0;
   top: 0;
 }
-.modalContainer_3yW8T {
+.modalContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   top: 40%;
   left: 50%;
-  background-color: #f4f4f4;
   transform: translate(-50%, -50%);
   padding: 4rem 2rem 2rem;
   flex-direction: column;
-}
-@media screen and (min-width: 769px) {
-  .modal-card,
-  .modal-content {
-    margin: 0 auto;
-    max-height: calc(100vh - 40px);
-    width: 640px;
-  }
-}
-@media screen and (min-width: 769px) {
-  .modal-card,
-  .modal-content {
-    margin: 0 auto;
-    max-height: calc(100vh - 40px);
-    width: 640px;
-  }
+  border-radius: 20px;
 }
 .modal-content {
   overflow: auto;
+  margin: 0 auto;
+  max-height: calc(100vh - 40px);
+  width: 640px;
 }
-.button {
-  border-color: #dbdbdb;
-  border-width: 1px;
-  cursor: pointer;
-  justify-content: center;
-  text-align: center;
-  white-space: nowrap;
-}
-.saveBtn_2MZaZ {
-  margin-top: 2rem;
-  background-color: #26ae90;
-  padding: 0.5rem 2rem;
-  border-radius: 1rem;
-  font-size: 1.2rem;
-  color: #fff;
+.button-join-us {
+  font-size: 22px;
+  border-radius: 7.5px;
+  padding: 0.75rem 1.5rem;
 }
