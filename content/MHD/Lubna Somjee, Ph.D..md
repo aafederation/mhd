@@ -26,22 +26,22 @@ twitter = "@LSomjeePhD"
 website = "www.LubnaSomjee-phd.com"
 youtube = ""
 [[locations]]
-address = "12 Davis Avenue, Suite 2N\nPoughkeepsie, NY 12603"
-boroughs = []
+address = "12 Davis Avenue, Suite 2N, Poughkeepsie, NY 12603"
+boroughs = ["Online"]
 credentials = []
 hours_of_operation = []
 languages = []
-latLng = ""
+latLng = "41.69405368399561, -73.90007210384321"
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = []
 parking = "Yes"
-phone_number = ""
-psychotherapy = false
+phone_number = "845-380-2945"
+psychotherapy = true
 psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
-services = []
+services = ["Psychotherapy"]
 staff_gender = []
 trainings = ""
 
@@ -74,4 +74,4 @@ Stress management
 
 <br>
 
-Diversity 
+Diversity
