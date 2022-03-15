@@ -1,21 +1,21 @@
 +++
 ada_compliant = true
 age_groups = []
-best_way_to_contact = []
+best_way_to_contact = ["Phone"]
 client_requirements = ""
 draft = true
 email = ""
-facebook = ""
+facebook = "LubnaSomjeePhd"
 highlight = false
-image = ""
+image = "/img/screen-shot-2022-03-03-at-7-49-26-am-lubna.png"
 instagram = ""
-linkedin = ""
+linkedin = "https://www.linkedin.com/in/lubnasomjeephd/"
 locations = []
 medium = ""
 org = "Lubna Somjee, Ph.D."
 payment_info_clinical = ""
 payment_info_non_clinical = ""
-payment_types = []
+payment_types = ["UnitedHealthcare", "Oxford", "Optum", "Cigna", "Blue Cross/Blue Shield", "Beacon Health", "Aetna"]
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
@@ -23,8 +23,8 @@ sliding_scale_non_clinical = true
 tags = []
 telehealth = "Not applicable"
 tiktok = ""
-twitter = ""
-website = ""
+twitter = "@LSomjeePhD"
+website = "www.LubnaSomjee-phd.com"
 youtube = ""
 
 +++
