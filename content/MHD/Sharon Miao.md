@@ -48,4 +48,6 @@ day_hours = "Usually 9AM-7PM on Mondays, Tuesdays, Thursday and Fridays, but var
 transport_option = "Subway N/Q/R/W at 23 St"
 
 +++
-I am a Licensed Master Social Worker with over 4 years of experience in counseling with bicultural pediatric and adult populations.
+I believe psychotherapy is not only about curing or resolving pain, but also increasing awareness, understanding, and accepting the full range of human emotion. It’s important to feel the different emotions and learn how to express ourselves fully. We will start a journey to explore your thoughts, feelings, and experiences together, reflect on your past, and connect the dots to live your life to the fullest. The beauty of our work is finding your strengths and having an “aha moment” during our positive therapeutic process. I am fluent in both English and Mandarin and will always work to meet you where you are.  
+  
+我可以用中文普通话进行咨询。我擅长抑郁、焦虑、心理创伤、人际关系，新移民以及留学生群体心理健康等问题。
