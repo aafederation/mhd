@@ -43,6 +43,9 @@
   @include media-query("sm") {
     font-size: 22px;
   }
+  a {
+    text-decoration: none;
+  }
 }
 .x-modal-close {
   color: white;
