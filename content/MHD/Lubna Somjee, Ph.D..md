@@ -29,7 +29,6 @@ youtube = ""
 address = "12 Davis Avenue, Suite 2N, Poughkeepsie, NY 12603"
 boroughs = ["Online"]
 credentials = ["Licensed Psychologist (PhD/PsyD)"]
-hours_of_operation = []
 languages = ["English"]
 latLng = "41.69405368399561, -73.90007210384321"
 new_clients = "Yes"
@@ -41,8 +40,10 @@ psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Phobias/fears", "Panic attacks/disorder", "Infertility", "Divorce and separation", "Depression", "Cultural adjustment", "Chronic illness", "Caregiver stress and support", "Attachment issues", "Anxiety"]
 psychotherapy_types = ["Mindfulness-based", "Interpersonal", "Couples Therapy", "Cognitive Behavioral Therapy"]
 services = ["Psychotherapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Executive Coach + Consultant"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Thursday: 9 am - 6 pm,  Friday: 9 am - 1 pm"
 [[locations.public_transportation]]
 transport_option = "Bus"
 
