@@ -20,7 +20,7 @@ program = "David Listen - Life Mentor"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = true
 tags = ["Individual Provider"]
-telehealth = "Not applicable"
+telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = "https://davidlisten.com/"
@@ -29,20 +29,21 @@ youtube = ""
 address = "Online"
 boroughs = ["Online"]
 credentials = ["LMHC (Licensed Mental Health Counselor)"]
-hours_of_operation = []
-languages = []
+languages = ["Chinese (Mandarin)", "English"]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Life Coaching", "Psychoeducation", "Meditation/mindfulness practices"]
-parking = "Yes"
+non_clinical_services = ["Lifestyle wellness training", " Mentoring/coaching in self-exploration and self-adjustment", "Life Coaching", "Psychoeducation", "Meditation/mindfulness practices"]
+parking = ""
 phone_number = "845-649-4431"
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
 services = []
-staff_gender = []
-trainings = ""
+staff_gender = ["Male"]
+trainings = "Previously Buddhist monk for 10+ years; trained in meditation/mindfulness & wellness lifestyle; trained as instructor of intensive meditation retreats; was mentor for lay practitioners at retreat center; was director of Dharma Drum Retreat Center from 2009 - 2015"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: 9 am - 8 pm"
 
 +++
