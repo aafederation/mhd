@@ -28,13 +28,13 @@ youtube = ""
 [[locations]]
 address = "Online"
 boroughs = ["Online"]
-credentials = []
+credentials = ["LMHC (Licensed Mental Health Counselor)"]
 hours_of_operation = []
 languages = []
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = []
+non_clinical_services = ["Life Coaching", "Psychoeducation", "Meditation/mindfulness practices"]
 parking = "Yes"
 phone_number = "845-649-4431"
 psychotherapy = false
