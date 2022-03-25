@@ -29,12 +29,11 @@ youtube = ""
 address = "132 Concklin Rd, Pomona, NY 10970"
 boroughs = ["Online"]
 credentials = []
-hours_of_operation = []
-languages = []
+languages = ["English"]
 latLng = "41.17122240117403, -74.03009889544838"
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Yoga", "Meditation/mindfulness practices"]
+non_clinical_services = ["Shamanic healing", "Ritual/ceremony practices", "Yoga", "Meditation/mindfulness practices"]
 parking = "Yes"
 phone_number = ""
 psychotherapy = false
@@ -42,8 +41,10 @@ psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
 services = []
-staff_gender = []
-trainings = ""
+staff_gender = ["Female"]
+trainings = "Certifications through the Jaguar Path in Yoga and Shamanism; Mental Health First Aid; Certified Ancestral Lineage Healing Practitioner (anticipated August 2022); Minister of Animism"
+[[locations.hours_of_operation]]
+day_hours = "By appointment"
 
 +++
 Mikki Baloy has been practicing shamanic healing for over a decade. She has studied with shamans, ritual-keepers, and mystics from around the world, as well as with Western-minded teachers and peers. She is being certified in Ancestral Lineage Healing with Dr. Daniel Foor, and speaks and writes candidly from her own direct experience of practicing traditional methods in contemporary culture. Mikki offers one-on-one healing sessions, rites of passage and weddings, and retreat and education experiences
