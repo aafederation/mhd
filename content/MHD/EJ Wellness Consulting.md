@@ -1,30 +1,49 @@
 +++
-ada_compliant = true
-age_groups = []
-best_way_to_contact = []
+ada_compliant = false
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = ["Phone", "Email"]
 client_requirements = ""
 draft = true
-email = ""
+email = "info@ejwellness.com"
 facebook = ""
 highlight = false
 image = ""
 instagram = ""
 linkedin = ""
-locations = []
 medium = ""
 org = "EJ Wellness Consulting"
-payment_info_clinical = ""
-payment_info_non_clinical = ""
+payment_info_clinical = "$200-$250 per 50 min individual sessions"
+payment_info_non_clinical = "$200-$250 per 50 min individual session. "
 payment_types = []
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
-telehealth = "Not applicable"
+tags = ["Organization"]
+telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = ""
+website = "www.ejwellness.com"
 youtube = ""
+[[locations]]
+address = "Online"
+boroughs = ["Online"]
+credentials = ["LMSW (Licensed Master Social Worker)", "LCSW (Licensed Clinical Social Worker)"]
+hours_of_operation = []
+languages = ["Spanish", "Japanese", "English"]
+latLng = ""
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = ["Psychoeducation", "Peer support groups"]
+parking = "Yes"
+phone_number = "929-269-2557"
+psychotherapy = true
+psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "Stress", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Pregnancy, perinatal, and postpartum mental health", "Parenting", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Drug abuse", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Caregiver stress and support", "Behavioral issues", "Attachment issues", "Anxiety", "Adoption and foster care"]
+psychotherapy_types = ["Supportive Therapy", "Solution-focused Therapy", "Trauma-informed", "Group therapy", "Family therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
+public_transportation = []
+services = ["Psychotherapy"]
+staff_gender = []
+trainings = "MPH"
 
 +++
+We are a group of therapists of color whose approach to therapy is rooted in anti-oppressive philosophy. We are committed to providing trauma-informed, strength-based and culturally affirming treatments that center and value the richness of our clients’ lives. Our goal is to build authentic connections that allow for healing, self-discovery and transformation.
