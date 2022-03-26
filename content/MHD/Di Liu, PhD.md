@@ -7,7 +7,7 @@ draft = true
 email = ""
 facebook = ""
 highlight = false
-image = ""
+image = "/img/di-liu-headshot-di-liu.jpg"
 instagram = ""
 linkedin = ""
 locations = []
@@ -28,3 +28,4 @@ website = ""
 youtube = ""
 
 +++
+Supervising psychotherapist in Department of Psychiatry
