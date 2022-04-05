@@ -43,7 +43,7 @@ services = []
 staff_gender = ["Male"]
 trainings = "Previously Buddhist monk for 10+ years; trained in meditation/mindfulness & wellness lifestyle; trained as instructor of intensive meditation retreats; was mentor for lay practitioners at retreat center; was director of Dharma Drum Retreat Center from 2009 - 2015"
 [[locations.hours_of_operation]]
-day_hours = "Monday - Friday: 9 am - 8 pm"
+day_hours = "Mondays & Fridays: 9 am - 8 pm."
 
 +++
 David Listen has been teaching Chan/Zen meditation & mindful living for over 15 years throughout the U.S., Europe, and East Asia. He currently resides on Long Island, NY, and has been doing mentoring/coaching since 2015. He continues to lecture (search “David Listen” on Youtube), lead meditation retreats, write articles, and compose music. David holds a bachelor's degree in Science from the SUNY College of Environmental Science and Forestry and a master’s degree in Education, Mental Health Counseling, from CUNY Hunter College. He is licensed in the State of New York as a Mental Health Counselor (LMHC). He is fluent in Mandarin Chinese and does clinical work with Chinese Americans in the Lower East Side, NYC.
