@@ -92,8 +92,8 @@
 				let goBack = document.getElementById("go-back");
 				let goHome = document.getElementById("go-home");
 				const homeWindow = window.open("", "parent");
-				goBack.classList.remove("display-none-important");
-				goHome.classList.add("display-none-important");
+				goBack.classList.remove("display-none");
+				goHome.classList.add("display-none");
 				goBack.addEventListener("click", function () {
 					homeWindow.focus();
 					close();
