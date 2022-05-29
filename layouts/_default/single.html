@@ -90,11 +90,19 @@
 		(function () {
 			if (window.opener) {
 				let goBack = document.getElementById("go-back");
+				let goBackHamburger = document.getElementById("go-back-hamburger");
 				let goHome = document.getElementById("go-home");
+				let goHomeHamburger = document.getElementById("go-home-hamburger");
 				const homeWindow = window.open("", "parent");
-				goBack.classList.remove("display-none");
-				goHome.classList.add("display-none");
+				goBack.classList.remove("display-none-important");
+				goBackHamburger.classList.remove("display-none-important");
+				goHome.classList.add("display-none-important");
+				goHomeHamburger.classList.add("display-none-important");
 				goBack.addEventListener("click", function () {
+					homeWindow.focus();
+					close();
+				});
+				goBackHamburger.addEventListener("click", function () {
 					homeWindow.focus();
 					close();
 				});
