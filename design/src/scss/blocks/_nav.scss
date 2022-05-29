@@ -1,26 +1,49 @@
 .nav {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	margin-top: 0;
-	margin-bottom: 0;
-	//color: get-color("dark");
-	//font-style: italic;
-	//text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  //color: get-color("dark");
+  //font-style: italic;
+  //text-transform: uppercase;
 
-	@include apply-utility("weight", "regular");
+  @include apply-utility("weight", "regular");
 
-	// Tiny gap for where gap isn't supported
-	li {
-		margin: 0.05rem;
-	}
+  // Tiny gap for where gap isn't supported
+  li {
+    margin: 0.05rem;
+  }
 
-	a {
-		text-decoration: none;
+  a {
+    text-decoration: none;
 
-		&:hover,
-		&[aria-current="page"] {
-			text-decoration: none;
-		}
-	}
+    &:hover,
+    &[aria-current="page"] {
+      text-decoration: none;
+    }
+  }
+}
+// controlling navigation menu displays
+.nav-full-width {
+  display: none;
+  .link-pointer {
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    &[data-variant="invert"] {
+      background-color: white;
+    }
+  }
+  @include media-query("md") {
+    display: block;
+  }
+}
+.nav-hamburger {
+  display: block;
+  @include media-query("md") {
+    display: none;
+  }
 }
