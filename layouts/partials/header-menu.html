@@ -8,6 +8,23 @@
 					<img src="/img/logo/AAF-Logo.svg" alt="logo" class="header-logo" />
 				</a>
 			</div>
+			<nav aria-label="main menu" class="font-serif right-align nav-full-width">
+				<ul class="nav" role="list">
+					<li class="display-none-important" id="go-back">
+						<span class="link-pointer">❮ Back to search results</span>
+					</li>
+					<li id="go-home">
+						<a href="/" class="link-pointer" {{ if .IsHome }}data-variant="invert"{{ end }}>Directory Home</a>
+					</li>
+					<li>
+						<a href="https://forms.gle/BKeJSPd3vBY37GCr8" class="link-pointer" target="_blank" rel="noopener noreferrer">Join The Directory</a>
+					</li>
+					<li>
+						<a href="mailto:MH.Directory@aafederation.org" class="link-pointer">Contact Us</a
+					>
+					</li>
+				</ul>
+			</nav>			
 		</header>
 	</div>
 	<article class="[ bg-img-vector ] [ nav-grid-hero ]">
@@ -20,13 +37,13 @@
 			</div>
 		</div>
 	</article>
-	<div class="nav-grid-button">
+	<div class="nav-grid-button nav-hamburger">
 		<div class="wrapper pad-top-500">
 			<nav id="dl-menu" class="dl-menuwrapper font-serif right-align" role="navigation">
 				<button id="dl-menu-button" class="dl-trigger display-block right-align margin-top-005rem bg-secondary">Open Menu</button>
 				<ul id="dl-menu-options" class="dl-menu bg-secondary">
-				  <li class="display-none-important" id="go-back"><a>❮ Back To Search Results</a></li>
-				  <li id="go-home"><a href="/">Directory Home</a></li>
+				  <li class="display-none-important" id="go-back-hamburger"><a>❮ Back To Search Results</a></li>
+				  <li id="go-home-hamburger"><a href="/">Directory Home</a></li>
 				  <li><a href="https://forms.gle/BKeJSPd3vBY37GCr8" target="_blank" rel="noopener noreferrer">Join the Directory</a></li>
 				  <li><a href="mailto:MH.Directory@aafederation.org">Contact Us</a>
 				</ul>
