@@ -27,6 +27,16 @@
 // controlling navigation menu displays
 .nav-full-width {
   display: none;
+  .link-pointer {
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    &[data-variant="invert"] {
+      background-color: white;
+    }
+  }
   @include media-query("md") {
     display: block;
   }
