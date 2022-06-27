@@ -41,7 +41,7 @@ psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
 public_transportation = []
-services = []
+services = ["Nutrition counseling for disordered eating, eating disorders, and medical conditions"]
 staff_gender = []
 trainings = ""
 
