@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-draft = true
 email = "shunalukpsychotherapist@gmail.com"
 facebook = ""
 highlight = false
@@ -29,7 +28,6 @@ youtube = ""
 address = "109 Lafayette Street, Room C-1, New York, NY 10013"
 boroughs = ["Manhattan"]
 credentials = ["LMHC (Licensed Mental Health Counselor)", "Licensed Creative Arts Therapist"]
-hours_of_operation = []
 languages = ["Chinese (Hakka)", "Chinese (Mandarin)", "Chinese (Cantonese)", "English"]
 latLng = "40.718625529226635, -74.00062984841529"
 new_clients = "Yes"
@@ -41,8 +39,10 @@ psychotherapy = true
 psychotherapy_specialties = ["Stress", "Self-esteem", "Relationship issues", "Mood disorders", "Grief, loss, and bereavement", "Family conflict", "Depression", "Cultural adjustment", "Coping skills", "Caregiver stress and support", "Bipolar disorder", "Anxiety", "Anger management"]
 psychotherapy_types = ["Solution-focused Therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples Therapy"]
 services = ["Psychotherapy", "Art therapy"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = "Shuna has intensive training on DBT, CBT and Positive Psychology. "
+[[locations.hours_of_operation]]
+day_hours = "Monday - Thursday: 3 pm - 9 pm; Saturday 8 am - 12 pm"
 [[locations.public_transportation]]
 transport_option = "Canal St stop for 6, R subway"
 
