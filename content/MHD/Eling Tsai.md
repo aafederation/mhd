@@ -29,7 +29,6 @@ youtube = ""
 address = "808 Union Street, Suite 3A, Brooklyn, NY 11215"
 boroughs = ["Brooklyn"]
 credentials = ["RD (Registered Dietitian)"]
-hours_of_operation = []
 languages = ["English"]
 latLng = "40.67445157403738, -73.97581916441764"
 new_clients = "Yes"
@@ -41,8 +40,10 @@ psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
 services = ["Nutrition counseling for disordered eating, eating disorders, and medical conditions"]
-staff_gender = []
+staff_gender = ["Female"]
 trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "Mostly virtual sessions with hours dependent on day. "
 [[locations.public_transportation]]
 transport_option = "Subway Lines 2, 3, B, Q"
 
