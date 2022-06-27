@@ -30,20 +30,21 @@ address = "808 Union Street, Suite 3A, Brooklyn, NY 11215"
 boroughs = ["Brooklyn"]
 credentials = ["RD (Registered Dietitian)"]
 hours_of_operation = []
-languages = []
+languages = ["English"]
 latLng = "40.67445157403738, -73.97581916441764"
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = []
-parking = "Yes"
+parking = "No"
 phone_number = ""
 psychotherapy = false
 psychotherapy_specialties = []
 psychotherapy_types = []
-public_transportation = []
 services = ["Nutrition counseling for disordered eating, eating disorders, and medical conditions"]
 staff_gender = []
 trainings = ""
+[[locations.public_transportation]]
+transport_option = "Subway Lines 2, 3, B, Q"
 
 +++
 Eling Tsai (she/her) is a Registered Dietitian and New York State Certified Dietitian-Nutritionist. She received her Bachelor of Science degree in Biology from the University of Miami, and earned her Master of Public Health degree at the Yale School of Public Health. She completed her dietetic internship through Sodexo in New York City. 
