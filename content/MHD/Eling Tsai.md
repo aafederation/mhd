@@ -28,7 +28,7 @@ youtube = ""
 [[locations]]
 address = "808 Union Street, Suite 3A, Brooklyn, NY 11215"
 boroughs = ["Brooklyn"]
-credentials = []
+credentials = ["RD (Registered Dietitian)"]
 hours_of_operation = []
 languages = []
 latLng = "40.67445157403738, -73.97581916441764"
