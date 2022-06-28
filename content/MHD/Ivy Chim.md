@@ -28,22 +28,24 @@ youtube = ""
 [[locations]]
 address = "156 5th Ave, Suite 1223, New York, NY 10010"
 boroughs = ["Manhattan"]
-credentials = []
-hours_of_operation = []
-languages = []
+credentials = ["LMSW (Licensed Master Social Worker)"]
+languages = ["Chinese (Cantonese)", "English"]
 latLng = "40.74050542421383, -73.99105519222267"
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = []
-parking = "Yes"
+non_clinical_services = ["Yoga", "Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
+parking = "Street parking"
 phone_number = "347-534-1156"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Racial and cultural identity", "Grief, loss, and bereavement", "Eating disorders", "Depression", "Anxiety"]
 psychotherapy_types = ["Internal Family Systems", "Accelerated Experiential Dynamic Psychotherapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy"]
-public_transportation = []
 services = ["Psychotherapy"]
-staff_gender = []
-trainings = ""
+staff_gender = ["Female"]
+trainings = "Certified yoga teacher and breathwork facilitator"
+[[locations.hours_of_operation]]
+day_hours = "By appointment"
+[[locations.public_transportation]]
+transport_option = "N/R/F/6 trains"
 
 +++
 I am a first-generation Asian American who immigrated from colonial Hong Kong, and passionate about supporting the Asian American community to decolonize mental health and heal racial/intergeneration trauma. Some of the lasting impacts of racism and colonialism are the erasure of one's identity, language, tradition, and cultural roots that alter one's identity and a sense of belonging. It is my hope to help you find home, safety, and belonging within you! 
