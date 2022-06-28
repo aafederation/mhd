@@ -1,31 +1,49 @@
 +++
 ada_compliant = true
-age_groups = []
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 best_way_to_contact = []
 client_requirements = ""
 draft = true
-email = ""
+email = "ivy@erikamalm.com"
 facebook = ""
 highlight = false
 image = "/img/ivychim_headshot_em-ivy-chim.jpg"
 instagram = ""
 linkedin = ""
-locations = []
 medium = ""
 org = "Ivy Chim"
-payment_info_clinical = ""
-payment_info_non_clinical = ""
+payment_info_clinical = "Sliding scale, Out of Network/ Private Payment"
+payment_info_non_clinical = "Sliding scale, Out of Network/ Private Payment"
 payment_types = []
 payment_types_non_clinical = []
-program = ""
+program = "Erika Malm Collective"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = ["Individual Provider"]
 telehealth = "Not applicable"
 tiktok = ""
 twitter = ""
-website = ""
+website = "www.erikamalm.com"
 youtube = ""
+[[locations]]
+address = "156 5th Ave, Suite 1223, New York, NY 10010"
+boroughs = ["Manhattan"]
+credentials = []
+hours_of_operation = []
+languages = []
+latLng = "40.74050542421383, -73.99105519222267"
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = []
+parking = "Yes"
+phone_number = "347-534-1156"
+psychotherapy = true
+psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Racial and cultural identity", "Grief, loss, and bereavement", "Eating disorders", "Depression", "Anxiety"]
+psychotherapy_types = ["Internal Family Systems", "Accelerated Experiential Dynamic Psychotherapy", "Trauma-informed", "Dialectical Behavioral Therapy", "Cognitive Behavioral Therapy"]
+public_transportation = []
+services = ["Psychotherapy"]
+staff_gender = []
+trainings = ""
 
 +++
 I am a first-generation Asian American who immigrated from colonial Hong Kong, and passionate about supporting the Asian American community to decolonize mental health and heal racial/intergeneration trauma. Some of the lasting impacts of racism and colonialism are the erasure of one's identity, language, tradition, and cultural roots that alter one's identity and a sense of belonging. It is my hope to help you find home, safety, and belonging within you! 
