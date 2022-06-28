@@ -40,10 +40,11 @@ phone_number = "718-802-0666"
 psychotherapy = true
 psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Teen violence", "Suicidal ideation", "Substance abuse", "Stress", "Spirituality", "Self-harming", "Self-esteem", "Schizophrenia", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Pregnancy, perinatal, and postpartum mental health", "Phobias/fears", "Personality disorders", "Parenting", "Panic attacks/disorder", "Oppositional defiance", "Obsessive compulsive disorder", "Mood disorders", "Men's issues", "Medication management", "LGBTQIA, gender, and sexual identity", "Insomnia and sleep issues", "Identity development", "Hoarding", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Drug abuse", "Domestic violence", "Domestic abuse", "Divorce and separation", "Depression", "Dementia", "Cultural adjustment", "Coping skills", "Chronic illness", "Caregiver stress and support", "Bipolar disorder", "Behavioral issues", "Attachment issues", "Anxiety", "Anger management", "Addiction/recovery"]
 psychotherapy_types = ["Supportive Therapy", "Group therapy", "Family therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
-public_transportation = []
 services = ["Substance use/addiction and support services", "Psychotherapy", "Psychiatric evaluation", "Medication management"]
-staff_gender = []
+staff_gender = ["Male", "Female"]
 trainings = ""
+[[locations.public_transportation]]
+transport_option = "EFRNQ23"
 
 +++
 CCM’s staff offers innovative, culturally sensitive treatment at four NYS-licensed mental health clinics in Brooklyn and midtown Manhattan. Our clinics offer individual, group and family counseling; psychological, psychiatric, and psychosocial assessment and diagnosis; and psychopharmacology. Workshops on domestic violence, anger management, and parenting skills are also provided. We work on a case-by-case basis that is sensitive not only to cultural differences but also to the uniqueness of the individual and his or her problems.
