@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
 best_way_to_contact = ["Website"]
 client_requirements = ""
-draft = true
 email = "icghung@wakingbell.com"
 facebook = ""
 highlight = false
