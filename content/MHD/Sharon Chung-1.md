@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = []
 best_way_to_contact = []
 client_requirements = ""
-draft = true
 email = ""
 facebook = ""
 highlight = false
