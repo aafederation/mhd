@@ -29,20 +29,21 @@ youtube = ""
 address = "116 W 23rd Street, New York, NY 10011"
 boroughs = ["Manhattan"]
 credentials = []
-hours_of_operation = []
-languages = []
+languages = ["English"]
 latLng = "40.74349164464729, -73.9934249385969"
 new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = []
+new_clients_detail = "Waitlist"
+non_clinical_services = ["Somatic therapy", "Psychoeducation", "Meditation/mindfulness practices", "Breathwork"]
 parking = "No"
 phone_number = "9084431806"
-psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
-services = []
-staff_gender = []
+psychotherapy = true
+psychotherapy_specialties = ["Adoption and foster care"]
+psychotherapy_types = ["Supportive Therapy", "Trauma-informed"]
+services = ["Psychotherapy"]
+staff_gender = ["Female"]
 trainings = ""
+[[locations.hours_of_operation]]
+day_hours = "12 noon - 7pm"
 [[locations.public_transportation]]
 transport_option = "Subway line F to 23rd Street is closest"
 
