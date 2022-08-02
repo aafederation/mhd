@@ -1,26 +1,26 @@
 +++
 ada_compliant = true
-age_groups = []
-best_way_to_contact = []
+age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = ["Email"]
 client_requirements = ""
 draft = true
 email = "JBlazonYee@gmail.com"
 facebook = ""
 highlight = false
-image = ""
+image = "/img/img_1606-jonathan-blazon.jpg"
 instagram = ""
 linkedin = ""
 medium = ""
 org = "Jonathan Blazon Yee"
-payment_info_clinical = ""
+payment_info_clinical = "$175-$250/session. I assist clients with out-of-network reimbursements."
 payment_info_non_clinical = ""
-payment_types = []
+payment_types = ["Out-of-network insurance"]
 payment_types_non_clinical = []
 program = ""
 sliding_scale_clinical = true
-sliding_scale_non_clinical = true
+sliding_scale_non_clinical = false
 tags = ["Individual Provider"]
-telehealth = "Not applicable"
+telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = ""
@@ -48,3 +48,8 @@ day_hours = "Monday - Friday: 9am - 8pm"
 transport_option = "F train (23rd street) - 1, C, R, N trains in close vicinity"
 
 +++
+I work collaboratively with my clients to help them understand the thought patterns, belief systems, and expectations that influence how they move through the world. It is a process whereby, together, we bring the hidden pushes and pulls of their lives into clearer relief and empower them to make the desired changes in their lives.  
+<br>  
+As an Asian American therapist, I’ve been privileged to help many immigrant and Asian American clients focus on issues of identity and personal agency. Through this work, I’ve seen how living “between cultures”—navigating a multiplicity of perspectives, values, expectations, and obligations—can be instructive to anyone trying to make sense of the contradictions and conflicts in their lives and within themselves.  
+<br>  
+I work from an anti-racist, feminist framework, that addresses issues of equity and privilege. My approach integrates trauma-informed, and behavioral (CBT) approaches into a psychoanalytic foundation. I completed analytic training at the National Institute for the Psychotherapies (NIP) where I am currently serving on the faculty. 
