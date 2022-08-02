@@ -1,30 +1,50 @@
 +++
 ada_compliant = true
-age_groups = []
-best_way_to_contact = []
+age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+best_way_to_contact = ["Phone", "Email"]
 client_requirements = ""
 draft = true
-email = ""
+email = "dustinchien.lcsw@gmail.com"
 facebook = ""
 highlight = false
 image = ""
 instagram = ""
 linkedin = ""
-locations = []
 medium = ""
 org = "Dustin Chien"
-payment_info_clinical = ""
+payment_info_clinical = "$150-200 / session.\n\"If you have out-of-network benefits, then you may be eligible for reimbursement through your insurance plan. To calculate your out-of-pocket cost for therapy, you can call your insurance plan and ask the following questions:\n1) Do I have \"\"out-of-network\"\" benefits for mental health services?\n2) What is my deductible?\n3) What is my plan's reimbursement rate for individual therapy sessions (CPT code: 90834)?\""
 payment_info_non_clinical = ""
-payment_types = []
-payment_types_non_clinical = []
+payment_types = ["Out-of-network insurance"]
+payment_types_non_clinical = ["N/A"]
 program = ""
 sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = []
-telehealth = "Not applicable"
+sliding_scale_non_clinical = false
+tags = ["Individual Provider"]
+telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = ""
+website = "https://zencare.co/provider/therapist/dustin-chien"
 youtube = ""
+[[locations]]
+address = "307 7th Avenue, Suite 1707, New York, NY 10001"
+boroughs = ["Manhattan"]
+credentials = []
+languages = ["English", "Chinese (Mandarin)"]
+latLng = "40.74701079626208, -73.99327000195991"
+new_clients = "Yes"
+new_clients_detail = "In-person visits are offered on Tuesdays only. Telehealth is available on Mondays, Wednesdays and Thursdays."
+non_clinical_services = []
+parking = "Yes"
+phone_number = "(929) 333-6391"
+psychotherapy = false
+psychotherapy_specialties = []
+psychotherapy_types = []
+services = []
+staff_gender = ["Male"]
+trainings = "AEDP Level 2, IFS, DBT, Anti-Racism"
+[[locations.hours_of_operation]]
+day_hours = "Monday-Thursday: 8am-7pm"
+[[locations.public_transportation]]
+transport_option = "1 Train"
 
 +++
