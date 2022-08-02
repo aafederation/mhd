@@ -3,11 +3,10 @@ ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 best_way_to_contact = ["Phone", "Email"]
 client_requirements = ""
-draft = true
 email = "dustinchien.lcsw@gmail.com"
 facebook = ""
 highlight = false
-image = ""
+image = "/img/tyc01947-dustin-chien.JPG"
 instagram = ""
 linkedin = ""
 medium = ""
@@ -48,3 +47,8 @@ day_hours = "Monday-Thursday: 8am-7pm"
 transport_option = "1 Train"
 
 +++
+Dustin Chien is a Licensed Clinical Social Worker who runs a private practice in New York City. He provides in-person and online psychotherapy to adults and teenagers (14+).  
+<br>  
+Many individuals who meet with Dustin are aware of how their anxiety, anger, or self-doubt contribute to unwanted patterns. Often, these can lead to experiences of Imposter Syndrome, feelings of overwhelm, or disconnect in relationships. Some are seeking therapy for the first time feeling uncertain, yet hopeful, to start a new healing journey. Others with experience in therapy are looking to explore newer ways of healing informed by the latest cutting edge research in neuroscience and wellness.  
+<br>  
+Dustin practices a combination of Accelerated Experiential Dynamic Psychotherapy (AEDP), Internal Family Systems (IFS), and Dialectical Behavioral Therapy (DBT) to help his clients learn strategies to regulate anxiety, identify and express their needs, and pursue goals that align with who they are. Dustin also specializes in helping his clients explore their identity and to navigate cultural dilemmas, especially intergenerational trauma and systemic oppression.
