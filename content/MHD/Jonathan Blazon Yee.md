@@ -28,21 +28,22 @@ youtube = ""
 [[locations]]
 address = "71 West 23rd Street, Suite 1400\nNew York, NY 10010"
 boroughs = ["Manhattan", "Brooklyn"]
-credentials = []
-hours_of_operation = []
-languages = []
+credentials = ["LCSW (Licensed Clinical Social Worker)"]
+languages = ["English"]
 latLng = "40.743137209410364, -73.99230195976047"
 new_clients = "Yes"
 new_clients_detail = ""
 non_clinical_services = []
 parking = "No"
 phone_number = "19179479185"
-psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
+psychotherapy = true
+psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Spirituality", "Sexual health/dysfunction", "Sexual addiction", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Personality disorders", "Parenting", "Panic attacks/disorder", "Obsessive compulsive disorder", "Mood disorders", "Men's issues", "LGBTQIA, gender, and sexual identity", "Internet addiction", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Bipolar disorder", "Attachment issues", "Anxiety"]
+psychotherapy_types = ["Psychoanalysis", "Trauma-informed", "Family therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
 services = []
-staff_gender = []
-trainings = ""
+staff_gender = ["Male"]
+trainings = "MFA"
+[[locations.hours_of_operation]]
+day_hours = "Monday - Friday: 9am - 8pm"
 [[locations.public_transportation]]
 transport_option = "F train (23rd street) - 1, C, R, N trains in close vicinity"
 
