@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["All"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-draft = true
 email = "megginholtz@adoptioninformed.com"
 facebook = ""
 highlight = false
@@ -48,3 +47,4 @@ day_hours = "12 noon - 7pm"
 transport_option = "Subway line F to 23rd Street is closest"
 
 +++
+I received my MSW from the Silberman School of Social Work at Hunter College with a focus on child and adolescent trauma in the clinical setting. I provide therapy to youth, adolescents, families, and adults utilizing a strengths-based, trauma-informed, attachment, culturally and racially sensitive, and adoption-informed lens. As a transracial adoptee, I have a personal connection with adoption, and enjoy working with adoptees. I also hold a BFA in dance from SUNY Purchase and enjoy bringing creativity into the therapeutic space.
