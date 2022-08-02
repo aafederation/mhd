@@ -7,7 +7,7 @@ draft = true
 email = "megginholtz@adoptioninformed.com"
 facebook = ""
 highlight = false
-image = ""
+image = "/img/nam-for-web_use-meggin-nam-holtz.jpeg"
 instagram = ""
 linkedin = ""
 medium = ""
@@ -28,7 +28,7 @@ youtube = ""
 [[locations]]
 address = "116 W 23rd Street, New York, NY 10011"
 boroughs = ["Manhattan"]
-credentials = []
+credentials = ["LMSW (Licensed Master Social Worker)"]
 languages = ["English"]
 latLng = "40.74349164464729, -73.9934249385969"
 new_clients = "Yes"
