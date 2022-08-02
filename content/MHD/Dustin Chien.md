@@ -28,7 +28,7 @@ youtube = ""
 [[locations]]
 address = "307 7th Avenue, Suite 1707, New York, NY 10001"
 boroughs = ["Manhattan"]
-credentials = []
+credentials = ["LCSW (Licensed Clinical Social Worker)"]
 languages = ["English", "Chinese (Mandarin)"]
 latLng = "40.74701079626208, -73.99327000195991"
 new_clients = "Yes"
@@ -36,10 +36,10 @@ new_clients_detail = "In-person visits are offered on Tuesdays only. Telehealth 
 non_clinical_services = []
 parking = "Yes"
 phone_number = "(929) 333-6391"
-psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
-services = []
+psychotherapy = true
+psychotherapy_specialties = ["Trauma/PTSD", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Panic attacks/disorder", "Mood disorders", "Men's issues", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Attachment issues", "Anxiety", "Anger management"]
+psychotherapy_types = ["Internal Family Systems", "Accelerated Experiential Dynamic Psychotherapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
+services = ["Psychotherapy"]
 staff_gender = ["Male"]
 trainings = "AEDP Level 2, IFS, DBT, Anti-Racism"
 [[locations.hours_of_operation]]
