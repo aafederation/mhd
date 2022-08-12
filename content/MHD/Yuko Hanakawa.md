@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Adults (19 to 64)"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-draft = true
 email = "yuko@flowerrivers.com"
 facebook = ""
 highlight = false
