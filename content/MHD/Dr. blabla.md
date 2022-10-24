@@ -10,7 +10,6 @@ highlight = false
 image = ""
 instagram = ""
 linkedin = ""
-locations = []
 medium = ""
 org = "Dr. blab bla"
 payment_info_clinical = ""
@@ -26,5 +25,25 @@ tiktok = ""
 twitter = ""
 website = ""
 youtube = ""
+[[locations]]
+address = ""
+boroughs = []
+credentials = []
+languages = []
+latLng = "40.70488519962308, -74.00605918650868"
+new_clients = "Yes"
+new_clients_detail = ""
+non_clinical_services = []
+parking = "Yes"
+phone_number = ""
+psychotherapy = true
+psychotherapy_specialties = []
+psychotherapy_types = []
+public_transportation = []
+services = []
+staff_gender = []
+trainings = ""
+[[locations.hours_of_operation]]
+day_hours = ""
 
 +++
