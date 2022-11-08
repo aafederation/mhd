@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
 best_way_to_contact = ["Email"]
 client_requirements = "Virtual practice only"
-draft = true
 email = "atn2119@tc.columbia.edu"
 facebook = ""
 highlight = false
