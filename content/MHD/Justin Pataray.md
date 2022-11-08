@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Adults (19 to 64)"]
 best_way_to_contact = ["Email", "Phone"]
 client_requirements = ""
-draft = true
 email = "justin@resilient-mind.com"
 facebook = ""
 highlight = false
