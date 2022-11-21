@@ -46,3 +46,6 @@ trainings = ""
 day_hours = "Monday - Friday: 9 am - 7 pm"
 
 +++
+As your therapist, my role is to hold space for you— space to process, reflect, and examine yourself and what parts of life could be going better. I believe that this process can be a valuable tool to bring you closer to the person you hope to be.  
+  
+Therapy is not a one-size-fits-all process. I will work with you to create a plan that fits your needs. I utilize a trauma-informed and strengths-based approach integrating evidence-based interventions and the latest research in neuroscience and psychology to better support my clients and their goals.
