@@ -47,3 +47,4 @@ day_hours = "Monday - Friday: 9 am - 6 pm"
 transport_option = "23rd Street PATH, 23rd Street Station (L/F/M)"
 
 +++
+As a first-generation immigrant, I understand the difficulty of finding your voice while navigating different cultural values and expectations. In my practice as a psychotherapist and music therapist, I use an integrative approach to help my clients discover and embrace their authentic selves.
