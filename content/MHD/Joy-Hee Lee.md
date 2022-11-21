@@ -48,3 +48,5 @@ day_hours = "Friday & Saturday: 10 am - 2 pm"
 day_hours = "Monday - Thursday: 10 am - 8 pm"
 
 +++
+이 희녕 Joy-Hee Lee 임상사회 복지사는 뉴욕 Stony Brook University 에서 사회 복지학 석사학위를 취득하고, 임상 사회복지사 자격증을 획득하였습니다, 현재는 퀸즈 뉴욕에서 기쁨 마음 상담 (Joyful Hearts Therapy) 에서 심리치료를 제공하고 있습니다  
+이전에는 뉴욕 한인 봉사 센터 (KCS, Mental Health Clinic)에서 Clinical Supervisor 로서 미주 한인들의 정신건강과 관련된 임상상담을 하였으며, 뉴욕 가정상담소 (KAFSC)에서는 Director of Clinical Services 로서 가정폭력과 성폭력으로 인한 케이스상담과 임상상담을 하였습니다. 또한 Steinway Child Family Services 에서도 청소년 상담을 하였습니다
