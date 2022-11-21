@@ -46,3 +46,5 @@ trainings = ""
 day_hours = "Monday - Friday: 10 am - 5 pm"
 
 +++
+I work with adolescents, young adults, and families to navigate issues of anxiety and depression, life transitions, family and relationship conflict, trauma and identity, emotional intimacy and substance and recovery.   
+My approach to therapy is rooted in psychodynamic, person-centered, family systems models. In applying a humanistic lens, I provide an empowering space for vulnerability and self-exploration and consider the functioning of an individual within the context of their environment. I also implement techniques from evidence-based interventions such as CBT and DBT to help individuals confidently navigate life stressors.
