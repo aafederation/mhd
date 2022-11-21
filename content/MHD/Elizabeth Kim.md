@@ -46,3 +46,4 @@ trainings = ""
 day_hours = "Tuesday - Thursday: 9 am - 5 pm"
 
 +++
+I use an integrative approach that is person-centered, strengths-based, and non-judgmental. I like to consider each client in the context of their lives and experiences. I am curious how and what has shaped clients' beliefs and values, and consequently, their actions, or lack thereof. I believe therapy is a space to be heard and feel seen so that clients can reach healing and meaningful engagement with life. I aim to empower clients who may struggle with stress, anxiety, low self-esteem, depression, mood disorders, racial identity, intergenerational trauma, insecure relationships and relationship conflicts, boundaries, and perfectionism. My clients are willing to examine the parts of themselves that show up throughout the work we do together. I have a special interest in working with Asian American clients and/or adult children of immigrants.
