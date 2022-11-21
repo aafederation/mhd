@@ -47,3 +47,10 @@ day_hours = "Monday - Friday: 9 am - 6 pm"
 transport_option = "Fulton Street Station"
 
 +++
+Some paths to pursuing growth can leave you feeling labeled, picked apart, or wondering what's "wrong" with you. But I believe you are whole and complete just as you are. Healing is a journey not toward fixing perceived damages, but toward rediscovering the wholeness that has been there all along.  
+  
+In our therapy sessions, I'll walk alongside you on that journey. I bring a spiritual perspective into the room that bears witness to your inherent wisdom. Through the exploration of your inner world, we'll partner in your deep healing and spiritual freedom. This is so much more than a temporary "band-aid" approach to symptom relief.  
+  
+My therapeutic approach centralizes around Depth / Jungian Psychology and Internal Family Systems (IFS). These therapeutic methods explore the unconscious and make space for every part of the Self to heal. Sessions with me are both spiritually-informed and trauma-informed, taking into account the entirety of your lived experience.  
+  
+I'm a part of the Psychotherapy and Spirituality Institute, an interfaith collective of clinicians and educators in New York City. You can visit me for sessions at their Lower Manhattan and Midtown East locations, or through telehealth appointments. I offer therapy for individual adults residing in New York state.

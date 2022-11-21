@@ -46,3 +46,5 @@ trainings = ""
 day_hours = "Monday - Thursday: 9 am - 4 pm"
 
 +++
+I am a queer and trans affirming individual and couples counselor with a special focus on caregivers, healthcare workers, and people facing grief and loss. Loss is at the center of any major life change, and can encompass experiences such as the death of a loved one, as well as the end of a relationship or job.  
+In our work together, we will center self awareness, joy, and peace, to bolster your natural ability to heal and recover from difficulty. If you are wondering how I can help, use the link below to set up a free 15 minute consultation! [calendly.com/therapywithyash/free-consultation](http://calendly.com/therapywithyash/free-consultation)
