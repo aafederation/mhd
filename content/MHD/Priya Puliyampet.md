@@ -48,3 +48,8 @@ day_hours = "Friday: 10 am - 6 pm"
 day_hours = "Monday - Thursday: 3 pm - 9 pm"
 
 +++
+As a therapist, I enjoy watching my clients grow in their compassion for themselves as they move towards more fulfilling lives. I find myself deeply privileged to witness my client’s journeys and am inspired by their resilience. I work with clients on issues of emerging adulthood, identity, race, acculturation, issues around one's sense of self, complex trauma, and emotion regulation.  
+  
+My approach is grounded in psychodynamic theory but I often draw from other modalities like accelerated experiential dynamic psychotherapy (AEDP), mindfulness, dialectical behavioral therapy (DBT), and feminist therapy.  
+  
+I believe that we heal through relationships where we feel safe enough to be our authentic selves. Therapy can provide a space where this self is seen and supported. Ideally we leave therapy with a stronger sense of who we are; this gives us a greater capacity for weathering life's storms and making meaningful change.
