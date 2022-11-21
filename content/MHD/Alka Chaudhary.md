@@ -46,3 +46,8 @@ trainings = ""
 day_hours = "Monday - Friday: 9 am - 5 pm"
 
 +++
+I am a Mental Health Counselor who sees therapy as a place where people come to summon the courage to open their minds and reorganize everything accumulated in it. My role is to help you to dust off what used to shine, clear out clutter that no longer serves you and help you to build new supports.  
+  
+Prior to becoming a therapist, I was a dancer who took joy in using art to connect and contribute to my community. As a therapist I believe that creativity is not just a hobby, it’s a coping skill you can hone to help you understand, express, and make meaning of painful emotions.  
+  
+I believe that forming an authentic relationship helps to elicit your own intrinsic motivation so you can make changes in your life. This is why I use an integrative approach that draws upon evidence-based treatments such as Motivational Interviewing (MI) Dialectical Behavior Therapy (DBT) & Cognitive Behavioral Therapy (CBT) through a person-centered lens.
