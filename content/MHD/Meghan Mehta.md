@@ -46,3 +46,4 @@ trainings = ""
 day_hours = "Monday - Friday: 9 am - 8 pm"
 
 +++
+Hi! I'm Meghan. I’m a third culture South Asian American therapist dedicated to destigmatizing mental health in Desi and other minority communities. My work is built on cultural competency and understanding the many barriers to care unique to minority communities. Although our culture prioritizes physical health, we rarely ever discuss mental health. This can make it so hard to have kindness and compassion for ourselves when we realize we’re struggling. I tailor treatment plans to each individual client’s personal background and social position.

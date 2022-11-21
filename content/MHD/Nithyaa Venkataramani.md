@@ -46,3 +46,4 @@ trainings = ""
 day_hours = "Monday - Friday: 8 am - 8 pm"
 
 +++
+If you feel trapped by uncertainty, cycling thoughts, self-criticism, making decisions, emotions, relationships, or trauma symptoms - you have come to the right place. My therapeutic process seeks to understand who you are, who you want to be, and how we can tap into your inner wisdom to enact the change you desire. I integrate my extensive training in both evidence-based behavioral therapy (DBT/CBT) and somatic body-oriented practice to let your nervous system heal in tandem with your mind. I believe you are the expert of your own life. My style is trauma-informed, collaborative, compassionate and places your personal, cultural and familial history at the forefront of our work together.
