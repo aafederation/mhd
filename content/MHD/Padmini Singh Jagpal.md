@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-draft = true
 email = "psinghjagpal@lotusoasisllc.com"
 facebook = ""
 highlight = false
