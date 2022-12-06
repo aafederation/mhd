@@ -3,7 +3,6 @@ ada_compliant = false
 age_groups = ["Seniors (65+)", "Youth and Teenagers (14 to 19)", "Adults (19 to 64)"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-draft = true
 email = "holisad@gmail.com"
 facebook = ""
 highlight = false
