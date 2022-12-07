@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-draft = true
 email = "mswendylam@gmail.com"
 facebook = ""
 highlight = false

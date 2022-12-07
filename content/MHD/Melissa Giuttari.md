@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["All"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-draft = true
 email = "artsintherapy@gmail.com"
 facebook = ""
 highlight = false

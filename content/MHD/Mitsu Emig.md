@@ -3,7 +3,6 @@ ada_compliant = true
 age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)", "Children (6 to 10)"]
 best_way_to_contact = ["Phone", "Email"]
 client_requirements = ""
-draft = true
 email = "mitsuhypnosisny@gmail.com"
 facebook = ""
 highlight = false
