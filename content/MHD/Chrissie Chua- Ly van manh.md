@@ -3,7 +3,7 @@ ada_compliant = false
 age_groups = ["Adults (19 to 64)", "Youth and Teenagers (14 to 19)", "Preteens and Tweens (11 to 13)"]
 best_way_to_contact = ["Email"]
 client_requirements = ""
-email = "csclvm@gmail.com"
+email = "cchua@therapywithchrissie.com"
 facebook = ""
 highlight = false
 image = "/img/chrissie-chua-ly-van-manh-default-chrissie-chua-ly-van-manh.jpg"
@@ -43,7 +43,7 @@ services = ["Psychotherapy"]
 staff_gender = ["Female"]
 trainings = "CBT, DBT, ACT, TBCT"
 [[locations.hours_of_operation]]
-day_hours = "Monday - Friday: 9 am - 5 pm"
+day_hours = "Monday - Friday: 9 am - 7 pm"
 
 +++
 I enjoy working with individuals who are intrigued with how their past have impacted their current selves. My clients desire to explore their past, current, and future. My goal is to help you better understand yourself and your patterns of thoughts and behaviors. I want to provide you with a warm and empathetic environment where your curiosities and needs are explored. I assist my clients to live more purpose-filled lives by identifying their strengths and values. I aim to provide a safe space for you at Rapoport Psychological Services where you will be understood and cared for without concerns of being minimized or dismissed.  
