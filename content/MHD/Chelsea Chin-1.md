@@ -25,7 +25,7 @@ twitter = ""
 website = ""
 youtube = ""
 [[locations]]
-address = ""
+address = "P.O. Box 849, New York, NY 10021"
 boroughs = ["Online"]
 credentials = ["LCSW (Licensed Clinical Social Worker)"]
 languages = ["English"]
