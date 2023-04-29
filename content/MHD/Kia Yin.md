@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
-age_groups = []
-best_way_to_contact = []
+age_groups = [ ]
+best_way_to_contact = [ ]
 client_requirements = ""
 draft = true
 email = ""
@@ -10,24 +10,25 @@ highlight = false
 image = "/img/kia-yin_8487b-square-print-kia-yin.jpg"
 instagram = ""
 linkedin = ""
-locations = []
+locations = [ ]
 medium = ""
 org = "Kia Yin"
 payment_info_clinical = ""
 payment_info_non_clinical = ""
-payment_types = []
-payment_types_non_clinical = []
+payment_types = [ ]
+payment_types_non_clinical = [ ]
 program = "Sentient Psychotherapy"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = []
+tags = [ ]
 telehealth = "Not applicable"
 tiktok = ""
 twitter = ""
 website = ""
 youtube = ""
-
+_template = "service_provider"
 +++
+
 My clients work hard in relationships and at the workplace to meet their own high standards, but feelings of inadequacy and dissatisfaction often creep up despite their accomplishments. Every time they achieve a goal, a fleeting sense of happiness is soon replaced by the familiar feelings of emptiness and anxiety. I help my clients break this exhausting cycle. My clients will learn practical skills to approach challenging situations with increased flexibility and ease, make decisions that they believe in and feel good about, and find a sustained sense of meaning in life. 
 
 <br>

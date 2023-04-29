@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
-age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ["Email"]
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+best_way_to_contact = [ "Email" ]
 client_requirements = ""
 email = " ichim@edrs.com"
 facebook = ""
@@ -13,40 +13,60 @@ medium = ""
 org = "Ivy Chim"
 payment_info_clinical = "Starting at $175"
 payment_info_non_clinical = ""
-payment_types = ["Blue Cross/Blue Shield"]
-payment_types_non_clinical = ["Out-of-Network Insurances"]
+payment_types = [ "Blue Cross/Blue Shield" ]
+payment_types_non_clinical = [ "Out-of-Network Insurances" ]
 program = "Eating Disorder Recovery Specialists (EDRS)"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = true
-tags = ["Individual Provider "]
+tags = [ "Individual Provider " ]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = "https://eatingdisorderspecialists.com/team/ivy-chim-lmsw/"
 youtube = ""
+_template = "service_provider"
+
 [[locations]]
 address = "57 West 57th Street, Suite 1101 New York, NY 10019 "
-boroughs = ["Manhattan"]
-credentials = ["LMSW (Licensed Master Social Worker)"]
-languages = ["Chinese (Cantonese)", "English"]
+boroughs = [ "Manhattan" ]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
+languages = [ "Chinese (Cantonese)", "English" ]
 latLng = "40.76465072426975, -73.9767043269834"
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Yoga", "Meditation/mindfulness practices", "Breathwork"]
+non_clinical_services = [ "Yoga", "Meditation/mindfulness practices", "Breathwork" ]
 parking = "Street parking"
 phone_number = "866-525-2766"
 psychotherapy = true
-psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Spirituality", "Sexual harassment and assault", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Eating disorders", "Depression", "Anxiety"]
-psychotherapy_types = ["Accelerated Experiential Dynamic Psychotherapy", "Trauma-informed", "Cognitive Behavioral Therapy"]
-services = ["Psychotherapy"]
-staff_gender = ["Female"]
+psychotherapy_specialties = [
+  "Women's issues",
+  "Trauma/PTSD",
+  "Spirituality",
+  "Sexual harassment and assault",
+  "Sexual abuse",
+  "Self-esteem",
+  "Relationship issues",
+  "Racial and cultural identity",
+  "Eating disorders",
+  "Depression",
+  "Anxiety"
+]
+psychotherapy_types = [
+  "Accelerated Experiential Dynamic Psychotherapy",
+  "Trauma-informed",
+  "Cognitive Behavioral Therapy"
+]
+services = [ "Psychotherapy" ]
+staff_gender = [ "Female" ]
 trainings = "Certified yoga teacher and breathwork facilitator"
-[[locations.hours_of_operation]]
-day_hours = "By Appointment "
-[[locations.public_transportation]]
-transport_option = "F, A, B, C, D, N, R, W"
 
+  [[locations.hours_of_operation]]
+  day_hours = "By Appointment "
+
+  [[locations.public_transportation]]
+  transport_option = "F, A, B, C, D, N, R, W"
 +++
+
 I believe healing is within everyone.   
   
 With a former career in geography and cartography, unveiling the interconnectedness of people, environment, time & space is part of my life. Maps tell us where we are, and offer a perspective and direction that inform where we want to go. Yet, sometimes we lose sight of our own roadmap in life, lose connection to self, and get stuck in the pain and suffering.  

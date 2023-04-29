@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
-age_groups = []
-best_way_to_contact = ["Email"]
+age_groups = [ ]
+best_way_to_contact = [ "Email" ]
 client_requirements = ""
 email = "masharattherapy@gmail.com"
 facebook = ""
@@ -11,42 +11,79 @@ instagram = ""
 linkedin = ""
 medium = ""
 org = "Masharat Mujib"
-payment_info_clinical = "Individual sessions - $90\nCouples Sessions - $150\nFamily Sessions (2 people) - $150\nFamily sessions (3 or more people) - $175+"
+payment_info_clinical = """
+Individual sessions - $90
+Couples Sessions - $150
+Family Sessions (2 people) - $150
+Family sessions (3 or more people) - $175+"""
 payment_info_non_clinical = ""
-payment_types = ["N/A"]
-payment_types_non_clinical = ["N/A"]
+payment_types = [ "N/A" ]
+payment_types_non_clinical = [ "N/A" ]
 program = "Masharat Mujib Therapy"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual Provider"]
+tags = [ "Individual Provider" ]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = "https://www.masharatmujib.com/"
 youtube = ""
+_template = "service_provider"
+
 [[locations]]
 address = "Online"
-boroughs = ["Online"]
-credentials = ["LMHC (Licensed Mental Health Counselor)"]
-gender_identification = []
-languages = ["Hindi", "Bangla", "English"]
+boroughs = [ "Online" ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
+gender_identification = [ ]
+languages = [ "Hindi", "Bangla", "English" ]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Psychoeducation", "Peer support groups"]
+non_clinical_services = [ "Psychoeducation", "Peer support groups" ]
 parking = ""
 phone_number = "347-201-3478"
 psychotherapy = true
-psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "Obsessive compulsive disorder", "Mood disorders", "Grief, loss, and bereavement", "Family conflict", "Divorce and separation", "Depression", "Coping skills", "Codependency", "Caregiver stress and support", "Bipolar disorder", "Behavioral issues", "Attachment issues", "ADHD", "Anxiety", "Anger management"]
-psychotherapy_types = ["Supportive Therapy", "Solution-focused Therapy", "Family therapy", "Dialectical Behavioral Therapy", "Couples Therapy", "Cognitive Behavioral Therapy"]
-public_transportation = []
-services = ["Psychotherapy", "Psychological testing and assessment"]
-staff_gender = ["Female"]
+psychotherapy_specialties = [
+  "Women's issues",
+  "Trauma/PTSD",
+  "Stress",
+  "Self-esteem",
+  "Relationship issues",
+  "Racial and cultural identity",
+  "Premarital/marital",
+  "Obsessive compulsive disorder",
+  "Mood disorders",
+  "Grief, loss, and bereavement",
+  "Family conflict",
+  "Divorce and separation",
+  "Depression",
+  "Coping skills",
+  "Codependency",
+  "Caregiver stress and support",
+  "Bipolar disorder",
+  "Behavioral issues",
+  "Attachment issues",
+  "ADHD",
+  "Anxiety",
+  "Anger management"
+]
+psychotherapy_types = [
+  "Supportive Therapy",
+  "Solution-focused Therapy",
+  "Family therapy",
+  "Dialectical Behavioral Therapy",
+  "Couples Therapy",
+  "Cognitive Behavioral Therapy"
+]
+public_transportation = [ ]
+services = [ "Psychotherapy", "Psychological testing and assessment" ]
+staff_gender = [ "Female" ]
 trainings = ""
-[[locations.hours_of_operation]]
-day_hours = "Monday - Sunday: 9 am - 8 pm "
 
+  [[locations.hours_of_operation]]
+  day_hours = "Monday - Sunday: 9 am - 8 pm "
 +++
+
 By way of introduction, my name is Masharat Mujib MCH-LP and I am a Bengali-Muslim American therapist based out of NYC. I am currently working with Therapist For Black Girls run by Amira Crawford, LCSW and I run my own Private Practice. I am formally trained in Cognitive Behavioral Therapy, Psychodynamic Psychotherapy, and utilize a methodology that is both interactive and solution-focused. I work with individuals, couples who are struggling with a wide range of emotional and interpersonal problems, such as but not limited to depression, anxiety, grief, family stressors and relationship, commitment, cross-cultural issues, work stress, and sexual issues.
 
 <br>

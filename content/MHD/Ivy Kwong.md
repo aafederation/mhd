@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
-age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ["Website"]
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+best_way_to_contact = [ "Website" ]
 client_requirements = ""
 email = "TheBareIvy@gmail.com"
 facebook = "@BareIvy"
@@ -13,43 +13,74 @@ medium = "@BareIvy"
 org = "Ivy Kwong"
 payment_info_clinical = "$275/50-minute session. My sliding scale spots are currently full at this time but spots may open up in April 2022."
 payment_info_non_clinical = ""
-payment_types = ["N/A"]
-payment_types_non_clinical = []
+payment_types = [ "N/A" ]
+payment_types_non_clinical = [ ]
 program = ""
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = ["Individual Provider"]
+tags = [ "Individual Provider" ]
 telehealth = "Yes"
 tiktok = ""
 twitter = "@BareIvy"
 website = "https://www.bareivy.com/"
 youtube = "@BareIvy"
+_template = "service_provider"
+
 [[locations]]
 address = "Online"
-boroughs = ["Online"]
-credentials = ["LMFT (Licensed Marriage and Family Therapist)"]
-gender_identification = ["Female"]
-languages = ["English", "Chinese (Cantonese)"]
+boroughs = [ "Online" ]
+credentials = [ "LMFT (Licensed Marriage and Family Therapist)" ]
+gender_identification = [ "Female" ]
+languages = [ "English", "Chinese (Cantonese)" ]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = "My sliding scale spots are currently full and I do not take insurance at this time."
-non_clinical_services = ["Psychoeducation"]
+non_clinical_services = [ "Psychoeducation" ]
 parking = ""
 phone_number = "BareIvy.com"
 psychotherapy = true
-psychotherapy_specialties = ["Women's issues", "Trauma/PTSD", "Stress", "Spirituality", "Sexual health/dysfunction", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Premarital/marital", "LGBTQIA, gender, and sexual identity", "Identity development", "Grief, loss, and bereavement", "Family conflict", "Emotional disturbance", "Divorce and separation", "Depression", "Cultural adjustment", "Coping skills", "Codependency", "Attachment issues", "Anxiety"]
-psychotherapy_types = ["Every client is unique, and a custom approach is explored and co-created with each individual.", "Trauma-informed"]
-services = ["Psychotherapy"]
-staff_gender = ["Female"]
+psychotherapy_specialties = [
+  "Women's issues",
+  "Trauma/PTSD",
+  "Stress",
+  "Spirituality",
+  "Sexual health/dysfunction",
+  "Sexual abuse",
+  "Self-esteem",
+  "Relationship issues",
+  "Racial and cultural identity",
+  "Premarital/marital",
+  "LGBTQIA, gender, and sexual identity",
+  "Identity development",
+  "Grief, loss, and bereavement",
+  "Family conflict",
+  "Emotional disturbance",
+  "Divorce and separation",
+  "Depression",
+  "Cultural adjustment",
+  "Coping skills",
+  "Codependency",
+  "Attachment issues",
+  "Anxiety"
+]
+psychotherapy_types = [
+  "Every client is unique, and a custom approach is explored and co-created with each individual.",
+  "Trauma-informed"
+]
+services = [ "Psychotherapy" ]
+staff_gender = [ "Female" ]
 trainings = "Certified Life Coach"
-[[locations.hours_of_operation]]
-day_hours = "Monday - Thursday: 11 am - 8:30 pm"
-[[locations.hours_of_operation]]
-day_hours = " Saturday: 11 am - 2 pm"
-[[locations.public_transportation]]
-transport_option = "I offer virtual, telehealth sessions only at this time."
 
+  [[locations.hours_of_operation]]
+  day_hours = "Monday - Thursday: 11 am - 8:30 pm"
+
+  [[locations.hours_of_operation]]
+  day_hours = " Saturday: 11 am - 2 pm"
+
+  [[locations.public_transportation]]
+  transport_option = "I offer virtual, telehealth sessions only at this time."
 +++
+
 Hello! My name is Ivy Kwong. I have been a therapist for over sixteen years and am a lifelong student of the healing arts. I see and honor your commitment to invest in your mental health and wellness at this point on your journey.
 
 <br>
