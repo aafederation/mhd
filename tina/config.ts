@@ -34,11 +34,11 @@ export default defineConfig({
         },
         fields: [
           {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
+            type: "string",
+            name: "Items",
+            label: "Items",
+            description: "Provide the items",
+            list: true,
           },
         ],
       },
