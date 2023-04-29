@@ -46,5 +46,6 @@
     "UHC UMR (Mount Sinai employees only)",
     "UnitedHealthcare",
     "VNS Choice Medicare"
-  ]
+  ],
+  "_template": "data_file"
 }
