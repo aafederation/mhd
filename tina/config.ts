@@ -16,32 +16,32 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "img",
       publicFolder: "static",
     },
   },
   schema: {
     collections: [
-      {
-        format: "json",
-        label: "Data",
-        name: "data",
-        path: "data",
-        frontmatterFormat: "toml",
-        frontmatterDelimiters: "+++",
-        match: {
-          include: "**/*",
-        },
-        fields: [
-          {
-            type: "string",
-            name: "Items",
-            label: "Items",
-            description: "Provide the items",
-            list: true,
-          },
-        ],
-      },
+      // {
+      //   format: "json",
+      //   label: "Data",
+      //   name: "data",
+      //   path: "data",
+      //   frontmatterFormat: "toml",
+      //   frontmatterDelimiters: "+++",
+      //   match: {
+      //     include: "**/*",
+      //   },
+      //   fields: [
+      //     {
+      //       type: "string",
+      //       name: "Items",
+      //       label: "Items",
+      //       description: "Provide the items",
+      //       list: true,
+      //     },
+      //   ],
+      // },
       {
         format: "md",
         label: "Service providers",
