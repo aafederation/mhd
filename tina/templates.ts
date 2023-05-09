@@ -20,7 +20,7 @@ export function service_providerFields() {
     {
       type: "boolean",
       name: "highlight",
-      label: "Highlight",
+      label: "Highlight?",
     },
     {
       type: "string",
@@ -136,7 +136,8 @@ export function service_providerFields() {
     {
       type: "boolean",
       name: "sliding_scale_clinical",
-      label: "Sliding scale (clinical)",
+      label:
+        "Does the service provider offer sliding scale for clinical services?",
     },
     {
       type: "string",
@@ -163,7 +164,8 @@ export function service_providerFields() {
     {
       type: "boolean",
       name: "sliding_scale_non_clinical",
-      label: "Sliding scale (non-clinical)",
+      label:
+        "Does the service provider offer sliding scale for non clinical services?",
     },
     {
       type: "string",
@@ -176,12 +178,12 @@ export function service_providerFields() {
     {
       type: "boolean",
       name: "ada_compliant",
-      label: "ADA compliant",
+      label: "Is your location(s) ADA compliant?",
     },
     {
       type: "string",
       name: "telehealth",
-      label: "Telehealth service",
+      label: "Do you offer telehealth services?",
       options: ["Yes", "No", "Not applicable"],
     },
     {
@@ -196,12 +198,14 @@ export function service_providerFields() {
     {
       type: "string",
       name: "client_requirements",
-      label: "Client requirements",
+      label:
+        "Does your organization have any special requirements for clients (be of a certain age, meet a certain income level, live in a certain catchment area, etc.)",
     },
     {
       type: "string",
       name: "age_groups",
-      label: "Age groups",
+      label:
+        "Which age groups does your organization serve? (check all that apply)",
       list: true,
       options: [
         "Adults (18+)",
@@ -221,7 +225,7 @@ export function service_providerFields() {
     {
       type: "object",
       name: "locations",
-      label: "Locations",
+      label: "Input all the office locations",
       list: true,
       ui: {
         itemProps: (item) => {
@@ -260,12 +264,13 @@ export function service_providerFields() {
         {
           type: "string",
           name: "latLng",
-          label: "latitude, longitude",
+          label:
+            "latitude, longitude (e.g. 40.704938, -74.006006.  Read this article for how to find it - https://support.google.com/maps/answer/18539)",
         },
         {
           type: "string",
           name: "boroughs",
-          label: "Boroughs",
+          label: "Boroughs serviced by provider",
           list: true,
           options: [
             "Confidential Location",
@@ -319,12 +324,12 @@ export function service_providerFields() {
         {
           type: "boolean",
           name: "psychotherapy",
-          label: "Psychotherapy",
+          label: "Does your organization provide psychotherapy?",
         },
         {
           type: "string",
           name: "psychotherapy_specialties",
-          label: "Psychotherapy specialties",
+          label: "Psychotherapy specialties (if applicable)",
           list: true,
           options: [
             "Addiction/recovery",
@@ -398,7 +403,7 @@ export function service_providerFields() {
         {
           type: "string",
           name: "psychotherapy_types",
-          label: "Psychotherapy types",
+          label: "Psychotherapy types (if applicable)",
           list: true,
           options: [
             "Every client is unique, and a custom approach is explored and co-created with each individual.",
@@ -512,7 +517,7 @@ export function service_providerFields() {
         {
           type: "string",
           name: "credentials",
-          label: "Credentials",
+          label: "Licensure credentials for individuals",
           list: true,
           options: [
             "RD (Registered Dietitian)",
@@ -533,7 +538,7 @@ export function service_providerFields() {
         {
           type: "string",
           name: "trainings",
-          label: "Trainings",
+          label: "Relevant background training or credentials",
           ui: {
             component: "textarea",
           },
@@ -541,7 +546,7 @@ export function service_providerFields() {
         {
           type: "string",
           name: "languages",
-          label: "Languages",
+          label: "Languages available for service",
           list: true,
           options: [
             "Arabic",
@@ -591,13 +596,14 @@ export function service_providerFields() {
         {
           type: "string",
           name: "new_clients",
-          label: "New clients",
+          label: "Are you accepting new clients?",
           options: ["Yes", "No", "Not applicable"],
         },
         {
           type: "string",
           name: "new_clients_detail",
-          label: "New clients detail",
+          label:
+            "Please provide any additional details about your ability to accept new clients (if applicable)",
           ui: {
             component: "textarea",
           },
@@ -611,7 +617,8 @@ export function service_providerFields() {
         {
           type: "object",
           name: "public_transportation",
-          label: "Public transportation options",
+          label:
+            "What public transportation options are near your location(s).  Enter each option as a new entry",
           list: true,
           ui: {
             itemProps: (item) => {
@@ -635,7 +642,8 @@ export function service_providerFields() {
         {
           type: "string",
           name: "staff_gender",
-          label: "Gender Identification of Provider(s)",
+          label:
+            "What is the gender of the service provider(s)? (check all that apply)",
           list: true,
           options: [
             "Female",
@@ -651,7 +659,8 @@ export function service_providerFields() {
         {
           type: "object",
           name: "hours_of_operation",
-          label: "Hours of operation",
+          label:
+            "Separate entry per different hours of service e.g. one for Sunday 11am-5pm, another for Monday-Friday 9am-6pm",
           list: true,
           ui: {
             itemProps: (item) => {
@@ -667,7 +676,8 @@ export function service_providerFields() {
             {
               type: "string",
               name: "day_hours",
-              label: "Days hours",
+              label:
+                "One entry per different schedule, e.g. Monday-Friday 9am-6pm",
             },
           ],
         },
@@ -676,7 +686,7 @@ export function service_providerFields() {
     {
       type: "image",
       name: "image",
-      label: "Image",
+      label: "Attach an image if available",
     },
   ] as TinaField[];
 }
