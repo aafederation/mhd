@@ -198,8 +198,7 @@ export function service_providerFields() {
     {
       type: "string",
       name: "client_requirements",
-      label:
-        "Does your organization have any special requirements for clients (be of a certain age, meet a certain income level, live in a certain catchment area, etc.)",
+      label: "Does your organization have any special requirements for clients",
     },
     {
       type: "string",
