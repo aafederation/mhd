@@ -89,6 +89,13 @@ export default defineConfig({
             description: "This is the markdown body",
             isBody: true,
           },
+          {
+            name: "draft",
+            label: "Draft",
+            type: "boolean",
+            required: true,
+            description: "If this is checked the post will not be published",
+          },
           ...service_providerFields(),
         ],
       },
