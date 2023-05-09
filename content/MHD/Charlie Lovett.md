@@ -1,7 +1,7 @@
 +++
 ada_compliant = false
-age_groups = ["Seniors (65+)", "Adults (19 to 64)"]
-best_way_to_contact = ["Email"]
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+best_way_to_contact = [ "Email" ]
 client_requirements = ""
 email = "info@kiptherapy.com"
 facebook = ""
@@ -13,39 +13,56 @@ medium = ""
 org = "Charlie Lovett"
 payment_info_clinical = "Starting at $95"
 payment_info_non_clinical = ""
-payment_types = ["Out-of-network insurance"]
-payment_types_non_clinical = ["N/A"]
+payment_types = [ "Out-of-network insurance" ]
+payment_types_non_clinical = [ "N/A" ]
 program = "Kip Therapy"
 sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = ["Individual Provider"]
+tags = [ "Individual Provider" ]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = "https://www.kiptherapy.com/charlie-lovett"
 youtube = ""
+_template = "service_provider"
+
 [[locations]]
 address = ""
-boroughs = ["Online"]
-credentials = []
-languages = ["English"]
+boroughs = [ "Online" ]
+credentials = [ ]
+languages = [ "English" ]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Acupuncture"]
+non_clinical_services = [ "Acupuncture" ]
 parking = "No"
 phone_number = ""
 psychotherapy = true
-psychotherapy_specialties = ["Sexual health/dysfunction", "Sexual harassment and assault", "Sexual addiction", "Sexual abuse", "Self-esteem", "Relationship issues", "Racial and cultural identity", "LGBTQIA, gender, and sexual identity", "Grief, loss, and bereavement"]
-psychotherapy_types = ["Trauma-informed", "Dialectical Behavioral Therapy", "Couples Therapy"]
-public_transportation = []
-services = ["Psychotherapy"]
-staff_gender = ["Nonbinary", "Male"]
+psychotherapy_specialties = [
+  "Sexual health/dysfunction",
+  "Sexual harassment and assault",
+  "Sexual addiction",
+  "Sexual abuse",
+  "Self-esteem",
+  "Relationship issues",
+  "Racial and cultural identity",
+  "LGBTQIA, gender, and sexual identity",
+  "Grief, loss, and bereavement"
+]
+psychotherapy_types = [
+  "Trauma-informed",
+  "Dialectical Behavioral Therapy",
+  "Couples Therapy"
+]
+public_transportation = [ ]
+services = [ "Psychotherapy" ]
+staff_gender = [ "Nonbinary", "Male" ]
 trainings = "Ed.M. in Psychological Counseling"
-[[locations.hours_of_operation]]
-day_hours = "Monday - Saturday: 8 am - 9:45 pm"
 
+  [[locations.hours_of_operation]]
+  day_hours = "Monday - Saturday: 8 am - 9:45 pm"
 +++
+
 Charlie’s Focus  
 Charlie’s areas of focus include queer affirmation, coming out, sex, relationships (monogamy, polyamory, and consensual non-monogamy), racial identity, whiteness, self-esteem, and grief.
 

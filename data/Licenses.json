@@ -13,5 +13,6 @@
     "LMSW (Licensed Master Social Worker)",
     "LPC (Licensed Professional Counselor)",
     "Psychiatric Mental Health Nurse Practitioner"
-  ]
+  ],
+  "_template": "data_file"
 }

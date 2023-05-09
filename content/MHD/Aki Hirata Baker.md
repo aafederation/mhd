@@ -1,7 +1,7 @@
 +++
 ada_compliant = true
-age_groups = []
-best_way_to_contact = ["Email"]
+age_groups = [ ]
+best_way_to_contact = [ "Email" ]
 client_requirements = ""
 email = "Soulflowermedicine@gmail.com"
 facebook = ""
@@ -13,40 +13,51 @@ medium = ""
 org = "Aki Hirata Baker"
 payment_info_clinical = "Sliding scale, no standard price point"
 payment_info_non_clinical = "Sliding Scale "
-payment_types = ["N/A"]
-payment_types_non_clinical = []
+payment_types = [ "N/A" ]
+payment_types_non_clinical = [ ]
 program = "MINKA brooklyn"
 sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = ["Individual Provider"]
+tags = [ "Individual Provider" ]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = "http://minkabrooklyn.com/"
 youtube = ""
+_template = "service_provider"
+
 [[locations]]
 address = "Varies"
-boroughs = ["Online"]
-credentials = []
-gender_identification = ["Gender nonconforming"]
-languages = ["Japanese", "English"]
+boroughs = [ "Online" ]
+credentials = [ ]
+gender_identification = [ "Gender nonconforming" ]
+languages = [ "Japanese", "English" ]
 latLng = ""
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Indigenous healing methodologies", "Flower essence therapy", "Energy healing", "Yoga", "Reiki", "Meditation/mindfulness practices", "Breathwork"]
+non_clinical_services = [
+  "Indigenous healing methodologies",
+  "Flower essence therapy",
+  "Energy healing",
+  "Yoga",
+  "Reiki",
+  "Meditation/mindfulness practices",
+  "Breathwork"
+]
 parking = ""
 phone_number = ""
 psychotherapy = false
-psychotherapy_specialties = []
-psychotherapy_types = []
-public_transportation = []
-services = []
-staff_gender = ["Gender nonconforming"]
+psychotherapy_specialties = [ ]
+psychotherapy_types = [ ]
+public_transportation = [ ]
+services = [ ]
+staff_gender = [ "Gender nonconforming" ]
 trainings = "Reiki Master Teacher, certified flower essence therapist, Initiated Medicine Woman, Certified Ayurvedic counselor, Certified Yoga teacher"
-[[locations.hours_of_operation]]
-day_hours = "Based on appointments "
 
+  [[locations.hours_of_operation]]
+  day_hours = "Based on appointments "
 +++
+
 Aki Hirata Baker is an initiated Medicine Woman, Moondancer, teacher, speaker, space holder, multi-modality healing practitioner, and community organizer whose work is based on the anti-racial spiritual liberation principle.
 
 <br>

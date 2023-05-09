@@ -1,6 +1,10 @@
 +++
 ada_compliant = true
-age_groups = ["Seniors (65+)", "Adults (19 to 64)", "Youth and Teenagers (14 to 19)"]
+age_groups = [
+  "Seniors (65+)",
+  "Adults (19 to 64)",
+  "Youth and Teenagers (14 to 19)"
+]
 best_way_to_contact = "Email"
 client_requirements = ""
 draft = true
@@ -14,41 +18,79 @@ medium = ""
 org = "Naeema Akter "
 payment_info_clinical = "$180 per session "
 payment_info_non_clinical = ""
-payment_types = ["N/A"]
-payment_types_non_clinical = ["N/A"]
+payment_types = [ "N/A" ]
+payment_types_non_clinical = [ "N/A" ]
 program = "Cooper Mental Health Counseling "
 sliding_scale_clinical = true
 sliding_scale_non_clinical = false
-tags = ["Individual Provider"]
+tags = [ "Individual Provider" ]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
 website = "https://coopertherapy.com/staff/naeema-akter/"
 youtube = ""
+_template = "service_provider"
+
 [[locations]]
 address = "224 W 30th Street, New York, NY 10001"
-boroughs = ["Citywide"]
-credentials = []
-gender_identification = ["Nonbinary", "Gender-neutral", "Transgender", "Male", "Female"]
-languages = ["English"]
+boroughs = [ "Citywide" ]
+credentials = [ ]
+gender_identification = [
+  "Nonbinary",
+  "Gender-neutral",
+  "Transgender",
+  "Male",
+  "Female"
+]
+languages = [ "English" ]
 latLng = "40.74893717030915, -73.99366823592625"
 new_clients = "Yes"
 new_clients_detail = ""
-non_clinical_services = ["Meditation/mindfulness practices"]
+non_clinical_services = [ "Meditation/mindfulness practices" ]
 parking = "No"
 phone_number = "347-244-7873"
 psychotherapy = true
-psychotherapy_specialties = ["Women's issues", "Substance abuse", "Stress", "Spirituality", "Self-esteem", "Relationship issues", "Racial and cultural identity", "Grief, loss, and bereavement", "Drug abuse", "Depression", "Cultural adjustment", "Coping skills", "Anxiety", "Anger management", "Alcohol abuse", "Addiction/recovery"]
-psychotherapy_types = ["Solution-focused Therapy", "Supportive Therapy", "Trauma-informed", "Couples Therapy"]
-services = ["Psychotherapy"]
-staff_gender = ["Nonbinary", "Gender-neutral", "Transgender", "Male", "Female"]
+psychotherapy_specialties = [
+  "Women's issues",
+  "Substance abuse",
+  "Stress",
+  "Spirituality",
+  "Self-esteem",
+  "Relationship issues",
+  "Racial and cultural identity",
+  "Grief, loss, and bereavement",
+  "Drug abuse",
+  "Depression",
+  "Cultural adjustment",
+  "Coping skills",
+  "Anxiety",
+  "Anger management",
+  "Alcohol abuse",
+  "Addiction/recovery"
+]
+psychotherapy_types = [
+  "Solution-focused Therapy",
+  "Supportive Therapy",
+  "Trauma-informed",
+  "Couples Therapy"
+]
+services = [ "Psychotherapy" ]
+staff_gender = [
+  "Nonbinary",
+  "Gender-neutral",
+  "Transgender",
+  "Male",
+  "Female"
+]
 trainings = "Unlicensed Psychologist"
-[[locations.hours_of_operation]]
-day_hours = "9 am - 8 pm "
-[[locations.public_transportation]]
-transport_option = "F, D, R, W "
 
+  [[locations.hours_of_operation]]
+  day_hours = "9 am - 8 pm "
+
+  [[locations.public_transportation]]
+  transport_option = "F, D, R, W "
 +++
+
 When overwhelmed by the world and those around you, you may experience feeling dissatisfied or drained with your relationships, occupation, and other aspects of your life. Or you may be curious about your inner experiences and want to learn more about yourself to become more self-aware, present, and adept at handling life’s troubles. You deserve a therapist who will work with you to improve the quality of your life. This may be accomplished through building effective skills, such as self-soothing skills, problem-solving skills, emotion regulation skills, and building healthy relationships and ending destructive ones.
 
 <br>

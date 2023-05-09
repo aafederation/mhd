@@ -6,5 +6,6 @@
     "No insurance necessary",
     "Sliding scale fee for patients without insurance",
     "Third-party insurance"
-  ]
+  ],
+  "_template": "data_file"
 }
