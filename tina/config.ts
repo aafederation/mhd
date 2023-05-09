@@ -49,6 +49,11 @@ export default defineConfig({
         path: "content/MHD",
         frontmatterFormat: "toml",
         frontmatterDelimiters: "+++",
+        defaultItem: () => {
+          return {
+            best_way_to_contact: [],
+          };
+        },
         match: {
           include: "**/*",
         },
