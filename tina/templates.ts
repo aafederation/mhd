@@ -223,6 +223,31 @@ export function service_providerFields() {
       name: "locations",
       label: "Locations",
       list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: `${item?.address} ` };
+        },
+        defaultItem: () => {
+          return {
+            address: "",
+            boroughs: [],
+            credentials: [],
+            languages: [],
+            latLng: "",
+            new_clients: "Yes",
+            new_clients_detail: "",
+            non_clinical_services: [],
+            parking: "Yes",
+            phone_number: "",
+            psychotherapy: false,
+            psychotherapy_specialties: [],
+            psychotherapy_types: [],
+            services: [],
+            staff_gender: [],
+            trainings: "",
+          };
+        },
+      },
       fields: [
         {
           type: "string",
@@ -588,6 +613,17 @@ export function service_providerFields() {
           name: "public_transportation",
           label: "Public transportation options",
           list: true,
+          ui: {
+            itemProps: (item) => {
+              return { label: `${item?.transport_option} ` };
+            },
+            defaultItem: () => {
+              return {
+                transport_option: "",
+              };
+            },
+          },
+
           fields: [
             {
               type: "string",
@@ -617,6 +653,16 @@ export function service_providerFields() {
           name: "hours_of_operation",
           label: "Hours of operation",
           list: true,
+          ui: {
+            itemProps: (item) => {
+              return { label: `${item?.day_hours} ` };
+            },
+            defaultItem: () => {
+              return {
+                day_hours: "",
+              };
+            },
+          },
           fields: [
             {
               type: "string",
