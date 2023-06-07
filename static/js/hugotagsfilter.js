@@ -461,7 +461,7 @@ class HugoTagsFilter {
 
 		const containerDiv = document.querySelector(containerDivId);
 		const newBtn = document.createElement("button");
-		const newBtnContent = document.createTextNode(filterId);
+		const newBtnContent = document.createTextNode(filterId.replace(/borough/g, "location"));
 
 		newBtn.appendChild(newBtnContent);
 		newBtnClassList.forEach((cls) => newBtn.classList.add(cls));
