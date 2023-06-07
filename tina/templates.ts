@@ -269,7 +269,7 @@ export function service_providerFields() {
         {
           type: "string",
           name: "boroughs",
-          label: "Boroughs serviced by provider",
+          label: "Locations serviced by provider",
           list: true,
           options: [
             "Confidential Location",
@@ -279,6 +279,10 @@ export function service_providerFields() {
             "Manhattan",
             "Queens",
             "Staten Island",
+            "Long Island",
+            "Syracuse",
+            "Buffalo",
+            "Rochester",
           ],
         },
         {
