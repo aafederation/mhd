@@ -322,12 +322,13 @@
 	 * currently showing in the results
    */
 	 function showMap() {
-	 	const aafCoords = [-73.91511627368108, 40.69551604585044]; // Coords to show maximum service providers
+	 	// const aafCoords = [-73.91511627368108, 40.69551604585044]; // Coords to show maximum service providers
+	 	const aafCoords = [-75.90, 42.50]; // Coords to center of NY State
 
 		map = new mapboxgl.Map({
 			container: "map",
 			center: aafCoords,
-			zoom: 10, // starting zoom
+			zoom: 6, // starting zoom
 			style: "mapbox://styles/mapbox/streets-v11", // mapbox has different styles
 		});
 
