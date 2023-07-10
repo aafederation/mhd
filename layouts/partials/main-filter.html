@@ -30,7 +30,7 @@
 		{{ else }}{{ $.Scratch.Add "noPayments" 1 }}{{ end }}
 
 {{ end }}
-
+<h2 class="[ display-none sm:display-block gap-bottom-300 ]">Filters</h2>
 {{ partial "filter-data.html" (dict "title" "clinical service" "filter" "service" "allContent" $clinical_services ) }}
 {{ partial "filter-data.html" (dict "title" "psychotherapy specialty" "filter" "specialty" "allContent" $psychotherapy_specialties ) }}
 {{ partial "filter-data.html" (dict "title" "psychotherapy type"  "filter" "type" "allContent" $psychotherapy_types ) }}
