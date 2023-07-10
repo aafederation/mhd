@@ -1,16 +1,19 @@
-.link-pointer-basic {
+.link-pointer-bare {
   cursor: pointer;
   border-radius: 3px;
   padding: 0.25em 0.5em;
-  display: inline-block;
   text-decoration: none;
   &:hover {
     background: get-color("powder");
     color: get-color("primary");
   }
 }
-.link-pointer {
-  @extend .link-pointer-basic;
+.link-pointer-basic {
+  @extend .link-pointer-bare;
+  display: inline-block;
+}
+.link-pointer-no-display {
+  @extend .link-pointer-bare;
   background: get-color("secondary");
   color: get-color("black");
 
@@ -29,6 +32,10 @@
       color: get-color("light");
     }
   }
+}
+.link-pointer {
+  @extend .link-pointer-no-display;
+  display: inline-block;
 }
 .sub-header {
   font-style: italic;

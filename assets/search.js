@@ -7,7 +7,7 @@
 
 (function () {
 	const idForFilterResults = "#mhd-tiles-search-result";
-  const input = document.querySelector('#book-search-input');
+  const input = Array.from(document.querySelectorAll('#book-search-input')).filter(x=>x.offsetParent)[0];
   const filterResults = document.querySelector(idForFilterResults);
   const originalResults = [];
 

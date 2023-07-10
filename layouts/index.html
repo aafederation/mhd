@@ -24,8 +24,11 @@
 		data-layout="reversed"
 		data-variant="no-padding"
 	>
+		<div class="[ display-block sm:display-none width-100 ]">
+			{{ partial "search.html" . }}
+		</div>
 		<div
-			class="[ main-filter-col fixed-scrollable ] [ display-none sm:display-block ] [ top-500 right-500 bottom-800 left-500 z-2 ]"
+			class="[ main-filter-col fixed-scrollable ] [ top-500 right-500 bottom-800 left-500 z-2 ]"
 			id="main-filter"
 		>
 			{{ partial "main-filter.html" . }}
