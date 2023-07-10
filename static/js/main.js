@@ -118,22 +118,22 @@ function toggleAcc(el) {
 (function () {
   //1. Get handles to elements
   let filterPageOverlay = document.getElementById("filter-page-overlay");
-  let showFilterButton = document.getElementById("show-filter-button");
+  // let showFilterButton = document.getElementById("show-filter-button");
   let mainFilter = document.getElementById("main-filter");
   //Clear all filters id handle
   let clearAllFilters = document.getElementById("clear-all-filters");
 
   //2. Add eventlisteners
-  showFilterButton.addEventListener("click", function () {
-    toggleVis(mainFilter);
-    toggleVis(filterPageOverlay);
+  // showFilterButton.addEventListener("click", function () {
+  //   toggleVis(mainFilter);
+  //   toggleVis(filterPageOverlay);
 
-    if (this.textContent.toUpperCase() === "SHOW FILTER") {
-      this.textContent = "HIDE FILTER";
-    } else {
-      this.textContent = "SHOW FILTER";
-    }
-  });
+  //   if (this.textContent.toUpperCase() === "SHOW FILTER") {
+  //     this.textContent = "HIDE FILTER";
+  //   } else {
+  //     this.textContent = "SHOW FILTER";
+  //   }
+  // });
   //Eventlistener to clear all filters
   clearAllFilters.addEventListener('click', function () {
     htf.showCheckFromSearch();

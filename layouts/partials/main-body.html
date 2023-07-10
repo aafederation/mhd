@@ -4,6 +4,9 @@
 </div>
 <div id="clear-all-filters" class="link-pointer gap-bottom-300 gap-left-500" data-variant="invert">Clear all filters</div>
 {{ partial "search.html" . }}
+<div class="[ main-filter-col fixed-scrollable ][ sm:display-none display-block ] [ top-500 right-500 bottom-800 left-500 z-2 ]" id="main-filter">
+	{{ partial "main-filter.html" . }}
+</div>
 <div id="map" class="[ gap-right-500 gap-left-500 gap-bottom-500 ]"></div>
 <div class="gap-left-500 gap-right-500 center-content"><i>Search results displayed in alphabetical order</i></div>
 <div class="mhd-tiles" id="mhd-tiles-search-result"></div>

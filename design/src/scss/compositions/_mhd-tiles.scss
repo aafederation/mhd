@@ -11,7 +11,7 @@
 		margin-bottom: get-size("300");
 		min-width: 15em;
 
-		position: fixed;
+		position: static;
 
 		@include media-query("sm") {
 			margin-top: 0.9rem;
@@ -19,7 +19,6 @@
 			margin-right: get-size("500");
 			margin-bottom: 0;
 
-			position: static;
 			top: 1em;
 			align-self: flex-start;
 		}
