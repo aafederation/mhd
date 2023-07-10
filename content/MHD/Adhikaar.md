@@ -33,15 +33,7 @@ boroughs = [ "Queens" ]
 phone_number = ""
 services = [ "Referrals to clinical services " ]
 psychotherapy = false
-psychotherapy_specialties = [
-  "Women's issues",
-  "Trauma/PTSD",
-  "Stress",
-  "Divorce and separation",
-  "Depression",
-  "Caregiver stress and support",
-  "Alcohol abuse"
-]
+psychotherapy_specialties = [ ]
 psychotherapy_types = [ ]
 non_clinical_services = [
   "Peer support groups",
