@@ -52,6 +52,12 @@ staff_gender = [ ]
 
   [[locations.public_transportation]]
   transport_option = "Train - R"
+
+  [[locations.hours_of_operation]]
+  day_hours = "Sunday 11am-5pm"
+
+  [[locations.hours_of_operation]]
+  day_hours = "Monday-Friday 9am-6pm"
 +++
 
 This is Asian American Federation
