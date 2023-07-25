@@ -28,7 +28,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Seniors (65+)"
 ]
-image = ""
+image = "/img/EC0472C1-1310-490F-B9FF-066785BBC238 - William Chum LMHC.jpeg"
 
 [[locations]]
 address = "5718 Woodside Ave #2-102, Woodside NY 11377"
@@ -106,5 +106,4 @@ staff_gender = [ ]
 
 As a mental health researcher and expert in culture and identity conflicts, my therapy work starts with making space for your unique lived experiences, identities, and how you show up in your different worlds. I am trained in a range of evidence-based psychological techniques including cognitive-behavioral therapy (CBT), interpersonal therapy, and psychodynamic therapy. I work with my patients to explore issues that have led to emotional distress and teach skills to manage the situations at hand. Psychotherapy can involve exploring your past, present, and future challenges and pursuing an emotional growth to handle it all.
 
-My practice specializes in Asian American mental health, respecting the immigrant and children of Asian immigrant experience. 
-
+My practice specializes in Asian American mental health, respecting the immigrant and children of Asian immigrant experience.
