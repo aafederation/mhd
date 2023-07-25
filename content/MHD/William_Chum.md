@@ -4,7 +4,7 @@ org = "William Chum, LMHC"
 highlight = false
 program = "Woodside Mental Health"
 website = "WoodsideMentalHealth.com"
-email = ""
+email = "william@woodsidementalhealth.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -72,7 +72,7 @@ credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = "Clinical Training: NYC Health + Hospitals Gouverneur Health Behavioral Health Dept: Asian Bicultural Track"
 languages = [ "English" ]
 new_clients = "Yes"
-new_clients_detail = "Trained to provide formal evaluation for Animal Assisted Therapy/Emotional Support Animals. "
+new_clients_detail = ""
 parking = "No"
 staff_gender = [ "Male" ]
 
