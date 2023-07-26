@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Sienna Chu"
 highlight = false
 program = ""
@@ -76,7 +76,6 @@ staff_gender = [ "Female" ]
   day_hours = "Monday - Friday 8:30am-7pm "
 +++
 
-Whatever it is that brings you to therapy, I stand by the commitment, “I’m here with you.”  I believe that each of our stories are equally sacred as they are unique and work to create a collaborative and open relationship with each of my clients, offering my full presence, emotional attunement, and authentic curiosity. My hope is that clients may find enough safety and space to freely explore traumas of the past, roadblocks of the present, and new possibilities for the future. 
+Whatever it is that brings you to therapy, I stand by the commitment, “I’m here with you.”  I believe that each of our stories are equally sacred as they are unique and work to create a collaborative and open relationship with each of my clients, offering my full presence, emotional attunement, and authentic curiosity. My hope is that clients may find enough safety and space to freely explore traumas of the past, roadblocks of the present, and new possibilities for the future.
 
-Though my experience ranges across many areas, I gravitate towards helping clients work through Inner Child healing, codependency, relational trauma, building emotional intimacy, multicultural identity, substance use, family and relationship concerns. I utilizes an embodied approach rooted in Gestalt Therapy, and doesn’t shy away from bringing humor, play, and creativity into the therapy process. I earned a B.A. in Psychology from Skidmore College and graduated with a Master’s in Mental Health Counseling from CUNY Hunter College. I grew up in the green mountains of Vermont, have lived and taught in Northeast China, and has called New York her home since 2013. When not in the office, you’ll find me strolling through Prospect Park, on the shores of the Rockaway's, or planning my next motorbike trip through Asia. 
-
+Though my experience ranges across many areas, I gravitate towards helping clients work through Inner Child healing, codependency, relational trauma, building emotional intimacy, multicultural identity, substance use, family and relationship concerns. I utilizes an embodied approach rooted in Gestalt Therapy, and doesn’t shy away from bringing humor, play, and creativity into the therapy process. I earned a B.A. in Psychology from Skidmore College and graduated with a Master’s in Mental Health Counseling from CUNY Hunter College. I grew up in the green mountains of Vermont, have lived and taught in Northeast China, and has called New York her home since 2013. When not in the office, you’ll find me strolling through Prospect Park, on the shores of the Rockaway's, or planning my next motorbike trip through Asia.
