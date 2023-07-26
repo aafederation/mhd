@@ -21,7 +21,7 @@ sliding_scale_non_clinical = true
 payment_info_non_clinical = ""
 ada_compliant = true
 telehealth = "Yes"
-tags = [ "Individual" ]
+tags = [ "Individual Provider" ]
 client_requirements = "All sessions are held via telehealth at this time. "
 age_groups = [
   "Youth and Teenagers (14 to 19)",
