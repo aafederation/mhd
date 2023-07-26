@@ -1,6 +1,6 @@
 +++
 draft = false
-org = "William Chum, LMHC"
+org = "William Chum"
 highlight = false
 program = "Woodside Mental Health"
 website = "WoodsideMentalHealth.com"
