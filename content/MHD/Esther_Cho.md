@@ -34,6 +34,7 @@ telehealth = "Yes"
 client_requirements = ""
 age_groups = [ "All" ]
 image = "/img/137C8A3D-519A-449F-9D73-76C8E596BC01 - esther cho.jpeg"
+tags = [ "Individual Provider" ]
 
 [[locations]]
 address = "275 Ocean Ave #15, Brooklyn, NY11225"
@@ -64,4 +65,3 @@ staff_gender = [ "Female" ]
 +++
 
 IT IS MY PASSION AND JOY TO ASSIST FELLOW HUMANS TO RECONNECT WITH THEIR TRUE NATURE AND RESTORE THEIR PHYSICAL, MENTAL, EMOTIONAL AND SPIRITUAL BALANCE THAT USHER THEM TO TRUE, LONG-LASTING HAPPINESS AND PEACE WITH REIKI HEALING ART.
-
