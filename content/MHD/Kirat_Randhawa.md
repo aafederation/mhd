@@ -85,5 +85,7 @@ staff_gender = [ "Female" ]
   day_hours = "Monday-Friday 10:00am-9:00PM"
 +++
 
-Kirat is a New York City based contemplative guide, therapist-in-training, and inspired student of Tibetan Buddhism. Her personal journey and deep course of study has led her to craft a pathway to guide others in personal development, conscious exploration, transformational practices, and life’s shifts. Her training at Columbia University and The Nalanda Institute, and in the Mindfulness-Based Stress Reduction lineage has allowed her to develop a multidimensional approach to support clients on their path toward greater alignment and joy. 
+Kirat is a New York City based contemplative guide, therapist-in-training, and inspired student of Tibetan Buddhism. Her personal journey and deep course of study has led her to craft a pathway to guide others in personal development, conscious exploration, transformational practices, and life’s shifts. Her training at Columbia University and The Nalanda Institute, and in the Mindfulness-Based Stress Reduction lineage has allowed her to develop a multidimensional approach to support clients on their path toward greater alignment and joy.
+
+therapist in training (LMHC)
 
