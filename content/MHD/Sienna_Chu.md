@@ -21,7 +21,7 @@ I am able to provide Superbills for clients with Out of Network Benefits"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = true
 payment_info_non_clinical = "Ranges"
-ada_compliant = false
+ada_compliant = true
 telehealth = "Yes"
 tags = [ "Individual Provider" ]
 client_requirements = ""
@@ -63,10 +63,16 @@ languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = "No"
-staff_gender = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.public_transportation]]
   transport_option = "Herald Square and Penn Station NQRW, BDFM, 2345, ACE"
+
+  [[locations.hours_of_operation]]
+  day_hours = "8:30am-7pm"
+
+  [[locations.hours_of_operation]]
+  day_hours = ""
 +++
 
 Whatever it is that brings you to therapy, I stand by the commitment, “I’m here with you.”  I believe that each of our stories are equally sacred as they are unique and work to create a collaborative and open relationship with each of my clients, offering my full presence, emotional attunement, and authentic curiosity. My hope is that clients may find enough safety and space to freely explore traumas of the past, roadblocks of the present, and new possibilities for the future.
