@@ -30,7 +30,7 @@ image = "/img/Screen Shot 2023-05-17 at 10.32.51 AM - Sienna Chu.png"
 
 [[locations]]
 address = "875 6th Ave #2300 New York, NY 10001"
-latLng = ""
+latLng = "40.7482021, -73.9891899"
 boroughs = [ "Manhattan" ]
 phone_number = "603-252-6502"
 services = [ "Psychotherapy" ]
@@ -61,7 +61,7 @@ credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = "Certified Gestalt Therapist"
 languages = [ "English" ]
 new_clients = "Yes"
-new_clients_detail = ""
+new_clients_detail = "Virtual availability only"
 parking = "No"
 staff_gender = [ "Female" ]
 
@@ -70,9 +70,6 @@ staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "8:30am-7pm"
-
-  [[locations.hours_of_operation]]
-  day_hours = ""
 +++
 
 Whatever it is that brings you to therapy, I stand by the commitment, “I’m here with you.”  I believe that each of our stories are equally sacred as they are unique and work to create a collaborative and open relationship with each of my clients, offering my full presence, emotional attunement, and authentic curiosity. My hope is that clients may find enough safety and space to freely explore traumas of the past, roadblocks of the present, and new possibilities for the future.
