@@ -30,14 +30,13 @@ image = "/img/Screen Shot 2023-05-17 at 10.32.51 AM - Sienna Chu.png"
 
 [[locations]]
 address = "875 6th Ave #2300 New York, NY 10001"
-latLng = "40.74838705922999, -73.98933736065972"
-boroughs = [ "Online" ]
+latLng = ""
+boroughs = [ "Manhattan" ]
 phone_number = "603-252-6502"
 services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Anxiety",
-  "Attachment issues",
   "Codependency",
   "Depression",
   "Family conflict",
@@ -46,34 +45,28 @@ psychotherapy_specialties = [
   "Premarital/marital",
   "Racial and cultural identity",
   "Relationship issues",
-  "Self-esteem",
-  "Stress",
+  "Women's issues",
   "Trauma/PTSD",
-  "Women's issues"
+  "Self-esteem",
+  "Stress"
 ]
 psychotherapy_types = [
+  "Gestalt approach with utilizing all forms of arts and body awareness",
   "Couples Therapy",
-  "Trauma-informed",
   "Psychodynamic",
-  "Gestalt approach with utilizing all forms of arts and body awareness"
+  "Trauma-informed"
 ]
 non_clinical_services = [ "Meditation/mindfulness practices", "Sound Healing" ]
 credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-trainings = """
-Certified Gestalt Therapist
-
-I completed my Masters at Hunter where there were extensive courses dedicated to multi-culturally informed treatment"""
+trainings = "Certified Gestalt Therapist"
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = "No"
-staff_gender = [ "Female" ]
+staff_gender = [ ]
 
   [[locations.public_transportation]]
-  transport_option = "Subway - Herald Square and Penn Station"
-
-  [[locations.hours_of_operation]]
-  day_hours = "Monday - Friday 8:30am-7pm "
+  transport_option = "Herald Square and Penn Station NQRW, BDFM, 2345, ACE"
 +++
 
 Whatever it is that brings you to therapy, I stand by the commitment, “I’m here with you.”  I believe that each of our stories are equally sacred as they are unique and work to create a collaborative and open relationship with each of my clients, offering my full presence, emotional attunement, and authentic curiosity. My hope is that clients may find enough safety and space to freely explore traumas of the past, roadblocks of the present, and new possibilities for the future.
