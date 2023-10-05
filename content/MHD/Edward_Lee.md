@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Edward Lee"
 highlight = false
 program = ""
@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "Individual Provider" ]
 client_requirements = "Virtual Telehealth Only"
 age_groups = [ "Adults (19 to 64)" ]
-image = ""
+image = "/img/Commercial_1ok - Eddy Lee.jpg"
 
 [[locations]]
 address = ""
@@ -65,6 +65,3 @@ staff_gender = [ "Male" ]
 +++
 
 Hello! I've been practicing therapy for over a decade now and have found that the approach that works best with me and my clients is a down-to-earth, authentic style of therapy where we can cut through the nuances to get to a solution! I used evidence-based models to address anxiety and depression while using authenticity and empathy to feel like we're just chatting at a coffee shop. One of the most important things is your comfort level with your therapist. I try to work hard to build that rapport with all my clients!
-
-
-
