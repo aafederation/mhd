@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
-image = ""
+image = "/img/_MG_9694 - Nidhi Jain.jpg"
 
 [[locations]]
 address = """
@@ -55,9 +55,8 @@ staff_gender = [ ]
   transport_option = "Primary studio for 1on1 breathwork and pilates is in downtown Brooklyn, within 5 blocks of A, C, G, 2, 3, N, R, W, 4, 5, F"
 +++
 
-I'm Nidhi Jain, a breathwork, meditation and pilates instructor in Brooklyn, NY, on land of the Munsee Lenape people. My style is rooted in the seasons, lunar cycle, elements, and ancestors. 
+I'm Nidhi Jain, a breathwork, meditation and pilates instructor in Brooklyn, NY, on land of the Munsee Lenape people. My style is rooted in the seasons, lunar cycle, elements, and ancestors.
 
-I love dance and singing and believe creativity is an incredible force for change, internal and external. 
+I love dance and singing and believe creativity is an incredible force for change, internal and external.
 
 I believe embodiment practices are fundamental to building the compassionate inclusive world I dream of, because they allow each of us to get to the root—dismantling internalized racism, patriarchy, colonialism, transphobia, and all separation. This deep healing allows us to sustain through the complex, systemic work needed to create a just, free society.
-
