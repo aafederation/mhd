@@ -1,6 +1,6 @@
 +++
 draft = false
-org = "Form and Flow"
+org = "Shelly Yang"
 highlight = false
 program = "Shelly Yang"
 website = "www.formandflow.com"
@@ -56,10 +56,8 @@ staff_gender = [ "Female" ]
   day_hours = "9am-6pm"
 +++
 
+Shelly founded Form + Flow with a mission to bring mindfulness practices to her community. She created a sanctuary space for unique wellness experiences. From yoga, meditation,  holotropic breathwork, sound circle, to cacao ceremony, Buddhism and Tantra philosophy, these well-curated experiences are facilitated with intentional energy that nurture the inner soul, and elevate human consciousness.
 
-Shelly founded Form + Flow with a mission to bring mindfulness practices to her community. She created a sanctuary space for unique wellness experiences. From yoga, meditation,  holotropic breathwork, sound circle, to cacao ceremony, Buddhism and Tantra philosophy, these well-curated experiences are facilitated with intentional energy that nurture the inner soul, and elevate human consciousness. 
-
-With a diverse cultural background, having lived around the globe, Shelly brings her knowledge of the Eastern philosophy and wisdom with Western culture to her dynamic teachings of yoga and meditation.  She is a classical pianist with 20 years of practice and a sound practitioner.  She collaborates with artists and musicians to create live performances and sound journeys. 
+With a diverse cultural background, having lived around the globe, Shelly brings her knowledge of the Eastern philosophy and wisdom with Western culture to her dynamic teachings of yoga and meditation.  She is a classical pianist with 20 years of practice and a sound practitioner.  She collaborates with artists and musicians to create live performances and sound journeys.
 
 Shelly completed 500hour Yoga Teacher Training, and an advanced meditation training with Dr. Joe Dispenza.
-
