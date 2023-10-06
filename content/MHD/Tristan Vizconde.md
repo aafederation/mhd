@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Tristan Vizconde"
 highlight = false
 program = ""
@@ -79,6 +79,4 @@ staff_gender = [ "Male" ]
   day_hours = "varies, contact for appointment"
 +++
 
-
 My name is Tristan Vizconde and my pronouns are he/him. I provide psychotherapy, mostly using a psychodynamic/insight-oriented approach, to support you in your mental health journey. I believe through self-reflection and self-examination we can reach a more joyous, peaceful, and healthier life. I am a sex and body positive, LGBTQI+ affirming, kink-friendly therapist who works with adults, 18 and over, around varying topics such as gender, sexuality, HIV/AIDS & STIs, safer sex, self-esteem, self-acceptance, family, Asian (Filipino) identity, polyamorous/alternative relationship structures, harm-reduction, depression and anxiety.
-
