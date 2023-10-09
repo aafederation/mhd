@@ -29,7 +29,7 @@ image = ""
 [[locations]]
 address = "90 Broad St, New York, NY 10004"
 latLng = "40.7038607, -74.0118104"
-boroughs = [ "Manhattan" ]
+boroughs = [ "Manhattan", "Online" ]
 phone_number = "(646) 220-4006"
 services = [ "Psychotherapy" ]
 psychotherapy = true
@@ -90,5 +90,4 @@ staff_gender = [ "Female" ]
 
 Welcome! As a trauma-informed psychotherapist, my dedication lies in helping individuals overcome life's challenges and embark on a transformative journey towards healing, meaning, and growth. Throughout my practice, I have had the privilege of working with individuals from diverse backgrounds and addressing a wide range of concerns. Recognizing the uniqueness of each client's journey, I embrace an open and collaborative approach to therapy, tailored to meet their specific needs and goals. By integrating evidence-based therapies with holistic methods, I provide comprehensive support to guide my clients towards meaningful growth, foster resilience, and live a life filled with purpose and authenticity.
 
-Drawing upon the latest research in neuroscience and trauma-informed care, I have developed a deep understanding of the mind-body connection and the profound impact of pain and trauma on overall well-being. I firmly believe that every individual has the ability to heal and thrive. By providing a safe and supportive space, we can explore and process your experiences, nurture your inner child, and cultivate self-compassion. I am here to accompany you on your journey, and I am committed to supporting you every step of the way. 
-
+Drawing upon the latest research in neuroscience and trauma-informed care, I have developed a deep understanding of the mind-body connection and the profound impact of pain and trauma on overall well-being. I firmly believe that every individual has the ability to heal and thrive. By providing a safe and supportive space, we can explore and process your experiences, nurture your inner child, and cultivate self-compassion. I am here to accompany you on your journey, and I am committed to supporting you every step of the way.
