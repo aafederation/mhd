@@ -77,7 +77,8 @@ psychotherapy_types = [
   "Family therapy",
   "Trauma-informed",
   "Solution-focused Therapy",
-  "Supportive Therapy"
+  "Supportive Therapy",
+  "Other "
 ]
 non_clinical_services = [
   "Meditation/mindfulness practices",
