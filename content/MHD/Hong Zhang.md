@@ -26,7 +26,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
-image = ""
+image = "/img/Headshot Vancouver - Hong Zhang.jpg"
 
 [[locations]]
 address = "392 Central Park West New York, NY 10025"
