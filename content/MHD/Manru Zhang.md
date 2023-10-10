@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Manru Zhang"
 highlight = false
 program = ""
@@ -101,5 +101,4 @@ parking = "Yes"
 staff_gender = [ ]
 +++
 
-Manru Zhang is a Board Certified Licensed Clinical Social Worker in New York. She has been working in the field of mental health since 2013. She received clinical training at the inpatient psychiatric unit of NYC Health+Hospitals/ Bellevue Hospital. She has worked as a psychotherapist at Maimonides Medical Center community mental health clinic since 2015. She also provides supervision to social work students in diagnosis and counseling skills.  She specializes in depression, anxiety, low self-esteem, and issues related to relationship, school and work. 
-
+Manru Zhang is a Board Certified Licensed Clinical Social Worker in New York. She has been working in the field of mental health since 2013. She received clinical training at the inpatient psychiatric unit of NYC Health+Hospitals/ Bellevue Hospital. She has worked as a psychotherapist at Maimonides Medical Center community mental health clinic since 2015. She also provides supervision to social work students in diagnosis and counseling skills.  She specializes in depression, anxiety, low self-esteem, and issues related to relationship, school and work.
