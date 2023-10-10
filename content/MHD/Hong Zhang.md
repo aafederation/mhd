@@ -3,7 +3,7 @@ draft = false
 org = "Hong Zhang"
 highlight = false
 program = "Double Diamond Wellness Center Inc."
-website = "Website 1,   https://www.doublediamondwellness.com/    Website2.    https://www.hongpsychedelic.com/"
+website = "https://www.doublediamondwellness.com/; https://www.hongpsychedelic.com/"
 email = "hong@ddwc.nyc"
 facebook = ""
 twitter = ""
@@ -96,10 +96,8 @@ staff_gender = [ "Female" ]
   transport_option = "Subway 1, 2, 3, and C, B  (if in person for Ketamine-Assisted Psychotherapy)"
 +++
 
-
-I'm a licensed psychotherapist in NYC and have 24 years of clinical experience.   I currently work with individual adults for various issues such as depression, anxiety, relationship and family related issues.  I have extensive experiences working in variety of settings with diverse populations.  This includes community- and hospital-based mental health environments and working with children, adolescents and families.  
+I'm a licensed psychotherapist in NYC and have 24 years of clinical experience.   I currently work with individual adults for various issues such as depression, anxiety, relationship and family related issues.  I have extensive experiences working in variety of settings with diverse populations.  This includes community- and hospital-based mental health environments and working with children, adolescents and families.
 
 I have given numerous educational workshops on different mental health topics such as depression, anxiety and trauma in the New York Public Library, senior centers and schools and at community-organized events.  I have been interviewed by the BBC and for a Voice of America television program, as well as for other radio programs on mental health issues.
 
-I’m a certified EMDR (Eye Movement Desensitization and Reprocessing) therapist. I’m also trained in Somatic Intervention and other somatic related therapies.  I now provide a leading edge therapy Ketamine-Assisted- Psychotherapy for traditionally challenging issues. 
-
+I’m a certified EMDR (Eye Movement Desensitization and Reprocessing) therapist. I’m also trained in Somatic Intervention and other somatic related therapies.  I now provide a leading edge therapy Ketamine-Assisted- Psychotherapy for traditionally challenging issues.
