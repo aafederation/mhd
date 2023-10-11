@@ -37,8 +37,8 @@ age_groups = [
 image = "/img/IMG_20190818_181218 - Manru Zhang.jpg"
 
 [[locations]]
-address = ""
-latLng = ""
+address = "4500 Parsons Blvd, Queens, NY 11355"
+latLng = "40.7555570, -73.8170731"
 boroughs = [ "Online" ]
 phone_number = "646-481-2286"
 services = [ "Psychotherapy" ]
@@ -93,12 +93,18 @@ non_clinical_services = [
   "Yoga"
 ]
 credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-trainings = ""
+trainings = "Registered Yoga Training RYT-200"
 languages = [ "English", "Chinese (Mandarin)" ]
 new_clients = "Yes"
-new_clients_detail = ""
-parking = "Yes"
+new_clients_detail = "virtual based service "
+parking = ""
 staff_gender = [ ]
+
+  [[locations.hours_of_operation]]
+  day_hours = "Sat 1pm-3pm"
+
+  [[locations.hours_of_operation]]
+  day_hours = "Monday -Friday 11am-7pm"
 +++
 
 Manru Zhang is a Board Certified Licensed Clinical Social Worker in New York. She has been working in the field of mental health since 2013. She received clinical training at the inpatient psychiatric unit of NYC Health+Hospitals/ Bellevue Hospital. She has worked as a psychotherapist at Maimonides Medical Center community mental health clinic since 2015. She also provides supervision to social work students in diagnosis and counseling skills.  She specializes in depression, anxiety, low self-esteem, and issues related to relationship, school and work.
