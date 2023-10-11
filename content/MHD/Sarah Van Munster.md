@@ -2,7 +2,7 @@
 draft = true
 org = "Sarah Van Munster"
 highlight = false
-program = ""
+program = "Meridian Psychology Practice"
 website = "https://www.psychologytoday.com/us/therapists/sarah-van-munster-rochester-ny/1057619"
 email = "Email me via my Psychology Today profile: https://www.psychologytoday.com/us/therapists/sarah-van-munster-rochester-ny/1057619"
 facebook = ""
@@ -69,5 +69,4 @@ staff_gender = [ "Female" ]
   day_hours = "Monday-Friday, 9am-6pm"
 +++
 
-I am a Licensed Mental Health Counselor who works with adults, specializing in transracial adoption, anxiety, depression, general supportive therapy, Body Focused Repetitive Behaviors (BFRB; skin picking, hair pulling), and major life transitions. 
-
+I am a Licensed Mental Health Counselor who works with adults, specializing in transracial adoption, anxiety, depression, general supportive therapy, Body Focused Repetitive Behaviors (BFRB; skin picking, hair pulling), and major life transitions.
