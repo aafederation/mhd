@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Tony Li"
 highlight = false
 program = ""
@@ -75,6 +75,4 @@ staff_gender = [ "Female" ]
   day_hours = "Monday-Friday"
 +++
 
-
 As a second-generation Asian American, I have an understanding and experience in providing therapy to those raised by immigrant parents. I am here to offer you help in processing any painful feelings and experiences such as guilt, shame, obligation, and/or sense of distance from your family that many feel growing up in two (or more) cultures. I see many Asian American adults and teens in my practice frequently dealing with family conflict, parenting, work stress, anxiety, and depression. Currently accepting new telehealth clients.
-
