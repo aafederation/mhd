@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Yuen Ling Elaine Ho"
 highlight = false
 program = ""
@@ -28,7 +28,7 @@ sliding_scale_non_clinical = true
 payment_info_non_clinical = "$150 - $250"
 ada_compliant = true
 telehealth = "Yes"
-tags = [ ]
+tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
 image = "/img/Elaine Ho headshot - Yuen Ling Elaine Ho.jpg"
@@ -86,8 +86,15 @@ staff_gender = [ "Female" ]
 
   [[locations.public_transportation]]
   transport_option = "subway "
+
+  [[locations.hours_of_operation]]
+  day_hours = "Sat: 9 - 2PM"
+
+  [[locations.hours_of_operation]]
+  day_hours = "Thurs - Fri: 5 - 8PM"
+
+  [[locations.hours_of_operation]]
+  day_hours = "Monday - Wed: 7 - 8PM"
 +++
 
-
-I am the bi-lingual licensed clinical social worker in NYC since 2000 and has been working in a community-based city outpatient clinic as clients who are struggling with life's stressors in different extend. As an immigrant myself, I develop my passion to work with population of international students with challenge on academic, relational, attachment, trauma. Besides, I specialize on working with American born Asian American who has been struggling with bridging their family dynamic. About my treatment modality, I incorporate skill basis of DBT, CBT, trauma informed care, solution focused as well as psychodynamic by connecting the root of their family of origin. 
-
+I am the bi-lingual licensed clinical social worker in NYC since 2000 and has been working in a community-based city outpatient clinic as clients who are struggling with life's stressors in different extend. As an immigrant myself, I develop my passion to work with population of international students with challenge on academic, relational, attachment, trauma. Besides, I specialize on working with American born Asian American who has been struggling with bridging their family dynamic. About my treatment modality, I incorporate skill basis of DBT, CBT, trauma informed care, solution focused as well as psychodynamic by connecting the root of their family of origin.
