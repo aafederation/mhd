@@ -3,7 +3,7 @@ draft = false
 org = "Melinda McCulloch"
 highlight = false
 program = ""
-website = "https://bridgesmentalhealth.com/listing/melinda-mcculloch-lcsw/"
+website = "https://www.psychologytoday.com/us/therapists/melinda-mcculloch-new-york-ny/737995"
 email = "melinda@thirdspacetherapyny.com"
 facebook = ""
 twitter = ""
@@ -99,5 +99,4 @@ staff_gender = [ "Female" ]
 
 I believe healing primarily happens through our relationships with one another. My work prioritizes creating a strong therapeutic relationship in which you feel safe enough to explore old wounds, current stressors, and changes that would make your life better. I bring my expertise in mental health combined with evidence-based techniques and a warm, empathetic posture to collaborate with you on your goals. I specialize in working with adoptees and their families, or others who are navigating issues of identity, attachment/intimacy, or grief and loss.
 
-I am an Asian American, cis woman, who is committed to the work of anti-racism, LGBTQIA+ affirmation, and equity for all. My training includes CBT, TF-CBT, EMDR, Mindfulness, and Theraplay among others. I have over a decade of providing psychotherapy for children, teens, and adults as well as several years prior working in program development for immigrants and youth. 
-
+I am an Asian American, cis woman, who is committed to the work of anti-racism, LGBTQIA+ affirmation, and equity for all. My training includes CBT, TF-CBT, EMDR, Mindfulness, and Theraplay among others. I have over a decade of providing psychotherapy for children, teens, and adults as well as several years prior working in program development for immigrants and youth.
