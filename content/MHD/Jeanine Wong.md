@@ -27,7 +27,7 @@ age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
 image = "/img/DSCN0026 (3) - Jeanine Wong.jpg"
 
 [[locations]]
-address = "730 2nd Street, PO Box 4085, Santa Rosa, CA 95404"
+address = ""
 latLng = ""
 boroughs = [ "Online" ]
 phone_number = "707-978-9209"
