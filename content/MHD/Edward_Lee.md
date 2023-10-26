@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Edward Lee"
 highlight = false
 program = ""
@@ -57,7 +57,7 @@ trainings = "Cognitive Behavioral Therapy, Motivational Interviewing"
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
-parking = "No"
+parking = ""
 staff_gender = [ "Male" ]
 
   [[locations.hours_of_operation]]
