@@ -15,7 +15,9 @@ medium = ""
 best_way_to_contact = [ "Email" ]
 payment_types = [ "Out-of-network insurance" ]
 sliding_scale_clinical = true
-payment_info_clinical = "I make billing easy. Even though I am not in-network with any insurance, if you have out-of-network benefits associated with Aetna, Cigna, Wellfleet, United, Oxford, GHI, Cigna, Anthem / BCBS, I can bill insurance for you! You might be able to get reimbursed for out-of-network therapy! Check here: app.mentaya.com/p/5rdcML7Ayvh OR visit my website!  "
+payment_info_clinical = """
+$190 (Private Pay)
+I make billing easy. Even though I am not in-network with any insurance, if you have out-of-network benefits associated with Aetna, Cigna, Wellfleet, United, Oxford, GHI, Cigna, Anthem / BCBS, I can bill insurance for you! You might be able to get reimbursed for out-of-network therapy! Check here: app.mentaya.com/p/5rdcML7Ayvh OR visit my website!  """
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
