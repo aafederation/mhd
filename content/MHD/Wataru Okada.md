@@ -74,7 +74,7 @@ languages = [ "English", "Japanese" ]
 new_clients = "Yes"
 new_clients_detail = """
 Currently telehealth only via HIPAA compliant Zoom.
-Accepting various health insurance plans as well as private pay. Pleaser refer to https://www.okadalink.com"""
+Accepting various health insurance plans as well as private pay. Please refer to https://www.okadalink.com"""
 parking = ""
 staff_gender = [ "Male" ]
 
@@ -82,5 +82,4 @@ staff_gender = [ "Male" ]
   day_hours = "12:30 pm - 6:00 pm, Tuesday through Saturday"
 +++
 
-
-Offering CBT and mindfulness-based psychotherapy in both English and Japanese 
+Offering CBT and mindfulness-based psychotherapy in both English and Japanese
