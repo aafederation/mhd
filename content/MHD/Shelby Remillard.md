@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Shelby Remillard"
 highlight = false
 program = "Steady NYC "
@@ -70,10 +70,9 @@ staff_gender = [ "Female" ]
   day_hours = "9am-8pm "
 +++
 
+I am an Indigenous (Laguna Pueblo) and Filipina therapist working with clients with histories of trauma, grief and loss, and establishing and growing healthy relationships. When you work with me, I allow you to set the tone of our therapy journey. Together, we explore what is the concern bringing you in and how you'd like it to be different in the future. Once we know where we've come from and where we are going, we can explore how we get there. I am professionally trained in EMDR therapy, motivational interviewing, harm reduction, Gestalt, mindfulness, and coping skills training. I welcome creativity and practice into our sessions, and we may work together to try new skills on before you use them in your daily life.
 
-I am an Indigenous (Laguna Pueblo) and Filipina therapist working with clients with histories of trauma, grief and loss, and establishing and growing healthy relationships. When you work with me, I allow you to set the tone of our therapy journey. Together, we explore what is the concern bringing you in and how you'd like it to be different in the future. Once we know where we've come from and where we are going, we can explore how we get there. I am professionally trained in EMDR therapy, motivational interviewing, harm reduction, Gestalt, mindfulness, and coping skills training. I welcome creativity and practice into our sessions, and we may work together to try new skills on before you use them in your daily life. 
-
-My goal is to help clients find their inner strength and to empower them to manifest their desired life. We accomplish this using many different tools that are grounded in the three core tenets of my practice: self-compassion, self-awareness, and self-confidence. 
+My goal is to help clients find their inner strength and to empower them to manifest their desired life. We accomplish this using many different tools that are grounded in the three core tenets of my practice: self-compassion, self-awareness, and self-confidence.
 
 Humor is important to me and I strive to incorporate my authentic self into our relationship to help my clients feel comfortable expressing theirs. When I’m not working, I enjoy a sweaty spin class, gentle yoga flow, or a nice walk in Central Park. My own self-care practices include catching up on reality tv with my cat, Hazel, and spending time connecting to my friends, family, and fiancé.
 
