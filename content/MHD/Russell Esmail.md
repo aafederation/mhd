@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Russell Esmail"
 highlight = false
 program = "Russell Esmail Psychotherapy"
@@ -73,6 +73,5 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "8am- 7pm"
 +++
-
 
 Living in and growing up in different countries (Hong Kong, Canada, Malaysia, and England) has broadened my understanding of many cultures and mentalities. These experiences help me connect with people from many walks of life and help me understand how people relate to their own mental health. Stepping away from the clinical lens is also very important. I like to learn how the human psyche is characterized in other fields of study and experienced in different activities.
