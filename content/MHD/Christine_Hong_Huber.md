@@ -1,6 +1,6 @@
 +++
 draft = true
-org = "Christine Hong Huber"
+org = "Christina Hong Huber"
 highlight = false
 program = "Compassionate Integrative Therapy, LLC"
 website = "drchristinahonghuber.com"
@@ -16,6 +16,7 @@ best_way_to_contact = [ "Email" ]
 payment_types = [ ]
 sliding_scale_clinical = true
 payment_info_clinical = """
+Please see my website for the most up to date session fee costs.
 I am an out of network provider.  I reserve a few spots for sliding scale cases.
 """
 payment_types_non_clinical = [ ]
