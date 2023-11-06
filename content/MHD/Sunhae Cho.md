@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Sunhae Cho"
 highlight = false
 program = "Bayside Meditation"
@@ -62,6 +62,4 @@ staff_gender = [ "Female" ]
   day_hours = "Mon-Fri 7am-9pm"
 +++
 
-
 Non-profit meditation center that offer guided meditation online and offline
-
