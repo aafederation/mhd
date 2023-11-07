@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Mariko Tamegai"
 highlight = false
 program = "Reiki and Sound practitioners, End of Life Doula/MahaRose, Ascentiah Healing Center, The Holistic Home Company"
@@ -41,18 +41,15 @@ psychotherapy_specialties = [ ]
 psychotherapy_types = [ ]
 non_clinical_services = [
   "Meditation/mindfulness practices",
-  "Peer support groups",
   "Somatic therapy",
   "Sound Healing",
-  "Reiki"
+  "Reiki",
+  "Healing Sessions"
 ]
 credentials = [ ]
 trainings = """
 Certified Reiki Master, Sound Healing, End Of Life Doula 
-She studied reiki Level 2 with Lisa Levine.
-She got Reiki Master certificate May 2019 with Erika Spring.
-She is certified sound healing practitioner trained with Katie Down and Jessica Caplan(February 2020).
-She was training for end of life doula at INELDA (certified June 2021) 
+
 """
 languages = [ "English", "Japanese" ]
 new_clients = "Yes"
@@ -63,7 +60,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "10am-8pm"
 +++
-
 
 Mariko is originally from Japan.  She has been living in NYC. Her intuitive, creative mind is open to make art and music.  Her mind is always open to start new things.  It was life changing to become a Reiki Practitioner after she had life tragic events on 2016.  Her spiritual journey never ends as she continues to study and practice.
 
