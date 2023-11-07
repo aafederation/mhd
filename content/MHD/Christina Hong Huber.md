@@ -16,8 +16,8 @@ best_way_to_contact = [ "Email" ]
 payment_types = [ ]
 sliding_scale_clinical = true
 payment_info_clinical = """
-Please see my website for the most up to date session fee costs.
-I am an out of network provider.  I reserve a few spots for sliding scale cases.
+$150-250/session (depending on length of session)
+
 """
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
@@ -67,9 +67,13 @@ psychotherapy_types = [
   "Trauma-informed",
   "Integrative Therapy"
 ]
-non_clinical_services = [ ]
+non_clinical_services = [
+  "Consulting",
+  "Meditation/mindfulness practices",
+  "Psychoeducation"
+]
 credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-trainings = ""
+trainings = "Trainings: ACT, CBT, TF-CBT, CPT, EMDR, EFT, IBCT, short-term psychodynamic therapy"
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = "Please email me to inquire about availability"
