@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Christina Hong Huber"
 highlight = false
 program = "Compassionate Integrative Therapy, LLC"
@@ -79,7 +79,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "10 AM - 5 PM, Monday - Friday"
 +++
-
 
 Dr. Christina Hong Huber is a licensed clinical psychologist based in Washington, D.C. where she runs her own private practice. Before starting her own practice, she worked at a group practice, and before that at Swarthmore College’s Counseling and Psychological Services. Dr. Hong Huber also has experience in outpatient and inpatient hospitals, community mental health clinics, a private school, and other private practices and college counseling centers. She works with undergraduate and graduate students as well as working professionals in fields such as medicine, law, and consulting.
 
