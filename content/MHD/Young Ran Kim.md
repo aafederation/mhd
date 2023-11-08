@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Young Ran Kim"
 highlight = false
 program = ""
@@ -90,5 +90,4 @@ staff_gender = [ "Female" ]
   day_hours = "9am to 6pm"
 +++
 
-
-Clinical psychologist / Psychoanalyst 
+Clinical psychologist / Psychoanalyst
