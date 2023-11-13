@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Kent Yuen"
 highlight = false
 program = ""
@@ -62,17 +62,21 @@ psychotherapy_specialties = [
 ]
 psychotherapy_types = [ "Relational Therapy" ]
 non_clinical_services = [ ]
-credentials = [ ]
-trainings = ""
-languages = [ ]
+credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
+trainings = "MBA"
+languages = [ "Chinese (Cantonese)", "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = "Yes"
-staff_gender = [ ]
+staff_gender = [ "Male" ]
+
+  [[locations.public_transportation]]
+  transport_option = "MTA"
+
+  [[locations.hours_of_operation]]
+  day_hours = "9am-7pm"
 +++
 
-
 My goal in working with clients is to help them live the life they want. I believe in providing a safe and supportive environment for clients to explore their thoughts and feelings. Clients seek therapy for a variety of reasons and I work hard to provide a safe, non judgemental space.
-
 
 I use my training in relational psychoanalysis as well as my own experiences in working with clients to explore, reflect and discuss their needs and goals.
