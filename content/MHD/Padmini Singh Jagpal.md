@@ -64,13 +64,13 @@ public_transportation = [ ]
 staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Tues -Thursday 10am - 9pm"
+  day_hours = "Sunday 9am - 3pm  "
 
   [[locations.hours_of_operation]]
   day_hours = "Monday 3pm - 9pm "
 
   [[locations.hours_of_operation]]
-  day_hours = "Sunday 9am - 3pm  "
+  day_hours = "Tues -Thursday 10am - 9pm"
 +++
 
 As an Indo-Caribbean-American mental health counselor, I bring a deep understanding and empathy to those grappling with mental health challenges. I know firsthand the cultural stigmas that often accompany these struggles. Growing up in a Guyanese household where emotions weren't openly discussed, I've experienced feelings of being misunderstood or ostracized after being vulnerable. I want you to know that I recognize these unique experiences and identities that shape our mental health perspectives.
