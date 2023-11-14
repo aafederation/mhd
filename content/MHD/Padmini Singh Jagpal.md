@@ -1,18 +1,18 @@
 +++
-ada_compliant = false
-age_groups = [ "Youth and Teenagers (14 to 19)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Padmini Singh Jagpal"
+highlight = false
+program = ""
+website = ""
 email = "psinghjagpal@lotusoasisllc.com"
 facebook = ""
-highlight = false
-image = "/img/copy-of-padmini-jagpal-singh-mhc-8-padmini-singh-jagpal.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Padmini Singh Jagpal"
-payment_info_clinical = "Starting at $125"
-payment_info_non_clinical = ""
+best_way_to_contact = [ "Email" ]
 payment_types = [
   "UnitedHealthcare",
   "Oxford",
@@ -21,29 +21,24 @@ payment_types = [
   "Blue Cross/Blue Shield",
   "Aetna"
 ]
-payment_types_non_clinical = [ ]
-program = ""
 sliding_scale_clinical = true
+payment_info_clinical = "Starting at $200"
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
+payment_info_non_clinical = ""
+ada_compliant = false
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = ""
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Youth and Teenagers (14 to 19)", "Adults (19 to 64)" ]
+image = "/img/copy-of-padmini-jagpal-singh-mhc-8-padmini-singh-jagpal.jpg"
 
 [[locations]]
 address = ""
-boroughs = [ "Online" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "917-725-7903"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Trauma/PTSD",
@@ -58,23 +53,34 @@ psychotherapy_specialties = [
   "Anxiety"
 ]
 psychotherapy_types = [ "Solution-focused Therapy", "Cognitive Behavioral Therapy" ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Monday - Thursday: 10 am - 9 pm"
+  day_hours = "Tues -Thursday 10am - 9pm"
 
   [[locations.hours_of_operation]]
-  day_hours = "Friday: 9 am - 4 pm"
+  day_hours = "Monday 3pm - 9pm "
 
   [[locations.hours_of_operation]]
-  day_hours = "Sunday: 10 am - 2 pm"
+  day_hours = "Sunday 9am - 3pm  "
 +++
 
-Seeking therapy can be anxiety provoking, especially finding someone you can connect to. I get that the task is daunting but it takes a lot of courage to be here, right now. You’re taking the first step. I'm sure you have a multitude of situations going on whether it's having a hard time processing the feelings you're feeling, challenges, stress, unpack traumatic events, navigating the world or experience a more loving self, it is a lot and oftentimes scary. Let’s work it out together. My aim as a counselor is to create a safe space where you can freely discuss these situations or feelings and examine healthier choices.  
-  
-I’d like to explore who you are as an individual, then work with you to apply methods that work best with you. My approach is grounded in mindfulness, person-centered, and involves cognitive behavior therapy; I believe this unique blend can find a way.  
-  
-As a Indo-Caribbean-American born, I understand the stigma behind mental health and I approach therapy using a Multicultural lens that incorporates your views and your identity into the therapy process. It took a lot of courage to be here, to read this, thank you. If you're ready to move forward, to begin your healing journey, feel free to email/call.
+As an Indo-Caribbean-American mental health counselor, I bring a deep understanding and empathy to those grappling with mental health challenges. I know firsthand the cultural stigmas that often accompany these struggles. Growing up in a Guyanese household where emotions weren't openly discussed, I've experienced feelings of being misunderstood or ostracized after being vulnerable. I want you to know that I recognize these unique experiences and identities that shape our mental health perspectives.
+
+My therapeutic approach incorporates a multicultural lens, using evidence-based practices such as mindfulness, person-centered therapy, and cognitive-behavioral therapy. I create a safe and inclusive space that respects your values and beliefs. Whether you're navigating a mental health condition, seeking to improve relationships, or working through past traumas, I am here to support you.
+
+You can expect a safe, non-judgmental space to explore your thoughts and feelings in our sessions. I'm passionate about helping you develop self-awareness and cultivate mindfulness in your everyday life. By nurturing these skills, we can foster inner peace and better equip you to manage difficult emotions.
+
+I'm particularly aware of the harmful narratives that can affect our lives—like feeling shamed for being vulnerable or gaslighting ourselves into thinking our problems don't exist. I want to challenge these perspectives. I aim to deconstruct the stigmas surrounding mental health, encouraging you to see your feelings as strengths, not signs of weakness or immaturity
+
+Building trust with you is a process I respect. I want to earn your trust, not demand it. And as we journey together, I'll remind you that having these feelings does not make you 'different' or inferior. It's okay to cry; it's okay to feel.
+
+I invite you to take a brave step towards your well-being. I offer a 15-minute consultation to determine if we're a good fit for each other. You're free to reach out to me at [psinghjagpal@lotusoasisllc.com](mailto:psinghjagpal@lotusoasisllc.com) to start your healing journey. Together, we can foster healing, mindfulness, and self-awareness.
