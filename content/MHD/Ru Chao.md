@@ -21,7 +21,7 @@ sliding_scale_non_clinical = true
 payment_info_non_clinical = "depending on package"
 ada_compliant = false
 telehealth = "Yes"
-tags = [ ]
+tags = [ "individual" ]
 client_requirements = ""
 age_groups = [
   "Youth and Teenagers (14 to 19)",
