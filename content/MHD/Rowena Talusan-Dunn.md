@@ -35,7 +35,7 @@ image = "/img/E5DE62FC-8BDE-4409-91D1-4AFB47482872 - Rowena Talusan-Dunn.jpg"
 [[locations]]
 address = "25 Wheeler Avenue #203 Pleasantville, NY 10570"
 latLng = "41.1347832, -73.7916805"
-boroughs = [ "Online" ]
+boroughs = [ "Online", "Westchester" ]
 phone_number = "(646)846-1609"
 services = [ "Art therapy", "Psychotherapy" ]
 psychotherapy = true
