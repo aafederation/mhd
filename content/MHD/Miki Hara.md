@@ -34,7 +34,7 @@ image = "/img/DSC_9633 - Miki Yoshida.jpg"
 [[locations]]
 address = "121 Montgomery Ave. Suite A Scarsdale, NY 10583"
 latLng = "40.9786243, -73.8056509"
-boroughs = [ ]
+boroughs = [ "Westchester", "Online" ]
 phone_number = "646 401 1969"
 services = [ "Psychotherapy" ]
 psychotherapy = true
