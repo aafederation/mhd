@@ -22,6 +22,7 @@ Please inquire to discuss sliding scale options. """
 telehealth = "Yes"
 tags = [ "individual" ]
 age_groups = [ "Adults (19 to 64)" ]
+image = "/img/reiki and sound waves logo  - mei leung.jpg"
 
 [[locations]]
 address = "FloLo Holistic Wellness 39 West 56th St, 5th Floor New York, NY 10019"
@@ -31,6 +32,4 @@ phone_number = ""
 services = [ ]
 +++
 
-
-Reiki Master and Sound Bowl Practitioner Holistic Energy worker 
-
+Reiki Master and Sound Bowl Practitioner Holistic Energy worker
