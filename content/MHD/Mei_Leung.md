@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Mei Leung "
 highlight = false
 program = "Reiki and Sound Waves "
@@ -16,5 +16,4 @@ best_way_to_contact = [ "Email" ]
 payment_types = [ ]
 +++
 
-Reiki Master and Sound Bowl Practitioner Holistic Energy worker 
-
+Reiki Master and Sound Bowl Practitioner Holistic Energy worker
