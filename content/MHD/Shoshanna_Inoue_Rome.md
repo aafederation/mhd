@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Shoshanna Inoue Rome "
 highlight = false
 program = "Shoshanna Rome Mental Health Counseling"
@@ -28,5 +28,4 @@ If I do not take your insurance, I can assist with finding out information about
 payment_types_non_clinical = [ ]
 +++
 
-I am a New York State licensed mental health counselor. As a Japanese American who grew up in Japan, I’m committed to providing a welcoming and inclusive environment for all. I offer virtual sessions and have limited in-person hours at my office in Hastings-On-Hudson. I provide caring and compassionate psychotherapy specializing in perinatal mental health, maternal mental health, anxiety, depression, trauma, mood disorders, and issues surrounding racial and identity. 
-
+I am a New York State licensed mental health counselor. As a Japanese American who grew up in Japan, I’m committed to providing a welcoming and inclusive environment for all. I offer virtual sessions and have limited in-person hours at my office in Hastings-On-Hudson. I provide caring and compassionate psychotherapy specializing in perinatal mental health, maternal mental health, anxiety, depression, trauma, mood disorders, and issues surrounding racial and identity.
