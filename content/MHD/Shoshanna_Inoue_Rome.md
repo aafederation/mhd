@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Shoshanna Inoue Rome "
 highlight = false
 program = "Shoshanna Rome Mental Health Counseling"
