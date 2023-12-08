@@ -36,7 +36,7 @@ age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
 image = "/img/Huffstickler_Crystal_Default_Headshot - Crystal Hufstickler.jpg"
 
 [[locations]]
-address = "Dietz Street, Oneonta NY"
+address = "Oneonta, NY"
 latLng = "42.4564462, -75.0629443"
 boroughs = [ "Online" ]
 phone_number = "607 386 1356"
