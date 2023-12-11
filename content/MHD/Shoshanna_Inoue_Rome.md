@@ -78,8 +78,8 @@ psychotherapy_types = [
 non_clinical_services = [ ]
 credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = """
-Infant, Adolescence, and Family, Mental Health      
-Birth and Postpartum Doula       """
+Masters in Counseling from University of Wisconsin-Madison. 
+Infant, early childhood, and family mental health Capstone Fellow from University of Wisconsin-Madison. """
 languages = [ "English", "Japanese" ]
 new_clients = "Yes"
 new_clients_detail = """
