@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Sandy Huang"
 highlight = false
 program = "Cognitive Therapy for Women"
@@ -74,4 +74,3 @@ staff_gender = [ "Female" ]
 +++
 
 Dr. Huang obtained her PhD in clinical psychology from Columbia University and completed her residency training at Bellevue Hospital. Dr. Huang’s approach to therapy is grounded in her clinical and research background on psychological flexibility. She fosters a balance of compassionate understanding of oneself and proactive change toward a life shaped by personal values. Dr. Huang utilizes evidence-based cognitive behavioral approaches to help women manage and gain greater insight into their anxiety, stress, and mood and relationship issues. Her style is warm, empathic and nonjudgmental, with an emphasis on genuine communication and active collaboration. Dr. Huang encourages clients to be curious with her about their internal experiences as they explore together how certain patterns of thinking and behaving have been learned and shaped over time, and how these patterns have helped and/or hindered clients’ experiences in life. Dr. Huang amplifies with clients their strengths and empowers them to ‘test’ new ways of being to get ‘unstuck’ as they navigate stressful, painful moments in their work and personal lives.
-
