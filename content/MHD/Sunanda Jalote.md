@@ -27,7 +27,7 @@ payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = false
-telehealth = "Not applicable"
+telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
@@ -76,7 +76,14 @@ psychotherapy_specialties = [
   "Trauma/PTSD",
   "Women's issues"
 ]
-psychotherapy_types = [ "Cognitive Behavioral Therapy" ]
+psychotherapy_types = [
+  "Cognitive Behavioral Therapy",
+  "Dialectical Behavioral Therapy",
+  "Trauma-informed",
+  "Supportive Therapy",
+  "Internal Family Systems",
+  "Narrative therapy"
+]
 non_clinical_services = [ ]
 credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
@@ -90,6 +97,4 @@ staff_gender = [ "Other" ]
   day_hours = "Tuesday-Friday 11am - 6pm"
 +++
 
-
 I am from India, I love the colour purple, and wish I was a mermaid. As a therapist, I believe in helping to make mental healthcare more accessible to marginalized populations, especially sexual and gender minorities and folx of color; communities who have often needed the most care because of the deep impact of systemic discrimination and marginalization but have had the least access to it, including folx not based entirely in the US. In therapy, I utilize an integrative lens, tailoring the approach to what suits clients best; foundations often include IFS, multicultural, feminist, and relational perspective. Therapy needs to b a collaborative process, where the client and therapist co-create what it looks like. I try my best to balance out power dynamics and love getting feedback from clients on what will make sessions more helpful.
-
