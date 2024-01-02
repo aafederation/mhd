@@ -1,47 +1,46 @@
 +++
+draft = false
+org = "Jinhee Lee"
+highlight = false
+program = ""
+website = "https://jjleeart.myportfolio.com/"
+email = "jjleetherapy@gmail.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Cigna" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$100 - $200 "
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = ""
 ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)",
   "Preteens and Tweens (11 to 13)"
 ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
-email = "jjleetherapy@gmail.com"
-facebook = ""
-highlight = false
 image = "/img/3fef20ee-f421-4b0e-b03e-2da7c26cd54c_rw_1200-jenny-lee.jpg"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Jinhee Lee"
-payment_info_clinical = "$100 - $200 "
-payment_info_non_clinical = ""
-payment_types = [ "N/A" ]
-payment_types_non_clinical = [ "N/A" ]
-program = ""
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://jjleeart.myportfolio.com/"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online", "Manhattan" ]
-credentials = [ "Licensed Creative Arts Therapist" ]
-gender_identification = [ ]
-languages = [ "Korean", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation", "Meditation/mindfulness practices" ]
-parking = ""
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "347-773-5540"
+services = [
+  "Substance use/addiction and support services",
+  "Psychotherapy",
+  "Medication management",
+  "Art therapy"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -83,15 +82,15 @@ psychotherapy_types = [
   "Solution-focused Therapy",
   "Couples Therapy"
 ]
-public_transportation = [ ]
-services = [
-  "Substance use/addiction and support services",
-  "Psychotherapy",
-  "Medication management",
-  "Art therapy"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation", "Meditation/mindfulness practices" ]
+credentials = [ "Licensed Creative Arts Therapist" ]
 trainings = ""
+languages = [ "Korean", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = ""
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Inquire within "
