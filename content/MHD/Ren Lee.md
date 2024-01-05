@@ -88,9 +88,6 @@ staff_gender = [ "Gender-neutral", "Nonbinary", "Transgender", "Genderqueer" ]
   day_hours = "Friday 11am - 2pm"
 +++
 
-
-I believe in community care, liberation, growth, joy, resilience, healing, and justice. We live within various systems and institutions that impact how we navigate our lives in relation to each other. I am here to invite and support you in exploring connections to yourself, your communities, and the world around you. I am passionate about working with intersectional identities of race, gender, sexuality, and neurodivergence and focus around issues of relationships, trauma, transitions, and alternative lifestyles (such as kink/BDSM, polyamory, ethical non-monogamy, etc.).
-
-I am a queer, trans/nonbinary (they/he/佢 pronouns), neurodivergent, polyamorous, 2nd generation Chinese American (born to immigrant parents). My experiences and work are shaped by my identities, how I create and sustain joy, and community. I find it incredibly fulfilling to continuously build relationships through empathy, curiosity, and compassion.
-
-My approach is rooted in liberation and relational work through anti-oppressive, anti-racist, and decolonizing lens, and includes modalities such as psychodynamics, somatic work, narrative therapy, and mindfulness.
+I believe in community care, liberation, growth, joy, resilience, healing, and justice. We live within various systems and institutions that impact how we navigate our lives in relation to each other. I am here to invite and support you in exploring connections to yourself, your communities, and the world around you. I am passionate about working with intersectional identities of race, gender, sexuality, and neurodivergence and focus around issues of relationships, trauma, transitions, and alternative lifestyles (such as kink/BDSM, polyamory, ethical non-monogamy, etc.). <br>
+I am a queer, trans/nonbinary (they/he/佢 pronouns), neurodivergent, polyamorous, 2nd generation Chinese American (born to immigrant parents). My experiences and work are shaped by my identities, how I create and sustain joy, and community. I find it incredibly fulfilling to continuously build relationships through empathy, curiosity, and compassion. <br>
+My approach is rooted in liberation and relational work through anti-oppressive, anti-racist, and decolonizing lens, and includes modalities such as psychodynamics, somatic work, narrative therapy, and mindfulness. <br>
