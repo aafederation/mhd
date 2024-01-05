@@ -118,11 +118,7 @@ staff_gender = [ "Female" ]
   day_hours = "Saturdays 12:30 pm EST"
 +++
 
-
-Dr. Fullchange is a Taiwanese-American, multilingual, licensed psychologist (New York #025725-01; Texas #37995), credentialed National Register Health Service Psychologist (HSP), and a Nationally Certified School Psychologist (NCSP #51456).
-
-She received her Ph.D. in Counseling, Clinical & School Psychology from the University of California, Santa Barbara through a prestigious Doctoral Scholars Fellowship award. She then completed her pre-doctoral internship and post-doctoral fellowship at the nonprofit Momentous Institute in Dallas, Texas where she became a staff psychologist and supervisor of doctoral and master's level psychology students. She has published book chapters, written articles, and presented on social-emotional health, trauma, burnout, empathy, resilience, race and anti-racism, and identity at the intersection of mental health and education.
-
-She has worked with families in numerous capacities for almost 20 years as a former public school teacher and school leader in Oakland, California, an educational consultant in Title I schools nationwide, and now as a clinical psychologist, founder of Fullchange Therapy, and speaker.
-
-Dr. Fullchange has a passion for empowering others to reach their fullest potentials by cultivating understanding of individual and collective strengths and resilience.
+Dr. Fullchange is a Taiwanese-American, multilingual, licensed psychologist (New York #025725-01; Texas #37995), credentialed National Register Health Service Psychologist (HSP), and a Nationally Certified School Psychologist (NCSP #51456). <br>
+She received her Ph.D. in Counseling, Clinical & School Psychology from the University of California, Santa Barbara through a prestigious Doctoral Scholars Fellowship award. She then completed her pre-doctoral internship and post-doctoral fellowship at the nonprofit Momentous Institute in Dallas, Texas where she became a staff psychologist and supervisor of doctoral and master's level psychology students. She has published book chapters, written articles, and presented on social-emotional health, trauma, burnout, empathy, resilience, race and anti-racism, and identity at the intersection of mental health and education. <br>
+She has worked with families in numerous capacities for almost 20 years as a former public school teacher and school leader in Oakland, California, an educational consultant in Title I schools nationwide, and now as a clinical psychologist, founder of Fullchange Therapy, and speaker. <br>
+Dr. Fullchange has a passion for empowering others to reach their fullest potentials by cultivating understanding of individual and collective strengths and resilience. <br>
