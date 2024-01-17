@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Eri Kubota"
 highlight = false
 program = ""
@@ -67,5 +67,4 @@ staff_gender = [ "Female" ]
   day_hours = "Monday, Tuesday, Thursday, Friday and Saturday 9-6pm "
 +++
 
-
-I am a Japanese clinical psychologist who works in New York and Connecticut. Received doctoral degree from Clinical Psychology Health concentration doctoral program at Yeshiva University. Primarily working with people with moderate to light anxiety, depression and some attachment trauma. I practice a particular psychotherapy called AEDP (Accelerated Experiential Dynamic Psychotherapy). This is a type of therapy that focuses on emotions, somatic and relational experiences happening at the present moment in therapy. If someone is feeling wondering what it means to be her/himself and/or not quite feeling the need of therapy, but would like to explore her/himself and learn about and improve self, please work with me to ride the journey together! 
+I am a Japanese clinical psychologist who works in New York and Connecticut. Received doctoral degree from Clinical Psychology Health concentration doctoral program at Yeshiva University. Primarily working with people with moderate to light anxiety, depression and some attachment trauma. I practice a particular psychotherapy called AEDP (Accelerated Experiential Dynamic Psychotherapy). This is a type of therapy that focuses on emotions, somatic and relational experiences happening at the present moment in therapy. If someone is feeling wondering what it means to be her/himself and/or not quite feeling the need of therapy, but would like to explore her/himself and learn about and improve self, please work with me to ride the journey together!
