@@ -37,7 +37,7 @@ image = "/img/Tara Gore Headshot - Tara Gore.jpg"
 
 [[locations]]
 address = """
-90 Broad Street, New York, NY 10004
+90 Broad Street, New York, NY 10004;
 3298 Victory Blvd, Staten Island, NY 10314"""
 latLng = ""
 boroughs = [ "Manhattan", "Staten Island" ]
