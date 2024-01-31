@@ -30,7 +30,7 @@ image = "/img/Picture - Carole Taylor-Tumilty.jpg"
 address = "276 5th Avenue, New York, NY 10001"
 latLng = "40.7459698, -73.9869095"
 boroughs = [ "Online" ]
-phone_number = ""
+phone_number = "917-984-3209"
 services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
@@ -76,7 +76,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Based upon availability"
 +++
-
 
 I am a licensed clinical social worker who works with people in New York City and throughout New York state. I specialize in working with individuals including female identifying clients, members of the Asian American community, and mixed-race individuals who would like to explore and heal from trauma. <br>
 Whether you’re grappling with questions about career, relationships, race, identity, spirituality, or beyond, I provide a safe, non-judgmental space to collaboratively explore your present-day concerns. We’ll also explore how your past informs your responses and reactions to what is happening to you in your day-to-day life. <br>
