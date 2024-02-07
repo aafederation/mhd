@@ -18,7 +18,9 @@ sliding_scale_clinical = false
 payment_info_clinical = ""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-payment_info_non_clinical = "$99/hour"
+payment_info_non_clinical = """
+$140 for health and wellness coaching;
+$99/hour for yoga teaching"""
 ada_compliant = true
 telehealth = "Yes"
 tags = [ "individual" ]
@@ -41,7 +43,7 @@ services = [ ]
 psychotherapy = false
 psychotherapy_specialties = [ ]
 psychotherapy_types = [ ]
-non_clinical_services = [ "Breathwork", "Yoga" ]
+non_clinical_services = [ "Breathwork", "Yoga", "Coaching" ]
 credentials = [ ]
 trainings = "Certified Trauma Specialist, Certified Yoga teacher, Certified Health coach"
 languages = [ "English" ]
@@ -56,6 +58,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday-Friday 9-6pm"
 +++
-
 
 Ruchi Kumar is a learning specialist, educational therapist, socio-emotional mental health and certified health coach who obtained her Bachelor’s degree from Cornell University and a Master’s degree in Clinical Psychology from Columbia University. Ruchi holds a second Master’s degree, also from Columbia, specializing in teaching children with disabilities and has a post-graduate certificate in clinical practice from New York University. She also has an advanced certificate in mental health counseling holding her provisional license. For the areas of health and wellness, she obtained certifications from the Institute for Integrative Nutrition and the American Council of Exercise and is also a member of the American Association for Drugless Practitioners. Ruchi works as a high school learning specialist, private tutor/educational therapist and a socio-emotional health and wellness coach, where she uses principles of mindfulness, positive psychology and DBT skills to help her clients achieve better health and reach their goals. She also teaches yoga and dance. Her positive psychology model of coaching operates on a strength-based model which identifies and uses client’s strengths to work on their weaknesses.
