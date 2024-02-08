@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Pio Cabada"
 highlight = false
 program = ""
@@ -107,5 +107,4 @@ staff_gender = [ "Male" ]
   day_hours = "varies, send me an email"
 +++
 
-
-I approach my work integratively and holistically. 
+I approach my work integratively and holistically.
