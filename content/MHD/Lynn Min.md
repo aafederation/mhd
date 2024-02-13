@@ -20,7 +20,7 @@ $250
 Eligible for out-of-network reimbursements, depending on client's insurance benefits"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-payment_info_non_clinical = "Please inquire"
+payment_info_non_clinical = ""
 ada_compliant = false
 telehealth = "Yes"
 tags = [ "individual" ]
@@ -81,7 +81,7 @@ psychotherapy_types = [
   "Emotion Focused Therapy",
   "Other "
 ]
-non_clinical_services = [ "Breathwork", "Reiki", "Somatic therapy", "Yoga" ]
+non_clinical_services = [ ]
 credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = "Psychedelic (Ketamine) Assisted Psychotherapy, Plant Medicine Integration, EFT, CBT, Hypnotherapy, Breathwork, Somatic Coaching, Sound Healing"
 languages = [ "Korean" ]
@@ -97,8 +97,7 @@ staff_gender = [ "Female" ]
   day_hours = "By Appointment Only"
 +++
 
-
-I believe every dysfunction, every disorder, and every pain was somehow born to cope with life and protect the best parts of us. In the journey towards healing, we all need a power greater than ourselves (call it God, love, or family...) to provide acceptance, support, and a safe place to unravel. Counseling is an invitation to come and be; to take an honest look at yourself for who and what you really are; to realize your issues make sense; and to have compassion for all parts of you so you can holistically heal and function at your full potential. <br>
+<br>
 I believe every dysfunction, every disorder, and every pain was somehow born to cope with life and protect the best parts of us. In the journey towards healing, we all need a power greater than ourselves (call it God, love, or family...) to provide acceptance, support, and a safe place to unravel. Counseling is an invitation to come and be; to take an honest look at yourself for who and what you really are; to realize your issues make sense; and to have compassion for all parts of you so you can holistically heal and function at your full potential. <br>
 It's a sacred space where it's ok not to be ok. A place to think about why we do what we do. A place to express all of the different voices in our heads. A place to feel unveiled and free.
 A place to be present in the now, reaching back into our pasts and out into our future. A place to explore the rich complexity of our human selves. <br>
