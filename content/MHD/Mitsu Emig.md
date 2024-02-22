@@ -1,5 +1,28 @@
 +++
+draft = true
+org = "Mitsu Emig"
+highlight = false
+program = "Mitsu Hypnosis NY LLC"
+website = "https://www.mitsuny.com/"
+email = "mitsuhypnosisny@gmail.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Phone", "Email" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = false
+payment_info_clinical = "$250/session"
+payment_types_non_clinical = [ "Out-of-Network Insurances" ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = "$250/session"
 ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
@@ -7,42 +30,14 @@ age_groups = [
   "Preteens and Tweens (11 to 13)",
   "Children (6 to 10)"
 ]
-best_way_to_contact = [ "Phone", "Email" ]
-client_requirements = ""
-email = "mitsuhypnosisny@gmail.com"
-facebook = ""
-highlight = false
 image = "/img/559065d3-17ec-42fc-8bdc-f84e42d564f3-mitsu-emig.jpeg"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Mitsu Emig"
-payment_info_clinical = "$250/session"
-payment_info_non_clinical = "$250/session"
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ "Out-of-Network Insurances" ]
-program = "Mitsu Hypnosis NY LLC"
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.mitsuny.com/"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "245 Fifth Avenue 3rd floor, New York, NY "
-boroughs = [ "Manhattan" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-languages = [ "Japanese", "English" ]
 latLng = "40.744622668447526, -73.98716020674692"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Meditation/mindfulness practices", "Hypnotherapy" ]
-parking = "Street parking"
+boroughs = [ "Manhattan" ]
 phone_number = "917-488-6175"
+services = [ "Psychotherapy", "Psychiatric evaluation" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -79,8 +74,14 @@ psychotherapy_specialties = [
   "Anger management"
 ]
 psychotherapy_types = [ "Cognitive Behavioral Therapy" ]
+non_clinical_services = [ "Meditation/mindfulness practices", "Hypnotherapy" ]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
+trainings = "CHT"
+languages = [ "Japanese", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "Street parking"
 public_transportation = [ ]
-services = [ "Psychotherapy", "Psychiatric evaluation" ]
 staff_gender = [
   "Transgender",
   "Nonbinary",
@@ -88,7 +89,6 @@ staff_gender = [
   "Male",
   "Female"
 ]
-trainings = "CHT"
 
   [[locations.hours_of_operation]]
   day_hours = "Saturday: 9 am - 6 pm"
