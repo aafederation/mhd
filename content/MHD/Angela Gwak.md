@@ -68,9 +68,7 @@ psychotherapy_types = [
 ]
 non_clinical_services = [ "Psychoeducation" ]
 credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-trainings = """
-Master's degree in Couples and Family Therapy (MFT)
-Doctoral degree in Counseling Psychology from Columbia University"""
+trainings = "Master's degree in Couples and Family Therapy (MFT); Doctoral degree in Counseling Psychology from Columbia University"
 languages = [ "English", "Korean" ]
 new_clients = "Yes"
 new_clients_detail = ""
