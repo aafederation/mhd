@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "S.K. Lee"
 highlight = false
 program = "Launch Lab"
@@ -53,7 +53,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-Sa (8am-8pm PT)"
 +++
-
 
 Former founder turned certified coach + investor in ambitious teams and novel technologies which make the world more awesome + help more humans realize fully lived lives. <br>
 Coach and trusted advisor to badass leaders, startup founders, executives, investors, and female athletes. Over 500+ clients at venture-backed startups across industries, Fortune 100 & top NGOs. 1000+ hrs of 1:1 coaching with LAUNCH COACHING LAB alumni around the world. Clients referred by top VCs: General Catalyst, Sequoia, Khosla, M13 and accelerators. <br>
