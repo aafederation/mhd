@@ -7,7 +7,7 @@ website = "https://www.asianmhc.org/therapists/cheryl-taruc-lcsw/"
 email = "ct.social.work@gmail.com"
 facebook = ""
 twitter = ""
-instagram = "https://www.instagram.com/ctsocialwork/"
+instagram = "www.instagram.com/ctsocialwork/"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -116,7 +116,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Please enquire to schedule"
 +++
-
 
 Cheryl is a Filipina LCSW with a background in community organizing and social justice practice. Chicago-born, with a Bay Area spirit and Brooklyn soul. She has been a practicing therapist since 2013 and has worked in community mental health throughout the 5 boroughs, in residential, shelter, veteran and youth/family settings. <br>
 As a therapist, Cheryl values self-determination, intersectionality and structural analysis, approaching each session with curiosity, compassion and belief that change and connection is always possible. She specializes in treatment of anxiety, depression, life transitions and relationship challenges. She has extensive training in grief and loss, trauma, substance use, peri- and post-natal care, and integrated/holistic practices. <br>
