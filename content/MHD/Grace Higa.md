@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Grace Higa"
 highlight = false
 program = "Balanced Mind"
@@ -78,4 +78,4 @@ staff_gender = [ "Female" ]
   day_hours = "M-F, 10a-6p"
 +++
 
-I believe therapy means making you feel deeply known and accepted. My approach centers on harnessing your unique strengths in building the bridge between where you are and where you want to be. 
+I believe therapy means making you feel deeply known and accepted. My approach centers on harnessing your unique strengths in building the bridge between where you are and where you want to be.
