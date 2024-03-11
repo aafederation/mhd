@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Angela Risius"
 highlight = false
 program = "Balanced Mind"
@@ -76,8 +76,8 @@ non_clinical_services = [
   "Brainspotting"
 ]
 credentials = [ "LMSW (Licensed Master Social Worker)" ]
-trainings = ""
-languages = [ "Chinese (Mandarin)", "English", "German" ]
+trainings = "I engage in ongoing professional development and have attended trainings around Veteran/Military communities and Transgender communities.  Other training topics include Gottman Method Couples Therapy, Structural Racism and supporting Black Lives, CBT, Substance Use."
+languages = [ "Chinese (Mandarin)", "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = ""
