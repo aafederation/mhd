@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Kyoko Sagara"
 highlight = false
 program = "Kyoko Sagara (private practice)"
@@ -133,5 +133,4 @@ staff_gender = [ "Female" ]
   day_hours = "Tuesday to Friday and some weekends "
 +++
 
-
-I practice Gestalt psychotherapy. And I use techniques that are creative, experiential and transformational. I help clients become aware of their existing energy and power which will lead to a meaningful life. 
+I practice Gestalt psychotherapy. And I use techniques that are creative, experiential and transformational. I help clients become aware of their existing energy and power which will lead to a meaningful life.
