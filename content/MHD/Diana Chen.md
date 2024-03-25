@@ -3,7 +3,7 @@ draft = false
 org = "Diana Chen"
 highlight = false
 program = "Diana Chen, PhD."
-website = "www.psychologytoday.com/us/therapists/diana-chen-new-york-ny"
+website = "https://www.psychologytoday.com/us/therapists/diana-chen-new-york-ny/1113544"
 email = "dianachenphd28@gmail.com"
 facebook = ""
 twitter = ""
@@ -99,5 +99,4 @@ staff_gender = [ "Female" ]
   day_hours = "W: 9-12"
 +++
 
-
-I, Diana Chen, PhD, am a clinical psychologist working in a private practice in Manhattan. I believe we all the power to transform life's challenges and difficulties into opportunities for healing. I offer a warm accepting environment that allows people to voice their thoughts and feelings openly without fear of disapproval or rejection. 
+I, Diana Chen, PhD, am a clinical psychologist working in a private practice in Manhattan. I believe we all the power to transform life's challenges and difficulties into opportunities for healing. I offer a warm accepting environment that allows people to voice their thoughts and feelings openly without fear of disapproval or rejection.
