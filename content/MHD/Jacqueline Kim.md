@@ -76,7 +76,7 @@ trainings = "Dialectical Behavior Therapy (DBT); Complicated Grief Treatment (CG
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = """
-I have offices in Brooklyn and NJ (main office).  I can provide telehealth therapy to patients in South Carolina.
+I have offices in Brooklyn and NJ (main office).  I can provide telehealth therapy to patients in NY, NJ, and South Carolina.
 """
 parking = "Yes"
 staff_gender = [ "Female" ]
@@ -88,5 +88,4 @@ staff_gender = [ "Female" ]
   day_hours = "9am- 9 pm and by appointment"
 +++
 
-
-I am trained in Dialectical Behavior Therapy from Behavioral Tech. I treat both adolescents and adults who struggle with a variety of emotional and behavioral issues. DBT is a skills based program that has been effective in teaching individuals to replace destructive behaviors with more effective skills. I am also a candidate in psychoanalytic training and am excited to provide psychodynamically-driven sessions. 
+I am trained in Dialectical Behavior Therapy from Behavioral Tech. I treat both adolescents and adults who struggle with a variety of emotional and behavioral issues. DBT is a skills based program that has been effective in teaching individuals to replace destructive behaviors with more effective skills. I am also a candidate in psychoanalytic training and am excited to provide psychodynamically-driven sessions.
