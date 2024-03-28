@@ -5,9 +5,9 @@ highlight = false
 program = "Healizm"
 website = "https://healizm.com/"
 email = "office@healizm.com"
-facebook = "https://www.facebook.com/healizm"
+facebook = "facebook.com/healizm"
 twitter = ""
-instagram = "https://www.instagram.com/healizmmentalhealth/"
+instagram = "@healizmmentalhealth "
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -109,6 +109,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday-Friday: 8 am - 5 pm "
 +++
-
 
 Dr. Nahil Chohan is a Board Certified Psychiatrist and the founder of Healizm, committed to a personalized approach in mental health care. She integrates psychotherapy, mindful medication management, and holistic practices, all while building a partnership grounded in open communication and transparency. Specializing in treating anxiety, depression, and trauma, Dr. Chohan focuses on nurturing personal wellness and a purposeful life for her patients.
