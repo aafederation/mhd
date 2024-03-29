@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Amanda Nguyen"
 highlight = false
 program = "ANguyen Therapy"
@@ -34,6 +34,40 @@ tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
 image = "/img/AN Headshot Photo - Amanda Nguyen.jpg"
+
+[[locations]]
+address = ""
+latLng = ""
+boroughs = [ "Online" ]
+phone_number = "516-512-7093"
+services = [ "Psychotherapy" ]
+psychotherapy = true
+psychotherapy_specialties = [
+  "Anxiety",
+  "ADHD",
+  "Depression",
+  "Insomnia and sleep issues",
+  "Obsessive compulsive disorder",
+  "Racial and cultural identity",
+  "Relationship issues",
+  "Stress"
+]
+psychotherapy_types = [
+  "Cognitive Behavioral Therapy",
+  "Supportive Therapy",
+  "Solution-focused Therapy"
+]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
+trainings = "Certificate in CBT-I (CBT for Insomnia), TEAM-CBT Level 2 certified"
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = "I am able to accept new clients, I am in network with several major health insurance groups, and I also offer a sliding scale."
+parking = ""
+staff_gender = [ "Female" ]
+
+  [[locations.hours_of_operation]]
+  day_hours = "9-6pm, M-F"
 +++
 
 At the center of my therapy practice is a safe, nonjudgemental, and supportive space for all clients.\ <br>
