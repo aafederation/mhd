@@ -111,7 +111,7 @@ function toggleAcc(el) {
     panel.style.maxHeight = null;
   } else {
     // panel.style.maxHeight = panel.scrollHeight + "px";
-    panel.style.maxHeight = "190px";
+    panel.style.maxHeight = "400px";
   }
 }
 
@@ -135,7 +135,7 @@ function toggleAcc(el) {
   //   }
   // });
   //Eventlistener to clear all filters
-  clearAllFilters.addEventListener('click', function () {
+  clearAllFilters.addEventListener("click", function () {
     htf.showCheckFromSearch();
   });
 
