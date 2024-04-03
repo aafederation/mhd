@@ -80,7 +80,9 @@ non_clinical_services = [
   "Psychoeducation"
 ]
 credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-trainings = "Certified CyberScan® Healthcare Professional by AussiMed Biocybernetic Medicine in Buchen, Germany (2015)"
+trainings = """
+Certified CyberScan® Healthcare Professional by AussiMed Biocybernetic Medicine in Buchen, Germany (2015)
+Post-Abortion Healing; PTSD, Children & Adolescent Interventions"""
 languages = [ "English", "Tagalog" ]
 new_clients = "Yes"
 new_clients_detail = ""
