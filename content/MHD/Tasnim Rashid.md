@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Tasnim Rashid"
 highlight = false
 program = "Aware Mental Health Counseling PLLC"
@@ -71,5 +71,4 @@ staff_gender = [ "Female" ]
   day_hours = "Sunday 9AM-5PM"
 +++
 
-
-I have 10 years of experience working with adults, adolescents and couples. As a Licensed Mental Health Counselor I practice CBT, EFT and ABA to support my clients with anxiety, depression, family and lifestyle struggles and relationship conflicts. 
+I have 10 years of experience working with adults, adolescents and couples. As a Licensed Mental Health Counselor I practice CBT, EFT and ABA to support my clients with anxiety, depression, family and lifestyle struggles and relationship conflicts.
