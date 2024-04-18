@@ -40,7 +40,7 @@ services = [
   "Psychotherapy",
   "Substance use/addiction and support services"
 ]
-psychotherapy = false
+psychotherapy = true
 psychotherapy_specialties = [
   "Addiction/recovery",
   "Adoption and foster care",
@@ -92,7 +92,6 @@ staff_gender = [ "Nonbinary" ]
   [[locations.hours_of_operation]]
   day_hours = "Select evening hours; Fridays"
 +++
-
 
 Please note that I am cash pay only for clients in New York State.\ <br>
 I approach therapy using psychodynamic, psychoanalytic, and feminist lenses. I believe that therapy is most effective and meaningful when done collaboratively and hope to work together to understand how your past relationships and experiences shape who you are today. In particular, I wish to explore how your past influences your thoughts, feelings, and behaviors- all within your sociopolitical context. <br>
