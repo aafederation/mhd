@@ -48,7 +48,7 @@ psychotherapy_types = [
   "Supportive Therapy"
 ]
 non_clinical_services = [ ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = ""
 languages = [ "English" ]
 new_clients = "Yes"
