@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Gina Kim"
 highlight = false
 program = "Avena Psychological Services "
@@ -59,7 +59,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9 am - 7 pm "
 +++
-
 
 I am a NY and NJ based LMSW with Avena Psychological Services. I earned my Bachelor’s degree in Youth and Community Studies, Social Services from The University of Texas at Austin and my Master’s degree in Advance Clinical Practice from Columbia University. My experience as a therapist has primarily been with individuals, couples, and polycules for a diverse range of issues, including but not restricted to gender, sex, and sexuality with specific expertise regarding working with LGBTQ+ folx, trauma, and sex/kink/BDSM. My previous work at Gender & Sexuality Therapy Center helped water and blossom my competency in working
 with trans, non-binary and queer identities, gender, sexuality, poly/non-monogamy, kink, BDSM, fetishes, sexual functioning, sexual anxiety, compulsive sexual behaviors, relationship conflict, infidelity, desire differences in relationships, parents with LGBTQ or gender/sexuality questioning children, conflicts of faith and/or spirituality with gender and sexuality, depression, anxiety, and HIV/AIDS. Thus, I pride myself in practicing a non-discriminatory,queer-affirming, kink positive, anti-oppressive, PROP, trauma-informed, HAES, holistic, and culturally competent lens to be a human solace to those seeking warmth in their lives and to myself.
