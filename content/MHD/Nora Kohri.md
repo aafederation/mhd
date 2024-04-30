@@ -5,7 +5,7 @@ highlight = false
 program = "Care the World"
 website = "www.caretheworld.com"
 email = "care.world@gmail.com"
-facebook = "https://www.facebook.com/nora.kohri.5"
+facebook = "@nora.kohri.5"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -109,7 +109,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9:00 am - 9:00 pm"
 +++
-
 
 Nora Kohri is an International Mental Health Counselor. She is a Licensed Clinical Social Worker (LCSW). She is an overseas birth and parenting consultant and launched “Care the World” website in 1998. She is an educator on topics such as “Healthy relationship”, “Anger Management”, “Parenting”, "Stress Management", "Dealing with trauma" and more. Expert in areas such as Adjustment Disorder, Inter-cultural marriage, Relationship issues, Identity crisis, Adult third culture kids, Issues with domestic helpers, Domestic violence, Emotional abuse, Self-esteem issues, Depression, Anxiety, Social anxiety, Fear, Loneliness, Perfectionism, Anger management, Stress, Trauma, Life transitions, Bereavement, etc <br>
 She serves as a Certified Medical Interpreter specializing in pediatrics, obstetrics gynecology, and dentistry. <br>
