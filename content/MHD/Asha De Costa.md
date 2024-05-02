@@ -1,43 +1,37 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Website" ]
-client_requirements = ""
+draft = false
+org = "Asha De Costa"
+highlight = false
+program = ""
+website = "https://secure.helloalma.com/providers/asha-de-costa/"
 email = "asha@ashawellbeing.com"
 facebook = ""
-highlight = false
-image = "/img/asha-de-costa.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Asha De Costa"
-payment_info_clinical = "$140 - $200"
-payment_info_non_clinical = ""
-payment_types = [ "UnitedHealthcare", "Oxford", "Optum", "Aetna" ]
-payment_types_non_clinical = [ "N/A" ]
-program = ""
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://secure.helloalma.com/providers/asha-de-costa/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Website" ]
+payment_types = [ "UnitedHealthcare", "Oxford", "Optum", "Aetna" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$140 - $200"
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = ""
+ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = "I see adults (21 years of age and over)"
+age_groups = [ ]
+image = "/img/asha-de-costa.jpg"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online", "Manhattan" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-gender_identification = [ ]
-languages = [ "Japanese", "English" ]
 latLng = ""
-new_clients = "No"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "347-837-1545"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Stress",
@@ -54,10 +48,15 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = "MBTI Certified "
+languages = [ "Japanese", "English" ]
+new_clients = "No"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "See my website for up-to-date information about my availability. "
