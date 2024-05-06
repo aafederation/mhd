@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Nora Kohri"
 highlight = false
 program = "Care the World"
@@ -33,20 +33,13 @@ address = ""
 latLng = ""
 boroughs = [ "Online" ]
 phone_number = "914 712 8757"
-services = [
-  "Psychological testing and assessment",
-  "Psychotherapy",
-  "Substance use/addiction and support services"
-]
+services = [ "Psychological testing and assessment", "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
-  "Addiction/recovery",
   "Anger management",
   "Anxiety",
-  "ADHD",
   "Attachment issues",
   "Behavioral issues",
-  "Bipolar disorder",
   "Caregiver stress and support",
   "Codependency",
   "Coping skills",
@@ -63,35 +56,28 @@ psychotherapy_specialties = [
   "Intellectual disability",
   "Mood disorders",
   "Obesity",
-  "Obsessive compulsive disorder",
-  "Oppositional defiance",
   "Panic attacks/disorder",
   "Parenting",
   "Personality disorders",
-  "Phobias/fears",
   "Pregnancy, perinatal, and postpartum mental health",
   "Premarital/marital",
   "Racial and cultural identity",
   "Relationship issues",
   "Self-esteem",
-  "Self-harming",
   "Sexual abuse",
   "Sexual harassment and assault",
   "Sexual health/dysfunction",
   "Spirituality",
   "Stress",
-  "Suicidal ideation",
-  "Teen violence",
   "Trauma/PTSD",
   "Weight loss",
   "Women's issues"
 ]
 psychotherapy_types = [
   "Cognitive Behavioral Therapy",
-  "Couples Therapy",
-  "Trauma-informed",
   "Supportive Therapy",
-  "Solution-focused Therapy"
+  "Solution-focused Therapy",
+  "Psychoanalysis"
 ]
 non_clinical_services = [
   "Meditation/mindfulness practices",
@@ -99,7 +85,9 @@ non_clinical_services = [
   "Psychoeducation"
 ]
 credentials = [ "LMSW (Licensed Master Social Worker)" ]
-trainings = "Certified Medical Interpreter in Japanese"
+trainings = """
+Columbia University, School of Social Work
+Additional credentials:  LCSW (Licensed Clinical Social Worker), MSW (Master in Social Work), Certified Medical Interpreter in Japanese"""
 languages = [ "English", "Japanese" ]
 new_clients = "Yes"
 new_clients_detail = ""
@@ -112,3 +100,4 @@ staff_gender = [ "Female" ]
 
 Nora Kohri is an International Mental Health Counselor. She is a Licensed Clinical Social Worker (LCSW). She is an overseas birth and parenting consultant and launched “Care the World” website in 1998. She is an educator on topics such as “Healthy relationship”, “Anger Management”, “Parenting”, "Stress Management", "Dealing with trauma" and more. Expert in areas such as Adjustment Disorder, Inter-cultural marriage, Relationship issues, Identity crisis, Adult third culture kids, Issues with domestic helpers, Domestic violence, Emotional abuse, Self-esteem issues, Depression, Anxiety, Social anxiety, Fear, Loneliness, Perfectionism, Anger management, Stress, Trauma, Life transitions, Bereavement, etc <br>
 She serves as a Certified Medical Interpreter specializing in pediatrics, obstetrics gynecology, and dentistry. <br>
+She is also a Healthy Life Consultant and Down-sizing advisor.
