@@ -1,44 +1,39 @@
 +++
-ada_compliant = false
-age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Ami Shah"
+highlight = false
+program = "Shah Psychotherapy Services "
+website = "https://southasiantherapists.org/therapist/ami-shah-psyd/"
 email = "info@dramishah.com"
 facebook = ""
-highlight = false
-image = ""
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Ami Shah"
-payment_info_clinical = "$150 per session"
-payment_info_non_clinical = ""
-payment_types = [ "N/A" ]
-payment_types_non_clinical = [ ]
-program = "Shah Psychotherapy Services "
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://southasiantherapists.org/therapist/ami-shah-psyd/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Medicare" ]
+sliding_scale_clinical = false
+payment_info_clinical = """
+$200/session 
+in network with Original Medicare """
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+image = ""
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-culturally_competent_treatment = "Completed dissertation research on the East Asian and South Asian American population and the impact of autonomy/relatedness as well as intergenerational family conflict on emotional well-being."
-gender_identification = [ "Female" ]
-languages = [ "Gujarati", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "‪(561) 781-0065"
+services = [ "Psychotherapy", "Psychological testing and assessment" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -51,13 +46,11 @@ psychotherapy_specialties = [
   "Mood disorders",
   "Insomnia and sleep issues",
   "Identity development",
-  "Grief, loss, and bereavement",
   "Family conflict",
   "Emotional disturbance",
   "Depression",
   "Cultural adjustment",
   "Coping skills",
-  "Chronic pain",
   "Caregiver stress and support",
   "Behavioral issues",
   "Attachment issues",
@@ -70,13 +63,20 @@ psychotherapy_types = [
   "Solution-focused therapy",
   "Supportive therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy", "Psychological testing and assessment" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
 trainings = "Yes - doctorate program courses "
+languages = [ "Gujarati", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "8 am - 6 pm"
+  day_hours = "9 AM - 4 PM "
 +++
 
-I’m a clinical psychologist with a specialization in working with adults and geriatric clients with a range of cognitive and socio-emotional challenges. My clinical interests and specialties include treating clients with comorbid anxiety, depression, insomnia, chronic pain, PTSD/trauma, grief and loss, anger and stress management, neurocognitive disorders, caregiver burden (including those caregiving loved ones w/dementia, stroke, TBI), and a range of issues related to multiculturalism in health care.
+Hello, I’m Dr. Shah! <br>
+The goal in therapy is for you to become the best version of yourself. My clinical specialties include working with adult and older adult clients with anxiety, depression, East and South Asian intergenerational trauma, grief and loss, anger and stress management, relationship stress, and support for caregivers of loved ones with dementia. I enjoy use of  Western and Eastern medicine in the therapeutic process. Additionally, I am passionate about exploring and treating unique stressors associated with late-life to promote positive aging in our community.   <br>
+Please email me if you are interested in scheduling a 15-minute complimentary phone/video consultation.
