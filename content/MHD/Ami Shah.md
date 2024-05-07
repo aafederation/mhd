@@ -26,7 +26,7 @@ telehealth = "Yes"
 tags = [ "Individual Provider" ]
 client_requirements = ""
 age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-image = ""
+image = "/img/Profile Pic - Ami Shah.jpg"
 
 [[locations]]
 address = "Online"
