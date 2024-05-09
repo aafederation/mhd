@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 org = "Michelle Nguyen"
 highlight = false
 program = ""
-website = ""
+website = "https://www.michellenguyentherapy.com/"
 email = "michellen.nyc@gmail.com"
 facebook = ""
 twitter = ""
@@ -30,7 +30,7 @@ image = "/img/IMG_2407 - Michelle Nguyen.jpg"
 address = ""
 latLng = ""
 boroughs = [ "Online" ]
-phone_number = "646-740-4390"
+phone_number = ""
 services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
@@ -60,4 +60,4 @@ staff_gender = [ "Female" ]
   day_hours = "7am - 4pm"
 +++
 
-I help people who want to improve their confidence, reduce their stress and challenge their people-pleasing and risk-averse behavior. I utilize emotion-focused and EMDR methods to help clients feel better. 
+I help people who want to improve their confidence, reduce their stress and challenge their people-pleasing and risk-averse behavior. I utilize emotion-focused and EMDR methods to help clients feel better.
