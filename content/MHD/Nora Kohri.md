@@ -37,7 +37,7 @@ services = [ ]
 psychotherapy = false
 psychotherapy_specialties = [ ]
 psychotherapy_types = [ ]
-non_clinical_services = [ "Psychoeducation", "Coaching" ]
+non_clinical_services = [ "Psychoeducation", "Coaching", "Life Coaching" ]
 credentials = [ ]
 trainings = """
 Columbia University, School of Social Work
@@ -52,6 +52,6 @@ staff_gender = [ "Female" ]
   day_hours = "9:00 am - 9:00 pm"
 +++
 
-Nora Kohri is an International Mental Health Counselor. She is a Licensed Clinical Social Worker (LCSW) in Delaware. She is an overseas birth and parenting consultant and launched “Care the World” website in 1998. She is an educator on topics such as “Healthy relationship”, “Anger Management”, “Parenting”, "Stress Management", "Dealing with trauma" and more. Expert in areas such as Adjustment Disorder, Inter-cultural marriage, Relationship issues, Identity crisis, Adult third culture kids, Issues with domestic helpers, Domestic violence, Emotional abuse, Self-esteem issues, Depression, Anxiety, Social anxiety, Fear, Loneliness, Perfectionism, Anger management, Stress, Trauma, Life transitions, Bereavement, etc <br>
-She serves as a Certified Medical Interpreter specializing in pediatrics, obstetrics gynecology, and dentistry. <br>
-She is also a Healthy Life Consultant and Down-sizing advisor.
+Nora Kohri is an International Mental Health Counselor. She is a Licensed Clinical Social Worker (LCSW) in Delaware. She is an overseas birth and parenting consultant and launched “Care the World” website in 1998. She is an educator on topics such as “Healthy relationship”, “Anger Management”, “Parenting”, "Stress Management", "Dealing with trauma" and more. Expert in areas such as Adjustment Disorder, Inter-cultural marriage, Relationship issues, Identity crisis, Adult third culture kids, Issues with domestic helpers, Domestic violence, Emotional abuse, Self-esteem issues, Depression, Anxiety, Social anxiety, Fear, Loneliness, Perfectionism, Anger management, Stress, Trauma, Life transitions, Bereavement, etc <br> <br>
+She is a Healthy Life Consultant and Down-sizing advisor. <br>
+She also serves as a Certified Medical Interpreter specializing in pediatrics, obstetrics gynecology, and dentistry. <br>
