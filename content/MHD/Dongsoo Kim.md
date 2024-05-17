@@ -99,4 +99,4 @@ staff_gender = [ "Male" ]
 +++
 
 I am a bilingual clinical neuropsychologist and clinical psychologist licensed in NJ and NY. <br>
-Clinical services include Neuropsychological/psychological/forensic assessments, Psychotherapy.
+Clinical services include Neuropsychological/psychological/forensic assessments and Psychotherapy.
