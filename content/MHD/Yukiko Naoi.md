@@ -7,7 +7,7 @@ website = "www.rest-nyc.com"
 email = "info@rest-nyc.com"
 facebook = ""
 twitter = ""
-instagram = "https://www.instagram.com/rest_acupuncture/?hl=en"
+instagram = "@rest_acupuncture"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -68,6 +68,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sat 11AM-4PM"
 +++
-
 
 Founded in 2014, REST offers a safe and tranquil space in Lower East Side, NYC, providing affordable acupuncture sessions that can become a regular part of your self-care routine. Relax your mind and body, allowing yourself to enter a meditative state and find the balance you seek.
