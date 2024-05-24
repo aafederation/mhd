@@ -1,43 +1,37 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Website" ]
-client_requirements = ""
+draft = false
+org = "Grace Huntley"
+highlight = false
+program = "Grace Huntley Counseling"
+website = "https://www.gracehuntleycounseling.com/"
 email = "hello@gracehuntleycounseling.com"
 facebook = "@gracehuntleycounseling"
-highlight = false
-image = "/img/c61c3312-388c-4503-942f-84b2fad005fe-grace-huntley.png"
+twitter = ""
 instagram = "@gracehuntleycounseling"
 linkedin = "https://www.linkedin.com/company/grace-huntley-counseling"
-medium = ""
-org = "Grace Huntley"
-payment_info_clinical = "$150-250 per session."
-payment_info_non_clinical = ""
-payment_types = [ "UnitedHealthcare", "Oxford", "Aetna" ]
-payment_types_non_clinical = [ "N/A" ]
-program = "Grace Huntley Counseling"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.gracehuntleycounseling.com/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Website" ]
+payment_types = [ "UnitedHealthcare", "Oxford", "Oscar" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$210-250/session"
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/c61c3312-388c-4503-942f-84b2fad005fe-grace-huntley.png"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-gender_identification = [ ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = "Limited availability of time slots."
-non_clinical_services = [ ]
-parking = "No"
-phone_number = "917-336-7622"
+boroughs = [ "Online" ]
+phone_number = "917-274-7478"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -67,17 +61,15 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
+trainings = "Licensed in NY, CA, WA, and Certified in FL"
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = "Limited availability of time slots."
+parking = "No"
 public_transportation = [ ]
-services = [ "Psychotherapy" ]
 staff_gender = [ "Female" ]
-trainings = ""
-
-  [[locations.hours_of_operation]]
-  day_hours = "Monday - Friday: 10 am - 5 pm. Extended hours from 5 pm - 7 pm on Mondays, Tuesdays, and Thursdays. Start at 9 am on Fridays. "
 +++
 
-As a mental health counselor, I provide the time and space for people to tell, understand, and learn from their stories and experiences. 
-
-I work with a variety of clients and topics but have the most experience working with college students and young professionals. 
-
-I help my clients navigate life transitions, identify and overcome negative patterns, and gain the skills and confidence they need to find better solutions. Areas of specialty are career and transitions, emerging adulthood, adoption, anxiety, depression, romantic obstacles, and trauma.
+I help people who excel at taking care of others, take better care of themselves. If you fall into the camp of people pleasing, avoiding conflict, or overachieving, I’m for you. If you feel burned out or unsure of who you are or what you want, we can figure out your next steps together. Start today to build more confidence and security in yourself and your relationships.
