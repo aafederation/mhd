@@ -1,44 +1,40 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Website" ]
-client_requirements = ""
+draft = true
+org = "Hui Ting Kok"
+highlight = false
+program = ""
+website = "https://www.huitingkok.com/ "
 email = "Huiting@huitingkok.com"
 facebook = ""
-highlight = false
-image = "/img/hui-ting-kok.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Hui Ting Kok"
-payment_info_clinical = "$175 (60min intake); $150 (45min session)"
-payment_info_non_clinical = ""
-payment_types = [ "N/A" ]
-payment_types_non_clinical = [ ]
-program = ""
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.huitingkok.com/ "
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Website" ]
+payment_types = [ "N/A" ]
+sliding_scale_clinical = false
+payment_info_clinical = "$175 (60min intake); $150 (45min session)"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/hui-ting-kok.jpg"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online", "Manhattan" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-culturally_competent_treatment = "Yes, in graduate programs and continuing education through conferences and workshops."
-gender_identification = [ "Female" ]
-languages = [ "Chinese (Cantonese)", "English", "Chinese (Mandarin)" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation", "Meditation/mindfulness practices" ]
-parking = "No"
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "929-229-2205"
+services = [
+  "Substance use/addiction and support services",
+  "Psychotherapy"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Trauma/PTSD",
@@ -63,13 +59,15 @@ psychotherapy_types = [
   "Trauma-informed",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [
-  "Substance use/addiction and support services",
-  "Psychotherapy"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation", "Meditation/mindfulness practices" ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = "CASAC, CBT, EMDR"
+languages = [ "Chinese (Cantonese)", "English", "Chinese (Mandarin)" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 6 pm"
