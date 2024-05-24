@@ -7,7 +7,7 @@ website = "www.helixmhc.com"
 email = "huiting@helixmhc.com"
 facebook = ""
 twitter = ""
-instagram = "https://www.instagram.com/helixmhc/"
+instagram = "@helixmhc"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -72,7 +72,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Mon-Fri 9-5pm"
 +++
-
 
 I’m Hui Ting, a Licensed Mental Health Counselor and a Credentialed Alcoholism and Substance Abuse Counselor in New York. I walk with individuals who are committed to gaining clarity and finding peace and purpose in life.\ <br>
 I specialize in helping people to come to “a-ha” moments, break free from flawed beliefs and engage in behavioral changes. <br>
