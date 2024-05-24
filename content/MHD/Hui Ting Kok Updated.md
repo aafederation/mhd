@@ -73,6 +73,6 @@ staff_gender = [ "Female" ]
   day_hours = "Mon-Fri 9-5pm"
 +++
 
-I’m Hui Ting, a Licensed Mental Health Counselor and a Credentialed Alcoholism and Substance Abuse Counselor in New York. I walk with individuals who are committed to gaining clarity and finding peace and purpose in life.\ <br>
+I’m Hui Ting, a Licensed Mental Health Counselor and a Credentialed Alcoholism and Substance Abuse Counselor in New York. I walk with individuals who are committed to gaining clarity and finding peace and purpose in life. <br>
 I specialize in helping people to come to “a-ha” moments, break free from flawed beliefs and engage in behavioral changes. <br>
 I’m dedicated to helping you discover how past experiences influence your current thoughts, feelings, and behaviors. If you’re sick of repeating the negative patterns and want to reset your life, I’m your person. <br>
