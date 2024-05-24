@@ -1,46 +1,41 @@
 +++
+draft = true
+org = "Jamy Drapeza"
+highlight = false
+program = "Sixth Street Wellness (NY), Magnolia Mental Health (DC)"
+website = "https://www.jamydoestherapy.com/"
+email = "jdrapeza@sixthstreetwellness.com"
+facebook = "@magnoliamhealth"
+twitter = "@magnoliamhealth"
+instagram = "@thegaysiantherapist, @sixthstreetwellness, @magnoliamhealth"
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "N/A" ]
+sliding_scale_clinical = false
+payment_info_clinical = "$125 for individual sessions, $200 for couples"
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = "$60 per session for peer groups"
 ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)",
   "Preteens and Tweens (11 to 13)"
 ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
-email = "jdrapeza@sixthstreetwellness.com"
-facebook = "@magnoliamhealth"
-highlight = false
 image = "/img/jamy-drapeza-87-jamy-drapeza.jpg"
-instagram = "@thegaysiantherapist, @sixthstreetwellness, @magnoliamhealth"
-linkedin = ""
-medium = ""
-org = "Jamy Drapeza"
-payment_info_clinical = "$125 for individual sessions, $200 for couples"
-payment_info_non_clinical = "$60 per session for peer groups"
-payment_types = [ "N/A" ]
-payment_types_non_clinical = [ "N/A" ]
-program = "Sixth Street Wellness (NY), Magnolia Mental Health (DC)"
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = "@magnoliamhealth"
-website = "https://www.jamydoestherapy.com/"
-youtube = ""
 
 [[locations]]
 address = "116 W 23rd Street, Suite 500, New York, NY 10011"
-boroughs = [ "Online", "Manhattan" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-gender_identification = [ "Genderqueer", "Nonbinary", "Female" ]
-languages = [ "English" ]
 latLng = "40.74300666643894, -73.99347882416929"
-new_clients = "Yes"
-new_clients_detail = "All clients are telehealth only, I am not taking in-person clients. "
-non_clinical_services = [ "Peer support groups" ]
-parking = "No"
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "646-791-2708"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -65,16 +60,20 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female", "Nonbinary", "Genderqueer" ]
+non_clinical_services = [ "Peer support groups" ]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = ""
-
-  [[locations.hours_of_operation]]
-  day_hours = "11 am - 7 pm"
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = "All clients are telehealth only, I am not taking in-person clients. "
+parking = "No"
+staff_gender = [ "Female", "Nonbinary", "Genderqueer" ]
 
   [[locations.public_transportation]]
   transport_option = "F train"
-+++
 
+  [[locations.hours_of_operation]]
+  day_hours = "11 am - 7 pm"
++++
 
 Hi, I'm Jamy! I am a queer therapist of color, continuing a matrilineal tradition of four generations serving communities as healers and caregivers. This family value led me to pursue a Master’s in Social Work, and I now combine my love of service and healthy living to support my clients in healing for healthier futures.
