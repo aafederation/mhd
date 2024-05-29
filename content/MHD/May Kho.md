@@ -1,47 +1,45 @@
 +++
+draft = false
+org = "May Kho"
+highlight = false
+program = "Headway.co"
+website = "https://headway.co/"
+email = "maykholmhc@gmail.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ ]
+payment_types = [ "Oscar", "UnitedHealthcare", "Oxford", "Cigna", "Aetna" ]
+sliding_scale_clinical = true
+payment_info_clinical = "I take certain insurances, which will dictate the cost for service. Sliding scale starts at $200 per session."
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
 ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)",
   "Preteens and Tweens (11 to 13)"
 ]
-best_way_to_contact = [ ]
-client_requirements = ""
-email = "maykholmhc@gmail.com"
-facebook = ""
-highlight = false
 image = "/img/maykho0064_hr-may-kho-1.jpg"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "May Kho"
-payment_info_clinical = "I take certain insurances, which will dictate the cost for service. Sliding scale starts at $200 per session."
-payment_info_non_clinical = ""
-payment_types = [ "Oscar", "UnitedHealthcare", "Oxford", "Cigna", "Aetna" ]
-payment_types_non_clinical = [ ]
-program = "Headway.co"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://headway.co/"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = "I have mainly afternoon weekday availability at this time"
-non_clinical_services = [ ]
-parking = ""
+boroughs = [ "Online" ]
 phone_number = "917-727-1061"
+services = [
+  "Substance use/addiction and support services",
+  "Psychotherapy"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -74,23 +72,25 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [
-  "Substance use/addiction and support services",
-  "Psychotherapy"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = "I have mainly afternoon weekday availability at this time"
+parking = ""
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "11am - 9pm"
+  day_hours = "10am--8pm"
 +++
 
-Many people seek therapy because they feel stuck, hopeless, or confused. It takes courage to ask for help and address hard issues causing hardship or stress. Whether you are struggling with self-esteem issues, anxiety, depression, addiction, or just having a tough time shaking the feeling that something's not quite right, starting therapy can be a great way to explore those issues. With a compassionate and collaborative approach, I will create a safe environment for us to identify what is holding you back from living a happier and healthier life. 
+Many people seek therapy because they feel stuck, hopeless, or confused. It takes courage to ask for help and address hard issues causing hardship or stress. Whether you are struggling with self-esteem issues, anxiety, depression, addiction, or just having a tough time shaking the feeling that something's not quite right, starting therapy can be a great way to explore those issues. With a compassionate and collaborative approach, I will create a safe environment for us to identify what is holding you back from living a happier and healthier life.
 
 <br>
 
-With a background in psychodynamics and trauma-informed care, I believe many problems are rooted in the attachments and relationship dynamics we form with others early in life. By gaining awareness of our own interpersonal habits and patterns, we are empowered to create new connections with others in a healthy manner. 
+With a background in psychodynamics and trauma-informed care, I believe many problems are rooted in the attachments and relationship dynamics we form with others early in life. By gaining awareness of our own interpersonal habits and patterns, we are empowered to create new connections with others in a healthy manner.
 
 <br>
 
