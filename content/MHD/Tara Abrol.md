@@ -5,7 +5,7 @@ highlight = false
 program = "BIG Talks Workshops "
 website = "www.bigtalksworkshops.com "
 email = "tara@bigtalksworkshops.com "
-facebook = "@bigtalkingtara"
+facebook = ""
 twitter = ""
 instagram = "@bigtalkingtara"
 linkedin = ""
@@ -81,6 +81,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Wednesday, Thursdays, Fridays 12-6 pm "
 +++
-
 
 I am a sex therapist and trauma therapist, and I specialize in treating the intersection of these experiences. I work with children, individuals, and couples. Sexuality and trauma are two of our most vulnerable parts, and all of our parts want to be seen and heard with love and understanding. I support my clients' abilities to do this by helping them gain access to all of the wisdom that exists inside of them. Most of us have been trained to over rely on our thoughts and possess less of a skill set in understanding communication from our bodies and emotions. I utilize somatic techniques, IFS, and mindfulness to help clients increase their capacity to be with themselves and go after what they want.
