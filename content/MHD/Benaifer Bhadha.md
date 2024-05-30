@@ -1,51 +1,41 @@
 +++
+draft = false
+org = "Benaifer Bhadha"
+highlight = false
+program = "Benaifer Bhadha, LCSW"
+website = "https://www.benaiferbhadha.com/"
+email = "benaiferlcsw@gmail.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ ]
+sliding_scale_clinical = true
+payment_info_clinical = "$150 - $250 per session"
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = "$150 - $250 per session"
 ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
-email = "benaiferlcsw@gmail.com"
-facebook = ""
-highlight = false
-image = "/img/img-20210907-wa0144_2-benaifer-bhadha.jpg"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Benaifer Bhadha"
-payment_info_clinical = "$150 - $250 per session"
-payment_info_non_clinical = "$150 - $250 per session"
-payment_types = [ ]
-payment_types_non_clinical = [ "N/A" ]
-program = "Benaifer Bhadha, LCSW"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.benaiferbhadha.com/"
-youtube = ""
-_template = "service_provider"
+image = "/img/20231003_163058.jpg"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-gender_identification = [ ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [
-  "Workshops and trainings",
-  "Psychoeducation",
-  "Meditation/mindfulness practices"
-]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "929-383-0150"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -96,10 +86,19 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Nonbinary" ]
+non_clinical_services = [
+  "Workshops and trainings",
+  "Psychoeducation",
+  "Meditation/mindfulness practices"
+]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Nonbinary" ]
 
   [[locations.hours_of_operation]]
   day_hours = "9 am - 5 pm"
