@@ -1,44 +1,37 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Kim Konopka"
+highlight = false
+program = "Yung Mee Psychotherapy"
+website = "https://www.yungmeepsychotherapy.com/"
 email = "kim@yungmeepsychotherapy.com"
 facebook = ""
-highlight = false
-image = ""
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Kim Konopka"
-payment_info_clinical = "$150 per 45 minute sessions "
-payment_info_non_clinical = ""
-payment_types = [ "N/A" ]
-payment_types_non_clinical = [ ]
-program = "Yung Mee Psychotherapy"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.yungmeepsychotherapy.com/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "N/A" ]
+sliding_scale_clinical = false
+payment_info_clinical = "$160 per 45 minute session"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = ""
 
 [[locations]]
 address = "PO Box 4341 Highland Park, NJ 08904"
-boroughs = [ "Online" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-culturally_competent_treatment = "Yes, my training is/was rooted in intersectional, anti-oppressive, trauma-informed perspectives"
-gender_identification = [ "Nonbinary" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = ""
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Transracial Adoption",
@@ -59,19 +52,18 @@ psychotherapy_types = [
   "Cognitive Behavioral Therapy",
   "Mindfulness-based"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Nonbinary" ]
+non_clinical_services = [ ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Friday: 1 pm - 5 pm"
-
-  [[locations.hours_of_operation]]
-  day_hours = "Monday - Thursday: 5 pm - 7 pm"
-
-  [[locations.hours_of_operation]]
-  day_hours = "Monday - Thursday: 11 am - 2 pm"
+  day_hours = "Mon-Thurs 10am-4pm "
 +++
 
 Kim (they/them) is passionate about supporting people along their healing journeys and paths of self-discovery. Kim doesn’t believe individuals seek out therapy because they are “flawed” or need to be “fixed.” Instead, Kim views therapy as a powerful act of self-care when navigating challenging systems, -isms, circumstances and relationships. Their own lived experience as a neurodivergent Korean adoptee drives their commitment to practicing from a place that holds space for - and celebrates - each person’s multiple and intersecting identities.
