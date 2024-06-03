@@ -1,46 +1,37 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Aditi Verma De"
+highlight = false
+program = "Let's Talk Psychological Wellness, P.C. "
+website = "https://talkingforwellness.com/"
 email = "verma.lmhc@talkingforwellness.com"
 facebook = ""
-highlight = false
-image = "/img/aditi-headshot-aditi-verma.jpg"
+twitter = ""
 instagram = "@talkingforwellness"
 linkedin = "https://www.linkedin.com/company/let-s-talk-psychological-wellness-p-c/"
-medium = ""
-org = "Aditi Verma"
-payment_info_clinical = "$200/session"
-payment_info_non_clinical = ""
-payment_types = [ "Aetna" ]
-payment_types_non_clinical = [ "N/A" ]
-program = "Let's Talk Psychological Wellness, P.C. "
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://talkingforwellness.com/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Aetna" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$200/session"
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/aditi-headshot-aditi-verma.jpg"
 
 [[locations]]
 address = "153 W 27th Street, Suite 300, New York, NY 10001"
-boroughs = [ "Online", "Manhattan" ]
-credentials = [
-  "LMHC (Licensed Mental Health Counselor)",
-  "LPC (Licensed Professional Counselor)"
-]
-gender_identification = [ ]
-languages = [ "English" ]
 latLng = "40.7466996998311, -73.99282002544373"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation" ]
-parking = "No"
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "917-283-0738"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -68,16 +59,24 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation" ]
+credentials = [
+  "LMHC (Licensed Mental Health Counselor)",
+  "LPC (Licensed Professional Counselor)"
+]
 trainings = ""
-
-  [[locations.hours_of_operation]]
-  day_hours = "Monday - Thursday: 9 am - 6 pm"
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+staff_gender = [ "Female" ]
 
   [[locations.public_transportation]]
   transport_option = "NYC MTA (1,2,3, NQRW subway lines) "
+
+  [[locations.hours_of_operation]]
+  day_hours = "Monday - Thursday: 9 am - 6 pm"
 +++
 
-I utilize a multi-cultural framework to work with clients struggling with codependence, relationship conflict, building a healthy self-image and confidence, acculturation and third culture identity formation, and mood fluctuations. As a therapist of color, I recognize the importance of understanding your values and beliefs with cultural respect.<br>  
+I utilize a multi-cultural framework to work with clients struggling with codependence, relationship conflict, building a healthy self-image and confidence, acculturation and third culture identity formation, and mood fluctuations. As a therapist of color, I recognize the importance of understanding your values and beliefs with cultural respect.<br>\
 The core of my therapeutic work is creating a space that encourages support, insight, and change. My aim is to help you draw awareness into developing your own coping strategies, engage in creative problem solving, and highlight your personal strength and resiliency. With a curious perspective, we will work together to allow your story to energize you.
