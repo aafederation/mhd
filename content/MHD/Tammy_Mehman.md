@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Tammy Mehman"
 highlight = false
 program = ""
@@ -21,7 +21,9 @@ payment_types = [
   "UnitedHealthcare"
 ]
 sliding_scale_clinical = true
-payment_info_clinical = ""
+payment_info_clinical = """
+Standard rate $150 per session.  
+Please inquire about insurance and sliding scale. """
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -89,4 +91,4 @@ staff_gender = [ "Female" ]
   day_hours = "M-F with varying and flexible hours!"
 +++
 
-Tammy Mehman (she/her) is a licensed clinical social worker at the Mount Sinai Adolescent Health Center. Here, she sees young adult patients who have experienced sexual assault/intimate partner violence, while also going out into the community to provide gender-based violence prevention education to students and faculty at different colleges and community centers. When she’s not at the clinic, Tammy is a private practice psychotherapist where she sees adults with a range of mental health concerns. She is also certified as a trauma-informed yoga instructor! As a South Asian, Muslim woman- Tammy tends to hold space for intergenerational trauma and wants to debunk the ways that some communities look at mental health by taking a culturally sensitive and trauma informed approach. 
+Tammy Mehman (she/her) is a licensed clinical social worker at the Mount Sinai Adolescent Health Center. Here, she sees young adult patients who have experienced sexual assault/intimate partner violence, while also going out into the community to provide gender-based violence prevention education to students and faculty at different colleges and community centers. When she’s not at the clinic, Tammy is a private practice psychotherapist where she sees adults with a range of mental health concerns. She is also certified as a trauma-informed yoga instructor! As a South Asian, Muslim woman- Tammy tends to hold space for intergenerational trauma and wants to debunk the ways that some communities look at mental health by taking a culturally sensitive and trauma informed approach.
