@@ -7,7 +7,7 @@ website = "https://www.baysidemeditation.org/"
 email = "baysidemeditation@gmail.com"
 facebook = ""
 twitter = ""
-instagram = "https://www.instagram.com/baysidemeditation/"
+instagram = "@baysidemeditation"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -35,7 +35,7 @@ image = "/img/photo - Bayside Meditation.jpg"
 [[locations]]
 address = "4324 220th Pl. Bayside, NY 11361"
 latLng = "40.7620829, -73.7615178"
-boroughs = [ "Queens" ]
+boroughs = [ "Queens", "Online" ]
 phone_number = "718-225-3472"
 services = [ ]
 psychotherapy = false
@@ -57,6 +57,4 @@ staff_gender = [ "Female" ]
   day_hours = "Monday to Friday 9:00 AM - 8:00 PM"
 +++
 
-
-I’m bringing over 25 years of meditation expertise. Originating from Korea and now residing in the U.S., I am passionate about introducing the transformative practice of meditation. 
-
+I’m bringing over 25 years of meditation expertise. Originating from Korea and now residing in the U.S., I am passionate about introducing the transformative practice of meditation.
