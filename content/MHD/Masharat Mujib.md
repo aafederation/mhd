@@ -1,47 +1,41 @@
 +++
-ada_compliant = true
-age_groups = [ ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Masharat Mujib"
+highlight = false
+program = "Masharat Mujib Therapy"
+website = "https://www.masharatmujib.com/"
 email = "masharattherapy@gmail.com"
 facebook = ""
-highlight = false
-image = "/img/2020-05-26-20-10-05-808-masharat-mujib.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Masharat Mujib"
+best_way_to_contact = [ "Email" ]
+payment_types = [ "N/A" ]
+sliding_scale_clinical = true
 payment_info_clinical = """
 Individual sessions - $90
 Couples Sessions - $150
 Family Sessions (2 people) - $150
 Family sessions (3 or more people) - $175+"""
-payment_info_non_clinical = ""
-payment_types = [ "N/A" ]
 payment_types_non_clinical = [ "N/A" ]
-program = "Masharat Mujib Therapy"
-sliding_scale_clinical = true
 sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
+payment_info_non_clinical = ""
+ada_compliant = true
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.masharatmujib.com/"
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ ]
+image = "/img/2020-05-26-20-10-05-808-masharat-mujib.jpg"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-gender_identification = [ ]
-languages = [ "Hindi", "Bangla", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation", "Peer support groups" ]
-parking = ""
+boroughs = [ "Online" ]
 phone_number = "347-201-3478"
+services = [ "Psychotherapy", "Psychological testing and assessment" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -75,10 +69,15 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy", "Psychological testing and assessment" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation", "Peer support groups" ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "Hindi", "Bangla", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = ""
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Sunday: 9 am - 8 pm "
