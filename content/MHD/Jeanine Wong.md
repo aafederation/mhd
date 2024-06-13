@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Jeanine Wong"
 highlight = true
 program = ""
@@ -17,7 +17,7 @@ payment_types = [ "N/A" ]
 sliding_scale_clinical = true
 payment_info_clinical = "Individual $125-175; Couples $250-300"
 payment_types_non_clinical = [ ]
-sliding_scale_non_clinical = true
+sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = false
 telehealth = "Yes"
@@ -67,5 +67,5 @@ staff_gender = [ "Female" ]
   day_hours = "10am-6pm"
 +++
 
-Are you looking for more authenticity in your life? Trying to be more mindful when red flags of comparison or anxiety begin to move in? Or do you feel you are not in a great place in terms of your head or heart but know that you do not want to continue down that rabbit hole?  Then,  the only point of my counseling is to ask, "how can I help you? "As a wife of many years, a mother. and a first generation of immigrant parents, I believe that healing begins with connection. My work experiences are within the areas of personal growth, life planning, family conflict, relationship problems, isolation, bereavement and caregiver stress.
+Are you looking for more authenticity in your life? Trying to be more mindful when red flags of comparison or anxiety begin to move in? Or do you feel you are not in a great place in terms of your head or heart but know that you do not want to continue down that rabbit hole?  Then,  the only point of my counseling is to ask, "how can I help you? "As a wife of many years, a mother. and a first generation of immigrant parents, I believe that healing begins with connection. My work experiences are within the areas of personal growth, life planning, family conflict, relationship problems, isolation, bereavement and caregiver stress. <br>
 I utilize an eclectic combination of modalities-Cognitive Theories, Humanistic/Existential, Post Modern, etc. I do not believe that there is only one way to treat a client's issues.
