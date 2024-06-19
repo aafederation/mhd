@@ -1,44 +1,44 @@
 +++
-ada_compliant = false
-age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Phone" ]
-client_requirements = ""
+draft = false
+org = "Teresa Lee"
+highlight = false
+program = ""
+website = "https://teresaleemd.com/"
 email = "psychiatry@teresaleemd.com"
 facebook = ""
-highlight = false
-image = ""
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Teresa Lee"
-payment_info_clinical = "After the first 10 minutes of a non-session service (ie document review, completion, speaking to insurances or family members), I charge $75 per additional 10 minutes. "
-payment_info_non_clinical = ""
-payment_types = [ ]
-payment_types_non_clinical = [ ]
-program = ""
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://teresaleemd.com/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Phone" ]
+payment_types = [ ]
+sliding_scale_clinical = true
+payment_info_clinical = """
+Group therapy for $75 per held session
+Please inquire regarding individual counseling sessions."""
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+image = ""
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [ "MD (Doctor of Medicine)" ]
-culturally_competent_treatment = ""
-gender_identification = [ "Female" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = "I accept new clients for weekly therapy and medications but not medications alone. I have more room in my practice to accept persons for group therapy. "
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "317-939-3294"
+services = [
+  "Substance use/addiction and support services",
+  "Psychotherapy",
+  "Psychiatric evaluation",
+  "Medication management"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -100,15 +100,17 @@ psychotherapy_types = [
   "Group therapy",
   "Couples Therapy"
 ]
-public_transportation = [ ]
-services = [
-  "Substance use/addiction and support services",
-  "Psychotherapy",
-  "Psychiatric evaluation",
-  "Medication management"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "MD (Doctor of Medicine)" ]
 trainings = "I am a group therapist as well."
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = """
+I am not accepting new patients through 10/1/24
+"""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "11 am - 7 pm"
