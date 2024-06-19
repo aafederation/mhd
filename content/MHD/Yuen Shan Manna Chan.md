@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Yuen Shan Manna Chan"
 highlight = false
 program = "Alcyon Psychotherapy and Coaching"
@@ -92,7 +92,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday to Friday"
 +++
-
 
 Hello,  I'm Manna Chan. I am dedicated to accompanying you on your journey towards mental well-being. With extensive experience in clinical leadership, I've embarked on a mission to establish a vibrant and inclusive mental health practice, where everyone can access the compassionate support they rightfully deserve. <br>
 My Specialty:
