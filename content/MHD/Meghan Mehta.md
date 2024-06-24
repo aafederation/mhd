@@ -1,51 +1,41 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
-best_way_to_contact = [ "Phone" ]
-client_requirements = ""
+draft = true
+org = "Meghan Mehta"
+highlight = false
+program = "Repose"
+website = "byrepose.com"
 email = "meghan@byrepose.com"
 facebook = ""
-highlight = false
-image = "/img/320x400-meghan-sunayna-mehta.jpeg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Meghan Mehta"
-payment_info_clinical = "$200/ session"
-payment_info_non_clinical = ""
+best_way_to_contact = [ "Phone" ]
 payment_types = [
   "Wellfleet (NYU employees only)",
   "Aetna",
   "Out-of-network insurance"
 ]
-payment_types_non_clinical = [ ]
-program = "Repose"
 sliding_scale_clinical = true
+payment_info_clinical = "$200/ session"
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider " ]
+payment_info_non_clinical = ""
+ada_compliant = true
 telehealth = "Not applicable"
-tiktok = ""
-twitter = ""
-website = "byrepose.com"
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
+image = "/img/320x400-meghan-sunayna-mehta.jpeg"
 
 [[locations]]
 address = "276 5th Avenue, New York, NY 10001"
-boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-languages = [ "English", "Urdu", "Hindi" ]
 latLng = "40.746160814375294, -73.98687731349085"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [
-  "Somatic therapy",
-  "Psychoeducation",
-  "Meditation/mindfulness practices",
-  "Breathwork"
-]
-parking = "No"
+boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
 phone_number = "212- 920-1976"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -92,10 +82,20 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [
+  "Somatic therapy",
+  "Psychoeducation",
+  "Meditation/mindfulness practices",
+  "Breathwork"
+]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = ""
+languages = [ "English", "Urdu", "Hindi" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 8 pm"
