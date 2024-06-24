@@ -1,44 +1,41 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ ]
-client_requirements = ""
+draft = true
+org = "Meghan Sunayna Mehta"
+highlight = false
+program = "Repose"
+website = "https://byrepose.com/meghan-sunayna-mehta-lmsw"
 email = "hello@byrepose.com"
 facebook = ""
-highlight = false
-image = "/img/meghan-sunayna-mehta.png"
+twitter = ""
 instagram = "@byrepose"
 linkedin = ""
-medium = ""
-org = "Meghan Sunayna Mehta"
-payment_info_clinical = "$180-225"
-payment_info_non_clinical = ""
-payment_types = [ "Columbia University's Aetna Plan", "NYU's Wellfleet" ]
-payment_types_non_clinical = [ ]
-program = "Repose"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://byrepose.com/meghan-sunayna-mehta-lmsw"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ ]
+payment_types = [ "Columbia University's Aetna Plan", "NYU's Wellfleet" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$180-225"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/meghan-sunayna-mehta.png"
 
 [[locations]]
 address = "276 5th Avenue, New York, NY 10001"
-boroughs = [ "Online", "Manhattan" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-culturally_competent_treatment = "Yes, cultural competency is incorporated into all of my practice. "
-gender_identification = [ "Female" ]
-languages = [ "Urdu", "Punjabi", "Hindi", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation", "Peer support groups", "Breathwork" ]
-parking = "Yes"
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "917-475-6474"
+services = [
+  "Psychotherapy",
+  "Psychological testing and assessment",
+  "Art therapy"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -71,22 +68,23 @@ psychotherapy_types = [
   "Couples therapy",
   "Cognitive Behavioral Therapy"
 ]
-services = [
-  "Psychotherapy",
-  "Psychological testing and assessment",
-  "Art therapy"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation", "Peer support groups", "Breathwork" ]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = "MSW from Columbia University, Trauma Informed Cognitive Behavioral Therapy Certification, Motivational Interviewing Certification"
-
-  [[locations.hours_of_operation]]
-  day_hours = "9 am - 8 pm"
+languages = [ "Urdu", "Punjabi", "Hindi", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "Yes"
+staff_gender = [ "Female" ]
 
   [[locations.public_transportation]]
   transport_option = "Bus"
 
   [[locations.public_transportation]]
   transport_option = "Subway: Q/N/R/W/B/D/F/M"
+
+  [[locations.hours_of_operation]]
+  day_hours = "9 am - 8 pm"
 +++
 
 I’m a South Asian American therapist dedicated to destigmatizing mental health in Desi and other minority communities. My work is built on cultural competency and understanding the many barriers to care unique to minority communities.
