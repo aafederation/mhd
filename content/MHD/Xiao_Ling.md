@@ -1,49 +1,44 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Xiao Ling"
+highlight = false
+program = "Herald Square Psychology PLLC"
+website = "https://www.psychologytoday.com/profile/473506"
 email = "xiaolinghsp@gmail.com"
 facebook = ""
-highlight = false
-image = "/img/0724_2-xiao-ling-1.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Xiao Ling"
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Blue Cross/Blue Shield", "Aetna" ]
+sliding_scale_clinical = false
 payment_info_clinical = """
 My standard price range for clients is $0-140 per 45min session depending on clients' insurance plans.
 
 In addition to therapy appointments, clients will be charged $250/hr for other professional services they may need, though I will break down the hourly cost if we work for periods of less than one hour. So for each 10 minutes I charge $25, 20 minutes $50 and so on. Not covered by insurance.
 
 Other services include report writing, telephone conversations lasting longer than 10 minutes, attendance at meetings with other professionals the clients have authorized, preparation of records or treatment summaries, and the time spent performing any other service the clients may request of me. If the client becomes involved in legal proceedings that require my participation, I charge $300 per hour for preparation and attendance at any legal proceeding because of the difficulty of legal involvement."""
-payment_info_non_clinical = ""
-payment_types = [ "Blue Cross/Blue Shield", "Aetna" ]
 payment_types_non_clinical = [ "N/A" ]
-program = "Herald Square Psychology PLLC"
-sliding_scale_clinical = false
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
+payment_info_non_clinical = ""
+ada_compliant = true
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.psychologytoday.com/profile/473506"
-youtube = ""
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/0724_2-xiao-ling-1.jpg"
 
 [[locations]]
 address = """
 19 W 34th Street, PH, New York, NY 10001 
 (Currently remote only)"""
-boroughs = [ "Online", "Manhattan" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-gender_identification = [ ]
-languages = [ "English", "Chinese (Mandarin)" ]
 latLng = "40.7493678662387, -73.98539714686297"
-new_clients = "Yes"
-new_clients_detail = "Currently I'm conducting teletherapy only. Clients must be above 18. Clients must reside in NY or NJ. I'm unable to accept high-risk clients (e.g. suicidal or homicidal, severe eating disorder, server substance use, etc) due to the limited resources at my practice. "
-non_clinical_services = [ "Psychoeducation" ]
-parking = "No"
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "917-765-4966"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Trauma/PTSD",
@@ -77,15 +72,19 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation" ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "English", "Chinese (Mandarin)" ]
+new_clients = "Yes"
+new_clients_detail = "Currently I'm conducting teletherapy only. Clients must be above 18. Clients must reside in NY or NJ. I'm unable to accept high-risk clients (e.g. suicidal or homicidal, severe eating disorder, server substance use, etc) due to the limited resources at my practice. "
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Mornings before 10:30 am and evenings after 7:30 pm "
 +++
-
 
 I believe there’s no single approach fits in everyone’s needs. Rather, it is important to incorporate different approaches depending on the presenting problems, treatment goals, and cultural backgrounds of the individuals. I value the therapeutic alliance in treatment and approach my clients in a warm, accepting, and supportive way, with a focus upon developing corrective experience.
 
