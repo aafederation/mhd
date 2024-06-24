@@ -15,9 +15,9 @@ medium = ""
 best_way_to_contact = [ "Phone" ]
 payment_types = [
   "Aetna",
-  "UHC (New School employees only)",
   "Oscar",
-  "Out-of-network insurance"
+  "Out-of-network insurance",
+  "UnitedHealthcare"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = "$120/session"
