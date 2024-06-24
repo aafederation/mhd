@@ -1,10 +1,10 @@
 +++
-draft = true
+draft = false
 org = "Meghan Mehta"
 highlight = false
-program = "Repose"
-website = "byrepose.com"
-email = "meghan@byrepose.com"
+program = "Greenberg Psychological Services, PLLC"
+website = "www.greenbergpsychological.com"
+email = "connect@greenbergpsychological.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -14,27 +14,28 @@ tiktok = ""
 medium = ""
 best_way_to_contact = [ "Phone" ]
 payment_types = [
-  "Wellfleet (NYU employees only)",
   "Aetna",
+  "UHC (New School employees only)",
+  "Oscar",
   "Out-of-network insurance"
 ]
 sliding_scale_clinical = true
-payment_info_clinical = "$200/ session"
+payment_info_clinical = "$120/session"
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = true
-telehealth = "Not applicable"
+telehealth = "Yes"
 tags = [ "Individual Provider " ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
 image = "/img/320x400-meghan-sunayna-mehta.jpeg"
 
 [[locations]]
-address = "276 5th Avenue, New York, NY 10001"
-latLng = "40.746160814375294, -73.98687731349085"
-boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
-phone_number = "212- 920-1976"
+address = "808 Union St, Brooklyn, NY 11215"
+latLng = "40.6744353, -73.9758138"
+boroughs = [ "Brooklyn", "Online" ]
+phone_number = "718-407-0218"
 services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
@@ -79,8 +80,9 @@ psychotherapy_types = [
   "Solution-focused Therapy",
   "Trauma-informed",
   "Dialectical Behavioral Therapy",
-  "Couples Therapy",
-  "Cognitive Behavioral Therapy"
+  "Cognitive Behavioral Therapy",
+  "EMDR",
+  "Other "
 ]
 non_clinical_services = [
   "Somatic therapy",
