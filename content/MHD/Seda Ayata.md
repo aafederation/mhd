@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Seda Ayata"
 highlight = false
 program = "New Start Mental Health Counseling"
@@ -102,5 +102,4 @@ staff_gender = [ "Female" ]
   day_hours = "9 am-7 pm"
 +++
 
-
-I specialize in anxiety, depression, relationship issues, ADHD and family issues. 
+I specialize in anxiety, depression, relationship issues, ADHD and family issues.
