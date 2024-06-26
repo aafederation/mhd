@@ -5,7 +5,7 @@ highlight = false
 program = "Deaf Multicultural Counseling"
 website = "https://makotolcsw.clientsecure.me/"
 email = "makoto@deafmulticulturalcounseling.com"
-facebook = "https://www.facebook.com/profile.php?id=100095095613552"
+facebook = "profile.php?id=100095095613552"
 twitter = ""
 instagram = "@deafmulticulturalcounseling"
 linkedin = ""
