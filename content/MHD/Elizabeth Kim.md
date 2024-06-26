@@ -1,42 +1,37 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Elizabeth Kim"
+highlight = false
+program = ""
+website = "https://www.psychologytoday.com/us/therapists/elizabeth-kim-new-york-ny/310282"
 email = "ek@elizabethkimtherapy.com"
 facebook = ""
-highlight = false
-image = "/img/official-headshot-elizabeth-kim.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Elizabeth Kim"
-payment_info_clinical = "$175/session"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ ]
-program = ""
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider " ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.psychologytoday.com/us/therapists/elizabeth-kim-new-york-ny/310282"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$200/session"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/official-headshot-elizabeth-kim.jpg"
 
 [[locations]]
 address = ""
-boroughs = [ "Online" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "917-512-3528"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -61,10 +56,15 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Tuesday - Thursday: 9 am - 5 pm"
