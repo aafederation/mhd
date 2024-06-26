@@ -5,7 +5,7 @@ highlight = false
 program = "Deaf Multicultural Counseling"
 website = "https://makotolcsw.clientsecure.me/"
 email = "makoto@deafmulticulturalcounseling.com"
-facebook = "https://www.facebook.com/profile.php?id=100095095613552"
+facebook = "@Deaf-Multicultural-Counseling-LLC"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -126,7 +126,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "8:00 am to 5:00 pm (everyday except Saturday)"
 +++
-
 
 Dr. Makoto Ikegami is a licensed clinical social worker who draws inspiration from growing up with mental health challenges within his family, which has influenced his commitment to social work. As a specialist in the deaf and hard-of-hearing community, his career seamlessly combines a decade of professional commitment with his personal experiences. <br>
 As a clinician licensed across multiple states, including Pennsylvania, Georgia, Florida, New York, Maine, Texas, and Maryland, Dr. Ikegami excels in virtual psychotherapy tailored to the unique needs of the deaf and hard-of-hearing. He has held teaching positions at Rhode Island College, Arizona State University, and Gallaudet University, and he fervently mentors aspiring social workers, particularly those from marginalized backgrounds. <br>
