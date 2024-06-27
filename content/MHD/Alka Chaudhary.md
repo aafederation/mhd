@@ -1,42 +1,37 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Alka Chaudhary"
+highlight = false
+program = "New Perspective Psychological Services"
+website = "www.newperspectivebrooklyn.com"
 email = "achaudhary@newperspectivebrooklyn.com"
 facebook = ""
-highlight = false
-image = "/img/chaudhary-headshot-alka-chaudhary.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Alka Chaudhary"
-payment_info_clinical = "$150-$250"
-payment_info_non_clinical = ""
-payment_types = [ "Cigna" ]
-payment_types_non_clinical = [ ]
-program = "New Perspective Psychological Services"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider " ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "www.newperspectivebrooklyn.com"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Cigna" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$150-$250"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/chaudhary-headshot-alka-chaudhary.jpg"
 
 [[locations]]
 address = "1170A Ocean Avenue, Brooklyn, NY"
-boroughs = [ "Brooklyn" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-languages = [ "English" ]
 latLng = "40.63401495435015, -73.9584139647485"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Brooklyn" ]
 phone_number = "201-702-1582"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -68,17 +63,22 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "Street parking"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 5 pm"
 +++
 
-I am a Mental Health Counselor who sees therapy as a place where people come to summon the courage to open their minds and reorganize everything accumulated in it. My role is to help you to dust off what used to shine, clear out clutter that no longer serves you and help you to build new supports.  
-  
-Prior to becoming a therapist, I was a dancer who took joy in using art to connect and contribute to my community. As a therapist I believe that creativity is not just a hobby, it’s a coping skill you can hone to help you understand, express, and make meaning of painful emotions.  
-  
+I am a Mental Health Counselor who sees therapy as a place where people come to summon the courage to open their minds and reorganize everything accumulated in it. My role is to help you to dust off what used to shine, clear out clutter that no longer serves you and help you to build new supports.
+
+Prior to becoming a therapist, I was a dancer who took joy in using art to connect and contribute to my community. As a therapist I believe that creativity is not just a hobby, it’s a coping skill you can hone to help you understand, express, and make meaning of painful emotions.
+
 I believe that forming an authentic relationship helps to elicit your own intrinsic motivation so you can make changes in your life. This is why I use an integrative approach that draws upon evidence-based treatments such as Motivational Interviewing (MI) Dialectical Behavior Therapy (DBT) & Cognitive Behavioral Therapy (CBT) through a person-centered lens.
