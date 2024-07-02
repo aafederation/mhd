@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Timothy Hwang"
 highlight = false
 program = ""
@@ -29,7 +29,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Seniors (65+)"
 ]
-image = ""
+image = "/img/IMG_DDA0FFBA4C5A-1 - Tim Hwang.jpg"
 
 [[locations]]
 address = "3 Spencer Ct 3C, Brooklyn NY 11205"
@@ -61,6 +61,4 @@ staff_gender = [ "Male" ]
   day_hours = "3:00 - 6:00 pm"
 +++
 
-
 Tim Hwang is a Certified Mindfulness Meditation Teacher (CMT-P) by the International Mindfulness Teachers Association and licensed occupational therapist (MSOT) specializing in integrative and mental health. Since 2009, he has dedicated himself to serving others in order to feel more empowered, happy, and fulfilled. With over a decade of clinical experience in the wellness space, Tim is dedicated to helping others find ways to improve their mental, physical, and spiritual wellbeing. He has trained with world experts in the field of meditation including Tara Brach, Jack Kornfield, Rick Hanson, Kenneth Folk, Loch Kelly and Bart Van Melik. He has been studying social noting and meditation with Kenneth Folk of the Pragmatic Dharma lineage, who has encouraged him to teach. He has been trained by the following organizations: UC Berkeley, The Interdependence Project, Mindful Schools, Unified Mindfulness, Buddhist Geeks, and The Lineage Project.
-
