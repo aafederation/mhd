@@ -79,8 +79,19 @@ parking = ""
 staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Tues-Sat (10am-6pm / 11am-7pm)"
-+++
+  day_hours = "Tuesday: 9am-6pm "
 
+  [[locations.hours_of_operation]]
+  day_hours = "Wednesday: 10am-7pm "
+
+  [[locations.hours_of_operation]]
+  day_hours = "Thursday: 10am-7pm "
+
+  [[locations.hours_of_operation]]
+  day_hours = "Friday: 9am-6pm "
+
+  [[locations.hours_of_operation]]
+  day_hours = "Saturday: 9am-4pm"
++++
 
 Welcome and I hope you’re proud for gathering the courage to prioritize your mental health and healing journey! My name is Demi (she / her) and I’m a clinician who believes that YOU are the expert of your own life and experiences. I believe healing is different to each individual and that there is no “one size fits all” approach. My goal is to support individuals in client-centered ways to take meaningful steps towards thriving. I have diverse experience supporting trauma survivors both in Hawaii and NYC and would describe my clinician style as directive and reflective. Together we will develop skills and tools to address burnout, anxiety, depression, trauma, workplace / personal stress, relationship challenges, or even simply – if you’re just unsure or stuck. Based on your preferences, needs, and strengths, I will tailor our work together to address obstacles to healing.
