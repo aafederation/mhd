@@ -33,7 +33,7 @@ image = "/img/IMG_DDA0FFBA4C5A-1 - Tim Hwang.jpg"
 
 [[locations]]
 address = "3 Spencer Ct 3C, Brooklyn NY 11205"
-latLng = "40.6907920; -73.9541880"
+latLng = "40.6907920, -73.9541880"
 boroughs = [ "Online", "Brooklyn" ]
 phone_number = "609-425-0677"
 services = [ ]
