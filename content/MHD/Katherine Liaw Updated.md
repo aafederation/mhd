@@ -55,7 +55,8 @@ psychotherapy_specialties = [
 psychotherapy_types = [
   "Cognitive Behavioral Therapy",
   "Person-centered Therapy",
-  "Supportive Therapy"
+  "Supportive Therapy",
+  "Art Therapy"
 ]
 non_clinical_services = [ ]
 credentials = [ "Licensed Creative Arts Therapist" ]
@@ -69,7 +70,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Mon-Fri 10am-7pm"
 +++
-
 
 Katherine Liaw is a Board Certified Licensed Creative Arts Therapist in New York. In 2016, she graduated from Hofstra University with a master’s degree in Creative Arts Therapy. Katherine believes that the creative process of art expression can foster self-awareness, self-esteem, emotional resiliency, and help clients gain fresh perspectives and insights in ways that talk therapy alone may not be able to. <br>
 In 2011, Katherine felt called to work as an art therapist when she had opportunity to interact with women in a domestic violence shelter. She had a strong sense of desire to help others recover and find hope. <br>
