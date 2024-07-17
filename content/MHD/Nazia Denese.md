@@ -38,7 +38,7 @@ image = "/img/Headshot_2024 - Nazia Denese.jpg"
 address = ""
 latLng = ""
 boroughs = [ "Online" ]
-phone_number = "(617) 800-9262"
+phone_number = "(508) 281-9103"
 services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
@@ -87,5 +87,4 @@ staff_gender = [ "Female" ]
   day_hours = "Sat-Sun all-day"
 +++
 
-
-Dr. Denese is currently an Instructor in Psychology at Harvard Medical School and earned her Ph.D. at Columbia University. She has about a decade of experience providing therapy to adults, adolescents, children, and families and specializes in treating anxiety, selective mutism, depression, and oppositional defiance. Dr. Denese has therapy openings for patients in Massachusetts and New York. She aims to create a warm and safe space to process life experiences and is highly skilled at providing evidence-based therapy, especially Cognitive Behavioral Therapy (CBT), Exposure and Response Prevention (ERP), Behavioral Parent Training (BPT), Dialectical Behavior Therapy (DBT), Parent-Child Interaction Therapy (PCIT), Parent-Child Interaction Therapy for Selective Mutism (PCIT-SM), and Supportive Parenting for Anxious Childhood Emotions (SPACE). Dr. Denese is passionate about providing quality trauma-informed and culturally competent mental health treatment and psychoeducation to communities on a national and global scale. In her spare time, she facilitates a mental wellness support group for South Asian adults residing globally. 
+Dr. Denese is currently an Instructor in Psychology at Harvard Medical School and earned her Ph.D. at Columbia University. She has about a decade of experience providing therapy to adults, adolescents, children, and families and specializes in treating anxiety, selective mutism, depression, and oppositional defiance. Dr. Denese has therapy openings for patients in Massachusetts and New York. She aims to create a warm and safe space to process life experiences and is highly skilled at providing evidence-based therapy, especially Cognitive Behavioral Therapy (CBT), Exposure and Response Prevention (ERP), Behavioral Parent Training (BPT), Dialectical Behavior Therapy (DBT), Parent-Child Interaction Therapy (PCIT), Parent-Child Interaction Therapy for Selective Mutism (PCIT-SM), and Supportive Parenting for Anxious Childhood Emotions (SPACE). Dr. Denese is passionate about providing quality trauma-informed and culturally competent mental health treatment and psychoeducation to communities on a national and global scale. In her spare time, she facilitates a mental wellness support group for South Asian adults residing globally.
