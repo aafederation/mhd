@@ -3,7 +3,7 @@ draft = false
 org = "Esther Kang"
 highlight = false
 program = "Mindbridge Wellness "
-website = "mindbridgewellness@gmail.com"
+website = "www.mindbridgewellness.com"
 email = "info@mindbridgewellness.com"
 facebook = ""
 twitter = ""
@@ -88,7 +88,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "By Appointment Only "
 +++
-
 
 My practice is rooted in the belief that each person  has the innate resilience and capacity for growth and healing.  I employ a blend of evidenced-based techniques including Cognitive Behavioral Therapy (CBT), motivational interviewing, and mindfulness, combined with strength-focused and trauma informed care. My approach is adaptive and person-centered, ensuring that our therapeutic path is both a partnership and an evolving process. <br>
 I believe well-being is not just the absence of distress but the intentional pursuit of habits and lifestyles that enhance one's overall state of wellness.  It would be my honor to support you on your journey towards mental clarity and emotional wellness. <br>
