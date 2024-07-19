@@ -1,42 +1,37 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Joanna Chang "
+highlight = false
+program = "Yellow Chair Collective"
+website = "https://yellowchaircollective.com/team/joanna-chang-lcsw/"
 email = "info@yellowchaircollective.com"
 facebook = "@yellowchaircollective "
-highlight = false
-image = "/img/joanna-chang-janessa-fong.jpeg"
+twitter = ""
 instagram = "@yellowchaircollective"
 linkedin = "https://www.linkedin.com/company/yellow-chair-collective/"
-medium = ""
-org = "Joanna Chang "
-payment_info_clinical = "$175/session"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ ]
-program = "Yellow Chair Collective"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider " ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://yellowchaircollective.com/team/joanna-chang-lcsw/"
 youtube = "https://www.youtube.com/channel/UC3_YAbAKJLipq05zgT2dx7w"
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$195/session"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
+image = "/img/joanna-chang-janessa-fong.jpeg"
 
 [[locations]]
 address = ""
-boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
 phone_number = "213-222-8402"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -65,15 +60,20 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 7 pm"
 +++
 
-As your therapist, my role is to hold space for you— space to process, reflect, and examine yourself and what parts of life could be going better. I believe that this process can be a valuable tool to bring you closer to the person you hope to be.  
-  
+As your therapist, my role is to hold space for you— space to process, reflect, and examine yourself and what parts of life could be going better. I believe that this process can be a valuable tool to bring you closer to the person you hope to be.
+
 Therapy is not a one-size-fits-all process. I will work with you to create a plan that fits your needs. I utilize a trauma-informed and strengths-based approach integrating evidence-based interventions and the latest research in neuroscience and psychology to better support my clients and their goals.
