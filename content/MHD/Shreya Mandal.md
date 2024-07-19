@@ -1,18 +1,18 @@
 +++
-ada_compliant = true
-age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
-email = "ShreyaM76@gmail.com"
-facebook = ""
+draft = true
+org = "Shreya Mandal"
 highlight = false
-image = "/img/shreya-mandal-lcsw-shreya-mandal.jpg"
+program = "Alma"
+website = "https://www.psychologytoday.com/us/therapists/shreya-mandal-new-york-ny/43558"
+email = "mandaltherapy@gmail.com"
+facebook = ""
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Shreya Mandal"
-payment_info_clinical = "Starting at $100"
-payment_info_non_clinical = ""
+best_way_to_contact = [ "Email" ]
 payment_types = [
   "UnitedHealthcare",
   "Oxford",
@@ -22,29 +22,24 @@ payment_types = [
   "Blue Care Network",
   "Aetna"
 ]
-payment_types_non_clinical = [ ]
-program = "Alma"
 sliding_scale_clinical = false
+payment_info_clinical = "Starting at $100"
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider " ]
+payment_info_non_clinical = ""
+ada_compliant = true
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.psychologytoday.com/us/therapists/shreya-mandal-new-york-ny/43558"
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+image = "/img/shreya-mandal-lcsw-shreya-mandal.jpg"
 
 [[locations]]
 address = ""
-boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-languages = [ "Bangla", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Somatic therapy", "Hypnotherapy" ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "917-525-4589"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -77,19 +72,18 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [
-  "Psychotherapy",
-  "Psychological testing and assessment",
-  "Psychiatric evaluation",
-  "Music therapy",
-  "Art therapy"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Somatic therapy" ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = "Training in global mental health and sentence mitigation."
+languages = [ "Bangla", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Monday - Friday: 8 am - 10 pm"
+  day_hours = "Monday - Friday: 8 am - 8pm"
 +++
 
-Shreya Mandal is a licensed psychotherapist and a National Board-Certified clinical hypnotherapist. She is also an expert witness for federal court and the New York Unified Court System. Ms. Mandal has dedicated the last 28 years to developing forensic advocacy and global mental health models in the legal system.
+Shreya Mandal is a licensed psychotherapist and a Clinical Fellow at the National Board of Certified Clinical Hypnotherapists. She is also an expert witness for federal court and the New York Unified Court System. Ms. Mandal has dedicated the last 28 years to developing combined clinical approaches, forensic advocacy, and global mental health models in the legal system. Her approach is integrative and she is certified in several therapy modalities to fit her clients' needs.
