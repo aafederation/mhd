@@ -1,46 +1,41 @@
 +++
+draft = false
+org = "Hanwen Wang"
+highlight = false
+program = "Joy Mental Fitness LLC"
+website = "www.joymental.com"
+email = "info+hanwen@joymental.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Out-of-network insurance", "Aetna" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$150-200/session"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
 ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider " ]
+client_requirements = ""
 age_groups = [
   "Youth and Teenagers (14 to 19)",
   "Adults (19 to 64)",
   "Preteens and Tweens (11 to 13)"
 ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
-email = "info+hanwen@joymental.com"
-facebook = ""
-highlight = false
 image = "/img/hanwen-photo-joy-mental-fitness.jpg"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Hanwen Wang"
-payment_info_clinical = "$150-200/session"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance", "Aetna" ]
-payment_types_non_clinical = [ ]
-program = "Joy Mental Fitness LLC"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider " ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "www.joymental.com"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
-address = "377 Valley Road, Unit 1070, Clifton, NJ 07013"
+address = "1178 Broadway, 3rd Floor, New York, NY 10001"
+latLng = "40.7450017, -73.9886627"
 boroughs = [ "Online" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-languages = [ "Chinese (Mandarin)", "English" ]
-latLng = "40.8860016568301, -74.17784338650914"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
-phone_number = "551-308-0890"
+phone_number = "332-237-7077"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -98,15 +93,20 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Gender-neutral" ]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "Chinese (Mandarin)", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Gender-neutral" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Saturday: 9 am - 6 pm"
 +++
 
-I see the therapeutic process as a way to learn skills that allow you to be psychologically present while handling painful thoughts and emotions in an effective way. I focus on increasing psychological flexibility to overcome preoccupation with past or future, and promoting behaviors that contact psychological experiences in a non-defensive way. Using a mindfulness-based approach, I encourage clients to look at their thoughts and not from their thoughts to resolve cognitive fusion. I also emphasize receptiveness and openness to uncomfortable experiences to address experiential avoidance.  
-  
+I see the therapeutic process as a way to learn skills that allow you to be psychologically present while handling painful thoughts and emotions in an effective way. I focus on increasing psychological flexibility to overcome preoccupation with past or future, and promoting behaviors that contact psychological experiences in a non-defensive way. Using a mindfulness-based approach, I encourage clients to look at their thoughts and not from their thoughts to resolve cognitive fusion. I also emphasize receptiveness and openness to uncomfortable experiences to address experiential avoidance.
+
 I focus on individual experiences in their sociocultural contexts and help make sense of the connection between one’s experiences, beliefs and behaviors. Currently I’m providing virtual services only.
