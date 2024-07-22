@@ -1,60 +1,42 @@
 +++
+draft = true
+org = "Junhong Cao"
+highlight = false
+program = "Mind Connections"
+website = "https://mindconnectionsnyc.com/about/june-cao/"
+email = "drjune@drjunhongcao.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = ""
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = ""
 ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)",
   "Preteens and Tweens (11 to 13)"
 ]
-best_way_to_contact = [ ]
-client_requirements = ""
-email = "drjune@drjunhongcao.com"
-facebook = ""
-highlight = false
 image = ""
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Junhong Cao"
-payment_info_clinical = ""
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ ]
-program = "Mind Connections"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://mindconnectionsnyc.com/about/june-cao/"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "600 3rd Ave, 2nd Floor, New York, NY 10016"
-boroughs = [ "Online", "Manhattan" ]
-credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-culturally_competent_treatment = "Yes. In my doctoral program, multiculturalism and diversity training is required. In my internship and work places, cultural competency has been implemented in training and treatment models. I have also trained other clinicians and interns at medical schools cultural competency through workshops and webinars."
-gender_identification = [ "Female" ]
-languages = [
-  "Korean",
-  "Japanese",
-  "Chinese (Cantonese)",
-  "Chinese (Mandarin)",
-  "English"
-]
 latLng = "40.749461933449695, -73.97595211147755"
-new_clients = "Yes"
-new_clients_detail = "Other well-trained clinicians are under my supervision to provide Mental Health Counseling. They are all Asians and at least bilingual in Chinese and English."
-non_clinical_services = [
-  "Psychoeducation",
-  "Peer support groups",
-  "Meditation/mindfulness practices",
-  "Breathwork"
-]
-parking = "Yes"
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "347-542-8226"
+services = [ "Psychotherapy", "Psychological testing and assessment" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -103,12 +85,25 @@ psychotherapy_types = [
   "Couples therapy",
   "Cognitive Behavioral Therapy"
 ]
-services = [ "Psychotherapy", "Psychological testing and assessment" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [
+  "Psychoeducation",
+  "Peer support groups",
+  "Meditation/mindfulness practices",
+  "Breathwork"
+]
+credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
 trainings = "Gottman couples therapy training"
-
-  [[locations.hours_of_operation]]
-  day_hours = "10 am - 7 pm"
+languages = [
+  "Korean",
+  "Japanese",
+  "Chinese (Cantonese)",
+  "Chinese (Mandarin)",
+  "English"
+]
+new_clients = "Yes"
+new_clients_detail = "Other well-trained clinicians are under my supervision to provide Mental Health Counseling. They are all Asians and at least bilingual in Chinese and English."
+parking = "Yes"
+staff_gender = [ "Female" ]
 
   [[locations.public_transportation]]
   transport_option = "Metro-North"
@@ -121,6 +116,9 @@ trainings = "Gottman couples therapy training"
 
   [[locations.public_transportation]]
   transport_option = "Subway: 4,5,6,7, S"
+
+  [[locations.hours_of_operation]]
+  day_hours = "10 am - 7 pm"
 +++
 
 I am a psychologist in New York with more than 15 years of clinical experience. My specialties include: helping Asians (AAPIs & international students) and LGTBQ+ community with their mental health and wellbeing, such as anxiety, OCD, depression, trauma, and relationship issues.
