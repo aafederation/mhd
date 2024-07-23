@@ -1,42 +1,37 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Euginia Paik"
+highlight = false
+program = ""
+website = ""
 email = "eugpaik@gmail.com"
 facebook = ""
-highlight = false
-image = "/img/896eca2c-d5eb-46d2-9921-a5393b69c815-euginia-paik.jpeg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Euginia Paik"
-payment_info_clinical = "$250/session"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ ]
-program = ""
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = ""
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$250/session"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/896eca2c-d5eb-46d2-9921-a5393b69c815-euginia-paik.jpeg"
 
 [[locations]]
 address = "286 5th Avenue, #7G New York, NY 10001"
-boroughs = [ "Manhattan" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-languages = [ "English" ]
 latLng = "40.74652910337594, -73.98659883558231"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Manhattan" ]
 phone_number = ""
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -65,10 +60,15 @@ psychotherapy_types = [
   "Trauma-informed",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Thursday: 9 am - 5 pm"
