@@ -1,42 +1,39 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Marium Zafar"
+highlight = false
+program = "Marium Zafar, PsyD"
+website = ""
 email = "dr.mariumzafar@gmail.com"
 facebook = ""
-highlight = false
-image = "/img/mz-marium-zafar.jpg"
+twitter = ""
 instagram = "@mariumzafarpsyd"
 linkedin = ""
-medium = ""
-org = "Marium Zafar"
-payment_info_clinical = "$175/session"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ ]
-program = "Marium Zafar, PsyD"
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider " ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = ""
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ ]
+sliding_scale_clinical = false
+payment_info_clinical = """
+$175/session
+I am in-network with most major insurance plans, please inquire"""
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/mz-marium-zafar.jpg"
 
 [[locations]]
 address = ""
-boroughs = [ "Online" ]
-credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation" ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "917-740-8134"
+services = [ "Psychotherapy", "Psychological testing and assessment" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -66,10 +63,15 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy", "Psychological testing and assessment" ]
-staff_gender = [ ]
+non_clinical_services = [ "Psychoeducation" ]
+credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 8:30 am - 3 pm"
