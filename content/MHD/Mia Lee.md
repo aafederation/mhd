@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Mia Lee"
 highlight = false
 program = "Columbia Psychiatry"
@@ -28,7 +28,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-image = ""
+image = "/img/headshot.png"
 
 [[locations]]
 address = "5 Columbus Circle New York, NY"
