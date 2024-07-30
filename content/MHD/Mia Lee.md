@@ -1,46 +1,41 @@
 +++
+draft = true
+org = "Mia Lee"
+highlight = false
+program = "Columbia Psychiatry"
+website = "www.columbiapsychiatry.org"
+email = "MAL2370@cumc.columbia.edu"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = "Starting at $100"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
 ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
-email = "mlee10@mail.yu.edu"
-facebook = ""
-highlight = false
-image = "/img/cc178f9b-8505-41a4-96c0-51e70918d11d-mia-lee.jpeg"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Mia Lee"
-payment_info_clinical = "Starting at $100"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ ]
-program = "NYCBT"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "NewyorkCBT.com"
-youtube = ""
-_template = "service_provider"
+image = ""
 
 [[locations]]
-address = "5 East 16th Street New York, NY"
-boroughs = [ "Manhattan" ]
-credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-languages = [ "English" ]
-latLng = "40.7374016569529, -73.99184407791184"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation" ]
-parking = "No"
+address = "5 Columbus Circle New York, NY"
+latLng = "40.7666680, -73.9814608"
+boroughs = [ "Manhattan", "Online" ]
 phone_number = "646-653-0933"
+services = [ "Psychotherapy", "Psychological testing and assessment" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -74,10 +69,15 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy", "Psychological testing and assessment" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation" ]
+credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 7 pm"
