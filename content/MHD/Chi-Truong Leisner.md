@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Chi Truong-Leisner"
 highlight = false
 program = "Serene Psychiatry"
@@ -60,6 +60,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Friday 9A-5P"
 +++
-
 
 Chi Truong-Leisner is a dedicated clinician with expertise in treating individuals with chronic mental health conditions and developmental disorders. She is a strong believer in providing holistic and patient-centered care to understand the root of the problem and fostering confidence and independence in all of her patients.
