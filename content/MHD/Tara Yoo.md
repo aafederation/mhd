@@ -31,7 +31,7 @@ age_groups = [
   "Youth and Teenagers (14 to 19)",
   "Adults (19 to 64)"
 ]
-image = "/img/IMG_5594 - Tara Yoo.jpg"
+image = "/img/IMG_4249-edited.JPG"
 
 [[locations]]
 address = ""
@@ -78,7 +78,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9am-9pm"
 +++
-
 
 Hi, we are a dedicated married team of therapists, passionate about helping individuals and couples navigate life's challenges and achieve personal growth. With years of combined experience in psychotherapy, we bring a unique blend of empathy, insight, and expertise to our work.
 
