@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Kaori Stram"
 highlight = false
 program = ""
@@ -64,6 +64,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F 10-5"
 +++
-
 
 Kaori is a licensed psychotherapist with over 20-years of experience helping individuals (18+) navigate life’s challenges. She makes efforts to provide a safe, compassionate, and non-judgmental space where you can feel free to explore your emotional experiences, thoughts, and behaviors and work towards a healthier, more fulfilling life.
