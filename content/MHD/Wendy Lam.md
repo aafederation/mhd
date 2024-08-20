@@ -1,44 +1,37 @@
 +++
-ada_compliant = true
-age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Wendy Lam"
+highlight = false
+program = "Wendy Lam, LCSW"
+website = "https://www.psychologytoday.com/us/therapists/wendy-lam-new-york-ny/763819"
 email = "mswendylam@gmail.com"
 facebook = ""
-highlight = false
-image = "/img/img_2944-2-copy-wendy-lam.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Wendy Lam"
-payment_info_clinical = "Starting at $180"
-payment_info_non_clinical = "Starting at $150"
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ "Out-of-Network Insurances" ]
-program = "Wendy Lam, LCSW"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider " ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.psychologytoday.com/us/therapists/wendy-lam-new-york-ny/763819"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = "Starting at $180"
+payment_types_non_clinical = [ "Out-of-Network Insurances" ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = "Starting at $150"
+ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+image = "/img/img_2944-2-copy-wendy-lam.jpg"
 
 [[locations]]
 address = "928 Broadway New York, NY"
-boroughs = [ "Manhattan" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-languages = [ "Chinese (Cantonese)", "English" ]
 latLng = "40.740225337910786, -73.98916783558231"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [
-  " Mentoring/coaching in self-exploration and self-adjustment"
-]
-parking = "Street parking"
+boroughs = [ "Manhattan" ]
 phone_number = "917-669-5583"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -58,10 +51,17 @@ psychotherapy_types = [
   "Solution-focused Therapy",
   "Group therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [
+  " Mentoring/coaching in self-exploration and self-adjustment"
+]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
+languages = [ "Chinese (Cantonese)", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "Street parking"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Thursday: 10 am - 7 pm"
