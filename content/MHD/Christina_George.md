@@ -1,6 +1,6 @@
 +++
 draft = false
-org = "Christina George"
+org = "Cristina George"
 highlight = false
 program = ""
 website = "https://cristinageorge.com"
