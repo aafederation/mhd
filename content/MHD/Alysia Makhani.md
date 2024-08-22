@@ -7,7 +7,7 @@ website = "https://www.florverdehealing.com/"
 email = "info@florverdehealing.com"
 facebook = ""
 twitter = ""
-instagram = "@flor.verde.healing"
+instagram = ""
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -55,6 +55,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F 10am-8pm by appointment"
 +++
-
 
 Alysia Makhani is an integrative health nurse, therapeutic yoga teacher, and founder of Flor Verde Healing. She skillfully blends her nursing expertise with yoga to deliver trauma-informed care through asana, pranayama, meditation, and health education. Her diverse nursing background includes integrative and holistic health, reproductive health with a focus on gender-affirming care for adolescents and young adults, pediatric nursing, and community health. Alysia is a passionate advocate for mental health, with experience across hospitals, colleges, the cannabis community, and LGBTQ+ populations. Committed to inclusive care and social justice, she creates a nurturing environment for those navigating trauma and stress.
