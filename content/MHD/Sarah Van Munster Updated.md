@@ -4,7 +4,7 @@ org = "Sarah Van Munster"
 highlight = false
 program = "Meridian Psychology Practice"
 website = "https://www.psychologytoday.com/us/therapists/sarah-van-munster-rochester-ny/1057619"
-email = ""
+email = "sarah.vanmunster@gmail.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -12,7 +12,7 @@ linkedin = ""
 youtube = ""
 tiktok = ""
 medium = ""
-best_way_to_contact = [ ]
+best_way_to_contact = [ "Email", "Website" ]
 payment_types = [ "N/A" ]
 sliding_scale_clinical = true
 payment_info_clinical = "$200 per session"
@@ -70,6 +70,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9am-5pm"
 +++
-
 
 I am a licensed mental health counselor based out of Rochester, NY specializing in treating OCD and other anxiety disorders, as well as depression, trauma, and major life transitions.
