@@ -1,6 +1,6 @@
 +++
 draft = false
-org = "Julia Kim "
+org = "Julia Kim, PhD"
 highlight = false
 program = ""
 website = ""
