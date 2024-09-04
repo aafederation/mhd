@@ -1,18 +1,18 @@
 +++
-ada_compliant = false
-age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Geunsaeng Ahn "
+highlight = false
+program = "Liberation-Based Therapy"
+website = "https://www.liberationbasedtherapy.com/"
 email = "goahntherapy@gmail.com"
 facebook = ""
-highlight = false
-image = "/img/headshot-square-geunsaeng-ahn.png"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Geunsaeng Ahn "
-payment_info_clinical = "$85 - $220"
-payment_info_non_clinical = ""
+best_way_to_contact = [ "Email" ]
 payment_types = [
   "Oscar",
   "UnitedHealthcare",
@@ -21,29 +21,24 @@ payment_types = [
   "Blue Cross/Blue Shield",
   "Aetna"
 ]
-payment_types_non_clinical = [ ]
-program = "Liberation-Based Therapy"
 sliding_scale_clinical = true
+payment_info_clinical = "$85 - $220"
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
+payment_info_non_clinical = ""
+ada_compliant = false
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.liberationbasedtherapy.com/"
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+image = "/img/headshot-square-geunsaeng-ahn.png"
 
 [[locations]]
 address = ""
-boroughs = [ "Online" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = "Waitlist with openings in Spring 2023"
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "(917) 382-1177‬ "
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Spirituality",
@@ -66,10 +61,15 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Nonbinary", "Gender-neutral" ]
+non_clinical_services = [ ]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = "CD (Certified Doula), CLC (Certified Lactation Counselor), Training in Palliative End of Life Care (PELC), Training as an End of Life Doula"
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = "Waitlist with openings in Spring 2023"
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Nonbinary", "Gender-neutral" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Thursday: 9 am - 5 pm"
