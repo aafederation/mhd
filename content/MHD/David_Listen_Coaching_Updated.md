@@ -52,7 +52,7 @@ public_transportation = [ ]
 staff_gender = [ "Male" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Mondays & Fridays: 9 am - 8 pm."
+  day_hours = "Mondays - Fridays, 9am - 9pm"
 +++
 
 David Listen has been teaching Chan/Zen meditation & mindful living for over 15 years throughout the U.S., Europe, and East Asia. He currently resides on Long Island, NY, and has been doing mentoring/coaching since 2015. He continues to lecture (search “David Listen” on Youtube), lead meditation retreats, write articles, and compose music. David holds a bachelor's degree in Science from the SUNY College of Environmental Science and Forestry and a master’s degree in Education, Mental Health Counseling, from CUNY Hunter College. He is licensed in the State of New York as a Mental Health Counselor (LMHC). He is fluent in Mandarin Chinese and did 6 years of clinical work with Chinese Americans in the Lower East Side, NYC.
