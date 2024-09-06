@@ -7,7 +7,7 @@ website = "https://www.rosehillpsychological.com/"
 email = "assistant@vmps.nyc"
 facebook = ""
 twitter = ""
-instagram = "https://www.instagram.com/rosehillpsychological/"
+instagram = "@rosehillpsychological"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -82,7 +82,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-W 8-12"
 +++
-
 
 Alex is a psychodynamic psychotherapist working with high school and college students, new moms and dads, and professionals who are struggling with depression and anxiety. Prior to pursuing training in psychotherapy, Alex was a communications professional and negotiation coach. She has a particular interest in supporting women who are struggling with changes in mood and anxiety as related to new motherhood and/or the onset of menopause. <br>
 Alex approaches sensitive topics with warmth and support. She is particularly attuned to the mental health challenges that come with major life transitions. Alex is also a trained yoga teacher, and brings her background in mindfulness and meditation to each session. <br>
