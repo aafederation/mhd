@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Ren Lee"
 highlight = false
 program = ""
@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
-image = "/img/ren_kip3 - Ren Lee.jpg"
+image = "/img/ren_2024_02b.jpg"
 
 [[locations]]
 address = "Online / Virtual Only"
