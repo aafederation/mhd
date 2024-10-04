@@ -1,42 +1,37 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = false
+org = "Siddhi Patel, Psy.D. "
+highlight = false
+program = "Meraki Psychology Center, LLC"
+website = "merakipsychologycenter.com"
 email = "info@merakipsychologycenter.com"
 facebook = ""
-highlight = false
-image = "/img/bio-picture-siddhi-patel-meraki-psychology-center.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Siddhi Patel, Psy.D. "
-payment_info_clinical = "$200/session"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ ]
-program = "Meraki Psychology Center, LLC"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "merakipsychologycenter.com"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$200/session"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/bio-picture-siddhi-patel-meraki-psychology-center.jpg"
 
 [[locations]]
 address = ""
-boroughs = [ "Online" ]
-credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-languages = [ "Gujarati", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Meditation/mindfulness practices" ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "(862) 703-8647"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -78,10 +73,15 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Meditation/mindfulness practices" ]
+credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
 trainings = ""
+languages = [ "Gujarati", "English" ]
+new_clients = "Yes"
+new_clients_detail = "age group 17+year olds"
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 5 pm"
