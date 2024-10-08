@@ -15,7 +15,9 @@ medium = ""
 best_way_to_contact = [ "Email" ]
 payment_types = [ "Aetna" ]
 sliding_scale_clinical = false
-payment_info_clinical = "$180-200 per session"
+payment_info_clinical = """
+$180-200 per session
+We accept Aetna, Aetna Student, Wellfleet Student"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -88,7 +90,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Mon-Fri, with evening availabilities"
 +++
-
 
 Living between cultures can be both enriching and challenging. As someone who has moved between China and the U.S., I understand the unique pressures of balancing Asian identity with life in a Western society. Whether you're an international student adjusting to a new country, an immigrant finding your way, or simply someone grappling with life transitions, I'm here to help. I offer sessions in both Mandarin and English to support you in the language that feels most comfortable. <br>
 My work extends beyond bicultural individuals. Having fully assimilated into American culture, I understand that change, anxiety, and growth are universal. My inclusive approach supports anyone navigating life’s challenges. I’ll support you in uncovering your strengths and using them to navigate life’s complexities. I also bring unique clinical expertise to help couples enhance communication, connection, and navigate cultural differences. <br>
