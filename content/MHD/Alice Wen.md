@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Alice Wen"
 highlight = false
 program = "Repose"
@@ -93,7 +93,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F 9am-8pm ET"
 +++
-
 
 CHANGE CAN BE A DIFFICULT THING. You may be having difficulty navigating a transitional period of your life, or you may be trying to make changes but don’t know where to start. You might start questioning who you are, where you’re going, and how you can possibly get there. Life gets overwhelming as everything seems to attack you all at once. Relationships never seem to work out. Productivity and self care is a never-ending balancing act. Anxiety and fear prevent you from becoming the best version of yourself. <br>
 BUT CHANGE IS POSSIBLE. Moving back and forth between China and the US, in two drastically different cultures, I learned a lot about how to manage change. What has helped you survive in the past may now be holding you back, or vice versa. In my work, I’ll help you build flexibility and learn to make choices that meet the demands of the moment. You will gain clarity on what’s most important and what support you may need. Your values and life goals are what’s centered here, and whatever it is you are coming in with, I will always hear you out. <br>
