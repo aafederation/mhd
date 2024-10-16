@@ -78,8 +78,7 @@ non_clinical_services = [
   "Breathwork",
   "Meditation/mindfulness practices",
   "Somatic therapy",
-  "Yoga",
-  "Acupuncture"
+  "Yoga"
 ]
 credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = "NADA AcuDetox Specialist and Trainer , Yoga Teacher and Teacher Trainer specializing in Meridian Yoga "
@@ -98,4 +97,6 @@ staff_gender = [ "Female" ]
 
 Melissa specializes in working with people from many walks of life -from those that are just looking to become more aware of their internal patterns to those with specific goals. She has experience working in high stress environments, with clients who have issues related to mental health, substance use, trauma, and more. She is also passionate about helping those who are interested in cultivating leadership skills, managing the stress of challenging work environments, supervising staff and employee burnout prevention. <br>
 Mind, body and spirit must be integrated as part of mental health care and overall wellness. Through authentic connection, Melissa helps clients understand their stress patterns and address them through verbal and nonverbal healing modalities. A session can include talk therapy, guided self acupressure, simple breathing and relaxation techniques. <br>
+
+Additional services include genetic testing and auricular/ear acupuncture. <br>
 [www.melissasoong.com](http://www.melissasoong.com)
