@@ -29,7 +29,7 @@ age_groups = [
   "Youth and Teenagers (14 to 19)",
   "Adults (19 to 64)"
 ]
-image = "/img/photo (16) - Naomi Schwenk.png"
+image = "/img/image_123650291.JPG"
 
 [[locations]]
 address = ""
@@ -94,7 +94,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "varies"
 +++
-
 
 Hey there, I’m Naomi! As a biracial first-generation Asian American psychotherapist, I take a holistic and culturally sensitive approach rooted in empathy and respect, blending elements from various therapeutic modalities to tailor a unique and supportive experience, just for you. Are you navigating heavy emotions? Struggling with depression, anxiety, ADHD, or ASD? Perhaps you're exploring your identity and its links to intergenerational, cultural, or queer-related trauma? Or maybe you often feel misunderstood and want to build effective & intentional communication skills? If you crave internal peace, this neurodivergent-friendly therapist can help! <br>
 I specialize in psychodynamic therapy, recognizing the multitude of influences that shape individual experiences. I help my clients find relief from the weight of unprocessed emotions and decrease their baseline of anxiety and depression to embrace more fulfilling lives. Together, we work towards finding increased peace, purpose, and well-being! <br>
