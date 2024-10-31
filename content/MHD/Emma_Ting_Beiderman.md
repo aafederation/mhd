@@ -38,8 +38,8 @@ age_groups = [
 image = "/img/headshot - Emma Beiderman.jpg"
 
 [[locations]]
-address = ""
-latLng = ""
+address = "80 5th Ave New York, NY 10011"
+latLng = "40.7360294, -73.9941595"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "1-347-267-4717"
 services = [ "Psychotherapy" ]
@@ -101,4 +101,4 @@ staff_gender = [ "Female", "Genderqueer", "Nonbinary", "Male" ]
   day_hours = "Monday-Thursday "
 +++
 
-I am a psychoanalytically oriented and EMDR-trained therapist with availability to work in-person or remotely with individuals and couples. My approach to therapy is warm, direct, playful and engaging. I am a careful listener and strive to create an environment of openness and non-judgement. I have experience dealing with a variety of themes including relationship challenges, trauma, gender, sexuality, anxiety and overwhelming emotions, work/life balance, existential concerns, unwanted patterns of thinking/acting, race/cultural assimilation, and self-esteem. Because of my own lived experiences, I am passionate about providing affirming care to queer, gender-expansive, bi/multiracial Asian Americans who have had a difficult time finding therapists to connect with due to these intersecting identities. 
+I am a psychoanalytically oriented and EMDR-trained therapist with availability to work in-person or remotely with individuals and couples. My approach to therapy is warm, direct, playful and engaging. I am a careful listener and strive to create an environment of openness and non-judgement. I have experience dealing with a variety of themes including relationship challenges, trauma, gender, sexuality, anxiety and overwhelming emotions, work/life balance, existential concerns, unwanted patterns of thinking/acting, race/cultural assimilation, and self-esteem. Because of my own lived experiences, I am passionate about providing affirming care to queer, gender-expansive, bi/multiracial Asian Americans who have had a difficult time finding therapists to connect with due to these intersecting identities.
