@@ -92,7 +92,7 @@ languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = "Street parking"
-staff_gender = [ "Female", "Genderqueer", "Nonbinary", "Male" ]
+staff_gender = [ "Female", "Genderqueer", "Nonbinary" ]
 
   [[locations.public_transportation]]
   transport_option = "MTA to Union Square or West 4th are the closest train stations"
