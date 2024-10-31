@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 org = "Emma Ting Beiderman"
 highlight = false
 program = "Golden Psychology"
-website = "https://golden-psychology.com/emma-b / Golden Psychology"
+website = "https://golden-psychology.com/emma-b"
 email = "emma@golden-psychology.com "
 facebook = ""
 twitter = ""
