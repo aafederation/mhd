@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Valerie Yeo"
 highlight = false
 program = ""
@@ -74,7 +74,7 @@ languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = ""
-staff_gender = [ "Other" ]
+staff_gender = [ "Agender" ]
 
   [[locations.hours_of_operation]]
   day_hours = "M-F 9am-5pm"
