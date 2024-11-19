@@ -3,7 +3,7 @@ draft = false
 org = "Betty Lin"
 highlight = false
 program = ""
-website = "https://headway.co/providers/betty-lin, https://www.psychologytoday.com/us/therapists/betty-lin-rensselaer-ny/1369315"
+website = "https://headway.co/providers/betty-lin"
 email = ""
 facebook = ""
 twitter = ""
@@ -74,7 +74,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "variable"
 +++
-
 
 I'm a clinical psychologist and a professor of psychology. I take a non-judgmental, compassionate, and collaborative approach to help people understand themselves better and improve their relationships with others. I also aim to help people move toward the life goals values that feel most meaningful to them. My style is integrative, and I draw largely from cognitive-behavioral, acceptance-based, and solution-focused approaches. I'm also very aware of how different aspects of a person's identity—like race, class, culture, gender, and sexuality—can affect their health and well-being. <br>
 I specialize in helping both adolescents and adults with depression, anxiety, and other emotional challenges. I also focus on supporting parents and caregivers with their mental health during pregnancy and after the baby is born. I also have a lot of experience helping with children's emotional and behavioral challenges. However, because of the limits of telehealth, I’m currently only taking cases where I can mainly work with parents and caregivers to address these issues. <br>
