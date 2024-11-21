@@ -90,5 +90,4 @@ staff_gender = [ "Female" ]
   day_hours = "M-F varies depending on the day (will be on the website)"
 +++
 
-
-Pamela Chowayou is a licensed mental health counselor and founder of Grounded Mental Health Counseling, PLLC. Pam utilizes a solution-focused approach, teaming up with clients to develop short and long-term goals that improve their social, relational and occupational functioning. Pam works with clients to identify negative thinking patterns to develop coping strategies in a safe, non-judgmental setting. Pam sees patients at an outpatient mental health clinic alongside her private practice.Pamela is warm and engaging with a desire to walk with you on your mental health journey. 
+Pamela Chowayou is a licensed mental health counselor and founder of Grounded Mental Health Counseling, PLLC. Pam utilizes a solution-focused approach, teaming up with clients to develop short and long-term goals that improve their social, relational and occupational functioning. Pam works with clients to identify negative thinking patterns to develop coping strategies in a safe, non-judgmental setting. Pam sees patients at an outpatient mental health clinic alongside her private practice.  Pamela is warm and engaging with a desire to walk with you on your mental health journey.
