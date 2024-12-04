@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Kai Lin Fu"
 highlight = false
 program = "kailinfu.psyd@gmail.com"
@@ -20,9 +20,7 @@ payment_types = [
   "UnitedHealthcare"
 ]
 sliding_scale_clinical = true
-payment_info_clinical = """
-$280 for 50 mins
-Sliding scale starts at $130 as eligible, based on availability and temporary hardship. Please inquire for details."""
+payment_info_clinical = "Standard rate $280 for 50 mins.  Sliding scale as eligible, based on availability and temporary hardship. Sliding scale starts at $130.  Please inquire for details."
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -82,4 +80,4 @@ staff_gender = [ "Female" ]
 +++
 
 I provide care for various forms of trauma, in particular complex intergenerational and racial trauma. Depression, anxiety and family conflict concerns are a few other areas I also specialize in. I help folx on the margins of dominant cultures navigate the intersectionality of identity. While trust and safety is foundational, regaining a sense of empowerment is key, I center a multiculturally responsive, relational approach to understanding your concerns.
- It's important to me that I get to know you, your needs, and for us to work together so you gain insight on how you can make decisions that are closer aligned with your values so you experience healing and relief.
+It's important to me that I get to know you, your needs, and for us to work together so you gain insight on how you can make decisions that are closer aligned with your values so you experience healing and relief.
