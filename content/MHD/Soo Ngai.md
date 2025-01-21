@@ -7,7 +7,7 @@ website = "https://www.cognizantpsychotherapy.com/"
 email = "cognizantpsychotherapy@gmail.com"
 facebook = ""
 twitter = ""
-instagram = "@cognizant_therapy_nyc"
+instagram = "https://www.instagram.com/p/CngKYgWNRHA/?utm_source=ig_web_copy_link"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -93,6 +93,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "10am-8pm"
 +++
-
 
 Hello, I am a psychotherapist who uses a supportive and goal-oriented approach to help steer you toward the life that you deserve. I can help you achieve your vision of a thriving and fulfilling life after identifying and clarifying your individual goals and taking committed action. While this is a process, I can help you navigate the journey by providing an empathic, supportive, and non-judgmental space. My practice focuses on building confidence, self-worth, and validation.
