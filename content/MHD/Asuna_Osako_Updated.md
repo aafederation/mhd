@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Asuna Osako "
 highlight = false
 program = ""
@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = ""
+image = "/img/AsunaHeadshot2 - Asuna Osako.jpg"
 
 [[locations]]
 address = "26 Court St, Brooklyn, NY 11242"
