@@ -5,7 +5,7 @@ highlight = false
 program = "Synergy eTherapy"
 website = "https://www.psychologytoday.com/us/therapists/li-ting-lin-glastonbury-ct/1435494"
 email = "drlin@synergyetherapy.com"
-facebook = "www.facebook.com/SynergyEtherapy"
+facebook = "https://www.facebook.com/SynergyEtherapy"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -83,7 +83,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "MON-FRI: 10 AM - 5 PM"
 +++
-
 
 I received my PhD in Combined School/Counseling Psychology at the University at Buffalo, SUNY. <br>
 My trauma-informed, integrative approach to therapy (e.g., mindfulness, cognitive-behavioral, dialectical behavioral, relational, humanistic, strengths-based modalities) allows me to tailor treatment to m clients’ needs, values, and preferences. <br>
