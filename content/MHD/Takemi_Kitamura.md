@@ -5,7 +5,7 @@ highlight = false
 program = ""
 website = "https://www.energyhealingtakemi.com"
 email = "info@energyhealingtakemi.com"
-facebook = "https://www.facebook.com/energyhealingtakemi"
+facebook = "energyhealingtakemi"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -57,5 +57,4 @@ staff_gender = [ "Female" ]
   day_hours = "varies"
 +++
 
-Energy healing practitioner (Reiki, Jikiden Reiki, Earth Evolution Reiki, IET) 
-
+Energy healing practitioner (Reiki, Jikiden Reiki, Earth Evolution Reiki, IET)
