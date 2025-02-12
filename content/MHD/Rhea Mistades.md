@@ -5,7 +5,7 @@ highlight = false
 program = "Rhea Mistades, CHT, LMFT Psychotherapist & Healer"
 website = "https://rheamistades.net"
 email = "rhea.mistadesmft@gmail.com"
-facebook = "https://www.facebook.com/rheamistades.psychotherapyandhealing/"
+facebook = "rheamistades.psychotherapyandhealing"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -87,6 +87,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-W-Th 2pm-9pm Eastern time"
 +++
-
 
 Rhea is a licensed Marriage & Family Therapist. She can provide bilingual services in English & Tagalog/Filipino. As a Filipino-American therapist and proud member of the Filipino diaspora community, Rhea is deeply committed to providing psychotherapy and healing services to clients who identify as Filipino, Filipino-American, or part of the AANHPI diasporas. It can be challenging to navigate relationships with intergenerational family members who are at different levels of acculturation to the adoptive American culture. It can also be challenging to determine your own relationship to your mother culture and your adoptive culture. Everyone deserves a safe space to process their story and to heal \~ especially, to tend to grief and the unique challenges of living away from one’s native culture and homeland, and building a life in your adoptive home.
