@@ -5,7 +5,7 @@ highlight = false
 program = "Lily Tung Psychiatry"
 website = "www.psychologytoday.com/us/psychiatrists/lily-tung-flushing-ny/1335596"
 email = "lilytungpmhnp@gmail.com"
-facebook = "www.facebook.com/p/Lily-Tung-Psychiatry-%E7%B2%BE%E7%A5%9E%E7%A7%91%E8%AD%B7%E7%90%86%E9%86%AB%E5%B8%AB-61560211137106/?paipv=0&eav=AfbRsFoEoEWEyGdFjXLofUd6ingbCtg4ipxn7xq6Xb7rUpwOCykrbVDsimsymUlR8ME&_rdr"
+facebook = "Lily-Tung-Psychiatry-精神科護理醫師-"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -76,7 +76,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Open daily besides Saturdays "
 +++
-
 
 Lily is a skilled and compassionate Psychiatric Nurse Practitioner with over 16 years of nursing experience. Specializing in the treatment of anxiety, depression, and PTSD, Lily is dedicated to providing holistic and patient-centered care. Fluent in both English and Mandarin Chinese, Lily effectively communicates and understands the diverse needs of patients. <br>
 我有16 年的護理經驗, 專治療焦慮、抑鬱和創傷後應激障礙(PTSD) 。我知道許多亞洲人面臨的問題與其他人非常不同。我會聽你,幫助你變得更好!今天就聯絡我吧! <br>
