@@ -5,7 +5,7 @@ highlight = false
 program = ""
 website = "www.yogawithnaiyi.com"
 email = "naiyi.huang@gmail.com"
-facebook = "yoga with naiyi"
+facebook = "yogawithnaiyi"
 twitter = ""
 instagram = "@yogawithnaiyi"
 linkedin = ""
@@ -60,5 +60,4 @@ staff_gender = [ "Female" ]
   day_hours = "Saturday and Sunday by request"
 +++
 
-
-I teach yoga and mindfulness meditation at different studios in NY.  Trained Yoga Alliance Registered Yoga Teacher (RYT-500), certified Mindfulness and Meditation teacher. I teach at Tru-Chi 慈濟, a Buddhist nonprofit charity organization in Flushing, New York, and partner with yoga studios, and multiple professional groups to share the many benefits of mindfulness meditation and yoga practice!  
+I teach yoga and mindfulness meditation at different studios in NY.  Trained Yoga Alliance Registered Yoga Teacher (RYT-500), certified Mindfulness and Meditation teacher. I teach at Tru-Chi 慈濟, a Buddhist nonprofit charity organization in Flushing, New York, and partner with yoga studios, and multiple professional groups to share the many benefits of mindfulness meditation and yoga practice!
