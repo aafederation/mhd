@@ -5,7 +5,7 @@ highlight = false
 program = ""
 website = "www.liberationbasedtherapy.com"
 email = "nsunar.therapy@proton.me"
-facebook = "https://www.facebook.com/LiberationBasedTherapy"
+facebook = "LiberationBasedTherapy"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -127,7 +127,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sunday: 10AM - 5PM"
 +++
-
 
 Hi! I'm Neesa Suncheuri Sunar, LMSW, a clinical therapist and Native NYCer. I provide trauma-informed and culturally-competent therapy, and have particular expertise and passion for serving the Asian community. I assist clients who experience sadness, stress, grief, confusion, or any misalignment with life. In sessions, I'm here to listen, ask questions, provide feedback if you'd like, and assist with gaining clarity on situations overall. You can explore feelings that otherwise cannot be expressed. <br>
 I've worked with people with a range of concerns, including depression, anxiety, anger, and grief. I welcome clients who identify as LGBTQIA+ and/or non-binary. I also welcome neurodiverse clients who are autistic and/or have ADHD; I myself am autistic. <br>
