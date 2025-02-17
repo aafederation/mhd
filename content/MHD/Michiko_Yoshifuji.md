@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Michiko Yoshifuji"
 highlight = false
 program = "ROOTS Mindful Acupuncture"
