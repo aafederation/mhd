@@ -38,7 +38,7 @@ psychotherapy = false
 psychotherapy_specialties = [ ]
 psychotherapy_types = [ ]
 non_clinical_services = [ "Acupuncture", "Reiki", "Massage" ]
-credentials = [ "MD (Doctor of Medicine)" ]
+credentials = [ ]
 trainings = "Doctor of Acupuncture Diplomate of Acupuncture (NCCAOM) Licensed Acupuncturist in NY and NJ A Doctor of Acupuncture, Diplomate of Acupuncture, certified by NCCAOM (National Certification Commission for Acupuncture and Oriental Medicine).   Nationally board-certified licensed acupuncturist in the state of New York and New Jersey.   Received Doctor of Acupuncture from Pacific College of Health and Science and Master of Science from Tri-State College of Acupuncture in NYC ​ Trained with three different styles of acupuncture: Traditional Chinese Medicine (TCM) Acupuncture Physical Medicine with Trigger Point technique (developed by Mark Seem, Founder of Tri-State College of Acupuncture) Japanese Style Acupuncture (Master Kiiko Matsumoto)"
 languages = [ "English", "Japanese" ]
 new_clients = "Yes"
@@ -52,7 +52,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Mon-Sat 9:00am-7:00pm"
 +++
-
 
 Michiko was inspired by the healing power of acupuncture when she faced her own health issues and difficulties in her personal life. Acupuncture treatments along with yoga and meditation helped alleviate her condition tremendously and motivated her to help others in the same way. Mindful, patient-centered acupuncture is her philosophy, which allows her to integrate different modalities, including her primary method of Japanese-style acupuncture, in her painless and gentle treatment options. <br>
 Her special interest is care for pre- and post-menopausal women (and men) who undergo various changes in life that can result in negative symptoms, both physical and emotional. <br>
