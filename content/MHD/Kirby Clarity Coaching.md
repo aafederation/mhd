@@ -1,6 +1,6 @@
 +++
 draft = false
-org = "KirstyNicole/Kirby Bocado"
+org = "Kirby Clarity Coaching"
 highlight = false
 program = "Kirby Clarity Coaching"
 website = "kirbyclaritycoaching.com"
@@ -74,6 +74,5 @@ staff_gender = [ "Genderqueer" ]
   [[locations.hours_of_operation]]
   day_hours = "Sundays 9am-9pm"
 +++
-
 
 Kirby Clarity Coaching, founded by Kirby (they/them), empowers neurodivergent professionals to establish personal and professional stability. As a trauma-informed coach and somatic spiritual healing practitioner, Kirby provides the solutions, advising, and guidance you need for problems like burnout, poor executive function, lack of identity, and achieving goals (such as getting into college and transitioning careers). Kirby’s practice is rooted in an anti-colonial, anti-oppression framework while fostering collective liberation and resistance, using modalities like EFT, hypnosis, NLP, PQ, reiki and TIME technique. Kirby’s lived experiences as a millennial, APIDA, queer, neurodivergent trauma survivor, combined with their professional background in higher education student affairs, admissions, and activism, inform their compassionate and holistic approach.
