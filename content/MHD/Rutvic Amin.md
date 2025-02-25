@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Rutvic Amin"
 highlight = false
 program = "Rainari Health"
@@ -30,7 +30,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Seniors (65+)"
 ]
-image = "/img/RutvicAmin - Rutvic Amin.png"
+image = "/img/320x400.png"
 
 [[locations]]
 address = "95 Allens Creek Rd, Rochester, NY 14618"
@@ -84,7 +84,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "10am-3pm"
 +++
-
 
 As a successful physician with a career spanning more than 20 years.  I have experience in a variety of medical settings, including primary care, emergency medicine and inpatient care.  My personal experiences have given me the insight to provide wellness and preventative mental health services. A “type A” medical professional, I understand how the stress of a demanding career impacts one’s health. As a cardiac patient who underwent two major open heart surgeries before the age of 45, I have endured the physically and mentally taxing patient experience and understand its ongoing lasting effects. A father of three young kids and a son of aging parents, I know how one’s own self care can easily fall to the wayside when managing busy work and family life. <br>
 When you take the time to prioritize your mental health you will find you have more time for everyone else in your life. I specialize in supporting busy professionals who struggle with the pressures of perfectionism, high stress, burnout, negative self talk, addiction, and imposter syndrome. I understand the quiet shame and stigma that often come with seeking help, and how this can lead to isolation, inadequacy, fear, depression, and anxiety. I am here to help! Mental health takes work just as getting physically fit does. <br>
