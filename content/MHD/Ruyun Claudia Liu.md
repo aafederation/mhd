@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Ruyun (Claudia) Liu"
 highlight = false
 program = ""
@@ -30,7 +30,7 @@ image = "/img/Photo - Claudia Liu.jpg"
 address = ""
 latLng = ""
 boroughs = [ "Online" ]
-phone_number = ""
+phone_number = "646-821-2001"
 services = [
   "Psychotherapy",
   "Substance use/addiction and support services"
@@ -80,7 +80,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9 am - 11 am, Monday - Friday "
 +++
-
 
 Life is hard, and you are taking the courageous first step to seek help from counseling. It is my honor to accompany you through this therapy journey. As your therapist, I bring my authentic and compassionate self into the room to provide a safe, nonjudgmental, and warm space for you to freely express yourself and engage in self-exploration. Utilizing strength-based approaches, I work with you to discover your inner strength and resilience that will help you move forward in your life. No matter what brings you to therapy, you will be heard, and your needs will be at the center of our work. <br>
 Promoting healing and helping people to achieve their fullest potential is my passion. I earned my B.A. in Psychology at the New York University and continued my education at Teachers College, Columbia University, where I obtained my Ed.M. and M.A. in Mental Health Counseling. <br>
