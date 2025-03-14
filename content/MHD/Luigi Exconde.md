@@ -3,7 +3,7 @@ draft = false
 org = "Luigi Exconde"
 highlight = false
 program = "KLS Collective"
-website = "https://klscollective.com/kls-therapist-luigi/"
+website = "https://link.edgepilot.com/s/0a3cf04a/upU2VezydUa_03GQhYmKEA?u=https://klscollective.com/luigi-exconde/ "
 email = "raphael@klscollective.com"
 facebook = ""
 twitter = ""
@@ -84,6 +84,5 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "0900h-1700h"
 +++
-
 
 Luigi Exconde is a Filipino-American Therapist (LCSW). He received his Master of Social Work (MSW) with a clinical focus from New York University’s Silver School of Social Work. Having been raised in both the Philippines and California, his diverse background and experiences have contributed to a practice rooted in empathy and authenticity. Luigi utilizes a strengths-based and collaborative approach to therapy. He is passionate about providing a safe, non-judgmental, and compassionate space for his clients, as they navigate their internal struggles. Because he understands the complex nature of these challenges, he patiently listens to his clients’ perspectives while helping them build tools to effectively encourage positive change.
