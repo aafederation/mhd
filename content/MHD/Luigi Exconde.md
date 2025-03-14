@@ -3,7 +3,7 @@ draft = false
 org = "Luigi Exconde"
 highlight = false
 program = "KLS Collective"
-website = "https://link.edgepilot.com/s/0a3cf04a/upU2VezydUa_03GQhYmKEA?u=https://klscollective.com/luigi-exconde/ "
+website = "https://klscollective.com/luigi-exconde/"
 email = "raphael@klscollective.com"
 facebook = ""
 twitter = ""
