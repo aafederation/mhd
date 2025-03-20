@@ -1,54 +1,54 @@
 +++
-ada_compliant = false
-age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Mikki Baloy"
+highlight = false
+program = "Birdsong Healing Ltd"
+website = "mikkibaloy.com"
 email = "mikkibaloy@gmail.com"
 facebook = "@healermikkibaloy"
-highlight = false
-image = "/img/mikki2-mikki-baloy.jpg"
+twitter = ""
 instagram = "@mikki.baloy"
 linkedin = ""
-medium = ""
-org = "Mikki Baloy"
-payment_info_clinical = ""
-payment_info_non_clinical = "Sliding scale for virtual appointments ($100-140), $140 flat for in-person"
-payment_types = [ ]
-payment_types_non_clinical = [ ]
-program = "Birdsong Healing Ltd"
-sliding_scale_clinical = false
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "mikkibaloy.com"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ ]
+sliding_scale_clinical = false
+payment_info_clinical = ""
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = "Sliding scale for virtual appointments ($100-140), $140 flat for in-person"
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+image = "/img/mikki2-mikki-baloy.jpg"
 
 [[locations]]
 address = "132 Concklin Rd, Pomona, NY 10970"
-boroughs = [ "Online" ]
-credentials = [ ]
-languages = [ "English" ]
 latLng = "41.17122240117403, -74.03009889544838"
-new_clients = "Yes"
-new_clients_detail = ""
+boroughs = [ "Online" ]
+phone_number = ""
+services = [ ]
+psychotherapy = false
+psychotherapy_specialties = [ ]
+psychotherapy_types = [ ]
 non_clinical_services = [
   "Shamanic healing",
   "Ritual/ceremony practices",
   "Yoga",
   "Meditation/mindfulness practices"
 ]
-parking = "Yes"
-phone_number = ""
-psychotherapy = false
-psychotherapy_specialties = [ ]
-psychotherapy_types = [ ]
-public_transportation = [ ]
-services = [ ]
-staff_gender = [ "Female" ]
+credentials = [ ]
 trainings = "Certifications through the Jaguar Path in Yoga and Shamanism; Mental Health First Aid; Certified Ancestral Lineage Healing Practitioner (anticipated August 2022); Minister of Animism"
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "Yes"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "By appointment"
