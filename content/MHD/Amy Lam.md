@@ -1,54 +1,53 @@
 +++
-ada_compliant = true
-age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Amy Lam"
+highlight = false
+program = "Vibrational Energy Coaching and Healing"
+website = "https://amygracelam.com/"
 email = "amygracelam@gmail.com"
 facebook = ""
-highlight = false
-image = "/img/headshot-city-amy-lam.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Amy Lam"
-payment_info_clinical = "$180/60 min"
-payment_info_non_clinical = "$180/60 min; Sliding scale community worker rate $150/60 min"
-payment_types = [ "N/A" ]
-payment_types_non_clinical = [ "N/A" ]
-program = "Vibrational Energy Coaching and Healing"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://amygracelam.com/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "N/A" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$180/60 min"
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = "$180/60 min; Sliding scale community worker rate $150/60 min"
+ada_compliant = true
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Seniors (65+)", "Adults (19 to 64)" ]
+image = "/img/headshot-city-amy-lam.jpg"
 
 [[locations]]
 address = "Online, San Francisco, CA"
-boroughs = [ "Online" ]
-credentials = [ ]
-gender_identification = [ "Genderqueer" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
+boroughs = [ "Online" ]
+phone_number = "530-848-6600"
+services = [ ]
+psychotherapy = false
+psychotherapy_specialties = [ ]
+psychotherapy_types = [ ]
 non_clinical_services = [
   "Energy healing",
   "Chakra balancing",
   "Acupressure/Self Acupressure "
 ]
-parking = "No"
-phone_number = "530-848-6600"
-psychotherapy = false
-psychotherapy_specialties = [ ]
-psychotherapy_types = [ ]
-public_transportation = [ ]
-services = [ ]
-staff_gender = [ "Genderqueer" ]
+credentials = [ ]
 trainings = "MA Counseling Psychology; PhD Cultural Psychology; Bioenergy Balancing; VortexHealing Divine Energy Healing"
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Genderqueer" ]
 
   [[locations.hours_of_operation]]
   day_hours = "12:30 pm - 5:30 pm "
