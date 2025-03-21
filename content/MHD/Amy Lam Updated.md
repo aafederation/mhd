@@ -18,7 +18,7 @@ sliding_scale_clinical = true
 payment_info_clinical = "$200/60 min"
 payment_types_non_clinical = [ "N/A" ]
 sliding_scale_non_clinical = true
-payment_info_non_clinical = "$200/60 min/Sliding scale community worker rate $175/60 min"
+payment_info_non_clinical = "$200/60 min/Sliding scale community worker rate $150/60 min"
 ada_compliant = false
 telehealth = "Yes"
 tags = [ "Individual Provider" ]
@@ -54,6 +54,5 @@ staff_gender = [ "Genderqueer" ]
   [[locations.hours_of_operation]]
   day_hours = "12:30 pm - 5:30 pm "
 +++
-
 
 Our bodies hold a lot of information we may not be aware of. Body memory, unconscious emotions, experiences of trauma, ancestral or even past life patterns. Vibrational Energy Healing helps you understand what your energy body is saying and how to release emotional blocks in your system.
