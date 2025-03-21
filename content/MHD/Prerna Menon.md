@@ -1,48 +1,41 @@
 +++
+draft = true
+org = "Prerna Menon"
+highlight = false
+program = "Repose"
+website = "https://byrepose.com/repose-therapist-prerna-menon-lmsw-ctp-o"
+email = "hello@byrepose.com"
+facebook = ""
+twitter = ""
+instagram = "@byrepose"
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ ]
+payment_types = [ "Columbia University's Aetna Plan", "NYU's Wellfleet" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$180 - $225"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = ""
 ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-best_way_to_contact = [ ]
-client_requirements = ""
-email = "hello@byrepose.com"
-facebook = ""
-highlight = false
 image = "/img/prerna-menon.jpg"
-instagram = "@byrepose"
-linkedin = ""
-medium = ""
-org = "Prerna Menon"
-payment_info_clinical = "$180 - $225"
-payment_info_non_clinical = ""
-payment_types = [ "Columbia University's Aetna Plan", "NYU's Wellfleet" ]
-payment_types_non_clinical = [ ]
-program = "Repose"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://byrepose.com/repose-therapist-prerna-menon-lmsw-ctp-o"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-culturally_competent_treatment = "Yes, I have worked in the Lower East Side Methadone Clinic, which has a primary Asian population. I also currently work primary with south asian folks."
-gender_identification = [ "Female" ]
-languages = [ "Urdu", "Hindi", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation" ]
-parking = ""
+boroughs = [ "Online" ]
 phone_number = ""
+services = [ "Substance Abuse Services", "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Trauma/PTSD",
@@ -76,10 +69,15 @@ psychotherapy_types = [
   "Dialectical Behavioral Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Substance Abuse Services", "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation" ]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = "Yes, NYU grad school had a DROP class specifically designed for this. "
+languages = [ "Urdu", "Hindi", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = ""
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "9 am - 8 pm"
