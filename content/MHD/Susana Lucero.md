@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Susana Lucero"
 highlight = false
 program = ""
@@ -78,7 +78,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "By appointment"
 +++
-
 
 You are courageous for seeking therapy at this point in your life. I am a New York state licensed mental health counselor who sees each client through a multicultural lens. I believe your various identities impact the way you navigate this world. It is important to me to practice in a way that is culturally and LGBTQIA+ affirming. <br>
 I work with individuals and couples who want to better understand and work through their depression, anxiety, relationships, self-esteem, racial/ethnic identity development, grief, family conflict, multicultural concerns, and life transitions. My clinical approach incorporates psychodynamic, existential, attachment and strength-based therapies. Together, we will work to explore your past and address present concerns to make meaningful connections and significant changes. <br>
