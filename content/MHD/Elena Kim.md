@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Elena Kim"
 highlight = false
 program = ""
@@ -98,6 +98,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F, day time and evening hours"
 +++
-
 
 Dr. Elena E. Kim is a psychologist who specializes in helping individuals navigate complex life challenges through psychotherapy.  She addresses issues such as depression, anxiety, and trauma, but her approach goes beyond merely alleviating symptoms.  Dr. Kim emphasizes the importance of exploring the deeper meanings and purposes of life.  Her goal is to support clients in achieving a deep sense of contentment, authenticity, joy, and happiness, ultimately guiding them toward more fulfilling lives during their healing journey.
