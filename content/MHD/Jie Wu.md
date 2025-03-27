@@ -25,7 +25,7 @@ payment_info_clinical = """
 For in network clients, I accept major insurance; for out of network clients, below is the session rate: 
 Individual Sessions $150; Family/Couple Sessions $175; I also accept sliding scales payments"""
 payment_types_non_clinical = [ ]
-sliding_scale_non_clinical = true
+sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = false
 telehealth = "Yes"
