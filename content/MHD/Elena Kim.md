@@ -27,7 +27,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Youth and Teenagers (14 to 19)", "Adults (19 to 64)" ]
-image = "/img/Elena Kim Headshot 2017 - Elena Kim.jpg"
+image = "/img/Elena Kim.jpg"
 
 [[locations]]
 address = ""
