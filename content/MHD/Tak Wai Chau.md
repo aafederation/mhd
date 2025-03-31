@@ -26,7 +26,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "All" ]
-image = ""
+image = "/img/Professional pic - Isabel Chau.jpg"
 
 [[locations]]
 address = "Manhasset NY, 11030"
