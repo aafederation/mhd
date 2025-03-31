@@ -26,7 +26,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "All" ]
-image = "/img/Professional pic - Isabel Chau.jpg"
+image = ""
 
 [[locations]]
 address = "Manhasset NY, 11030"
@@ -70,6 +70,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "flexible hours"
 +++
-
 
 Hi, my name is Isabel. I am a licensed clinical social worker with over 15 years of clinical experience. I have undergone intensive training in play therapy, parenting strategies, and holistic healing, allowing me to offer a compassionate and well-rounded approach to care, providing individual, couples, and group therapy. In the later part of my career, I have take on leadership roles as a clinical supervisor, providing guidance to early childhood social workers at the New York City Department of Education, mentoring master-level social work students at Columbia University, and delivering clinical training to other mental health professionals.
