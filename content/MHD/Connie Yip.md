@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = ""
+image = "/img/Connie Yip Headshot  - Connie Yip.jpg"
 
 [[locations]]
 address = ""
