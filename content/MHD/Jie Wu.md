@@ -37,7 +37,7 @@ age_groups = [
   "Youth and Teenagers (14 to 19)",
   "Adults (19 to 64)"
 ]
-image = ""
+image = "/img/pro-photo - Jie Wu.jpg"
 
 [[locations]]
 address = "Nassau County and Westchester County"
