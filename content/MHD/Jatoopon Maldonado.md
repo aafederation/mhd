@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Jatoopon Maldonado"
 highlight = false
 program = ""
@@ -83,6 +83,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Weekday from 8am-4pm"
 +++
-
 
 I  provide a personalized approach to assure that my clients receive the utmost care that is unique to their needs. I will work closely with you to establish a strong therapeutic relationship that is non-judgmental, open-minded, and supportive.  My goal is to help you achieve mental wellness.
