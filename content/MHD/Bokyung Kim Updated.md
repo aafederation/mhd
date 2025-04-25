@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Bokyung Kim"
 highlight = false
 program = "Bokyung Kim LCSW, PLLC"
@@ -71,7 +71,6 @@ staff_gender = [ "Female", "Nonbinary" ]
   [[locations.hours_of_operation]]
   day_hours = "9am-8pm"
 +++
-
 
 Hi! I’m Bokyung Kim, LCSW (they/she) - a queer nonbinary poly Korean therapist. <br>
 I’m an experiential, decolonizing therapist that integrates somatics, brain change science, and ancestral wisdom to help you transform your trauma & unlock true belonging with yourself and others. <br>
