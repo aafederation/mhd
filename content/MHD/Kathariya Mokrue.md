@@ -29,8 +29,8 @@ age_groups = [ "Youth and Teenagers (14 to 19)", "Adults (19 to 64)" ]
 image = "/img/SFiore_Kathariya-1560edit - Kathariya Mokrue.jpg"
 
 [[locations]]
-address = "12 Hurley Avenue, Kingston, NY 12401"
-latLng = "41.9358868, -74.0257960"
+address = ""
+latLng = ""
 boroughs = [ "Online" ]
 phone_number = "347-735-9881"
 services = [ "Psychotherapy" ]
@@ -65,15 +65,11 @@ trainings = ""
 languages = [ "English", "Thai" ]
 new_clients = "Yes"
 new_clients_detail = "Limited availability"
-parking = "Yes"
+parking = ""
 staff_gender = [ "Female" ]
-
-  [[locations.public_transportation]]
-  transport_option = "UCAT; Trailways Bus to Kingston"
 
   [[locations.hours_of_operation]]
   day_hours = "By appointment only"
 +++
-
 
 I have over 20 years of experience working with adolescents and adults with anxiety related difficulties using cognitive behavioral therapy.
