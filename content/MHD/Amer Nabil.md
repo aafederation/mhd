@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Amer Nabil"
 highlight = false
 program = "Half Full Psychiatry "
@@ -59,8 +59,7 @@ staff_gender = [ "Male" ]
   day_hours = "Thursday through Saturday"
 +++
 
-
 Welcome to Half Full Psychiatry, where my objective as a medication prescriber and a mental health provider is to build a "glass half full perspective". This does not mean I primarily rely on medications to solve an individual's problem. I value knowing about you as an individual to be able to offer solutions, whether they involve medication, psychotherapy or productivity skills. I am currently a father of young children, a husband, a caregiver to my elderly father, a son who lost my mother abruptly. I was also once a student who found it difficult to navigate the social and academic life.I recall my challenges in transitioning from a student to finding employment and entering the full time work force. Based on my life experiences along with my professional experience, I look forward to being your life guide, encouraging - personal development and self growth. I work with clients struggling with ADHD, depression, anxiety and PTSD. <br>
 I also certify PTSD clients for medical marijuana, as well prescribing suboxone to clients struggling with opiate dependence. <br>
 PLEASE BE ADVISED ALL APPOINTMENTS ARE TELE-MEDICINE BASED AT THIS TIME AND NOT IN PERSON. <br>
-Appointments can be booked online. Go to www\.halffullpsychiatry.com and Click "Book Now" to schedule.. <br>
+Appointments can be booked online. Go to [www.halffullpsychiatry.com](http://www.halffullpsychiatry.com) and Click "Book Now" to schedule.. <br>
