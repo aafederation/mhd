@@ -4,7 +4,7 @@ org = "Jin Xie"
 highlight = false
 program = "Mindful Therapy Brooklyn"
 website = "https://www.mindfultherapybrooklyn.com/jin-xie-lmsw/"
-email = "jin@mindfultherapybrooklyn.org"
+email = "jin@mindfultherapybrooklyn.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -61,5 +61,4 @@ staff_gender = [ "Female" ]
   day_hours = "10-6 M-F"
 +++
 
-
-I am an integrative, trauma-informed therapist. I often work with individuals navigating relationship and family challenges, life transitions, and those who are feeling anxious, stuck, or overwhelmed. I believe that healing unfolds through connection—both with ourselves and with others. My approach is experiential and holistic, influenced by Internal Family Systems (IFS), attachment theory, somatic practices, and relational approaches to support deeper integration and embodied healing. 
+I am an integrative, trauma-informed therapist. I often work with individuals navigating relationship and family challenges, life transitions, and those who are feeling anxious, stuck, or overwhelmed. I believe that healing unfolds through connection—both with ourselves and with others. My approach is experiential and holistic, influenced by Internal Family Systems (IFS), attachment theory, somatic practices, and relational approaches to support deeper integration and embodied healing.
