@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Katherine Liaw "
 highlight = false
 program = "Dayspring Mental Health Counseling"
@@ -71,11 +71,7 @@ staff_gender = [ "Female" ]
   day_hours = "Mon-Fri 10am-7pm"
 +++
 
-
-> As a 1.5 generation Chinese American, I understand the potential conflicts that can arise while navigating between two cultures; balancing family traditions and societal values. I, a licensed Creative Arts Therapist based in NY, specialize in working with those who are dealing with challenges related to anxiety, life changes, trauma, relationships, grief and loss, self-esteem, boundaries and faith in addition to cultural conflicts with Asian-Americans.<br>
-> As long as you are comfortable, art can be a powerful way to help you express your innermost feelings that you may not even be aware of, allowing you to make sense of the challenges you are going through that talk therapy alone may not fully accomplish.
-
-<br>
-> With client-centered training, I have incorporated various approaches with art therapy – including insight-oriented and CBT-informed techniques to meet your unique needs. I am committed to creating a safe, culturally sensitive environment where you can explore, grow, and find renewed strength toward overall well-being—mentally, emotionally, and spiritually.
-<br>
-> I am in network with Cigna. Sliding scale is available if you need. Sessions are 50mins via telehealth.
+As a 1.5 generation Chinese American, I understand the potential conflicts that can arise while navigating between two cultures; balancing family traditions and societal values. I, a licensed Creative Arts Therapist based in NY, specialize in working with those who are dealing with challenges related to anxiety, life changes, trauma, relationships, grief and loss, self-esteem, boundaries and faith in addition to cultural conflicts with Asian-Americans. <br>
+As long as you are comfortable, art can be a powerful way to help you express your innermost feelings that you may not even be aware of, allowing you to make sense of the challenges you are going through that talk therapy alone may not fully accomplish. <br>
+With client-centered training, I have incorporated various approaches with art therapy – including insight-oriented and CBT-informed techniques to meet your unique needs. I am committed to creating a safe, culturally sensitive environment where you can explore, grow, and find renewed strength toward overall well-being—mentally, emotionally, and spiritually. <br>
+I am in network with Cigna. Sliding scale is available if you need. Sessions are 50mins via telehealth.
