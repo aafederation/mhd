@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Elena Yee"
 highlight = false
 program = "Elena T Yee Counseling "
@@ -70,6 +70,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sat - Sun 9am-7pm EST"
 +++
-
 
 As a licensed mental health counselor in New York, I'm committed to supporting and validating your real-life experiences while also exploring solutions that will make a difference in your life. My experience includes 6+ years in psychotherapy as well as 20+ years as a working professional within the US and in East Asia, which informs the work I do when it comes to accepting and adjusting to inevitable changes in your life. My approach is multicultural, anti-racist, and inclusive. I use evidence-based approaches such as Solution-Focused Behavioral Therapy (SFBT) and Acceptance and Commitment Therapy (ACT) which is active acceptance of "what is" along with a willingness and commitment to enact values-based actions to "what can be."
