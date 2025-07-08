@@ -3,8 +3,8 @@ draft = false
 org = "Sarah Khan"
 highlight = false
 program = ""
-website = ""
-email = "SarahPKhan0123@yahoo.com"
+website = "https://link.edgepilot.com/s/91b75876/7jx1cWvkMUiiR2XcXslI1g?u=https://northeastpsychiatry.com/"
+email = "Sarah@northeastpsychiatry.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -39,7 +39,7 @@ image = "/img/022-YhA0SdWrr18 - Sarah Khan.jpg"
 address = ""
 latLng = ""
 boroughs = [ "Online" ]
-phone_number = "(929) 229-5650"
+phone_number = "(917)936-4160"
 services = [ "Medication management", "Psychiatric evaluation" ]
 psychotherapy = false
 psychotherapy_specialties = [ ]
@@ -59,6 +59,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sat/Sun 10am-7pm"
 +++
-
 
 I am an experienced adult mental health nurse practitioner with a strong commitment to providing compassionate and culturally competent care to individuals facing mental health challenges. With extensive clinical experience, I focus on delivering evidence-based treatment tailored to each patient's unique needs. As a fluent Urdu speaker, I am able to connect with and support Urdu-speaking patients, ensuring they feel heard, respected, and understood throughout their mental health journey. My goal is to create a safe and welcoming environment for everyone I serve.
