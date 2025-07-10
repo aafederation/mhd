@@ -3,7 +3,7 @@ draft = false
 org = "Jin Xie"
 highlight = false
 program = "Mindful Therapy Brooklyn"
-website = "https://www.mindfultherapybrooklyn.com/jin-xie-lmsw/"
+website = "https://link.edgepilot.com/s/6a4a2f4c/Yf2cOvg-RUGURG5wtBg7Fw?u=https://www.therapywithjin.com/"
 email = "jin@mindfultherapybrooklyn.com"
 facebook = ""
 twitter = ""
@@ -47,7 +47,7 @@ psychotherapy_specialties = [
 psychotherapy_types = [ "Internal Family Systems", "Trauma-informed" ]
 non_clinical_services = [ ]
 credentials = [ "LMSW (Licensed Master Social Worker)" ]
-trainings = "IFS Level 1 (Completed June 2025) & Ackerman Foundations of Family Therapy"
+trainings = "IFS Level 1 & Ackerman Foundations of Family Therapy"
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
