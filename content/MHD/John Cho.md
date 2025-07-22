@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "John Cho"
 highlight = false
 program = "Meant To Thrive Therapy"
@@ -26,7 +26,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = ""
+image = "/img/0edbf477-39e5-4168-9c48-2f978e55 - John Cho.jpg"
 
 [[locations]]
 address = ""
@@ -65,6 +65,5 @@ staff_gender = [ "Male", "Nonbinary" ]
   [[locations.hours_of_operation]]
   day_hours = "Saturdays and Sundays 9-5 PM for sessions"
 +++
-
 
 John Cho is a Licensed Mental Health Counselor (NY) and Licensed Professional Counselor (NJ) serving BIPOC and LGBTQ+ communities. In their therapy practice, Meant To Thrive Therapy, John works with individuals and couples to co-create safety in session to begin to address the painful lived experiences and relational patterns that no longer serve them in order to create a deeper relationship with the self and others to begin the process of repair and healing. John’s approach works through a holistic lens and is guided by combination of LGBTQ+ Affirmative Cognitive Behavioral Therapy (CBT) and Emotionally Focused Therapy (EFT) techniques. John is also grounded by an anti-racist, anti-oppressive, and trauma-informed framework and lived experience as an Korean-American queer person.
