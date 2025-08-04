@@ -15,7 +15,9 @@ medium = ""
 best_way_to_contact = [ "Email" ]
 payment_types = [ "N/A" ]
 sliding_scale_clinical = true
-payment_info_clinical = "$250-$350"
+payment_info_clinical = """
+$250-$350
+We are not in-network for any insurance plans, but we make reimbursement for out-of-network coverage easy by generating monthly insurance statements that are always accessible through the client portal and can be submitted directly to insurance providers."""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -29,7 +31,7 @@ image = "/img/PB headshot - Priya B.jpg"
 [[locations]]
 address = "113 University Place"
 latLng = "40.7341566, -73.9922856"
-boroughs = [ "Manhattan" ]
+boroughs = [ "Manhattan", "Online" ]
 phone_number = "(347) 480-9837"
 services = [ "Psychotherapy" ]
 psychotherapy = true
@@ -71,6 +73,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "11AM-7PM"
 +++
-
 
 I am a psychotherapist with specializations in Eye Movement Desensitization and Reprocessing (EMDR), Sensorimotor Psychotherapy, and couples and family therapy. I believe humans are born to be resilient. My goal is to help my clients transform their anxiety, depression, stress, and trauma so that they can access their full potential as strong, resourceful, and capable individuals. I strive to create a warm and nonjudgmental space where clients can share their struggles, reprocess their past, and feel excited for the future.
