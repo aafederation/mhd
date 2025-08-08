@@ -29,7 +29,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-image = "/img/Rachel Tan Headshot #1 (1) - Rachel Tan.jpg"
+image = ""
 
 [[locations]]
 address = "117 Dobbin St, Brooklyn, NY 11222"
