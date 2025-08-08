@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Rachel Tan"
 highlight = false
 program = "Millow Therapy, Coral Sun Therapy"
@@ -29,7 +29,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-image = ""
+image = "/img/rachel.jpeg"
 
 [[locations]]
 address = "117 Dobbin St, Brooklyn, NY 11222"
