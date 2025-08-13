@@ -4,7 +4,7 @@ org = "Krystle Cheirs-Roberts"
 highlight = false
 program = "Lauren Ricciardi's Group Practice; Hart to Heart Clinical Counseling Services"
 website = "https://www.psychologytoday.com/profile/1322873"
-email = "krystle@yogalcsw.com"
+email = "contact@yogalcsw.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -88,7 +88,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Friday-Sunday 9am - 12pm"
 +++
-
 
 Krystle is a Licensed Master Social Worker (LMSW) who is queer, multiracial, and a first generation child of an immigrant. <br>
 A graduate of the Silberman School of Social Work at Hunter College in clinical practice with individuals, families, and groups; and a focus on sexuality and gender, Krystle is passionate about creating safe spaces and empowering women, LGBTQIA+ and gender fluid individuals, young adults, and adolescents through compassionate, culturally responsive, and affirming therapy. She is also a certified yoga instructor (RYT-200) and a Spanish speaker. <br>
