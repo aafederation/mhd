@@ -7,7 +7,7 @@ website = "asmaabudahab.com"
 email = "support@asmaabudahab.com"
 facebook = ""
 twitter = ""
-instagram = "@heart.mind.pllc"
+instagram = "@asma.therapist"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -81,6 +81,5 @@ new_clients_detail = ""
 parking = ""
 staff_gender = [ "Female" ]
 +++
-
 
 I am trauma-informed decolonial therapist and coach.
