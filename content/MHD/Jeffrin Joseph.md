@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Jeffrin Joseph"
 highlight = false
 program = "ODAT Coaching & Counseling"
@@ -88,6 +88,5 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F 6pm-9pm"
 +++
-
 
 I am Jeffrin Joseph, a South Indian man driven by compassion and resilience in the field of social work. Like the principles of Acceptance and Commitment Therapy (ACT) teach, I embrace the metaphor of the swamp, where challenges may arise, but I remain committed to my values and goals. Just as one navigates a swamp, I adapt, learn, and grow amidst difficulties, never losing sight of my purpose. My dedication and unwavering spirit inspire those around me to reach for their highest potential and find strength in adversity. As a Licensed Master Social Worker (LMSW), I embody the values of empathy, integrity, and service, empowering individuals to overcome obstacles and embrace positive change. My journey is a testament to the transformative power of compassion and perseverance, illuminating the path towards healing and growth.
