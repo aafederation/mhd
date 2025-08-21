@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Veera Mookerjee"
 highlight = false
 program = "Resolveera"
@@ -38,7 +38,11 @@ psychotherapy_types = [ ]
 non_clinical_services = [
   "Meditation/mindfulness practices",
   "Peer support groups",
-  "Psychoeducation"
+  "Psychoeducation",
+  "Case management",
+  "Coaching",
+  "Family support",
+  "Workshops and trainings"
 ]
 credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = "I have a PH.D in Social Work and SIFI Certification from Mercy University. I provide CE for NY State Social Workers through NASW-New York"
@@ -54,6 +58,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sat: 9 am to 5 pm"
 +++
-
 
 I am a Doctoral graduate from Yeshiva University in Social Work. I am a licensed Mental Health therapist who works FFS for more Mental Health Clinics in NYC. In addition, I run a consulting agency, Resolveera where I work primarily with clients who are navigating mental health services and need guidance to get connected to mental health resources in the community. Resolveera does not diagnose but helps individuals who are facing transitioning challenges and are uncomfortable seeking mental health services in a clinic or getting a mental health diagnosis. Resolveera provides non-clinical consultation to clients to make educated decision for their mental health and well being.
