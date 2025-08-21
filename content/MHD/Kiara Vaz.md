@@ -13,9 +13,11 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email" ]
-payment_types = [ ]
+payment_types = [ "Aetna" ]
 sliding_scale_clinical = true
-payment_info_clinical = "My rate per session starts at $165, I currently have sliding scale spots available."
+payment_info_clinical = """
+My rate per session starts at $165, I currently have sliding scale spots available.
+I can help clients verify their out of network benefits."""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -88,6 +90,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "8:00 AM - 3:00 PM "
 +++
-
 
 Therapy with me is collaborative and relational. I will bring your values into the room, honor the many parts of you, and create something rooted in safety and respect. I understand what it means to long for spaces where your full self is welcome. That’s the kind of space I strive to offer—one where you feel both grounded and free to grow. We’ll explore your experiences at your pace—with structure when needed, softness when it matters, and humor where it’s healing. As a third culture individual and immigrant, I understand the nuances of belonging, identity, and cultural navigation firsthand. I bring this lens into the room to honor the richness and complexity of each person’s story.
