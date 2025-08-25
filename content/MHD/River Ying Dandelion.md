@@ -3,7 +3,7 @@ draft = false
 org = "River 瑩瑩 Dandelion"
 highlight = false
 program = "River Transforms Medicine"
-website = "https://riverdandelion.com/reiki"
+website = "https://riverdandelion.com/shamanichealing"
 email = "rivertransforms@gmail.com"
 facebook = ""
 twitter = ""
@@ -69,7 +69,6 @@ staff_gender = [ "Nonbinary", "Transgender" ]
   [[locations.hours_of_operation]]
   day_hours = "Tuesday through Saturday: By Appointment Only"
 +++
-
 
 My name is River 瑩瑩 Dandelion, and I am a Reiki energy healing practitioner, attuned to the highest level of Usui Reiki. As a Reiki Master, my wellness practice is a unique blend of my certifications and studies in Usui Reiki Ryoho, shamanism, and herbalism. My expertise lives in helping clients move through anxiety, self-doubt, self-judgement, major life transitions, and deep inner transformations. I specialize in working with Asian, queer, trans, immigrant, and people of the global majority, and I am fluent in three languages of Chinese: Toisanese, Cantonese, and Mandarin, alongside Spanish and English. <br>
 I am a queer and trans, Toisanese keeper of ancestral medicine through energy healing, teaching, writing poetry, and creating ceremony. As a former grassroots organizer, I am a politicized healer connected to the social movements of our times. I also am an abolitionist who provides anti-racist, gender-affirming care to my highest capacity. <br>
