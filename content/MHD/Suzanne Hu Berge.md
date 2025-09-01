@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Suzanne Hu Berge"
 highlight = false
 program = "Embrace Equanimity"
@@ -86,6 +86,4 @@ staff_gender = [ "Female" ]
   day_hours = "7am-3pm"
 +++
 
-
 I have provided care to clients in hospice/palliative care and foster care/adoption settings. Experience in providing support to medical professionals, those with chronic illness, individuals within immigration, 2S/LGBTQAI+/QTBIPOC communities and third cultured children, and 65+ individuals.
-
