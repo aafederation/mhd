@@ -76,7 +76,7 @@ psychotherapy_types = [
   "Narrative therapy"
 ]
 non_clinical_services = [ "Psychoeducation" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
 languages = [ "English" ]
 new_clients = "Yes"
