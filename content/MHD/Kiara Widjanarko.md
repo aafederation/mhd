@@ -81,7 +81,7 @@ credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = ""
 languages = [ "English", "Indonesian" ]
 new_clients = "Yes"
-new_clients_detail = ""
+new_clients_detail = "I see patients remotely and also in Manhattan and Queens"
 parking = "No"
 staff_gender = [ "Female" ]
 
@@ -100,7 +100,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Thurs 4-8pm"
 +++
-
 
 Coming from a Southeast Asian background where mental health is stigmatized, I understand that coming to therapy can be intimidating. I aim to create a safe, non-judgmental space where your experiences and feelings are seen and heard, and where we build on your existing strengths. To achieve this, I draw from Cognitive Behavioral Therapy, Dialectical Behavior Therapy, Motivational Interviewing, and Mindfulness. <br>
 I have worked with college students facing academic stress, relationship issues, low self-esteem, anxiety, and depression. I have also supported adults with substance use disorders in managing triggers, pursuing goals, practicing mindfulness, and understanding the link between mental health and addiction. Prior to my experience as a therapist, I worked in research with young children, veterans with PTSD, and adults at risk of Alzheimer's disease. <br>
