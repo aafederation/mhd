@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Shameela Inderdeo"
 highlight = false
 program = ""
@@ -95,6 +95,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-W 8 am - 9 PM"
 +++
-
 
 My approach as a therapist is predominantly from a Cognitive Behavioral Therapy perspective. This allows me to help my clients identify their thoughts and behaviors around their relationships, triggers, family dynamics and childhood issues/trauma. Using both eclectic and humanistic approach to accentuates the significance of being your true self in order to be the most fulfilling and best version of yourself.
