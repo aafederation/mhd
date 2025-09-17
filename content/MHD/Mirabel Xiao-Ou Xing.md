@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Mirabel Xiao-Ou Xing"
 highlight = false
 program = "The Therapy Collective"
@@ -83,7 +83,6 @@ new_clients_detail = "Please reach out and we will discuss what works best for y
 parking = ""
 staff_gender = [ "Female" ]
 +++
-
 
 Wherever you are in life, we will create an intentional space to explore your struggles, feelings, aspirations, and the parts of yourself that long to be recognized and nurtured. As an immigrant, Third Culture Kid (TCK), and former international student, I believe our identities are intricate and multifaceted. To truly comprehend ourselves and lead a fulfilling life, we must consider the diverse contexts that shape us. My past careers as a journalist and teacher have shown me that while our narratives are unique, we all share a desire for self-understanding, insight into the human experience, and meaningful connections. <br>
 I support individuals and couples through life transitions, conflicts, stress, anxiety, loneliness, grief and loss. My relational, strength-focused, culturally sensitive approach integrates Western and Eastern philosophies, drawing from psychodynamic theories, existential psychotherapy, Gestaltism, Internal Family Systems, and Dialectical Behavioral Therapy. <br>
