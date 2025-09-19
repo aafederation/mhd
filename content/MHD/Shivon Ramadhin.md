@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Shivon Ramadhin"
 highlight = false
 program = "Gaya Therapy"
@@ -65,6 +65,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9-8 Thurs"
 +++
-
 
 As a first-generation Indo-Caribbean American therapist, I understand the struggle of balancing multiple identities and the importance of finding harmony between our individuality and our communities. Growing up between Caribbean and South Asian culture has shaped my view of visibility and belonging in my community. I typically work with young professionals, people of color (POC), interracial couples, and first-generation siblings who are looking to discover a stronger sense of self and heal relational ruptures.  Through enhancing the connection between your mind and body using a psychodynamic and somatic/body-based framework, I will help you access and heal the deeper emotional layers that traditional talk therapy may not reach. If you're feeling stuck, lonely, anxious, or weighed down by generational trauma, my approach is tailored to support you.
