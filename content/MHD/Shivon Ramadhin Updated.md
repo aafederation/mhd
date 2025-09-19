@@ -1,6 +1,6 @@
 +++
 draft = false
-org = "Shivon ramadhin"
+org = "Shivon Ramadhin"
 highlight = false
 program = "USQ Therapy"
 website = ""
@@ -44,8 +44,8 @@ psychotherapy_specialties = [
 ]
 psychotherapy_types = [ "Couples Therapy", "Somatic Psychotherapy" ]
 non_clinical_services = [ "Somatic therapy" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-trainings = "Somatic Experiencing Practitioner"
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
+trainings = ""
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
@@ -58,6 +58,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "10-6 m-thurs"
 +++
-
 
 I'm an therapist working with bicultural couples and people that come from communities of color.
