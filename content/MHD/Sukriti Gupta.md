@@ -4,7 +4,7 @@ org = "Sukriti Gupta"
 highlight = false
 program = "Therapy By Dr. Gupta"
 website = "https://www.therapybydrgupta.com/about"
-email = "sukritingupta@gmail.com"
+email = "heal@therapybydr.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -29,10 +29,12 @@ age_groups = [ "All" ]
 image = "/img/gupta_sukriti_Default_Default_Headshot (1) - Sukriti.jpg"
 
 [[locations]]
-address = "14650 Bayside Avenue Flushing NY 11354"
-latLng = "40.7708889, -73.8199021"
+address = """
+200 S Service Road
+Roslyn NY 11577"""
+latLng = "40.78334053204688, -73.65410900581784"
 boroughs = [ "Online", "Queens" ]
-phone_number = "646 580 2912"
+phone_number = "646-580-2912"
 services = [
   "Psychological testing and assessment",
   "Psychotherapy",
@@ -101,7 +103,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sunday-to Friday 10AM-10PM"
 +++
-
 
 Hi, I’m Dr. Sukriti Gupta—a South Asian therapist with advanced doctoral and master’s-level training in marriage and family therapy. I specialize in helping individuals, couples, and families break unhealthy cycles, navigate cultural and generational differences, and build deeper, more authentic connections. <br>
 My clients are often high-achieving professionals or adult children of immigrants who are struggling with anxiety, relationships, or identity—people who “look fine” on the outside but feel stuck, unheard, or emotionally overwhelmed inside. You might be tired of people-pleasing, carrying unspoken family expectations, or feeling torn between independence and loyalty. I get it—and you don’t have to do this alone. <br>
