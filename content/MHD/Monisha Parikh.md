@@ -38,7 +38,7 @@ image = "/img/monisha_parikh_headshot - Monisha Parikh.jpg"
 
 [[locations]]
 address = "123 4th Ave., 3rd Flr. New York, NY 10003"
-latLng = "40.73557700783808, -73.98365192495763"
+latLng = "40.73336523266349, -73.98951016931348"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "(212) 920-1976"
 services = [ "Psychological testing and assessment", "Psychotherapy" ]
@@ -90,7 +90,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday-Saturday"
 +++
-
 
 Monisha is a trauma-informed, somatic therapist who specializes in supporting adults through life transitions, identity exploration, and emotional overwhelm. With a deeply relational and culturally responsive approach, she helps clients reconnect with themselves, process difficult experiences, and move toward healing that feels sustainable and authentic. <br>
 As a first-generation American, Monisha brings a unique understanding of the complexities that arise when navigating multiple cultural identities, family dynamics, and societal expectations. Her lived experience, combined with extensive clinical training, allows her to hold space for nuance and depth, offering care that is both compassionate and grounded. <br>
