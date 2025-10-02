@@ -38,7 +38,7 @@ image = "/img/monisha_parikh_headshot - Monisha Parikh.jpg"
 
 [[locations]]
 address = "123 4th Ave., 3rd Flr. New York, NY 10003"
-latLng = "40.73312996736847, -73.98963861534327 "
+latLng = "40.733105549198335, -73.98960643221311"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "(212) 920-1976"
 services = [ "Psychological testing and assessment", "Psychotherapy" ]
