@@ -2,7 +2,7 @@
 draft = false
 org = "Monisha Parikh"
 highlight = false
-program = "Repose "
+program = "By Repose "
 website = "https://byrepose.com/monisha-parikh"
 email = "hello@byrepose.com"
 facebook = ""
