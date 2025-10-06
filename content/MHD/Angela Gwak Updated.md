@@ -3,7 +3,7 @@ draft = false
 org = "Angela Gwak"
 highlight = false
 program = "Resonance Psychology PLLC"
-website = "https://link.edgepilot.com/s/b6c24f0a/KlNL_zH3RkiLprUIT3fbnA?u=http://www.resonancepsychologynyc.com/"
+website = "https://link.edgepilot.com/s/d0b691d0/xmGpMCkxNkWqctIR7k3ilA?u=http://www.resonancepsychologynyc.com/"
 email = "drgwak@resonancepsychologynyc.com"
 facebook = ""
 twitter = ""
@@ -81,6 +81,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Weekdays only"
 +++
-
 
 Dr. Angela Gwak is a multiculturally responsive licensed psychologist practicing in NY. She earned her Ph.D. from Columbia University.
