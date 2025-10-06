@@ -31,7 +31,7 @@ image = "/img/Headshot for K-ETA  application - Angela Gwak.png"
 
 [[locations]]
 address = "125 East 23rd Street, New York, NY 10010"
-latLng = "40.74006523518053, -73.98524139999999"
+latLng = "40.74009772258041, -73.98524140337693"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "212 884 1903"
 services = [ "Psychotherapy" ]
