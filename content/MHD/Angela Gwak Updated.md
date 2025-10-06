@@ -3,7 +3,7 @@ draft = false
 org = "Angela Gwak"
 highlight = false
 program = "Resonance Psychology PLLC"
-website = "https://link.edgepilot.com/s/80a8da84/K3wE9j9J50mrOUAQQ5znsA?u=http://www.resonancepsychologynyc.com/"
+website = "https://www.resonancepsychologynyc.com/"
 email = "drgwak@resonancepsychologynyc.com"
 facebook = ""
 twitter = ""
@@ -31,7 +31,7 @@ image = "/img/Headshot for K-ETA  application - Angela Gwak.png"
 
 [[locations]]
 address = "125 East 23rd Street, New York, NY 10010"
-latLng = "40.7399046, -73.9850958"
+latLng = "40.74006523518053, -73.98524139999999"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "212 884 1903"
 services = [ "Psychotherapy" ]
