@@ -3,7 +3,7 @@ draft = false
 org = "Angela Gwak"
 highlight = false
 program = "Resonance Psychology PLLC"
-website = "https://link.edgepilot.com/s/d0b691d0/xmGpMCkxNkWqctIR7k3ilA?u=http://www.resonancepsychologynyc.com/"
+website = "https://link.edgepilot.com/s/80a8da84/K3wE9j9J50mrOUAQQ5znsA?u=http://www.resonancepsychologynyc.com/"
 email = "drgwak@resonancepsychologynyc.com"
 facebook = ""
 twitter = ""
