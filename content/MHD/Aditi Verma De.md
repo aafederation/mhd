@@ -28,7 +28,7 @@ image = "/img/aditi-headshot-aditi-verma.jpg"
 
 [[locations]]
 address = "303 5th Avenue, Suite 701, New York, NY 10016"
-latLng = "40.74674813534379, -73.98558260337661"
+latLng = "40.746723750775814, -73.98559333221242"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "917-283-0738"
 services = [ "Psychotherapy" ]
