@@ -27,8 +27,8 @@ age_groups = [ "Adults (19 to 64)" ]
 image = "/img/aditi-headshot-aditi-verma.jpg"
 
 [[locations]]
-address = "153 W 27th Street, Suite 300, New York, NY 10001"
-latLng = "40.7466996998311, -73.99282002544373"
+address = "303 5th Avenue, Suite 701, New York, NY 10016"
+latLng = "40.74674813534379, -73.98558260337661"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "917-283-0738"
 services = [ "Psychotherapy" ]
@@ -77,7 +77,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday - Thursday: 9 am - 6 pm"
 +++
-
 
 I utilize a multi-cultural framework to work with clients struggling with codependence, relationship conflict, building a healthy self-image and confidence, acculturation and third culture identity formation, and mood fluctuations. As a therapist of color, I recognize the importance of understanding your values and beliefs with cultural respect.<br>\
 The core of my therapeutic work is creating a space that encourages support, insight, and change. My aim is to help you draw awareness into developing your own coping strategies, engage in creative problem solving, and highlight your personal strength and resiliency. With a curious perspective, we will work together to allow your story to energize you.
