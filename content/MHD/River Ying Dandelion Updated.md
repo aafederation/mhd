@@ -48,7 +48,7 @@ non_clinical_services = [
   "Healing Sessions"
 ]
 credentials = [ ]
-trainings = "Reiki Master in Usui Reiki Ryoho, MedicineWay (Shamanic Arts) Practitioner, Embodied Social Justice Certificate, M.F.A in Creative Writing (Poetry)"
+trainings = "Reiki Master in Usui Reiki Ryoho, MedicineWay (Shamanic Arts) Practitioner, Embodied Social Justice Certificate, M.F.A in Creative Writing (Poetry), Certified Meditation Teacher"
 languages = [
   "English",
   "Chinese (Cantonese)",
