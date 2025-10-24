@@ -33,7 +33,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Seniors (65+)"
 ]
-image = "/img/headshot - Irene Syriac (1).HEIC"
+image = "/img/headshot - Irene Syriac (2).jpg"
 
 [[locations]]
 address = ""
