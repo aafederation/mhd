@@ -38,7 +38,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
-image = "/img/white shirt -photo berkeley 2011 - Ranjanpreet Nagra.jpg"
+image = "/img/IMG_0880.jpeg"
 
 [[locations]]
 address = "719 Harrison Street Syracuse NY 13210"
@@ -77,6 +77,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday-Friday 9am-5pm"
 +++
-
 
 I am a psychiatric nurse practitioner.  I provide medication management and psychotherapy to adult and geriatric patients. I treat depression, anxiety, ADHD, bipolar and related disorders.
