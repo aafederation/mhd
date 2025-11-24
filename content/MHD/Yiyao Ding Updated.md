@@ -32,7 +32,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Seniors (65+)"
 ]
-image = "/img/IMG_5701.JPG"
+image = ""
 
 [[locations]]
 address = ""
@@ -85,7 +85,6 @@ staff_gender = [ "Transgender", "Nonbinary" ]
   [[locations.hours_of_operation]]
   day_hours = "10 am to 6pm Monday to Friday "
 +++
-
 
 Asian, immigrant, and queer, I know the challenges that our communities face. Therefore, I am committed to partnering with you to go into the deep trenches of vulnerability. If you feel stuck and have a part that wants to change, I welcome you. I can’t make you grow single-handedly. However, with our collaboration, I am confident that we can find pathways to a better life. You bring in your struggles, your strengths (yes, you have lots of them!), and willingness to take some risks, and I will offer guidance and support through my trainings in evidence-based practices, such as EMDR, mindfulness, Ackerman Relational Approach, EFT, IFS, and somatic approaches. I have expertise in many areas, such as childhood/attachment trauma, gender identity and sexuality, intimate relationship issues and ENM, life transition stress (particularly of international students and immigrants), family dynamics, and interpersonal stress. My therapy approach is relational, holistic, and gently confrontational. <br>
 I also offer the service of writing gender-affirming care/surgery letters. I am accepting self-pay clients. <br>
