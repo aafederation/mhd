@@ -31,8 +31,8 @@ age_groups = [
 image = ""
 
 [[locations]]
-address = "449 North State Road, Briarcliff Manor, NY 10510"
-latLng = "41.1512247, -73.8304540"
+address = "555 Pleasantville Road, Suite 100A.  Briarcliff Manor, NY 10510"
+latLng = "41.139812250612444, -73.81160087452106"
 boroughs = [ "Westchester" ]
 phone_number = "914-610-4884"
 services = [ "Psychotherapy" ]
@@ -66,8 +66,8 @@ non_clinical_services = [ ]
 credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
 trainings = ""
 languages = [ "English" ]
-new_clients = "No"
-new_clients_detail = "Currently I am not accepting new clients-but slots may open up shortly.  "
+new_clients = "Yes"
+new_clients_detail = ""
 parking = "Yes"
 staff_gender = [ "Female" ]
 
@@ -78,5 +78,4 @@ staff_gender = [ "Female" ]
   day_hours = "Variable (primarily evenings)"
 +++
 
-
-Dr. Rao is a NYS Licensed Clinical Psychologist who specializes in working with children and adolescents with trauma histories, developmental disabilities, and other generalized disorders, including anxiety and depression.  
+Dr. Rao is a NYS Licensed Clinical Psychologist who specializes in working with children and adolescents with trauma histories, developmental disabilities, and other generalized disorders, including anxiety and depression.
