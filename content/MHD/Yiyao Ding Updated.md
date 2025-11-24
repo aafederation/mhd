@@ -32,7 +32,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Seniors (65+)"
 ]
-image = "/img/IMG_5701.JPG"
+image = ""
 
 [[locations]]
 address = ""
