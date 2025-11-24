@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Yiyao Ding"
 highlight = false
 program = "Ally Counseling and Therapy "
@@ -86,5 +86,4 @@ staff_gender = [ "Transgender", "Nonbinary" ]
   day_hours = "10 am to 6pm Monday to Friday "
 +++
 
-
-Self-identified as Asian, immigrant, and transgender, I know the challenges that our communities face. No issue is petty. As Audre Lorde powerfully put it, “caring for myself is not self-indulgence, it is self-preservation”. Healing and taking rest is part of being human. I want to utilize my evidence-based trainings, personal experiences, and humanity to help support your therapy journey.   
+Self-identified as Asian, immigrant, and transgender, I know the challenges that our communities face. No issue is petty. As Audre Lorde powerfully put it, “caring for myself is not self-indulgence, it is self-preservation”. Healing and taking rest is part of being human. I want to utilize my evidence-based trainings, personal experiences, and humanity to help support your therapy journey.
