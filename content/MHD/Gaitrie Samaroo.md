@@ -1,46 +1,41 @@
 +++
+draft = true
+org = "Gaitrie Samaroo"
+highlight = false
+program = "Calm Collective Therapy"
+website = "https://www.calmcollectivetherapy.net/"
+email = "gaitrie@calmcollectivetherapy.net"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Website", "Email" ]
+payment_types = [ "UnitedHealthcare", "Oxford", "Optum", "Cigna", "Aetna" ]
+sliding_scale_clinical = false
+payment_info_clinical = "$155/session"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
 ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-best_way_to_contact = [ "Website", "Email" ]
-client_requirements = ""
-email = "gaitrie@calmcollectivetherapy.net"
-facebook = ""
-highlight = false
 image = "/img/unnamed_edited_edited-gaitrie-samaroo.webp"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Gaitrie Samaroo"
-payment_info_clinical = "$155/session"
-payment_info_non_clinical = ""
-payment_types = [ "UnitedHealthcare", "Oxford", "Optum", "Cigna", "Aetna" ]
-payment_types_non_clinical = [ ]
-program = "Calm Collective Therapy"
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.calmcollectivetherapy.net/"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "276 Fifth Avenue, Suite 704, New York, New York 10001"
-boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-languages = [ "English" ]
 latLng = "40.74332412957923, -73.99072233558229"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation" ]
-parking = "No"
+boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
 phone_number = "646-363-6104"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -78,10 +73,15 @@ psychotherapy_types = [
   "Family therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation" ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 9 pm"
