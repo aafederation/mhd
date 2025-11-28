@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Yaojia Sun"
 highlight = false
 program = "Repose Therapy"
@@ -87,11 +87,8 @@ staff_gender = [ "Female" ]
   day_hours = "Monday to Friday, 9am - 5pm EST"
 +++
 
-
 Hi! I am Yaojia. I work with teenagers and adults, with rich experiences with college-age population, perfectionists and artistic souls. Once an international student myself, I understand the unique experiences coming from an east Asian/Chinese background and navigating US society.
 
 My work is influenced by humanistic, relational and Cognitive behavioural therapy (CBT) directed approaches, while incorporating techniques from mindfulness, Gestalt therapy, drama therapy, Dialectical Behavior Therapy (DBT), Acceptance and commitment therapy(ACT), Exposure and Response Prevention (EXRP) & Internal Family Systems (IFS) to meet individual needs. to creatively address issues. I do not think therapy is a “one for all” thing. Working together, we will collaborate and design our own map for healing.
 
 People say I am warm, supportive and understanding, sometimes (gently) challenging:) I love to bring in my sense of humor and creativity into the work we do!
-
-
