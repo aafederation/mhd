@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Grace Szu-Hua Chen"
 highlight = false
 program = "Ember Psychotherapy Collective"
@@ -89,7 +89,6 @@ staff_gender = [
   [[locations.hours_of_operation]]
   day_hours = "6AM-2PM"
 +++
-
 
 I specialize in working with complex trauma, anxiety, depression, attachment issues, low self-esteem, and dating/ relationship challenges. I am passionate about working with those who identify as "outsiders," artists, and those navigating multicultural and identity exploration. Because each person is different, psychotherapy is an individual, unique process. <br>
 I draw from a range of experiential and evidence-based approaches including Internal Family Systems (IFS), Acceptance and Commitment Therapy (ACT), Accelerated Experiential Dynamic Psychotherapy (AEDP), psychodynamic therapy, and expressive arts therapies. In exploring therapy, you've taken a courageous step toward self-discovery, healing, and empowerment. <br>
