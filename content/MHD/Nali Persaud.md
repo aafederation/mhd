@@ -3,7 +3,7 @@ draft = false
 org = "Nali Persaud"
 highlight = false
 program = "Headway or RULA"
-website = "https://headway.co/?utm_source=google&utm_medium=cpc&utm_campaign=19809591086&utm_adgroup=%7Badgroupnid%7D&utm_content=brand&utm_term=headway%20healthcare&gad_source=1&gad_campaignid=19809591086&gbraid=0AAAAAoLs-VVgukQ9SUvLr2yNjdzCRG8gD&gclid=Cj0KCQiAubrJBhCbARIsAHIdxD_V6qEF-NppLwBpHh49nJqYMlghx8kaIOJ1ggQE_9lUVM9X3PadquoaAn9sEALw_wcB"
+website = "https://care.headway.co/providers/nali-persaud"
 email = "Nali.persaudlcsw@gmail.com"
 facebook = ""
 twitter = ""
@@ -80,7 +80,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "8am-6pm (PST)"
 +++
-
 
 I am extremely passionate working in this field because I enjoy connecting with people and helping them to overcome obstacles in order for them to live a happier and more fulfilled life. I try to create a safe space for someone to comfortably delve into their thoughts and emotions to find the core issues they are dealing with.  I have over 18 years of experience working with individuals, couples, and families with a wide range of challenges and issues. <br>
 My treatment style is primarily a client-centered approach that focuses on building trust and rapport in order for a person to feel comfortable to discuss any issues that they are having trouble with. I believe that there is no one-size-fits-all approach to mental health treatment and instead I will tailor treatment to the individual. <br>
