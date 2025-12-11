@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Sheng Lin"
 highlight = false
 program = "Saya Psychotherapy"
@@ -73,7 +73,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "Mornings, evenings, and flexible on weekends"
 +++
-
 
 I have 7 years of experience in the non-profit field, supporting survivors of gender-based violence in the AAPI community. My experience extend across a diverse range of ages, from young kids and adolescents to older adults. If it's anything revolving around building healthier relationships or coping with trauma, I can be there to support. <br>
 My priority is creating a safe and confidential space so that you can be empower you to take the steps necessary to move forward. It is my priority that you feel comfortable being your authentic self. In our sessions, we will take a holistic approach, ensuring that your multiple identities are acknowledged to help you navigate your environment. Our sessions will be an opportunity for you to gain a greater sense of self and practice regaining control of your life. <br>
