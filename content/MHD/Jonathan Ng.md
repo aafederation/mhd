@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Jonathan Ng"
 highlight = false
 program = ""
@@ -115,6 +115,5 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "9am-8pm"
 +++
-
 
 Have you ever felt curious about the wisdom your body holds? Or perhaps wonder how your mental health, bodies, lineages, and roots inform each other? Through transformative mental health practices, we will spark a greater connection that will ultimately act as a source for you to navigate through life's waves so you can thrive in abundance.
