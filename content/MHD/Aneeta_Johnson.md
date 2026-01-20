@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Aneeta Johnson"
 highlight = false
 program = "Aneeta Johnson, Psychologist, PLLC - Telehealth only"
@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = ""
+image = "/img/16A7A579-96CE-49AA-A6C9-43B44A9C8881_1_105_c - Aneeta Johnson.jpeg"
 
 [[locations]]
 address = ""
