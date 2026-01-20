@@ -52,7 +52,7 @@ psychotherapy_specialties = [
 psychotherapy_types = [ "Couples Therapy", "Family therapy", "Trauma-informed" ]
 non_clinical_services = [ "Peer support groups" ]
 credentials = [ "LMFT (Licensed Marriage and Family Therapist)" ]
-trainings = "Certified emotionally focused therapist and supervisor-candidate "
+trainings = "Certified emotionally focused therapist and supervisor"
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
@@ -63,7 +63,6 @@ staff_gender = [ "Female" ]
   day_hours = "7:45am-6:30pm"
 +++
 
-
 Diana is a marriage and family therapist who provides compassionate, client-centered care to individuals, couples, and families navigating trauma, relational conflict, and emotional disconnection. She offers a warm, collaborative space where clients can explore their stories, strengthen relationships, and move toward healing. Diana has experience supporting people of color, those in intercultural relationships, and clients addressing issues related to identity, trust, and emotional connection—both individually and within their relationships. <br>
-She is a Certified Emotionally Focused Therapy (EFT) Therapist and Supervisor Candidate, and is trained in Trauma Systems Therapy and Trauma-Focused Cognitive Behavioral Therapy (TF-CBT). She is also a certified Prepare-Enrich facilitator, equipping couples with tools to build stronger, more resilient relationships. She is licensed in Connecticut and NY. <br>
+She is a Certified Emotionally Focused Therapy (EFT) Therapist and Supervisor, and is trained in Trauma Systems Therapy and Trauma-Focused Cognitive Behavioral Therapy (TF-CBT). She is also a certified Prepare-Enrich facilitator, equipping couples with tools to build stronger, more resilient relationships. She is licensed in Connecticut and NY. <br>
 Diana’s approach is rooted in attachment theory, Emotionally Focused Therapy, and trauma-informed care. She creates a safe, inclusive space where all clients feel respected. As a Christian, she can integrate faith for those who desire it, while honoring and working effectively with clients from diverse or non-faith backgrounds. <br>
