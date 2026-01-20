@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Diana Jhin"
 highlight = false
 program = "Greenwich Advanced Counseling "
@@ -30,7 +30,7 @@ age_groups = [
   "Adults (19 to 64)",
   "Seniors (65+)"
 ]
-image = ""
+image = "/img/IMG_5300 - Diana Yun.jpeg"
 
 [[locations]]
 address = ""
