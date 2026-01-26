@@ -13,7 +13,7 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email" ]
-payment_types = [ "N/A" ]
+payment_types = [ "Aetna", "Cigna", "Optum" ]
 sliding_scale_clinical = true
 payment_info_clinical = "$200"
 payment_types_non_clinical = [ ]
@@ -56,7 +56,7 @@ parking = ""
 staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Wednesdays and Thursdays"
+  day_hours = "Mon, Tues, Wed evenings"
 +++
 
-Stephanie has over 10 years of experience providing therapy and consultation to young children and adults. She practices from a trauma-informed and attachment-based lens, and has trained in Perinatal and Child Parent Psychotherapy. As a woman of color and child of immigrants, Stephanie recognizes the unique joys and challenges of navigating intersectional identities. Stephanie strongly believes in the healing power of relationships, and is committed to culturally aware and anti-racist therapy. 
+Stephanie has over 10 years of experience providing therapy and consultation to young children and adults. She practices from a trauma-informed and attachment-based lens, and has trained in Perinatal and Child Parent Psychotherapy. As a woman of color and child of immigrants, Stephanie recognizes the unique joys and challenges of navigating intersectional identities. Stephanie strongly believes in the healing power of relationships, and is committed to culturally aware and anti-racist therapy.
