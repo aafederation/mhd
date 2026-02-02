@@ -3,7 +3,7 @@ draft = false
 org = "Charlene Zhen"
 highlight = false
 program = "Union Square Psychotherapy"
-website = "https://usqtherapy.org/charlene-zhen/"
+website = "https://link.edgepilot.com/s/9ea373b0/dhtOBaflvEyzv2iypctAkA?u=https://charlenezhen.com/"
 email = "charlenezhentherapy@gmail.com"
 facebook = ""
 twitter = ""
@@ -27,8 +27,8 @@ age_groups = [ "Adults (19 to 64)" ]
 image = "/img/Charlene_Headshot (1) - Charlene Zhen.jpg"
 
 [[locations]]
-address = "4 E 12th St, New York, NY 10003"
-latLng = "40.7342485, -73.9940562"
+address = "44 E 12th St, New York, NY 10003"
+latLng = "40.73344914852645, -73.99186257454144"
 boroughs = [ "Manhattan" ]
 phone_number = "646 461 1099"
 services = [ "Psychotherapy" ]
@@ -64,5 +64,5 @@ staff_gender = [ "Female" ]
   day_hours = "1-9pm"
 +++
 
-
-I work with adult children of immigrants, young professionals, and couples navigating anxiety, depression, intergenerational trauma, and family conflict. Before becoming a therapist, I worked in corporate and start-up environments, which gave me a firsthand understanding of the stress, burnout, and pressures of perfectionism that often come with a fast-paced, demanding career.  My approach is grounded in psychodynamic therapy—we’ll explore how early relationships and past experiences shape your present thoughts, emotions, and patterns. Together, we’ll look beneath the surface to understand what keeps repeating, what feels stuck, and what’s been hard to name.
+I’m a psychodynamic therapist based in New York City working with adults and couples who appear capable and successful on the outside but feel anxious, burnt out, or disconnected inside. Many of my clients are Asian American and adult children of immigrants navigating family and cultural expectations and questions of identity and direction. After years of meeting expectations, you may feel unsure what you actually want or who you are outside of your roles. <br>
+My approach is psychodynamic, culturally informed, and reflective. We explore how family dynamics, cultural context, and early experiences shape your present emotions, relationships, and choices. Rather than focusing only on symptoms, we look at recurring patterns and internal pressures so you can develop deeper self understanding and greater clarity. I also work with couples, including interracial and cross cultural couples, to understand how family of origin and intergenerational patterns influence their relationship and communication. Before becoming a therapist, I spent nearly a decade in tech startups, which informs how I understand burnout, perfectionism, and performance pressure in high achieving environments. <br>
