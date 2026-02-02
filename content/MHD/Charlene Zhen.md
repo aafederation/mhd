@@ -24,7 +24,7 @@ telehealth = "No"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = "/img/Charlene_Headshot (1) - Charlene Zhen.jpg"
+image = "/img/charlene-zhen-therapist-manhattan-nyc.jpg"
 
 [[locations]]
 address = "44 E 12th St, New York, NY 10003"
