@@ -3,7 +3,7 @@ draft = false
 org = "Charlene Zhen"
 highlight = false
 program = "Union Square Psychotherapy"
-website = "https://link.edgepilot.com/s/e94a6a77/BwwiMqAjUEGB_bOTv0QTDg?u=https://charlenezhen.com/ "
+website = "https://link.edgepilot.com/s/e94a6a77/BwwiMqAjUEGB_bOTv0QTDg?u=https://charlenezhen.com/"
 email = "charlenezhentherapy@gmail.com"
 facebook = ""
 twitter = ""
