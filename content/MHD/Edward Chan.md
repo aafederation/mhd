@@ -5,7 +5,7 @@ highlight = false
 program = "Edward Chan, LCSW, PLLC"
 website = "www.unspokenrootspsychotherapy.com"
 email = "unspokenrootspsychotherapy@outlook.com"
-facebook = "https://www.facebook.com/profile.php?id=61586410301664"
+facebook = "Unspoken-Roots-Psychotherapy"
 twitter = ""
 instagram = ""
 linkedin = ""
@@ -21,7 +21,7 @@ sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = false
 telehealth = "Yes"
-tags = [ ]
+tags = [ "individual" ]
 client_requirements = ""
 age_groups = [
   "Preteens and Tweens (11 to 13)",
@@ -100,7 +100,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "7am-8pm"
 +++
-
 
 As an Asian American who grew up in Texas, I understand what it can feel like to move through the world without fully feeling enough or having a true sense of belonging. Growing up between cultures shaped my understanding of identity, connection, and the unspoken pressures many people carry. These early experiences became the foundation of my own healing journey and ultimately guided me toward my work as a therapist. <br>
 Grounded in this lived experience, I am a licensed therapist in the state of New York, holding a Master’s degree in Advanced Clinical Social Work from Columbia University and a Bachelor of Science in Applied Psychology from New York University. For the past decade, I have been committed to supporting individuals, couples, and families as they navigate identity, relationships, and life transitions with greater clarity and self-compassion. <br>
