@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Melanie Canastra"
 highlight = false
 program = ""
@@ -96,4 +96,4 @@ staff_gender = [ "Female" ]
   transport_option = "4,5,6,NQRW, L"
 +++
 
-Being able to come forward in therapy about personal life struggles is not an easy feat. Melanie (she/her/hers) recognizes this strength and believes that every person has a right to explore their own sense of self. She provides a supportive framework within her relationships with clients, and believes that people are capable of generating their own self-advocacy and self-empowerment to be able to cope with any changes throughout life. She creates a genuine, safe, and non-judgmental space, so that she and her clients can work towards collaborative introspection. Melanie’s overarching goal is to help clients foster their own personal growth. Being a native New Yorker, Melanie acknowledges the challenges of trauma and of asking for help. She hopes to facilitate growth within individuals, to be able to guide them on their journeys in healing past trauma, and to help them reconnect with themselves in present life. 
+Being able to come forward in therapy about personal life struggles is not an easy feat. Melanie (she/her/hers) recognizes this strength and believes that every person has a right to explore their own sense of self. She provides a supportive framework within her relationships with clients, and believes that people are capable of generating their own self-advocacy and self-empowerment to be able to cope with any changes throughout life. She creates a genuine, safe, and non-judgmental space, so that she and her clients can work towards collaborative introspection. Melanie’s overarching goal is to help clients foster their own personal growth. Being a native New Yorker, Melanie acknowledges the challenges of trauma and of asking for help. She hopes to facilitate growth within individuals, to be able to guide them on their journeys in healing past trauma, and to help them reconnect with themselves in present life.
