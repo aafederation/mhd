@@ -7,7 +7,7 @@ website = ""
 email = "ilanarlieberman@gmail.com"
 facebook = ""
 twitter = ""
-instagram = "@ilanalieberman "
+instagram = "@ilanalieberman"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -52,7 +52,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9 am-3 pm Sat and Sun "
 +++
-
 
 Ilana comes from a dance background that has taken her through college, across the states, and overseas. By earning her 200-hour certification in 2020, she discovered her greatest passion: teaching. Ilana is also certified in Prenatal, Yin, and Restorative, as well as Yoga Sculpt. She is currently pursuing her birth doula certification. <br>
 Along with the knowledge of kinesiology that has come from her extensive dance background, Ilana uses metaphor as the other driving force behind her teachings; the mat as a mirror, the body as a house, the breath as a partner. In Ilana’s classes, you can expect a mix of challenge and restoration that will leave you with an acute awareness of your patterns and potential. She’ll see you on your mat. <br>
