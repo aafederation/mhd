@@ -15,7 +15,9 @@ medium = ""
 best_way_to_contact = [ "Email" ]
 payment_types = [ "Aetna", "Blue Cross/Blue Shield", "Cigna" ]
 sliding_scale_clinical = true
-payment_info_clinical = "$180/session"
+payment_info_clinical = """
+$180/session
+I accept the following: Aetna, Blue Cross/Blue Shield, Cigna, and Quest Behavioral Health"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -55,7 +57,10 @@ psychotherapy_types = [
   "EMDR"
 ]
 non_clinical_services = [ "Psychoeducation", "Somatic therapy" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
+credentials = [
+  "LMHC (Licensed Mental Health Counselor)",
+  "LPC (Licensed Professional Counselor)"
+]
 trainings = "Somatic Experiencing Practitioner (SEP), Internal Family Systems (IFS Level 1), EMDR-trained"
 languages = [ "English", "Gujarati", "Hindi", "Urdu" ]
 new_clients = "Yes"
