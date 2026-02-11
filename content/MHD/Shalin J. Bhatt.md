@@ -17,7 +17,7 @@ payment_types = [ "Aetna", "Blue Cross/Blue Shield", "Cigna" ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 $180/session
-I accept the following: Aetna, Blue Cross/Blue Shield, Cigna, and Quest Behavioral Health"""
+I also accept Quest Behavioral Health"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
