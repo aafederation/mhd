@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Sandra Zhang"
 highlight = false
 program = "Tristate Psychotherapy Group"
@@ -87,7 +87,6 @@ staff_gender = [ "Female" ]
   day_hours = "Tuesdays-Wednesday 2:30-6p"
 +++
 
-
 I am now accepting new clients for telehealth only! As a second-generation Asian-American, I embrace a learning mindset that encompasses multicultural, intergenerational and intersectional contexts. I am committed to increasing representation in the BIPOC community and to foster meaningful connections with my clients. <br>
 In therapy, I value providing a compassionate and curious environment to ensure that every individual feels respected, heard, and supported. My therapeutic approach is deeply rooted in anti-oppressive, culturally sensitive, and trauma-informed principles drawing from an integrative method through a diverse array of modalities from holistic, relational, narrative, attachment-based, Internal Family Systems (IFS), CBT, strength-based, person-centered, somatic, and motivational interviewing. My approach is not just about addressing symptoms, but about exploring the rich tapestry of your experiences to hold space for all the human emotional experiences that are a part of all of us. I tailor my interventions to meet you where you are and believe that trust and support are important foundations to our therapeutic relationship. You deserve to feel heard, respected, and empowered, and I'm here to help you achieve that. <br>
-Email me for a free 15 min consultation: sandra\@tristatepsychotherapygroup.com <br>
+Email me for a free 15 min consultation: [sandra@tristatepsychotherapygroup.com](mailto:sandra@tristatepsychotherapygroup.com) <br>
