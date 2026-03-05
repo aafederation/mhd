@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Su Balasubramanian"
 highlight = false
 program = "The Sibley Group"
@@ -73,7 +73,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F. 9am-6pm"
 +++
-
 
 Su is a Resident Therapist at The Sibley Group, and she works with teens, adults, families, and couples at our Capitol Hill office and online. She has prior experience working with trauma and grief, including PTSD, Complex Trauma, and Prolonged Grief. Su also has experience working with clients experiencing depression and anxiety. Su uses a variety of treatment modalities including CBT, and is trained in Eye Movement Desensitization and Reprocessing (EMDR). <br>
 Su enjoys supporting clients through life transitions and identity exploration. As a second career therapist, Su has deep respect for the therapeutic relationship and an authentic, intentional approach to her work. After two decades working in the international development and private marketing sectors, Su recognized the mental health gaps in healthcare systems in the US and around the world and decided to turn her career towards clinical mental health practice. She brings her passion for creating meaningful change to the therapy process. <br>
