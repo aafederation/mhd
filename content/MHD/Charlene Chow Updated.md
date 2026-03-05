@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Charlene Chow"
 highlight = false
 program = ""
@@ -73,6 +73,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Mon/Tues/Wed/Fri 11am-7pm"
 +++
-
 
 I am a Licensed Mental Health Counselor serving the states of MA, NY, DC, OH, SC, FL, and VT. My approach is cognitive-behavioral, person-centered, strength-based, trauma-informed, and culturally sensitive. I’m passionate about collaborating with adults looking for support with anxiety, grief, health conditions, relationship conflicts, and various cultural or life adjustments.
