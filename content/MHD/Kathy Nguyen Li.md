@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Kathy Nguyen Li"
 highlight = false
 program = ""
@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = ""
+image = "/img/IMG_3489 - Kathy Nguyen Li.HEIC"
 
 [[locations]]
 address = ""
@@ -83,6 +83,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "additional times as needed"
 +++
-
 
 I’m an Asian American psychologist with 20+ years of experience providing individual and couples therapy. I’m licensed in DC, VA, and NY, but can also provide telehealth in any of the 43+ PsyPact states, including MD and NJ. I’m a certified Emotionally Focused Couples Therapist, and love seeing couples grow in their emotional intimacy and communication. I specialize in working with anxiety, depression, relationship difficulties, family of origin, self-esteem, the Highly Sensitive Person (HSP), and identity and cultural issues.
