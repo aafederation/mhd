@@ -24,7 +24,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = "/img/IMG_3489 - Kathy Nguyen Li.HEIC"
+image = "/img/7_IFqQDT_400x400.webp"
 
 [[locations]]
 address = ""
