@@ -1,10 +1,10 @@
 +++
 draft = false
-org = "Christina Hong Huber"
+org = "Christina Hong-Huber"
 highlight = false
 program = "Compassionate Integrative Therapy, LLC"
 website = "drchristinahonghuber.com"
-email = "drchristinahonghuber@gmail.com"
+email = "hello@drchristinahonghuber.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -16,7 +16,9 @@ best_way_to_contact = [ "Email" ]
 payment_types = [ ]
 sliding_scale_clinical = true
 payment_info_clinical = """
-$150-250/session (depending on length of session)
+My standard rate is $285-$325 (individual, couples).  
+Sliding scale is determined on a case by case basis and starts at $175.  
+Please inquire for further information.
 
 """
 payment_types_non_clinical = [ ]
