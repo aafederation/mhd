@@ -9,7 +9,7 @@ facebook = ""
 twitter = ""
 instagram = ""
 linkedin = ""
-youtube = "www.youtube.com/@gabikoyenov"
+youtube = "@gabikoyenov"
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Website" ]
@@ -30,7 +30,7 @@ image = "/img/PsychProfile2 - Gabi Koyenov.png"
 
 [[locations]]
 address = "15025 Union Turnpike, Flushing NY, 11367"
-latLng = "40.71944029672034, -73.8121623610496"
+latLng = "40.71939150755505, -73.81214090337797"
 boroughs = [ "Online", "Queens" ]
 phone_number = "646 662 0617"
 services = [ "Psychotherapy" ]
@@ -71,6 +71,5 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "2-7pm"
 +++
-
 
 Gabi is a natural empath with a love for people. His care and curiosity creates a safe and inviting space where growth, healing, and discovery occurs. Additionally, Gabi is driven by a passion for psychology and helping others. Along with a hard working attitude, this has lead to him graduating his dual master’s in Marriage and Family Therapy and Professional Clinical Counseling with summa cum laude honors. He prides himself on being a life long learner and is on the cutting edge of treatment. Gabi’s approach is unique, high quality, clinically proven, and always puts you first.
