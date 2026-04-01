@@ -41,7 +41,8 @@ non_clinical_services = [ "Psychoeducation", "Coaching", "Life Coaching" ]
 credentials = [ ]
 trainings = """
 Columbia University, School of Social Work
-Additional credentials:  LCSW (Licensed Clinical Social Worker) in Delaware, MSW (Master in Social Work), Certified Medical Interpreter in Japanese"""
+Additional credentials:  LICSW (Licensed Independent Clinical Social Worker) in Washington,
+LCSW (Licensed Clinical Social Worker) in Delaware, MSW (Master in Social Work), Certified Medical Interpreter in Japanese"""
 languages = [ "English", "Japanese" ]
 new_clients = "Yes"
 new_clients_detail = ""
