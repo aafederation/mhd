@@ -1,50 +1,40 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
+draft = true
+org = "Nithyaa Venkataramani "
+highlight = false
+program = ""
+website = "https://byrepose.com/"
 email = "nithyaa@byrepose.com"
 facebook = ""
-highlight = false
-image = "/img/nithyaa-headshot-repose-nithyaa-venkataramani.jpeg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Nithyaa Venkataramani "
-payment_info_clinical = "$180-$250/session"
-payment_info_non_clinical = "$30-$60"
+best_way_to_contact = [ "Email" ]
 payment_types = [
   "Wellfleet (NYU employees only)",
   "Aetna (Columbia University employees only)"
 ]
-payment_types_non_clinical = [ ]
-program = ""
 sliding_scale_clinical = true
+payment_info_clinical = "$180-$250/session"
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider " ]
+payment_info_non_clinical = "$30-$60"
+ada_compliant = true
 telehealth = "Not applicable"
-tiktok = ""
-twitter = ""
-website = "https://byrepose.com/"
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider " ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
+image = "/img/nithyaa-headshot-repose-nithyaa-venkataramani.jpeg"
 
 [[locations]]
 address = "276 5th Avenue, New York, NY 10001"
-boroughs = [ "Staten Island", "Manhattan", "Queens", "Brooklyn", "Bronx" ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
-languages = [ "Tamil", "English" ]
 latLng = "40.74618519914966, -73.9868558558181"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [
-  "Yoga",
-  "Somatic therapy",
-  "Meditation/mindfulness practices",
-  "Breathwork"
-]
-parking = "No"
+boroughs = [ "Staten Island", "Manhattan", "Queens", "Brooklyn", "Bronx" ]
 phone_number = ""
+services = [ "Art therapy", "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -95,10 +85,20 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Art therapy", "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [
+  "Yoga",
+  "Somatic therapy",
+  "Meditation/mindfulness practices",
+  "Breathwork"
+]
+credentials = [ "LMSW (Licensed Master Social Worker)" ]
 trainings = ""
+languages = [ "Tamil", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 8 am - 8 pm"
