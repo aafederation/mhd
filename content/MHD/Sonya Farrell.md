@@ -13,9 +13,12 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email" ]
-payment_types = [ "N/A" ]
+payment_types = [ "Cigna", "Aetna" ]
 sliding_scale_clinical = true
-payment_info_clinical = "$125/session"
+payment_info_clinical = """
+$125/session
+I accept the following payment types: United Healthcare Medicare Advantage
+Anthem EAP-Standard, and Expanded, Quest Behavioral Health, Anthem BCBS of New York, Highmark Blueshield, Carelon Behavioral Health, Cigna, Aetna"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -99,6 +102,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F 8am-8pm"
 +++
-
 
 Korean American psychotherapist, raised in Los Angeles, living and working in Brooklyn, New York. 75% of my clients are Asian, grateful to bring my lived experience to my work. Specializing in Dialectic Behavior Therapy, treat Borderline Personality Disorder, ADHD, disordered eating, Anxiety, Depression, Hoarding and more symptoms/diagnoses.
