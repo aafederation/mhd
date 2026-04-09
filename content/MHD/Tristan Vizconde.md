@@ -3,7 +3,7 @@ draft = false
 org = "Tristan Vizconde"
 highlight = false
 program = ""
-website = "tristanvizconde.com"
+website = "https://link.edgepilot.com/s/0f1ebca6/hFhYere0pU_ChvwLLjqorQ?u=https://kapwapsychotherapy.com/"
 email = "tristan@tristanvizconde.com"
 facebook = ""
 twitter = ""
