@@ -16,7 +16,7 @@ best_way_to_contact = [ "Website" ]
 payment_types = [ "N/A" ]
 sliding_scale_clinical = true
 payment_info_clinical = """
-$200 - 50 minute session
+Rates start at $200 per 50 minute session
 Accepted forms of payment: Credit Card, HSA, FSA
 Superbill is provided to submit to insurance for reimbursement"""
 payment_types_non_clinical = [ ]
@@ -72,9 +72,8 @@ parking = ""
 staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "10am - 5pm"
+  day_hours = "1pm EST - 8pm EST"
 +++
-
 
 I work with clients seeking growth, integration and change in how they experience their lives. <br>
 When a painful event or memories influence how we interpret our lives, we can often find ourselves stuck in patterns of avoiding, numbing, overworking, obsessing, etc. Despite our best efforts to push through, we start getting signals that something is off and that a deeper issue could be the cause. These signals can present as any range of symptoms (ie anxiety, depression, irritability) or relational difficulties, that sometimes gently, and often times urgently, tell us that we need care. <br>
