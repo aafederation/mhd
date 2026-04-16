@@ -32,10 +32,7 @@ age_groups = [
 image = "/img/Headshot - 1 (1) - Lauren Bailey.jpg"
 
 [[locations]]
-address = """
-Brooklyn Integrative Psychological Services
-Union Square: 18 E 16th St, Suite 503, New York, NY 10003. 
-Midtown Location: 850 7th Ave, Suite 1106, New York, NY 10019."""
+address = ""
 latLng = "40.7128° N, 74.0060° W"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "929-900-5718"
@@ -102,7 +99,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9am-8pm"
 +++
-
 
 Whether you’re feeling stuck, overwhelmed, disconnected, or navigating a life transition, I offer a warm, nonjudgmental space where you can pause, take a breath, and reflect on everything you're experiencing. In therapy with me, you're seen, heard, and able to be fully yourself. Together, we'll explore the roots of old patterns while building on your existing strengths, helping you feel more empowered, self-aware, and capable of creating meaningful change. <br>
 As a Korean American psychotherapist with a Master’s in Social Work from NYU, licensed in New York and New Jersey, I specialize in working with teenagers and adults experiencing anxiety, depression, relational struggles, complex family dynamics, grief, and trauma. I tailor my approach using evidence-based modalities, including psychodynamic therapy, CBT, ACT, and mindfulness practices. <br>
