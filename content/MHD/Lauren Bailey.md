@@ -33,7 +33,7 @@ image = "/img/Headshot - 1 (1) - Lauren Bailey.jpg"
 
 [[locations]]
 address = ""
-latLng = "40.7128° N, 74.0060° W"
+latLng = "40.7128, 74.0060"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "929-900-5718"
 services = [ "Psychotherapy" ]
