@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Sophie Jin"
 highlight = false
 program = "Upstate Counseling"
@@ -84,4 +84,3 @@ staff_gender = [ "Female" ]
 +++
 
 Sophie utilizes an integrative approach to meet the unique needs of her clients, incorporating ACT, CBT, DBT and person-centered approaches. Her ultimate goal is to foster a collaborative and culturally sensitive space where clients feel empowered and safe in their healing journeys. She is passionate about recognizing and addressing the immense impact that systemic injustices have on individuals and their mental health.
-
