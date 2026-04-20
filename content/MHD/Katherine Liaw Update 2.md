@@ -17,7 +17,8 @@ payment_types = [ "Cigna" ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 $150/50-min session. 
-We offer superbills to those clients who seek reimbursement from their health insurance."""
+We offer superbills to those clients who seek reimbursement from their health insurance.
+I accept Cigna and Carelon Behavioral Health"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -71,7 +72,5 @@ staff_gender = [ "Female" ]
   day_hours = "Mon-Fri 10am-7pm"
 +++
 
-As a 1.5 generation Chinese American, I understand the potential conflicts that can arise while navigating between two cultures; balancing family traditions and societal values. I, a licensed Creative Arts Therapist based in NY, specialize in working with those who are dealing with challenges related to anxiety, life changes, trauma, relationships, grief and loss, self-esteem, boundaries and faith in addition to cultural conflicts with Asian-Americans. <br>
-As long as you are comfortable, art can be a powerful way to help you express your innermost feelings that you may not even be aware of, allowing you to make sense of the challenges you are going through that talk therapy alone may not fully accomplish. <br>
-With client-centered training, I have incorporated various approaches with art therapy – including insight-oriented and CBT-informed techniques to meet your unique needs. I am committed to creating a safe, culturally sensitive environment where you can explore, grow, and find renewed strength toward overall well-being—mentally, emotionally, and spiritually. <br>
-I am in network with Cigna. Sliding scale is available if you need. Sessions are 50mins via telehealth.
+Everyone goes through seasons in life when they find themselves searching for light on the horizon. If you are dealing with challenges related to grief and loss, anxiety, depression, life transitions, PTSD, religious trauma, self-esteem, family or relationship conflicts, or cultural identity concerns, I invite you to journey with me toward hope and healing. <br>
+I specialize in art therapy using a psychodynamic approach and am trained in motivational interviewing, and CBT. Art expression is always optional and can be integrated with traditional talk therapy. It may offer new perspectives, especially if you feel stuck. <br>
