@@ -3,7 +3,7 @@ draft = false
 org = "Iqra Kapadwala"
 highlight = false
 program = "Zen Therapy"
-website = "https://www.psychologytoday.com/us/therapists/iqra-kapadwala-selden-ny/1568690"
+website = "https://link.edgepilot.com/s/ac6e929f/StiUWQe65kyt6X0hZ09F8w?u=https://zentherapyforall.com/"
 email = "zentherapyforall@gmail.com"
 facebook = ""
 twitter = ""
@@ -121,6 +121,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "10 am - 6 pm"
 +++
-
 
 I provide therapy to children, adolescents, and adults experiencing concerns such as anxiety, depression, OCD, ADHD, trauma, and life transitions. My approach is individualized and flexible, integrating CBT, DBT, mindfulness, and trauma-informed care to meet each client’s unique needs. I aim to create a supportive space where clients can build coping skills, strengthen resilience, and feel genuinely understood.
