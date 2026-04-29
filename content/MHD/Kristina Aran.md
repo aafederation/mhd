@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Kristina Aran"
 highlight = false
 program = "Evolve Integrative Psychotherapy, LLC"
@@ -142,7 +142,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "8am-8pm"
 +++
-
 
 Kristina is a Certified Clinical Trauma Professional and a Certified Sex Therapy Informed Professional. She is passionate about helping people become more aware of their emotions, their needs, and helping them grow in self-acceptance and emotional intelligence. Her specialties include working with adults, couples and families to treat symptoms of Depression, Anxiety, Phobias, Obsessive-Compulsive Disorder (OCD), complex trauma, relationship issues, communication difficulties, parenting struggles, sex addictions, ADHD and many other disorders. <br>
 Kristina also specializes in working with couples. Her approach to therapy is collaborative, compassionate, and evidence-based. She works with each couple to develop a personalized treatment plan that is tailored to their unique needs and goals. She is trained in a variety of therapeutic modalities, including Emotionally Focused Therapy (EFT), Cognitive Behavioral Therapy (CBT), and the Gottman Method. <br>
