@@ -3,8 +3,8 @@ draft = false
 org = "Sonya Farrell"
 highlight = false
 program = ""
-website = "www.sonyafarrelltherapy.com"
-email = "sonyafarrell@gmail.com"
+website = "https://link.edgepilot.com/s/5601a5bc/57jN5WtWoEGP-b6hGYt8jA?u=http://www.dialecticbehaviortherapy.com/"
+email = "sfarrell@dialecticbehaviortherapy.com"
 facebook = ""
 twitter = ""
 instagram = ""
