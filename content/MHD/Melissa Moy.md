@@ -1,47 +1,41 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Website" ]
-client_requirements = ""
+draft = false
+org = "Melissa Moy"
+highlight = false
+program = "Melissa Moy - Private Practice"
+website = "https://www.melissamoynp.com/"
 email = "mmoypsychiatry@melissamoynp.com"
 facebook = ""
-highlight = false
-image = ""
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Melissa Moy"
-payment_info_clinical = "$300 initial evaluation, $175 follow up"
-payment_info_non_clinical = ""
-payment_types = [ "UnitedHealthcare", "Optum", "Oxford", "Aetna" ]
-payment_types_non_clinical = [ ]
-program = "Melissa Moy - Private Practice"
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.melissamoynp.com/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Website" ]
+payment_types = [ "UnitedHealthcare", "Optum", "Oxford", "Aetna" ]
+sliding_scale_clinical = false
+payment_info_clinical = "$300 initial evaluation, $175 follow up"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = ""
 
 [[locations]]
 address = "Online"
-boroughs = [ "Online" ]
-credentials = [
-  "Licensed Psychiatrist",
-  "LMHC (Licensed Mental Health Counselor)"
-]
-culturally_competent_treatment = "yes, CEU's on culturally competent care and LGBT affirmative care; graduate thesis on LGBT affirmative care and best practices "
-gender_identification = [ "Female" ]
-languages = [ "English" ]
 latLng = ""
-new_clients = "No"
-new_clients_detail = ""
-non_clinical_services = [ "Psychoeducation" ]
-parking = ""
+boroughs = [ "Online" ]
 phone_number = "917-791-0174"
+services = [
+  "Psychotherapy",
+  "Psychiatric evaluation",
+  "Medication management"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Stress",
@@ -56,14 +50,15 @@ psychotherapy_specialties = [
   "Anxiety"
 ]
 psychotherapy_types = [ "Supportive therapy", "Cognitive Behavioral Therapy" ]
-public_transportation = [ ]
-services = [
-  "Psychotherapy",
-  "Psychiatric evaluation",
-  "Medication management"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ "Psychoeducation" ]
+credentials = [ "Psychiatric Mental Health Nurse Practitioner" ]
 trainings = "BS in psychology; BS in Nursing; RN; CBT, REBT"
+languages = [ "English" ]
+new_clients = "No"
+new_clients_detail = ""
+parking = ""
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Friday: 9 am - 3 pm"
