@@ -4,7 +4,7 @@ org = "Meghan Nayyar"
 highlight = false
 program = ""
 website = "www.meghannayyar.com"
-email = "meghannayyar@LMHC@gmail.com"
+email = "meghannayyarLMHC@gmail.com"
 facebook = ""
 twitter = ""
 instagram = "@meghannayyarLMHC"
@@ -90,4 +90,3 @@ staff_gender = [ "Female" ]
 +++
 
 Indian-American therapist providing inclusive and affirming mental health care with a collaborative, strengths-based, and intersectional approach
-
