@@ -2,9 +2,9 @@
 draft = false
 org = "Meghan Mehta"
 highlight = false
-program = "Greenberg Psychological Services, PLLC"
-website = "www.greenbergpsychological.com"
-email = "connect@greenbergpsychological.com"
+program = ""
+website = "littlebrowntherapy.com"
+email = "meghansunayna@gmail.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -15,12 +15,14 @@ medium = ""
 best_way_to_contact = [ "Phone" ]
 payment_types = [
   "Aetna",
-  "Oscar",
-  "Out-of-network insurance",
-  "UnitedHealthcare"
+  "Cigna",
+  "UnitedHealthcare",
+  "Out-of-network insurance"
 ]
 sliding_scale_clinical = true
-payment_info_clinical = "$120/session"
+payment_info_clinical = """
+$200/session with sliding scale available
+I accept Aetna, Cigna, Carelon, Northwell Direct, United, Out of network"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -32,10 +34,10 @@ age_groups = [ "Adults (19 to 64)", "Youth and Teenagers (14 to 19)" ]
 image = "/img/320x400-meghan-sunayna-mehta.jpeg"
 
 [[locations]]
-address = "808 Union St, Brooklyn, NY 11215"
-latLng = "40.6744353, -73.9758138"
-boroughs = [ "Brooklyn", "Online" ]
-phone_number = "718-407-0218"
+address = "226 East 54th Street, Suite 604, New York, NY 10022"
+latLng = "40.75775367413668, -73.9678820610477"
+boroughs = [ "Online", "Manhattan" ]
+phone_number = "929-486-1824"
 services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
