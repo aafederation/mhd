@@ -92,7 +92,7 @@ non_clinical_services = [
   "Meditation/mindfulness practices",
   "Breathwork"
 ]
-credentials = [ "LMSW (Licensed Master Social Worker)" ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
 languages = [ "English", "Urdu", "Hindi" ]
 new_clients = "Yes"
