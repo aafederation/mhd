@@ -2,9 +2,9 @@
 draft = false
 org = "Verdah Kazi"
 highlight = false
-program = "Rottenberg Therapy"
-website = "rottenbergtherapy.com"
-email = "verdah@rottenbergtherapy.com"
+program = "rūhwisdom"
+website = "ruhwisdom.com"
+email = "info@ruhwisdom.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -33,9 +33,9 @@ age_groups = [
 image = "/img/Newest Headshot - Verdah Kazi.png"
 
 [[locations]]
-address = "26 Court Street Brooklyn, NY 11242"
-latLng = "40.6933254, -73.9909517"
-boroughs = [ "Brooklyn", "Online" ]
+address = ""
+latLng = ""
+boroughs = [ "Online" ]
 phone_number = ""
 services = [ "Psychotherapy" ]
 psychotherapy = true
@@ -63,7 +63,7 @@ staff_gender = [ "Nonbinary" ]
   transport_option = "Transportation to this location is closest to the 2,3,4,5 at Borough Hall in Brooklyn, it is also very close to the R at Court Street, A,C and F at Jay Street MetroTech and more."
 
   [[locations.hours_of_operation]]
-  day_hours = "Monday & Wednesday 11am-7pm"
+  day_hours = "Tues, Thurs, & Fri from 9am-5pm"
 +++
 
 My name is Verdah Kazi, I am a licensed Mental Health Counselor for the state of New York, & I am a Queer, Desi, Muslim therapist. <br>
