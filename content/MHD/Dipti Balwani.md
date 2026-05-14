@@ -7,7 +7,7 @@ website = "www.beginboundless.com"
 email = "hello@beginboundless.com"
 facebook = ""
 twitter = ""
-instagram = "@beginboundless "
+instagram = "https://www.instagram.com/beginboundless/"
 linkedin = ""
 youtube = ""
 tiktok = ""
@@ -109,7 +109,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9AM - 7PM (Mon - Fri)"
 +++
-
 
 You might be carrying stories you’ve never spoken aloud — a life that looks steady from the outside while something inside feels disconnected or unfinished. Relationships may feel harder than they should, or you may be longing for relief, softness, or a way of being that doesn’t require you to earn your worth. You don’t have to hold it alone. <br>
 As a therapist shaped by growing up across countries and cultures, with clinical training in the U.S - my work is grounded in respect for the ways people learn to survive — through achievement, over-responsibility, silence, self-reliance, emotional caretaking, or staying “strong” even when something inside feels tender or unseen. Coping is intelligent; even patterns that hurt now once protected you. <br>
