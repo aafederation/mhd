@@ -1,6 +1,6 @@
 +++
 draft = false
-org = "Kwan-Ting Andy Wong"
+org = "Kwan-Ting Andy Kong"
 highlight = false
 program = ""
 website = "https://headway.co/providers/kwan-ting-andy-kong"
@@ -62,6 +62,4 @@ staff_gender = [ "Male" ]
   day_hours = "9am-6pm Tuesday to Friday"
 +++
 
-
 As a therapist, I work with clients to be radically compassionate and honest to themselves, valuing and validating their emotions, and building self-affirming thoughts and beliefs.  My therapeutic style is warm and collaborative, and sessions may range from silent presence to energetic discussions.
-
