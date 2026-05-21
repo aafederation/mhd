@@ -14,9 +14,10 @@ tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email" ]
 payment_types = [ "N/A" ]
-sliding_scale_clinical = false
+sliding_scale_clinical = true
 payment_info_clinical = """
 $225 
+Limited sliding scale slots are available.
 Upon request, I provide superbills for potential out-of-network reimbursements."""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
@@ -47,7 +48,13 @@ psychotherapy_specialties = [
   "Self-esteem",
   "Stress"
 ]
-psychotherapy_types = [ "Trauma-informed", "Solution-focused Therapy" ]
+psychotherapy_types = [
+  "Trauma-informed",
+  "Solution-focused Therapy",
+  "Cognitive Behavioral Therapy",
+  "Psychodynamic",
+  "Relational Therapy"
+]
 non_clinical_services = [ ]
 credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
@@ -58,8 +65,7 @@ parking = ""
 staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
-  day_hours = "Sunday - Thursday 8pm-11pm"
+  day_hours = "8pm-12am"
 +++
-
 
 I work with Asian American professionals navigating multiple identities and expectations, life transitions, family dynamics, and anxiety. I offer evening sessions Sunday-Thursday via telehealth only.
