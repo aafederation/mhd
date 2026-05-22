@@ -2,7 +2,7 @@
 draft = false
 org = "Laura Berssenbrugge"
 highlight = false
-program = "Evidence Based Psychology - NYC"
+program = "Gramercy Psychology"
 website = "https://link.edgepilot.com/x/Y3hMYreEk7PnEMNlJBtasaI?u=https://www.gramercypsychology.com/"
 email = "laura@gramercypsychology.com"
 facebook = ""
