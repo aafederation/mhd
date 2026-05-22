@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Laura Berssenbrugge"
 highlight = false
 program = "Gramercy Psychology"
@@ -89,9 +89,6 @@ new_clients = "Yes"
 new_clients_detail = ""
 parking = "No"
 staff_gender = [ "Female" ]
-
-  [[locations.public_transportation]]
-  transport_option = "Subway to 59th Street and Lexington"
 
   [[locations.hours_of_operation]]
   day_hours = "M-F 12pm-9pm"
