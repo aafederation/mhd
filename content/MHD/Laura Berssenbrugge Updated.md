@@ -21,7 +21,7 @@ sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = true
 telehealth = "Yes"
-tags = [ ]
+tags = [ "individual" ]
 client_requirements = ""
 age_groups = [
   "Adults (19 to 64)",
@@ -103,7 +103,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-F 12pm-9pm"
 +++
-
 
 Dr. Laura Berssenbrugge (she/her), PsyD, is a licensed clinical psychologist in New York, Connecticut, New Jersey, Hawaii, and PSYPACT states, and the founder of Gramercy Psychology, an evidence-based practice serving children, teens, adults, and families. She specializes in treating anxiety disorders, obsessive-compulsive disorder (OCD), mood disorders, ADHD, autism spectrum disorder, trauma-related concerns, eating and body image issues, and perinatal mental health. <br>
 Dr. Laura creates sustainable change through a warm, collaborative, and evidence-based approach that emphasizes client strengths. Grounded in Cognitive Behavioral Therapy (CBT), Exposure and Response Prevention (ERP), Dialectical Behavior Therapy (DBT), and executive functioning strategies, she works closely with clients to help them build meaningful and lasting change. <br>
