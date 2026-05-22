@@ -32,16 +32,9 @@ age_groups = [
 image = "/img/image3-laura-berssenbrugge.jpg"
 
 [[locations]]
-address = "121 East 60th Street, Suite 6E, New York, NY 10022"
-latLng = "40.76356323758016, -73.9682239223163"
-boroughs = [
-  "Online",
-  "Staten Island",
-  "Manhattan",
-  "Queens",
-  "Brooklyn",
-  "Bronx"
-]
+address = ""
+latLng = ""
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "347-309-4731"
 services = [ "Psychotherapy" ]
 psychotherapy = true
