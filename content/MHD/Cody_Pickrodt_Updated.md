@@ -20,12 +20,15 @@ payment_types = [
   "HealthFirst",
   "Oscar",
   "Oxford",
-  "UnitedHealthcare"
+  "UnitedHealthcare",
+  "Blue Cross/Blue Shield",
+  "Optum"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 $60-200
-Enter your insurance details to see what you'll pay on the following link: https://secure.helloalma.com/check-my-insurance-coverage/?provider=cody-pickrodt"""
+Please see my website for the full list of insurance providers I accept. 
+"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
