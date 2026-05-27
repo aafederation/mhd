@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Cody Pickrodt"
 highlight = false
 program = ""
@@ -109,7 +109,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "9am-9pm"
 +++
-
 
 My approach is person centered and psychodynamic. I use
 evidence-based therapeutic practices with a foundation in existential
