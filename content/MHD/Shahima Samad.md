@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Shahima Samad"
 highlight = false
 program = "Private Practice, Le Mental Health Counseling"
@@ -84,5 +84,4 @@ staff_gender = [ "Female" ]
   day_hours = "Monday- Friday 10am- 8pm"
 +++
 
-
-I am experienced in working with various mental illnesses, mood disorders, life adjustment issues but specialize in trauma therapy. I speak, read, write Bengali and English and provide clients with culturally sensitive care as needed. 
+I am experienced in working with various mental illnesses, mood disorders, life adjustment issues but specialize in trauma therapy. I speak, read, write Bengali and English and provide clients with culturally sensitive care as needed.
