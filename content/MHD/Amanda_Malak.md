@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Amanda Malak"
 highlight = false
 program = "Malak Psychology"
@@ -18,6 +18,9 @@ sliding_scale_clinical = false
 payment_info_clinical = """
 Individual therapy sessions are $225
 Couples and family therapy sessions are $250
+Group therapy intakes and each session are sliding scale each session ($44 for those in dire need | $77 for those with some needs | $111 for those with financial stability
+Psychological assessments are $250 an hour plus materials which typically ranges from $2000-$4000 in total 
+Information available here - https://malakpsychology.com/services-fees-2/
 I offer superbills and use Thrizer to help patients determine if they have OON benefits - - https://eligibility.thrizer.com/malakpsychology"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
