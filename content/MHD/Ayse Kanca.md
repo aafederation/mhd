@@ -22,7 +22,8 @@ payment_types = [
   "Oxford",
   "UnitedHealthcare",
   "Magna Care",
-  "Oscar"
+  "Oscar",
+  "Carelon"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
@@ -114,7 +115,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Wednesday's 10am-8pm"
 +++
-
 
 My style as a therapist is calm, friendly, attentive, and explorative. I strive to create a safe and authentic environment where clients can explore their thoughts and emotions while working toward their therapeutic and personal goals, as well as improving their overall well-being. I specialize in working with children, teens, and adults, and support individuals with anxiety, depression, OCD, self-esteem concerns, relationship challenges, parenting, and perinatal and postpartum issues, among others. I offer culturally sensitive care and value each person's unique background, identity, and experiences. <br>
 I understand the complexities of growing up as a first, second or third-generation immigrant and am here to support you in navigating the unique challenges that can come with being part of a minority identity. <br>
