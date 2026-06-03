@@ -13,7 +13,7 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ ]
-payment_types = [ "Aetna", "Blue Cross/Blue Shield", "Cigna" ]
+payment_types = [ "Aetna", "Blue Cross/Blue Shield", "Cigna", "Carelon" ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 out of pocket: 200. I also accept several insurance, see below: 
@@ -95,6 +95,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sunday 9-4 pm"
 +++
-
 
 Licensed trilingual (English, Mandarin, Taiwanese) psychotherapist in NY & NJ offering online therapy,  working with adults and teens on anxiety, depression, relationships, life transitions, prenatal, postpartum, parenting, and insomnia. We won't just talk. We'll figure out what matters to you so you can stop second guessing yourself and finally feel like yourself again.
