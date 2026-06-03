@@ -21,7 +21,8 @@ payment_types = [
   "Optum",
   "Oxford",
   "UnitedHealthcare",
-  "Magna Care"
+  "Magna Care",
+  "Carelon"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
@@ -104,6 +105,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday- 5:00pm-8:00pm"
 +++
-
 
 I am dedicated to supporting individuals navigating a range of emotional and mental health challenges, including anxiety, depression, PTSD, suicidal ideation, and issues related to self-esteem. My approach is rooted in empathy, respect, and a strong belief in each person’s capacity for growth and change. I work with children, adolescents, and adults, creating a safe, nonjudgmental space where clients can explore their experiences openly. I provide culturally sensitive care that honors each client's unique background, as well as commitment to supporting individuals within the BIPOC communities.
