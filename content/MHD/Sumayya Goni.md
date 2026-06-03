@@ -22,7 +22,8 @@ payment_types = [
   "Optum",
   "Oxford",
   "TRICARE",
-  "UnitedHealthcare"
+  "UnitedHealthcare",
+  "Out-of-network insurance"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
@@ -111,7 +112,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sat/Sun 8am-3pm "
 +++
-
 
 As a Licensed Master Social Worker, my goal is to assist individuals navigating major life transitions, significant personal losses, unrecognized grief, and the emotional impact of chronic illness. My approach is collaborative and grounded in the belief that meaningful change happens when we feel safe, seen, and supported. <br>
 Drawing from evidence-based practices such as Cognitive Behavioral Therapy (CBT), mindfulness, and a strengths-based approach, I will tailor each session to your unique needs and goals. I also incorporate the principle of radical acceptance from Dialectical Behavior Therapy (DBT), supporting clients in acknowledging reality as it is—without judgment—as a foundation for healing and growth. <br>
