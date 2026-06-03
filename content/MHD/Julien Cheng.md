@@ -13,7 +13,13 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email", "Website" ]
-payment_types = [ "Aetna", "Blue Cross/Blue Shield", "Cigna", "HealthFirst" ]
+payment_types = [
+  "Aetna",
+  "Blue Cross/Blue Shield",
+  "Cigna",
+  "HealthFirst",
+  "Carelon"
+]
 sliding_scale_clinical = true
 payment_info_clinical = "$125/session out of pocket rate"
 payment_types_non_clinical = [ ]
@@ -83,7 +89,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday to Fridays: 9 am - 5 pm"
 +++
-
 
 As an Asian American, it was often confusing to navigate the balance between Western culture and Eastern values. Seeking help for mental health can feel particularly daunting and overwhelming. If you found yourself stuck and struggling to move forward, you are not alone. By reading this, you have already taken the first step in your journey. <br>
 My approach to therapy is to provide a nonjudgmental, safe space for you to process all kinds of thoughts and feelings. Together, we will learn new tools and develop patterns that help you move forward, rather than keeping you trapped in survival mode. <br>
