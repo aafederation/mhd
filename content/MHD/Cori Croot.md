@@ -19,12 +19,13 @@ payment_types = [
   "Cigna",
   "Medicaid",
   "UnitedHealthcare",
-  "Fidelis"
+  "Fidelis",
+  "NYSHIP"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 Standard rate is $150
-We do accept several different medicaid options.  We accept NYSHIP."""
+We do accept several different Medicaid options.  """
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -69,5 +70,4 @@ staff_gender = [ "Gender nonconforming", "Transgender" ]
   day_hours = "9-6 M-F"
 +++
 
-
-As a queer, BIPOC, nonbinary therapist, Cori loves supporting clients in exploring their identities and the unique ways the intersectionality of these identities interacts with their lives. They are keenly aware of the ways marginalization impacts the lives of individuals, and actively seek to build an anti-racist, culturally responsive partnership with each client. Through a  strengths-based approach that draws on a mix of therapeutic modalities, Cori works collaboratively with clients to address issues that include anxiety, depression, and trauma. Cori has speciality in supporting people with identities that include BIPOC, queer and transgender, polyamory, and BDSM/kink.  
+As a queer, BIPOC, nonbinary therapist, Cori loves supporting clients in exploring their identities and the unique ways the intersectionality of these identities interacts with their lives. They are keenly aware of the ways marginalization impacts the lives of individuals, and actively seek to build an anti-racist, culturally responsive partnership with each client. Through a  strengths-based approach that draws on a mix of therapeutic modalities, Cori works collaboratively with clients to address issues that include anxiety, depression, and trauma. Cori has speciality in supporting people with identities that include BIPOC, queer and transgender, polyamory, and BDSM/kink.
