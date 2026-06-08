@@ -19,7 +19,8 @@ payment_types = [
   "Optum",
   "Oxford",
   "UnitedHealthcare",
-  "Oscar"
+  "Oscar",
+  "Carelon"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
@@ -91,7 +92,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Saturday 10 AM-12 PM"
 +++
-
 
 I am a psychotherapist who works with individuals navigating anxiety, depression, life transitions, identity, and relationship challenges. My clinical approach integrates existential analysis with culturally responsive care, supporting clients in exploring meaning, personal values, and authentic ways of living. <br>
 As an Asian therapist working with many Asian and immigrant clients, I understand the unique tensions that can arise between personal identity, family expectations, and cultural values. Many of my clients are thoughtful and high-achieving individuals who struggle with self-doubt, pressure, or feeling disconnected from their own direction in life. In our work together, I aim to create a reflective space where clients can slow down, deepen their self-understanding, and reconnect with their inner clarity. <br>
