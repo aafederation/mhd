@@ -13,7 +13,7 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Website" ]
-payment_types = [ "Cigna" ]
+payment_types = [ "Cigna", "Carelon" ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 $150/50-min session. 
