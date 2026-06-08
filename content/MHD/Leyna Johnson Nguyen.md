@@ -19,12 +19,13 @@ payment_types = [
   "Cigna",
   "Optum",
   "Oxford",
-  "UnitedHealthcare"
+  "UnitedHealthcare",
+  "Carelon"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 $120 an hour
-I accept Aetna, Blue Cross/Blue Shield, Cigna, Optum, Oxford, UnitedHealthcare, Carelon"""
+"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
@@ -88,7 +89,6 @@ staff_gender = [ "Female", "Nonbinary" ]
   [[locations.hours_of_operation]]
   day_hours = "Sat/Sun 1-4pm"
 +++
-
 
 I'm a licensed mental health therapist dedicated to providing compassionate and evidence-based care. I understand that each person's journey is unique, and I'm committed to creating a safe and supportive space for you to explore your thoughts, feelings, and experiences. <br>
 My approach integrates therapeutic modalities tailored to your specific needs. I'm trained in EMDR, to process distressing life events, and Inference-Based Cognitive Behavioral Therapy for OCD. Additionally, I incorporate mindfulness-based practices to cultivate present-moment awareness and enhance your overall well-being. <br>
