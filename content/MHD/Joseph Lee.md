@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Joseph Lee"
 highlight = false
 program = "Align Counseling Center"
@@ -79,7 +79,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday through Friday"
 +++
-
 
 I am a Licensed Mental Health Counselor (NY) and Licensed Professional Counselor (NJ) who has been working in the mental health field since 2018. I have experience working with adults and adolescents in outpatient group practices as well as collaborative interdisciplinary inpatient settings. My approach to counseling is person-centered and includes evidence-based methods such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and Motivational Interviewing. <br>
 In therapy, I believe healing happens most effectively in a judgment-free space in which each person’s experience and perspective is honored. My goal is to help you feel deeply seen and known. <br>
