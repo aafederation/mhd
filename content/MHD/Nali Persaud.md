@@ -21,7 +21,8 @@ payment_types = [
   "Optum",
   "Oxford",
   "UnitedHealthcare",
-  "Oscar"
+  "Oscar",
+  "Carelon"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = "I accept most major health insurances as well as self pay.  Self pay per session is $150"
