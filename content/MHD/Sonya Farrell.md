@@ -13,7 +13,7 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email" ]
-payment_types = [ "Cigna", "Aetna" ]
+payment_types = [ "Cigna", "Aetna", "Carelon" ]
 sliding_scale_clinical = true
 payment_info_clinical = """
 $125/session
