@@ -18,7 +18,7 @@ sliding_scale_clinical = true
 payment_info_clinical = """
 $150/50-min session. 
 We offer superbills to those clients who seek reimbursement from their health insurance.
-I accept Cigna and Carelon Behavioral Health"""
+"""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
