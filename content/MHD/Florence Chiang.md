@@ -13,7 +13,13 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email" ]
-payment_types = [ "1199SEIU", "Aetna", "Cigna", "Out-of-network insurance" ]
+payment_types = [
+  "1199SEIU",
+  "Aetna",
+  "Cigna",
+  "Out-of-network insurance",
+  "NYSHIP"
+]
 sliding_scale_clinical = false
 payment_info_clinical = """
 $150 per session out of pocket.
