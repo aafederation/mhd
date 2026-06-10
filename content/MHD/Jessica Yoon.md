@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Jessica Yoon"
 highlight = false
 program = ""
@@ -79,6 +79,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Varies/flexible"
 +++
-
 
 Specializing in fostering empathetic connections, my therapeutic style is characterized by a gentle and welcoming approach, creating a safe space for exploration, healing, and growth. I tailor methods to suit each client’s unique needs, with a trauma-informed approach, particularly sensitive to AAPI and cultural aspects, and experienced in addressing religious challenges. Believing in the client’s expertise, I prioritize identifying strengths and placing them at the center of their story and healing. With a background in child/adolescent support, I collaborate with families and systems, aiming for growth and change where clients feel supported, understood, and empowered. As a social worker, whether individual, child/youth, or family, my priority is recognizing strengths and centering clients in their healing journey.
