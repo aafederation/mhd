@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Dana LePage"
 highlight = false
 program = ""
@@ -53,6 +53,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Varies"
 +++
-
 
 I am a queer, Korean American adoptee therapist and my areas of practice are often informed by my own identities and experiences. My approach is integrative and empathetic, and influenced by a variety of therapeutic interventions and trauma-informed practice. I especially welcome LGBTQIA+ folks, adoptees, college & graduate students, and those who are family building and experiencing infertility. I work with adult individuals only at this time, providing online video sessions. I am truly humbled by the opportunity to work alongside you and I look forward to hearing from you.
