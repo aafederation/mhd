@@ -3,7 +3,7 @@ draft = false
 org = "Irene E Kim"
 highlight = false
 program = "Mind Health Clinic"
-website = "mindhealthclinicny.com "
+website = "http://mindhealthclinicny.com/ "
 email = "mindhealthclinic@gmail.com"
 facebook = ""
 twitter = ""
@@ -99,5 +99,4 @@ staff_gender = [ "Female" ]
   day_hours = "10 am to 6 pm (Monday-Friday) "
 +++
 
-
-Psychotherapy, medication management for children, adolescents and adults 
+Psychotherapy, medication management for children, adolescents and adults
