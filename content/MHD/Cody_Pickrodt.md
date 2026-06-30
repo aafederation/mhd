@@ -27,7 +27,7 @@ payment_types = [
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
-$60-200
+$100-275
 Please see my website for the full list of insurance providers I accept. 
 """
 payment_types_non_clinical = [ ]
