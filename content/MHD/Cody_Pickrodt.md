@@ -22,7 +22,8 @@ payment_types = [
   "Oxford",
   "UnitedHealthcare",
   "Blue Cross/Blue Shield",
-  "Optum"
+  "Optum",
+  "Carelon"
 ]
 sliding_scale_clinical = true
 payment_info_clinical = """
@@ -120,7 +121,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "9am-7pm"
 +++
-
 
 My approach is person centered and psychodynamic. I use
 evidence-based therapeutic practices with a foundation in existential
