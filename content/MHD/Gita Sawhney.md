@@ -26,6 +26,7 @@ payment_info_clinical = "$200 either via Alma or Headway "
 sliding_scale_non_clinical = true
 payment_info_non_clinical = "$150"
 telehealth = "Yes"
+tags = [ "individual" ]
 age_groups = [ "Adults (19 to 64)" ]
 image = "/img/Gita Profile Photo (2) - gita sawhney.jpg"
 
