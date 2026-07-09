@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Geunsaeng Ahn "
 highlight = false
 program = "Liberation-Based Therapy"
@@ -76,6 +76,5 @@ staff_gender = [ "Nonbinary", "Gender-neutral" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday - Thursday: 9 am - 5 pm"
 +++
-
 
 I believe everyone has a story that needs to be shared. Therapy can be a space where we challenge how we relate to the stories we tell our selves, others, and those others may uphold. I passionately support individuals, partner(s), and families in their journeys through stories that seek to be told, unraveled, unlearned, as well as written anew so that we may better honor our stories and each other. I am passionate about supporting individuals, partner(s), and families who are interested in achieving more intentional understandings of each other in order to develop stronger alignment, healing, and growth together. I believe that the more we learn about each other, the more deeply and fully we can connect.
