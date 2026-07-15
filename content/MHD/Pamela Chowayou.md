@@ -3,8 +3,8 @@ draft = false
 org = "Pamela Chowayou"
 highlight = false
 program = "Grounded Mental Health Counseling, PLLC"
-website = "https://care.tavahealth.com/providers/pamela-chowayou-3"
-email = "pamela.chowayou@gmail.com"
+website = "https://link.edgepilot.com/x/NiOhkSmUNHYgQftDk7wunYg?u=https://care.headway.co/providers/pamela-chowayou"
+email = "info@groundedmhcounseling.com"
 facebook = ""
 twitter = ""
 instagram = ""
