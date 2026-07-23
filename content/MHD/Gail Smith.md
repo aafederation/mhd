@@ -34,7 +34,7 @@ image = "/img/Facetune_06-07-2026-00-07-59 - Gail Smith.jpeg"
 
 [[locations]]
 address = "360 9th Street, Brooklyn, NY 11215"
-latLng = "40.668391553424186, -73.98474598988798"
+latLng = "40.66832645133446, -73.98473526105217"
 boroughs = [ "Online", "Brooklyn" ]
 phone_number = "6462490584"
 services = [ "Psychotherapy" ]
@@ -87,6 +87,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Tuesday-Saturdays depending on availability"
 +++
-
 
 I'm a Brooklyn-based Licensed Mental Health Counselor providing culturally responsive psychotherapy for Asian American individuals and couples. I specialize in working with high-functioning anxiety, relationship and family dynamics, identity, self-worth, and the impact of cultural and familial expectations. My approach is warm, relational, and insight-oriented, helping clients better understand themselves while creating lasting change. I welcome you to reach out.
