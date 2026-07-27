@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Rachel Tan"
 highlight = false
 program = "Millow Therapy, Coral Sun Therapy"
@@ -83,7 +83,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Sunday afternoons"
 +++
-
 
 I am here to honor your lived experiences and support you on your path towards healing. I am deeply passionate about warm, relational, non-pathologizing mental healthcare, and I seek to cultivate a judgment-free space that brings your voice to the forefront. We will work together to develop a collaborative partnership that fosters shared understanding and centers your unique culture, circumstances, and values. <br>
 Grounded in my Filipino heritage, my therapeutic approach emphasizes kapwa: the concept of interconnectedness, shared identity, and collective wellness. With this in mind, our work will also integrate principles of cultural affirmation, embodied healing, anti-carceral care, and transformative justice. These lenses will allow us to understand how your context impacts your well-being, and unlock what is meaningful and liberating to you. <br>
