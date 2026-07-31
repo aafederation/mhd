@@ -33,7 +33,7 @@ sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = false
 telehealth = "Yes"
-tags = [ "initial" ]
+tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
 image = "/img/IMG_1485 - Faryal Glootz.jpeg"
@@ -79,6 +79,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Flexible"
 +++
-
 
 I’m Faryal Glootz, PMHNP-BC, FNP-BC, a dual board-certified Psychiatric and Family Nurse Practitioner. I provide compassionate, evidence-based psychiatric medication management for adults, taking a collaborative and personalized approach to help each patient achieve lasting mental wellness through convenient telehealth care.
