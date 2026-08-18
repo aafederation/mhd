@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Angela Horng"
 highlight = false
 program = ""
@@ -65,6 +65,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "M-Thursday 8 AM - 9 PM"
 +++
-
 
 I am a second-generational Taiwanese-American psychologist specializing in treating anxiety, depression, and interpersonal difficulties for young adults and adults through an attachment, trauma-focused lens. I prioritize treating mental health from a multicultural, multigenerational, and systemic approach. I am originally from the South Bay Area, CA, and currently reside in Brooklyn, NY. I hold dual licensure in California and New York. I would describe my style of therapy as warm, focused, and collaborative. Please feel free to reach out with any additional questions you may have!
