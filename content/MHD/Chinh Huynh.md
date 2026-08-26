@@ -29,7 +29,7 @@ image = "/img/bio pic - Chinh Huynh.jpg"
 [[locations]]
 address = ""
 latLng = ""
-boroughs = [ "Online" ]
+boroughs = [ "Online", "Rochester" ]
 phone_number = "585-270-1991"
 services = [ "Psychotherapy" ]
 psychotherapy = true
@@ -72,4 +72,3 @@ staff_gender = [ "Female" ]
 +++
 
 I’m a mental health therapist committed to helping individuals, couples and families address emotional and relationship issues impacting you in the here and now. My sessions are exploratory and collaborative as we get to know each other and seek a better understanding of the changes you are seeking in your life.
-
