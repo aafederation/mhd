@@ -3,7 +3,7 @@ draft = false
 org = "Cameo Wong"
 highlight = false
 program = ""
-website = ""
+website = "https://link.edgepilot.com/x/tlNooIXoL8oGAbJB1MdSneg?u=https://thrivingcampus.com/providers/cameo-wong"
 email = "cameowong@gmail.com"
 facebook = ""
 twitter = ""
