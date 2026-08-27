@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Princess Manuel"
 highlight = false
 program = ""
@@ -94,7 +94,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Flexible"
 +++
-
 
 During our sessions, I take a holistic and compassionate approach in  supporting you as you process your life circumstances and work toward  achieving your therapy goals. As a trauma-informed therapist, I  specialize in supporting people to heal through generational and  present-day traumas, and am especially invested in holding space for all  of the symptoms that may emerge as a result including feelings of  shame, anger, depression, resistance and anxiety. Together, we will  address unhealthy patterns and limiting beliefs that keep you from  thriving and being your best self. <br>
 My  goal as a practitioner is to create an approach that is uniquely suited  to your healing journey, so that we can work together in a way that is  gentle, building toward transformation and supporting you through any  grief that may arise in the process. I utilize a social justice,  decolonization, and feminist framework to support in processing what has  happened to you.  Some modalities I will blend include narrative  therapy, Internal Family Systems (IFS), somatic healing, psychodynamic  approach, Cognitive Behavioral Therapy, Mindfulness-Based practice and  indigenous frameworks of connecting with nature and all our relations. <br>
