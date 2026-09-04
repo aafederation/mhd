@@ -3,7 +3,7 @@ draft = false
 org = "Christina Im"
 highlight = false
 program = ""
-website = "http://christina.therapyclient.com"
+website = "https://link.edgepilot.com/x/DRMn6-NMfhW0yP0MMPYJcHw?u=https://secure.helloalma.com/providers/christina-im/"
 email = "christina@cimtherapy.org"
 facebook = ""
 twitter = ""
