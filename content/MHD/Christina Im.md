@@ -13,8 +13,17 @@ youtube = ""
 tiktok = ""
 medium = ""
 best_way_to_contact = [ "Email" ]
-payment_types = [ "Aetna", "Optum", "Oxford", "UnitedHealthcare" ]
-sliding_scale_clinical = false
+payment_types = [
+  "Aetna",
+  "Optum",
+  "Oxford",
+  "UnitedHealthcare",
+  "Blue Cross/Blue Shield",
+  "Carelon",
+  "Cigna",
+  "Oscar"
+]
+sliding_scale_clinical = true
 payment_info_clinical = "$150-250/session"
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
@@ -58,7 +67,8 @@ psychotherapy_specialties = [
   "Stress",
   "Suicidal ideation",
   "Trauma/PTSD",
-  "Women's issues"
+  "Women's issues",
+  "ADHD"
 ]
 psychotherapy_types = [
   "Cognitive Behavioral Therapy",
@@ -71,10 +81,15 @@ psychotherapy_types = [
 non_clinical_services = [
   "Meditation/mindfulness practices",
   "Psychoeducation",
-  "Somatic therapy"
+  "Somatic therapy",
+  "Coaching",
+  "Consulting",
+  "Life Coaching"
 ]
 credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-trainings = "ACT, CBT, CPT, REBT, TF-CBT, EFT for Couples, Expressive Arts, Psychodynamic, and Doctorate in Clinical Social Work program"
+trainings = """
+DSW (Doctorate in Clinical Social Work)
+ACT, CBT, CPT, REBT, TF-CBT, EFT for Couples, Expressive Arts, and Psychodynamic"""
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = "teletherapy"
