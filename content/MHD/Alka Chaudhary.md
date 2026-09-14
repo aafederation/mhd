@@ -2,9 +2,9 @@
 draft = false
 org = "Alka Chaudhary"
 highlight = false
-program = "New Perspective Psychological Services"
-website = "www.newperspectivebrooklyn.com"
-email = "achaudhary@newperspectivebrooklyn.com"
+program = ""
+website = "https://www.alignedwithalka.com/"
+email = "alka@alignedwithalka.com"
 facebook = ""
 twitter = ""
 instagram = ""
@@ -27,9 +27,9 @@ age_groups = [ "Adults (19 to 64)" ]
 image = "/img/chaudhary-headshot-alka-chaudhary.jpg"
 
 [[locations]]
-address = "1170A Ocean Avenue, Brooklyn, NY"
-latLng = "40.63401495435015, -73.9584139647485"
-boroughs = [ "Brooklyn" ]
+address = ""
+latLng = ""
+boroughs = [ "Online", "Manhattan" ]
 phone_number = "201-702-1582"
 services = [ "Psychotherapy" ]
 psychotherapy = true
@@ -69,7 +69,7 @@ trainings = ""
 languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
-parking = "Street parking"
+parking = ""
 public_transportation = [ ]
 staff_gender = [ "Female" ]
 
