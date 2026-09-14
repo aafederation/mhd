@@ -1,18 +1,18 @@
 +++
-ada_compliant = true
-age_groups = [ "Adults (19 to 64)" ]
-best_way_to_contact = [ "Phone", "Email" ]
-client_requirements = ""
+draft = true
+org = "Alif Ahmed "
+highlight = false
+program = "Alma "
+website = "https://capacitybuildingnyc.com/mental-health/"
 email = "info@capacitybuildingnyc.com"
 facebook = ""
-highlight = false
-image = "/img/e1bd0ac5-7684-4d7a-ac92-abd79bbaf4d9-ahmed-alif.jpeg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Alif Ahmed "
-payment_info_clinical = "Starting at $120"
-payment_info_non_clinical = ""
+best_way_to_contact = [ "Phone", "Email" ]
 payment_types = [
   "UnitedHealthcare",
   "Optum",
@@ -22,29 +22,24 @@ payment_types = [
   "Aetna",
   "Out-of-network insurance"
 ]
-payment_types_non_clinical = [ ]
-program = "Alma "
 sliding_scale_clinical = true
+payment_info_clinical = "Starting at $120"
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
+payment_info_non_clinical = ""
+ada_compliant = true
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://capacitybuildingnyc.com/mental-health/"
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (19 to 64)" ]
+image = "/img/e1bd0ac5-7684-4d7a-ac92-abd79bbaf4d9-ahmed-alif.jpeg"
 
 [[locations]]
 address = ""
-boroughs = [ "Online" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-languages = [ "Urdu", "Hindi", "Bangla", "English" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "347-421-8024"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Trauma/PTSD",
@@ -64,10 +59,15 @@ psychotherapy_types = [
   "Trauma-informed",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Nonbinary" ]
+non_clinical_services = [ ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = ""
+languages = [ "Urdu", "Hindi", "Bangla", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Nonbinary" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Flexible Hours"
