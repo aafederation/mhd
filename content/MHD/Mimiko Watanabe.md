@@ -27,8 +27,8 @@ age_groups = [ "Adults (19 to 64)" ]
 image = "/img/Professional photo - Mimiko Watanabe.jpg"
 
 [[locations]]
-address = ""
-latLng = ""
+address = "116 Clinton Street, Brooklyn NY 11201"
+latLng = "40.69351676953945, -73.99096996101767"
 boroughs = [ "Online", "Brooklyn" ]
 phone_number = "215-550-1722"
 services = [ "Psychotherapy" ]
@@ -71,6 +71,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Monday through Thursday"
 +++
-
 
 As a person whose experiences and identities do not fit neatly into categories, I have encountered the challenges of navigating a society that operates on the assumption that ‘one size fits all’ works for everyone. I strive to create a different kind of space in my therapeutic approach. I view therapy as a collaborative process, recognizing that each unique individual requires different kinds of support, which can change over time. I am a multiracial (half white and half Japanese), cisgender, queer woman, with an immigrant parent and firsthand understanding of the complexities of navigating a multicultural family.
