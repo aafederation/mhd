@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Vivek Patel"
 highlight = false
 program = "Ayus Health"
