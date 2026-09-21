@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Lilia Zheng Wilson"
 highlight = false
 program = "Interbeing Wellness LCSW PLLC"
@@ -75,8 +75,6 @@ staff_gender = [ "Female" ]
   day_hours = "9am - 7pm"
 +++
 
-Hi, I'm Lilia (she/her), and I am dedicated to supporting people as they navigate multiple identities bridging culture, ethnicity, and language that shape their sense of self. My perspective is influenced by my work supporting vulnerable adults and older adults from diverse backgrounds, treating experiences of grief, anxiety, burnout, relational challenges, and complex relationships with substance use.
-
-Healing happens through supportive relationships rooted in compassion, honesty, consistency, and connection. I approach our work together with a firm belief in your capacity to lead your own growth through our ongoing work of reflection and belonging.
-
-Through my practice, I’ve found that grounding therapy in compassionate, connection-based care, while integrating therapeutic tools, can help foster a stronger sense of self and a deeper connection to the world around us. I warmly welcome you to reach out.
+Hi, I'm Lilia (she/her), and I am dedicated to supporting people as they navigate multiple identities bridging culture, ethnicity, and language that shape their sense of self. My perspective is influenced by my work supporting vulnerable adults and older adults from diverse backgrounds, treating experiences of grief, anxiety, burnout, relational challenges, and complex relationships with substance use. <br>
+Healing happens through supportive relationships rooted in compassion, honesty, consistency, and connection. I approach our work together with a firm belief in your capacity to lead your own growth through our ongoing work of reflection and belonging. <br>
+Through my practice, I’ve found that grounding therapy in compassionate, connection-based care, while integrating therapeutic tools, can help foster a stronger sense of self and a deeper connection to the world around us. I warmly welcome you to reach out. <br>
