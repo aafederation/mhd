@@ -23,7 +23,7 @@ sliding_scale_non_clinical = false
 payment_info_non_clinical = "$145 for Reiki"
 ada_compliant = false
 telehealth = "Yes"
-tags = [ ]
+tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
 image = "/img/7169777118406650294 - A K.jpeg"
@@ -69,7 +69,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "10-6pm"
 +++
-
 
 I am a holistic psychotherapist with a background in yoga, meditation, wellness and Reiki. My approach is compassionate, nurturing and authentic. I address depression, anxiety and trauma with an integrative approach drawing upon ancient Eastern wisdom, Buddhism practices and psychodynamic theory. <br>
 Have you had some major life changes that have made life feel rocky? Have you not felt like yourself in a while? Are you hurt from constantly feeling misunderstood and unheard? Or perhaps you want more people to like you but you're scared of being seen and what people think of you. <br>
