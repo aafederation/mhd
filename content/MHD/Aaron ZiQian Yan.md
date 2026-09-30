@@ -57,12 +57,11 @@ languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = ""
-staff_gender = [ "Male" ]
+staff_gender = [ ]
 
   [[locations.hours_of_operation]]
   day_hours = "9am-8pm"
 +++
-
 
 Dr. Aaron ZiQian Yan is a board-certified psychiatric nurse practitioner dedicated to providing compassionate, whole-person mental health care. <br>
 He earned his Doctor of Nursing Practice and Master of Science degrees from Columbia University, and his Bachelor of Science in Nursing from Case Western Reserve University. <br>
