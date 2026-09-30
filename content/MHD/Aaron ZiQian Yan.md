@@ -57,7 +57,7 @@ languages = [ "English" ]
 new_clients = "Yes"
 new_clients_detail = ""
 parking = ""
-staff_gender = [ ]
+staff_gender = [ "Male" ]
 
   [[locations.hours_of_operation]]
   day_hours = "9am-8pm"
