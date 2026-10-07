@@ -3,7 +3,7 @@ draft = false
 org = "Jan Nelson"
 highlight = false
 program = "Therapy Wellness NYC"
-website = "www.therapywellnessnyc.com "
+website = "https://www.therapywellnessnyc.com/"
 email = "jannelson.lcsw@gmail.com"
 facebook = ""
 twitter = ""
@@ -78,4 +78,3 @@ staff_gender = [ "Female" ]
 +++
 
 I believe that change is possible for everyone and having the right support is most important. Learning how to navigate through change and life events is an evolving process and choosing who to confide in is an essential part of this. I can be that person for you to help guide through your journey towards something new.
-
