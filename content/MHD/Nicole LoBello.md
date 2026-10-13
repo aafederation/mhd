@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Nicole LoBello"
 highlight = false
 program = "Hear for You Mental Health Counseling, PLLC"
@@ -71,6 +71,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "By appointment only"
 +++
-
 
 I am a licensed mental health counselor with diagnostic privilege who provides telehealth services throughout NYS. I help those who are experiencing anxiety, depression, trauma, life transitions, etc. set boundaries so they can take back control of their lives.
