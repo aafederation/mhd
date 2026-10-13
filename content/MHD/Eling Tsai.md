@@ -32,7 +32,7 @@ tags = [ "Individual Provider" ]
 telehealth = "Yes"
 tiktok = ""
 twitter = ""
-website = "www.lknutrition.com "
+website = "www.lknutrition.com"
 youtube = ""
 _template = "service_provider"
 
@@ -63,12 +63,6 @@ trainings = ""
   transport_option = "Subway Lines 2, 3, B, Q"
 +++
 
-Eling Tsai (she/her) is a Registered Dietitian and New York State Certified Dietitian-Nutritionist. She received her Bachelor of Science degree in Biology from the University of Miami, and earned her Master of Public Health degree at the Yale School of Public Health. She completed her dietetic internship through Sodexo in New York City. 
-
-**<br>**
-
-Eling creates a nonjudgmental space to help people find peace in their relationship with food. Using a Health at Every Size® (HAES®) and Intuitive Eating informed approach, she works with her clients to improve their well-being, body image, and outlook around food while working towards nutrition-related goals and managing a range of medical conditions. 
-
-**<br>**
-
+Eling Tsai (she/her) is a Registered Dietitian and New York State Certified Dietitian-Nutritionist. She received her Bachelor of Science degree in Biology from the University of Miami, and earned her Master of Public Health degree at the Yale School of Public Health. She completed her dietetic internship through Sodexo in New York City.<br>
+Eling creates a nonjudgmental space to help people find peace in their relationship with food. Using a Health at Every Size® (HAES®) and Intuitive Eating informed approach, she works with her clients to improve their well-being, body image, and outlook around food while working towards nutrition-related goals and managing a range of medical conditions.<br>
 She has a special interest in disordered eating and eating disorders, particularly binge eating disorder, as well as management of diabetes and other endocrine-related conditions. Eling believes a positive and energizing relationship with food and body should be a right for all people.
