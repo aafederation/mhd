@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Maryam Sajed"
 highlight = false
 program = "Maryam Sajed, LCSW"
@@ -26,7 +26,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = "/img/edited - Maryam Sajed.heic"
+image = ""
 
 [[locations]]
 address = ""
@@ -56,7 +56,6 @@ staff_gender = [ "Female", "Nonbinary" ]
   [[locations.hours_of_operation]]
   day_hours = "10am-5pm ET"
 +++
-
 
 Queer, multiracial, Pakistani-American therapist who supports:
 \- radical psychotherapists who don't believe everything they learned in grad school and need support with the folks they hold space for;
