@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Maryam Sajed"
 highlight = false
 program = "Maryam Sajed, LCSW"
@@ -26,7 +26,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = ""
+image = "/img/IMG_7093.jpeg"
 
 [[locations]]
 address = ""
