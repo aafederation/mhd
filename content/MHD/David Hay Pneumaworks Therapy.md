@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "David Hay"
 highlight = false
 program = "Pneumaworks Therapy"
@@ -64,6 +64,5 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "10a to 5p"
 +++
-
 
 I work with individuals navigating anxiety, identity, life transitions, relationships, sexuality, and high levels of self-criticism. My approach is a Buddhist-informed, compassionate, integrating somatic-based practices to help you reconnect with your body while processing emotions and experiences. I bring honesty, transparency, and a touch of warmth and humor, creating a space that clients often describe as both challenging and deeply supportive. I see therapy as a collaborative journey, where your voice shapes the path we take together. Therapy for performers to heal past trauma, move through anxiety and self-doubt.
