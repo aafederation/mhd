@@ -41,7 +41,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
-image = "/img/Jesica-Alejandra-Torres-LMSW-612444-circle_large__v1__.png"
+image = "/img/abc342ee-9930-4e6e-94da-a4c627347fe5zoom.jpg"
 
 [[locations]]
 address = ""
