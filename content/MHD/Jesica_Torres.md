@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Jesica Torres"
 highlight = false
 program = "Sara's Haven"
@@ -41,7 +41,7 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)", "Seniors (65+)" ]
-image = ""
+image = "/img/Jesica-Alejandra-Torres-LMSW-612444-circle_large__v1__.png"
 
 [[locations]]
 address = ""
