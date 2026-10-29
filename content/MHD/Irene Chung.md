@@ -1,52 +1,46 @@
 +++
+draft = true
+org = "Irene Chung"
+highlight = false
+program = "Currently maintains a small private practice in NYC"
+website = ""
+email = "ichung765@gmail.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email" ]
+payment_types = [ "N/A" ]
+sliding_scale_clinical = true
+payment_info_clinical = """
+Standard price range for individual sessions: $135-160; family and couples: $150-200. <br>
+I do not accept insurance, but will assist in getting reimbursement for out of network provider coverage."""
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = true
+payment_info_non_clinical = """
+I do not accept insurance, but will assist in getting reimbursement for out of network provider coverage.
+"""
 ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)",
   "Preteens and Tweens (11 to 13)"
 ]
-best_way_to_contact = [ "Email" ]
-client_requirements = ""
-email = "ichung765@gmail.com"
-facebook = ""
-highlight = false
 image = "/img/irene-chung.png"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Irene Chung"
-payment_info_clinical = """
-Standard price range for individual sessions: $135-160; family and couples: $150-200. <br>
-I do not accept insurance, but will assist in getting reimbursement for out of network provider coverage."""
-payment_info_non_clinical = """
-I do not accept insurance, but will assist in getting reimbursement for out of network provider coverage.
-"""
-payment_types = [ "N/A" ]
-payment_types_non_clinical = [ "N/A" ]
-program = "Currently maintains a small private practice in NYC"
-sliding_scale_clinical = true
-sliding_scale_non_clinical = true
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = ""
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "Online "
-boroughs = [ "Online" ]
-credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
-gender_identification = [ ]
-languages = [ "English", "Chinese (Cantonese)" ]
 latLng = ""
-new_clients = "Yes"
-new_clients_detail = "Will offer phone consultation first to determine capacity and compatibility for working relationship"
-non_clinical_services = [ ]
-parking = "No"
+boroughs = [ "Online" ]
 phone_number = "646-256-7407"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -80,10 +74,15 @@ psychotherapy_types = [
   "Family therapy",
   "Couples Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LCSW (Licensed Clinical Social Worker)" ]
 trainings = "PhD in Clinical Social Work"
+languages = [ "English", "Chinese (Cantonese)" ]
+new_clients = "Yes"
+new_clients_detail = "Will offer phone consultation first to determine capacity and compatibility for working relationship"
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Saturdays and some weekday openings"
