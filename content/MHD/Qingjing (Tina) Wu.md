@@ -1,18 +1,18 @@
 +++
-ada_compliant = false
-age_groups = [ "Adults (18+)" ]
-best_way_to_contact = [ "Email", "Phone" ]
-client_requirements = ""
+draft = true
+org = "Qingjing (Tina) Wu"
+highlight = false
+program = "Mindflow Psychiatry"
+website = "https://www.mindflowpsych.com/"
 email = "admin@mindflowpsych.com"
 facebook = ""
-highlight = false
-image = "/img/tina-headshot-mindflow-psychiatry.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Qingjing (Tina) Wu"
-payment_info_clinical = "Starting at $100"
-payment_info_non_clinical = ""
+best_way_to_contact = [ "Email", "Phone" ]
 payment_types = [
   "UnitedHealthcare",
   "Oxford",
@@ -22,29 +22,28 @@ payment_types = [
   "Blue Cross/Blue Shield",
   "Aetna"
 ]
-payment_types_non_clinical = [ ]
-program = "Mindflow Psychiatry"
 sliding_scale_clinical = true
+payment_info_clinical = "Starting at $100"
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
+payment_info_non_clinical = ""
+ada_compliant = false
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "https://www.mindflowpsych.com/"
-youtube = ""
-_template = "service_provider"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "Adults (18+)" ]
+image = "/img/tina-headshot-mindflow-psychiatry.jpg"
 
 [[locations]]
 address = "125 E 23rd St Suite 500, New York, NY 10010"
-boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
-credentials = [ "Psychiatric Mental Health Nurse Practitioner" ]
-languages = [ "English" ]
 latLng = "40.740075738313, -73.98513955092386"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "Street parking"
+boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
 phone_number = "(914) 359-3257"
+services = [
+  "Psychotherapy",
+  "Psychiatric evaluation",
+  "Medication management"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -96,14 +95,15 @@ psychotherapy_types = [
   "Trauma-informed",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [
-  "Psychotherapy",
-  "Psychiatric evaluation",
-  "Medication management"
-]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "Psychiatric Mental Health Nurse Practitioner" ]
 trainings = ""
+languages = [ "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "Street parking"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Friday - Saturday: 10 am - 3 pm"
