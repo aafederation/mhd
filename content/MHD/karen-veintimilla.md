@@ -1,43 +1,38 @@
 +++
-ada_compliant = false
-age_groups = [ "All" ]
-best_way_to_contact = [ "Phone", "Email" ]
-client_requirements = ""
+title = "Karen Veintimilla "
+draft = true
+org = "Karen Veintimilla "
+highlight = false
+program = "Humantold"
+website = "https://humantold.com/our-team/"
 email = "intake@humantold.com"
 facebook = ""
-highlight = false
-image = "/img/2f1d3da2-4302-4a11-ad0d-adcc4d6df232-karen-veintimilla-shengzi-sun.jpeg"
+twitter = ""
 instagram = ""
 linkedin = ""
-medium = ""
-org = "Karen Veintimilla "
-payment_info_clinical = "Starting at $215"
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance", "Any insurance" ]
-payment_types_non_clinical = [ ]
-program = "Humantold"
-sliding_scale_clinical = false
-sliding_scale_non_clinical = false
-tags = [ "Individual Provider" ]
-telehealth = "Yes"
-tiktok = ""
-title = "Karen Veintimilla "
-twitter = ""
-website = "https://humantold.com/our-team/"
 youtube = ""
-_template = "service_provider"
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Phone", "Email" ]
+payment_types = [ "Out-of-network insurance", "Any insurance" ]
+sliding_scale_clinical = false
+payment_info_clinical = "Starting at $215"
+payment_types_non_clinical = [ ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
+ada_compliant = false
+telehealth = "Yes"
+tags = [ "Individual Provider" ]
+client_requirements = ""
+age_groups = [ "All" ]
+image = "/img/2f1d3da2-4302-4a11-ad0d-adcc4d6df232-karen-veintimilla-shengzi-sun.jpeg"
 
 [[locations]]
 address = "136 Madison Avenue, New York, NY 10016"
-boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-languages = [ "Chinese (Cantonese)", "English" ]
 latLng = "40.74637794423097, -73.9844147067471"
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "Street parking"
+boroughs = [ "Staten Island", "Queens", "Manhattan", "Brooklyn", "Bronx" ]
 phone_number = "212-828-7473"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -89,10 +84,15 @@ psychotherapy_types = [
   "Couples Therapy",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ "Female" ]
+non_clinical_services = [ ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = ""
+languages = [ "Chinese (Cantonese)", "English" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "Street parking"
+public_transportation = [ ]
+staff_gender = [ "Female" ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Friday: 9 am - 5 pm"
