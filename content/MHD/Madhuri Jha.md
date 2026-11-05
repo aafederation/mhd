@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Madhuri Jha"
 highlight = false
 program = "Thriving Mind Clinic"
@@ -89,7 +89,6 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "9-8 pm"
 +++
-
 
 Madhuri is an award winning and nationally recognized psychotherapist, public health epidemiologist and public speaker with over 13 years of experience working as a clinician. She has worked in almost every treatment setting possible prior to founding Thriving Mind, including emergency room, crisis response, outpatient community clinic, medical inpatient, and mobile psychiatry settings. These experiences have informed her clinical style with a keen ability to treat complex issues across the life cycle. At the national level, Madhuri is a widely respected leader advancing mental health equity in systems of care.  She is a trauma specialist, and is trained in multiple modalities to address how complex trauma effects the life course, somatic experiencing, and interpersonal relationships. She is also highly trained in addressing identity and culture in the therapeutic alliance. She works with individuals, couples, and families. As the queer daughter of immigrants, she has devoted her life’s work to championing health equity for populations least reached by systems of care, honoring the legacy of many of her own ancestors and family members who lived with physical and mental illness and could not get help. <br>
 Specialties: Trauma and stressor-related disorders, LGBTQ-affirming therapy, BIPOC-affirming therapy, depression, anxiety, and adjustment disorders, crisis stabilization, grief, immigration/cultural assimilation, identity/stages of life, and family estrangement/stress. <br>
