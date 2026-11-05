@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Aashika Shetty"
 highlight = false
 program = "Thriving Mind Clinic"
