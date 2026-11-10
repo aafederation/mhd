@@ -45,7 +45,7 @@ image = "/img/AA_4.jpg"
 
 [[locations]]
 address = "315 Fifth Avenue, Suite 701, New York, NY 10016"
-latLng = "40.74704663461392, -73.98532448803344"
+latLng = ""
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "347-421-8024"
 services = [ "Psychotherapy" ]
