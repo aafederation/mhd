@@ -31,7 +31,7 @@ sliding_scale_non_clinical = false
 payment_info_non_clinical = ""
 ada_compliant = true
 telehealth = "Yes"
-tags = [ ]
+tags = [ "individual" ]
 client_requirements = ""
 age_groups = [
   "Children (6 to 10)",
@@ -116,6 +116,5 @@ staff_gender = [ "Female" ]
   [[locations.hours_of_operation]]
   day_hours = "Saturday 9-3pm"
 +++
-
 
 Lotus is a psychodynamic therapist, working with adults, adolescents, and children. Her approach is integrative, focusing on insight, emotion regulation, and the mind-body connection.
