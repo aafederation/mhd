@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 org = "Himanshu Sehgal"
 highlight = false
 program = "The Room for Therapy LCSW PLLC"
@@ -123,7 +123,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "Saturday (10AM-6PM)"
 +++
-
 
 Heal with Himanshu: Where Compassion Meets Clinical Excellence in Mental Health. <br>
 Himanshu is a dynamic therapist with years of expertise in the field of social work and psychotherapy, offering compassionate, individualized care at The Room for Therapy. With a master's from Stony Brook University's School of Social Work, he specializes in anxiety, depression, ADHD, grief, trauma, and many co-occurring conditions, connecting deeply with patients in English, Hindi, Urdu, Bengali, and Punjabi. <br>
