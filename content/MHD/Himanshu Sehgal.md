@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 org = "Himanshu Sehgal"
 highlight = false
 program = "THE ROOM FOR THERAPY, LCSW, PLLC"
@@ -138,7 +138,6 @@ staff_gender = [ "Male" ]
   [[locations.hours_of_operation]]
   day_hours = "SUNDAY (11AM-7PM)"
 +++
-
 
 Hi! I'm Himanshu, a dynamic therapist with over a decade's expertise in social work and psychotherapy. My innovative approach to mental health has earned recognition from professional associations, reflecting my deep knowledge and commitment to advancing the field. I specialize in anxiety, depression, ADHD, grief, trauma, and co-occurring conditions. <br>
 I communicate effectively with patients in English, Hindi, Urdu, Bengali, and Punjabi. My expertise includes evidence-based approaches such as Cognitive Behavioral therapy (CBT), addiction counseling, trauma-focused therapy, mindfulness techniques, and solution-focused interventions. <br>
