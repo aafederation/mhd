@@ -2,7 +2,7 @@
 draft = true
 org = "Tabisam Shamas"
 highlight = false
-program = "PsyCare Therapy & Wellness Clinic "
+program = ""
 website = ""
 email = "tabisam786@gmail.com"
 facebook = ""
@@ -100,6 +100,5 @@ staff_gender = [ ]
   [[locations.hours_of_operation]]
   day_hours = "Mon-Fri 9-5"
 +++
-
 
 Experienced Licensed Mental Health Counselor with a demonstrated history of working in the mental health care industry. A highly skilled healthcare professional with expertise in grief counseling, crisis intervention, relationship issues, substance use disorders, and anger management. Experienced in providing therapeutic services to diverse populations across the lifespan, including children, adolescents, adults, and college students. Utilizes evidence-based, client-centered therapeutic approaches, including Cognitive Behavioral Therapy (CBT), Solution-Focused Therapy, Person-Centered Therapy, Dialectical Behavior Therapy (DBT), Experiential Therapy, and psychoeducational interventions to promote personal growth, strengthen resilience, and enhance emotional well-being.
