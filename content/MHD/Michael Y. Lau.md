@@ -1,37 +1,38 @@
 +++
+draft = false
+org = "Michael Y. Lau"
+highlight = false
+program = ""
+website = "www.drmikelau.com"
+email = "drmikelau@gmail.com"
+facebook = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+youtube = ""
+tiktok = ""
+medium = ""
+best_way_to_contact = [ "Email", "Phone" ]
+payment_types = [ "Out-of-network insurance" ]
+sliding_scale_clinical = true
+payment_info_clinical = "$260-$300 per session. I offer sliding scale through the Open Path Psychotherapy Collective. Clients should check for out-of-network benefits with their insurance plans."
+payment_types_non_clinical = [ "N/A" ]
+sliding_scale_non_clinical = false
+payment_info_non_clinical = ""
 ada_compliant = false
+telehealth = "Yes"
+tags = [ "individual" ]
+client_requirements = ""
 age_groups = [
   "Seniors (65+)",
   "Adults (19 to 64)",
   "Youth and Teenagers (14 to 19)"
 ]
-best_way_to_contact = [ "Email", "Phone" ]
-client_requirements = ""
-email = "drmikelau@gmail.com"
-facebook = ""
-highlight = false
 image = "/img/img_2393-michael-lau.jpg"
-instagram = ""
-linkedin = ""
-medium = ""
-org = "Michael Y. Lau"
-payment_info_clinical = "$260-$300 per session. I offer sliding scale through the Open Path Psychotherapy Collective. Clients should check for out-of-network benefits with their insurance plans."
-payment_info_non_clinical = ""
-payment_types = [ "Out-of-network insurance" ]
-payment_types_non_clinical = [ "N/A" ]
-program = ""
-sliding_scale_clinical = true
-sliding_scale_non_clinical = false
-tags = [ ]
-telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "www.drmikelau.com"
-youtube = ""
-_template = "service_provider"
 
 [[locations]]
 address = "Virtual Office"
+latLng = ""
 boroughs = [
   "Staten Island",
   "Queens",
@@ -40,14 +41,8 @@ boroughs = [
   "Bronx",
   "Online"
 ]
-credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
-languages = [ "Chinese (Mandarin)" ]
-latLng = ""
-new_clients = "Yes"
-new_clients_detail = ""
-non_clinical_services = [ ]
-parking = "No"
 phone_number = "(646) 657-8891"
+services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
   "Trauma/PTSD",
@@ -79,10 +74,15 @@ psychotherapy_types = [
   "Trauma-informed",
   "Cognitive Behavioral Therapy"
 ]
-public_transportation = [ ]
-services = [ "Psychotherapy" ]
-staff_gender = [ ]
+non_clinical_services = [ ]
+credentials = [ "Licensed Psychologist (PhD/PsyD)" ]
 trainings = ""
+languages = [ "Chinese (Mandarin)" ]
+new_clients = "Yes"
+new_clients_detail = ""
+parking = "No"
+public_transportation = [ ]
+staff_gender = [ ]
 
   [[locations.hours_of_operation]]
   day_hours = "Monday - Thursday: 8am - 7pm"
