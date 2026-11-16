@@ -1,22 +1,18 @@
 +++
-ada_compliant = true
-age_groups = [
-  "Seniors (65+)",
-  "Adults (19 to 64)",
-  "Youth and Teenagers (14 to 19)"
-]
-best_way_to_contact = [ "Email" ]
-client_requirements = " "
+draft = false
+org = "Yiwen Fan"
+highlight = false
+program = "Yiwen Fan & Associates Psychotherapy"
+website = "yiwenfantherapy.com"
 email = "yiwen@yiwenfantherapy.com"
 facebook = ""
-highlight = false
-image = "/img/img_2134-yiwen-fan.jpg"
+twitter = ""
 instagram = ""
 linkedin = ""
+youtube = ""
+tiktok = ""
 medium = ""
-org = "Yiwen Fan"
-payment_info_clinical = "$225-$265 per session. My associate therapist offers a sliding scale."
-payment_info_non_clinical = "Included in the therapy cost"
+best_way_to_contact = [ "Email" ]
 payment_types = [
   "Wellfleet (NYU employees only)",
   "Oscar",
@@ -26,20 +22,25 @@ payment_types = [
   "Blue Cross/Blue Shield",
   "Aetna"
 ]
-payment_types_non_clinical = [ ]
-program = "Yiwen Fan & Associates Psychotherapy"
 sliding_scale_clinical = false
+payment_info_clinical = "$225-$265 per session. My associate therapist offers a sliding scale."
+payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
-tags = [ ]
+payment_info_non_clinical = "Included in the therapy cost"
+ada_compliant = true
 telehealth = "Yes"
-tiktok = ""
-twitter = ""
-website = "yiwenfantherapy.com"
-youtube = ""
-_template = "service_provider"
+tags = [ "individual" ]
+client_requirements = " "
+age_groups = [
+  "Seniors (65+)",
+  "Adults (19 to 64)",
+  "Youth and Teenagers (14 to 19)"
+]
+image = "/img/img_2134-yiwen-fan.jpg"
 
 [[locations]]
 address = "352 7th Ave, Suite 1604, New York, NY 10001"
+latLng = "40.7485276788965, -73.99296617341533"
 boroughs = [
   "Online",
   "Staten Island",
@@ -48,23 +49,12 @@ boroughs = [
   "Brooklyn",
   "Bronx"
 ]
-credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
-languages = [
-  "Chinese (Taiwanese)",
-  "Chinese (Shanghainese)",
-  "Chinese (Mandarin)",
-  "English"
-]
-latLng = "40.7485276788965, -73.99296617341533"
-new_clients = "Yes"
-new_clients_detail = "Sliding scale, evening hours provided by my associate therapist, who is also Mandarin-speaking."
-non_clinical_services = [
-  "Psychoeducation",
-  "Meditation/mindfulness practices",
-  "Breathwork"
-]
-parking = "Yes"
 phone_number = "860-469-5963"
+services = [
+  "Asian bi-cultural mental health services",
+  "Psychotherapy",
+  "Psychological testing and assessment"
+]
 psychotherapy = true
 psychotherapy_specialties = [
   "Women's issues",
@@ -96,19 +86,29 @@ psychotherapy_types = [
   "Trauma-informed",
   "Couples Therapy"
 ]
-services = [
-  "Asian bi-cultural mental health services",
-  "Psychotherapy",
-  "Psychological testing and assessment"
+non_clinical_services = [
+  "Psychoeducation",
+  "Meditation/mindfulness practices",
+  "Breathwork"
 ]
-staff_gender = [ "Female" ]
+credentials = [ "LMHC (Licensed Mental Health Counselor)" ]
 trainings = "Certified Gestalt Therapist, School Counselor with Bilingual Extension"
-
-  [[locations.hours_of_operation]]
-  day_hours = "By appointment (Monday to Friday)"
+languages = [
+  "Chinese (Taiwanese)",
+  "Chinese (Shanghainese)",
+  "Chinese (Mandarin)",
+  "English"
+]
+new_clients = "Yes"
+new_clients_detail = "Sliding scale, evening hours provided by my associate therapist, who is also Mandarin-speaking."
+parking = "Yes"
+staff_gender = [ "Female" ]
 
   [[locations.public_transportation]]
   transport_option = "Subways (1,2,3,A,B,C,D,E,F,M,N,Q,R,W), LIRR, PATH, AMTRAK"
+
+  [[locations.hours_of_operation]]
+  day_hours = "By appointment (Monday to Friday)"
 +++
 
 With an early passion in psychology, I moved from China to the US when I was 17. My experience as an Asian immigrant living in the U.S. enhanced my understanding of the humanity and struggles in all of us. Currently, I'm a NYS Licensed Mental Health Counselor and School Counselor. I'm also a certified Gestalt Therapist.
