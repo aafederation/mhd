@@ -2,9 +2,9 @@
 draft = false
 org = "Sanam Sajnani "
 highlight = false
-program = "Sentient Psychotherapy "
-website = "www.sentientpsychotherapy.com"
-email = "hello@sentientpsychotherapy.com"
+program = "Inner Compass Mental Health Counseling "
+website = "https://link.edgepilot.com/x/o83NvzJTQ5e6I-HAUMuFsQI?u=https://innercompassnyc.org/"
+email = "sanam@innercompassnyc.com"
 facebook = ""
 twitter = ""
 instagram = "@SentientPsychotherapy"
@@ -26,13 +26,13 @@ telehealth = "Yes"
 tags = [ "individual" ]
 client_requirements = ""
 age_groups = [ "Adults (19 to 64)" ]
-image = "/img/631C0E1C-30DD-40F7-AA98-8CA85ECA9730 - Sanam Sajnani.jpg"
+image = "/img/E8624A5D-D80C-4E85-BD47-1A6B2B4FF190.jpeg"
 
 [[locations]]
-address = "225 Broadway, Suite 2060, New York NY 10007"
-latLng = "40.7119250, -74.0085686"
+address = "928 Broadway, Suite 803  New York, NY 10010"
+latLng = "40.73991703917409, -73.98902206104863"
 boroughs = [ "Online", "Manhattan" ]
-phone_number = "(646) 586-3311"
+phone_number = "347-953-7332"
 services = [ "Psychotherapy" ]
 psychotherapy = true
 psychotherapy_specialties = [
@@ -98,11 +98,10 @@ parking = "No"
 staff_gender = [ "Female" ]
 
   [[locations.public_transportation]]
-  transport_option = "A/C/J/Z/4/5/N/R/W"
+  transport_option = "subways"
 
   [[locations.hours_of_operation]]
   day_hours = "Mon-Sat"
 +++
 
-
-I'm a Licensed Mental Health Counselor (LMHC) in New York City. I hold a Master’s Degree in Mental Health Counseling and Bachelor’s Degree in Psychology, both from Baruch College. Additionally, I have been trained in Couples Counseling with The Gottman Institute. I utilize ACT, EFT, and psychodynamic interventions while working with individuals and couples struggling with cultural identity challenges, interpersonal relationship distress, life transitions, anxiety, and depression. I also provide maternal mental healthcare to mothers at any stage of their motherhood journey. 
+I'm a Licensed Mental Health Counselor (LMHC) in New York City. I hold a Master’s Degree in Mental Health Counseling and Bachelor’s Degree in Psychology, both from Baruch College. Additionally, I have been trained in Couples Counseling with The Gottman Institute. I utilize ACT, EFT, and psychodynamic interventions while working with individuals and couples struggling with cultural identity challenges, interpersonal relationship distress, life transitions, anxiety, and depression. I also provide maternal mental healthcare to mothers at any stage of their motherhood journey.
