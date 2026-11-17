@@ -16,7 +16,7 @@ best_way_to_contact = [ "Email", "Website" ]
 payment_types = [ "N/A" ]
 sliding_scale_clinical = false
 payment_info_clinical = """
-$190 per 45-minute session
+$200 per 45-minute session
 My practice is private pay only. All major credit cards, HSA & FSA accepted. I can provide superbills to clients who wish to seek out-of-network reimbursement from their insurers directly."""
 payment_types_non_clinical = [ ]
 sliding_scale_non_clinical = false
