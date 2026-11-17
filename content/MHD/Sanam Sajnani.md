@@ -30,7 +30,7 @@ image = "/img/E8624A5D-D80C-4E85-BD47-1A6B2B4FF190.jpeg"
 
 [[locations]]
 address = "928 Broadway, Suite 803  New York, NY 10010"
-latLng = "40.73991703917409, -73.98902206104863"
+latLng = "40.740207364315765, -73.98937407454098"
 boroughs = [ "Online", "Manhattan" ]
 phone_number = "347-953-7332"
 services = [ "Psychotherapy" ]
